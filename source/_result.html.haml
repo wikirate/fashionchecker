@@ -1,0 +1,18 @@
+%h5.font-weight-light.pb-2._result-header Found 0 factories
+%div.card.drop-shadow
+  %div
+    .card.template._factory-item
+      %a.card-header.h5.font-weight-normal.list-group-item{"aria-expanded" => "false", "data-toggle" => "collapse", :href => "replaced_by_js", :role => "tab"}
+      .collapse{"data-parent" => "#search-result-accordion", :role => "tabpanel"}
+        .card-body
+          .table-responsive
+            %table.table
+              %thead
+                %tr
+                  %th Supplier of
+                  %th Year
+              %tbody
+                %tr.loading
+                  %td loading ...
+                  %td
+    #search-result-accordion{:role => "tablist"}

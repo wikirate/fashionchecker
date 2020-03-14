@@ -1,0 +1,10 @@
+namespace :deploy do
+  desc "build site"
+  after :published, :build do
+    on roles(:app) do
+      within release_path do
+        execute :bundle, "exec middleman build"
+      end
+    end
+  end
+end

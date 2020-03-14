@@ -1,0 +1,13 @@
+%h5.font-weight-light.pb-2 Search
+.form-group
+  .input-group
+    .input-group-prepend
+      %span.input-group-text
+        %i.fa.fa-search
+    %input.form-control._factory-search#keyword-input{:placeholder => "Name / Address of the factory", :type => "text"}
+.form-group
+  .input-group
+    .input-group-prepend
+      %span.input-group-text
+        %i.fa.fa-globe
+    %select.form-control._factory-search#country-select{:placeholder => "Country", :type => "text"}

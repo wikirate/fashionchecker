@@ -1,0 +1,21 @@
+
+.container
+  .row{:style => "margin-top:13px;"}
+    .col
+      = partial :search
+  .row{:style => "margin-top:20px;"}
+    .col
+      = partial :result
+  .row
+    .col.d-flex.flew-row-reverse.justify-content-between
+      %span
+        %a.mt-1._embed-info{class: "btn btn-sm btn-dark",
+                            href: "#",
+                            data: { toggle: "modal", target: "#embedModal"}}
+          embed this page
+      %small.text-light
+        powered by
+        %a.text-light{href: "https://wikirate.org"} WikiRate
+
+= partial :embed_info
+
