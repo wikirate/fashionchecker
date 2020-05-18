@@ -1,18 +1,68 @@
-%h5.font-weight-light.pb-2._result-header Found 0 factories
+%h5.font-weight-light.pb-2._result-header Result
 %div.card.drop-shadow
   %div
-    .card.template._factory-item
+    %div#result
+    .card.template._brand-item
       %a.card-header.h5.font-weight-normal.list-group-item{"aria-expanded" => "false", "data-toggle" => "collapse", :href => "replaced_by_js", :role => "tab"}
-      .collapse{"data-parent" => "#search-result-accordion", :role => "tabpanel"}
-        .card-body
-          .table-responsive
-            %table.table
-              %thead
-                %tr
-                  %th Supplier of
-                  %th Year
-              %tbody
-                %tr.loading
-                  %td loading ...
-                  %td
-    #search-result-accordion{:role => "tablist"}
+        %span#title
+      .card-body
+        .row
+          .col-sm-6
+            %p
+              Location:
+              %span#location
+            %p
+              Number of workers:
+              %span#worker-count
+          .col-sm-6
+            %p
+              Interested in more information?
+            %p
+              Check out
+              %a#wikirate-link.btn.btn-secondary
+                WikiRate
+        .row
+          .col-sm-4
+            .card.text-dark.bg-light
+              .card-body
+                %h5.card-title Transparency Score
+                %p.card-text#transparency-score
+          .col-sm-4
+            .card.text-dark.bg-light
+              .card-body
+                %h5.card-title Commitment Score
+                %p.card-text#commitment-score
+          .col-sm-4
+            .card.text-dark.bg-light
+              .card-body
+                %h5.card-title Living Wage Score
+                %p.card-text#living-wage-score
+        .row.mt-4
+          .col-sm-12
+            %h6 Brands
+            %ul#brands
+        .row.mt-4
+          .col-sm-12
+            %h6
+              Brand sourcing from factory
+              (
+              %span#factory-count
+                0
+              found)
+            .table-responsive
+              %table.table
+                %thead
+                  %tr
+                    %th Company
+                    %th Female
+                    %th Male
+                    %th Other
+                    %th Permanent
+                    %th Temporary
+                    %th Average netwage
+                    %th Wage gap
+                    %th Workers have cba
+                    %th Workers know brand
+                    %th Pregnancy leave
+                %tbody
+  

@@ -1,25 +1,32 @@
 $.fn.select2.defaults.set("theme", "bootstrap")
 
-API_HOST = "https://staging.wikirate.org"
+API_HOST = "https://dev.wikirate.org"
+## "http://127.0.0.1:3000" # "https://staging.wikirate.org
+
 LINK_TARGET_HOST = "https://wikirate.org"
 METRIC_URL = "#{API_HOST}/:commons_supplier_of"
-COUNTRY_OPTIONS_URL = "#{API_HOST}/jurisdiction.json?view=select2"
+BRAND_LIST_URL = "#{API_HOST}/company.json?view=brands_select2"
 
 EMPTY_RESULT = "<div class='alert alert-info'>no result</div>"
 
 $(document).ready ->
-  $("#country-select").select2
-    placeholder: "Country"
+  $("#brand-select").select2
+    placeholder: "Brand"
     allowClear: true
+    #data: [{"id":"8994","text":"Google"},
+    #  {"id":"18215","text":"Zara > Inditex"},
+    #  {"id":"1215","text":"Zalando"},
+    #  {"id":"1215","text":"Inditex"},
+    #  {"id":"1578","text":"Apple"}]
     ajax:
-      url: COUNTRY_OPTIONS_URL,
+      url: BRAND_LIST_URL
       dataType: "json"
 
-  $("body").on "change", "._factory-search", ->
-    updateFactoryList()
+  $("body").on "change", "#brand-select", ->
+    loadBrandInfo()
 
   $("body").on 'shown.bs.collapse', ".collapse", ->
-    updateSuppliedCompaniesTable($(this))
+    updateSuppliersTable($(this))
 
   params = new URLSearchParams(window.location.search)
 
@@ -30,21 +37,14 @@ $(document).ready ->
     $('body').css("background", params.get("background"))
 
 
-
-updateFactoryList = ->
-  $.ajax(url: factorySearchURL(), dataType: "json").done((data) ->
-    header = "Found #{data.length} factor#{if data.length == 1 then "y" else "ies"}"
-    $("._result-header").text(header)
-    $accordion = $("#search-result-accordion")
-    $accordion.empty()
-    if data.length == 0
-      # $accordion.append(EMPTY_RESULT)
-    else
-      for factory in data
-        addFactoryCard(factory, $accordion)
+loadBrandInfo = ->
+  $.ajax(url: brandInfoURL(), dataType: "json").done((data) ->
+    $output = $("#result")
+    $output.empty()
+    showBrandInfo(data, $output)
   )
 
-updateSuppliedCompaniesTable = ($collapse) ->
+updateSuppliersTable = ($collapse) ->
   loadOnlyOnce $collapse, ($collapse) ->
     $.ajax(url: suppliedCompaniesSearchURL($collapse), dataType: "json").done((data) ->
       tbody = $collapse.find("tbody")
@@ -58,30 +58,62 @@ loadOnlyOnce = ($target, load) ->
   $target.addClass("_loaded")
   load($target)
 
-factorySearchURL = ->
-  keyword = $("#keyword-input").val()
-  selected = $("#country-select").select2("data")
+brandInfoURL = ->
+  selected = $("#brand-select").select2("data")
   if (selected.length > 0)
-    country_code = selected[0].id
-  "#{API_HOST}/company.json?view=search_factories&keyword=#{keyword}&country_code=#{country_code}"
+    company_id = selected[0].id
+  "#{API_HOST}/~#{company_id}.json?view=transparency_info"
 
 suppliedCompaniesSearchURL = (elem) ->
-  :factory = elem.data("company-url-key")
+  factory = elem.data("company-url-key")
   "#{METRIC_URL}+#{factory}.json?view=related_companies_with_year"
 
-addFactoryCard = (factory, $accordion) ->
-  $card = $(".card.template._factory-item").clone()
-  collapse_class = "id-#{factory.id}"
+showBrandInfo = (data, $output) ->
+  $card = $(".card.template._brand-item").clone()
+  collapse_class = "id"
   $card.removeClass("template")
-       .find("a.card-header").text(factory.name)
-                             .attr("href", "div#search-result-accordion .#{collapse_class}")
-                             .attr("aria-controls", "search-result-accordion .#{collapse_class}")
-  $card.find(".collapse").attr("data-company-url-key", factory.url_key)
-                         .addClass(collapse_class)
-  $accordion.append($card)
+  $card.find("#wikirate-link").attr("href", "#{LINK_TARGET_HOST}/~#{data.id}")
+  $card.find("#title").text(data.holding)
+  $card.find("#location").text(data.location)
+  $card.find("#worker-count").text(data.number_of_workers)
+  $card.find("#transparency-score").text(data.scores.transparency)
+  $card.find("#commitment-score").text(data.scores.commitment.total)
+  $card.find("#living-wage-score").text(data.scores.living_wage)
+  $card.find("#factory-count").text(data.suppliers.length)
+  for index, brand of data.brands
+    addBrand(brand, $card)
+  for index, supplier of data.suppliers
+    addSupplier(supplier, $card)
+  $output.append($card)
 
-addRow = (tbody, company, year) ->
-  tbody.append $("<tr><td>#{companyLink(company)}</td><td>#{year.join(", ")}</td></tr>")
+showInfo = ($container, selector, content) ->
+  if (content == null)
+    $container.find(selector).text("-")
+  else
+    $container.find(selector).text(content)
+
+addBrand = (brand, $container) ->
+  $container.find("#brands").append $("<li>#{brand}</li>")
+
+addSupplier = (supplier, $output) ->
+  tbody = $output.find("tbody")
+  addRow(tbody, supplier)
+
+addRow = (tbody, supplier) ->
+  row = "<tr>#{newRow(companyLink(supplier.name))}#{newRow(supplier.workers_by_gender.female)}" +
+    newRow(supplier.workers_by_gender.male) +
+    newRow(supplier.workers_by_gender.other) +
+    newRow(supplier.workers_by_contract.permanent) +
+    newRow(supplier.workers_by_contract.temporary)
+  for index, property of ["average_net_wage", "wage_gap", "workers_have_cba", "workers_know_brand", "workers_get_pregnancy_leave"]
+    row += newRow supplier[property]
+  row += "</tr>"
+  tbody.append $(row)
+
+newRow = (content) ->
+  if (content == null)
+    content = "-"
+  "<td>#{content}</td>"
 
 companyLink = (company) ->
   "<a class='text-light' href=\"#{LINK_TARGET_HOST}/#{company}\">#{company}</a>"

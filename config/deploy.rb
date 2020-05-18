@@ -1,8 +1,8 @@
-set :application, 'ccc.wikirate.org'
-set :repo_url, 'https://github.com/wikirate/wikirate-ccc.git'
+set :application, 'transparency.wikirate.org'
+set :repo_url, 'https://github.com/wikirate/wikirate-transparency-tool.git'
 set :branch, 'master'
 
-set :deploy_to, '/srv/wikirate_ccc'
+set :deploy_to, '/srv/wikirate_transparency'
 
 set :rvm_custom_path, '/usr/local/rvm'
 

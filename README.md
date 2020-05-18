@@ -1,4 +1,4 @@
-# wikirate-ccc
+# transparency tool
 Widget to search for supply chain data on wikirate.org.
 
 ## options
