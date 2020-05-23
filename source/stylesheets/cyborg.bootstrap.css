@@ -50,6 +50,7 @@
           box-sizing: border-box;
 }
 
+
 html {
   font-family: sans-serif;
   line-height: 1.15;
@@ -73,9 +74,9 @@ body {
   font-size: 0.875rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #888;
+  color: #181715;
   text-align: left;
-  background-color: #060606;
+  background-color: #f9fe9c;
 }
 
 [tabindex="-1"]:focus {
@@ -375,7 +376,7 @@ h1, h2, h3, h4, h5, h6,
   font-family: inherit;
   font-weight: 500;
   line-height: 1.2;
-  color: #fff;
+  color: #181715;
 }
 
 h1, .h1 {
@@ -3622,10 +3623,10 @@ tbody.collapse.show {
   font-size: 0.875rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #282828;
+  color: #fff;
   text-align: center;
   white-space: nowrap;
-  background-color: #282828;
+  background-color: #fb4922;
   border: 1px solid transparent;
   border-radius: 0.25rem;
 }

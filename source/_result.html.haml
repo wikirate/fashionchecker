@@ -1,68 +1,65 @@
-%h5.font-weight-light.pb-2._result-header Result
-%div.card.drop-shadow
-  %div
-    %div#result
-    .card.template._brand-item
-      %a.card-header.h5.font-weight-normal.list-group-item{"aria-expanded" => "false", "data-toggle" => "collapse", :href => "replaced_by_js", :role => "tab"}
-        %span#title
-      .card-body
-        .row
-          .col-sm-6
-            %p
-              Location:
-              %span#location
-            %p
-              Number of workers:
-              %span#worker-count
-          .col-sm-6
-            %p
-              Interested in more information?
-            %p
-              Check out
-              %a#wikirate-link.btn.btn-secondary
-                WikiRate
-        .row
-          .col-sm-4
-            .card.text-dark.bg-light
-              .card-body
-                %h5.card-title Transparency Score
-                %p.card-text#transparency-score
-          .col-sm-4
-            .card.text-dark.bg-light
-              .card-body
-                %h5.card-title Commitment Score
-                %p.card-text#commitment-score
-          .col-sm-4
-            .card.text-dark.bg-light
-              .card-body
-                %h5.card-title Living Wage Score
-                %p.card-text#living-wage-score
-        .row.mt-4
-          .col-sm-12
-            %h6 Brands
-            %ul#brands
-        .row.mt-4
-          .col-sm-12
-            %h6
-              Brand sourcing from factory
-              (
-              %span#factory-count
-                0
-              found)
-            .table-responsive
-              %table.table
-                %thead
-                  %tr
-                    %th Company
-                    %th Female
-                    %th Male
-                    %th Other
-                    %th Permanent
-                    %th Temporary
-                    %th Average netwage
-                    %th Wage gap
-                    %th Workers have cba
-                    %th Workers know brand
-                    %th Pregnancy leave
-                %tbody
-  
+-#%h5.font-weight-light.pb-2._result-header Result
+%div.container
+  #result
+  .template._brand-item
+    %a.h4.font-weight-normal{"aria-expanded" => "false", "data-toggle" => "collapse", :href => "replaced_by_js", :role => "tab"}
+      %span#title
+    .row
+      .col-sm-3
+        %h6.text-muted BRANDS:
+        %ul#brands.list-unstyled
+      .col-sm-9
+        %dl.row
+          %dt.col-sm-3 HQ:
+          %dd.col-sm-9
+            %span#location
+          %dt.col-sm-3
+            Number of workers:
+          %dd.col-sm-9
+            %span#worker-count
+        %p
+          Interested in more information?
+        
+          Check out
+          %a#wikirate-link.btn.btn-secondary
+            WikiRate
+    .row
+      .col-sm-4
+        .card.text-dark.bg-light
+          .card-body
+            %h5.card-title.text-uppercase Transparency Score
+            %h3.pink.card-text#transparency-score
+      .col-sm-4
+        .card.text-dark.bg-light
+          .card-body
+            %h5.card-title.text-uppercase Commitment Score
+            %h3.pink.card-text#commitment-score
+      .col-sm-4
+        .card.text-dark.bg-light
+          .card-body
+            %h5.card-title.text-uppercase Living Wage Score
+            %h3.pink.card-text#living-wage-score
+    .row.mt-4
+      .col-sm-12
+        %h6
+          Sourcing from factory
+          (
+          %span#factory-count
+            0
+          found)
+        .table-responsive
+          %table.table.text-dark
+            %thead
+              %tr
+                %th Company
+                %th Female
+                %th Male
+                %th Other
+                %th Permanent
+                %th Temporary
+                %th Average netwage
+                %th Wage gap
+                %th Workers have cba
+                %th Workers know brand
+                %th Pregnancy leave
+            %tbody

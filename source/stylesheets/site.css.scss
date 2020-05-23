@@ -2,17 +2,56 @@ html {
   height: 100%;
 }
 
+$side-red: #fb4922;
+$yellow: #f9fe9c;
+$pink: #ed40d9;
+
 body {
-  // background-color: #fbc547;
-  color: #ccc;
-  font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir",
-    "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans",
-    "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu",
-    "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
+  background-color: $side-red;
+  font-family: 'Squada One', cursive;
+  //font-family: -apple-system, BlinkMacSystemFont, "Righteous", "Avenir",
+  //  "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans",
+  //  "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu",
+  //  "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
   padding: 18vh 1rem;
-  background: linear-gradient(135deg, #674ea7 0%, #3F51B5 100%) fixed;
+  font-size: 1rem;
+  line-height: 1;
+  // background: linear-gradient(135deg, #674ea7 0%, #3F51B5 100%) fixed;
 }
 
+
+#circle {
+  width: 150px;
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.red {
+  background-color: $side-red;
+  color: #fff;
+}
+
+.yellow {
+  background-color: $yellow;
+  color:  #181715;
+}
+
+.text-yellow {
+ color: $yellow;
+}
+
+.text-red {
+  color: $side-red;
+}
+.pink {
+  color: $pink !important;
+}
+
+
+.list-style-none > li {
+  list-style: none;
+}
 // a {
 //   color: rgba(#000, 0.7);
 //
@@ -46,7 +85,7 @@ body {
 }
 
 .input-group-text .fa {
-  color: #fff;
+  color: #181715;;
 }
 
 .input-group-prepend {

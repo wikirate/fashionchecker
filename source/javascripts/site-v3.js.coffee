@@ -69,10 +69,10 @@ suppliedCompaniesSearchURL = (elem) ->
   "#{METRIC_URL}+#{factory}.json?view=related_companies_with_year"
 
 showBrandInfo = (data, $output) ->
-  $card = $(".card.template._brand-item").clone()
+  $card = $(".template._brand-item").clone()
   collapse_class = "id"
   $card.removeClass("template")
-  $card.find("#wikirate-link").attr("href", "#{LINK_TARGET_HOST}/~#{data.id}")
+  $card.find("#wikirate-link").attr("href", "#{LINK_TARGET_HOST}/~#{data.id}?filter%5Bwikirate_topic%5D%5B%5D=Filling%20the%20Gap")
   $card.find("#title").text(data.holding)
   $card.find("#location").text(data.location)
   $card.find("#worker-count").text(data.number_of_workers)
@@ -116,4 +116,4 @@ newRow = (content) ->
   "<td>#{content}</td>"
 
 companyLink = (company) ->
-  "<a class='text-light' href=\"#{LINK_TARGET_HOST}/#{company}\">#{company}</a>"
+  "<a class='text-red' href=\"#{LINK_TARGET_HOST}/#{company}\">#{company}</a>"
