@@ -52,18 +52,20 @@
           %span#factory-count 0
           found)
         .table-responsive
-          %table.table.text-dark
+          %table.table.text-dark.table-sm
             %thead
               %tr
                 %th Company
-                %th Female
-                %th Male
-                %th Other
-                %th Permanent
-                %th Temporary
-                %th Average netwage
-                %th Wage gap
-                %th Workers have cba
-                %th Workers know brand
-                %th Pregnancy leave
+                %th{colspan: 2} Number of workers
+                %th{colspan: 2} Wage
+                %th{colspan: 3} Workers
+              %tr
+                %td
+                %td Female/Male/Other
+                %td Permanent/ Temporary
+                %td average
+                %td gap
+                %td have cba
+                %td know brand
+                %td  get pregnancy leave
             %tbody

@@ -100,11 +100,9 @@ addSupplier = (supplier, $output) ->
   addRow(tbody, supplier)
 
 addRow = (tbody, supplier) ->
-  row = "<tr>#{newRow(companyLink(supplier.name))}#{newRow(supplier.workers_by_gender.female)}" +
-    newRow(supplier.workers_by_gender.male) +
-    newRow(supplier.workers_by_gender.other) +
-    newRow(supplier.workers_by_contract.permanent) +
-    newRow(supplier.workers_by_contract.temporary)
+  row = "<tr>#{newRow(companyLink(supplier.name))}" +
+    newRow("#{supplier.workers_by_gender.female || "-"} / #{supplier.workers_by_gender.male || "-" } / #{supplier.workers_by_gender.other || "-"}") +
+    newRow("#{supplier.workers_by_contract.permanent} / #{supplier.workers_by_contract.temporary}")
   for index, property of ["average_net_wage", "wage_gap", "workers_have_cba", "workers_know_brand", "workers_get_pregnancy_leave"]
     row += newRow supplier[property]
   row += "</tr>"
