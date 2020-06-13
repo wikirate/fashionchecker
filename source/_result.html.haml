@@ -13,23 +13,18 @@
         .row.mx-0.py-2
           .col-sm-4.pl-0 Owned by:
           .col-sm-8.pr-0
-            %span._owner
-              Inditex
-        .row.border-top.mx-0.py-2
-          .col-sm-4.pl-0 Headquarters:
-          .col-sm-8.pr-0
-            %span#location
+            %span._owned_by
+        = partial :property, locals: { title: "Headquarters", name: :location}
         .row.border-top.mx-0.py-2
           .col-sm-4.pl-0
             Other brands owned by
-            %span._owner
+            %span._owned_by
             = ":"
           .col-sm-8.pr-0#brands.list-unstyled
-        .row.border-top.mx-0.py-2
-          .col-sm-4.pl-0
-            Number of workers:
-          .col-sm-8.pr-0
-            %span#worker-count
+        = partial :property, locals: { title: "Number of workers", name: :number_of_workers }
+        = partial :property, locals: { title: "Revenue", name: :revenue }
+        = partial :property, locals: { title: "Profit", name: :profit }
+        = partial :property, locals: { title: "Top 3 Production countries", name: :top_production_countries }
     .row.brand.mx-0.mt-3
       .col-sm-6.section.pl-0
         %h6.text-uppercase Living Wage Score
