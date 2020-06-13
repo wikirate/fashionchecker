@@ -89,5 +89,3 @@ class window.BrandInfo
 
   companyLink = (company) ->
     "<a class='text-red' href=\"#{LINK_TARGET_HOST}/#{company}\">#{company}</a>"
-
-exports.BrandInfo = BrandInfo
