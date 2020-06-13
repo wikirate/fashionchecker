@@ -4160,3 +4160,452 @@ You can update manually with:        rvm get VERSION                         (e.
  DEBUG [3e41e327] 	      create  build/brand-profile.html
  DEBUG [3e41e327] 	       error  build/javascripts/site.js
  DEBUG [3e41e327] 	There were errors during this build, re-run with `middleman build --verbose` to see the full exception.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2020-06-14 01:11:00 +0200 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [ce914510] Running [ -d ~/.rvm ] as deploy@kasper
+ DEBUG [ce914510] Command: [ -d ~/.rvm ]
+ DEBUG [ce914510] Finished in 1.374 seconds with exit status 0 (successful).
+ DEBUG [261b3636] Running ~/.rvm/bin/rvm version as deploy@kasper
+ DEBUG [261b3636] Command: ~/.rvm/bin/rvm version
+ DEBUG [261b3636] 	rvm 1.29.9 (latest) by Michal Papis, Piotr Kuczynski, Wayne E. Seguin [https://rvm.io]
+ DEBUG [261b3636] Finished in 0.359 seconds with exit status 0 (successful).
+ DEBUG [52509d4d] Running ~/.rvm/bin/rvm current as deploy@kasper
+ DEBUG [52509d4d] Command: ~/.rvm/bin/rvm current
+ DEBUG [52509d4d] 	ruby-2.6.3
+ DEBUG [52509d4d] Finished in 0.318 seconds with exit status 0 (successful).
+ DEBUG [39136215] Running ~/.rvm/bin/rvm default do ruby --version as deploy@kasper
+ DEBUG [39136215] Command: ~/.rvm/bin/rvm default do ruby --version
+ DEBUG [39136215] 	ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
+ DEBUG [39136215] Finished in 0.311 seconds with exit status 0 (successful).
+  INFO [5e479c1a] Running /usr/bin/env mkdir -p /tmp as deploy@kasper
+ DEBUG [5e479c1a] Command: /usr/bin/env mkdir -p /tmp
+  INFO [5e479c1a] Finished in 0.105 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-transparency.wikirate.org-production-philipp.sh 0.0%
+  INFO Uploading /tmp/git-ssh-transparency.wikirate.org-production-philipp.sh 100.0%
+  INFO [738f498e] Running /usr/bin/env chmod 700 /tmp/git-ssh-transparency.wikirate.org-production-philipp.sh as deploy@kasper
+ DEBUG [738f498e] Command: /usr/bin/env chmod 700 /tmp/git-ssh-transparency.wikirate.org-production-philipp.sh
+  INFO [738f498e] Finished in 0.107 seconds with exit status 0 (successful).
+  INFO [40a5e5d9] Running /usr/bin/env git ls-remote https://github.com/wikirate/transparency-tool.git HEAD as deploy@kasper
+ DEBUG [40a5e5d9] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-transparency.wikirate.org-production-philipp.sh" ; /usr/bin/env git ls-remote https://github.com/wikirate/transparency-tool.git HEAD )
+ DEBUG [40a5e5d9] 	fa0f3b40b992d31dae3ebc2e4556c11f783da709	HEAD
+  INFO [40a5e5d9] Finished in 0.575 seconds with exit status 0 (successful).
+  INFO [7b5272eb] Running /usr/bin/env mkdir -p /srv/wikirate_transparency/shared /srv/wikirate_transparency/releases as deploy@kasper
+ DEBUG [7b5272eb] Command: /usr/bin/env mkdir -p /srv/wikirate_transparency/shared /srv/wikirate_transparency/releases
+  INFO [7b5272eb] Finished in 0.109 seconds with exit status 0 (successful).
+ DEBUG [acdbebc6] Running [ -f /srv/wikirate_transparency/current/REVISION ] as deploy@kasper
+ DEBUG [acdbebc6] Command: [ -f /srv/wikirate_transparency/current/REVISION ]
+ DEBUG [acdbebc6] Finished in 0.102 seconds with exit status 0 (successful).
+ DEBUG [5debd0fc] Running /usr/bin/env cat /srv/wikirate_transparency/current/REVISION 2>/dev/null as deploy@kasper
+ DEBUG [5debd0fc] Command: /usr/bin/env cat /srv/wikirate_transparency/current/REVISION 2>/dev/null
+ DEBUG [5debd0fc] 	0bc1f8a4895b49bf0a37b98e8231ea4ead5ceade
+ DEBUG [5debd0fc] Finished in 0.106 seconds with exit status 0 (successful).
+ DEBUG [70b8f01f] Running [ -f /srv/wikirate_transparency/repo/HEAD ] as deploy@kasper
+ DEBUG [70b8f01f] Command: [ -f /srv/wikirate_transparency/repo/HEAD ]
+ DEBUG [70b8f01f] Finished in 0.104 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /srv/wikirate_transparency/repo
+ DEBUG [d1efb25f] Running if test ! -d /srv/wikirate_transparency/repo; then echo "Directory does not exist '/srv/wikirate_transparency/repo'" 1>&2; false; fi as deploy@kasper
+ DEBUG [d1efb25f] Command: if test ! -d /srv/wikirate_transparency/repo; then echo "Directory does not exist '/srv/wikirate_transparency/repo'" 1>&2; false; fi
+ DEBUG [d1efb25f] Finished in 0.112 seconds with exit status 0 (successful).
+  INFO [1bc15ee3] Running /usr/bin/env git remote set-url origin https://github.com/wikirate/transparency-tool.git as deploy@kasper
+ DEBUG [1bc15ee3] Command: cd /srv/wikirate_transparency/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-transparency.wikirate.org-production-philipp.sh" ; /usr/bin/env git remote set-url origin https://github.com/wikirate/transparency-tool.git )
+  INFO [1bc15ee3] Finished in 0.114 seconds with exit status 0 (successful).
+  INFO [31e106b4] Running /usr/bin/env git remote update --prune as deploy@kasper
+ DEBUG [31e106b4] Command: cd /srv/wikirate_transparency/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-transparency.wikirate.org-production-philipp.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [31e106b4] 	Fetching origin
+ DEBUG [31e106b4] 	From https://github.com/wikirate/transparency-tool
+   0bc1f8a..fa0f3b4  master            -> master
+ DEBUG [31e106b4] 	 + d722276...7410f8b refs/pull/1/merge -> refs/pull/1/merge  (forced update)
+  INFO [31e106b4] Finished in 0.965 seconds with exit status 0 (successful).
+ DEBUG [d6f1b7e0] Running if test ! -d /srv/wikirate_transparency/repo; then echo "Directory does not exist '/srv/wikirate_transparency/repo'" 1>&2; false; fi as deploy@kasper
+ DEBUG [d6f1b7e0] Command: if test ! -d /srv/wikirate_transparency/repo; then echo "Directory does not exist '/srv/wikirate_transparency/repo'" 1>&2; false; fi
+ DEBUG [d6f1b7e0] Finished in 0.107 seconds with exit status 0 (successful).
+  INFO [bc1c59ca] Running /usr/bin/env mkdir -p /srv/wikirate_transparency/releases/20200613231104 as deploy@kasper
+ DEBUG [bc1c59ca] Command: cd /srv/wikirate_transparency/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-transparency.wikirate.org-production-philipp.sh" ; /usr/bin/env mkdir -p /srv/wikirate_transparency/releases/20200613231104 )
+  INFO [bc1c59ca] Finished in 0.115 seconds with exit status 0 (successful).
+  INFO [0e71068a] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /srv/wikirate_transparency/releases/20200613231104 as deploy@kasper
+ DEBUG [0e71068a] Command: cd /srv/wikirate_transparency/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-transparency.wikirate.org-production-philipp.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /srv/wikirate_transparency/releases/20200613231104 )
+  INFO [0e71068a] Finished in 0.159 seconds with exit status 0 (successful).
+ DEBUG [f101c292] Running if test ! -d /srv/wikirate_transparency/repo; then echo "Directory does not exist '/srv/wikirate_transparency/repo'" 1>&2; false; fi as deploy@kasper
+ DEBUG [f101c292] Command: if test ! -d /srv/wikirate_transparency/repo; then echo "Directory does not exist '/srv/wikirate_transparency/repo'" 1>&2; false; fi
+ DEBUG [f101c292] Finished in 0.113 seconds with exit status 0 (successful).
+ DEBUG [910ea4c1] Running /usr/bin/env git rev-list --max-count=1 master as deploy@kasper
+ DEBUG [910ea4c1] Command: cd /srv/wikirate_transparency/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-transparency.wikirate.org-production-philipp.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [910ea4c1] 	fa0f3b40b992d31dae3ebc2e4556c11f783da709
+ DEBUG [910ea4c1] Finished in 0.107 seconds with exit status 0 (successful).
+ DEBUG [7cc00452] Running if test ! -d /srv/wikirate_transparency/releases/20200613231104; then echo "Directory does not exist '/srv/wikirate_transparency/releases/20200613231104'" 1>&2; false; fi as deploy@kasper
+ DEBUG [7cc00452] Command: if test ! -d /srv/wikirate_transparency/releases/20200613231104; then echo "Directory does not exist '/srv/wikirate_transparency/releases/20200613231104'" 1>&2; false; fi
+ DEBUG [7cc00452] Finished in 0.107 seconds with exit status 0 (successful).
+  INFO [8052a129] Running /usr/bin/env echo "fa0f3b40b992d31dae3ebc2e4556c11f783da709" > REVISION as deploy@kasper
+ DEBUG [8052a129] Command: cd /srv/wikirate_transparency/releases/20200613231104 && /usr/bin/env echo "fa0f3b40b992d31dae3ebc2e4556c11f783da709" > REVISION
+  INFO [8052a129] Finished in 0.110 seconds with exit status 0 (successful).
+ DEBUG [e5ea6f56] Running if test ! -d /srv/wikirate_transparency/releases/20200613231104; then echo "Directory does not exist '/srv/wikirate_transparency/releases/20200613231104'" 1>&2; false; fi as deploy@kasper
+ DEBUG [e5ea6f56] Command: if test ! -d /srv/wikirate_transparency/releases/20200613231104; then echo "Directory does not exist '/srv/wikirate_transparency/releases/20200613231104'" 1>&2; false; fi
+ DEBUG [e5ea6f56] Finished in 0.107 seconds with exit status 0 (successful).
+ DEBUG [78c7be08] Running ~/.rvm/bin/rvm default do bundle check --path /srv/wikirate_transparency/shared/bundle as deploy@kasper
+ DEBUG [78c7be08] Command: cd /srv/wikirate_transparency/releases/20200613231104 && ~/.rvm/bin/rvm default do bundle check --path /srv/wikirate_transparency/shared/bundle
+ DEBUG [78c7be08] 	The dependency tzinfo-data (>= 0) will be unused by any of the platforms Bundler is installing for. Bundler is installing for ruby but the dependency is only for x86-mswin32, x86-mingw32, java. To add those platforms to the bundle, run `bundle lock --add-platform x86-mswin32 x86-mingw32 java`.
+ DEBUG [78c7be08] 	The dependency wdm (~> 0.1) will be unused by any of the platforms Bundler is installing for. Bundler is installing for ruby but the dependency is only for x86-mswin32, x86-mingw32. To add those platforms to the bundle, run `bundle lock --add-platform x86-mswin32 x86-mingw32`.
+ DEBUG [78c7be08] 	The following gems are missing
+ * rake (10.5.0)
+ DEBUG [78c7be08] 	 * activesupport (5.2.4.3)
+ * net-ssh (6.1.0)
+ DEBUG [78c7be08] 	 * net-scp (3.0.0)
+ * sshkit (1.21.0)
+ DEBUG [78c7be08] 	 * airbrussh (1.4.0)
+ DEBUG [78c7be08] 	 * builder (3.2.4)
+ DEBUG [78c7be08] 	 * capistrano (3.14.1)
+ DEBUG [78c7be08] 	 * capistrano-bundler (1.6.0)
+ DEBUG [78c7be08] 	 * capistrano-rvm (0.1.2)
+ DEBUG [78c7be08] 	 * mini_mime (1.0.2)
+ DEBUG [78c7be08] 	 * mini_portile2 (2.4.0)
+ DEBUG [78c7be08] 	 * nokogiri (1.10.9)
+ DEBUG [78c7be08] 	 * rack-test (1.1.0)
+ DEBUG [78c7be08] 	 * xpath (3.2.0)
+ DEBUG [78c7be08] 	 * capybara (2.18.0)
+ DEBUG [78c7be08] 	 * ffi (1.13.1)
+ DEBUG [78c7be08] 	 * childprocess (0.9.0)
+ DEBUG [78c7be08] 	 * middleware (0.1.0)
+ DEBUG [78c7be08] 	 * protobuf-cucumber (3.10.8)
+ DEBUG [78c7be08] 	 * cucumber-messages (12.1.1)
+ DEBUG [78c7be08] 	 * cucumber-gherkin (13.0.0)
+ DEBUG [78c7be08] 	 * cucumber-tag-expressions (2.0.4)
+ DEBUG [78c7be08] 	 * cucumber-core (7.0.0)
+ DEBUG [78c7be08] 	 * cucumber-cucumber-expressions (10.2.0)
+ DEBUG [78c7be08] 	 * cucumber-html-formatter (6.0.3)
+ DEBUG [78c7be08] 	 * cucumber-wire (3.0.0)
+ DEBUG [78c7be08] 	 * diff-lcs (1.3)
+ DEBUG [78c7be08] 	 * multi_test (0.1.2)
+ DEBUG [78c7be08] 	 * sys-uname (1.2.1)
+ DEBUG [78c7be08] 	 * cucumber (4.0.0)
+ DEBUG [78c7be08] 	 * middleman-cli (4.3.7)
+ DEBUG [78c7be08] 	 * sassc (2.4.0)
+ DEBUG [78c7be08] 	 * middleman-core (4.3.7)
+ DEBUG [78c7be08] 	 * middleman (4.3.7)
+ DEBUG [78c7be08] 	 * rspec-support (3.9.3)
+ DEBUG [78c7be08] 	 * rspec-core (3.9.2)
+ DEBUG [78c7be08] 	 * rspec-expectations (3.9.2)
+ DEBUG [78c7be08] 	 * rspec-mocks (3.9.1)
+ DEBUG [78c7be08] 	 * rspec (3.9.0)
+ DEBUG [78c7be08] 	 * rubyzip (1.3.0)
+ DEBUG [78c7be08] 	 * selenium-webdriver (3.8.0)
+ DEBUG [78c7be08] 	Install missing gems with `bundle install`
+ DEBUG [78c7be08] Finished in 0.499 seconds with exit status 1 (failed).
+  INFO [e456fd85] Running ~/.rvm/bin/rvm default do bundle install --path /srv/wikirate_transparency/shared/bundle --jobs 4 --without development test --deployment --quiet as deploy@kasper
+ DEBUG [e456fd85] Command: cd /srv/wikirate_transparency/releases/20200613231104 && ~/.rvm/bin/rvm default do bundle install --path /srv/wikirate_transparency/shared/bundle --jobs 4 --without development test --deployment --quiet
+ DEBUG [e456fd85] 	Warning, new version of rvm available '1.29.10', you are using older version '1.29.9'.
+You can disable this warning with:   echo rvm_autoupdate_flag=0 >> ~/.rvmrc
+You can enable auto-update with:     echo rvm_autoupdate_flag=2 >> ~/.rvmrc
+You can update manually with:        rvm get VERSION                         (e.g. 'rvm get stable')
+
+  INFO [e456fd85] Finished in 121.719 seconds with exit status 0 (successful).
+  INFO [deb6de50] Running /usr/bin/env ln -s /srv/wikirate_transparency/releases/20200613231104 /srv/wikirate_transparency/releases/current as deploy@kasper
+ DEBUG [deb6de50] Command: /usr/bin/env ln -s /srv/wikirate_transparency/releases/20200613231104 /srv/wikirate_transparency/releases/current
+  INFO [deb6de50] Finished in 0.103 seconds with exit status 0 (successful).
+  INFO [ca5d59e8] Running /usr/bin/env mv /srv/wikirate_transparency/releases/current /srv/wikirate_transparency as deploy@kasper
+ DEBUG [ca5d59e8] Command: /usr/bin/env mv /srv/wikirate_transparency/releases/current /srv/wikirate_transparency
+  INFO [ca5d59e8] Finished in 0.114 seconds with exit status 0 (successful).
+ DEBUG [c19cd439] Running if test ! -d /srv/wikirate_transparency/releases/20200613231104; then echo "Directory does not exist '/srv/wikirate_transparency/releases/20200613231104'" 1>&2; false; fi as deploy@kasper
+ DEBUG [c19cd439] Command: if test ! -d /srv/wikirate_transparency/releases/20200613231104; then echo "Directory does not exist '/srv/wikirate_transparency/releases/20200613231104'" 1>&2; false; fi
+ DEBUG [c19cd439] Finished in 0.107 seconds with exit status 0 (successful).
+  INFO [e8c6454e] Running ~/.rvm/bin/rvm default do bundle exec middleman build as deploy@kasper
+ DEBUG [e8c6454e] Command: cd /srv/wikirate_transparency/releases/20200613231104 && ~/.rvm/bin/rvm default do bundle exec middleman build
+ DEBUG [e8c6454e] 	      create  build/stylesheets/select2.min.css
+ DEBUG [e8c6454e] 	      create  build/stylesheets/select2-bootstrap.css
+ DEBUG [e8c6454e] 	      create  build/stylesheets/select2-bootstrap4.min.css
+ DEBUG [e8c6454e] 	      create  build/stylesheets/site.css
+ DEBUG [e8c6454e] 	      create  build/stylesheets/font-awesome.min.css
+ DEBUG [e8c6454e] 	      create  build/stylesheets/original_bootstrap.min.css
+ DEBUG [e8c6454e] 	      create  build/images/transparency_score/2.5.png
+      create  build/images/transparency_score/0.0.png
+      create  build/images/transparency_score/7.5.png
+ DEBUG [e8c6454e] 	      create  build/images/transparency_score/5.0.png
+ DEBUG [e8c6454e] 	      create  build/images/transparency_score/10.0.png
+ DEBUG [e8c6454e] 	      create  build/images/articles/a1.png
+ DEBUG [e8c6454e] 	      create  build/images/logo/PNG/CCC_FashionChecker_RGB_vertical.png
+ DEBUG [e8c6454e] 	      create  build/images/logo/PNG/CCC_FashionChecker_RGB_horizontal.png
+ DEBUG [e8c6454e] 	      create  build/images/logo/PNG/CCC_FashionChecker_RGB_vertical_boxed.png
+      create  build/images/logo/PNG/CCC_FashionChecker_RGB_horizontal_boxed.png
+ DEBUG [e8c6454e] 	      create  build/images/spotlight.png
+ DEBUG [e8c6454e] 	      create  build/images/wage_score/C.png
+ DEBUG [e8c6454e] 	      create  build/images/wage_score/A.png
+ DEBUG [e8c6454e] 	      create  build/images/wage_score/E.png
+ DEBUG [e8c6454e] 	      create  build/images/smiley/Yes.png
+      create  build/images/wage_score/B.png
+      create  build/images/smiley_red.png
+ DEBUG [e8c6454e] 	      create  build/images/smiley/No.png
+ DEBUG [e8c6454e] 	      create  build/images/smiley/Partial.png
+ DEBUG [e8c6454e] 	      create  build/images/living-wage.png
+ DEBUG [e8c6454e] 	      create  build/images/wage_score/D.png
+ DEBUG [e8c6454e] 	      create  build/fonts/fontawesome-webfont.woff
+ DEBUG [e8c6454e] 	      create  build/fonts/fontawesome-webfont.woff2
+ DEBUG [e8c6454e] 	      create  build/fonts/FontAwesome.otf
+ DEBUG [e8c6454e] 	      create  build/fonts/fontawesome-webfont.ttf
+ DEBUG [e8c6454e] 	      create  build/fonts/fontawesome-webfont.eot
+ DEBUG [e8c6454e] 	      create  build/images/logo/SVG/CCC_FashionChecker_RGB_horizontal.svg
+ DEBUG [e8c6454e] 	      create  build/images/logo/SVG/CCC_FashionChecker_RGB_vertical.svg
+ DEBUG [e8c6454e] 	      create  build/images/CCC_FashionChecker_RGB_horizontal.svg
+      create  build/images/logo/SVG/CCC_FashionChecker_RGB_vertical_spot.svg
+ DEBUG [e8c6454e] 	      create  build/images/logo/SVG/CCC_FashionChecker_RGB_vertical_boxed.svg
+ DEBUG [e8c6454e] 	      create  build/images/logo/SVG/CCC_FashionChecker_RGB_horizontal_boxed.svg
+ DEBUG [e8c6454e] 	      create  build/fonts/fontawesome-webfont.svg
+ DEBUG [e8c6454e] 	      create  build/images/logo/EPS/CCC_FashionChecker_RGB_horizontal.eps
+ DEBUG [e8c6454e] 	      create  build/images/logo/EPS/CCC_FashionChecker_RGB_vertical_boxed.eps
+ DEBUG [e8c6454e] 	      create  build/images/logo/EPS/CCC_FashionChecker_RGB_horizontal_boxed.eps
+ DEBUG [e8c6454e] 	      create  build/images/logo/EPS/CCC_FashionChecker_RGB_vertical.eps
+ DEBUG [e8c6454e] 	      create  build/javascripts/jquery.min.js
+      create  build/javascripts/select2.min.js
+ DEBUG [e8c6454e] 	      create  build/javascripts/bootstrap.min.js
+ DEBUG [e8c6454e] 	      create  build/javascripts/select2.full.min.js
+ DEBUG [e8c6454e] 	      create  build/images/.keep
+ DEBUG [e8c6454e] 	      create  build/javascripts/bootstrap.min.js.map
+ DEBUG [e8c6454e] 	      create  build/brand-profile.html
+ DEBUG [e8c6454e] 	      create  build/index.html
+ DEBUG [e8c6454e] 	      create  build/javascripts/render_brand_info.js
+ DEBUG [e8c6454e] 	      create  build/javascripts/site.js
+ DEBUG [e8c6454e] 	Project built successfully.
+  INFO [e8c6454e] Finished in 3.244 seconds with exit status 0 (successful).
+ DEBUG [e15d5661] Running /usr/bin/env ls -x /srv/wikirate_transparency/releases as deploy@kasper
+ DEBUG [e15d5661] Command: /usr/bin/env ls -x /srv/wikirate_transparency/releases
+ DEBUG [e15d5661] 	20200518115122	20200523000931	20200523002258	20200525133039	20200613222603
+20200613222757	20200613231104
+ DEBUG [e15d5661] Finished in 0.101 seconds with exit status 0 (successful).
+  INFO Keeping 5 of 7 deployed releases on kasper
+ DEBUG [421d4714] Running [ -d /srv/wikirate_transparency/current ] as deploy@kasper
+ DEBUG [421d4714] Command: [ -d /srv/wikirate_transparency/current ]
+ DEBUG [421d4714] Finished in 0.106 seconds with exit status 0 (successful).
+ DEBUG [67db2812] Running /usr/bin/env readlink /srv/wikirate_transparency/current as deploy@kasper
+ DEBUG [67db2812] Command: /usr/bin/env readlink /srv/wikirate_transparency/current
+ DEBUG [67db2812] 	/srv/wikirate_transparency/releases/20200613231104
+ DEBUG [67db2812] Finished in 0.105 seconds with exit status 0 (successful).
+  INFO [d013330d] Running /usr/bin/env rm -rf /srv/wikirate_transparency/releases/20200518115122 /srv/wikirate_transparency/releases/20200523000931 as deploy@kasper
+ DEBUG [d013330d] Command: /usr/bin/env rm -rf /srv/wikirate_transparency/releases/20200518115122 /srv/wikirate_transparency/releases/20200523000931
+  INFO [d013330d] Finished in 0.301 seconds with exit status 0 (successful).
+ DEBUG [23eb8939] Running if test ! -d /srv/wikirate_transparency/releases; then echo "Directory does not exist '/srv/wikirate_transparency/releases'" 1>&2; false; fi as deploy@kasper
+ DEBUG [23eb8939] Command: if test ! -d /srv/wikirate_transparency/releases; then echo "Directory does not exist '/srv/wikirate_transparency/releases'" 1>&2; false; fi
+ DEBUG [23eb8939] Finished in 0.103 seconds with exit status 0 (successful).
+  INFO [cd4cbbf5] Running /usr/bin/env echo "Branch master (at fa0f3b40b992d31dae3ebc2e4556c11f783da709) deployed as release 20200613231104 by philipp" >> /srv/wikirate_transparency/revisions.log as deploy@kasper
+ DEBUG [cd4cbbf5] Command: cd /srv/wikirate_transparency/releases && /usr/bin/env echo "Branch master (at fa0f3b40b992d31dae3ebc2e4556c11f783da709) deployed as release 20200613231104 by philipp" >> /srv/wikirate_transparency/revisions.log
+  INFO [cd4cbbf5] Finished in 0.111 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2020-06-14 01:15:18 +0200 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [865feebf] Running [ -d ~/.rvm ] as deploy@kasper
+ DEBUG [865feebf] Command: [ -d ~/.rvm ]
+ DEBUG [865feebf] Finished in 0.429 seconds with exit status 0 (successful).
+ DEBUG [33ea7953] Running ~/.rvm/bin/rvm version as deploy@kasper
+ DEBUG [33ea7953] Command: ~/.rvm/bin/rvm version
+ DEBUG [33ea7953] 	rvm 1.29.9 (latest) by Michal Papis, Piotr Kuczynski, Wayne E. Seguin [https://rvm.io]
+ DEBUG [33ea7953] Finished in 0.230 seconds with exit status 0 (successful).
+ DEBUG [2ad9d120] Running ~/.rvm/bin/rvm current as deploy@kasper
+ DEBUG [2ad9d120] Command: ~/.rvm/bin/rvm current
+ DEBUG [2ad9d120] 	ruby-2.6.3
+ DEBUG [2ad9d120] Finished in 0.224 seconds with exit status 0 (successful).
+ DEBUG [98a4ab5f] Running ~/.rvm/bin/rvm default do ruby --version as deploy@kasper
+ DEBUG [98a4ab5f] Command: ~/.rvm/bin/rvm default do ruby --version
+ DEBUG [98a4ab5f] 	ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
+ DEBUG [98a4ab5f] Finished in 0.298 seconds with exit status 0 (successful).
+  INFO [7f011080] Running /usr/bin/env mkdir -p /tmp as deploy@kasper
+ DEBUG [7f011080] Command: /usr/bin/env mkdir -p /tmp
+  INFO [7f011080] Finished in 0.107 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-transparency.wikirate.org-production-philipp.sh 0.0%
+  INFO Uploading /tmp/git-ssh-transparency.wikirate.org-production-philipp.sh 100.0%
+  INFO [3c2f61fa] Running /usr/bin/env chmod 700 /tmp/git-ssh-transparency.wikirate.org-production-philipp.sh as deploy@kasper
+ DEBUG [3c2f61fa] Command: /usr/bin/env chmod 700 /tmp/git-ssh-transparency.wikirate.org-production-philipp.sh
+  INFO [3c2f61fa] Finished in 0.105 seconds with exit status 0 (successful).
+  INFO [af150442] Running /usr/bin/env git ls-remote https://github.com/wikirate/transparency-tool.git HEAD as deploy@kasper
+ DEBUG [af150442] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-transparency.wikirate.org-production-philipp.sh" ; /usr/bin/env git ls-remote https://github.com/wikirate/transparency-tool.git HEAD )
+ DEBUG [af150442] 	656b27b1c29065740ad0b8ab54afe96bf6bb15f8	HEAD
+  INFO [af150442] Finished in 0.535 seconds with exit status 0 (successful).
+  INFO [fbe31183] Running /usr/bin/env mkdir -p /srv/wikirate_transparency/shared /srv/wikirate_transparency/releases as deploy@kasper
+ DEBUG [fbe31183] Command: /usr/bin/env mkdir -p /srv/wikirate_transparency/shared /srv/wikirate_transparency/releases
+  INFO [fbe31183] Finished in 0.058 seconds with exit status 0 (successful).
+ DEBUG [ed8b1f8e] Running [ -f /srv/wikirate_transparency/current/REVISION ] as deploy@kasper
+ DEBUG [ed8b1f8e] Command: [ -f /srv/wikirate_transparency/current/REVISION ]
+ DEBUG [ed8b1f8e] Finished in 0.105 seconds with exit status 0 (successful).
+ DEBUG [470391fb] Running /usr/bin/env cat /srv/wikirate_transparency/current/REVISION 2>/dev/null as deploy@kasper
+ DEBUG [470391fb] Command: /usr/bin/env cat /srv/wikirate_transparency/current/REVISION 2>/dev/null
+ DEBUG [470391fb] 	fa0f3b40b992d31dae3ebc2e4556c11f783da709
+ DEBUG [470391fb] Finished in 0.108 seconds with exit status 0 (successful).
+ DEBUG [3a7f524f] Running [ -f /srv/wikirate_transparency/repo/HEAD ] as deploy@kasper
+ DEBUG [3a7f524f] Command: [ -f /srv/wikirate_transparency/repo/HEAD ]
+ DEBUG [3a7f524f] Finished in 0.107 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /srv/wikirate_transparency/repo
+ DEBUG [91ac9dc4] Running if test ! -d /srv/wikirate_transparency/repo; then echo "Directory does not exist '/srv/wikirate_transparency/repo'" 1>&2; false; fi as deploy@kasper
+ DEBUG [91ac9dc4] Command: if test ! -d /srv/wikirate_transparency/repo; then echo "Directory does not exist '/srv/wikirate_transparency/repo'" 1>&2; false; fi
+ DEBUG [91ac9dc4] Finished in 0.109 seconds with exit status 0 (successful).
+  INFO [15a8cb1a] Running /usr/bin/env git remote set-url origin https://github.com/wikirate/transparency-tool.git as deploy@kasper
+ DEBUG [15a8cb1a] Command: cd /srv/wikirate_transparency/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-transparency.wikirate.org-production-philipp.sh" ; /usr/bin/env git remote set-url origin https://github.com/wikirate/transparency-tool.git )
+  INFO [15a8cb1a] Finished in 0.118 seconds with exit status 0 (successful).
+  INFO [4f9e829f] Running /usr/bin/env git remote update --prune as deploy@kasper
+ DEBUG [4f9e829f] Command: cd /srv/wikirate_transparency/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-transparency.wikirate.org-production-philipp.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [4f9e829f] 	Fetching origin
+ DEBUG [4f9e829f] 	From https://github.com/wikirate/transparency-tool
+ + ef53b15...2b7b571 dependabot/bundler/rake-12.3.3 -> dependabot/bundler/rake-12.3.3  (forced update)
+ DEBUG [4f9e829f] 	   fa0f3b4..656b27b  master           -> master
+ DEBUG [4f9e829f] 	 + ef53b15...2b7b571 refs/pull/1/head -> refs/pull/1/head  (forced update)
+  INFO [4f9e829f] Finished in 0.922 seconds with exit status 0 (successful).
+ DEBUG [caa51d0d] Running if test ! -d /srv/wikirate_transparency/repo; then echo "Directory does not exist '/srv/wikirate_transparency/repo'" 1>&2; false; fi as deploy@kasper
+ DEBUG [caa51d0d] Command: if test ! -d /srv/wikirate_transparency/repo; then echo "Directory does not exist '/srv/wikirate_transparency/repo'" 1>&2; false; fi
+ DEBUG [caa51d0d] Finished in 0.115 seconds with exit status 0 (successful).
+  INFO [76722ca9] Running /usr/bin/env mkdir -p /srv/wikirate_transparency/releases/20200613231520 as deploy@kasper
+ DEBUG [76722ca9] Command: cd /srv/wikirate_transparency/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-transparency.wikirate.org-production-philipp.sh" ; /usr/bin/env mkdir -p /srv/wikirate_transparency/releases/20200613231520 )
+  INFO [76722ca9] Finished in 0.113 seconds with exit status 0 (successful).
+  INFO [64285dd7] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /srv/wikirate_transparency/releases/20200613231520 as deploy@kasper
+ DEBUG [64285dd7] Command: cd /srv/wikirate_transparency/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-transparency.wikirate.org-production-philipp.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /srv/wikirate_transparency/releases/20200613231520 )
+  INFO [64285dd7] Finished in 0.154 seconds with exit status 0 (successful).
+ DEBUG [9999de67] Running if test ! -d /srv/wikirate_transparency/repo; then echo "Directory does not exist '/srv/wikirate_transparency/repo'" 1>&2; false; fi as deploy@kasper
+ DEBUG [9999de67] Command: if test ! -d /srv/wikirate_transparency/repo; then echo "Directory does not exist '/srv/wikirate_transparency/repo'" 1>&2; false; fi
+ DEBUG [9999de67] Finished in 0.108 seconds with exit status 0 (successful).
+ DEBUG [55dcc0b5] Running /usr/bin/env git rev-list --max-count=1 master as deploy@kasper
+ DEBUG [55dcc0b5] Command: cd /srv/wikirate_transparency/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-transparency.wikirate.org-production-philipp.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [55dcc0b5] 	656b27b1c29065740ad0b8ab54afe96bf6bb15f8
+ DEBUG [55dcc0b5] Finished in 0.117 seconds with exit status 0 (successful).
+ DEBUG [901579e9] Running if test ! -d /srv/wikirate_transparency/releases/20200613231520; then echo "Directory does not exist '/srv/wikirate_transparency/releases/20200613231520'" 1>&2; false; fi as deploy@kasper
+ DEBUG [901579e9] Command: if test ! -d /srv/wikirate_transparency/releases/20200613231520; then echo "Directory does not exist '/srv/wikirate_transparency/releases/20200613231520'" 1>&2; false; fi
+ DEBUG [901579e9] Finished in 0.107 seconds with exit status 0 (successful).
+  INFO [a3bbdb3a] Running /usr/bin/env echo "656b27b1c29065740ad0b8ab54afe96bf6bb15f8" > REVISION as deploy@kasper
+ DEBUG [a3bbdb3a] Command: cd /srv/wikirate_transparency/releases/20200613231520 && /usr/bin/env echo "656b27b1c29065740ad0b8ab54afe96bf6bb15f8" > REVISION
+  INFO [a3bbdb3a] Finished in 0.107 seconds with exit status 0 (successful).
+ DEBUG [8775588a] Running if test ! -d /srv/wikirate_transparency/releases/20200613231520; then echo "Directory does not exist '/srv/wikirate_transparency/releases/20200613231520'" 1>&2; false; fi as deploy@kasper
+ DEBUG [8775588a] Command: if test ! -d /srv/wikirate_transparency/releases/20200613231520; then echo "Directory does not exist '/srv/wikirate_transparency/releases/20200613231520'" 1>&2; false; fi
+ DEBUG [8775588a] Finished in 0.108 seconds with exit status 0 (successful).
+ DEBUG [50aa804e] Running ~/.rvm/bin/rvm default do bundle check --path /srv/wikirate_transparency/shared/bundle as deploy@kasper
+ DEBUG [50aa804e] Command: cd /srv/wikirate_transparency/releases/20200613231520 && ~/.rvm/bin/rvm default do bundle check --path /srv/wikirate_transparency/shared/bundle
+ DEBUG [50aa804e] 	The dependency tzinfo-data (>= 0) will be unused by any of the platforms Bundler is installing for. Bundler is installing for ruby but the dependency is only for x86-mswin32, x86-mingw32, java. To add those platforms to the bundle, run `bundle lock --add-platform x86-mswin32 x86-mingw32 java`.
+The dependency wdm (~> 0.1) will be unused by any of the platforms Bundler is installing for. Bundler is installing for ruby but the dependency is only for x86-mswin32, x86-mingw32. To add those platforms to the bundle, run `bundle lock --add-platform x86-mswin32 x86-mingw32`.
+ DEBUG [50aa804e] 	The following gems are missing
+ * rake (10.5.0)
+ * net-ssh (6.1.0)
+ DEBUG [50aa804e] 	 * net-scp (3.0.0)
+ * sshkit (1.21.0)
+ DEBUG [50aa804e] 	 * airbrussh (1.4.0)
+ * builder (3.2.4)
+ DEBUG [50aa804e] 	 * capistrano (3.14.1)
+ DEBUG [50aa804e] 	 * capistrano-bundler (1.6.0)
+ DEBUG [50aa804e] 	 * capistrano-rvm (0.1.2)
+ DEBUG [50aa804e] 	 * mini_mime (1.0.2)
+ DEBUG [50aa804e] 	 * mini_portile2 (2.4.0)
+ DEBUG [50aa804e] 	 * nokogiri (1.10.9)
+ DEBUG [50aa804e] 	 * rack-test (1.1.0)
+ DEBUG [50aa804e] 	 * xpath (3.2.0)
+ DEBUG [50aa804e] 	 * capybara (2.18.0)
+ DEBUG [50aa804e] 	 * childprocess (0.9.0)
+ DEBUG [50aa804e] 	 * middleware (0.1.0)
+ DEBUG [50aa804e] 	 * protobuf-cucumber (3.10.8)
+ DEBUG [50aa804e] 	 * cucumber-messages (12.1.1)
+ DEBUG [50aa804e] 	 * cucumber-gherkin (13.0.0)
+ DEBUG [50aa804e] 	 * cucumber-tag-expressions (2.0.4)
+ DEBUG [50aa804e] 	 * cucumber-core (7.0.0)
+ DEBUG [50aa804e] 	 * cucumber-cucumber-expressions (10.2.0)
+ DEBUG [50aa804e] 	 * cucumber-html-formatter (6.0.3)
+ DEBUG [50aa804e] 	 * cucumber-wire (3.0.0)
+ DEBUG [50aa804e] 	 * diff-lcs (1.3)
+ DEBUG [50aa804e] 	 * multi_test (0.1.2)
+ DEBUG [50aa804e] 	 * sys-uname (1.2.1)
+ DEBUG [50aa804e] 	 * cucumber (4.0.0)
+ DEBUG [50aa804e] 	 * rspec-support (3.9.3)
+ DEBUG [50aa804e] 	 * rspec-core (3.9.2)
+ DEBUG [50aa804e] 	 * rspec-expectations (3.9.2)
+ DEBUG [50aa804e] 	 * rspec-mocks (3.9.1)
+ DEBUG [50aa804e] 	 * rspec (3.9.0)
+ DEBUG [50aa804e] 	 * rubyzip (1.3.0)
+ DEBUG [50aa804e] 	 * selenium-webdriver (3.8.0)
+ DEBUG [50aa804e] 	Install missing gems with `bundle install`
+ DEBUG [50aa804e] Finished in 0.491 seconds with exit status 1 (failed).
+  INFO [95d73783] Running ~/.rvm/bin/rvm default do bundle install --path /srv/wikirate_transparency/shared/bundle --jobs 4 --without development test --deployment --quiet as deploy@kasper
+ DEBUG [95d73783] Command: cd /srv/wikirate_transparency/releases/20200613231520 && ~/.rvm/bin/rvm default do bundle install --path /srv/wikirate_transparency/shared/bundle --jobs 4 --without development test --deployment --quiet
+ DEBUG [95d73783] 	Warning, new version of rvm available '1.29.10', you are using older version '1.29.9'.
+You can disable this warning with:   echo rvm_autoupdate_flag=0 >> ~/.rvmrc
+You can enable auto-update with:     echo rvm_autoupdate_flag=2 >> ~/.rvmrc
+You can update manually with:        rvm get VERSION                         (e.g. 'rvm get stable')
+
+  INFO [95d73783] Finished in 0.716 seconds with exit status 0 (successful).
+  INFO [a76edf60] Running /usr/bin/env ln -s /srv/wikirate_transparency/releases/20200613231520 /srv/wikirate_transparency/releases/current as deploy@kasper
+ DEBUG [a76edf60] Command: /usr/bin/env ln -s /srv/wikirate_transparency/releases/20200613231520 /srv/wikirate_transparency/releases/current
+  INFO [a76edf60] Finished in 0.106 seconds with exit status 0 (successful).
+  INFO [c47b7d3c] Running /usr/bin/env mv /srv/wikirate_transparency/releases/current /srv/wikirate_transparency as deploy@kasper
+ DEBUG [c47b7d3c] Command: /usr/bin/env mv /srv/wikirate_transparency/releases/current /srv/wikirate_transparency
+  INFO [c47b7d3c] Finished in 0.107 seconds with exit status 0 (successful).
+ DEBUG [299806b6] Running if test ! -d /srv/wikirate_transparency/releases/20200613231520; then echo "Directory does not exist '/srv/wikirate_transparency/releases/20200613231520'" 1>&2; false; fi as deploy@kasper
+ DEBUG [299806b6] Command: if test ! -d /srv/wikirate_transparency/releases/20200613231520; then echo "Directory does not exist '/srv/wikirate_transparency/releases/20200613231520'" 1>&2; false; fi
+ DEBUG [299806b6] Finished in 0.108 seconds with exit status 0 (successful).
+  INFO [a1266920] Running ~/.rvm/bin/rvm default do bundle exec middleman build as deploy@kasper
+ DEBUG [a1266920] Command: cd /srv/wikirate_transparency/releases/20200613231520 && ~/.rvm/bin/rvm default do bundle exec middleman build
+ DEBUG [a1266920] 	      create  build/stylesheets/select2.min.css
+ DEBUG [a1266920] 	      create  build/stylesheets/site.css
+ DEBUG [a1266920] 	      create  build/stylesheets/select2-bootstrap4.min.css
+ DEBUG [a1266920] 	      create  build/stylesheets/select2-bootstrap.css
+ DEBUG [a1266920] 	      create  build/stylesheets/font-awesome.min.css
+ DEBUG [a1266920] 	      create  build/stylesheets/original_bootstrap.min.css
+ DEBUG [a1266920] 	      create  build/images/transparency_score/5.0.png
+ DEBUG [a1266920] 	      create  build/images/transparency_score/0.0.png
+      create  build/images/transparency_score/2.5.png
+ DEBUG [a1266920] 	      create  build/images/articles/a1.png
+ DEBUG [a1266920] 	      create  build/images/logo/PNG/CCC_FashionChecker_RGB_vertical.png
+      create  build/images/logo/PNG/CCC_FashionChecker_RGB_vertical_boxed.png
+ DEBUG [a1266920] 	      create  build/images/logo/PNG/CCC_FashionChecker_RGB_horizontal_boxed.png
+ DEBUG [a1266920] 	      create  build/images/spotlight.png
+ DEBUG [a1266920] 	      create  build/images/logo/PNG/CCC_FashionChecker_RGB_horizontal.png
+ DEBUG [a1266920] 	      create  build/images/wage_score/C.png
+      create  build/images/wage_score/A.png
+      create  build/images/living-wage.png
+ DEBUG [a1266920] 	      create  build/images/wage_score/D.png
+ DEBUG [a1266920] 	      create  build/images/wage_score/B.png
+ DEBUG [a1266920] 	      create  build/images/wage_score/E.png
+ DEBUG [a1266920] 	      create  build/images/transparency_score/7.5.png
+ DEBUG [a1266920] 	      create  build/images/smiley_red.png
+ DEBUG [a1266920] 	      create  build/images/transparency_score/10.0.png
+ DEBUG [a1266920] 	      create  build/images/smiley/No.png
+ DEBUG [a1266920] 	      create  build/images/smiley/Yes.png
+ DEBUG [a1266920] 	      create  build/images/smiley/Partial.png
+ DEBUG [a1266920] 	      create  build/fonts/fontawesome-webfont.woff
+ DEBUG [a1266920] 	      create  build/fonts/fontawesome-webfont.woff2
+ DEBUG [a1266920] 	      create  build/fonts/FontAwesome.otf
+ DEBUG [a1266920] 	      create  build/fonts/fontawesome-webfont.ttf
+ DEBUG [a1266920] 	      create  build/fonts/fontawesome-webfont.eot
+ DEBUG [a1266920] 	      create  build/images/logo/SVG/CCC_FashionChecker_RGB_vertical.svg
+ DEBUG [a1266920] 	      create  build/images/logo/SVG/CCC_FashionChecker_RGB_vertical_spot.svg
+ DEBUG [a1266920] 	      create  build/images/CCC_FashionChecker_RGB_horizontal.svg
+ DEBUG [a1266920] 	      create  build/images/logo/SVG/CCC_FashionChecker_RGB_horizontal.svg
+ DEBUG [a1266920] 	      create  build/images/logo/SVG/CCC_FashionChecker_RGB_horizontal_boxed.svg
+ DEBUG [a1266920] 	      create  build/images/logo/SVG/CCC_FashionChecker_RGB_vertical_boxed.svg
+ DEBUG [a1266920] 	      create  build/fonts/fontawesome-webfont.svg
+ DEBUG [a1266920] 	      create  build/images/logo/EPS/CCC_FashionChecker_RGB_horizontal.eps
+ DEBUG [a1266920] 	      create  build/images/logo/EPS/CCC_FashionChecker_RGB_vertical_boxed.eps
+ DEBUG [a1266920] 	      create  build/images/logo/EPS/CCC_FashionChecker_RGB_horizontal_boxed.eps
+ DEBUG [a1266920] 	      create  build/images/logo/EPS/CCC_FashionChecker_RGB_vertical.eps
+ DEBUG [a1266920] 	      create  build/javascripts/jquery.min.js
+ DEBUG [a1266920] 	      create  build/javascripts/select2.min.js
+ DEBUG [a1266920] 	      create  build/images/.keep
+ DEBUG [a1266920] 	      create  build/javascripts/select2.full.min.js
+ DEBUG [a1266920] 	      create  build/javascripts/bootstrap.min.js
+ DEBUG [a1266920] 	      create  build/javascripts/bootstrap.min.js.map
+ DEBUG [a1266920] 	      create  build/index.html
+ DEBUG [a1266920] 	      create  build/brand-profile.html
+ DEBUG [a1266920] 	      create  build/javascripts/render_brand_info.js
+ DEBUG [a1266920] 	      create  build/javascripts/site.js
+ DEBUG [a1266920] 	Project built successfully.
+  INFO [a1266920] Finished in 2.930 seconds with exit status 0 (successful).
+ DEBUG [e1ed61a5] Running /usr/bin/env ls -x /srv/wikirate_transparency/releases as deploy@kasper
+ DEBUG [e1ed61a5] Command: /usr/bin/env ls -x /srv/wikirate_transparency/releases
+ DEBUG [e1ed61a5] 	20200523002258	20200525133039	20200613222603	20200613222757	20200613231104
+20200613231520
+ DEBUG [e1ed61a5] Finished in 0.105 seconds with exit status 0 (successful).
+  INFO Keeping 5 of 6 deployed releases on kasper
+ DEBUG [c43477ae] Running [ -d /srv/wikirate_transparency/current ] as deploy@kasper
+ DEBUG [c43477ae] Command: [ -d /srv/wikirate_transparency/current ]
+ DEBUG [c43477ae] Finished in 0.104 seconds with exit status 0 (successful).
+ DEBUG [4f6e197d] Running /usr/bin/env readlink /srv/wikirate_transparency/current as deploy@kasper
+ DEBUG [4f6e197d] Command: /usr/bin/env readlink /srv/wikirate_transparency/current
+ DEBUG [4f6e197d] 	/srv/wikirate_transparency/releases/20200613231520
+ DEBUG [4f6e197d] Finished in 0.115 seconds with exit status 0 (successful).
+  INFO [9d35130d] Running /usr/bin/env rm -rf /srv/wikirate_transparency/releases/20200523002258 as deploy@kasper
+ DEBUG [9d35130d] Command: /usr/bin/env rm -rf /srv/wikirate_transparency/releases/20200523002258
+  INFO [9d35130d] Finished in 0.153 seconds with exit status 0 (successful).
+ DEBUG [8f60275f] Running if test ! -d /srv/wikirate_transparency/releases; then echo "Directory does not exist '/srv/wikirate_transparency/releases'" 1>&2; false; fi as deploy@kasper
+ DEBUG [8f60275f] Command: if test ! -d /srv/wikirate_transparency/releases; then echo "Directory does not exist '/srv/wikirate_transparency/releases'" 1>&2; false; fi
+ DEBUG [8f60275f] Finished in 0.107 seconds with exit status 0 (successful).
+  INFO [0be45cff] Running /usr/bin/env echo "Branch master (at 656b27b1c29065740ad0b8ab54afe96bf6bb15f8) deployed as release 20200613231520 by philipp" >> /srv/wikirate_transparency/revisions.log as deploy@kasper
+ DEBUG [0be45cff] Command: cd /srv/wikirate_transparency/releases && /usr/bin/env echo "Branch master (at 656b27b1c29065740ad0b8ab54afe96bf6bb15f8) deployed as release 20200613231520 by philipp" >> /srv/wikirate_transparency/revisions.log
+  INFO [0be45cff] Finished in 0.108 seconds with exit status 0 (successful).
