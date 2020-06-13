@@ -1,0 +1,23 @@
+%header
+  #navbarHeader.collapse.red-bg
+    .container
+      .row.red-bg
+        .col-sm-8.col-md-7.py-4
+          %h4.text-white About
+          %p.text-muted Add some information about CCC
+        .col-sm-4.offset-md-1.py-4
+          %h4.text-white Contact
+          %ul.list-unstyled
+            %li
+              %a.text-white{:href => "#"} Follow on Twitter
+            %li
+              %a.text-white{:href => "#"} Like on Facebook
+            %li
+              %a.text-white{:href => "#"} Email me
+  .navbar.navbar-dark.red-bg.shadow-sm
+    .container.d-flex.justify-content-between
+      %a.navbar-brand.d-flex.align-items-center{:href => "#"}
+        %img{src: "images/CCC_FashionChecker_RGB_horizontal.svg",
+        height: "50px", width: "auto"}
+      %button.navbar-toggler{"aria-controls" => "navbarHeader", "aria-expanded" => "false", "aria-label" => "Toggle navigation", "data-target" => "#navbarHeader", "data-toggle" => "collapse", :type => "button"}
+        %span.navbar-toggler-icon

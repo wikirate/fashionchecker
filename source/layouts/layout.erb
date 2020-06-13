@@ -5,7 +5,7 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Use the title from a page's frontmatter if it has one -->
-    <title><%= current_page.data.title || "CCC-Wikirate Widget" %></title>
+    <title><%= current_page.data.title || "CCC-Transparency tool" %></title>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-114920514-1"></script>
@@ -16,17 +16,16 @@
 
       gtag('config', 'UA-114920514-1');
     </script>
-    <link href="https://fonts.googleapis.com/css2?family=Squada+One&display=swap" rel="stylesheet">
-
-    <%= stylesheet_link_tag "cyborg.bootstrap" %>
+    <link href="https://fonts.googleapis.com/css2?family=Karla&display=swap" rel="stylesheet">
     <%= stylesheet_link_tag "font-awesome.min" %>
-    <%= stylesheet_link_tag "select2" %>
-    <%= stylesheet_link_tag "select2-bootstrap" %>
+    <%= stylesheet_link_tag "select2.min" %>
+    <%= stylesheet_link_tag "select2-bootstrap4.min" %>
     <%= stylesheet_link_tag "site" %>
     <%= javascript_include_tag "jquery.min" %>
     <%= javascript_include_tag "bootstrap.min" %>
     <%= javascript_include_tag "select2.full.min" %>
-    <%= javascript_include_tag "site-v3" %>
+    <%= javascript_include_tag "site" %>
+
   </head>
   <body>
     <%= yield %>

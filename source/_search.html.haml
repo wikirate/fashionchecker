@@ -1,7 +1,6 @@
-%h5.font-weight-light.pb-2 Search
 .form-group
   .input-group
     .input-group-prepend
-      %span.input-group-text
+      %span.input-group-text.yellow-bg
         %i.fa.fa-search
-    %select.form-control._factory-search#brand-select{:placeholder => "Brand", :type => "text"}
+    %select.form-control._brand-search{id: id, :placeholder => "search for brand", :type => "text"}

@@ -1,28 +1,117 @@
-
-.container-fluid.yellow
-  .row
-    .col-sm-3.red
-      .d-flex.flex-column.justify-content-center
-        %img.side-bar-image{src: "images/spotlight.png"}
-        %h2.text-white Fashion
-        %h2.text-yellow Checker
-    .col-sm-9
-      .row{:style => "margin-top:13px;"}
-        .col
-          = partial :search
-      .row{:style => "margin-top:20px;"}
-        .col
-          = partial :result
+%body
+  = partial :header
+  %main{:role => "main"}
+    = partial :section, locals: { color: "red-bg" } do
       .row
-        .col.d-flex.flew-row-reverse.justify-content-between
-          %span
-            %a.mt-1._embed-info{class: "btn btn-sm btn-dark",
-                                href: "#",
-                                data: { toggle: "modal", target: "#embedModal"}}
-              embed this page
-          %small.text-light
-            powered by
-            %a.text-light{href: "https://wikirate.org"} WikiRate
-      
-= partial :embed_info
+        .col-sm-6
+          .span.display-4.text-white
+            Are the people who make your clothes
+          .span.display-4.text-yellow
+            paid enough to live on?
+          %p.pt-3
+            Find out which apparel and footwear
+            brands pay their workers a Living Wage.
+          = partial :search,  locals: { id: "brand-redirect" }
+        .col-sm-6
+          %img.float-right{src: "images/logo/SVG/CCC_FashionChecker_RGB_vertical_spot.svg",
+               height: "400px", width: "auto"}
+
+    = partial :section, locals: { color: "pink-bg" } do
+      .row
+        .col-sm-6
+          .span.display-3.fushia
+            Living Wages
+          .span.display-3.red
+            Not poverty wages
+        .col-sm-6
+          %p.red.lead
+            The majority of garment workers are unable to afford life's basic
+            necessities. Fair pay for labour is a fundamental human right
+            but none of the biggest fashion brands pay garment workers a wage
+            they can live on.
+          %a.btn.btn-primary.btn-sm{href: "#"}
+            Read more about living wages.
+      .row.navy-bg.p-4.mt-4
+        .col-sm-12
+          %h5.text-center What difference does it make to be earning a living wage instead of a minimum wage?
+          %img{src: "images/living-wage.png", width: "500px"}
+    = partial :section, locals: { color: "yellow-bg" } do
+      .row
+        .col-sm-6
+          .span.display-3.red
+            End
+          .span.display-3.fushia
+            Gendered Pay
+        .col-sm-6
+          %p.red.lead
+            The majority of garment workers are unable to afford life's basic
+            necessities. Fair pay for labour is a fundamental human right
+            but none of the biggest fashion brands pay garment workers a wage
+            they can live on.
+          %a.btn.btn-primary.btn-sm{href: "#"}
+            Gender
+    .container-fluid.red-bg
+      .container
+        .row.py-4
+          .col-sm-6
+            .span.display-3
+              Resilience
+            .span.display-3.yellow
+              In the face of a crisis
+          .col-sm-6
+            %p.lead
+              The majority of garment workers are unable to afford life's basic
+              necessities. Fair pay for labour is a fundamental human right
+              but none of the biggest fashion brands pay garment workers a wage
+              they can live on.
+            %a.btn.btn-primary.btn-sm{href: "#"}
+              Our Demands
+    = partial :section, locals: { color: "navy-bg" } do
+      .row
+        .col-sm-12
+          %h6
+            Your voice has power
+          %a.btn.btn-primary.btn-sm{href: "#"}
+            Take Action
+
+    = partial :section, locals: { color: "grey-bg" } do
+      .row.text-center
+        .col-sm-12
+          .span.display-3.fushia
+            Latest
+          .span.display-3
+            News
+
+      .row
+        .col-sm-4
+          .card
+            %img.card-img-top{src: "images/articles/a1.png"}
+            .card-body
+              %h5.card-title Article
+              %p.card-text With supporting text below as a natural lead-in to additional content.
+        .col-sm-4
+          .card
+            %img.card-img-top{src: "images/articles/a1.png"}
+            .card-body
+              %h5.card-title Article
+              %p.card-text With supporting text below as a natural lead-in to additional content.
+        .col-sm-4
+          .card
+            %img.card-img-top{src: "images/articles/a1.png"}
+            .card-body
+              %h5.card-title Article
+              %p.card-text With supporting text below as a natural lead-in to additional content.
+  = partial :section, locals: { color: "black-bg" } do
+    .col-sm-6
+      %p
+        Fashion checker is a campaign
+        by the Clean Clothes Campaign,
+        funded by the European Union
+    .col-sm-6
+  %footer.text-muted.black-bg
+    .container
+      %p
+        powered by
+        %a.text-light{href: "https://wikirate.org"} WikiRate
+
 

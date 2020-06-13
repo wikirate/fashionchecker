@@ -1,24 +1,125 @@
+
 html {
   height: 100%;
 }
 
+$font-family-sans-serif: 'Karla';
+$font-family-monospace: 'ptf_nordic_stdnormal';
 $side-red: #fb4922;
+$orange: #fb4922;
 $yellow: #f9fe9c;
-$pink: #ed40d9;
+$pink: #fcc9fd;
+$navy: #1d1d2f;
+$medium-grey: #e9e4e3;
+$light-grey: #f4f2f2;
+$white: #fff;
+$fushia: #ed40d9;
+$blue: #223366;;
+$light-blue: #5566bb;
+$other-blue: #6677cc;
+$medium-blue: #334477;
+
+$body-bg: $orange;
+$body-color: $yellow;
+$card-bg: $navy;
+$card-header-bg: $navy;
+
+$primary: $pink;
+$theme-colors: (
+  "primary": #fcc9fd
+);
+
+@font-face {
+  font-family: 'ptf_nordic_stdnormal';
+  src: url('../fonts/ptf-nordic-std-webfont.woff2') format('woff2'),
+  url('../fonts/ptf-nordic-std-webfont.woff') format('woff'),
+  url('../fonts/ptf-nordic-std.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 
 body {
-  background-color: $side-red;
-  font-family: 'Squada One', cursive;
+  // background-color: $orange;
+  font-family: 'Karla', sans-serif;
   //font-family: -apple-system, BlinkMacSystemFont, "Righteous", "Avenir",
   //  "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans",
   //  "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu",
   //  "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
-  padding: 18vh 1rem;
   font-size: 1rem;
-  line-height: 1;
+  line-height: 1.2  ;
   // background: linear-gradient(135deg, #674ea7 0%, #3F51B5 100%) fixed;
 }
 
+h1 {
+  font-family: 'ptf_nordic_stdnormal' !important;
+  text-transform: uppercase;
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+.container {
+  max-width: 600px;
+}
+
+.brand {
+  font-size: 0.7rem;
+  color: $medium-grey;
+  h6 {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+  }
+
+  dl {
+    font-size: 0.8rem;
+  }
+
+  a {
+    color: $pink;
+
+  }
+  dt, dd {
+    border-bottom: 1px solid $medium-grey;
+    padding-bottom: 10px;
+  }
+}
+
+.section {
+  border-top: 2px solid $white;
+  padding-top: 20px;
+}
+
+#brand-select {
+  max-width: 200px;
+}
+.btn-primary {
+  background-color: $fushia;
+  color: $pink;
+  border-color: $fushia;
+  border-radius: 15px;
+  text-transform: uppercase;
+  font-family: 'Karla', sans-serif;
+}
+
+.btn-sm {
+  font-size: 0.7rem;
+}
+.display-4 {
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: 100;
+  line-height: 1;
+  font-family: 'ptf_nordic_stdnormal';
+}
+
+.display-3 {
+  text-transform: uppercase;
+  font-size: 3.1rem;
+  font-weight: 100;
+  line-height: 1;
+  font-family: 'ptf_nordic_stdnormal';
+}
 
 #circle {
   width: 150px;
@@ -30,14 +131,86 @@ body {
   max-width: 150px;
 }
 
+.tiny {
+  font-size: 0.5rem;
+}
 .red {
-  background-color: $side-red;
+  color: $orange;
+}
+
+.red-bg {
+  background-color: $orange;
   color: #fff;
 }
 
+.orange {
+  background-color: $orange;
+  color: $yellow;
+}
+
+.navy-bg {
+  background-color: $navy;
+  color: $white;
+}
+
+.blue-bg {
+  background-color: $blue;
+  color: $white;
+}
+
+.light-blue-bg {
+  background-color: $light-blue;
+  color: $white;
+}
+
+.medium-blue-bg {
+  background-color: $medium-blue;
+  color: $white;
+}
+
+.other-blue-bg {
+  background-color: $other-blue;
+  color: $white;
+}
+
+.white-bg {
+  background-color: $white;
+  color: #000000;
+}
+
+
+.fushia-bg {
+  background-color: $fushia;
+}
+
+.black-bg {
+  background-color: #000;
+  color: $white;
+}
+
+.fushia {
+  color: $fushia;
+}
+
+.pink {
+  color: $pink;
+}
+
+.grey-bg {
+  background-color: $medium-grey;
+  color: $orange;
+}
+.pink-bg {
+  background-color: $pink;
+}
+
 .yellow {
+  color: $yellow;
+}
+
+.yellow-bg {
   background-color: $yellow;
-  color:  #181715;
+  color: $orange;
 }
 
 .text-yellow {
@@ -47,10 +220,13 @@ body {
 .text-red {
   color: $side-red;
 }
-.pink {
+.text-pink {
   color: $pink !important;
 }
 
+.card-text {
+  color: #000;
+}
 
 .list-style-none > li {
   list-style: none;
@@ -124,3 +300,6 @@ input {
     font-size: 1rem;
   }
 }
+
+
+@import "bootstrap/bootstrap.css";
