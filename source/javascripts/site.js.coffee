@@ -4,7 +4,6 @@ $.fn.select2.defaults.set("theme", "bootstrap4")
 API_HOST = "https://dev.wikirate.org"
 ## "http://127.0.0.1:3000" # "https://staging.wikirate.org
 
-LINK_TARGET_HOST = "https://wikirate.org"
 METRIC_URL = "#{API_HOST}/:commons_supplier_of"
 BRAND_LIST_URL = "#{API_HOST}/company.json?view=brands_select2"
 
@@ -14,11 +13,6 @@ $(document).ready ->
   $("._brand-search").select2
     placeholder: "search for brand"
     allowClear: true
-    #data: [{"id":"8994","text":"Google"},
-    #  {"id":"18215","text":"Zara > Inditex"},
-    #  {"id":"1215","text":"Zalando"},
-    #  {"id":"1215","text":"Inditex"},
-    #  {"id":"1578","text":"Apple"}]
     ajax:
       url: BRAND_LIST_URL
       dataType: "json"
@@ -51,6 +45,14 @@ $(document).ready ->
     # $("#brand-select").val params.get("q")
     # $("#barnd-select").trigger "change"
 
+updateSuppliersTable = ($collapse) ->
+  loadOnlyOnce $collapse, ($collapse) ->
+    $.ajax(url: suppliedCompaniesSearchURL($collapse), dataType: "json").done((data) ->
+      tbody = $collapse.find("tbody")
+      tbody.find("tr.loading").remove()
+      for company, year of data
+        addRow tbody, company, year
+    )
 
 loadBrandInfo = (company_id) ->
   $.ajax(url: brandInfoURL(company_id), dataType: "json").done((data) ->
@@ -61,3 +63,12 @@ loadBrandInfo = (company_id) ->
 
 brandInfoURL = (company_id) ->
   "#{API_HOST}/~#{company_id}.json?view=transparency_info"
+
+loadOnlyOnce = ($target, load) ->
+  return if $target.hasClass("_loaded")
+  $target.addClass("_loaded")
+  load($target)
+
+suppliedCompaniesSearchURL = (elem) ->
+  factory = elem.data("company-url-key")
+  "#{METRIC_URL}+#{factory}.json?view=related_companies_with_year"

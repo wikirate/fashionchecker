@@ -8,11 +8,13 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   inkscape:version="1.0rc1 (09960d6, 2020-04-09)"
-   sodipodi:docname="CCC_FashionChecker_RGB_vertical_spot.svg"
-   id="svg84"
+   height="607.50989"
+   width="463.31"
+   viewBox="0 0 463.30999 607.50988"
    version="1.1"
-   viewBox="0 0 466.88 887.63">
+   id="svg84"
+   sodipodi:docname="CCC_FashionChecker_RGB_vertical_spot.svg"
+   inkscape:version="1.0rc1 (09960d6, 2020-04-09)">
   <metadata
      id="metadata88">
     <rdf:RDF>
@@ -25,231 +27,234 @@
     </rdf:RDF>
   </metadata>
   <sodipodi:namedview
-     inkscape:current-layer="svg84"
-     inkscape:window-maximized="0"
-     inkscape:window-y="0"
-     inkscape:window-x="0"
-     inkscape:cy="408.06708"
-     inkscape:cx="233.44"
-     inkscape:zoom="0.72890731"
-     showgrid="false"
-     id="namedview86"
-     inkscape:window-height="900"
-     inkscape:window-width="1440"
-     inkscape:pageshadow="2"
-     inkscape:pageopacity="0"
-     guidetolerance="10"
-     gridtolerance="10"
-     objecttolerance="10"
-     borderopacity="1"
+     inkscape:document-rotation="0"
+     pagecolor="#ffffff"
      bordercolor="#666666"
-     pagecolor="#ffffff" />
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1440"
+     inkscape:window-height="855"
+     id="namedview86"
+     showgrid="false"
+     inkscape:zoom="0.72890731"
+     inkscape:cx="232.1"
+     inkscape:cy="407.29698"
+     inkscape:window-x="0"
+     inkscape:window-y="23"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg84" />
   <defs
      id="defs55">
     <style
        id="style10">.cls-1{fill:url(#linear-gradient);filter:url(#luminosity-noclip);}.cls-2{fill:url(#linear-gradient-2);}.cls-3{fill:none;}.cls-4{isolation:isolate;}.cls-5{fill:#f9fe9c;}.cls-6{fill:#fff;}.cls-7{mix-blend-mode:screen;}.cls-8{fill:url(#radial-gradient);}.cls-9{clip-path:url(#clip-path);}.cls-10{mask:url(#mask);}.cls-11{clip-path:url(#clip-path-2);}.cls-12{mask:url(#mask-2);}.cls-13{filter:url(#luminosity-noclip-2);}</style>
     <linearGradient
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0, -19.74, -19.74, 0, 16942.94, -533.54)"
-       y2="846.29"
+       id="linear-gradient"
+       x1="-42.209999"
+       y1="846.28998"
        x2="-39.68"
-       y1="846.29"
-       x1="-42.21"
-       id="linear-gradient">
+       y2="846.28998"
+       gradientTransform="matrix(0,-19.74,-19.74,0,16942.94,-533.54)"
+       gradientUnits="userSpaceOnUse">
       <stop
-         id="stop12"
+         offset="0"
          stop-color="#fff"
-         offset="0" />
+         id="stop12" />
       <stop
-         id="stop14"
-         offset="1" />
+         offset="1"
+         id="stop14" />
     </linearGradient>
     <linearGradient
-       xlink:href="#linear-gradient"
-       gradientTransform="matrix(0, -21.98, -19.74, 0, 16616.67, 205.92)"
-       y2="838.92"
-       x2="11.28"
-       y1="838.92"
+       id="linear-gradient-2"
        x1="10.58"
-       id="linear-gradient-2" />
+       y1="838.91998"
+       x2="11.28"
+       y2="838.91998"
+       gradientTransform="matrix(0,-21.98,-19.74,0,16616.67,205.92)"
+       xlink:href="#linear-gradient" />
     <radialGradient
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.34,0.94,-0.5,0.18,39.64,-27.12)"
-       r="649.59"
+       id="radial-gradient"
+       cx="45.639999"
        cy="19.26"
-       cx="45.64"
-       id="radial-gradient">
+       r="649.59003"
+       gradientTransform="matrix(0.34,0.94,-0.5,0.18,39.64,-27.12)"
+       gradientUnits="userSpaceOnUse">
       <stop
-         id="stop18"
+         offset="0"
          stop-color="#f9fe9c"
-         offset="0" />
+         id="stop18" />
       <stop
-         id="stop20"
-         stop-opacity="0.92"
+         offset="0.1"
          stop-color="#f9fea3"
-         offset="0.1" />
+         stop-opacity="0.92"
+         id="stop20" />
       <stop
-         id="stop22"
-         stop-opacity="0.73"
+         offset="0.29"
          stop-color="#fbfeb7"
-         offset="0.29" />
+         stop-opacity="0.73"
+         id="stop22" />
       <stop
-         id="stop24"
-         stop-opacity="0.41"
+         offset="0.57"
          stop-color="#fdffd6"
-         offset="0.57" />
+         stop-opacity="0.41"
+         id="stop24" />
       <stop
-         id="stop26"
-         stop-opacity="0.04"
+         offset="0.87"
          stop-color="#fffffb"
-         offset="0.87" />
+         stop-opacity="0.04"
+         id="stop26" />
       <stop
-         id="stop28"
-         stop-opacity="0"
+         offset="1"
          stop-color="#fff"
-         offset="1" />
+         stop-opacity="0"
+         id="stop28" />
     </radialGradient>
     <clipPath
        id="clip-path">
       <rect
-         id="rect31"
-         height="213.75"
-         width="463.31"
-         y="394.54"
+         class="cls-3"
          x="1.34"
-         class="cls-3" />
+         y="394.54001"
+         width="463.31"
+         height="213.75"
+         id="rect31" />
     </clipPath>
     <filter
-       color-interpolation-filters="sRGB"
-       filterUnits="userSpaceOnUse"
-       height="641.2"
-       width="508.82"
-       y="-30.39"
+       id="luminosity-noclip"
        x="-21.42"
-       id="luminosity-noclip">
+       y="-30.389999"
+       width="508.82001"
+       height="641.20001"
+       filterUnits="userSpaceOnUse"
+       color-interpolation-filters="sRGB">
       <feFlood
-         id="feFlood34"
+         flood-color="#fff"
          result="bg"
-         flood-color="#fff" />
+         id="feFlood34" />
       <feBlend
-         id="feBlend36"
+         mode="normal"
+         in="SourceGraphic"
          in2="bg"
-         in="SourceGraphic" />
+         id="feBlend36" />
     </filter>
     <mask
-       maskUnits="userSpaceOnUse"
-       height="641.2"
-       width="508.82"
-       y="-30.39"
+       id="mask"
        x="-21.42"
-       id="mask">
+       y="-30.39"
+       width="508.82"
+       height="641.2"
+       maskUnits="userSpaceOnUse">
       <rect
-         id="rect39"
-         height="213.75"
-         width="463.31"
-         y="394.54"
+         class="cls-1"
          x="1.34"
-         class="cls-1" />
+         y="394.54001"
+         width="463.31"
+         height="213.75"
+         id="rect39" />
     </mask>
     <clipPath
        id="clip-path-2">
       <rect
-         id="rect42"
-         height="233.97"
-         width="508.82"
-         y="376.84"
+         class="cls-3"
          x="-21.42"
-         class="cls-3" />
+         y="376.84"
+         width="508.82001"
+         height="233.97"
+         id="rect42" />
     </clipPath>
     <filter
-       color-interpolation-filters="sRGB"
-       filterUnits="userSpaceOnUse"
-       height="90.93"
-       width="117.66"
+       id="luminosity-noclip-2"
+       x="-6.6100001"
        y="-10.15"
-       x="-6.61"
-       id="luminosity-noclip-2">
+       width="117.66"
+       height="90.93"
+       filterUnits="userSpaceOnUse"
+       color-interpolation-filters="sRGB">
       <feFlood
-         id="feFlood45"
+         flood-color="#fff"
          result="bg"
-         flood-color="#fff" />
+         id="feFlood45" />
       <feBlend
-         id="feBlend47"
+         mode="normal"
+         in="SourceGraphic"
          in2="bg"
-         in="SourceGraphic" />
+         id="feBlend47" />
     </filter>
     <mask
-       maskUnits="userSpaceOnUse"
-       height="90.93"
-       width="117.66"
-       y="-10.15"
+       id="mask-2"
        x="-6.61"
-       id="mask-2">
+       y="-10.15"
+       width="117.66"
+       height="90.93"
+       maskUnits="userSpaceOnUse">
       <g
-         id="g52"
-         class="cls-13">
+         class="cls-13"
+         id="g52">
         <rect
-           id="rect50"
-           transform="matrix(0.96, -0.27, 0.27, 0.96, -7.52, 15.17)"
-           height="65.64"
-           width="103.94"
-           y="2.5"
+           class="cls-2"
            x="0.25"
-           class="cls-2" />
+           y="2.5"
+           width="103.94"
+           height="65.639999"
+           transform="matrix(0.96,-0.27,0.27,0.96,-7.52,15.17)"
+           id="rect50" />
       </g>
     </mask>
   </defs>
   <title
      id="title57">CCC_FashionChecker_RGB_</title>
   <g
-     transform="matrix(-1,0,0,1,465.99,0)"
-     id="g65"
+     style="isolation:isolate"
      class="cls-7"
-     style="isolation:isolate">
+     id="g65"
+     transform="matrix(-1,0,0,1,464.65,-0.77010143)">
     <path
-       inkscape:connector-curvature="0"
-       style="fill:url(#radial-gradient)"
-       id="path63"
+       class="cls-8"
        d="M 450.87,465.08 97.85,13.16 C 90.65,5.35 63,4.89 42.19,12.4 7.18,25.07 1.34,40.31 1.34,46 v 457.7 z"
-       class="cls-8" />
+       id="path63"
+       style="fill:url(#radial-gradient)"
+       inkscape:connector-curvature="0" />
   </g>
   <g
-     transform="matrix(-1,0,0,1,465.99,0)"
-     id="g75"
-     clip-path="url(#clip-path)"
+     style="isolation:isolate"
      class="cls-9"
-     style="isolation:isolate">
+     clip-path="url(#clip-path)"
+     id="g75"
+     transform="matrix(-1,0,0,1,464.65,-0.77010143)">
     <g
-       id="g73"
+       class="cls-10"
        mask="url(#mask)"
-       class="cls-10">
+       id="g73">
       <g
-         id="g71"
+         class="cls-11"
          clip-path="url(#clip-path-2)"
-         class="cls-11">
+         id="g71">
         <path
-           inkscape:connector-curvature="0"
-           id="path67"
+           class="cls-5"
            d="m 233,608.28 c 127.94,0 231.66,-47.84 231.66,-106.87 0,-59.03 -103.73,-106.87 -231.66,-106.87 -127.93,0 -231.66,47.84 -231.66,106.87 0,59.03 103.71,106.87 231.66,106.87"
-           class="cls-5" />
+           id="path67"
+           inkscape:connector-curvature="0" />
         <path
-           inkscape:connector-curvature="0"
-           id="path69"
+           class="cls-5"
            d="m 39.77,5.07 c 21.23,0 38.43,-7.93 38.43,-17.73 0,-9.8 -17.2,-17.73 -38.43,-17.73 -21.23,0 -38.43,7.94 -38.43,17.73 0,9.79 17.2,17.73 38.43,17.73"
-           class="cls-5" />
+           id="path69"
+           inkscape:connector-curvature="0" />
       </g>
     </g>
   </g>
   <g
-     transform="matrix(-1,0,0,1,465.99,0)"
-     id="g79"
-     mask="url(#mask-2)"
+     style="isolation:isolate"
      class="cls-12"
-     style="isolation:isolate">
+     mask="url(#mask-2)"
+     id="g79"
+     transform="matrix(-1,0,0,1,464.65,-0.77010143)">
     <path
-       inkscape:connector-curvature="0"
-       id="path77"
+       class="cls-6"
        d="M 61,67 C 88.66,59.36 107.18,39 102.36,21.53 97.54,4.06 71.16,-4 43.49,3.68 15.82,11.36 -2.7,31.67 2.13,49.15 6.96,66.63 33.29,74.59 61,67"
-       class="cls-6" />
+       id="path77"
+       inkscape:connector-curvature="0" />
   </g>
 </svg>

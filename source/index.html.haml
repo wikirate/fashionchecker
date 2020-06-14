@@ -1,22 +1,33 @@
 %body
-  = partial :header
+  = partial "partials/header"
   %main{:role => "main"}
-    = partial :section, locals: { color: "red-bg" } do
+    = section :red do
       .row
         .col-sm-6
           .span.display-4.text-white
             Are the people who make your clothes
-          .span.display-4.text-yellow
+          .span.display-4.yellow
             paid enough to live on?
           %p.pt-3
             Find out which apparel and footwear
             brands pay their workers a Living Wage.
-          = partial :search,  locals: { id: "brand-redirect" }
+          = brand_profile_partial :search,  locals: { id: "brand-redirect" }
         .col-sm-6
           %img.float-right{src: "images/logo/SVG/CCC_FashionChecker_RGB_vertical_spot.svg",
-               height: "400px", width: "auto"}
+               height: "300px", width: "auto"}
 
-    = partial :section, locals: { color: "pink-bg" } do
+    = section :yellow do
+      .container.navy-bg.p-4
+        .row
+          .col-sm-6
+            %h2 Zara
+          .col-sm-6.text-right
+            %div
+              %img{src: "images/smiley_red.png", width: "70px"}
+        .row.brand.mx-0.mt-3.navy-bg
+          = brand_profile_partial "score/living_wage"
+
+    = section :pink do
       .row
         .col-sm-6
           .span.display-3.fushia
@@ -31,11 +42,13 @@
             they can live on.
           %a.btn.btn-primary.btn-sm{href: "#"}
             Read more about living wages.
-      .row.navy-bg.p-4.mt-4
+      .row
         .col-sm-12
-          %h5.text-center What difference does it make to be earning a living wage instead of a minimum wage?
-          %img{src: "images/living-wage.png", width: "500px"}
-    = partial :section, locals: { color: "yellow-bg" } do
+          .navy-bg.px-5.py-4.mt-4
+            %h5.text-center What difference does it make to be earning a living wage instead of a minimum wage?
+            %img{src: "images/living-wage.png", width: "500px"}
+
+    = section :yellow do
       .row
         .col-sm-6
           .span.display-3.red
@@ -50,68 +63,39 @@
             they can live on.
           %a.btn.btn-primary.btn-sm{href: "#"}
             Gender
-    .container-fluid.red-bg
-      .container
-        .row.py-4
-          .col-sm-6
-            .span.display-3
-              Resilience
-            .span.display-3.yellow
-              In the face of a crisis
-          .col-sm-6
-            %p.lead
-              The majority of garment workers are unable to afford life's basic
-              necessities. Fair pay for labour is a fundamental human right
-              but none of the biggest fashion brands pay garment workers a wage
-              they can live on.
-            %a.btn.btn-primary.btn-sm{href: "#"}
-              Our Demands
-    = partial :section, locals: { color: "navy-bg" } do
+    = section :red do
+      .row
+        .col-sm-6
+          .span.display-3
+            Resilience
+          .span.display-3.yellow
+            In the face of a crisis
+        .col-sm-6
+          %p.lead
+            The majority of garment workers are unable to afford life's basic
+            necessities. Fair pay for labour is a fundamental human right
+            but none of the biggest fashion brands pay garment workers a wage
+            they can live on.
+          %a.btn.btn-primary.btn-sm{href: "#"}
+            Our Demands
+    = section :navy do
       .row
         .col-sm-12
           %h6
             Your voice has power
+          %p
+            Your support makes our work possible.
+            It's time brands take responsibility for
+            the lives of the people who make our clothes.
+            As consumers, we have power. When we speak,
+            brands listen. Ask brands to pay a&nbsp;
+            %span.fushia<> #LivingWageNow
+            , to ensure your clothes are no longer made with
+            exploitation.
           %a.btn.btn-primary.btn-sm{href: "#"}
             Take Action
+    = partial "partials/homepage/news"
 
-    = partial :section, locals: { color: "grey-bg" } do
-      .row.text-center
-        .col-sm-12
-          .span.display-3.fushia
-            Latest
-          .span.display-3
-            News
-
-      .row
-        .col-sm-4
-          .card
-            %img.card-img-top{src: "images/articles/a1.png"}
-            .card-body
-              %h5.card-title Article
-              %p.card-text With supporting text below as a natural lead-in to additional content.
-        .col-sm-4
-          .card
-            %img.card-img-top{src: "images/articles/a1.png"}
-            .card-body
-              %h5.card-title Article
-              %p.card-text With supporting text below as a natural lead-in to additional content.
-        .col-sm-4
-          .card
-            %img.card-img-top{src: "images/articles/a1.png"}
-            .card-body
-              %h5.card-title Article
-              %p.card-text With supporting text below as a natural lead-in to additional content.
-  = partial :section, locals: { color: "black-bg" } do
-    .col-sm-6
-      %p
-        Fashion checker is a campaign
-        by the Clean Clothes Campaign,
-        funded by the European Union
-    .col-sm-6
-  %footer.text-muted.black-bg
-    .container
-      %p
-        powered by
-        %a.text-light{href: "https://wikirate.org"} WikiRate
+  = partial "partials/homepage/footer"
 
 

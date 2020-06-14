@@ -1,0 +1,110 @@
+$orange: #fb4922;
+$yellow: #f9fe9c;
+$pink: #fcc9fd;
+$navy: #1d1d2f;
+$medium-grey: #e9e4e3;
+$light-grey: #f4f2f2;
+$white: #fff;
+$fushia: #ed40d9;
+$blue: #223366;
+$light-blue: #32437d;
+$other-blue: #4a588c;
+$medium-blue: #112053;
+
+$table-color: $medium-grey;
+
+$body-bg: $blue;
+//$body-color: $yellow;
+//$card-bg: $navy;
+//$card-header-bg: $navy;
+
+.red {
+  color: $orange;
+}
+
+.light-grey {
+  color: $light-grey;
+}
+
+.medium-grey {
+  color: $medium-grey;
+}
+
+.red-bg {
+  background-color: $orange;
+  color: #fff;
+}
+
+.orange {
+  background-color: $orange;
+  color: $yellow;
+}
+
+.navy-bg {
+  background-color: $navy;
+  color: $white;
+}
+
+.blue-bg {
+  background-color: $blue;
+  color: $white;
+}
+
+.light-blue-bg {
+  background-color: $light-blue;
+  color: $table-color;
+}
+
+.medium-blue-bg {
+  background-color: $medium-blue;
+  color: $table-color;
+}
+
+.other-blue-bg {
+  background-color: $other-blue;
+  color: $table-color;
+}
+
+.white-bg {
+  background-color: $white;
+  color: #000000;
+}
+
+.fushia-bg {
+  background-color: $fushia;
+}
+
+.black-bg {
+  background-color: #000;
+  color: $light-grey;
+}
+
+.fushia {
+  color: $fushia;
+}
+
+.pink {
+  color: $pink;
+}
+
+.pink-bg {
+  background-color: $pink;
+}
+
+.yellow {
+  color: $yellow;
+}
+
+.yellow-bg {
+  background-color: $yellow;
+  color: $orange;
+}
+
+.grey-bg {
+  background-color: $medium-grey;
+  color: $orange;
+}
+
+.white {
+  color: $white !important;
+}

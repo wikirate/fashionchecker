@@ -1,23 +1,25 @@
 %body
-  = partial :header
+  = partial "partials/header"
   %main.brand{:role => "main"}
-    = partial :section, locals: { color: "red-bg"} do
-      .row.text-center
-        .col-sm-12.w-75
-          .span.display-3.yellow
-            Explore
-          .span.display-3.pink
-            The Data
-          %p.lead.pt-3
-            Are the people who make your clothes
-            paid enough to live on?
-          %p
-            Find out which apparel and footwear brands
-            pay their workers a Living Wage.
+    = section :red do
+      .row
+        .col-sm-12.d-flex.justify-content-center
+          .narrow
+            .text-center
+              .span.display-3.yellow
+                Explore
+              .span.display-3.pink
+                The Data
+              %p.lead.pt-3.font-weight-bolder
+                Are the people who make your clothes
+                paid enough to live on?
+              %p.lead.font-weight-lighter
+                Find out which apparel and footwear brands
+                pay their workers a Living Wage.
 
-          = partial :search, locals: { id: "brand-select" }
-    = partial :section, locals: { color: "blue-bg"} do
-      = partial :result
+            =brand_profile_partial :search, locals: { id: "brand-select" }
+    = section :blue do
+      = brand_profile_partial :result
 
   %footer.text-muted
     .container

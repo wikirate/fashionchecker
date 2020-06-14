@@ -1,0 +1,11 @@
+$font-family-sans-serif: 'Karla';
+$font-family-monospace: 'ptf_nordic_stdnormal';
+
+@font-face {
+  font-family: 'ptf_nordic_stdnormal';
+  src: url('../fonts/ptf-nordic-std-webfont.woff2') format('woff2'),
+  url('../fonts/ptf-nordic-std-webfont.woff') format('woff'),
+  url('../fonts/ptf-nordic-std.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
