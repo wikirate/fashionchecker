@@ -14,7 +14,7 @@ class window.BrandInfo
     
     for index, name of FIELDS
       $template.find("._#{name}").text(data[name])
-    debugger
+
     selectImage($template.find("._living-wage-score"), "wage_score", data.scores.living_wage)
     selectImage($template.find("._transparency-score"), "transparency_score", data.scores.transparency)
     commitmentScore($template, "public-commitment", data.scores.commitment.public_commitment)

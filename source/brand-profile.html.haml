@@ -17,7 +17,7 @@
                 Find out which apparel and footwear brands
                 pay their workers a Living Wage.
 
-            =brand_profile_partial :search, locals: { id: "brand-select" }
+            =brand_profile_partial :search, locals: { redirect: false }
     = section :blue do
       = brand_profile_partial :result
 

@@ -1,4 +1,3 @@
-
 $.fn.select2.defaults.set("theme", "bootstrap4")
 
 API_HOST = "https://dev.wikirate.org"
@@ -17,17 +16,15 @@ $(document).ready ->
       url: BRAND_LIST_URL
       dataType: "json"
 
-  $("body").on "change", "#brand-select", ->
-    selected = $("#brand-select").select2("data")
+  $("body").on "change", "._brand-search", ->
+    selected = $("._brand-search").select2("data")
     if (selected.length > 0)
       company_id = selected[0].id
-      loadBrandInfo(company_id)
-
-  $("body").on "change", "#brand-redirect", ->
-    selected = $("#brand-redirect").select2("data")
-    if (selected.length > 0)
-      company_id = selected[0].id
-      window.location.href = "/brand-profile.html?q=#{company_id}"
+      debugger
+      if $(this).data("redirect")?
+        window.location.href = "/brand-profile.html?q=#{company_id}"
+      else
+        loadBrandInfo(company_id)
 
   $("body").on 'shown.bs.collapse', ".collapse", ->
     updateSuppliersTable($(this))
@@ -45,15 +42,6 @@ $(document).ready ->
     # $("#brand-select").val params.get("q")
     # $("#barnd-select").trigger "change"
 
-updateSuppliersTable = ($collapse) ->
-  loadOnlyOnce $collapse, ($collapse) ->
-    $.ajax(url: suppliedCompaniesSearchURL($collapse), dataType: "json").done((data) ->
-      tbody = $collapse.find("tbody")
-      tbody.find("tr.loading").remove()
-      for company, year of data
-        addRow tbody, company, year
-    )
-
 loadBrandInfo = (company_id) ->
   $.ajax(url: brandInfoURL(company_id), dataType: "json").done((data) ->
     $output = $("#result")
@@ -63,6 +51,15 @@ loadBrandInfo = (company_id) ->
 
 brandInfoURL = (company_id) ->
   "#{API_HOST}/~#{company_id}.json?view=transparency_info"
+
+updateSuppliersTable = ($collapse) ->
+  loadOnlyOnce $collapse, ($collapse) ->
+    $.ajax(url: suppliedCompaniesSearchURL($collapse), dataType: "json").done((data) ->
+      tbody = $collapse.find("tbody")
+      tbody.find("tr.loading").remove()
+      for company, year of data
+        addRow tbody, company, year
+    )
 
 loadOnlyOnce = ($target, load) ->
   return if $target.hasClass("_loaded")
