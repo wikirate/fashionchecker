@@ -4,7 +4,7 @@
     = section :red do
       .row
         .col-sm-12.d-flex.justify-content-center
-          .narrow
+          .narrow.d-flex.flex-wrap.justify-content-center
             .text-center
               .span.display-3.yellow
                 Explore
@@ -15,8 +15,7 @@
                 paid enough to live on?
               %p.lead.font-weight-lighter
                 Find out which apparel and footwear brands
-                pay their workers a Living Wage.
-
+                pay their workers a Living Wage..white
             =brand_profile_partial :search, locals: { redirect: false }
     = section :blue do
       = brand_profile_partial :result

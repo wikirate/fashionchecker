@@ -32,7 +32,6 @@ $body-bg: $blue;
 
 .red-bg {
   background-color: $orange;
-  color: #fff;
 }
 
 .orange {
@@ -96,8 +95,8 @@ $body-bg: $blue;
 }
 
 .yellow-bg {
-  background-color: $yellow;
-  color: $orange;
+  background-color: $yellow !important;
+  color: $orange !important;
 }
 
 .grey-bg {

@@ -20,7 +20,6 @@ $(document).ready ->
     selected = $("._brand-search").select2("data")
     if (selected.length > 0)
       company_id = selected[0].id
-      debugger
       if $(this).data("redirect")?
         window.location.href = "/brand-profile.html?q=#{company_id}"
       else

@@ -8,7 +8,7 @@
             = t('header_question_1')
           .span.display-4.yellow
             = t('header_question_2')
-          %p.pt-3
+          %p.pt-3.white
             = t('find_out')
           = brand_profile_partial :search,  locals: { redirect: true }
         .col-sm-6
@@ -60,11 +60,11 @@
     = section :red do
       .row
         .col-sm-6
-          .span.display-3
+          .span.display-3.white
             = t('resilience')
           .span.display-3.yellow
             = t('in_the_face_of_a_crisis')
-        .col-sm-6
+        .col-sm-6.white
           %p.lead
             = t('resilience_info')
           %a.btn.btn-primary.btn-sm{href: "#"}
