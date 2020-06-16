@@ -159,7 +159,7 @@ GEM
       rack
     rack-test (1.1.0)
       rack (>= 1.0, < 3)
-    rake (10.5.0)
+    rake (12.3.3)
     rb-fsevent (0.10.4)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
@@ -213,7 +213,7 @@ DEPENDENCIES
   middleman (~> 4.2)
   middleman-autoprefixer (~> 2.7)
   middleman-livereload
-  rake (~> 10.4)
+  rake (~> 12.3)
   rspec (~> 3.4)
   selenium-webdriver (= 3.8.0)
   tzinfo-data

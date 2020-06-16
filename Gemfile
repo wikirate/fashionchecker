@@ -9,7 +9,7 @@ gem 'ed25519', '~> 1.2'
 gem 'bcrypt_pbkdf', '~> 1'
 
 group :development do
-  gem 'rake', '~> 10.4'
+  gem 'rake', '~> 12.3'
   gem 'rspec', '~> 3.4'
   gem 'capybara', '~> 2.5'
   gem 'cucumber'
