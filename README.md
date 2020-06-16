@@ -7,8 +7,8 @@ RubyGems package manager. If you don't have that you can follow these [instructi
  
 ### installation 
 ```shell
-git clone https://github.com/wikirate/wikirate-ccc
-cd wikirate-ccc
+git clone https://github.com/wikirate/transparency-tool
+cd transparency-tool
 bundle install
 ```
 
