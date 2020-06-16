@@ -1,15 +1,14 @@
 .row.mx-0.py-2
-  .col-sm-4.pl-0 Owned by:
+  .col-sm-4.pl-0= t('owned_by')
   .col-sm-8.pr-0
     %span._owned_by
-= property "Headquarters", :location
+= property t('headquarters'), :location
 .row.border-top.mx-0.py-2
   .col-sm-4.pl-0
-    Other brands owned by
+    = t('other_brands_owned_by')
     %span._owned_by
     = ":"
   .col-sm-8.pr-0#brands.list-unstyled
-= property "Number of workers", :number_of_workers
-= property "Revenue", :revenue
-= property "Profit", :profit
-= property "Top 3 Production countries", :top_production_countries
+= property t('revenue'), :revenue
+= property t('profit'), :profit
+= property t('top_3_production_countries'), :top_production_countries

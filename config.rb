@@ -6,6 +6,7 @@ activate :autoprefixer do |prefix|
 end
 
 activate :livereload
+activate :i18n, :mount_at_root => :en # Mount English at root
 
 configure :build do
   activate :minify_css

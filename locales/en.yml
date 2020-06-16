@@ -1,0 +1,83 @@
+en:
+  header_question_1: "Are the people who make your clothes"
+  header_question_2: "paid enough to live on?"
+  find_out: "Find out which apparel and footwear brands pay their workers a Living Wage."
+  living_wages: "Living Wages"
+  not_poverty_wages: "Not poverty wages"
+  living_wages_info: >
+    The majority of garment workers are unable to afford life's basic necessities.
+    Fair pay for labour is a fundamental human right
+    but none of the biggest fashion brands pay garment workers a wage
+    they can live on.
+  read_more_living_wages: "Read more about living wages."
+  difference_question: "What difference does it make to be earning a living wage instead of a minimum wage?"
+  end: "End"
+  gendered_pay: "Gendered Pay"
+  gendered_pay_info: >
+    The majority of garment workers are unable to afford life's basic
+    necessities. Fair pay for labour is a fundamental human right
+    but none of the biggest fashion brands pay garment workers a wage
+    they can live on.
+  gender: "Gender"
+  resilience: "Resilience"
+  in_the_face_of_a_crisis: "In the face of a crisis"
+  our_demands: "Our Demands"
+  resilience_info: >
+    The majority of garment workers are unable to afford life's basic
+    necessities. Fair pay for labour is a fundamental human right
+    but none of the biggest fashion brands pay garment workers a wage
+    they can live on.
+  your_voice_has_power: "Your voice has power"
+  take_action: "Take Action"
+  your_voice_info_1: >
+    Your support makes our work possible.
+    It's time brands take responsibility for
+    the lives of the people who make our clothes.
+    As consumers, we have power. When we speak,
+    brands listen. Ask brands to pay a
+  your_voice_info_2: >
+    , to ensure your clothes are no longer made with
+    exploitation.
+
+  revenue: "Revenue"
+  profit: "Profit"
+  top_3_production_countries: "Top 3 Production countries"
+  other_brands_owned_by: "Other brands owned by"
+  headquarters: "Headquarters"
+  owned_by: "Owned by:"
+  search_for_brand: "search for brand"
+  interested_in_more_information: "Interested in more information?"
+  check_out: "Check out"
+  see_company_profile: "See company profile"
+
+  commitment_score:
+    title: "Commitment Score"
+    public_commitment: "public commitment?"
+    action_plan: "action plan?"
+    action_planseparate_labor_costs: "separate labor costs?"
+  living_wage_score:
+    title: "Living Wage Score"
+  transparency_score:
+    title: "Transparency Score"
+    read_more: "Read more"
+    about_why_transparency_is_important: "about why transparency is important"
+    about_how_this_score_was_calculated: "about how this score was calculated"
+    what_does_this_mean: "What does this mean?"
+  suppliers_table:
+    explore_supply_chain: "Explore supply chain"
+    sourcing_from_factories: "Sourcing from factories"
+    found: "found)"
+    number_of_workers: "number of workers"
+    wage: "wage"
+    workers: "workers"
+    company: "company"
+    female_male_other: "Female/Male/Other"
+    permanent_temporary: "Permanent/ Temporary"
+    average: "Average"
+    gap: "Gap"
+    have_cba: "Have cba"
+    know_brand: "Know brand"
+    pregnancy_leave: "Pregnancy leave"
+  latest: "Latest"
+  news: "News"
+  footer_info: "is a campaign by the Clean Clothes Campaign, funded by the European Union"

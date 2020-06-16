@@ -1,28 +1,28 @@
-%h6.section.card-title.text-uppercase Commitment Score
+%h6.section.card-title.text-uppercase= t('commitment_score.title')
 %p
   This brand isn't doing enough to move towards Living Wages
   in its supply chain.
 .row.border-top.mx-0.py-2
-  .col-sm-6.pl-0
-    PUBLIC COMMITMENT?
+  .col-sm-6.pl-0.text-uppercase
+    = t('commitment_score.public_commitment')
   .col-sm-6.pr-0.text-right
     %span.value._public-commitment
     %img._public-commitment-smiley{src: "images/smiley/No.png", height: "30px"}
 .row.border-top.mx-0.py-2
-  .col-sm-6.pl-0
-    ACTION PLAN?
+  .col-sm-6.pl-0.text-uppercase
+    = t('commitment_score.action_plan')
   .col-sm-6.pr-0.text-right
     %span.value._action-plan
     %img._action-plan-smiley{src: "images/smiley/Yes.png", height: "30px"}
 .row.border-top.mx-0.py-2
-  .col-sm-6.pl-0
-    SEPARATE LABOR COSTS?
+  .col-sm-6.pl-0.text-uppercase
+    = t('commitment_score.action_planseparate_labor_costs')
   .col-sm-6.pr-0.text-right
     %span.value._isolating-labour-cost
     %img._isolating-labour-cost-smiley{src: "images/smiley/Yes.png", height: "30px"}
 .row.border-top.mx-0.py-2.tiny
   .col-sm-12.pl-0
-    Interested in more information?
-    Check out
+    = t('interested_in_more_information')
+    = t('check_out')
     %a._wikirate-link
       WikiRate

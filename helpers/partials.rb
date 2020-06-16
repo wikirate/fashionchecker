@@ -10,4 +10,8 @@ module Partials
   def section color, &block
     partial "partials/section", locals: { color: "#{color}-bg" }, &block
   end
+
+  def article filename
+    partial "content/articles/#{filename}"
+  end
 end

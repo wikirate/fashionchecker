@@ -5,12 +5,11 @@
       .row
         .col-sm-6
           .span.display-4.text-white
-            Are the people who make your clothes
+            = t('header_question_1')
           .span.display-4.yellow
-            paid enough to live on?
+            = t('header_question_2')
           %p.pt-3
-            Find out which apparel and footwear
-            brands pay their workers a Living Wage.
+            = t('find_out')
           = brand_profile_partial :search,  locals: { id: "brand-redirect" }
         .col-sm-6
           %img.float-right{src: "images/logo/SVG/CCC_FashionChecker_RGB_vertical_spot.svg",
@@ -31,69 +30,57 @@
       .row
         .col-sm-6
           .span.display-3.fushia
-            Living Wages
+            = t('living_wages')
           .span.display-3.red
-            Not poverty wages
+            = t('not_poverty_wages')
         .col-sm-6
           %p.red.lead
-            The majority of garment workers are unable to afford life's basic
-            necessities. Fair pay for labour is a fundamental human right
-            but none of the biggest fashion brands pay garment workers a wage
-            they can live on.
+            = t('living_wages_info')
           %a.btn.btn-primary.btn-sm{href: "#"}
-            Read more about living wages.
+            = t('read_more_living_wages')
       .row
         .col-sm-12
           .navy-bg.px-5.py-4.mt-4
-            %h5.text-center What difference does it make to be earning a living wage instead of a minimum wage?
+            %h5.text-center
+              = t('difference_question')
             %img{src: "images/living-wage.png", width: "500px"}
 
     = section :yellow do
       .row
         .col-sm-6
           .span.display-3.red
-            End
+            = t('end')
           .span.display-3.fushia
-            Gendered Pay
+            = t('gendered_pay')
         .col-sm-6
           %p.red.lead
-            The majority of garment workers are unable to afford life's basic
-            necessities. Fair pay for labour is a fundamental human right
-            but none of the biggest fashion brands pay garment workers a wage
-            they can live on.
+            = t('gendered_pay_info')
           %a.btn.btn-primary.btn-sm{href: "#"}
-            Gender
+            = t('gender')
     = section :red do
       .row
         .col-sm-6
           .span.display-3
-            Resilience
+            = t('resilience')
           .span.display-3.yellow
-            In the face of a crisis
+            = t('in_the_face_of_a_crisis')
         .col-sm-6
           %p.lead
-            The majority of garment workers are unable to afford life's basic
-            necessities. Fair pay for labour is a fundamental human right
-            but none of the biggest fashion brands pay garment workers a wage
-            they can live on.
+            = t('resilience_info')
           %a.btn.btn-primary.btn-sm{href: "#"}
-            Our Demands
+            = t('our_demands')
     = section :navy do
       .row
         .col-sm-12
           %h6
-            Your voice has power
+            = t('your_voice_has_power')
           %p
-            Your support makes our work possible.
-            It's time brands take responsibility for
-            the lives of the people who make our clothes.
-            As consumers, we have power. When we speak,
-            brands listen. Ask brands to pay a&nbsp;
+            = t('your_voice_info_1')
+            &nbsp;
             %span.fushia<> #LivingWageNow
-            , to ensure your clothes are no longer made with
-            exploitation.
+            = t('your_voice_info_2')
           %a.btn.btn-primary.btn-sm{href: "#"}
-            Take Action
+            = t('take_action')
     = partial "partials/homepage/news"
 
   = partial "partials/homepage/footer"
