@@ -1,16 +1,4 @@
 # transparency tool
-Widget to search for supply chain data on wikirate.org.
-
-## options
-
-You can add the following parameters to the url:
-
-* show help how to embed the widget: `embed-info=show`
-* change background color: `background=%23550044`
-
-Example:
-  
-http://ccc.wikirate.org/?embed-info=show&background=%23550000
 
 ## developer setup
 The site is developed with [Middleman](https://middlemanapp.com). It depends on Ruby and the 
