@@ -4,15 +4,11 @@
     %span.showcase-details._living-wage-score
   %img._living-wage-score{src: "images/wage_score/E.png", width: "200px"}
 .col-sm-6.section.pr-0.pl-1.d-flex.flex-column.justify-content-between
-  %div._score-desc
+  %div._living_wage_score-templates
     %p._living_wage_text
-      The company claims that is has started contributing
-      towards a living wage by paying higher costs to all
-      factories in its supply chain.
+      = score_desc("living_wage_score.desc_1", 5)
     %p._living_wage_lead.font-weight-bold
-      Which means the majority of workers
-      in Zara's supply chain do not earn enough
-      to live on.
+      = score_desc("living_wage_score.desc_2", 5)
   .showcase-details
     %p
       %a.btn.btn-primary.btn-sm{href: "#"}

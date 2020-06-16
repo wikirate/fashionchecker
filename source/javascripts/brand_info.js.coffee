@@ -2,6 +2,27 @@ LINK_TARGET_HOST = "https://wikirate.org"
 
 FIELDS = ["name", "revenue", "location", "owned_by", "profit", "number_of_workers", "top_production_countries"]
 
+SCORE_MAP = {
+  living_wage_score: {
+    "E": 1
+    "D": 2
+    "C": 3
+    "B": 4
+    "A": 5
+  }
+  transparency_score: {
+    "0.0": 1
+    "2.5": 2
+    "5.0": 3
+    "7.5": 4
+    "10.0": 5
+  }
+  commitment_score: {
+    "No": 1,
+    "Partial": 2,
+    "Yes": 3
+  }
+}
 class window.BrandInfo
   constructor: (@data) ->
 
@@ -20,15 +41,29 @@ class window.BrandInfo
     commitmentScore($template, "public-commitment", data.scores.commitment.public_commitment)
     commitmentScore($template, "action-plan", data.scores.commitment.action_plan)
     commitmentScore($template, "isolating-labour-cost", data.scores.commitment.isolating_labour_cost)
+
     $template.find("._commitment-total-score").text(data.scores.commitment.total)
-    $template.find("#living-wage-score").text(data.scores.living_wage)
-    $template.find("#factory-count").text(data.suppliers.length)
+    $template.find("._factory-count").text(data.suppliers.length)
+
+    showScoreDesc($template, "living_wage_score", data.scores.living_wage)
+    showScoreDesc($template, "commitment_score", data.scores.commitment.total)
+    showScoreDesc($template, "transparency_score", data.scores.transparency)
 
     for index, brand of data.brands
       addBrand(brand, $template)
     for index, supplier of data.suppliers
       addSupplier(supplier, $template)
     $output.append($template)
+
+  showScoreDesc = ($container, score_name, score_value) ->
+    for el in $container.find("._#{score_name}-templates ._score-desc")
+      if $(el).hasClass(scoreClass(score_name, score_value))
+        $(el).show()
+      else
+        $(el).hide()
+
+  scoreClass = (score_name, score_value ) ->
+    "_score-#{SCORE_MAP[score_name][score_value]}"
 
   commitmentScore = ($el, name, value) ->
     $el.find("._#{name}").text(value)
