@@ -20,4 +20,10 @@ module Partials
       partial "partials/brand_profile/score_desc", locals: { t_name: "#{t_name}.score_#{i}", score: i}
     end.join
   end
+
+  def compare title, min_wage_icons, living_wage_icons
+    partial "partials/homepage/compare", locals: { title: title,
+                                                   min_wage_icons: min_wage_icons,
+                                                   living_wage_icons: living_wage_icons }
+  end
 end

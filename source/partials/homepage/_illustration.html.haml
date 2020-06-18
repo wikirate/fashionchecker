@@ -1,0 +1,6 @@
+%svg{:height => "#{size}px", :version => "1.1", :viewbox => "0 0 80 80", :width => size, :xmlns => "http://www.w3.org/2000/svg", "xmlns:xlink" => "http://www.w3.org/1999/xlink"}
+  %title
+    ="Illustration/#{icon.to_s.capitalize}"
+  %g#Illustrations{:fill => "none", "fill-rule" => "evenodd", :stroke => "none", "stroke-width" => "1"}
+    %g{class: category, "fill-rule" => "nonzero", :id => "Illustration/#{icon.to_s.capitalize}"}
+      = partial "partials/homepage/illustrations/#{icon.to_s.downcase}"

@@ -63,24 +63,33 @@ en:
 
   living_wage_score:
     title: "Living Wage Score"
+    desc_2:
+      score_5: >
+        The workers making their clothes earn enough to live on.
+      score_4: >
+        Some of the workers making their clothes do not earn enough to live on.
+      score_3: >
+        Most of the workers making their clothes do not earn enough to live on. (at least half) Most
+      score_2: "text for D"
+      score_1: >
+        Which means the majority of workers
+        in Zara's supply chain do not earn enough
+        to live on.
     desc_1:
+      score_5: >
+        100% of factories in the brand’s supply chain pay workers a living wage.
+        This information is public.
+      score_4: >
+        More than 50% of factories in the brand’s supply chain pay workers a living wage.
+        This information is public.
+      score_3: >
+        Between 26% and 50% of factories in the brand supply chain pay workers a living wage.
+        This is public information.
       score_1: >
         The company claims that is has started contributing
         towards a living wage by paying higher costs to all
         factories in its supply chain.
       score_2: "Description of Score D"
-      score_3: "text for C"
-      score_4: "text for B"
-      score_5: "text for A"
-    desc_2:
-      score_1: >
-        Which means the majority of workers
-        in Zara's supply chain do not earn enough
-        to live on.
-      score_2: "text for D"
-      score_3: "text for C"
-      score_4: "text for B"
-      score_5: "text for A"
 
   transparency_score:
     title: "Transparency Score"
