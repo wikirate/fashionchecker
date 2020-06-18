@@ -6,27 +6,27 @@ en:
   not_poverty_wages: "Not poverty wages"
   living_wages_info: >
     The majority of garment workers are unable to afford life's basic necessities.
-    Fair pay for labour is a fundamental human right
+    Fair pay for labour is a fundamental human right,
     but none of the biggest fashion brands pay garment workers a wage
     they can live on.
   read_more_living_wages: "Read more about living wages."
-  difference_question: "What difference does it make to be earning a living wage instead of a minimum wage?"
+  difference_question: >
+    What difference does it make to be earning a living wage instead of a minimum wage?
   end: "End"
   gendered_pay: "Gendered Pay"
   gendered_pay_info: >
-    The majority of garment workers are unable to afford life's basic
-    necessities. Fair pay for labour is a fundamental human right
-    but none of the biggest fashion brands pay garment workers a wage
-    they can live on.
+    80% of garment workers are women. They are routinely paid less than their male
+    counterparts. Gender inequality is deeply rooted in the industry's power imbalance,
+    and gendered pay has a direct link to verbal, physical and sexual assault.
   gender: "Gender"
   resilience: "Resilience"
   in_the_face_of_a_crisis: "In the face of a crisis"
   our_demands: "Our Demands"
   resilience_info: >
-    The majority of garment workers are unable to afford life's basic
-    necessities. Fair pay for labour is a fundamental human right
-    but none of the biggest fashion brands pay garment workers a wage
-    they can live on.
+    Brands have profited from poverty wages for decades, leaving garment workers with
+    no security through uncertain times. The COVID-19 crisis showcased the social and
+    economic inequality of the industry, particularly affecting the millions locked in
+    jobs without legal protections.
   your_voice_has_power: "Your voice has power"
   take_action: "Take Action"
   your_voice_info_1: >
@@ -36,7 +36,7 @@ en:
     As consumers, we have power. When we speak,
     brands listen. Ask brands to pay a
   your_voice_info_2: >
-    , to ensure your clothes are no longer made with
+    to ensure your clothes are no longer made with
     exploitation.
 
   revenue: "Revenue"
