@@ -1,0 +1,18 @@
+%body
+  = partial "partials/header"
+  %main{:role => "main"}
+    = section :white do
+      .middle-text
+        %h3
+          = t('what_is_a_living_wage')
+        .lead
+          = t('a_living_wage_recognized_by_the_un_as_a_right')
+        %p
+          = t('it_should_be_earned_in_a_standard_work_week')
+          
+      = partial "partials/shared/living_wage_table"
+
+
+
+
+    = partial "partials/shared/footer"

@@ -3,14 +3,18 @@
     .container
       .row.red-bg
         .col-sm-8.col-md-7.py-4
-          %h4.text-white Learn more
+          %h4.text-white
+            = t('learn_more')
           %ul.list-unstyled
             %li
-              %a.text-white{:href => "#"} What is living wage
+              %a.text-white{:href => "/living_wage.html"}
+                = t('menu_living_wage')
             %li
-              %a.text-white{:href => "/gender.html"} Gender
+              %a.text-white{:href => "/gender.html"}
+                = t('menu_gender')
             %li
-              %a.text-white{:href => "#"} Transparency
+              %a.text-white{:href => "/transparency.html"}
+                = t('menu_transparency')
             %li
               %a.text-white{:href => "#"} News
         .col-sm-4.offset-md-1.py-4
@@ -21,9 +25,11 @@
             %li
               %a.text-white{:href => "#"} Our Demands
             %li
-              %a.text-white{:href => "#"} Who we are
+              %a.text-white{:href => "/who_are_we.html"}
+                = t('menu_who_we_are')
             %li
-              %a.text-white{:href => "/methodology.html"} Research Methodology
+              %a.text-white{:href => "/methodology.html"}
+                = t('menu_methodology')
 
   .navbar.navbar-dark.red-bg.shadow-sm
     .container.d-flex.justify-content-between
