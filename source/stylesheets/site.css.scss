@@ -256,3 +256,30 @@ input {
   max-width: 250px;
   width: 100%;
 }
+
+.middle-text {
+  margin: 0 15%;
+  .lead {
+    line-height: 1.5em;
+    margin-top: 1em;
+  }
+  p, .red-quote {
+    font-weight: normal;
+    line-height: 1.7;
+    margin: 2em 0;
+    font-size: 0.9em;
+  }
+  .red-quote {
+    font-size: 1.4em;
+    border-left: 2px solid $orange;
+    padding-left: 1em;
+    color: $orange;
+  }
+  .red-citation {
+    font-size: 0.8em;
+    text-transform: uppercase;
+    margin-top: 1em;
+  }
+}
+
+
