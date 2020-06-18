@@ -113,3 +113,59 @@ en:
   latest: "Latest"
   news: "News"
   footer_info: "is a campaign by the Clean Clothes Campaign, funded by the European Union"
+  methodology_title: "Our Research Methodology"
+  methodology_paragraph_1: >
+    We sent more than 90 brands questionnaires to give them the opportunity to showcase
+    the efforts they are making towards paying a living wage to all workers in their supply
+    chain and to disclose their production locations (if they had not done so through the
+    Transparency Pledge). Our emphasis is on expressing the brands’ efforts to pay a living
+    wage through SMART data collected via this research in a transparent and
+    comprehensive format for consumers, garment workers and policy makers. It is hoped
+    that, in the long term, brands representation on Fashion Checker will become a
+    component of a brand’s due diligence and CSR validation process.
+  methodology_paragraph_2: >
+    Because of the challenging context, including workers’ reluctance to speak with
+    researchers for fear of reprisal, field research at workplace level has initially only been
+    carried out in five countries where access to garment workers is guaranteed;
+    Indonesia, China, Croatia, India and the Ukraine. We collected workers’ payslips,
+    conducted interviews to interpret the information the payslips provide, disaggregated
+    by gender (e.g. on gender pay gaps, work responsibilities, working hours,bonuses,
+    overtime). We then checked these wages against the response given by brands on their
+    living wage benchmarks and the percentage of suppliers paid according to this
+    benchmark. We will be adding data from more countries as this project progresses.
+  methodology_paragraph_3A: "We worked with"
+  methodology_paragraph_3B: >
+    , an open data expert, on the aggregation and consolidation of
+    the supply chain information released by brands. We also use the data gathered by the
+  methodology_paragraph_3C: "and"
+  methodology_paragraph_3D: >
+    among others. This database, as well as
+    datasets from trusted partners with long running experience makes this evidence
+    available to the public in a user-friendly way. We tested various methods of presenting
+    this data with the help of experts in usability,
+  gender_header_1: "Gender in the Garment Industry"
+  gender_lead: >
+    It is the high majority of women in the garment industry that show its true nature.
+  gender_influences: >
+    Gender influences labour practices in countless ways:
+  croatian_gender_quote: >
+    "I come home, and I can't sit until evening. I need to cook, wash laundry, write
+    homework with kids... In the evening I'm so tired that I just try not to fall before
+    I lie down."
+  a_worker_from_croatia: "A Worker from Croatia"
+  women_face_stress: "Women face stress"
+  low_wages: "Low Wages"
+  when_looking_at_the_garment_sector: "When looking at the garment sector"
+  since_women_are_mainly_employed: "Since women are mainly employed"
+  gender_based_violence: "Gender-based Violence"
+  gender_based_violence_is_both_a_cause: "Gender-based violence is both a cause"
+  found_that_76_of_all: "found that 76% of all"
+  despite_its_prevalence_in_the_garment_sector: "Despite its prevalence in the garment sector"
+  to_address_gender_based_violence_in_the_supply: "To address gender-based violence in the supply chain"
+  this_is_confirmed_by_the_evidence: "This is confirmed by the evidence"
+  indian_gender_quote: >
+    "We are verbally abused at work. There should be female supervisors with female
+    workers, and we need better pay so that we can look after our children"
+  a_worker_from_india: "A Worker in India"
+  when_you_are_living_pay_check_to_pay_check: "When you are living pay check to pay check"
+  read_more_about: "Read more about"
