@@ -7,13 +7,13 @@ html {
 
 $primary: #ed40d9;
 $border-radius: 0;
+
 @import "bootstrap/functions";
 @import "bootstrap/variables";
 @import "bootstrap/mixins";
 
 @import "select2-bootstrap4/layout";
 
-//@import "bootstrap/bootstrap";
 @import "bootstrap/root";
 @import "bootstrap/reboot";
 @import "bootstrap/type";
@@ -48,7 +48,6 @@ $border-radius: 0;
 @import "bootstrap/spinners";
 @import "bootstrap/utilities";
 @import "bootstrap/print";
-
 body {
   font-family: 'Karla', sans-serif;
   font-size: 1rem;
