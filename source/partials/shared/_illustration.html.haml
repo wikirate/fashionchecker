@@ -2,5 +2,5 @@
   %title
     ="Illustration/#{icon.to_s.capitalize}"
   %g#Illustrations{:fill => "none", "fill-rule" => "evenodd", :stroke => "none", "stroke-width" => "1"}
-    %g{class: category, "fill-rule" => "nonzero", :id => "Illustration/#{icon.to_s.capitalize}"}
-      = partial "partials/homepage/illustrations/#{icon.to_s.downcase}"
+    %g{class: category.to_s.downcase.gsub(' ', '-'), "fill-rule" => "nonzero", :id => "Illustration/#{icon.to_s.capitalize}"}
+      = partial "partials/shared/illustrations/#{icon.to_s.downcase}"

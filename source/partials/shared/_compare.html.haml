@@ -1,0 +1,17 @@
+.row{class: title.downcase.gsub(' ', '-')}
+  .col-sm-12.text-center
+    %h4
+      =title
+.row{class: "#{title.downcase}"}
+  .col-md-6
+    %h6.d-md-none
+      Minimum Wage
+    .minimum-wage
+      - min_wage_icons.each do |icon|
+        = partial "partials/shared/illustration", locals: { category: title.downcase, size: "25", icon: icon}
+  .col-md-6
+    %h6.d-md-none
+      Living Wage
+    .living-wage
+      - living_wage_icons.each do |icon|
+        = partial "partials/shared/illustration", locals: { category: title.downcase, size: "25", icon: icon}
