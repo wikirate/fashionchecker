@@ -73,9 +73,17 @@ $body-bg: $blue;
   background-color: $fushia;
 }
 
-.black-bg {
-  background-color: #000;
-  color: $light-grey;
+.black-bg, .black-btn {
+  background-color: #000 !important;
+  color: $light-grey !important;
+}
+
+.black-btn {
+  border-color: #000 !important;
+}
+
+.black {
+  color: #000 !important;
 }
 
 .fushia {

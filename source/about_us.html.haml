@@ -106,8 +106,105 @@
         %p
           = t('to_do_so_we_need_transparency')
 
-    = section :orange do
-      woot
+    = section :red do
+      .text-center.middle-text
+        .display-4.yellow
+          = t('what_do_we_want')
+        .display-4.pink
+          = t('what_can_you_do')
+        .lead.mt-4.text-white
+          .strong
+            = t('we_re_demanding_that_brands_do')
+          = t('we_want_them_to_show_how_they_are_working')
 
+    = section :yellow do
+      .row
+        .col-sm-6
+          .display-3.red
+            = t('a_living_wage')
+          .display-3.fushia
+            = t('for_all_workers')
+        .col-sm-6.black
+          .lead.pb-3
+            = t('tell_brands_to_commit_to_paying_a_living_wage')
+          %p
+            = t('we_are_asking_brands_to_pay_an_extra_contribution')
+
+          %a.btn.btn-primary.black-btn{href: "/take_action.html"}
+            = t('take_action')
+
+    = section :red do
+      .row
+        .col-sm-6
+          .display-3.yellow
+            = t('a_spotlight')
+          .display-3.white
+            = t('on_the_bottom_of_the_supply_chain')
+        .col-sm-6.white
+          .lead.pb-3
+            = t('where_are_the_unions')
+          %p.my-3
+            = t('brands_never_release_data_about_the_bottom')
+          %p.my-3
+            = t('we_want_brands_to_ask_their_suppliers')
+          %p.my-3
+            = t('we_want_to_know_if_the_workers_making')
+
+          %a.btn.btn-primary.black-btn{href: "/take_action.html"}
+            = t('take_action')
+
+    = section :pink do
+      .row
+        .col-sm-6
+          .display-3.fushia
+            = t('consumer')
+          .display-3.red
+            = t('transparency')
+        .col-sm-6.black
+          .lead.pb-3
+            = t('tell_brands_and_policy_makers')
+          %p.my-3
+            = t('do_you_want_to_know_if_the_people_who_made')
+
+          %a.btn.btn-primary.black-btn{href: "/take_action.html"}
+            = t('take_action')
+
+    = section :fushia do
+      .row
+        .col-sm-6
+          .display-3.white
+            = t('covid_19')
+        .col-sm-6.white
+          .lead.pb-3
+            = t('support_workers_through_the_devastating_effects')
+          %p.my-3
+            = t('sign_the_petition_asking_brands_to_pay_for_orders')
+          %p.my-3
+            = t('donate_to_our_emergency_fund_to_help_us')
+          %p.my-3
+            = t('for_information_on_how_to_do_so_please')
+          %p.my-3
+            = t('follow_our_live_blog_for_the_latest_information')
+          %p.my-3
+            = t('find_out_more_about_our_demands')
+
+          %a.btn.btn-primary.black-btn{href: "/take_action.html"}
+            = t('take_action')
+
+    = section :red do
+      .middle-text.text-center.white
+        %h3
+          = t('donate_to_the_campaign')
+
+        .py-3
+          .py-2
+            = t('you_can_help_fund_this_campaign')
+          .py-2
+            = t('every_little_bit_helps')
+          .py-2
+            = t('future_research_and_translations_of_our_data')
+
+          %a.mt-5.btn.btn-primary.black-btn{href: "/donate.html"}
+            = t('donate')
 
     = partial "partials/shared/footer"
