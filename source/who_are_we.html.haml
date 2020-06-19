@@ -1,0 +1,22 @@
+%body
+  = partial "partials/header"
+  %main{:role => "main"}
+    = section :white do
+      .middle-text
+        %h3
+          = t('who_are_we')
+        .lead
+          = t('clean_clothes_campaign_is_a_global_network')
+        %p
+          = t('since_1989_ccc_has_worked_to_ensure')
+        %p
+          = t('as_a_grassroots_network_of_hundreds')
+        %p
+          = t('all_workers_regardless_of_sex_age')
+
+        .py-2
+          %a.btn.btn-primary{ href: "https://cleanclothes.org/" }
+            = t('visit_site')
+
+
+    = partial "partials/shared/footer"

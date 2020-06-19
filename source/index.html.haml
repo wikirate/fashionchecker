@@ -38,16 +38,7 @@
             = t('living_wages_info')
           %a.btn.btn-primary.btn-sm{href: "#"}
             = t('read_more_living_wages')
-      .row
-        .col-sm-12
-          .navy-bg.px-5.py-4.mt-4
-            %h5.text-center
-              = t('difference_question')
-
-            = compare "Food", %i[rice], %i[fish rice apple banana]
-            = compare "Housing", %i[double_bed wall], %i[single_bed screwer toilet cable ventilator]
-            
-            %img{src: "images/living-wage.png", width: "500px"}
+        = partial "partials/shared/living_wage_table"
 
     = section :yellow do
       .row

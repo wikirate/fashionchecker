@@ -1,0 +1,113 @@
+%body
+  = partial "partials/header"
+  %main{:role => "main"}
+    .container
+      .top-banner.about-fashion-banner.display-4.text-white
+        = t('about_fashion_checker')
+    = section :white do
+      .middle-text
+        %h3
+          = t('about_the_campaign')
+        .lead
+          = t('a_living_wage_for_garment_workers')
+        %p
+          = t('brands_in_the_fashion_industry_put_millions')
+        %h3
+          = t('power_in_the_garment_industry')
+        %p
+          = t('we_believe_all_workers_in_a_supply')
+          %a{ href: "https://cleanclothes.org/living-wages" }
+            = t('poverty_wages')
+          = t('since_the_birth_of_the_industry_our_research_shows')
+          %a{ href: "https://cleanclothes.org/news/2019/major-brands-are-failing-on-living-wage-commitments" }
+            = t('no_major_clothing_brand')
+          = t('is_able_to_prove_that_workers_making_their_clothin')
+        %p
+          = t('an_estimated_60_million_workers')
+
+      %img.pb-5{ src: "/images/about_us/la_courbe.png" }
+
+      .middle-text
+        %h3
+          = t('earning_a_living_wage')
+        %p
+          = t('demanding_a_wage_you_can_live_on')
+          %a{ href: "https://cleanclothes.org/file-repository/resources-publications-living-wage-now-magazine/view" }
+            = t('living_wage_now')
+          = t('in_2015_it_s_five_years_later')
+
+        %img.pb-5{ src: "/images/about_us/living_wage_circles.png" }
+
+        %p
+          = t('for_decades_brands_and_retailers_have_built')
+
+      %img.pb-5{ src: "/images/about_us/tee_shirt.png" }
+
+
+      .middle-text
+        %h3
+          = t('putting_a_spotlight_on_the_supply_chain')
+        %p
+          = t('our_main_focus_is_wages_and_transparency')
+        %p
+          = t('brands_are_obligated_by_the')
+          %a{ href: "https://www.ohchr.org/Documents/Publications/GuidingPrinciplesBusinessHR_EN.pdf" }
+            = t('un_guiding_principles_on_business_and_human_rights')
+          = t('to_run_their_business_responsibly')
+
+
+        %img.pb-5{ src: "/images/about_us/25_percent.png" }
+
+        %h3
+          = t('gender_in_the_garment_industry')
+        %p
+          = t('a_lot_of_informal_work_is_done_by_women')
+        %p
+          = t('inside_factories_women_are_mainly_employed')
+
+        .text-on-image.stomach_problems_bg
+          .quote-on-image
+            = t('croatian_gender_quote')
+            .citation
+              = t('a_worker_from_croatia')
+
+        %h3
+          = t('transparency_in_fashion')
+        %p
+          = t('there_has_been_an_encouraging_increase_in_how')
+        %p
+          = t('what_are_they_hiding_no_brand')
+
+        %h3
+          = t('poverty_pay_isn_t_sustainable')
+        %p
+          = t('it_is_well_known_that_the_garment_industry')
+        %p
+          = t('paying_poverty_wages_directly_affects')
+
+        %h3
+          = t('economic_impact')
+        %p
+          = t('a_living_wage_for_all_workers_should_be')
+        .red-quote
+          = t('an_unequal_distribution_of_income_and_wealth')
+          .citation
+            Christa Luginbühl
+        %p
+          = t('economic_sustainability_and_resilience')
+
+        %h3
+          = t('returning_the_power_after_covid_19')
+        %p
+          = t('clothing_and_textile_manufacturing_has_always')
+          %a{ href: "https://twitter.com/TRCdocumentary/status/1261593486312251392" }
+            = t('billions_of_dollars')
+          = t('by_canceling_orders_unnecessarily')
+        %p
+          = t('to_do_so_we_need_transparency')
+
+    = section :orange do
+      woot
+
+
+    = partial "partials/shared/footer"

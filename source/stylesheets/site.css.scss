@@ -275,11 +275,54 @@ input {
     padding-left: 1em;
     color: $orange;
   }
-  .red-citation {
-    font-size: 0.8em;
-    text-transform: uppercase;
-    margin-top: 1em;
+  img {
+    max-width: 100%;
   }
 }
+.container > img {
+  width: 100%;
+}
+
+.citation {
+  font-size: 0.75em;
+  text-transform: uppercase;
+  margin-top: 1.3em;
+}
+
+.text-on-image {
+  margin: 1em 0 2em 0;
+  .quote-on-image {
+    padding: 1em 2em;
+    max-width: 80%;
+    color: $white;
+    font-size: 1.5em;
+  }
+  background-size: 100%;
+}
+
+.top-banner {
+  background-size: 100%;
+  text-align: center;
+  padding: 3em 0;
+}
+
+.stomach_problems_bg {
+  background-image: linear-gradient(to right, #333 0%,rgba(255,255,255,0) 80%),
+  url("/images/living_wage/stomach_problems_bg.png");
+}
+.no_pay_slip_bg {
+  background-image: linear-gradient(to right, #333 0%,rgba(255,255,255,0) 80%),
+  url("/images/living_wage/no_pay_slip_bg.png");
+}
+.living-wage-banner {
+  background-image: url("/images/living_wage/top_banner.png");
+}
+.gender-banner {
+  background-image: url("/images/gender/top_banner.png");
+}
+.about-fashion-banner {
+  background-image: url("/images/about_us/top_banner.png");
+}
+
 
 
