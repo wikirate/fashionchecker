@@ -408,3 +408,36 @@ en:
     by canceling orders unnecessarily, crippling factories and devastating workers. By refusing to pay workers a wage they can live on, Brands have left the workers who make their clothes without any means of supporting themselves. Millions of workers are under threat of homelessness and starvation and many factories face economic collapse. Brands have had too much power over their suppliers for too long. It’s time for this to change.
   to_do_so_we_need_transparency: >
     To do so we need transparency. We want to know where the power is in the supply chain: Where are workers paid the least? Where are workers unionised? Where are the women and migrant workers? It is time to use the available data to highlight the human rights abuses in fashion, and get concrete, meaningful, and measurable wage increases across the supply chain. Workers deserve better. Consumers deserve better. It’s time to redistribute power and wealth.
+
+  living_wage_table:
+    minimum_wage:
+      food: >
+        It is not easy to get enough nutrition or calories. You often eat the same porridge or rice everyday. Meat, fish and fruit are too expensive. Skipping meals is very common and your household will have less food by the end of the month.
+      housing: >
+        You share a packed dormitory. There is no privacy, no heating or air conditioning and poor ventilation. There is not enough furniture or beds. Poor quality building materials make living there unsafe and dangerous.
+      health_care: >
+        You have access to basic pain killers but limited access to menstruation products and no access to prescription medication or emergency health care. Lack of sleep and nutrition and hygiene limitations affect your health. You have to skip meals to be able to see a doctor.
+      education: >
+        You are not able to educate yourself or your children. You have no opertunity to improve your situation. Your children will most likely grow up to earn the same wages as you.
+      clothing: >
+        Your clothes aren’t warm enough for winter. You are not able to buy proper footwear while standing all day at work.
+      transportation: >
+        You have no safe means of transport. Public transport is not common in poorer production countries. You rely on overcrowded trucks provided by the factory. As a women, you are at risk of sexual harassment.
+      savings: >
+        You are most likely in debt. It is a struggle to balance bills and loans and you are living hand-to-mouth.
+    living_wage:
+      food: >
+        You earn enough to feed yourself and your household. You have a healthy, varied diet and eat at least three times a day.
+      housing: >
+        You can afford to house yourself and your dependents in a safe environment. You have windows for ventilation and light, privacy, enough furniture and your own bathroom facilities.
+      health_care: >
+        You have easy access to basic health care including menstruation products and prescription medication like insulin and antibiotics. You are able to save for emergency health care.
+      education: >
+        You are able to educate yourself and your dependents. You have the time and freedom to train towards a higher paid position.  Your and your children have options for your future.
+      clothing: >
+        You own weather appropriate clothes of your own choosing. You are able to buy supportive shoes and clothes in the correct size for your children.
+      transportation: >
+        You either earn enough to organise your own transport or your factory can afford to provide safe transport. You can afford to save towards your own means of transport. Most importantly you have a choice.
+      savings: >
+        You are able to save a portion of your wage for unexpected expenses and emergencies, giving you resilience in times of crisis.
+

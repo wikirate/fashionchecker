@@ -1,17 +1,25 @@
 .row{class: title.downcase.gsub(' ', '-')}
   .col-sm-12.text-center
-    %h4
+    %h5.mt-2
       =title
 .row{class: "#{title.downcase}"}
-  .col-md-6
-    %h6.d-md-none
-      Minimum Wage
-    .minimum-wage
-      - min_wage_icons.each do |icon|
-        = partial "partials/shared/illustration", locals: { category: title.downcase, size: "25", icon: icon}
-  .col-md-6
-    %h6.d-md-none
-      Living Wage
-    .living-wage
-      - living_wage_icons.each do |icon|
-        = partial "partials/shared/illustration", locals: { category: title.downcase, size: "25", icon: icon}
+  .col-md-6.d-flex.pr-1.justify-content-end
+    .scene
+      .flip-card
+        .card-face.minimum-wage-icons.wage-box
+          %h6.d-md-none.white
+            Minimum Wage
+          - min_wage_icons.each do |icon|
+            = partial "partials/shared/illustration", locals: { category: title.downcase, size: "30", icon: icon}
+        .card-face.minimum-wage-text.back.small
+          = t("living_wage_table.minimum_wage.#{title.downcase.gsub(' ', '_')}")
+  .col-md-6.d-flex.pl-1.justify-content-start
+    .scene
+      .flip-card
+        .card-face.living-wage-icons.wage-box
+          %h6.d-md-none.white
+            Living Wage
+          - living_wage_icons.each do |icon|
+            = partial "partials/shared/illustration", locals: { category: title.downcase, size: "30", icon: icon}
+        .card-face.living-wage-text.back.small
+          = t("living_wage_table.living_wage.#{title.downcase.gsub(' ', '_')}")

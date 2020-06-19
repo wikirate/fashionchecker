@@ -1,9 +1,17 @@
 .row
   .col-sm-12
     .navy-bg.px-5.py-4.mt-4
-      %h5.text-center
-        = t('difference_question')
-
+      .row
+        .col-sm-12
+          %h5.text-center
+            = t('difference_question')
+      .row.d-none.d-md-flex
+        .col-md-6.text-center
+          %h6
+            Minimum Wage
+        .col-md-6.text-center
+          %h6
+            Living Wage
       = compare "Food", %i[rice], %i[fish rice apple banana]
       = compare "Housing", %i[double_bed wall], %i[single_bed screwer toilet cable ventilator]
       = compare "Health care", %i[pills], %i[menstrual_pad medicine soap ambulance]
@@ -11,4 +19,3 @@
       = compare "Clothing", %i[shoes tshirt], %i[shoes tshirt jacket]
       = compare "Transportation", %i[truck], %i[bus]
       = compare "Savings", %i[broken], %i[intact]
-      %img{src: "images/living-wage.png", width: "500px"}
