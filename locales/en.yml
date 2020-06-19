@@ -147,20 +147,24 @@ en:
   gender_lead: >
     It is the high majority of women in the garment industry that show its true nature.
   gender_influences: >
-    Gender influences labour practices in countless ways:
+    Gender influences labour practices in countless ways: ideas about the jobs women can do, how they should do them, their wages, their relationship to employers and the law. Everything from the level of payment and how quickly a worker is paid, to the terms of your employment, such as lack of a contract, no medical or maternity leave, no right to organise, or no pension, down to the way a supervisor speaks to or touches a worker,is informed in part by gender-based notions of what is acceptable. Detailed factory profiles reveal that at the factory level, women workers are concentrated in subordinate roles, such as machine operator and checkers. Women are routinely employed in low skill level roles and rarely reach leadership positions in their factories or unions.
   croatian_gender_quote: >
-    "I come home, and I can't sit until evening. I need to cook, wash laundry, write
-    homework with kids... In the evening I'm so tired that I just try not to fall before
-    I lie down."
+    "I come home, and I can't sit until evening. I need to cook, wash laundry, write homework with kids... In the evening I'm so tired that I just try not to fall before I lie down."
   a_worker_from_croatia: "A Worker from Croatia"
-  women_face_stress: "Women face stress"
+  women_face_stress: >
+    Women face stress created by job insecurity, verbal and physical harassment, malnutrition from low pay, exhaustion resulting from forced overtime, and the inability to do anything about unsafe working practices and environments. Women’s rights are also violated outside the workplace. That cannot be ignored as it shapes the reality of who a woman worker is, both in and outside the workplace. Discrimination in terms of double workload (productive and reproductive), discrimination in the community and in the home, discrimination before the law (in the shape of regulations regarding property ownership, inheritance, etc.), these are all factors in creating the context in which a woman lives and works. She doesn’t shed these aspects of her reality when she enters her workplace. The roll-out effect on a woman’s health and that of her children is immediately evident.
   low_wages: "Low Wages"
-  when_looking_at_the_garment_sector: "When looking at the garment sector"
-  since_women_are_mainly_employed: "Since women are mainly employed"
+  when_looking_at_the_garment_sector: >
+    When looking at the garment sector, the division of work is very much gendered: The further down the supply chain you go, the more precarious the work; the lower the pay, the greater the share of women workers. Employers are able to take advantage of cultural stereotypes that depict women as passive, flexible, and less likely to challenge management. Women are typically paid less than men because their income is seen as complementary to those of male breadwinners. In reality, however, women workers often represent the sole income providers for the household. This form of inequality is most clearly observed in the difference between men’s wages and women’s wages, often referred to as the ‘gender pay gap’. Women are often paid less than men in the clothing industry, even if they do the same tasks.
+  since_women_are_mainly_employed: >
+    Since women are mainly employed in lower-paid and lower-power positions they are more likely to be affected by poverty. Poverty in turn increases the likelihood of becoming a victim of violence and harassment. Gender-based violence and harassment are most common in industries where women are paid low wages and have little decision-making authority. The textile industry, with the structure of its supply chains, is one of these industries that structurally encourage violence and harassment. As the majority of the workforce is female, including many young women and migrants, the majority of garment workers also do not have any power to improve their situation.They are in a relationship of dependency with mostly male superiors who are often also their abusers.
   gender_based_violence: "Gender-based Violence"
-  gender_based_violence_is_both_a_cause: "Gender-based violence is both a cause"
-  found_that_76_of_all: "found that 76% of all"
-  despite_its_prevalence_in_the_garment_sector: "Despite its prevalence in the garment sector"
+  gender_based_violence_is_both_a_cause: >
+    Gender-based violence is both a cause and a consequence of poverty and gender inequality. GBV ranges from gendered discrimination, such as lack of access to maternity leave and childcare, to brutal physical violence such as rape or murder. A recent report on
+  found_that_76_of_all: >
+    found that 76% of all interviewed workers had faced some form of GBV at the workplace. When looking at all cases of GBV, sexual harassment is the form of violence that workers experience most often. When analyzing physical violence, slapping was the most common form of physical violence, experienced by 80% of workers. Workers report that getting slapped by supervisors is especially common when production targets are high and / or deadlines are tight. The other most common forms of violence are beating (44%), kicking (42%) and punching (11%). While domestic violence is clearly one of the most prevalent form of sexual violence against women, out of those interviewees who have experienced rape, a shocking 6% were raped by their supervisor or line chief.
+  despite_its_prevalence_in_the_garment_sector: >
+    Despite its prevalence in the garment sector, GBV mostly does not show up in factory audits since the format of classic audits does not involve workers to a degree that would allow them to speak about such sensitive issues. Interviews with workers often happen on-site, sometimes even in the presence of male superiors who are potential perpetrators of GBV.
   to_address_gender_based_violence_in_the_supply: "To address gender-based violence in the supply chain"
   this_is_confirmed_by_the_evidence: "This is confirmed by the evidence"
   indian_gender_quote: >
@@ -224,7 +228,103 @@ en:
   menu_living_wage: "What is living wage"
   what_is_a_living_wage: "What is a Living Wage?"
   a_living_wage_recognized_by_the_un_as_a_right: >
-    A living wage, recognized by the UN as a human right, is a wage that is sufficient to
-    affort a decent standard of living for a worker and their family.
+    A living wage, recognized by the UN as a human right, is a wage that is sufficient to afford a decent standard of living for a worker and their family.
+  it_should_be_earned_in_a_standard_work_week: >
+    It should be earned in a standard work-week of no more than 48 hours, and must include enough to pay for food, water, housing, education, health care, transportation, clothing and some discretionary earnings, including savings for unexpected events.
+  why_the_minimum_wage_is_not_enough: "Why the minimum wage is not enough."
+  legal_minimum_wages_in_garment_producing: >
+    Legal minimum wages in garment-producing countries all over the world fall short of a living wage, meaning garment workers are unable to provide the most basic needs for themselves and their families. The gap between the legal minimum wage and a living wage is ever growing. In many countries, the minimum wage falls far short of the living wage. In Asia, the minimum wage can range from 21% (Bangladesh) to about 46% (China) of a living wage (research 2019). In European production countries, we see sometimes even larger gaps, from 10% (Georgia) to 40% in Hungary.
+  i_became_the_backbone: >
+    "I became the backbone of our family, but my salary is not enough to meet the family's
+    daily needs"
+  a_worker_from_indonesia: "a worker from Indonesia"
+  there_are_a_number_of_countries: >
+    There are a number of countries that have no legal minimum wage at all. Governments of producing countries have no incentive to raise minimum wages, fearing that higher minimum wages will lead to brands shifting their orders to countries where labour costs even less. This is the reality of the fashion industry, which means minimum wages are never raised to subsistence level (in line with rising costs for basic needs). In addition to that: workers are often not fairly or not represented at all in the minimum wage bargaining process. In most countries where garments make up a significant part of exports, minimum wages have risen only very incrementally to adjust partially for inflation. These rises often come too late and are negligible: in Bangladesh, for example, the lowest paid workers are still earning only half of what they demanded and needed since 2016.
+  living_wage_benchmarks: "Living Wage Benchmarks"
+  calculating_a_living_wage_is_not_easy: >
+    Calculating a living wage is not easy, although certainly not impossible. Several scholars, unions and labour rights groups have developed credible benchmarks for one or multiple countries or regions. A robust living-wage benchmark must be:
+  transparent_in_method_and_conclusion: "Transparent in method and conclusion"
+  revised_on_a_regular_basis: >
+    Revised on a regular basis to ensure inflation and rising costs of basic goods are taken into account.
+  established_in_negotiation: >
+    Established in negotiation with national or regional unions as not to increase wage competition.
+  enough_to_cover_the_full_basic_needs: >
+    Enough to cover the full basic needs of a family, as a baseline, and allow for savings. This includes single mothers or workers without partners who are supporting two elderly relatives on one wage.
+  a_living_wage_benchmark_should_put_a_floor: >
+    A living wage benchmark should put a floor not a ceiling on wages. It should facilitate improvement beyond securing a minimum income for all workers.
+  savings_and_survival: "Savings and Survival"
+  asia_floor_wage_alliance: >
+    Asia Floor Wage Alliance, Global Living Wage Coalition and Wage Indicator Foundation are examples of benchmarks that meet this criteria. Fair Wear Foundation’s Wage Ladders which compare several benchmarks with local statutory minimum wages are another useful tool.
+  sometimes_i_have_to_take_painkillers: >
+    “Sometimes I have to take painkillers, and I have to use gels for muscle and joint pain. Afew times I had to go take injections, because of stiffening."
+  life_is_full_of_the_unexpected: >
+    Life is full of the unexpected. Earning a wage should give you enough security to face it. The fact that most workers in the garment and sportswear industry do not earn enough to cover life’s basic necessities means they cannot survive hard times. Covid-19 has made this glaringly obvious.Brands canceled orders to preserve their own cash flow, leaving the factories in their supply chain with not only no means to cover worker’s wages, but also no means to cover all other production costs. Many factories have shut down, firing thousands of workers.
+  not_only_have_brands_been_refusing: >
+    Not only have brands been refusing to pay for orders already in production, sometimes even already in stores, they have also been offering consumers sales and discounts, leaving those at the bottom of the supply chain with nothing. Most workers are on the streets protesting for the wages they are owed since March, or they are being forced to go back to work without proper safety measures. Since they have no money they have no choice. Informal workers have been even more effected. The International Labour Organization (ILO) estimates that 1.6 billion workers in the informal economy face
+  massive_damage: "massive damage"
+  to_their_livelihood: >
+    to their livelihood after their entire business was decimated by Covid-19 restrictions.
+  trade_unions_worry: >
+    “Trade unions worry that the Covid-19 crisis will lead to a spike in child labour, bonded labour and human trafficking, with garment workers moving to other occupations including sex work.”
+  the_emperor_has_no_clothes: >
+    The Emperor has no clothes: Garment supply chains in the time of pandemic by Asia Floor Wage Alliance.
+  all_actors_in_fashion_now_understand: >
+    All actors in fashion now understand the urgency and importance of re-imagining the industry and it’s business model. We want living wages to be at the forefront of this conversation. It’s time to rebuild the garment and sportswear industries to ensure fair pay for labour and job security across the whole supply chain.
+  for_more_information_on: "For more information on"
+  covid_19: "Covid-19"
+  brand_responsibility: "Brand responsibility"
+  brands_put_forward_all_kinds_of_excuses: >
+    Brands put forward all kinds of excuses for not committing to a living wage: that it is the responsibility of suppliers or governments, that it is impossible to pay as it would price them out of the market, that consumers don’t want to pay more, that there is no consensus on how to calculate it, etc. But while production can be outsourced, the responsibility to respect human rights and pay a living wage remains with the brand.
+  the: "The"
+  un_guiding_principles_on_business_and_human_rights: "UN Guiding Principles on Business and Human Rights"
+  un_guiding_principles_clearly_states: >
+    (UN Guiding Principles), clearly states the role and responsibilities of businesses and states (Governments).
+  the_un_guiding_principles_three_pillars: "The UN Guiding Principles are based on three pillars:"
+  the_state_duty_to_protect_human_rights: "The state duty to protect human rights"
+  the_corporate_responsibility_to_respect_human_righ: "The corporate responsibility to respect human rights"
+  access_to_remedy: "Access to remedy"
+  this_establishes_a_principle_of_shared_responsibil: >
+    This establishes a principle of shared responsibility between the state and business, meaning governments have an obligation to protect the human right to a living wage by setting the legal minimum wage on a subsistence level, and businesses have to respect the human right to earn living wages accordingly.
+  the_framework_also_clearly_states_that: >
+    The framework also clearly states that the responsibility to respect human rights “exists independently of States’ abilities and/or willingness to fulfill their own human rights obligations, and does not diminish those obligations. And it exists over and above compliance with national laws and regulations protecting human rights.” In other words, in cases where governments fail to protect human rights – such as when the legal minimum wage fails to meet the minimum subsistence level (a living wage) – businesses still have an obligation to respect the human right to a living wage by remedying this state failure.
+  the_workers_wages_have_been_regularly_delayed: >
+    “The workers’ wages have been regularly delayed for a month or two since the beginning of 2019. We complained and they paid, but not this month. The factory director says it is because a firm didn’t pay. But we did our job.”
+  a_worker_from_ukraine: "a worker from Ukraine"
+  the_un_guiding_principles_establish:
+    The UN Guiding Principles establish supply chain responsibility. Any production company is responsible for all human-rights impacts across its supply chain, independent of where the human rights abuse occurs (i.e. in their own facilities, with sub-contracted factories, or with homeworkers). So while production of garments is often outsourced, the responsibility remains with each corporation and cannot be delegated and outsourced down the supply chain.
+  why_do_we_talk_about_paying_factories_not_workers: "Why do we talk about paying factories not workers?"
+  brands_do_not_pay_workers_directly: >
+    Brands do not pay workers directly. They pay their suppliers, who then pay garment workers. A supply chain is usually broken up into 3 tiers of supplier companies. Tier 1 supplier companies are usually commissioned directly by brands for production contracts. These tier 1 companies will subcontract work to other suppliers.
+  on_their_current_wages_garment_workers: >
+    On their current wages, garment workers often have to make hard decisions about their health care or their children’s education. It is common for workers to faint from lack of nutrition since they often do not earn enough to feed themselves and their families adequately. The added stress of juggling bills and loans and lack of sleep from inhumane working hours has long term health consequences for millions of workers. Most will have to make a choice between buying food and paying to see a doctor.
+  suppliers_are_forced_to_estimate_the_lowest: >
+    Suppliers are forced to estimate the lowest possible cost of production per item to bargain with brands for production contracts.This price is supposed to be enough for factory running costs, including rent, electricity, water and maintenance, material costs,shipping, a profit margin for the factory and cover all labour costs. To compete with the other tier 1 companies, suppliers project labour costs based upon minimum wages, rather than living wages; and ten-hour days, including two hours of overtime, rather than eight-hour working days.
+  my_job_is_exhausting: >
+    “My job is exhausting. Every day I need to do 18 hours. Many workers cannot finish the production target from the factory, so they are fired.”
 
-  it_should_be_earned_in_a_standard_work_week: "It should be earned in a standard work-week"
+  current_purchasing_practices_reflect_the_rise_of_f: >
+    Current purchasing practices reflect the rise of fast fashion. Where the norm was previously four style seasons per year, the brand Zara pioneered changing styles monthly. Most high-street brands now produce 52 ‘micro-seasons’ a year. Brands will also suddenly order twice as much of their popular items. This high turn over of product, coupled with uncertain order quantities has produced the current industry model. The uncertainty caused by buyer purchasing practices is then displaced upon workers through the use of flexible job contracts, unemployment during fluctuations in production, and downward pressure on wages.
+  my_factory_doesn_t_give_me_a_pay_slip: >
+    “My factory doesn’t give me a pay slip.We work hard to make this dress. We work for minimum 12 hrs which may extend to 24hrs a day during peak time.”
+  a_worker_from_india: "a worker from India"
+  brands_need_to_take_responsibility_to_modify: >
+    Brands need to take responsibility to modify their purchasing practices to ensure their suppliers can pay their workers. We will continue to work with worker organisations and unions to ensure these changes are effective.
+  unions_and_worker_committees: "Unions and Worker committees"
+  workers_have_little_to_no_power_to_fight:
+    Workers have little to no power to fight for better wages. Freedom of Association (FOA) is under immense pressure and busting unions who are fighting for higher wages is anything but unusual in many garment producing countries. There has also been a remarkable increase in the number of worker committees established in the place of unions at factory level over the past couple of years. This creates the false impression that today’s workers are both organised and powerful. Brands often claim that worker committees and trade unions are essentially the same, which might only be true in a small percentage of cases.
+  trucks_are_constantly_leaving: >
+    "Trucks are constantly leaving, all the products are sold, and there is a lot of work, but they keep saying that there is no money. My contract is only prolonged every 3 months. I have no security.”
+
+  a_worker_in_croatia: "A worker in Croatia"
+  instead_of_promoting_fair_worker_representation: >
+    Instead of promoting fair worker representation at factory level, it's often more appealing to brands, suppliers and local governments to support alternative structures that give workers significantly less power. Worker committees often involve factory management, which undermines garment workers' right to organise free of involvement by their government or employer. Additionally, in some countries, like in Bangladesh, worker committees are not allowed - by law - to bargain on wages, whereas trade unions are. Ultimately this means that the price brands pay for production is protected.
+  we_are_never_allowed_to_go_home: >
+    “We are never allowed to go home before the target is met.”
+  we_want_brands_to_do_more_to_support: "We want brands to do more to support"
+  foa: "FOA"
+  i_have_problems_with_my_stomach: >
+    "I have problems with my stomach. I had to have on operation because of poor nutrition, and now I need to watch my diet. But I cannot afford a quality meal. The pastries they bring us are made from waste flour."
+  women_can_be_made_to_dance: >
+    "Women can be made to dance like puppets but men cannot be abused in the same way. The owners do not care if we ask for something, but demands raised by the men must be given consideration. So they don’t employ men."
+  a_worker_from_bangladesh: "A worker from Bangladesh"
+  gbv_in_bangladesh: "GBV in Bangladesh"

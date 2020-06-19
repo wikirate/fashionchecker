@@ -11,7 +11,7 @@
           = t('gender_influences')
         .red-quote
           = t('croatian_gender_quote')
-          .red-citation
+          .citation
             = t('a_worker_from_croatia')
         %p
           = t('women_face_stress')
@@ -19,36 +19,40 @@
           = t('low_wages')
         %p
           = t('when_looking_at_the_garment_sector')
+
+        .text-on-image.stomach_problems_bg
+          .quote-on-image
+            = t('women_can_be_made_to_dance')
+            .citation
+              = t('a_worker_from_bangladesh')
         %p
           = t('since_women_are_mainly_employed')
         %h3
           = t('gender_based_violence')
         %p
           = t('gender_based_violence_is_both_a_cause')
-          %a{ href: "#" } GBV in Bangladesh
+          %a{ href: "#" }
+            = t('gbv_in_bangladesh')
           = t('found_that_76_of_all')
         %p
           = t('despite_its_prevalence_in_the_garment_sector')
+
+        %img{ src: "/images/gender/garment_labor_union.png" }
         %p
           = t('to_address_gender_based_violence_in_the_supply')
         %p
           = t('this_is_confirmed_by_the_evidence')
         .red-quote
           = t('indian_gender_quote')
-          .red-citation
+          .citation
             = t('a_worker_from_india')
         %p
           = t('when_you_are_living_pay_check_to_pay_check')
         %p
           = t('read_more_about')
           &nbsp;
-          %a{ href: "#" }>< Gender
+          %a{ href: "#" }
+            = t('gender')
           \.
-
-
-
-
-
-
 
     = partial "partials/shared/footer"
