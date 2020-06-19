@@ -115,19 +115,9 @@ en:
   footer_info: "is a campaign by the Clean Clothes Campaign, funded by the European Union"
   methodology_title: "Our Research Methodology"
   methodology_paragraph_1: >
-    We sent more than 90 brands questionnaires to give them the opportunity to showcase
-    the efforts they are making towards paying a living wage to all workers in their supply
-    chain and to disclose their production locations (if they had not done so through the
-    Transparency Pledge). Our emphasis is on expressing the brands’ efforts to pay a living
-    wage through SMART data collected via this research in a transparent and
-    comprehensive format for consumers, garment workers and policy makers. It is hoped
-    that, in the long term, brands representation on Fashion Checker will become a
-    component of a brand’s due diligence and CSR validation process.
+    We sent more than 90 brands questionnaires to give them the opportunity to showcase the efforts they are making towards paying a living wage to all workers in their supply chain and to disclose their production locations (if they had not done so through the Transparency Pledge). Our emphasis is on expressing the brands’ efforts to pay a living wage through SMART data collected via this research in a transparent and comprehensive format for consumers, garment workers and policy makers. It is hoped that, in the long term, brands representation on Fashion Checker will become a component of a brand’s due diligence and CSR validation process.
   methodology_paragraph_2: >
-    Because of the challenging context, including workers’ reluctance to speak with
-    researchers for fear of reprisal, field research at workplace level has initially only been
-    carried out in five countries where access to garment workers is guaranteed;
-    Indonesia, China, Croatia, India and the Ukraine. We collected workers’ payslips,
+    Because of the challenging context, including workers’ reluctance to speak with researchers for fear of reprisal, field research at workplace level has initially only been carried out in five countries where access to garment workers is guaranteed; Indonesia, China, Croatia, India and the Ukraine. We collected workers’ payslips,
     conducted interviews to interpret the information the payslips provide, disaggregated
     by gender (e.g. on gender pay gaps, work responsibilities, working hours,bonuses,
     overtime). We then checked these wages against the response given by brands on their
@@ -165,13 +155,15 @@ en:
     found that 76% of all interviewed workers had faced some form of GBV at the workplace. When looking at all cases of GBV, sexual harassment is the form of violence that workers experience most often. When analyzing physical violence, slapping was the most common form of physical violence, experienced by 80% of workers. Workers report that getting slapped by supervisors is especially common when production targets are high and / or deadlines are tight. The other most common forms of violence are beating (44%), kicking (42%) and punching (11%). While domestic violence is clearly one of the most prevalent form of sexual violence against women, out of those interviewees who have experienced rape, a shocking 6% were raped by their supervisor or line chief.
   despite_its_prevalence_in_the_garment_sector: >
     Despite its prevalence in the garment sector, GBV mostly does not show up in factory audits since the format of classic audits does not involve workers to a degree that would allow them to speak about such sensitive issues. Interviews with workers often happen on-site, sometimes even in the presence of male superiors who are potential perpetrators of GBV.
-  to_address_gender_based_violence_in_the_supply: "To address gender-based violence in the supply chain"
-  this_is_confirmed_by_the_evidence: "This is confirmed by the evidence"
+  to_address_gender_based_violence_in_the_supply: >
+    To address gender-based violence in the supply chain, brands need to understand and recognise their own role in the dynamics that lead to gender-based violence. Recent studies show that buyers increasingly use their leverage over suppliers to demand lower prices, shorter lead times for higher production quantities, and sudden changes to orders. As a result, suppliers increase workers production targets which lead to an increase in violence and harassment towards workers when targets are not met.
+  this_is_confirmed_by_the_evidence: >
+    This is confirmed by the evidence from Bangladesh: 64% of the respondents in the present study stated that they were under tremendous pressure to produce garment products and 35% of them stated that they had experienced violence from their supervisors for that reason. Other stakeholders in the industry found the same dynamics when analyzing violence and harassment in garment factories. Fair Wear Foundation states that production pressure - including price pressure and lead time pressure - is linked to violence and harassment in several ways: For example, evening overtime hours can make women workers vulnerable to sexual assault, in the factory as well as on the way home. Supervisors who are stressed by high production targets are more likely to abuse workers. Moreover, if bonuses are linked to production outputs, workers are more easily pressurized into sexual favors to supervisors in exchange for approving targets.
   indian_gender_quote: >
-    "We are verbally abused at work. There should be female supervisors with female
-    workers, and we need better pay so that we can look after our children"
+    "We are verbally abused at work. There should be female supervisors with female workers, and we need better pay so that we can look after our children"
   a_worker_from_india: "A Worker in India"
-  when_you_are_living_pay_check_to_pay_check: "When you are living pay check to pay check"
+  when_you_are_living_pay_check_to_pay_check: >
+    When you are living pay check to pay check, quitting the job that protects you from starvation is not a realistic option. Especially when you have multiple mouths to feed. Brands need to do more to ensure the women in their supply chain are protected from abuse and work towards a living wage for ALL workers.
   read_more_about: "Read more about"
   who_are_we: "Who are we?"
   menu_who_we_are: "Who we are"
@@ -188,37 +180,48 @@ en:
   knowing_where_your_clothes_are_made: >
     Knowing where your clothes are made, and who made them, is a vital step in improving
     working conditions.
-  transparency_in_production_supply_chains: "Transparency in production supply chains is the first step"
+  transparency_in_production_supply_chains: >
+    Transparency in production supply chains is the first step towards improved working conditions but it is not the solution. Brands that disclose data about the factories they use are not any better than the brands that do not. It does not mean the wages or any other working conditions are better. It just makes responsibility for labour rights abuses slightly easier to pin. Knowing the multitude of brands that a factory produces for can help brands co-operate on solutions to labour rights problems.
   transparency_needs_to_be_the_cornerstone: >
-    "Transparency needs to be the cornerstone of any serious effort by brands to build
-    a supply chain free from numan rights abuses"
+    "Transparency needs to be the cornerstone of any serious effort by brands to build a supply chain free from human rights abuses"
   aruna_kashyap: >
     Aruna Kashyap, Senior Women's Rights Counsel at Human Rights Watch
-
   menu_transparency: "Transparency"
-  in_2016_nine_labor_and_human: "In 2016, nine labor and human"
-  to_advocate_for_transparency: "to advocate for transparency"
+  in_2016_nine_labor_and_human: >
+    In 2016, nine labor and human rights organisations formed a
+  to_advocate_for_transparency: >
+    to advocate for transparency in apparel supply chains by calling for all garment and sportswear production companies to sign the
   coalition: "coalition"
   transparency_pledge: "Transparency pledge"
-  the_pledge_is_based_on_existing: ". The pledge is based on existing"
+  the_pledge_is_based_on_existing: >
+    . The pledge is based on existing, positive industry practices. The objective is to help the garment industry reach a common minimum standard for supply chain disclosures by getting companies to publish standardized, meaningful information on all factories in the manufacturing phase of their supply chains. In 2016, nine labor and human rights organisations formed a coalition to advocate for transparency in apparel supply chains by calling for all garment and sportswear production companies to sign the Transparency pledge. The pledge is based on existing, positive industry practices. The objective is to help the garment industry reach a common minimum standard for supply chain disclosures by getting companies to publish standardized, meaningful information on all factories in the manufacturing phase of their supply chains.
   there_has_been_an: "There has been an"
   encouraging_increase: "encouraging increase"
-  in_how_transparent_fashion_brands_are_on: "in how transparent fashion brands are on"
+  in_how_transparent_fashion_brands_are_on: >
+    in how transparent fashion brands are on where and how their clothes are produced. More and more brands are disclosing production locations and signing the
   however_there_are_still_too_many_brands_that: "However, there are still too many brands that"
   refuse_to_do_so: "refuse to do so"
-  and_even_the_most_progressive_brands: ", and even the most progressive brands"
-  what_are_they_hiding: "What are they hiding?"
-  we_re_demanding_that_brands_do_better: "We're demanding that brands do better"
+  and_even_the_most_progressive_brands: >
+    , and even the most progressive brands still do not show their entire supply chain and hide their lack of progress on improving wages behind vague promises instead of verifiable, objective data.
+  what_are_they_hiding: >
+    What are they hiding? No brand publishes clear information on how much the workers make, or even on how (and when!) they concretely ensure that their suppliers can pay a living wage. There are many vague ‘commitments’, yet what the workers need are time-bound, measurable, enforceable steps to improve the situation. There is also an almost complete lack of information further down the supply chain, about sub-contractors, home-based workers, the workers who harvest and process raw materials and fabrics.
+  we_re_demanding_that_brands_do_better: >
+    We’re demanding that brands do better: show how you are working towards a living wage, and make that information public. We also demand that policy makers create a level playing field: at least a minimal amount of transparency should be mandatory for all brands, upon which the brands can of course improve. That is the only way that companies can do their due diligence, and in the longer run the only way they can keep the trust of consumers.
   going_beyond_the_pledge: "Going beyond the pledge"
-  since_the_birth_of_the_pledge: "Since the birth of the pledge supply chain"
+  since_the_birth_of_the_pledge: >
+    Since the birth of the pledge supply chain transparency in the apparel industry has grown tremendously. Dozens of companies now publish the names, addresses, and other details of supplier factories. But this is only a starting point. Clothing brands that are serious about ethical supply chains can and should do more. A handful of companies have begun to disclose parts of their supply chain beyond tier-1, including information about the production of raw materials. But the transparency pledge is a floor not a ceiling. To foster the conditions necessary for change in the garment industry, brands need to be collecting more data about the factories in their supply chain.
   the_bottom_of_the_supply_chain: "The bottom of the supply chain"
-  we_want_brands_to_ask_suppliers_where: "We want brands to ask suppliers"
+  we_want_brands_to_ask_suppliers_where: >
+    We want brands to ask suppliers where the women are, where are the migrants and what are the lowest wages. This will give a much clearer picture of the power imbalance in their supply chain which is the first step to making improvements.
   worker_unions: "Worker Unions."
-  we_want_brands_to_ask_suppliers_if: "We want brands to ask suppliers if"
+  we_want_brands_to_ask_suppliers_if: >
+    We want brands to ask suppliers if their factories have unions or worker committees. Most of the time we have no idea if the people making our clothes have a voice. We want more information on who has power in the supply chain.
   readable_data: "Readable data."
-  we_want_brands_to_release_the_data: "We want brands to release the data"
+  we_want_brands_to_release_the_data: >
+    We want brands to release the data about their supply chain in a format that is useful and readable. It should be standard to supply machine readable information on all production units and processing facilities. Brands need to provide downloadable
   transparency_for_the_consumer: "Transparency for the Consumer"
-  we_want_governments_to_increase: "We want governments to increase"
+  we_want_governments_to_increase: >
+    We want governments to increase the transparency of products to empower citizens to make informed choices about their purchases. We want to expand the type of information on the labels of textile products to include information on the manufacturer. We also want to improve the social and sustainability criteria of the
   eu_ecolabel: "EU Ecolabel"
   to_reflect_wage_abuses: "to reflect wage abuses."
   for_more_about_our: "For more about our"
@@ -320,7 +323,8 @@ en:
     Instead of promoting fair worker representation at factory level, it's often more appealing to brands, suppliers and local governments to support alternative structures that give workers significantly less power. Worker committees often involve factory management, which undermines garment workers' right to organise free of involvement by their government or employer. Additionally, in some countries, like in Bangladesh, worker committees are not allowed - by law - to bargain on wages, whereas trade unions are. Ultimately this means that the price brands pay for production is protected.
   we_are_never_allowed_to_go_home: >
     “We are never allowed to go home before the target is met.”
-  we_want_brands_to_do_more_to_support: "We want brands to do more to support"
+  we_want_brands_to_do_more_to_support: >
+    We want brands to do more to support the workers in their supply chain. Collecting data on unions and worker committees will give a clearer picture of the causes and consequences of human rights abuses in garment and sportswear production.
   foa: "FOA"
   i_have_problems_with_my_stomach: >
     "I have problems with my stomach. I had to have on operation because of poor nutrition, and now I need to watch my diet. But I cannot afford a quality meal. The pastries they bring us are made from waste flour."
@@ -328,3 +332,70 @@ en:
     "Women can be made to dance like puppets but men cannot be abused in the same way. The owners do not care if we ask for something, but demands raised by the men must be given consideration. So they don’t employ men."
   a_worker_from_bangladesh: "A worker from Bangladesh"
   gbv_in_bangladesh: "GBV in Bangladesh"
+  about_fashion_checker: "About Fashion Checker"
+  about_the_campaign: "About the campaign"
+  a_living_wage_for_garment_workers: >
+    A living wage for garment workers and a transparent supply chain.
+  menu_about_fashion_checker: "About Fashion Checker"
+  about: "About"
+  brands_in_the_fashion_industry_put_millions: >
+    Brands in the fashion industry put millions into advertising themselves as ethical and sustainable, making plenty of claims about paying their workers a living wage. Fashion Checker shows how far from the truth this actually is, giving consumers and garment workers access to real data from the supply chains of the worlds’ biggest brands.
+
+  power_in_the_garment_industry: "Power in the Garment Industry"
+  we_believe_all_workers_in_a_supply: >
+    We believe all workers in a supply chain have a right to fair pay. Workers making the products for the garment and sportswear market have been earning
+    poverty wages
+  poverty_wages: "poverty wages"
+  since_the_birth_of_the_industry_our_research_shows: "since the birth of the industry. Our research shows"
+  no_major_clothing_brand: "no major clothing brand"
+  is_able_to_prove_that_workers_making_their_clothin: >
+    is able to prove that workers making their clothing in Asia, Africa, Central America or Eastern Europe are paid enough to live on.
+  an_estimated_60_million_workers: >
+    An estimated 60 million workers power the global garment industry, generating its billions in profit. The majority work inhumane hours and multiple jobs to make ends meet. Roughly 80% of these workers are women. This is not a coincidence. The workers earning poverty wages have little to no ability to fight for their rights which is why they remain earning so little in exploitative jobs. This is a systematic power imbalance built into the industry.
+
+  earning_a_living_wage: "Earning A living wage"
+  demanding_a_wage_you_can_live_on: >
+    Demanding a wage you can live on should not be controversial. We asked for a
+
+  living_wage_now: "'living wage now'"
+  in_2015_it_s_five_years_later: >
+    in 2015. It’s five years later and there has been no progress. Now it’s time for change. It’s time to address the systemic causes of poverty wages in the garment and footwear industry, and force brands to take accountability.
+  for_decades_brands_and_retailers_have_built: >
+    For decades, brands and retailers have built their profits on low prices. The global oversupply of clothing generated by fast fashion gives brands the power to push their suppliers to agree to produce clothing and footwear for the lowest prices possible. The price brands pay their suppliers is supposed to be enough to cover factory running costs, buy material for production, ship the products, pay for labour and leave a profit margin for the factory. Worker’s wages are the easiest cost to cut.
+  gender_in_the_garment_industry: "Gender in the Garment Industry"
+  a_lot_of_informal_work_is_done_by_women: >
+    A lot of informal work is done by women, either in self employed or sub-contracted positions. Their wages are even more precarious. Gender pay gaps are still one of today’s greatest social injustices. Progress towards equal pay is gaining momentum across our global economy, but we are still witnessing dire inequality in clothing and footwear manufacturing.
+  inside_factories_women_are_mainly_employed: >
+    Inside factories women are mainly employed in lower-paid, lower-power positions. The gendered power imbalances within factories are deeply rooted in cultural inequalities between men and women in most garment production countries. The further down the supply chain you go, the more precarious the work; the lower the pay, the greater the share of women workers.
+  transparency_in_fashion: "Transparency in Fashion"
+  there_has_been_an_encouraging_increase_in_how: >
+    There has been an encouraging increase in how transparent fashion brands are on where and how their clothes are produced. More and more brands are disclosing production locations and signing the Transparency Pledge. However there are still too many brands that refuse to do so, and even the most progressive brands still do not show their entire supply chain and hide their lack of progress on improving wages behind vague promises instead of verifiable, objective data.
+  putting_a_spotlight_on_the_supply_chain: "Putting a spotlight on the supply chain"
+  our_main_focus_is_wages_and_transparency: >
+    Our main focus is wages and transparency. Checking worker’s wages is currently the only reliable way to find out if brands are paying factories in their supply chain enough to run safely and fairly. Brands systematically paying too little for production forces factories to make difficult choices. If a factory isn’t paid enough it will cut worker wages to cover other expenses first. Wages and worker safety are the lowest priorities because there will always be people in need of the job.
+  brands_are_obligated_by_the: "Brands are obligated by the"
+  to_run_their_business_responsibly: >
+    to run their business responsibly. Earning a wage you can live comfortably on in a 48 hour working week is a fundamental human right. This means that brands should be able to prove that their suppliers are paid enough to pay their workers. Most brands do not even measure how much the workers in their supply chain would need to be paid in order to earn a decent living. Governments purposefully keep minimum wages low to encourage foreign brands to produce in their country. And suppliers purposefully outsource to less formal workers to pay as little as possible for production.
+  what_are_they_hiding_no_brand: >
+    What are they hiding? No brand publishes clear information on how much the workers make, or even on how they can concretely ensure that their suppliers can pay workers a living wage. There is also an almost complete lack of information further down the supply chain. Sub-contractors, home-based workers, the workers who harvest and process raw materials and fabrics are completely in the dark.
+  poverty_pay_isn_t_sustainable: "Poverty pay isn’t sustainable"
+  it_is_well_known_that_the_garment_industry: >
+    It is well known that the garment industry is one of the largest carbon polluters on the planet, and one of the greatest producers of waste, including toxic chemicals that permeate the environment and worker communities. Today’s fashion promises to be sustainable, conscious, fair and green, but without any transparency and without livable wages.
+  paying_poverty_wages_directly_affects: >
+    Paying poverty wages directly affects the sustainability and resilience of whole economies. An organic shirt made under poverty wages is not sustainable, and should never be considered as such. System change in the fashion industry is an undeniable necessity, but first the system needs to ensure the livelihood of the millions of garment workers who are most affected by it.
+  economic_impact: "Economic impact"
+  a_living_wage_for_all_workers_should_be: >
+    A living wage for all workers should be as much as a concern for brands as it is for labour rights activists. Several garment production countries have witnessed low wages and inequality turn into social unrest, where workers, despite repressive threats and violence, reclaimed the streets and protested in sheer desperation, causing nervous reactions from global brands that saw their smooth production process interrupted.
+  an_unequal_distribution_of_income_and_wealth: >
+    "An unequal distribution of income and wealth not only creates the conditions for crisis but is itself a source of political and social conflict."
+
+  economic_sustainability_and_resilience: >
+    Economic sustainability and resilience are central to all states, but also to family systems and individuals. Poverty wages specifically exacerbates the situation of women, the main care givers of society expected to perform the most unpaid labour. A living wage is the only solution for achieving equal opportunities for women and men to realize and use all of their capabilities, a prerequisite for inclusive and sustainable progress.
+  returning_the_power_after_covid_19: "Returning the power after Covid-19"
+  clothing_and_textile_manufacturing_has_always: >
+    Clothing and textile manufacturing has always run on exploitative labour. Covid-19 made this abundantly apparent. Brands lost the garment industry
+  billions_of_dollars: "billions of dollars"
+  by_canceling_orders_unnecessarily: >
+    by canceling orders unnecessarily, crippling factories and devastating workers. By refusing to pay workers a wage they can live on, Brands have left the workers who make their clothes without any means of supporting themselves. Millions of workers are under threat of homelessness and starvation and many factories face economic collapse. Brands have had too much power over their suppliers for too long. It’s time for this to change.
+  to_do_so_we_need_transparency: >
+    To do so we need transparency. We want to know where the power is in the supply chain: Where are workers paid the least? Where are workers unionised? Where are the women and migrant workers? It is time to use the available data to highlight the human rights abuses in fashion, and get concrete, meaningful, and measurable wage increases across the supply chain. Workers deserve better. Consumers deserve better. It’s time to redistribute power and wealth.

@@ -279,6 +279,9 @@ input {
     max-width: 100%;
   }
 }
+.container > img {
+  width: 100%;
+}
 
 .citation {
   font-size: 0.75em;
@@ -313,6 +316,12 @@ input {
 }
 .living-wage-banner {
   background-image: url("/images/living_wage/top_banner.png");
+}
+.gender-banner {
+  background-image: url("/images/gender/top_banner.png");
+}
+.about-fashion-banner {
+  background-image: url("/images/about_us/top_banner.png");
 }
 
 

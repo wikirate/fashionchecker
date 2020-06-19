@@ -1,6 +1,9 @@
 %body
   = partial "partials/header"
   %main{:role => "main"}
+    .container
+      .top-banner.gender-banner.display-4.text-white
+        = t('gender')
     = section :white do
       .middle-text
         %h3
@@ -51,7 +54,7 @@
         %p
           = t('read_more_about')
           &nbsp;
-          %a{ href: "#" }
+          %a{ href: "#" }><
             = t('gender')
           \.
 
