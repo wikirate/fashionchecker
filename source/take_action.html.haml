@@ -1,0 +1,45 @@
+%body
+  = partial "partials/header"
+  %main{:role => "main"}
+    = section :pink do
+      .middle-text
+        .text-center
+          .display-3.fushia
+            = t('want_to_help_workers_fight_for')
+          .display-3.red
+            = t('better_working_conditions')
+
+        %h3.red.pt-5
+          = t('twitter_storm')
+        %p
+          = t('your_voice_matters_brands_are_highly')
+        .text-center
+          .py-2
+            %img{ src: "/images/take_action/tweet-bestseller.png" }
+          .py-2
+            %img{ src: "/images/take_action/tweet-topshop.png" }
+          .py-2
+            %img{ src: "/images/take_action/tweet-primark.png" }
+
+        %p
+          = t('visit_the_websites_of_our')
+
+
+    = section :yellow do
+      .middle-text
+        %h3.red
+          = t('support_garment_workers_through_covid_19')
+
+        .black
+          %p
+            = t('sign_the_petition_asking_brands_to_pay_for_orders')
+          %a.btn.btn-primary{ href: "" }
+            = t('sign_the_petition')
+
+          %p
+            = t('donate_to_our_emergency_relief_fund')
+          %a.btn.btn-primary{ href: "" }
+            = t('donate')
+              
+
+    = partial "partials/shared/footer"

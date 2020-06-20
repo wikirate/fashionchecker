@@ -4,9 +4,9 @@
     = section :red do
       .row
         .col-sm-6
-          .span.display-4.text-white
+          .span.display-3.text-white
             = t('header_question_1')
-          .span.display-4.yellow
+          .span.display-3.yellow
             = t('header_question_2')
           %p.pt-3.white
             = t('find_out')
@@ -15,29 +15,31 @@
           %img.float-right{src: "images/logo/SVG/CCC_FashionChecker_RGB_vertical_spot.svg",
                height: "300px", width: "auto"}
 
-    = section :yellow do
-      .container.navy-bg.p-4
-        .row
-          .col-sm-6
-            %h2 Zara
-          .col-sm-6.text-right
-            %div
-              %img{src: "images/smiley_red.png", width: "70px"}
-        .row.brand.mx-0.mt-3.navy-bg
-          = brand_profile_partial "score/living_wage"
-
     = section :pink do
+      .container.p-4
+        .row
+          .col-sm-5
+            %img{ src: "/images/homepage/pie_graph.svg" }
+          .col-sm-7
+            .display-3.red
+              93%
+            .display-3.black
+              = t('of_surveyed_brands_aren_t_paying_garment_workers')
+
+
+    = section :fushia do
       .row
         .col-sm-6
-          .span.display-3.fushia
+          .span.display-3.yellow
             = t('living_wages')
-          .span.display-3.red
+          .span.display-3.white
             = t('not_poverty_wages')
         .col-sm-6
-          %p.red.lead
+          .lead.white
             = t('living_wages_info')
-          %a.btn.btn-primary.btn-sm{href: "#"}
-            = t('read_more_living_wages')
+          .py-3
+            %a.btn.btn-primary.black-btn{ href: "/living_wage.html" }
+              = t('read_more_living_wages')
         = partial "partials/shared/living_wage_table"
 
     = section :yellow do
@@ -50,7 +52,7 @@
         .col-sm-6
           %p.red.lead
             = t('gendered_pay_info')
-          %a.btn.btn-primary.btn-sm{href: "#"}
+          %a.btn.btn-primary{href: "/gender.html"}
             = t('gender')
     = section :red do
       .row
@@ -62,21 +64,21 @@
         .col-sm-6.white
           %p.lead
             = t('resilience_info')
-          %a.btn.btn-primary.btn-sm{href: "#"}
+          %a.btn.btn-primary{ href: "/our_demands.html" }
             = t('our_demands')
     = section :navy do
       .row
-        .col-sm-12
-          %h6
+        .col-sm-6
+          %h3
             = t('your_voice_has_power')
           %p
             = t('your_voice_info_1')
-            &nbsp;
-            %span.fushia<> #LivingWageNow
+            %span.fushia
+              \#LivingWageNow
             = t('your_voice_info_2')
-          %a.btn.btn-primary.btn-sm{href: "#"}
+          %a.btn.btn-primary{ href: "/take_action.html" }
             = t('take_action')
-    = partial "partials/homepage/news"
+    = # partial "partials/homepage/news"
 
   = partial "partials/shared/footer"
 
