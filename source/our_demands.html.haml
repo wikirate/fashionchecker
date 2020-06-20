@@ -1,0 +1,129 @@
+%body
+  = partial "partials/header"
+  %main{:role => "main"}
+    = section :pink do
+      .text-center
+        .display-3.red
+          = t('our_demands')
+        .display-3.fushia
+          = t('to_brands')
+      .middle-text
+        .lead.black
+          = t('brands_need_to_do_more_to_change_the_power')
+        %h3.red-head
+          = t('our_wage_demands')
+        %h3
+          = t('pay_a_living_wage')
+        %p
+          = t('we_want_brands_to_pay_more_for_orders')
+
+        .bar.black-bg
+          .bar-icon
+            &nbsp;
+          .bar-text
+            = t('brands_need_to_commit_to_paying_a')
+            %strong
+              = t('living_wage_contribution')
+            = t('on_every_order_they_place')
+
+        %h3
+          = t('using_living_wage_benchmarks')
+        %p
+          = t('if_brands_are_going_to_pay_living_wages')
+
+        .bar.black-bg
+          .bar-icon
+            &nbsp;
+          .bar-text
+            = t('brands_need_to_commit_to_using')
+            %strong
+              = t('transparent_and_robust_living_wage_benchmarks')
+        %h3
+          = t('pay_the_women_who_make_our_clothes')
+        %p
+          = t('brands_need_to_do_more_to_reduce_gender_inequality')
+
+        .bar.black-bg
+          .bar-icon
+            &nbsp;
+          .bar-text
+            = t('brands_need_to_commit_to')
+            %strong
+              = t('reducing_the_gender_pay_gap')
+            = t('in_their_supply_chain_by_at_least_30')
+
+        %h3
+          = t('covid_19_pay_up')
+        %p
+          = t('when_covid_19_shook_the_world_it_left_the_garment')
+
+        .bar.black-bg
+          .bar-icon
+            &nbsp;
+          .bar-text
+            = t('brands_need_to_publicly_commit_to_a')
+            %strong
+              = t('wage_guarantee')
+            = t('for_all_workers_in_their_supply_chain_ensure')
+            %strong
+              = t('receive_their_full_salaries')
+            = t('or_in_the_case_of_factory_closure_receive')
+
+        %h3.red-head
+          = t('our_transparency_demands')
+        %h3
+          = t('a_transparent_supply_chain')
+        %p
+          = t('we_want_all_brands_to_commit_to_a_completely')
+
+        .bar.black-bg
+          .bar-icon
+            &nbsp;
+          .bar-text
+            = t('brands_that_haven_t_already_need_to_sign')
+
+        %h3
+          = t('readable_data_on_women_migrants_and_unions')
+        %p
+          = t('not_only_do_brands_need_to_be_collecting_specific')
+
+        .bar.black-bg
+          .bar-icon
+            &nbsp;
+          .bar-text
+            = t('brands_must_disclose_data_using_machine_readable')
+
+        %h3
+          = t('wages_at_the_bottom_of_the_supply_chain')
+        %p
+          = t('we_want_to_know_what_the_lowest_earning_workers')
+
+        .bar.black-bg
+          .bar-icon
+            &nbsp;
+          .bar-text
+            = t('brands_must_disclose_data_on_the_lowest_wage_level')
+
+    = section :yellow do
+      .text-center
+        .display-3.red
+          = t('our_demands')
+        .display-3.fushia
+          = t('to_policymakers')
+      .middle-text
+        .lead.black
+          = t('it_s_not_just_brands_that_are_responsible')
+
+        %h3.red-head
+          = t('our_wage_demands')
+
+        .bar.white-bg
+          .bar-icon
+            &nbsp;
+          .bar-text
+            = t('we_call_for_minimum_wages_in_production_countries')
+
+        %h3.red-head
+          = t('our_transparency_demands')
+
+    = partial "partials/shared/footer"

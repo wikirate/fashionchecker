@@ -388,3 +388,20 @@ input {
   background-color: #1b2e6f;
 }
 
+.red-head {
+  color: $orange;
+  font-weight: bold;
+  border-top: 2px solid $orange;
+  margin-top: 1em;
+  padding: 1em 0 0.5em 0;
+}
+
+.bar {
+  display: flex;
+  flex-direction: row;
+  padding: 0.5em;
+  margin: 1em 0 2em 0;
+  .bar-icon {
+    width: 50px;
+  }
+}
