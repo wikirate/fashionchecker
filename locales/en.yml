@@ -63,6 +63,22 @@ en:
 
   living_wage_score:
     title: "Living Wage Score"
+    desc_1:
+      score_5: >
+        100% of factories in the brand’s supply chain pay workers a living wage.
+        This information is public.
+      score_4: >
+        More than 50% of factories in the brand’s supply chain pay workers a living wage.
+        This information is public.
+      score_3: >
+        Between 26% and 50% of factories in the brand supply chain pay workers a living wage.
+        This is public information.
+      score_2: >
+        The company claims that it has started contributing towards a living wage by paying higher prices factories in its supply chain but these prices still do not cover labour costs. 
+      score_1: >
+        The company claims that is has started contributing
+        towards a living wage by paying higher costs to all
+        factories in its supply chain.
     desc_2:
       score_5: >
         The workers making their clothes earn enough to live on.
@@ -74,21 +90,7 @@ en:
         The majority of workers in the brand’s supply chain do not earn enough to live on
       score_1: >
         The workers making their clothes do not earn enough to live on.
-    desc_1:
-      score_5: >
-        100% of factories in the brand’s supply chain pay workers a living wage.
-        This information is public.
-      score_4: >
-        More than 50% of factories in the brand’s supply chain pay workers a living wage.
-        This information is public.
-      score_3: >
-        Between 26% and 50% of factories in the brand supply chain pay workers a living wage.
-        This is public information.
-      score_1: >
-        The company claims that is has started contributing
-        towards a living wage by paying higher costs to all
-        factories in its supply chain.
-      score_2: "Description of Score D"
+
 
   transparency_score:
     title: "Transparency Score"
