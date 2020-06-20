@@ -69,12 +69,11 @@ en:
       score_4: >
         Some of the workers making their clothes do not earn enough to live on.
       score_3: >
-        Most of the workers making their clothes do not earn enough to live on. (at least half) Most
-      score_2: "text for D"
+        Most of the workers making their clothes do not earn enough to live on. (at least half)
+      score_2: >
+        The majority of workers in the brand’s supply chain do not earn enough to live on
       score_1: >
-        Which means the majority of workers
-        in the brand's supply chain do not earn enough
-        to live on.
+        The workers making their clothes do not earn enough to live on.
     desc_1:
       score_5: >
         100% of factories in the brand’s supply chain pay workers a living wage.
@@ -101,7 +100,7 @@ en:
       score_1: "This brand provides no information on the factories and garment workers in it’s supply chain which is required by the transparency pledge."
       score_2: "This brand provides some, but not enough information on the factories and garment workers in it’s supply chain, for instance; factory names but no address"
       score_3: "This brand provides basic information like factory names and addresses, product type, number of workers, and supplier group, if the factory is part of a larger entity"
-      score_4: "4 star description"
+      score_4: "This brand provides basic information in a practical, machine-readable format such as Excel spreadsheets which makes the data usable for others. "
       score_5: "This brand provides information beyond the basics in a practical, machine-readable format such as Excel spreadsheets which makes the data usable for others"
 
   suppliers_table:
