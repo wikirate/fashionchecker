@@ -11,6 +11,41 @@ $light-blue: #32437d;
 $other-blue: #4a588c;
 $medium-blue: #112053;
 
+.food {
+  fill: #fdbf41;
+  color: #fdbf41;
+}
+
+.housing {
+  fill: $orange;
+  color: $orange;
+}
+
+.health-care {
+  fill: $fushia;
+  color: $fushia;
+}
+
+.education {
+  fill: #8774db;
+  color: #8774db;
+}
+
+.clothing {
+  fill: #4493d0;
+  color: #4493d0;
+}
+
+.transportation {
+  fill: #01b5a6;
+  color: #01b5a6;
+}
+
+.savings {
+  fill: #62ac5b;
+  color: #62ac5b;
+}
+
 $table-color: $medium-grey;
 
 $body-bg: $blue;

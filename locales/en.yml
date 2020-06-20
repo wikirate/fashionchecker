@@ -63,24 +63,33 @@ en:
 
   living_wage_score:
     title: "Living Wage Score"
+    desc_2:
+      score_5: >
+        The workers making their clothes earn enough to live on.
+      score_4: >
+        Some of the workers making their clothes do not earn enough to live on.
+      score_3: >
+        Most of the workers making their clothes do not earn enough to live on. (at least half) Most
+      score_2: "text for D"
+      score_1: >
+        Which means the majority of workers
+        in Zara's supply chain do not earn enough
+        to live on.
     desc_1:
+      score_5: >
+        100% of factories in the brand’s supply chain pay workers a living wage.
+        This information is public.
+      score_4: >
+        More than 50% of factories in the brand’s supply chain pay workers a living wage.
+        This information is public.
+      score_3: >
+        Between 26% and 50% of factories in the brand supply chain pay workers a living wage.
+        This is public information.
       score_1: >
         The company claims that is has started contributing
         towards a living wage by paying higher costs to all
         factories in its supply chain.
       score_2: "Description of Score D"
-      score_3: "text for C"
-      score_4: "text for B"
-      score_5: "text for A"
-    desc_2:
-      score_1: >
-        Which means the majority of workers
-        in Zara's supply chain do not earn enough
-        to live on.
-      score_2: "text for D"
-      score_3: "text for C"
-      score_4: "text for B"
-      score_5: "text for A"
 
   transparency_score:
     title: "Transparency Score"
@@ -456,3 +465,34 @@ en:
     Your voice matters. Brands are highly image focused and take consumer opinions very seriously. We want you to let them know that workers deserve better. Tell the brands you buy from that you want your clothes made free from exploitation.
   donate_to_our_emergency_relief_fund: >
     Donate to our emergency relief fund to help us directly support workers in production countries, many of whom were already waiting on wages from before the corona outbreak. Organisations in our network are arranging food hand outs in support of garment workers and their families in their local communities. Follow our live blog for the latest news.
+  living_wage_table:
+    minimum_wage:
+      food: >
+        It is not easy to get enough nutrition or calories. You often eat the same porridge or rice everyday. Meat, fish and fruit are too expensive. Skipping meals is very common and your household will have less food by the end of the month.
+      housing: >
+        You share a packed dormitory. There is no privacy, no heating or air conditioning and poor ventilation. There is not enough furniture or beds. Poor quality building materials make living there unsafe and dangerous.
+      health_care: >
+        You have access to basic pain killers but limited access to menstruation products and no access to prescription medication or emergency health care. Lack of sleep and nutrition and hygiene limitations affect your health. You have to skip meals to be able to see a doctor.
+      education: >
+        You are not able to educate yourself or your children. You have no opertunity to improve your situation. Your children will most likely grow up to earn the same wages as you.
+      clothing: >
+        Your clothes aren’t warm enough for winter. You are not able to buy proper footwear while standing all day at work.
+      transportation: >
+        You have no safe means of transport. Public transport is not common in poorer production countries. You rely on overcrowded trucks provided by the factory. As a women, you are at risk of sexual harassment.
+      savings: >
+        You are most likely in debt. It is a struggle to balance bills and loans and you are living hand-to-mouth.
+    living_wage:
+      food: >
+        You earn enough to feed yourself and your household. You have a healthy, varied diet and eat at least three times a day.
+      housing: >
+        You can afford to house yourself and your dependents in a safe environment. You have windows for ventilation and light, privacy, enough furniture and your own bathroom facilities.
+      health_care: >
+        You have easy access to basic health care including menstruation products and prescription medication like insulin and antibiotics. You are able to save for emergency health care.
+      education: >
+        You are able to educate yourself and your dependents. You have the time and freedom to train towards a higher paid position.  Your and your children have options for your future.
+      clothing: >
+        You own weather appropriate clothes of your own choosing. You are able to buy supportive shoes and clothes in the correct size for your children.
+      transportation: >
+        You either earn enough to organise your own transport or your factory can afford to provide safe transport. You can afford to save towards your own means of transport. Most importantly you have a choice.
+      savings: >
+        You are able to save a portion of your wage for unexpected expenses and emergencies, giving you resilience in times of crisis.

@@ -28,6 +28,9 @@ $(document).ready ->
   $("body").on 'shown.bs.collapse', ".collapse", ->
     updateSuppliersTable($(this))
 
+  $("body").on "click", ".flip-card", ->
+    $(this).toggleClass("flipped")
+
   params = new URLSearchParams(window.location.search)
 
   unless params.get('embed-info') == "show"
