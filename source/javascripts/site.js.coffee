@@ -1,6 +1,6 @@
 $.fn.select2.defaults.set("theme", "bootstrap4")
 
-API_HOST = "https://dev.wikirate.org"
+API_HOST = "https://wikirate.org"
 ## "http://127.0.0.1:3000" # "https://staging.wikirate.org
 
 METRIC_URL = "#{API_HOST}/:commons_supplier_of"

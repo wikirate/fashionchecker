@@ -73,7 +73,7 @@ en:
       score_2: "text for D"
       score_1: >
         Which means the majority of workers
-        in Zara's supply chain do not earn enough
+        in the brand's supply chain do not earn enough
         to live on.
     desc_1:
       score_5: >
@@ -98,11 +98,11 @@ en:
     about_how_this_score_was_calculated: "about how this score was calculated"
     what_does_this_mean: "What does this mean?"
     desc:
-      score_1: "provides information beyond the basics. The brand published more information."
-      score_2: "2 star description"
-      score_3: "3 star description"
+      score_1: "This brand provides no information on the factories and garment workers in it’s supply chain which is required by the transparency pledge."
+      score_2: "This brand provides some, but not enough information on the factories and garment workers in it’s supply chain, for instance; factory names but no address"
+      score_3: "This brand provides basic information like factory names and addresses, product type, number of workers, and supplier group, if the factory is part of a larger entity"
       score_4: "4 star description"
-      score_5: "5 star description"
+      score_5: "This brand provides information beyond the basics in a practical, machine-readable format such as Excel spreadsheets which makes the data usable for others"
 
   suppliers_table:
     explore_supply_chain: "Explore supply chain"
@@ -549,3 +549,7 @@ en:
   fashion: "Fashion"
   checker: "Checker"
   coming_soon: "Coming Soon"
+  explore: "Explore"
+  the_data: "The Data"
+  are_the_people_who_make_your_clothes_paid_enough_t: "Are the people who make your clothes paid enough to live on?"
+  find_out_which_apparel_and_footwear_brands_pay_the: "Find out which apparel and footwear brands pay their workers a Living Wage."

@@ -7,15 +7,13 @@
           .narrow.d-flex.flex-wrap.justify-content-center
             .text-center
               .span.display-3.yellow
-                Explore
+                = t('explore')
               .span.display-3.pink
-                The Data
+                = t('the_data')
               %p.lead.pt-3.font-weight-bolder
-                Are the people who make your clothes
-                paid enough to live on?
+                = t('are_the_people_who_make_your_clothes_paid_enough_t')
               %p.lead.font-weight-lighter
-                Find out which apparel and footwear brands
-                pay their workers a Living Wage..white
+                = t('find_out_which_apparel_and_footwear_brands_pay_the')
             =brand_profile_partial :search, locals: { redirect: false }
     = section :blue do
       = brand_profile_partial :result
