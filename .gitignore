@@ -2,3 +2,4 @@ build
 .sass-cache
 .idea
 log
+Gemfile.lock
