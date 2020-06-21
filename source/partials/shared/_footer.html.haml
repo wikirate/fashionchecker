@@ -9,7 +9,6 @@
           www.cleanclothes.org
       .mt-3.d-flex.justify-content-between
         %img{src: "images/ccc-logo.png", height: "90px"}
-        %img{src: "images/eu-logo.png", height: "90px"}
     .col-sm-6
       %div.justify-content-end.d-flex.flex-wrap.elevate-1
         %div.d-flex.flex-wrap
@@ -27,6 +26,13 @@
         %div
           %span.pink{style: "font-size: 1.2rem; padding-right: 0.6rem;"}
             \#FashionChecker
+  .row
+    .col-sm-3.small
+      .mt-3.d-flex.justify-content-between
+        %img{src: "images/eu-logo.png", height: "90px"}
+    .col-sm-9.small
+      .mt-3.d-flex.justify-content-between
+        = t('eu_disclaimer')
 
   .row.small.mt-4.text-muted
     .col-sm-12.border-top.text-center.pt-3
