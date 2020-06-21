@@ -333,64 +333,7 @@ input {
   background-image: url("/images/about_us/top_banner.png");
 }
 
-
-
-
-/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
-.scene {
-  width: 330px;
-  height: 100px;
-  perspective: 600px;
-}
-
-/* This container is needed to position the front and back side */
-.flip-card {
-  width: 100%;
-  height: 100%;
-  position: relative;
-  transition: transform 1s;
-  transform-style: preserve-3d;
-}
-
-.card-face {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  backface-visibility: hidden;
-}
-
-.back {
-  transform: rotateY( 180deg );
-}
-
-.flip-card.flipped {
-  transform: rotateY(180deg);
-}
-
-.wage-box {
-  padding: 30px 20px 20px 20px;
-  text-align: center;
-  max-width: 330px;
-  width: 100%;
-  svg {
-    padding-left: 2px;
-    padding-right: 2px;
-  }
-}
-
-.minimum-wage-icons {
-  background-color: #112053;
-}
-
-.minimum-wage-text, .living-wage-text {
-  background-color: $white;
-  color: $black;
-  padding: 8px;
-}
-
-.living-wage-icons {
-  background-color: #1b2e6f;
-}
+@import "living_wage_table";
 
 .red-head {
   color: $orange;
