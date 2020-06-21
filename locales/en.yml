@@ -74,7 +74,7 @@ en:
         Between 26% and 50% of factories in the brand supply chain pay workers a living wage.
         This is public information.
       score_2: >
-        The company claims that it has started contributing towards a living wage by paying higher prices factories in its supply chain but these prices still do not cover labour costs. 
+        The company claims that it has started contributing towards a living wage by paying higher prices factories in its supply chain but these prices still do not cover labour costs.
       score_1: >
         The company claims that is has started contributing
         towards a living wage by paying higher costs to all
@@ -182,9 +182,12 @@ en:
   clean_clothes_campaign_is_a_global_network: >
     Clean Clothes Campaign is a global network dedicated to improving working conditions
     and empowering workers in the global garment and sportswear industries.
-  since_1989_ccc_has_worked_to_ensure: "Since 1989, CCC has worked to ensure"
-  as_a_grassroots_network_of_hundreds: "As a grassroots network of hundreds"
-  all_workers_regardless_of_sex_age: "All workers, regardless of sex, age"
+  since_1989_ccc_has_worked_to_ensure: >
+    Since 1989, CCC has worked to ensure that the fundamental rights of workers are respected. We educate and mobilise consumers, lobby companies and governments, and offer direct solidarity support to workers as they fight for their rights and demand better working conditions.
+  as_a_grassroots_network_of_hundreds: >
+    As a grassroots network of hundreds of organisations and unions, both in garment-producing and in consumer markets, we can identify local problems and develop campaign strategies to support workers in achieving their goals. We also cooperate extensively with similar labour rights campaigns and groups.
+  all_workers_regardless_of_sex_age: >
+    All workers, regardless of sex, age, country of origin, legal status, employment status or location, or any other basis, have a right to good and safe working conditions, where they can exercise their fundamental rights to associate freely and bargain collectively, and earn a living wage, which allows them to live in dignity.
   visit_site: "Visit Site"
   transparency_header: "Transparency"
   knowing_where_your_clothes_are_made: >
