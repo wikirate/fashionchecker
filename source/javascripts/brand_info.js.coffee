@@ -67,7 +67,8 @@ class window.BrandInfo
     "_score-#{SCORE_MAP[score_name][score_value]}"
 
   commitmentScore = ($el, name, value) ->
-    $el.find("._#{name}").text(value).attr("data-target", "##{name}-score-#{SCORE_MAP.commitment_score[value]}")
+    $el.find("._#{name}").text(value)
+    $el.find("._#{name}-help").attr("data-target", "##{name}-score-#{SCORE_MAP.commitment_score[value]}")
     value = "Yes" if value.includes("Yes")
     selectImage($el.find("._#{name}-smiley"), "smiley", value)
 
