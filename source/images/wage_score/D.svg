@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="306px" height="256px" viewBox="0 0 306 256" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>D score</title>
+    <desc>Created with Sketch.</desc>
+    <g id="D-score" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" opacity="0.3" transform="translate(0.000000, 208.000000)">
+            <polygon id="Shape" fill="#8B0000" points="0 0 0 48 86.9304218 48 108 24 86.9304218 0"></polygon>
+            <text id="Text" font-family="Karla-Bold, Karla" font-size="24" font-weight="bold" line-spacing="32" fill="#FFFFFF">
+                <tspan x="67" y="30">E</tspan>
+            </text>
+            <text id="Text" font-family="Karla-Regular, Karla" font-size="18" font-weight="normal" line-spacing="26" fill="#FFFFFF">
+                <tspan x="16" y="28">0%</tspan>
+            </text>
+        </g>
+        <g id="Group" transform="translate(0.000000, 156.000000)">
+            <polygon id="Shape" fill="#FC1E1B" points="0 0 0 48 138.361505 48 160 24 138.361505 0"></polygon>
+            <text id="Text" font-family="Karla-Bold, Karla" font-size="24" font-weight="bold" line-spacing="32" fill="#FFFFFF">
+                <tspan x="120" y="30">D</tspan>
+            </text>
+            <text id="Text" font-family="Karla-Regular, Karla" font-size="18" font-weight="normal" line-spacing="26" fill="#FFFFFF">
+                <tspan x="16" y="28">1%-25%</tspan>
+            </text>
+        </g>
+        <g id="Group" opacity="0.3" transform="translate(0.000000, 104.000000)">
+            <polygon id="Shape" fill="#FF6E3E" points="0 0 0 48 186.343475 48 208 24 186.343475 0"></polygon>
+            <text id="Text" font-family="Karla-Bold, Karla" font-size="24" font-weight="bold" line-spacing="32" fill="#FFFFFF">
+                <tspan x="168" y="30">C</tspan>
+            </text>
+            <text id="Text" font-family="Karla-Regular, Karla" font-size="18" font-weight="normal" line-spacing="26" fill="#FFFFFF">
+                <tspan x="16" y="28">26%-50%</tspan>
+            </text>
+        </g>
+        <g id="Group" opacity="0.3" transform="translate(0.000000, 52.000000)">
+            <polygon id="Shape" fill="#FFA900" fill-rule="nonzero" points="0 0 0 48 234.302319 48 256 24 234.302319 0"></polygon>
+            <text id="Text" font-family="Karla-Bold, Karla" font-size="24" font-weight="bold" line-spacing="32" fill="#FFFFFF">
+                <tspan x="216" y="30">B</tspan>
+            </text>
+            <text id="Text" font-family="Karla-Regular, Karla" font-size="18" font-weight="normal" line-spacing="26" fill="#FFFFFF">
+                <tspan x="16" y="28">more than 50%</tspan>
+            </text>
+        </g>
+        <g id="Group" opacity="0.3">
+            <polygon id="Shape" fill="#1E90FF" points="0 0 0 48 282.974753 48 306 24 282.974753 0"></polygon>
+            <text id="Text" font-family="Karla-Bold, Karla" font-size="24" font-weight="bold" line-spacing="32" fill="#FFFFFF">
+                <tspan x="266" y="30">A</tspan>
+            </text>
+            <text id="Text" font-family="Karla-Regular, Karla" font-size="18" font-weight="normal" line-spacing="26" fill="#FFFFFF">
+                <tspan x="16" y="28">100% living wage</tspan>
+            </text>
+        </g>
+    </g>
+</svg>
