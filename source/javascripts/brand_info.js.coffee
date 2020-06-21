@@ -20,7 +20,8 @@ SCORE_MAP = {
   commitment_score: {
     "No": 1,
     "Partial": 2,
-    "Yes": 3
+    "Yes": 3,
+    "Yes, Other": 3,
   }
 }
 class window.BrandInfo
