@@ -1,6 +1,6 @@
 LINK_TARGET_HOST = "https://wikirate.org"
 
-FIELDS = ["name", "revenue", "location", "owned_by", "profit", "number_of_workers", "top_production_countries"]
+FIELDS = ["name", "country_name", "revenue", "location", "owned_by", "profit", "number_of_workers", "top_production_countries"]
 
 SCORE_MAP = {
   living_wage_score: {
@@ -88,6 +88,7 @@ class window.BrandInfo
     row += ' class="no-data"' unless supplier["present"]
     row += ">"
     row += newCell companyLink(supplier.name), "medium-blue-bg"
+    row += newCell supplier.country_name, "medium-blue-bg"
     row += newCell(
       [supplier.workers_by_gender.female, supplier.workers_by_gender.male, supplier.workers_by_gender.other]
         .map(replaceNull).join(" / "))
