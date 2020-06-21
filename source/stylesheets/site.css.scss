@@ -121,6 +121,9 @@ h6 {
 
 .brand {
   font-size: 0.7rem;
+  .modal-body {
+    font-size: 1rem;
+  }
   color: $medium-grey;
   h6 {
     font-size: 0.8rem;
@@ -384,4 +387,8 @@ input {
 
 .no-data {
   opacity: 60%;
+}
+
+.pointer {
+  cursor: help;
 }

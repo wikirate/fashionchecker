@@ -4,20 +4,20 @@
 .row.border-top.mx-0.py-2
   .col-sm-6.pl-0.text-uppercase
     = t('commitment_score.public_commitment')
-  .col-sm-6.pr-0.text-right
-    %span.value._public-commitment
-    %img._public-commitment-smiley{src: "images/smiley/No.png", height: "30px"}
+  .col-sm-6.pr-0.text-right.pointer
+    %span.value._public-commitment{"data-toggle":"modal"}
+    %img._public-commitment-smiley{src: "images/smiley/No.png", height: "30px",}
 .row.border-top.mx-0.py-2
   .col-sm-6.pl-0.text-uppercase
     = t('commitment_score.action_plan')
-  .col-sm-6.pr-0.text-right
-    %span.value._action-plan
+  .col-sm-6.pr-0.text-right.pointer
+    %span.value._action-plan{"data-toggle":"modal"}
     %img._action-plan-smiley{src: "images/smiley/Yes.png", height: "30px"}
 .row.border-top.mx-0.py-2
   .col-sm-6.pl-0.text-uppercase
-    = t('commitment_score.action_planseparate_labor_costs')
-  .col-sm-6.pr-0.text-right
-    %span.value._isolating-labour-cost
+    = t('commitment_score.separate_labor_costs')
+  .col-sm-6.pr-0.text-right.pointer
+    %span.value._isolating-labour-cost{"data-toggle":"modal"}
     %img._isolating-labour-cost-smiley{src: "images/smiley/Yes.png", height: "30px"}
 .row.border-top.mx-0.py-2.tiny
   .col-sm-12.pl-0
@@ -25,3 +25,9 @@
     = t('check_out')
     %a._wikirate-link
       WikiRate
+
+= commitment_modals "Public commitment", %w[No Partial Yes]
+= commitment_modals "Action plan", %w[No Partial Yes]
+= commitment_modals "Separate labor costs", %w[No Yes], "isolating-labour-cost"
+
+
