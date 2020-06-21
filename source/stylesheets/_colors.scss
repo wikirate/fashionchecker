@@ -8,8 +8,10 @@ $white: #fff;
 $fushia: #ed40d9;
 $blue: #223366;
 $light-blue: #32437d;
+$lighter-blue: #7C8DC4;
 $other-blue: #4a588c;
 $medium-blue: #112053;
+$sky-blue: #5A6FB7;
 
 .food {
   fill: #fdbf41;
@@ -91,6 +93,16 @@ $body-bg: $blue;
 
 .medium-blue-bg {
   background-color: $medium-blue;
+  color: $table-color;
+}
+
+.sky-blue-bg {
+  background-color: $sky-blue;
+  color: $table-color;
+}
+
+.lighter-blue-bg {
+  background-color: $lighter-blue;
   color: $table-color;
 }
 

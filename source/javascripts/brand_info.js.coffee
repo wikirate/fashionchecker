@@ -94,8 +94,8 @@ class window.BrandInfo
     row += newCell(
       [supplier.workers_by_contract.permanent, supplier.workers_by_contract.temporary]
         .map(replaceNull).join(" / "))
-    row += newCell supplier["average_net_wage"], "other-blue-bg"
-    row += newCell supplier["wage_gap"], "other-blue-bg"
+    row += newCell supplier["average_net_wage"], "lighter-blue-bg"
+    row += newCell supplier["wage_gap"], "lighter-blue-bg"
     for index, property of ["workers_have_cba", "workers_know_brand", "workers_get_pregnancy_leave"]
       row += newCell supplier[property]
     row += "</tr>"
@@ -105,7 +105,9 @@ class window.BrandInfo
   newCell = (content, css_class) ->
     if (content == null)
       content = "-"
-    css_class = if css_class? then " class='#{css_class}'" else ""
+    css_class ||= "sky-blue-bg"
+    css_class = " class=\"#{css_class}\""
+    # css_class = if css_class? then " class='#{css_class}'" else ""
     "<td#{css_class}>#{content}</td>"
 
   companyLink = (company) ->
