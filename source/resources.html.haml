@@ -1,0 +1,25 @@
+%body
+  = partial "partials/header"
+  %main.brand{:role => "main"}
+    = section :white do
+      .text-center.red
+        .display-3
+          = t('reports')
+      .middle-text
+        %h3.red-head
+          = t('living_wage')
+
+        %h3.red-head
+          = t('transparency')
+
+        %h3.red-head
+          = t('power_dynamics')
+
+      .text-center.red
+        .display-3
+          = t('podcasts')
+
+      .text-center.red
+        .display-3
+          = t('videos')
+

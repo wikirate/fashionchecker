@@ -14,7 +14,7 @@
                 = t('are_the_people_who_make_your_clothes_paid_enough_t')
               %p.lead.font-weight-lighter
                 = t('find_out_which_apparel_and_footwear_brands_pay_the')
-            =brand_profile_partial :search, locals: { redirect: false }
+            =brand_profile_partial :search, locals: { redirect: true }
     = section :blue do
       = brand_profile_partial :result
 

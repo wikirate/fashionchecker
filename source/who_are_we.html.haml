@@ -1,6 +1,12 @@
 %body
   = partial "partials/header"
   %main{:role => "main"}
+    .container
+      .top-banner
+        .top-banner-image
+          %img{ src: "/images/who_are_we/top_banner.png" }
+        .top-banner-text.display-4
+          = t('who_are_we')
     = section :white do
       .middle-text
         %h3
