@@ -91,7 +91,7 @@ de:
 
 
   living_wage_score:
-    title: "Living Wage Score"
+    title: "Living Wage Paid"
     desc_1:
       score_5: >
         100% of factories in the brand’s supply chain pay workers a living wage.
@@ -122,7 +122,7 @@ de:
 
 
   transparency_score:
-    title: "Transparency Score"
+    title: "Supply Chain Transparency"
     read_more: "Read more"
     about_why_transparency_is_important: "about why transparency is important"
     about_how_this_score_was_calculated: "about how this score was calculated"
