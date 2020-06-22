@@ -341,12 +341,6 @@ input {
   background-size: 100%;
 }
 
-.top-banner {
-  background-size: 100%;
-  text-align: center;
-  padding: 3em 0;
-}
-
 .stomach_problems_bg {
   background-image: linear-gradient(to right, #333 0%,rgba(255,255,255,0) 80%),
   url("/images/living_wage/stomach_problems_bg.png");
@@ -389,6 +383,19 @@ input {
   opacity: 60%;
 }
 
+.top-banner {
+  position: relative;
+  .top-banner-image img {
+    max-width: 100%;
+  }
+  .top-banner-text {
+    position: absolute;
+    text-align: center;
+    color: #fff;
+    top: 50%;
+    width: 100%;
+  }
+}
 .pointer {
   cursor: help;
 }

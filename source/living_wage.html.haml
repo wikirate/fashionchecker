@@ -2,8 +2,11 @@
   = partial "partials/header"
   %main{:role => "main"}
     .container
-      .top-banner.living-wage-banner.display-4.text-white
-        = t('what_is_a_living_wage')
+      .top-banner
+        .top-banner-image
+          %img{ src: "/images/living_wage/top_banner.png" }
+        .top-banner-text.display-4
+          = t('what_is_a_living_wage')
     = section :white do
       .middle-text
         %h3
