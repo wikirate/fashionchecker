@@ -1,9 +1,9 @@
 %body
   = partial "partials/header"
   %main{:role => "main"}
-    = section :red do
+    = section :red, :pink do
       .row
-        .col-sm-6
+        .col-sm-12.col-md-6
           .span.display-3.text-white
             = t('header_question_1')
           .span.display-3.yellow
@@ -11,11 +11,11 @@
           %p.pt-3.white
             = t('find_out')
           = brand_profile_partial :search,  locals: { redirect: true }
-        .col-sm-6
+        .d-none.d-md-block.col-md-6
           %img.float-right{src: "images/logo/SVG/CCC_FashionChecker_RGB_vertical_spot.svg",
                height: "300px", width: "auto"}
 
-    = section :pink do
+    = section :pink, :fushia, "pb-5" do
       .container.p-4
         .row
           .col-sm-5
@@ -27,7 +27,7 @@
               = t('of_surveyed_brands_aren_t_paying_garment_workers')
 
 
-    = section :fushia do
+    = section :fushia, nil, "pb-5 pt-2" do
       .row
         .col-sm-6
           .span.display-3.yellow
