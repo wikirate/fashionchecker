@@ -45,8 +45,8 @@ class window.BrandInfo
 
     $template.find("._commitment-total-score").text(data.scores.commitment.total)
     $template.find("._factory-count").text(data.suppliers.length)
-    $template.find("._living_wage_score-text").text(data.scores.living_wage_score_text)
-    $template.find("._transparency_score-text").text(data.scores.transparency_score_text)
+    $template.find("._living_wage_score-text").text(data.scores.living_wage_text)
+    $template.find("._transparency_score-text").text(data.scores.transparency_text)
 
     # showScoreDesc($template, "living_wage_score", data.scores.living_wage)
     # showScoreDesc($template, "commitment_score", data.scores.commitment.total)

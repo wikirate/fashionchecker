@@ -12,7 +12,7 @@
             = t('find_out')
           = brand_profile_partial :search,  locals: { redirect: true }
         .d-none.d-md-block.col-md-6
-          %img.float-right{src: "images/logo/SVG/CCC_FashionChecker_RGB_vertical_spot.svg",
+          %img.float-right{src: "/images/logo/SVG/CCC_FashionChecker_RGB_vertical_spot.svg",
                height: "300px", width: "auto"}
 
     = section :pink, :fushia, "pb-5" do
@@ -38,7 +38,7 @@
           .lead.white
             = t('living_wages_info')
           .py-3
-            %a.btn.btn-primary.black-btn{ href: "/living_wage.html" }
+            %a.btn.btn-primary.black-btn{ href: "living_wage.html" }
               = t('read_more_living_wages')
         = partial "partials/shared/living_wage_table"
 
@@ -52,7 +52,7 @@
         .col-sm-6
           %p.red.lead
             = t('gendered_pay_info')
-          %a.btn.btn-primary{href: "/gender.html"}
+          %a.btn.btn-primary{href: "gender.html"}
             = t('gender')
     = section :red do
       .row
@@ -64,7 +64,7 @@
         .col-sm-6.white
           %p.lead
             = t('resilience_info')
-          %a.btn.btn-primary{ href: "/our_demands.html" }
+          %a.btn.btn-primary{ href: "our_demands.html" }
             = t('our_demands')
     = section :navy do
       .row
@@ -76,7 +76,7 @@
             %span.fushia
               \#LivingWageNow
             = t('your_voice_info_2')
-          %a.btn.btn-primary{ href: "/take_action.html" }
+          %a.btn.btn-primary{ href: "take_action.html" }
             = t('take_action')
     = # partial "partials/homepage/news"
 
