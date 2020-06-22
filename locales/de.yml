@@ -9,21 +9,21 @@ de:
     Ein fairer Lohn für Arbeit ist zwar ein grundlegendes Menschenrecht,
     und doch zahlt keines der großen Modeunternehmen seinen Arbeiter*innen einen Lohn, von
     dem sie wirklich leben können.
-  read_more_living_wages: "Read more about living wages."
+  read_more_living_wages: "Weitere Infos über existenzsichernde Löhne"
   difference_question: >
-    What difference does it make to be earning a living wage instead of a minimum wage?
+    Welchen Unterschied macht es für die Arbeiter*innen, ob sie einen Mindestlohn oder einen Existenzlohn verdienen?
   end: "End"
-  gendered_pay: "Gendered Pay"
+  gendered_pay: "Bezahlung je nach Geschlecht: Frauendiskriminierung"
   gendered_pay_info: >
     80% der Beschäftigten in der Bekleidungsindustrie sind Frauen. Sie werden in der Regel
     schlechter bezahlt als ihre männlichen Kollegen. Die Ungleichheit zwischen Frauen und
     Männern ist dabei tief im Machtungleichgewicht der Industrie verwurzelt – und
     geschlechtsspezifische Bezahlung steht in direktem Zusammenhang mit verbaler, physischer
     und sexueller Gewalt.
-  gender: "Read more about Gender"
+  gender: "Mehr Informationen"
   resilience: "Resilience"
   in_the_face_of_a_crisis: "In the face of a crisis"
-  our_demands: "Our Demands"
+  our_demands: "Unsere Forderungen"
   resilience_info: >
     Unternehmen haben jahrzehntelang von Hungerlöhnen profitiert und den Textilarbeiter*innen
     somit jegliche Möglichkeit genommen, für unsichere Zeiten vorzusorgen. Die Covid-19-Krise
@@ -31,7 +31,7 @@ de:
     Menschen, die in Arbeitsverhältnissen ohne rechtliche Absicherung stecken, werden von der
     Krise besonders hart getroffen.
   your_voice_has_power: "EURE STIMME HAT MACHT"
-  take_action: "Take Action"
+  take_action: "Aktiv werden!"
   your_voice_info_1: >
     Eure Unterstützung macht unsere Arbeit möglich. Es ist an der Zeit, dass Unternehmen
     Verantwortung für das Leben der Menschen übernehmen, die unsere Kleidung herstellen. Als
@@ -41,46 +41,39 @@ de:
     sicher, dass in eurer Kleidung keine Ausbeutung steckt!
 
 
-  revenue: "Revenue"
-  profit: "Profit"
-  top_3_production_countries: "Top 3 Production countries"
-  other_brands_owned_by: "Other brands owned by"
-  headquarters: "Headquarters"
+  revenue: "Umsatz"
+  profit: "Gewinn"
+  top_3_production_countries: " 3 wichtigste Produktionsländer"
+  other_brands_owned_by: "Marken von"
+  headquarters: "Unternehmenssitz"
   owned_by: "Owned by:"
-  search_for_brand: "search for brand"
-  interested_in_more_information: "Interested in more information?"
+  search_for_brand: "Unternehmen suchen"
+  interested_in_more_information: "Interesse an mehr Informationen?"
   check_out: "Check out"
-  see_company_profile: "See company profile"
+  see_company_profile: "Unternehmensprofil ansehen"
 
   commitment_score:
-    title: "Commitment Score"
-    public_commitment: "public commitment?"
+    title: "Auf dem Weg?"
+    public_commitment: "Bekenntnis zum Existenzlohn?"
     public_commitment_score_1: >
-      This brand has not made a commitment to working towards a living wage for all workers in it’s supply chain.
+      Dieses Unternehmen hat sich nicht öffentlich zur Zahlung existenzsichernder Löhne bekannt.
     public_commitment_score_2: >
-      This brand has made a public commitment to pay a wage that
-      is ‘enough to cover a workers basic needs’ but does not cover the costs
-      of a worker’s family. This is not a living wage.
+      Dieses Unternehmen hat sich öffentlich zur Zahlung existenzsichernder Löhne bekannt. Die Definition eines Existenzlohns deckt jedoch nicht alle nötigen Kriterien ab, z.B. dass der Lohn ausreichend für die Familie der Arbeiter*innen sein muss. 
     public_commitment_score_3: >
-      This brand has made a public commitment to working towards a living wage for all workers in it’s supply chain.
-    action_plan: "action plan?"
+       Dieses Unternehmen hat sich öffentlich zur Zahlung existenzsichernder Löhne bekannt.
+    action_plan: "Aktionsplan?"
     action_plan_score_1: >
-      This brand has no plan to improve the low wages in it’s supply chain.
+      Dieses Unternehmen hat keinen Plan, um die Niedriglöhne in seiner Lieferkette zu verbessern.
     action_plan_score_2: >
-      This brand may have a plan that is not time-bound, only about their tier 1 factories,
-      or unclear on specifics (not SMART).
+      Dieses Unternehmen hat zwar einen „Plan“, diesem fehlen aber wichtige Punkte, z.B. ist dieser nicht öffentlich und /oder es wird darin nicht festgelegt, in welchem Zeitraum Lohnerhöhungen angestrebt werden und/oder der Plan bezieht sich nur auf wenige Fabriken und/oder ist an anderen Stellen zu vage (nicht SMART).
     action_plan_score_3: >
-      This brand has a publicly available plan for achieving a living wage for all workers i
-      n their supply chain, including concrete steps within a specific time frame.
+      Dieses Unternehmen verfügt über einen öffentlich zugänglichen Plan zur Erzielung eines existenzsichernden Lohns für alle Arbeiter*innen in seiner Lieferkette, einschließlich konkreter Schritte innerhalb eines bestimmten Zeitrahmens.
     separate_labor_costs_score_1: >
-      All brands pay prices to suppliers which cover production,
-      shipping and labour costs. This brand makes no effort to ensure labour costs are properly covered.
+      Unternehmen handeln mit den Fabriken Preise für die bestellte Kleidung aus, die alle Produktionskosten decken müssen. Die Unternehmen müssen bei diesen Verhandlungen mit Zulieferern jedoch sicherstellen, dass die Arbeitskosten ordnungsgemäß gedeckt werden, also Zulieferer nicht aufgrund zu niedriger Preise an den Löhnen sparen. Unternehmen sollten dafür eine etablierte Methode zur Berechnung und getrennten Berücksichtigung der Lohnkosten anwenden. Dieses Unternehmen wendet eine solche Berechnungsmethode an.
     separate_labor_costs_score_2: >
-      Partial
+      teilweise
     separate_labor_costs_score_3: >
-      All brands pay prices to suppliers which cover production,
-      shipping and labour costs. Brands need to ensure that labour costs are properly
-      covered by using an established method to calculate them, separating these costs from others.
+      Unternehmen handeln mit den Fabriken Preise für die bestellte Kleidung aus, die alle Produktionskosten decken müssen. Die Unternehmen müssen bei diesen Verhandlungen mit Zulieferern jedoch sicherstellen, dass die Arbeitskosten ordnungsgemäß gedeckt werden, also Zulieferer nicht aufgrund zu niedriger Preise an den Löhnen sparen. Dieses Unternehmen unternimmt keine Anstrengungen, um sicherzustellen, dass die Arbeitskosten angemessen gedeckt sind. 
 
     separate_labor_costs: "separate labor costs?"
     desc:
@@ -100,8 +93,8 @@ de:
         More than 50% of factories in the brand’s supply chain pay workers a living wage.
         This information is public.
       score_3: >
-        Between 26% and 50% of factories in the brand supply chain pay workers a living wage.
-        This is public information.
+        Das Unternehmen behauptet, dass zwischen 26% und 50% seiner Zuliefererfabriken einen Existenzlohn zahlen.
+        Diese Informationen sind öffentlich zugänglich.
       score_2: >
         The company claims that it has started contributing towards a living wage by paying higher prices factories in its supply chain but these prices still do not cover labour costs.
       score_1: >
@@ -110,23 +103,22 @@ de:
         factories in its supply chain.
     desc_2:
       score_5: >
-        The workers making their clothes earn enough to live on.
+        Die Arbeiter*innen, die Kleidung für das Unternehmen herstellen, verdienen genug, um davon leben zu können.
       score_4: >
-        Some of the workers making their clothes do not earn enough to live on.
+        Einige der Arbeiter*innen, die Kleidung für das Unternehmen herstellen, verdienen genug, um davon leben zu können. 
       score_3: >
-        Most of the workers making their clothes do not earn enough to live on. (at least half)
+        Die meisten der Arbeiter*innen, die Kleidung für das Unternehmen herstellen, verdienen nicht genug, um davon leben zu können. 
       score_2: >
-        The majority of workers in the brand’s supply chain do not earn enough to live on
+        Die große Mehrheit der Arbeiter*innen, die Kleidung für das Unternehmen herstellen, verdienen nicht genug, um davon leben zu können. 
       score_1: >
-        The workers making their clothes do not earn enough to live on.
-
+        Die Arbeiter*innen, die Kleidung für das Unternehmen herstellen, verdienen nicht genug, um davon leben zu können. 
 
   transparency_score:
-    title: "Supply Chain Transparency"
-    read_more: "Read more"
-    about_why_transparency_is_important: "about why transparency is important"
-    about_how_this_score_was_calculated: "about how this score was calculated"
-    what_does_this_mean: "What does this mean?"
+    title: "Transparenz"
+    read_more: "Mehr Informationen"
+    about_why_transparency_is_important: "Warum Transparenz wichtig ist"
+    about_how_this_score_was_calculated: "Wie diese Bewertung zustande gekommen ist"
+    what_does_this_mean: "Was heißt das?"
     desc:
       score_1: "This brand provides no information on the factories and garment workers in it’s supply chain which is required by the transparency pledge."
       score_2: "This brand provides some, but not enough information on the factories and garment workers in it’s supply chain, for instance; factory names but no address"
