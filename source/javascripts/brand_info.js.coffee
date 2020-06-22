@@ -45,10 +45,12 @@ class window.BrandInfo
 
     $template.find("._commitment-total-score").text(data.scores.commitment.total)
     $template.find("._factory-count").text(data.suppliers.length)
+    $template.find("._living_wage_score-text").text(data.scores.living_wage_score_text)
+    $template.find("._transparency_score-text").text(data.scores.transparency_score_text)
 
-    showScoreDesc($template, "living_wage_score", data.scores.living_wage)
-    showScoreDesc($template, "commitment_score", data.scores.commitment.total)
-    showScoreDesc($template, "transparency_score", data.scores.transparency)
+    # showScoreDesc($template, "living_wage_score", data.scores.living_wage)
+    # showScoreDesc($template, "commitment_score", data.scores.commitment.total)
+    # showScoreDesc($template, "transparency_score", data.scores.transparency)
 
     for index, brand of data.brands
       addBrand(brand, $template)
@@ -56,15 +58,15 @@ class window.BrandInfo
       addSupplier(supplier, $template)
     $output.append($template)
 
-  showScoreDesc = ($container, score_name, score_value) ->
-    for el in $container.find("._#{score_name}-templates ._score-desc")
-      if $(el).hasClass(scoreClass(score_name, score_value))
-        $(el).show()
-      else
-        $(el).hide()
+  # showScoreDesc = ($container, score_name, score_value) ->
+  #   for el in $container.find("._#{score_name}-templates ._score-desc")
+  #     if $(el).hasClass(scoreClass(score_name, score_value))
+  #       $(el).show()
+  #     else
+  #       $(el).hide()
 
-  scoreClass = (score_name, score_value ) ->
-    "_score-#{SCORE_MAP[score_name][score_value]}"
+  # scoreClass = (score_name, score_value ) ->
+  #  "_score-#{SCORE_MAP[score_name][score_value]}"
 
   commitmentScore = ($el, name, value) ->
     $el.find("._#{name}").text(value)
@@ -89,7 +91,7 @@ class window.BrandInfo
     row = "<tr"
     row += ' class="no-data"' unless supplier["present"]
     row += ">"
-    row += newCell companyLink(supplier.name), "medium-blue-bg"
+    row += newCell companyLink(supplier.name, supplier.link_name), "medium-blue-bg"
     row += newCell supplier.country_name, "medium-blue-bg"
     row += newCell(
       [supplier.workers_by_gender.female, supplier.workers_by_gender.male, supplier.workers_by_gender.other]
@@ -113,8 +115,8 @@ class window.BrandInfo
     # css_class = if css_class? then " class='#{css_class}'" else ""
     "<td#{css_class}>#{content}</td>"
 
-  companyLink = (company) ->
-    "<a class='red' href=\"#{LINK_TARGET_HOST}/#{company}\">#{company}</a>"
+  companyLink = (company, link_name) ->
+    "<a class='red' href=\"#{LINK_TARGET_HOST}/#{link_name}\">#{company}</a>"
 
   wikirateUrl = (company_id) ->
     "#{LINK_TARGET_HOST}/~#{company_id}?filter%5Bwikirate_topic%5D%5B%5D=Filling%20the%20Gap"
