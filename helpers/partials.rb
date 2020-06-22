@@ -1,6 +1,7 @@
 module Partials
-  def property title, name
-    partial "partials/brand_profile/property", locals: { title: title, name: name}
+  def property title, name, prefix=nil
+    partial "partials/brand_profile/property",
+            locals: { title: title, name: name, prefix: prefix }
   end
 
   def brand_profile_partial template, args={}
