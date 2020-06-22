@@ -99,13 +99,18 @@ class window.BrandInfo
     row += newCell(
       [supplier.workers_by_contract.permanent, supplier.workers_by_contract.temporary]
         .map(replaceNull).join(" / "))
-    row += newCell supplier["average_net_wage"], "lighter-blue-bg"
-    row += newCell supplier["wage_gap"], "lighter-blue-bg"
+    row += newCell euros(supplier["average_net_wage"]), "lighter-blue-bg"
+    row += newCell euros(supplier["wage_gap"]), "lighter-blue-bg"
     for index, property of ["workers_have_cba", "workers_know_brand", "workers_get_pregnancy_leave"]
       row += newCell supplier[property]
     row += "</tr>"
     tbody.append $(row)
 
+  euros = (amount) ->
+    if amount
+      "€" + amount
+    else
+      amount
 
   newCell = (content, css_class) ->
     if (content == null)

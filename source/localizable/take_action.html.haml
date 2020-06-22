@@ -13,7 +13,7 @@
         .text-center
           .display-3.fushia
             = t('want_to_help_workers_fight_for')
-          .display-3.red
+          .display-3.red.pb-4
             = t('better_working_conditions')
 
         %h3.red-head
@@ -22,14 +22,19 @@
           = t('your_voice_matters_brands_are_highly')
         .text-center
           .py-2
-            %img{ src: "/images/take_action/tweet-bestseller.png" }
+            %a{ href: "https://twitter.com/intent/tweet?text=@bestsellerbe%20If%20your%20workers%20aren%27t%20earning%20a%20living%20wage%2C%20then%20the%20women%20in%20your%20%20supply%20chain%20are%20being%20abused.%20Don%27t%20violate%20her%20rights.%20%23endGBV%20and%20pay%20a%20%23LivingWageNow.", target: "_twitter" }
+              %img{ src: "/images/take_action/tweet-bestseller.png" }
           .py-2
-            %img{ src: "/images/take_action/tweet-topshop.png" }
+            %a{ href: "https://twitter.com/intent/tweet?text=@topshop%20How%20can%20you%20make%20promises%20about%20paying%20workers%20a%20living%20wage%20without%20collecting%20information%20on%20ALL%20workers%20in%20your%20supply%20chain%3F%20Put%20a%20spotlight%20on%20the%20bottom%20of%20your%20supply%20chain.%20%23GoTransparent%20and%20pay%20a%20%23LivingWageNow.", target: "_twitter" }
+              %img{ src: "/images/take_action/tweet-topshop.png" }
           .py-2
-            %img{ src: "/images/take_action/tweet-primark.png" }
+            %a{ href: "https://twitter.com/intent/tweet?text=@Primark%20I%20don%27t%20want%20my%20clothes%20made%20with%20exploitation.%20A%20Living%20Wage%20is%20a%20human%20right.%20Commit%20to%20paying%20a%20%23LivingWageNow%20and%20%23GoTransparent.", target: "_twitter"}
+              %img{ src: "/images/take_action/tweet-primark.png" }
 
         %p
           = t('visit_the_websites_of_our')
+
+
 
 
     = section :yellow do
