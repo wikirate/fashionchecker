@@ -63,7 +63,7 @@ body {
 }
 
 .red-blue-bg {
-  background-image: linear-gradient(177deg, $orange 20%, $blue calc(20% + 1px))
+  background-image: linear-gradient(177deg, $orange 200px, $blue calc(200px + 1px))
 }
 
 @include media-breakpoint-up(md) {
@@ -76,7 +76,7 @@ body {
   }
 
   .red-blue-bg {
-    background-image: linear-gradient(177deg, $orange 40%, $blue calc(40% + 1px))
+    background-image: linear-gradient(177deg, $orange 200px, $blue calc(200px + 1px))
   }
 }
 
