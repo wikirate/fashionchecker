@@ -12,8 +12,8 @@ de:
   read_more_living_wages: "Weitere Infos über existenzsichernde Löhne"
   difference_question: >
     Welchen Unterschied macht es für die Arbeiter*innen, ob sie einen Mindestlohn oder einen Existenzlohn verdienen?
-  end: "End"
-  gendered_pay: "Bezahlung je nach Geschlecht: Frauen- diskriminierung"
+  end: "Bezahlung"
+  gendered_pay: "je nach Geschlecht: Frauen- diskriminierung"
   gendered_pay_info: >
     80% der Beschäftigten in der Bekleidungsindustrie sind Frauen. Sie werden in der Regel
     schlechter bezahlt als ihre männlichen Kollegen. Die Ungleichheit zwischen Frauen und
@@ -36,9 +36,9 @@ de:
     Eure Unterstützung macht unsere Arbeit möglich. Es ist an der Zeit, dass Unternehmen
     Verantwortung für das Leben der Menschen übernehmen, die unsere Kleidung herstellen. Als
     Konsument*innen haben wir Macht: Die Unternehmen hören zu, was wir zu sagen haben.
-    Darum fordert die Unternehmen auf, einen Existenzlohn zu zahlen. #LivingWageNow: Stellt
+    Darum fordert die Unternehmen auf, einen Existenzlohn zu zahlen. #LivingWageNow
   your_voice_info_2: >
-    sicher, dass in eurer Kleidung keine Ausbeutung steckt!
+    Stellt sicher, dass in eurer Kleidung keine Ausbeutung steckt!
 
 
   revenue: "Umsatz"
@@ -143,7 +143,7 @@ de:
     pregnancy_leave: "Pregnancy leave"
   latest: "Latest"
   news: "News"
-  footer_info: "is a campaign by the Clean Clothes Campaign, funded by the European Union"
+  footer_info: "ist eine Kampagne der Clean Clothes Campaign, die von der Europäischen Union finanziert wird."
   methodology_title: "Unsere Forschungsmethodik"
   methodology_paragraph_1: >
     Wir haben mehr als 90 Fragebögen an Bekleidungsunternehmen verschickt, um ihnen die Möglichkeit zu geben, ihre Bemühungen, allen Arbeiter*innen in ihrer Lieferkette einen existenzsichernden Lohn zu zahlen, darzustellen und ihre Produktionsstandorte offenzulegen (wenn sie dies nicht durch den Transparency Pledge bereits getan hatten). Unser Schwerpunkt liegt darauf, die Bemühungen der Unternehmen um die Zahlung eines existenzsichernden Lohns durch SMART-Daten, die im Rahmen dieser Untersuchung erhoben wurden, in einem für Konsument*innen, Textilarbeiter*innen und politische Entscheidungsträger*innen transparenten und umfassenden Format darzustellen. Wir hoffen, dass die Darstellung der Marken auf Fashion Checker langfristig zu einem Bestandteil des Due-Diligence- und CSR-Validierungsprozesses einer Marke wird.
@@ -154,7 +154,7 @@ de:
     , einer Organisation für Open Data, daran gearbeitet, die Informationen der Unternehmen zu ihren Lieferketten zusammenzuführen und zu konsolidieren. Des Weiteren haben wir Daten verwendet, die unter anderem von der
   methodology_paragraph_3C: "und"
   methodology_paragraph_3D: >
-    Mit Hilfe von einem Experten für Benutzerfreundlichkeit, haben wir dafür verschiedene Methoden zur Präsentation dieser Daten getestet,
+    gesammelt wurden. Diese Datenbank, sowie die Datensätze von vertrauenswürdigen, langjährigen Partner*innen, machen die Ergebnisse für die Öffentlichkeit leicht zugänglich. Mit Hilfe von einem Experten für Benutzerfreundlichkeit, haben wir dafür verschiedene Methoden zur Präsentation dieser Daten getestet,
   gender_header_1: "Frauen in der Bekleidungsindustrie"
   gender_lead: >
     Das wahre Wesen der Bekleidungsindustrie zeigt sich darin, dass die große Mehrheit der Arbeiter*innen weiblich ist.
@@ -193,8 +193,8 @@ de:
   menu_methodology: "Forschungsmethodik"
   menu_gender: "Gender"
   clean_clothes_campaign_is_a_global_network: >
-    Die Kampagne für saubere Kleidung (CCC) ist ein globales Netzwerk, das sich der
-    Verbesserung der Arbeitsbedingungen und der Unterstützung der Arbeiter*innen in der
+    Die Kampagne für saubere Kleidung (Clean Clothes Campaign - CCC) ist ein globales Netzwerk,
+    das sich der Verbesserung der Arbeitsbedingungen und der Unterstützung der Arbeiter*innen in der
     globalen Bekleidungs- und Sportbekleidungsindustrie widmet.
   since_1989_ccc_has_worked_to_ensure: >
     Seit 1989 setzt sich die CCC dafür ein, dass die grundlegenden Rechte der Arbeiter*innen respektiert werden. Wir informieren und mobilisieren Konsument*innen, leisten Überzeugungsarbeit bei Unternehmen und Regierungen und unterstützen Arbeiter*innen auf direktem Wege bei ihrem Kampf um Rechte und bessere Arbeitsbedingungen.
@@ -202,7 +202,7 @@ de:
     Bestehend aus Hunderten von Organisationen und Gewerkschaften aus den Produktions- sowie Konsumländern, können wir lokale Probleme identifizieren und Kampagnenstrategien entwickeln, um die Arbeiter*innen bei der Erreichung ihrer Ziele zu unterstützen. Wir arbeiten außerdem eng mit weiteren Arbeitsrechtskampagnen und -gruppen zusammen.
   all_workers_regardless_of_sex_age: >
     Alle Arbeiter*innen – unabhängig von Geschlecht, Alter, Herkunftsland, Rechts- oder Beschäftigungsstatus – haben ein Recht auf gute und sichere Arbeitsbedingungen – überall! Das heißt auch, dass sie ihre Grundrechte auf Vereinigungsfreiheit und Tarifverhandlungen wahrnehmen können sowie einen existenzsichernden Lohn verdienen, der ihnen ein Leben in Würde ermöglicht.
-  visit_site: "Visit Site"
+  visit_site: "Mehr Informationen"
   transparency_header: "Transparenz"
   knowing_where_your_clothes_are_made: >
     Zu wissen, wo eure Kleidung hergestellt wird und wer sie hergestellt hat, ist ein entscheidender Schritt zur Verbesserung der Arbeitsbedingungen.
@@ -324,7 +324,7 @@ de:
   brands_do_not_pay_workers_directly: >
     Marken bezahlen die Arbeiter*innen nicht direkt. Sie bezahlen ihre Zulieferer, die dann die Arbeiter*innen bezahlen. Eine Lieferkette ist normalerweise in drei Stufen von Zulieferbetrieben unterteilt. Die direkten Zulieferer (sogenannte „Tier-One“-Zulieferer) werden in der Regel direkt von den Markenunternehmen beauftragt. Diese Tier-One-Unternehmen vergeben die Arbeit dann wiederum an weitere Zulieferer.
   on_their_current_wages_garment_workers: >
-    On their current wages, garment workers often have to make hard decisions about their health care or their children’s education. It is common for workers to faint from lack of nutrition since they often do not earn enough to feed themselves and their families adequately. The added stress of juggling bills and loans and lack of sleep from inhumane working hours has long term health consequences for millions of workers. Most will have to make a choice between buying food and paying to see a doctor.
+    Bei ihren derzeitigen Löhnen müssen Textilarbeiter*innen häufig schwierige Entscheidungen über ihre Gesundheitsversorgung oder die Ausbildung ihrer Kinder treffen. Es ist üblich, dass Arbeiter*innen aufgrund mangelnder Ernährung in Ohnmacht fallen, da sie oft nicht genug verdienen, um sich und ihre Familien angemessen zu ernähren. Der zusätzliche Stress, Rechnungen und Kredite nicht begleichen zu können und der Schlafmangel aufgrund unmenschlicher Arbeitszeiten haben langfristig gesundheitliche Folgen für Millionen von ihnen. Die meisten müssen sich zwischen dem Kauf von Lebensmitteln und den Kosten für einen Arztbesuch  entscheiden.
   suppliers_are_forced_to_estimate_the_lowest: >
     Die Zulieferer sind gezwungen, den niedrigstmöglichen Preis pro Artikel zu schätzen, um mit den Marken über die Produktionsverträge zu verhandeln. Dieser Preis soll für die Betriebskosten der Fabrik ausreichen, einschließlich Miete, Strom, Wasser und Wartung, Materialkosten, Versand, einer Gewinnspanne für die Fabrik und aller Arbeitskosten. Um mit den anderen Tier-One-Unternehmen konkurrieren zu können, kalkulieren die Zulieferer die Arbeitskosten auf der Grundlage von Mindestlöhnen anstelle von existenzsichernden Löhnen und gehen dabei standardmäßig von Zehn-Stunden-Tagen aus, einschließlich zwei Überstunden.
   my_job_is_exhausting: >
@@ -337,7 +337,7 @@ de:
   a_worker_from_india: "ein*e Arbeiter*in aus Indien)"
   brands_need_to_take_responsibility_to_modify: >
     Markenunternehmen müssen ihre Einkaufspraktiken ändern, um sicherzustellen, dass die Zulieferer ihre Arbeiter*innen bezahlen können. Wir werden weiterhin mit Arbeitsrechtsorganisationen und Gewerkschaften zusammenarbeiten, um sicherzustellen, dass diese Veränderungen wirksam sind.
-  unions_and_worker_committees: "Unions and Worker committees"
+  unions_and_worker_committees: "Gewerkschaften und Fabrikkomitees"
   workers_have_little_to_no_power_to_fight:
     Arbeiter*innen haben wenig bis gar keine Macht, um für bessere Löhne zu kämpfen. Die Vereinigungsfreiheit steht unter immensem Druck, und die Zerschlagung von Gewerkschaften, die für höhere Löhne kämpfen, ist in vielen Produktionsländern alles andere als ungewöhnlich. In den letzten Jahren hat auch die Zahl der „Komitees“, die anstelle von Gewerkschaften auf Fabrikebene eingerichtet wurden, bemerkenswert zugenommen. Dies erweckt den falschen Eindruck, dass die Arbeiter*innen von heute sowohl organisiert als auch mächtig sind. Unternehmen behaupten oft, dass solche Komitees und Gewerkschaften im Wesentlichen gleich sind, was nur in sehr wenigen Fällen zutrifft.
   trucks_are_constantly_leaving: >
@@ -360,7 +360,7 @@ de:
   about_fashion_checker: "Ueber Fashion Checker"
   about_the_campaign: "Die Kampagne"
   a_living_wage_for_garment_workers: >
-    A living wage for garment workers and a transparent supply chain.
+    Ein Existenzlohn für Textilarbeiter*innen und eine transparente Lieferkette
   menu_about_fashion_checker: "Über Fashion Checker"
   about: "About"
   brands_in_the_fashion_industry_put_millions: >
@@ -426,17 +426,17 @@ de:
     Wo werden die Arbeiter*innen am schlechtesten bezahlt? Wo sind die Beschäftigten gewerkschaftlich organisiert? Wo sind die Frauen und Wanderarbeiter*innen?
     Es ist an der Zeit, die verfügbaren Daten zu nutzen, um Menschenrechtsverletzungen in der Modebranche aufzuzeigen und konkrete, aussagekräftige und messbare Informationen über Löhne in der gesamten Lieferkette zu erhalten. Die Arbeiter*innen haben Besseres verdient. Und auch die Konsument*innen verdienen Besseres. Es ist an der Zeit, Macht und Reichtum neu zu verteilen.
   what_do_we_want: "Was wollen wir?"
-  what_can_you_do: "Was könnt IHR tun?"
+  what_can_you_do: "Was koennnt ihr tun?"
   we_re_demanding_that_brands_do: "Wir fordern, dass die Unternehmen es besser machen: "
   we_want_them_to_show_how_they_are_working: >
     Wir wollen, dass sie zeigen, wie sie auf eine Lieferkette hinarbeiten, die es ALLEN Arbeiter*innen ermöglicht, einen existenzsichernden Lohn zu verdienen. Wir fordern außerdem, dass die politischen Entscheidungsträger gleiche Wettbewerbsbedingungen für alle Beteiligten schaffen. Nur so können Unternehmen ihre Sorgfaltspflicht für die Menschenrechte erfüllen, und nur so können sie langfristig das Vertrauen ihrer Konsument*innen bewahren.
-  a_living_wage: "Ein existenzsichernder Lohn"
-  for_all_workers: "für ALLE Arbeiter*innen"
+  a_living_wage: "Ein Existenzlohn"
+  for_all_workers: "fuer ALLE Arbeiter*innen"
   tell_brands_to_commit_to_paying_a_living_wage: "Fordert die Unternehmen dazu auf, sich zu verpflichten, in ihrer gesamten Lieferkette einen existenzsichernden Lohn zu zahlen."
   we_are_asking_brands_to_pay_an_extra_contribution: >
     Wir fordern von den Unternehmen, einen zusätzlichen Beitrag zu den Arbeitskosten zu zahlen, die bei der Herstellung ihrer Kleidung anfallen. Dieses Geld soll direkt für die Zahlung der Löhne und nicht für andere Produktionskosten verwendet werden. Auf diese Weise können die Marken sicher sein, dass die Arbeiter*innen in ihrer Lieferkette genug verdienen, um davon leben zu können. Wir fordern außerdem, dass die Unternehmen sinnvolle Maßnahmen ergreifen, um Frauendiskriminierung zu beenden und das geschlechtsspezifische Lohngefälle in ihrer Lieferkette zu verringern. Das bedeutet auch, mehr Daten über die Menschen zu sammeln, die ihre Kleidung herstellen, und mit den Fabriken gemeinsam auf Verbesserungen hinzuarbeiten.
   a_spotlight: "Das Ende der Lieferkette"
-  on_the_bottom_of_the_supply_chain: "ins Rampenlicht rücken"
+  on_the_bottom_of_the_supply_chain: "ins Rampenlicht ruecken"
   where_are_the_unions: >
     Wo sind die Gewerkschaften? Wo sind die Wanderarbeiter*innen? Wo sind die niedrigsten Löhne? Sagt den Unternehmen, dass sie die Informationen über ihre gesamte Lieferkette, von Anfang bis Ende, veröffentlichen sollen.
   brands_never_release_data_about_the_bottom: >
@@ -445,7 +445,7 @@ de:
     Wir wollen, dass Unternehmen ihre Lieferanten fragen, welche Rolle Frauen und Wanderarbeiter*innen bei der Produktion ihrer Kleidung in- und außerhalb der Fabriken spielen. Denn Wanderarbeiter*innen werden ebenso wie Frauen noch häufiger in ausbeuterische Verhältnisse gezwungen und können sich noch seltener gewerkschaftlich organisieren, um sich dagegen zu wehren.
   we_want_to_know_if_the_workers_making: >
     Wir wollen wissen, ob die Arbeiter*innen, die unsere Kleidung herstellen, eine Stimme haben. Die Gewerkschaften ermöglichen es den Beschäftigten, für sich selbst einzutreten und für bessere Arbeitsbedingungen zu verhandeln.
-  consumer: "Transparenz für"
+  consumer: "Transparenz fuer"
   transparency: "Konsument*innen"
   tell_brands_and_policy_makers: >
     Sagt den Unternehmen und politischen Entscheidungsträger*innen, dass ihr wissen wollt, wie eure Kleidung hergestellt wurde.
@@ -458,34 +458,34 @@ de:
   donate_to_our_emergency_fund_to_help_us: >
     Spendet an unseren Nothilfefonds, damit wir die Arbeiter*innen in den Produktionsländern direkt unterstützen können, von denen viele bereits seit Wochen auf ihre Löhne warten.
   for_information_on_how_to_do_so_please: >
-    For information on how to do so please the covid-19 campaign page on our website.
+      
   follow_our_live_blog_for_the_latest_information: >
     In unserem Live Blog findet ihr die neuesten Informationen über Covid-19 in der Bekleidungsindustrie.
-  find_out_more_about_our_demands: "Erfahrt mehr über unsere Forderungen."
+  find_out_more_about_our_demands: ""
   donate_to_the_campaign: "Spendet für die Kampagne"
   you_can_help_fund_this_campaign: "Ihr könnt diese Kampagne durch eine Spende mitfinanzieren."
   every_little_bit_helps: >
     Jede noch so kleine Spende hilft. Das Geld wird für die Wartung der Website,
   future_research_and_translations_of_our_data: "zukünftige Forschung und Übersetzungen unserer Informationen verwendet."
-  donate: "Spendet"
-  of_surveyed_brands_aren_t_paying_garment_workers: "of surveyed brands aren't paying garment workers a living wage"
-  want_to_help_workers_fight_for: "Want to help workers fight for"
-  better_working_conditions: "Better working conditions?"
+  donate: "Jetzt spenden"
+  of_surveyed_brands_aren_t_paying_garment_workers: "der befragten Unternehmen zahlen ihren Arbeiter*innen keinen Existenzlohn."
+  want_to_help_workers_fight_for: "Möchtest du Arbeiter*innen bei ihrem Kampf um"
+  better_working_conditions: "bessere Arbeitsbedingungen unterstützen? "
   twitter_storm: "Twitter storm"
-  menu_take_action: "Take Action"
+  menu_take_action: "Aktiv werden!"
   visit_the_websites_of_our: >
-    Visit the websites of our national organisations to find out how you can email brands to tell them about this campaign.
+    Besucht die Websites unserer nationalen Organisationen, um herauszufinden, wie ihr Marken per E-Mail über diese Kampagne informieren könnt.
 
   support_garment_workers_through_covid_19: "Support garment workers through Covid-19"
   sign_the_petition: "Sign the Petition"
   your_voice_matters_brands_are_highly: >
-    Your voice matters. Brands are highly image focused and take consumer opinions very seriously. We want you to let them know that workers deserve better. Tell the brands you buy from that you want your clothes made free from exploitation.
+    Eure Stimme zählt! Marken sind imageorientiert und nehmen die Meinung der Konsument*innen sehr ernst. Lasst die Marken wissen, dass die Arbeiter*innen Besseres verdienen. Sagt den Unternehmen, bei denen ihr einkauft, dass ihr Kleidung kaufen wollt, die ohne Ausbeutung hergestellt wird.
   donate_to_our_emergency_relief_fund: >
-    Donate to our emergency relief fund to help us directly support workers in production countries, many of whom were already waiting on wages from before the corona outbreak. Organisations in our network are arranging food hand outs in support of garment workers and their families in their local communities. Follow our live blog for the latest news.
+    Spendet an unseren Nothilfefonds, damit wir die Arbeiter*innen in den Produktionsländern direkt unterstützen können, von denen viele auf Löhne warten, die bereits vor dem Coronaausbruch fällig gewesen wären. Organisationen aus unserem Netzwerk kümmern sich daher um Essensausgaben, um Textilarbeiter*innen und ihren Familien zu helfen. Folgt unserem Live-Blog, um auf dem Laufenden zu bleiben!
   living_wage_table:
     minimum_wage:
       food: >
-        It is not easy to get enough nutrition or calories. You often eat the same porridge or rice everyday. Meat, fish and fruit are too expensive. Skipping meals is very common and your household will have less food by the end of the month.
+        Es ist nicht einfach, genug zu essen zu bekommen. Du isst oft einfach Haferflocken oder Reis - tagein, tagaus. Fleisch, Fisch, Gemüse und Obst sind zu teuer. Mahlzeiten auszulassen ist üblich und dein Haushalt oder deine Familie hat am Ende des Monats weniger zu essen.
       housing: >
         Du teilst dir einen überfüllten Schlafsaal. Es gibt keine Privatsphäre, keine Heizung oder Klimaanlage und nur schlechte Belüftung. Es gibt nicht genügend Möbel oder Betten. Schlechte Baumaterialien machen das Leben dort unsicher und gefährlich.
       health_care: >
@@ -500,7 +500,7 @@ de:
         Du bist höchstwahrscheinlich verschuldet. Es ist ein Kampf, Rechnungen und Kredite zu begleichen, und du lebst von der Hand in den Mund.
     living_wage:
       food: >
-        You earn enough to feed yourself and your household. You have a healthy, varied diet and eat at least three times a day.
+        Du verdienst genug, um dich und deine Familie zu ernähren. Du kannst dich gesund und abwechslungsreich ernähren und kannst mindestens dreimal am Tag etwas essen.
       housing: >
         Du kannst es dir leisten, dich und deine Angehörigen in einer sicheren Umgebung unterzubringen. Du hast Fenster für Belüftung und Licht, Privatsphäre, genügend Möbel und ein eigenes Badezimmer.
       health_care: >
@@ -572,7 +572,7 @@ de:
   are_the_people_who_make_your_clothes_paid_enough_t: "Are the people who make your clothes paid enough to live on?"
   find_out_which_apparel_and_footwear_brands_pay_the: "Find out which apparel and footwear brands pay their workers a Living Wage."
   country: "Country"
-  eu_disclaimer: "This website was created and maintained with the financial support of the European Union. Its contents are the sole responsibility of Clean Clothes Campaign and do not necessarily reflect the views of the European Union."
+  eu_disclaimer: "Diese Webseite wurde mit finanzieller Unterstützung der Europäischen Union erstellt. Der Inhalt liegt in der alleinigen Verantwortung der Clean Clothes Campaign und spiegelt nicht die Ansichten der Europäischen Union wider."
   tweet_the_brand: "Tweet the Brand"
   menu_resources: "Resources"
   reports: "Reports"
