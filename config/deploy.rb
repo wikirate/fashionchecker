@@ -1,8 +1,8 @@
-set :application, 'transparency.wikirate.org'
+set :application, 'fashionchecker.org'
 set :repo_url, 'https://github.com/wikirate/transparency-tool.git'
 set :branch, 'master'
 
-set :deploy_to, '/srv/wikirate_transparency'
+set :deploy_to, '/srv/fashionchecker'
 
 # set :rvm_custom_path, '/usr/local/rvm'
 

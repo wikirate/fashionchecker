@@ -118,7 +118,7 @@ class window.BrandInfo
     "<td#{css_class}>#{content}</td>"
 
   companyLink = (company, link_name) ->
-    "<a class='red' href=\"#{LINK_TARGET_HOST}/#{link_name}\">#{company}</a>"
+    "<a class='red' target='_wikirate' href=\"#{LINK_TARGET_HOST}/#{link_name}\">#{company}</a>"
 
   wikirateUrl = (company_id) ->
     "#{LINK_TARGET_HOST}/~#{company_id}?contrib=N" +
