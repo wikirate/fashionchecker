@@ -1,22 +1,8 @@
-%header
-  #navbarHeader.collapse.red-bg
+%header#main-header
+  #navbarHeader.collapse.navy-bg
     .container
       .py-4.text-white
-        .row.red-bg
-          .col-sm-4
-            %h4
-              = t('learn_more')
-            %ul.list-unstyled
-              %li
-                %a{:href => "living_wage.html"}
-                  = t('menu_living_wage')
-              %li
-                %a{:href => "gender.html"}
-                  = t('menu_gender')
-              %li
-                %a{:href => "transparency.html"}
-                  = t('menu_transparency')
-
+        .row
           .col-sm-4
             %h4
               = t('about')
@@ -33,6 +19,21 @@
               %li
                 %a{:href => "methodology.html"}
                   = t('menu_methodology')
+          .col-sm-4
+            %h4
+              = t('learn_more')
+            %ul.list-unstyled
+              %li
+                %a{:href => "living_wage.html"}
+                  = t('menu_living_wage')
+              %li
+                %a{:href => "gender.html"}
+                  = t('menu_gender')
+              %li
+                %a{:href => "transparency.html"}
+                  = t('menu_transparency')
+
+
           .col-sm-4
             %a{:href => "take_action.html"}
               %h4

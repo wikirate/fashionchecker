@@ -394,8 +394,9 @@ input {
     position: absolute;
     text-align: center;
     color: #fff;
-    top: 50%;
+    top: 40%;
     width: 100%;
+    font-size: 46px;
   }
 }
 .pointer {
@@ -403,4 +404,14 @@ input {
 }
 #navbarHeader a {
   color: #fff;
+}
+#main-header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  overflow: hidden;
+  z-index: 10;
+}
+main {
+  margin-top: 76px;
 }
