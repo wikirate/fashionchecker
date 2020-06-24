@@ -8,10 +8,10 @@ $white: #fff;
 $fushia: #ed40d9;
 $blue: #223366;
 $light-blue: #32437d;
-$lighter-blue: #7C8DC4;
+$lighter-blue: #7c8dc4;
 $other-blue: #4a588c;
 $medium-blue: #112053;
-$sky-blue: #5A6FB7;
+$sky-blue: #5a6fb7;
 
 .food {
   fill: #fdbf41;
@@ -23,7 +23,7 @@ $sky-blue: #5A6FB7;
   color: $orange;
 }
 
-.health-care {
+.health_care {
   fill: $fushia;
   color: $fushia;
 }
@@ -120,7 +120,8 @@ $body-bg: $blue;
   background-color: $fushia;
 }
 
-.black-bg, .black-btn {
+.black-bg,
+.black-btn {
   background-color: #000 !important;
   color: $light-grey !important;
 }
