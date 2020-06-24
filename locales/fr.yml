@@ -41,7 +41,7 @@ fr:
   revenue: "Chiffre d'affaire 2018 €"
   profit: "Bénéfice 2018 €"
   top_3_production_countries: "Top 3 des pays d'approvisionnement (selon la marque)"
-  other_brands_owned_by: "Autres marques détenues par"
+  brands_owned_by: "Autres marques détenues par"
   headquarters: "Siège"
   owned_by: "Détenue par:"
   search_for_brand: "rechercher une marque"
@@ -116,7 +116,7 @@ fr:
 
   transparency_score:
     title: "Transparence de la marque sur sa filière d'approvisionnement?"
-    read_more: "Lire plus"
+    read_more: "Lire : "
     about_why_transparency_is_important: "pourquoi la transparence est importante?"
     about_how_this_score_was_calculated: "comment les résultats ont-ils été obtenus?"
     what_does_this_mean: "Qu'est ce que cela signifie?"
@@ -139,8 +139,8 @@ fr:
     permanent_temporary: "Permanent/ Temporaire"
     average: "En moyenne"
     gap: "Écart"
-    have_cba: "Have cba"
-    know_brand: "Know brand"
+    have_cba: "Cba ?"
+    know_brand: "Connaissent la marque"
     pregnancy_leave: "Congé de maternité"
   latest: "Dernières"
   news: "Actualités"
