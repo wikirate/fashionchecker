@@ -77,7 +77,7 @@ class window.BrandInfo
     selectImage($el.find("._#{name}-smiley"), "smiley", value)
 
   selectImage = ($el, folder, score) ->
-    $el.attr("src", "images/#{folder}/#{score}.png")
+    $el.attr("src", "/images/#{folder}/#{score}.png")
 
   replaceNull = (content) ->
     if (content == null) then "-" else content
