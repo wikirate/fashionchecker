@@ -322,7 +322,7 @@ es:
   a_worker_from_india: "una trabajadora de la India"
   brands_need_to_take_responsibility_to_modify: >
     Es necesario que las marcas asuman la responsabilidad de modificar sus prácticas de compra con el fin de asegurar que sus proveedores pagan a sus trabajadoras/es. Seguiremos trabajando con las organizaciones de trabajadoras/es y los sindicatos para hacer que estos cambios sean efectivos.
-  unions_and_worker_committees: "Sindicatos y comités de trabajadores "
+  unions_and_worker_committees: "Sindicatos y comités de trabajadores"
   workers_have_little_to_no_power_to_fight:
      Los trabajadores tienen poco o ningún poder para luchar por mejores salarios. Que la libertad sindical esté sometida a una inmensa presión y a las maniobras contra los sindicatos que luchan por salarios más altos, no es algo insólito en muchos países productores de prendas de vestir. También ha habido en los últimos dos años un notable aumento en el número de comités de trabajadores establecidos a nivel de fábrica, en lugar de sindicatos. Esto crea la falsa impresión de que los trabajadores hoy en día están organizados y son poderosos. Las marcas suelen afirmar que los comités de trabajadores y los sindicatos son esencialmente lo mismo. Esto puede ser cierto pero sólo en un pequeño porcentaje de los casos.
   trucks_are_constantly_leaving: >
@@ -565,3 +565,12 @@ es:
   videos: "Video"
   who_we_are: "Quiénes somos "
   methodology: "Metodología"
+  see_full_profiles: "See the full brand profiles"
+  minimum_wage: "Minimum Wage"
+  food: "Food"
+  housing: "Housing"
+  health_care: "Health care"
+  education: "Education"
+  clothing: "Clothing"
+  transportation: "Transportation"
+  savings: "Savings"
