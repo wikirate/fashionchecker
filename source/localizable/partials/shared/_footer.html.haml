@@ -36,10 +36,22 @@
 
   .row.small.mt-4.text-muted
     .col-sm-12.border-top.text-center.pt-3
-      %span.px-2
-        %a.white{href: "https://cleanclothes.org/privacy"}
-          Privacy Policy
-      |
-      %span.px-2 Copyright © 2020 Clean Clothes Campaign
-      |
-      %span.px-2 All rights reserved
+      .py-3
+        %span.px-2
+          %a.white{href: "https://cleanclothes.org/privacy"}
+            = t('privacy_policy')
+        |
+        %span.px-2 Copyright © 2020 Clean Clothes Campaign
+        |
+        %span.px-2
+          = t('all_rights_reserved')
+      .pb-3
+        %span.px-2
+          = t('website_powered_by')
+          %a.white{ href: "https://wikirate.org" }
+            WikiRate
+        |
+        %span.px-2
+          = t('design_by')
+          %a.white{ href: "https://heatherknightcreative.com/"}
+            Heather Knight Creative
