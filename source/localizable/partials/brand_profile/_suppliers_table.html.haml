@@ -10,11 +10,14 @@
       %table.suppliers-table.table.table-sm.light-blue-bg.medium-grey
         %thead
           %tr.white-bg.table-borderless.text-center.border-bottom-0
-            %th.border-bottom-0.text-left.navy-bg{colspan: 2}
+            %th.border-bottom-0.text-left.text-uppercase.navy-bg.lighter-blue{colspan: 2}
               = t('suppliers_table.sourcing_from_factories')
               (
-              %span._factory-count 0
-              = t('suppliers_table.found')
+              %span><
+                %span._factory-count 0
+                &nbsp;
+                = t('suppliers_table.found')
+              )
             %th.border-bottom-0.text-uppercase{colspan: 2}= t('suppliers_table.number_of_workers')
             %th.border-bottom-0.text-uppercase{colspan: 2}= t('suppliers_table.wage')
             %th.border-bottom-0.text-uppercase{colspan: 3}= t('suppliers_table.workers')

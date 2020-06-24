@@ -129,7 +129,7 @@ de:
   suppliers_table:
     explore_supply_chain: "Explore supply chain"
     sourcing_from_factories: "Sourcing from factories"
-    found: "found)"
+    found: "found"
     number_of_workers: "number of workers"
     wage: "wage"
     workers: "workers"

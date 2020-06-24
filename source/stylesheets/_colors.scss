@@ -1,7 +1,7 @@
 $orange: #fb4922;
 $yellow: #f9fe9c;
 $pink: #fcc9fd;
-$navy: #1d1d2f;
+$navy: #112053;
 $medium-grey: #e9e4e3;
 $light-grey: #f4f2f2;
 $white: #fff;
@@ -162,4 +162,8 @@ $body-bg: $blue;
 
 .white {
   color: $white !important;
+}
+
+.lighter-blue {
+  color: $lighter-blue;
 }
