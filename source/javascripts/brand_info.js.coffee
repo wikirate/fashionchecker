@@ -50,6 +50,7 @@ class window.BrandInfo
     $template.find("._living_wage_score-text").text(data.scores.living_wage_text)
     $template.find("._transparency_score-text").text(data.scores.transparency_text)
 
+    tweetTheBrand $template.find("._tweet-the-brand"), data.twitter_handle
     # showScoreDesc($template, "living_wage_score", data.scores.living_wage)
     # showScoreDesc($template, "commitment_score", data.scores.commitment.total)
     # showScoreDesc($template, "transparency_score", data.scores.transparency)
@@ -116,6 +117,15 @@ class window.BrandInfo
     css_class = " class=\"#{css_class}\""
     # css_class = if css_class? then " class='#{css_class}'" else ""
     "<td#{css_class}>#{content}</td>"
+
+  tweetTheBrand = (link, handle) ->
+    if handle
+      tweetText = "#{handle}\n#{window.location.href} #LivingWageNow"
+      tweetUrl = link.attr("href") + $.param({ text: tweetText })
+      link.attr "href", tweetUrl
+      link.show()
+    else
+      link.hide()
 
   companyLink = (company, link_name) ->
     "<a class='red' target='_wikirate' href=\"#{LINK_TARGET_HOST}/#{link_name}\">#{company}</a>"

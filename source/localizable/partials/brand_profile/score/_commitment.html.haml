@@ -21,10 +21,11 @@
     %img._isolating-labour-cost-smiley{src: "/images/smiley/Yes.png", height: "30px"}
 .row.border-top.mx-0.py-2.tiny
   .col-sm-12.pl-0
-    = t('interested_in_more_information')
-    = t('check_out')
-    %a._wikirate-link{ target: "_wikirate" }
+    = t('interested_in_more_information') + ' '
+    = t('check_out') + ' '
+    %a._wikirate-link{ target: "_wikirate" }><
       WikiRate
+    \.
 
 = commitment_modals "Public commitment", %w[No Partial Yes]
 = commitment_modals "Action plan", %w[No Partial Yes]

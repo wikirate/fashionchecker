@@ -8,8 +8,10 @@
     %p._living_wage_score-text.lead
   // = score_desc("living_wage_score.desc_1", 5)
   .showcase-details
-    %p
-      %a.btn.btn-primary.btn-sm{href: "#"}
-        = t('take_action')
-      %a.btn.btn-outline-primary.btn-sm{href: "brand-profile.html?q=18215"}
-        = t('see_company_profile')
+    .text-right.p-2
+      %a.btn.btn-primary.btn-sm._tweet-the-brand{ href: "https://twitter.com/intent/tweet?",
+                                                  target: "_twitter" }
+        %span><
+          = t('take_action')
+        \:
+        = t('tweet_the_brand')
