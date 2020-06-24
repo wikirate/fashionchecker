@@ -25,8 +25,8 @@ module Partials
 
   def compare title, min_wage_icons, living_wage_icons
     partial "partials/shared/compare", locals: { title: title,
-                                                   min_wage_icons: min_wage_icons,
-                                                   living_wage_icons: living_wage_icons }
+                                                 min_wage_icons: min_wage_icons,
+                                                 living_wage_icons: living_wage_icons }
   end
 
   def commitment_modals title, values, id=nil
