@@ -11,7 +11,7 @@ fr:
     vital au sein de ses filières d'approvisionnement. 
   read_more_living_wages: "En savoir plus sur le salaire vital."
   difference_question: >
-    Quelle différence y-a-t'il entre gagner un salaire vital et un salaire minimum légal?
+    Quelle différence entre un salaire vital et un salaire minimum légal?
   end: "Un salaire vital:"
   gendered_pay: "pour les hommes comme pour les femmes"
   gendered_pay_info: >
@@ -22,7 +22,7 @@ fr:
   gender: "En savoir plus sur les inégalités de genre"
   resilience: "Un salaire vital: "
   in_the_face_of_a_crisis: "Pour résister aux crises"
-  our_demands: "Revendications"
+  our_demands: "Nos revendications"
   resilience_info: >
     Voilà des années que les marques dans l'industrie de l'habillement profitent de salaires si bas 
     qu'ils ne permettent pas aux travaillleur·euse·s de subvenir à leurs besoins de base. 
@@ -30,7 +30,7 @@ fr:
     a mis en évidence, une fois de plus, les inégalités sociales et économiques du secteur de l'habillement, 
     avec des conséquences d'autant plus dramatiques pour les travailleur·euse·s du secteur informel. 
   your_voice_has_power: "Un salaire vital:"
-  take_action: "maintenant"
+  take_action: "Agir"
   your_voice_info_1: >
     Ensemble, nous pouvons agir. Il est temps que les marques s'engagent pour garantir une vie décente 
     aux travaillleur·euse·s qui fabriquent nos vêtements. En tant que consommateur·trice·s, nous avons du pouvoir. 
@@ -38,8 +38,8 @@ fr:
   your_voice_info_2: >
     pour des vêtements faits dans la dignité.
 
-  revenue: "Chiffre d'affaire 2018 (euro symbol)"
-  profit: "Bénéfice 2018 (euro symbol)"
+  revenue: "Chiffre d'affaire 2018 €"
+  profit: "Bénéfice 2018 €"
   top_3_production_countries: "Top 3 des pays d'approvisionnement (selon la marque)"
   other_brands_owned_by: "Autres marques détenues par"
   headquarters: "Siège"
@@ -70,12 +70,12 @@ fr:
     separate_labor_costs_score_1: >
       Les marques doivent s'assurer que les coûts du travail suffisent à payer un salaire vital en utilisant une méthode établie pour les calculer, en séparant ces coûts des autres coûts de fabrication.
     separate_labor_costs_score_2: >
-      Partial
+      Partiel
     separate_labor_costs_score_3: >
       Aucune preuve n'a été trouvée indiquant que cette marque s'assure que les coûts du travail suffisent à payer un salaire vital en utilisant une méthode établie pour les calculer, en séparant ces coûts des autres coûts de fabrication. 
       Toutes les marques devraient payer des prix aux fournisseurs suffisent pour payer un salaire vital et une participation à la couverture sociale à tous les travailleur·euses des chaînes d'approvisionnement.
 
-    separate_labor_costs: "Séparer les coûts  du travail:"
+    separate_labor_costs: "Séparer les coûts du travail?"
     desc:
       score_1: "This brand isn't doing enough to move towards Living Wages
                 in its supply chain."
@@ -130,18 +130,18 @@ fr:
   suppliers_table:
     explore_supply_chain: "Explorer la chaîne d'approvisionnement"
     sourcing_from_factories: "s'approvisionner auprès des usines"
-    found: "trouvé"
+    found: "trouvées)"
     number_of_workers: "nombre de travailleur·euses"
     wage: "salaire"
     workers: "travailleur·euses"
     company: "entreprise"
     female_male_other: "Femme/homme/autre"
     permanent_temporary: "Permanent/ Temporaire"
-    average: "en moyenne"
-    gap: "écart"
+    average: "En moyenne"
+    gap: "Écart"
     have_cba: "Have cba"
     know_brand: "Know brand"
-    pregnancy_leave: "congé de maternité"
+    pregnancy_leave: "Congé de maternité"
   latest: "Dernières"
   news: "Actualités"
   footer_info: "est une campagne lancée par la Clean Clothes Campaign et financée par l'Union Européenne."
@@ -474,7 +474,7 @@ fr:
   sign_the_petition_asking_brands_to_pay_for_orders: >
     Signez la pétition : les marques doivent payer leurs commandes. L'industrie de l’habillement a subi des pertes comptées en milliards de dollars dues aux grandes marques qui ont annulé leurs commandes. Des millions de travailleurs se sont retrouvés sans salaire pendant des mois, dans des pays où ne pas gagner un salaire revient à ne pas savoir se loger ou se nourrir.
   donate_to_our_emergency_fund_to_help_us: >
-     Faites un don à notre fond de secours pour venir en aide directement aux travailleuses et travailleurs de pays producteurs qui attendent parfois déjà des salaires retardés avant l'épidémie du coronavirus et se retrouvent aujourd'hui sans rien.
+    Faites un don à notre fond de secours pour venir en aide directement aux travailleuses et travailleurs de pays producteurs qui attendent parfois déjà des salaires retardés avant l'épidémie du coronavirus et se retrouvent aujourd'hui sans rien.
   for_information_on_how_to_do_so_please: >
     Pour davantage d'informations, rendez-vous sur la page Covid-19 de notre site.
   follow_our_live_blog_for_the_latest_information: >
@@ -486,9 +486,9 @@ fr:
     Vos dons serviront à maintenir nos canaux d'informations via notre site internet,
   future_research_and_translations_of_our_data: "nos futures recherches et la traduction de nos publications."
   donate: "Faites un don"
-  of_surveyed_brands_aren_t_paying_garment_workers: "des marques interrogées ne payent pas aux travailleur-euse-s de l’habillement."
-  want_to_help_workers_fight_for: "Want to help workers fight for"
-  better_working_conditions: "Comment soutenir les travailleurs et travailleuses en lutte pour leurs conditions de travail ?"
+  of_surveyed_brands_aren_t_paying_garment_workers: "des marques interrogées ne payent pas aux travailleur.euses de l’habillement un salaire vital."
+  want_to_help_workers_fight_for: "Comment soutenir les travailleurs et travailleuses en lutte"
+  better_working_conditions: "pour leurs conditions de travail ?"
   twitter_storm: "Twitter pris d'assaut"
   menu_take_action: "Appel à l'action"
   visit_the_websites_of_our: >
@@ -503,7 +503,7 @@ fr:
   living_wage_table:
     minimum_wage:
       food: >
-        Pas assez de nourriture pour accéder à suffisamment de repas et de calories. La plupart des repas se ressemblent et sont composés de riz ou porridge. La viande, le poisson et les fruits sont trop chers. Il est courant de passer un repas ou de se retrouver avec moins de nourriture ne fin de mois.
+        Pas assez de nourriture pour accéder à suffisamment de calories. La plupart des repas se ressemblent et sont composés de riz ou porridge. La viande, le poisson et les fruits sont trop chers. Il est courant de passer un repas ou de se retrouver avec moins de nourriture ne fin de mois.
       housing: >
         Dortoirs collectifs, promiscuité, absence de chauffage, d'air conditionné ou d’un minimum de ventilation. Manque de mobilier ou de lits. Matériaux de construction de si mauvaise qualité qu'ils mettent en danger la vie des travailleur·euse·s.
       health_care: >
@@ -539,14 +539,14 @@ fr:
   pay_a_living_wage: "Payer un salaire vital"
   we_want_brands_to_pay_more_for_orders: >
     Afin d'y arriver, les marques doivent augmenter les prix qu’elles payent pour leurs commandes. Les fournisseurs des marques ne seront en mesure de payer correctement leurs salarié·e·s que s’ils peuvent négocier des prix permettant de couvrir leurs coûts du travail.
-  menu_our_demands: "Revendications"
+  menu_our_demands: "Nos revendications"
   brands_need_to_commit_to_paying_a: "Les marques et distributeurs de vêtements doivent s'engager à"
   living_wage_contribution: "contribuer financièrement pour un salaire vital"
   on_every_order_they_place: "lors de chaque commande effectuée. Le montant doit permettre de combler l'écart salarial entre les salaires actuels et un salaire vital d'ici le 31 Décembre 2022."
   using_living_wage_benchmarks: "S'engager publiquement en faveur d'un référentiel de salaire vital"
   if_brands_are_going_to_pay_living_wages: "Si les marques veulent s'engager à rémunérer correctement tous les travaillleur·euse·s de leur filière d'approvisionnement, elles doivent savoir ce qu’un salaire vital coûterait. Plusieurs outils permettent aux marques de le faire."
-  brands_need_to_commit_to_using: " Les marques doivent s'engager à utiliser"
-  transparent_and_robust_living_wage_benchmarks: "utiliser des standards consistants et transparents pour calculer un salaire vital."
+  brands_need_to_commit_to_using: "Les marques doivent s'engager à utiliser"
+  transparent_and_robust_living_wage_benchmarks: "des standards consistants et transparents pour calculer un salaire vital."
   pay_the_women_who_make_our_clothes: "Réduire l'écart salarial entre hommes et femmes"
   brands_need_to_do_more_to_reduce_gender_inequality: "Les marques doivent en faire davantage pour réduire les inégalités de genre au sein de leur filière d’approvisionnement. Les femmes travaillent systématiquement dans des postes moins rémunérés que leurs collègues masculins ce qui porte préjudice à leur santé et à leur sécurité."
   brands_need_to_commit_to: "Les marques doivent s'engager à"
@@ -578,7 +578,7 @@ fr:
   we_call_to_advance_human_rights_due_diligence: "Il est temps qu'une loi sur le devoir de vigilance soit adoptée au niveau de l'Union Européenne afin d'obliger les entreprises à respecter les droits humains dans leurs processus de fabrication et filières d’approvisionnement. Les entreprises doivent être transparentes sur le processus de vigilance qu’elles mettent en place, vis-à-vis la filière d’approvisionnement et des salaires, compte tenu des risques et des droits à chaque étape de fabrication, en ne laissant personne derrière."
   we_call_to_set_in_place_an_information_system_for: "Un système permettant aux entreprises de signaler et divulguer des informations clés et transparentes concernant les usines et les produits doit être mis en place. L'accès à ces informations devra être gratuit, illimité, et conforme aux standards Open Data."
   we_call_for_increased_transparency_at_product: "Nous réclamons davantage de transparence au niveau des produits pour renforcer le pouvoir des citoyens : étendre l'information disponible sur les étiquettes des vêtements afin d'inclure des données sur le processus de fabrication et le cycle de vie du produit."
-  see: "See"
+  see: "Voir"
   our_website: "notre site internet"
   for_more_information_on_these_demands: "pour plus d'information sur ces demandes"
   fashion: "Fashion"
@@ -589,7 +589,7 @@ fr:
   are_the_people_who_make_your_clothes_paid_enough_t: "Celles et ceux qui fabriquent nos vêtements sont-ils payés suffisamment pour subvenir à leurs besoins fondamentaux ?"
   find_out_which_apparel_and_footwear_brands_pay_the: "Découvrez quelles marques de vêtements et de chaussures garantissent un salaire vital aux travailleur·euses de leurs filières d'approvisionnement."
   country: "Pays"
-  eu_disclaimer: "Ce site internet est créé et maintenu grâce au soutien financier de l'union Européenne. Son contenu relève de la seule responsabilité de la Clean Clothes Campaign et ne reflète pas nécessairement la vision de l'Union Européenne."
+  eu_disclaimer: "Ce site internet est créé et maintenu grâce au soutien financier de l'Union Européenne. Son contenu relève de la seule responsabilité de la Clean Clothes Campaign et ne reflète pas nécessairement la vision de l'Union Européenne."
   tweet_the_brand: "Interpeller la marque sur Twitter"
   menu_resources: "Ressources"
   reports: "Rapports"
@@ -597,8 +597,8 @@ fr:
   power_dynamics: "Power Dynamics"
   podcasts: "Podcasts"
   videos: "Vidéos"
-  who_we_are: "Qui sommes nous"
-  methodology: "Méthodologie"
+  who_we_are: "Qui nous sommes"
+  methodology: "Notre méthodologie"
   see_full_profiles: "Voir le profil complet de la marque"
   minimum_wage: "Salaire minimum légal"
   food: "Nourriture"
