@@ -385,8 +385,10 @@ input {
 
 .top-banner {
   position: relative;
+  max-height: 350px;
+  overflow: hidden;
   .top-banner-image img {
-    max-width: 100%;
+    width: 100%;
   }
   .top-banner-text {
     position: absolute;
@@ -398,4 +400,7 @@ input {
 }
 .pointer {
   cursor: help;
+}
+#navbarHeader a {
+  color: #fff;
 }

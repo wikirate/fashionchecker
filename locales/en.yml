@@ -203,7 +203,7 @@ en:
     When you are living pay check to pay check, quitting the job that protects you from starvation is not a realistic option. Especially when you have multiple mouths to feed. Brands need to do more to ensure the women in their supply chain are protected from abuse and work towards a living wage for ALL workers.
   read_more_about: "Read more about"
   who_are_we: "Who are we?"
-  menu_who_we_are: "Who we are"
+  menu_who_we_are: "Who We Are"
   menu_methodology: "Methodology"
   menu_gender: "Gender"
   clean_clothes_campaign_is_a_global_network: >
@@ -268,7 +268,7 @@ en:
   transparency_campaign: "transparency campaign"
   csv_or_json_data: "CSV or JSON data"
   learn_more: "Learn more"
-  menu_living_wage: "What is living wage"
+  menu_living_wage: "What is a Living Wage"
   what_is_a_living_wage: "What is a Living Wage?"
   a_living_wage_recognized_by_the_un_as_a_right: >
     A living wage, recognized by the UN as a human right, is a wage that is sufficient to afford a decent standard of living for a worker and their family.
@@ -596,3 +596,11 @@ en:
   who_we_are: "Who We Are"
   methodology: "Methodology"
   see_full_profiles: "See the full brand profiles"
+  minimum_wage: "Minimum Wage"
+  food: "Food"
+  housing: "Housing"
+  health_care: "Health care"
+  education: "Education"
+  clothing: "Clothing"
+  transportation: "Transportation"
+  savings: "Savings"
