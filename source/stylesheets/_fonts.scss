@@ -1,40 +1,38 @@
-$font-family-sans-serif: 'Karla';
-$font-family-monospace: 'ptf_nordic_stdnormal';
+$font-family-sans-serif: "Karla";
+$font-family-monospace: "ptf_nordic_stdnormal";
 
 @font-face {
-  font-family: 'Karla';
-  src: url('../fonts/Karla/Karla-Regular.ttf') format('truetype');
+  font-family: "Karla";
+  src: url("../fonts/Karla/Karla-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Karla';
-  src: url('../fonts/Karla/Karla-Bold.ttf') format('truetype');
+  font-family: "Karla";
+  src: url("../fonts/Karla/Karla-Bold.ttf") format("truetype");
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Karla';
-  src: url('../fonts/Karla/Karla-Italic.ttf') format('truetype');
+  font-family: "Karla";
+  src: url("../fonts/Karla/Karla-Italic.ttf") format("truetype");
   font-weight: normal;
   font-style: italic;
 }
 
 @font-face {
-  font-family: 'Karla';
-  src: url('../fonts/Karla/Karla-BoldItalic.ttf') format('truetype');
+  font-family: "Karla";
+  src: url("../fonts/Karla/Karla-BoldItalic.ttf") format("truetype");
   font-weight: bold;
   font-style: italic;
 }
 
-
 @font-face {
-  font-family: 'ptf_nordic_stdnormal';
-  src: url('../fonts/ptf-nordic-std-webfont.woff2') format('woff2'),
-  url('../fonts/ptf-nordic-std-webfont.woff') format('woff'),
-  url('../fonts/ptf-nordic-std.ttf') format('truetype');
+  font-family: "ptf_nordic_stdnormal";
+  src: url("../fonts/PTFNORDICStd-Normal.woff") format("woff"),
+    url("../fonts/PTFNORDICStd-Normal.otf") format("opentype");
   font-weight: normal;
   font-style: normal;
 }

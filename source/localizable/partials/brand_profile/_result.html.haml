@@ -18,7 +18,10 @@
 
     = brand_profile_partial :scores
 
-  %a.h4.white{href: "https://cleanclothes.org/campaigns/filling-the-gap/fashion-checker-profiles"}
-    = t('see_full_profiles')
+  .text-center
+    %p
+      &nbsp;
+    %a.btn.btn-primary{href: "https://cleanclothes.org/campaigns/filling-the-gap/fashion-checker-profiles"}
+      = t('see_full_profiles')
 
   = brand_profile_partial :suppliers_table
