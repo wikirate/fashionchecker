@@ -207,9 +207,9 @@ fr:
   when_you_are_living_pay_check_to_pay_check: >
     Pour ces femmes qui dépendent de leur salaire pour vivre, il n'est pas réaliste d'imaginer pouvoir quitter son travail. Ceci est spécialement vrai pour celles responsables d'une famille. Les marques doivent faire davantage d'efforts pour s'assurer que les femmes au sein de leur filière d’approvisionnement soient protégées des abus liés à leur genre et que TOUS et TOUTES aient accès à un salaire vital.
   read_more_about: "En savoir plus"
-  who_are_we: "Qui sommes-nous?"
-  menu_who_we_are: "À propos de nous"
-  menu_methodology: "Méthodologie"
+  who_are_we: "Qui sommes-nous"
+  menu_who_we_are: "Qui nous sommes"
+  menu_methodology: "Notre méthodologie"
   menu_gender: "Genre"
   clean_clothes_campaign_is_a_global_network: >
     La Clean Clothes Campaign (CCC) est un réseau international dédié à l'amélioration des conditions de travail et à l'autonomisation des travaillleur·euse·s dans l'industrie mondiale de fabrication des vêtements.
@@ -243,7 +243,7 @@ fr:
   encouraging_increase: "évolution encourageante"
   in_how_transparent_fashion_brands_are_on: >
     dans le chemin vers la transparence, publiant où et comment leurs vêtements ont été fabriqués. De plus en plus de marques divulguent les lieux de fabrication et signent le
-  however_there_are_still_too_many_brands_that: "Cependant, trop de marques "
+  however_there_are_still_too_many_brands_that: ". Cependant, trop de marques "
   refuse_to_do_so: "refusent de coopérer"
   and_even_the_most_progressive_brands: >
     , et même les plus participatives ne publient pas l'entièreté de la filière d’approvisionnement, cachant des salaires insuffisants par de vagues promesses en lieu et place de données objectives et vérifiables.
@@ -268,7 +268,7 @@ fr:
     Les gouvernements doivent imposer plus de transparence sur le mode de fabrication des vêtements pour renforcer le pouvoir des citoyens et leur permettre de choisir leurs achats en étant informés. Nous voulons augmenter l'information disponible sur les étiquettes de vêtements pour inclure des informations sur la fabrication. Enfin, nous voulons améliorer les critères sociaux et de durabilité de
   eu_ecolabel: "l'Ecolabel européen"
   to_reflect_wage_abuses: "afin de prendre en compte les salaires des travailleur·euse·s."
-  for_more_about_our: "Pour plus d'informations sur"
+  for_more_about_our: "Plus d'informations sur"
   transparency_campaign: "la campagne transparence"
   csv_or_json_data: "de type CSV ou JSON"
   learn_more: "En savoir plus"
@@ -379,7 +379,7 @@ fr:
   about_the_campaign: "À propos de la campagne"
   a_living_wage_for_garment_workers: >
     Salaire vital et transparence dans l'industrie de l'habillement
-  menu_about_fashion_checker: "À propos de Fashion Checker"
+  menu_about_fashion_checker: "Fashion Checker"
   about: "À propos de"
   brands_in_the_fashion_industry_put_millions: >
     Les marques aiment se donner une image éthique et durable, et dépensent des millions d'euros dans des campagnes publicitaires, qui promettent que leurs travaillleur·euse·s seront payé·e s un salaire vital. Fashion Checker est l'outil qui vérifie à quel point les salaires réellement payés s'éloignent d'un salaire vital. L'outil offre tant au consommateur·trice·s qu'aux travailleur·euse·s l'accès aux données des filières d’approvisionnement des plus grandes marques du monde de l'habillement.
