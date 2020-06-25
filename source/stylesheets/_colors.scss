@@ -6,7 +6,8 @@ $light-grey: #f4f2f2;
 $white: #fff;
 $fuchsia: #ed40d9;
 $blue: #223366;
-$navy: #112053;
+$navy: #1d1d2f;
+$dark-blue: #1B2E6F;
 $light-blue: #32437d;
 $lighter-blue: #7c8dc4;
 $other-blue: #4a588c;
@@ -120,14 +121,15 @@ $body-bg: $blue;
   background-color: $fuchsia;
 }
 
-.black-bg,
-.black-btn {
+.black-bg {
   background-color: #000 !important;
   color: $light-grey !important;
 }
 
-.black-btn {
+.navy-btn {
+  background-color: $navy !important;
   border-color: #000 !important;
+  color: $white !important;
 }
 
 .black {
