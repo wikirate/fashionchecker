@@ -58,8 +58,8 @@ body {
   background-image: linear-gradient(177deg, $orange 95%, $pink calc(95% + 1px))
 }
 
-.pink-fushia-bg {
-  background-image: linear-gradient(183deg, $pink 95%, $fushia calc(95% + 1px))
+.pink-fuchsia-bg {
+  background-image: linear-gradient(183deg, $pink 95%, $fuchsia calc(95% + 1px))
 }
 
 .red-blue-bg {
@@ -71,8 +71,8 @@ body {
     background-image: linear-gradient(177deg, $orange 88%, $pink calc(88% + 1px))
   }
 
-  .pink-fushia-bg {
-    background-image: linear-gradient(183deg, $pink 88%, $fushia calc(88% + 1px))
+  .pink-fuchsia-bg {
+    background-image: linear-gradient(183deg, $pink 88%, $fuchsia calc(88% + 1px))
   }
 
   .red-blue-bg {
@@ -157,14 +157,14 @@ h6 {
 }
 
 .btn-primary, .btn-outline-primary {
-  border-color: $fushia;
+  border-color: $fuchsia;
   border-radius: 15px;
   text-transform: uppercase;
   font-family: 'Karla', sans-serif;
 }
 
 .btn-outline-primary {
-  color: $fushia !important;
+  color: $fuchsia !important;
 }
 
 .btn-outline-primary:hover {
@@ -173,7 +173,7 @@ h6 {
 
 .btn-primary {
   color: $pink;
-  background-color: $fushia;
+  background-color: $fuchsia;
 }
 
 .btn-sm {
@@ -361,12 +361,23 @@ input {
 
 @import "living_wage_table";
 
-.red-head {
+.red-head, .black-head {
   color: $orange;
   font-weight: bold;
   border-top: 2px solid $orange;
   margin-top: 1em;
   padding: 1em 0 0.5em 0;
+}
+.red-head {
+  color: $orange;
+}
+.black-head {
+  color: #000;
+}
+.red-bottom {
+  margin: 1.5em 0 0.8em 0;
+  padding-bottom: 1em;
+  border-bottom: 2px solid $orange;
 }
 
 .bar {
@@ -414,4 +425,13 @@ input {
 }
 main {
   margin-top: 76px;
+}
+
+.resource {
+  font-size: 1.4em;
+  line-height: 1.4em;
+  margin: 1em 0;
+  a {
+    color: $fuchsia;
+  }
 }

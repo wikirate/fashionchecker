@@ -1,0 +1,14 @@
+.resource
+  - if new
+    %strong.text-uppercase
+      = "*#{t('new')}*"
+  %a{ href: url }
+    = t title
+  - if desc || year
+    \-
+  - if desc
+    = t(desc) + (year ? "," : "")
+  - if year
+    = year
+
+

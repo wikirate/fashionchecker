@@ -41,4 +41,12 @@ module Partials
   def modal_id title, index
     "#{title.downcase.gsub(" ", "-")}-score-#{index}"
   end
+
+  def resource title, url, args={}
+    partial "partials/resource", locals: { title: title,
+                                           url: url,
+                                           new: args[:new],
+                                           year: args[:year],
+                                           desc: args[:desc] }
+  end
 end

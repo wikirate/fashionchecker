@@ -5,21 +5,144 @@
       .text-center.red
         .display-3
           = t('reports')
+
       .middle-text
-        %h3.red-head
+        %h3.black-head
           = t('living_wage')
 
-        %h3.red-head
+        .pb-4
+          = resource :exploitation_made_in_europe,
+                     "https://cleanclothes.org/file-repository/exploitation-made.pdf/view",
+                     year: 2020,
+                     new: true
+          = resource :tailored_wages,
+                     "https://cleanclothes.org/file-repository/tailoredwages-fp.pdf/view",
+                     year: 2019
+          = resource :corporate_commitments_to_living_wages,
+                     "https://insite.cleanclothes.org/workspaces/ccc-network-living-wage-strategies-development/lw-eba-development/background-and-educational-materials/corporate-commitments-to-living-wages-in-the-garment-industry-speri-report.pdf/view",
+                     year: 2019
+          = resource :turn_around_h_m,
+                     "https://turnaroundhm.org/static/hm-wages-september2018-summary-f523b0075e381f822e6fd6fbff1331cb.pdf",
+                     year: 2018
+          = resource :europe_s_sweatshops,
+                     "https://cleanclothes.org/file-repository/livingwage-europe-europes-sweatshops/view",
+                     desc: :presentation,
+                     year: 2017
+          = resource :a_sewing_kit_for_a_living_wage,
+                     "https://whatshemakes.oxfam.org.au/wp-content/uploads/2017/10/A-Sewing-Kit-for-Living-Wage.pdf",
+                     desc: :oxfam_australia,
+                     year: 2017
+          = resource :fashion_focus_the_fundamental_right,
+                     "https://thecircle.ngo/wp-content/uploads/2015/11/Fashion-Focus-The-Fundamental-Right-to-a-Living-Wage-1.pdf",
+                     desc: :the_circle,
+                     year: 2017
+
+        %h3.black-head
           = t('transparency')
 
-        %h3.red-head
+        .pb-4
+          = resource :fashion_s_next_trend,
+                     "https://cleanclothes.org/file-repository/garment_industry_brochure_dec_2019-1.pdf/view",
+                     year: 2019,
+                     desc: :go_transparent,
+                     new: true
+          = resource :surge_in_garment_industry_transparency,
+                     "https://www.workersrights.org/press-release/surge-in-garment-industry-transparency-laws-needed-to-ensure-companies-adopt-human-rights-practices/",
+                     desc: :wrc,
+                     year: 2019
+          = resource :fig_leaf_for_fashion,
+                     "https://cleanclothes.org/file-repository/figleaf-for-fashion.pdf/view",
+                     year: 2019
+          = resource :follow_the_thread,
+                     "https://cleanclothes.org/file-repository/resources-publications-follow-the-thread-the-need-for-supply-chain-transparency-in-the-garment-and-footwear-industry/view",
+                     year: 2017
+          = resource :the_transparency_pledge_the_apparel_and_footwear,
+                     "https://cleanclothes.org/file-repository/transparency-transparency-pledge/view"
+
+
+        %h3.black-head
+          = t('gender')
+        .pb-4
+          = resource :global_wage_report_2018_19,
+                     "https://www.ilo.org/wcmsp5/groups/public/---dgreports/---dcomm/---publ/documents/publication/wcms_650553.pdf",
+                     desc: :ilo,
+                     new: true,
+                     year: 2019
+          = resource :will_women_workers_benefit_from_living_wages,
+                     "https://cleanclothes.org/file-repository/ccc_dec2019_luginbuhl_lw_gender.pdf/view",
+                     desc: :christa_luginbuhl,
+                     year: 2019
+          = resource :despite_progress_gender_based_violence,
+                     "https://www.workersrights.org/commentary/despite-progress-gender-based-violence-and-harassment-is-still-a-reality-for-global-garment-workers/",
+                     desc: :wrc,
+                     year: 2019
+          = resource :promoting_gender_equality_in_garment_industry,
+                     "https://www.ilo.org/wcmsp5/groups/public/---asia/---ro-bangkok/---ilo-jakarta/documents/presentation/wcms_620698.pdf",
+                     desc: :better_work,
+                     year: 2018
+          = resource :gender_pay_gaps_in_the_garment_textile_footwear,
+                     "https://www.ilo.org/asia/publications/issue-briefs/WCMS_655334/lang--en/index.htm",
+                     year: 2018
+
+        %h3.black-head
           = t('power_dynamics')
+        .pb-4
+          = resource :un_guiding_principles_on_business_and_human_rights,
+                     "https://www.ohchr.org/Documents/Publications/GuidingPrinciplesBusinessHR_EN.pdf"
+          = resource :garment_supply_chains_in_intensive_care,
+                     "https://mail.cleanclothes.org/?_task=mail&_action=get&_mbox=INBOX&_uid=1697&_token=AOoUQyXeWGLG0jDUDtYoXOGLoqKgxdnj&_part=2",
+                     desc: :ecchr,
+                     year: 2020
 
-      .text-center.red
-        .display-3
+          = resource :two_crises_one_flawed_supply_chain_model,
+                     "https://www.workersrights.org/commentary/two-crises-one-flawed-supply-chain-model/",
+                     desc: :wrc,
+                     year: 2020
+          = resource :the_emperor_has_no_clothes_garment_supply_chains,
+                     "https://asia.floorwage.org/wp-content/uploads/2020/05/The-Emperor-Has-No-Clothes-Issue-II-May.pdf",
+                     desc: :asia_floorwage_alliance,
+                     year: 2020
+          = resource :global_capitalism_is_the_new_colonialism,
+                     "https://truthout.org/articles/global-capitalism-is-the-new-colonialism-for-workers-and-they-are-resisting/",
+                     year: 2019,
+                     desc: :truth_out
+
+      .middle-text
+        .text-center.red.display-3.red-bottom
           = t('podcasts')
+        .pb-4
+          = resource :fashion_critical_with_lucy_siegle_and_livia_firth,
+                     "https://eco-age.com/news/fashion-critical-podcast-episode-2",
+                     desc: :episode_2_with_christie_medima_from_ccc_io,
+                     year: 2020
+          = resource :the_problem_with_social_audits,
+                     "https://soundcloud.com/esginsider/the-problem-with-social-audits",
+                     desc: :esg_insider,
+                     year: 2019
+          = resource :ethical_consumer_we_need_to_stop_buying,
+                     "https://soundcloud.com/ethicalconsumer/we-need-to-stop-buying-new-clothes",
+                     year: 2019,
+                     desc: :with_bel_jacobs
 
-      .text-center.red
-        .display-3
+      .middle-text
+        .text-center.red.display-3.red-bottom
           = t('videos')
-
+        .pb-4
+          = resource :living_wage_now_documentary_trailor,
+                     "https://www.youtube.com/watch?time_continue=182&v=zsR87lFmE6Y&feature=emb_logo",
+                     desc: :asia_floorwage_alliance
+          = resource :the_ugly_truth_of_fast_fashion,
+                     "https://www.youtube.com/watch?v=xGF3ObOBbac",
+                     desc: :patriot_act_with_hasan_minhaj
+          = resource :fast_fashion_is_disgusting,
+                     "https://www.youtube.com/watch?v=8ox72V4DM2w",
+                     desc: :haute_le_mode
+          = resource :the_importance_of_sustainability_ethics_in_fashion,
+                     "https://www.youtube.com/watch?v=iAaa0DHY_0w",
+                     desc: :the_fashion_archive
+          = resource :ending_gender_based_violence,
+                     "https://www.youtube.com/watch?v=0RwbzGWIXSA",
+                     desc: :global_fund_for_women
+          = resource :five_business_practices,
+                     "https://www.youtube.com/watch?v=dhbkUAaVlPo",
+                     desc: :human_rights_watch
