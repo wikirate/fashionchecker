@@ -49,57 +49,74 @@ $border-radius: 0;
 @import "bootstrap/utilities";
 @import "bootstrap/print";
 body {
-  font-family: 'Karla', sans-serif;
+  font-family: "Karla", sans-serif;
   font-size: 1rem;
-  line-height: 1.2  ;
+  line-height: 1.2;
 }
 
 .red-pink-bg {
-  background-image: linear-gradient(177deg, $orange 95%, $pink calc(95% + 1px))
+  background-image: linear-gradient(177deg, $orange 95%, $pink calc(95% + 1px));
 }
 
 .pink-fuchsia-bg {
-  background-image: linear-gradient(183deg, $pink 95%, $fuchsia calc(95% + 1px))
+  background-image: linear-gradient(
+    183deg,
+    $pink 95%,
+    $fuchsia calc(95% + 1px)
+  );
 }
 
 .red-blue-bg {
-  background-image: linear-gradient(177deg, $orange 200px, $blue calc(200px + 1px))
+  background-image: linear-gradient(
+    177deg,
+    $orange 200px,
+    $blue calc(200px + 1px)
+  );
 }
 
 @include media-breakpoint-up(md) {
   .red-pink-bg {
-    background-image: linear-gradient(177deg, $orange 88%, $pink calc(88% + 1px))
+    background-image: linear-gradient(
+      177deg,
+      $orange 88%,
+      $pink calc(88% + 1px)
+    );
   }
 
   .pink-fuchsia-bg {
-    background-image: linear-gradient(183deg, $pink 88%, $fuchsia calc(88% + 1px))
+    background-image: linear-gradient(
+      183deg,
+      $pink 88%,
+      $fuchsia calc(88% + 1px)
+    );
   }
 
   .red-blue-bg {
-    background-image: linear-gradient(177deg, $orange 200px, $blue calc(200px + 1px))
+    background-image: linear-gradient(
+      177deg,
+      $orange 200px,
+      $blue calc(200px + 1px)
+    );
   }
 }
-
-
-
 
 ._score-desc.score-1 {
   .score-1 {
     display: block;
   }
   .score-2 {
-
   }
 }
 
 h1 {
-  font-family: 'ptf_nordic_stdnormal' !important;
+  font-family: "ptf_nordic_stdnormal" !important;
   text-transform: uppercase;
   font-weight: normal;
   font-style: normal;
 }
 
-h2, .h2 {
+h2,
+.h2 {
   font-size: 3rem;
   font-weight: normal;
   font-style: normal;
@@ -153,14 +170,15 @@ h6 {
 }
 
 .brand-profile .showcase-details {
-//  display: none;
+  //  display: none;
 }
 
-.btn-primary, .btn-outline-primary {
+.btn-primary,
+.btn-outline-primary {
   border-color: $fuchsia;
   border-radius: 15px;
   text-transform: uppercase;
-  font-family: 'Karla', sans-serif;
+  font-family: "Karla", sans-serif;
 }
 
 .btn-outline-primary {
@@ -190,7 +208,7 @@ h6 {
   font-size: 2rem;
   font-weight: 100;
   line-height: 1;
-  font-family: 'ptf_nordic_stdnormal';
+  font-family: "ptf_nordic_stdnormal";
 }
 
 .display-3 {
@@ -198,7 +216,7 @@ h6 {
   font-size: 2.9rem;
   font-weight: 100;
   line-height: 1;
-  font-family: 'ptf_nordic_stdnormal';
+  font-family: "ptf_nordic_stdnormal";
 }
 
 #circle {
@@ -221,9 +239,9 @@ h6 {
 }
 
 .drop-shadow {
-  -webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.32);
-  -moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.32);
-  box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.32);
+  -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.32);
+  -moz-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.32);
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.32);
 }
 
 .input-group {
@@ -248,13 +266,13 @@ h6 {
 }
 
 .input-group-prepend {
-    margin-right: -2px;
+  margin-right: -2px;
 }
 
 // for consistent input size and font size
 .form-control {
-    padding: 0.4999rem 1rem;
-    font-size: 1rem;
+  padding: 0.4999rem 1rem;
+  font-size: 1rem;
 }
 
 // for consistent placeholder color
@@ -274,7 +292,8 @@ input {
     color: rgba(0, 0, 0, 0.5) !important;
     font-size: 1rem;
   }
-  &:-moz-placeholder, &::placeholder {
+  &:-moz-placeholder,
+  &::placeholder {
     /* Firefox 18- */
     color: rgba(0, 0, 0, 0.5) !important;
     font-size: 1rem;
@@ -300,7 +319,8 @@ input {
     line-height: 1.5em;
     margin-top: 1em;
   }
-  p, .red-quote {
+  p,
+  .red-quote {
     font-weight: normal;
     line-height: 1.7;
     margin: 2em 0;
@@ -317,7 +337,7 @@ input {
   }
   li {
     font-size: 0.9em;
-    margin: .5em 0
+    margin: 0.5em 0;
   }
 }
 .container > img {
@@ -342,12 +362,20 @@ input {
 }
 
 .stomach_problems_bg {
-  background-image: linear-gradient(to right, #333 0%,rgba(255,255,255,0) 80%),
-  url("/images/living_wage/stomach_problems_bg.png");
+  background-image: linear-gradient(
+      to right,
+      #333 0%,
+      rgba(255, 255, 255, 0) 80%
+    ),
+    url("/images/living_wage/stomach_problems_bg.png");
 }
 .no_pay_slip_bg {
-  background-image: linear-gradient(to right, #333 0%,rgba(255,255,255,0) 80%),
-  url("/images/living_wage/no_pay_slip_bg.png");
+  background-image: linear-gradient(
+      to right,
+      #333 0%,
+      rgba(255, 255, 255, 0) 80%
+    ),
+    url("/images/living_wage/no_pay_slip_bg.png");
 }
 .living-wage-banner {
   background-image: url("/images/living_wage/top_banner.png");
@@ -361,7 +389,8 @@ input {
 
 @import "living_wage_table";
 
-.red-head, .black-head {
+.red-head,
+.black-head {
   color: $orange;
   font-weight: bold;
   border-top: 2px solid $orange;
@@ -434,4 +463,8 @@ main {
   a {
     color: $fuchsia;
   }
+}
+.card {
+  background-color: transparent;
+  border: none;
 }
