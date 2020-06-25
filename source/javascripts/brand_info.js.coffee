@@ -1,6 +1,7 @@
 LINK_TARGET_HOST = "https://wikirate.org"
 
-FIELDS = ["name", "country_name", "revenue", "location", "owned_by", "profit", "number_of_workers", "top_production_countries"]
+FIELDS = ["name", "country_name", "revenue", "location", "owned_by", "profit",
+  "number_of_workers", "top_production_countries"]
 
 SCORE_MAP = {
   living_wage_score: {
@@ -47,13 +48,14 @@ class window.BrandInfo
 
     $template.find("._commitment-total-score").text(data.scores.commitment.total)
     $template.find("._factory-count").text(data.suppliers.length)
-    $template.find("._living_wage_score-text").text(data.scores.living_wage_text)
-    $template.find("._transparency_score-text").text(data.scores.transparency_text)
+    # $template.find("._living_wage_score-text").text(data.scores.living_wage_text)
+    # $template.find("._transparency_score-text").text(data.scores.transparency_text)
 
     tweetTheBrand $template.find("._tweet-the-brand"), data.twitter_handle
-    # showScoreDesc($template, "living_wage_score", data.scores.living_wage)
-    # showScoreDesc($template, "commitment_score", data.scores.commitment.total)
-    # showScoreDesc($template, "transparency_score", data.scores.transparency)
+    showScoreDesc($template, "living_wage", data.scores.living_wage_key)
+    showScoreDesc($template, "transparency", data.scores.transparency_key)
+
+    showLogo $template.find("._logo"), data.logo
 
     for index, brand of data.brands
       addBrand(brand, $template)
@@ -61,7 +63,8 @@ class window.BrandInfo
       addSupplier(supplier, $template)
     $output.append($template)
 
-  # showScoreDesc = ($container, score_name, score_value) ->
+  showScoreDesc = ($template, score_name, score_key) ->
+    $template.find("._#{score_name}_score-text").text scoreTranslation[score_key]
   #   for el in $container.find("._#{score_name}-templates ._score-desc")
   #     if $(el).hasClass(scoreClass(score_name, score_value))
   #       $(el).show()
@@ -76,6 +79,12 @@ class window.BrandInfo
     $el.find("._#{name}-help").attr("data-target", "##{name}-score-#{SCORE_MAP.commitment_score[value]}")
     value = "Yes" if value.includes("Yes")
     selectImage($el.find("._#{name}-smiley"), "smiley", value)
+
+  showLogo = (tag, url) ->
+    if url
+      tag.attr "src", url
+    else
+      tag.hide()
 
   selectImage = ($el, folder, score) ->
     $el.attr("src", "/images/#{folder}/#{score}.png")

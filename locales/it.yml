@@ -636,3 +636,32 @@ it:
   human_rights_watch: "Human rights watch"
   menu_explore_the_data: "Consulta i dati"
   resources: "Resources"
+  lw_c_50_plausible_notpublic: >
+    The brand claims that 50% or more of its supplier factories are paying a living wage to all their workers, some plausible explanation is given, but the evidence is not public. Which means many of the workers making their clothes do not earn enough to live on.
+  lw_c_50_plausible_notpublic: >
+    The brand claims that between 1 and 25% of supplier factories in the company’s supply chain pay workers a living wage. This is public information. The majority of workers in the brand’s supply chain do not earn enough to live on."
+  lw_d_started: >
+    The company claims that it has started contributing towards a living wage by paying higher prices factories in its supply chain but these prices still do not cover labour costs. Which means the majority of the workers making their clothes do not earn enough to live on.
+  lw_e_noclaim_notpublic: >
+    The brand makes no claim and no public evidence was found that its suppliers are paying a living wage. Which means the brand cannot prove that the workers making their clothes do earn enough to live on.
+  lw_e_noevidence: >
+    There was no evidence found on the brand’s claims that it pays a living wage and no plausible explanation was given. Which means the brand cannot prove that the workers making their clothes do earn enough to live on.
+  transp_none: >
+    This brand provides no information on the supplier factories and garment workers in its supply chain which is required by the transparency pledge.
+  transp_partial: >
+    This brand provides some, but not enough information on the supplier factories and garment workers in its supply chain.
+  transp_partial_additional: >
+    This brand provides some information beyond the basics, but falls short of the minimum needed for the transparency pledge.
+  transp_partial_additional_machinereadable: >
+    This brand provides some information beyond the basics, in a practical, machine-readable format, but but falls short of the minimum needed for the transparency pledge.
+  transp_partial_machinereadable: >
+    This brand provides some, but not enough information on the factories and garment workers in its supply chain - it publishes in a practical, machine-readable format.
+  transp_pledge: >
+    This brand provides basic information like factory names and addresses, product type, number of workers, and supplier group, if the factory is part of a larger entity.
+  transp_pledge_additional: >
+    This brand provides information beyond the basics such as the gender composition of the workforce, if there is a union or if there is a collective bargaining agreement in place.
+  transp_pledge_additional_machinereadable: >
+    This brand provides information beyond the basics in a practical, machine-readable format such as Excel spreadsheets which makes the data usable for others.
+  transp_pledge_machinereadable: >
+    This brand provides basic information in a practical, machine-readable format such as Excel spreadsheets which makes the data usable for others.
+    

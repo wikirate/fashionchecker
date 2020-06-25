@@ -1,4 +1,23 @@
 module Partials
+  require "json"
+
+  SCORE_KEYS = %i[
+     lw_c_50_plausible_notpublic
+     lw_c_50_plausible_notpublic
+     lw_d_started
+     lw_e_noclaim_notpublic
+     lw_e_noevidence
+     transp_none
+     transp_partial
+     transp_partial_additional
+     transp_partial_additional_machinereadable
+     transp_partial_machinereadable
+     transp_pledge
+     transp_pledge_additional
+     transp_pledge_additional_machinereadable
+     transp_pledge_machinereadable
+  ].freeze
+
   def property title, name, prefix=nil
     partial "partials/brand_profile/property",
             locals: { title: title, name: name, prefix: prefix }
@@ -56,5 +75,10 @@ module Partials
 
   def policy_demand &block
     partial "partials/demand/policy", &block
+  end
+
+  def score_translation_script
+    hash = SCORE_KEYS.each_with_object({}) { |key, hash| hash[key] = t key }
+    "var scoreTranslation = #{JSON.generate hash}"
   end
 end
