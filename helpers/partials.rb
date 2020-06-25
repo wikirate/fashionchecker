@@ -49,4 +49,12 @@ module Partials
                                            year: args[:year],
                                            desc: args[:desc] }
   end
+
+  def brand_demand &block
+    partial "partials/demand/brand", &block
+  end
+
+  def policy_demand &block
+    partial "partials/demand/policy", &block
+  end
 end
