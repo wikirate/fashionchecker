@@ -29,7 +29,7 @@
 }
 
 .back {
-  transform: rotateY( 180deg );
+  transform: rotateY(180deg);
 }
 
 .flip-card.flipped {
@@ -51,10 +51,11 @@
 }
 
 .minimum-wage-icons {
-  background-color: #112053;
+  background-color: #1d1d2f;
 }
 
-.minimum-wage-text, .living-wage-text {
+.minimum-wage-text,
+.living-wage-text {
   background-color: $white;
   color: $black;
   padding: 8px;
