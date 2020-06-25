@@ -45,7 +45,7 @@ module Partials
   def resource title, url, args={}
     partial "partials/resource", locals: { title: title,
                                            url: url,
-                                           new_resource: args[:new],
+                                           new: args[:new],
                                            year: args[:year],
                                            desc: args[:desc] }
   end
