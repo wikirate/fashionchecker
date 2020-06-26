@@ -78,7 +78,7 @@ class window.BrandInfo
     $el.find("._#{name}").text(value)
     $el.find("._#{name}-help").attr("data-target", "##{name}-score-#{SCORE_MAP.commitment_score[value]}")
     value = "Yes" if value.includes("Yes")
-    selectImage($el.find("._#{name}-smiley"), "smiley", value)
+    selectImage($el.find("._#{name}-smiley"), "smiley", value, "svg")
 
   showLogo = (tag, url) ->
     if url
@@ -86,8 +86,9 @@ class window.BrandInfo
     else
       tag.hide()
 
-  selectImage = ($el, folder, score) ->
-    $el.attr("src", "/images/#{folder}/#{score}.png")
+  selectImage = ($el, folder, score, ext) ->
+    ext ||= "png"
+    $el.attr("src", "/images/#{folder}/#{score}.#{ext}")
 
   replaceNull = (content) ->
     if (content == null) then "-" else content

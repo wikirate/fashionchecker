@@ -414,7 +414,11 @@ input {
   padding: 0.5em;
   margin: 1em 0 2em 0;
   .bar-icon {
-    width: 50px;
+    min-width: 80px;
+    img {
+      width: 50px;
+      margin: 5px 10px;
+    }
   }
 }
 
@@ -493,4 +497,14 @@ main {
 }
 .lead {
   line-height: 1.5em;
+}
+
+.commitment-scores {
+  .row {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .value {
+    margin-right: 10px;
+  }
 }
