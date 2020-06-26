@@ -82,6 +82,10 @@ $body-bg: $blue;
   color: $white;
 }
 
+.light-grey-bg {
+  background-color: $light-grey;
+}
+
 .blue-bg {
   background-color: $blue;
   color: $white;
@@ -168,4 +172,15 @@ $body-bg: $blue;
 
 .lighter-blue {
   color: $lighter-blue;
+}
+
+.partner-links {
+  a {
+    max-width: 30%;
+    padding: 1em;
+    img {
+      max-height: 80px;
+      max-width: 100%;
+    }
+  }
 }

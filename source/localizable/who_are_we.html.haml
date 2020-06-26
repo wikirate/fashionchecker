@@ -23,5 +23,29 @@
           %a.btn.btn-primary{ href: "https://cleanclothes.org/" }
             = t('visit_site')
 
+    = section :navy do
+      .d-flex.p-3
+        .stack.stack-1
+          %img{ src:"/images/who_are_we/clothes_in_fear.png" }
+          %img{ src:"/images/who_are_we/green_backs.png" }
+        .stack.stack-2
+          %img{ src:"/images/who_are_we/speech.png" }
+          %img{ src:"/images/who_are_we/letters.png" }
+        .stack.stack-3
+          %img{ src:"/images/who_are_we/flags.png" }
+          %img{ src:"/images/who_are_we/sherlock.png" }
+
+    = section "light-grey" do
+      %h3.text-center
+        = t('partners')
+      .py-3.d-flex.partner-links.justify-content-between.align-items-center
+        %a{ href: "https://decko.org" }
+          %img{ src:"/images/who_are_we/decko.png" }
+        %a{ href: "https://semcon.com" }
+          %img{ src:"/images/who_are_we/semcon.png" }
+        %a{ href: "https://wageindicator.org" }
+          %img{ src:"/images/who_are_we/wage_indicator.png" }
+        %a{ href: "https://wikirate.org" }
+          %img{ src:"/images/who_are_we/wikirate.png" }
 
     = partial "partials/shared/footer"

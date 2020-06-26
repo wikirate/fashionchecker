@@ -42,6 +42,10 @@
               = t('read_more_living_wages')
         = partial "partials/shared/living_wage_table"
 
+    .top-banner
+      .top-banner-image
+        %img{ src: "/images/homepage/textile_scene.png" }
+
     = section :yellow do
       .row
         .col-sm-6
@@ -54,6 +58,7 @@
             = t('gendered_pay_info')
           %a.btn.btn-primary{href: "gender.html"}
             = t('gender')
+
     = section :red do
       .row
         .col-sm-6
@@ -66,8 +71,13 @@
             = t('resilience_info')
           %a.btn.btn-primary{ href: "our_demands.html" }
             = t('our_demands')
+
+    .top-banner
+      .top-banner-image
+        %img{ src: "/images/homepage/trio.png" }
+
     = section :navy do
-      .row
+      .row.pl-5
         .col-sm-6
           %h3
             = t('your_voice_has_power')
@@ -78,6 +88,14 @@
             = t('your_voice_info_2')
           %a.btn.btn-primary{ href: "take_action.html" }
             = t('take_action')
+      .row.pt-5
+        .col-4.p-4
+          %img.w-100{ src: "/images/homepage/olympics.png" }
+        .col-4.p-4
+          %img.w-100{ src: "/images/homepage/h_m.png" }
+        .col-4.p-4
+          %img.w-100{ src: "/images/homepage/go_transparent.png" }
+
     = # partial "partials/homepage/news"
 
   = partial "partials/shared/footer"

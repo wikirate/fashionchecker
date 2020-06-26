@@ -57,8 +57,8 @@
             = t('un_guiding_principles_on_business_and_human_rights')
           = t('to_run_their_business_responsibly')
 
-
-        %img.pb-5{ src: "/images/about_us/25_percent.png" }
+        .text-center
+          %img.pb-5{ src: "/images/about_us/25_percent.png" }
 
         %h3
           = t('gender_in_the_garment_industry')
@@ -77,6 +77,9 @@
           = t('transparency_in_fashion')
         %p
           = t('there_has_been_an_encouraging_increase_in_how')
+
+        .text-center
+          %img.w-50{ src: "/images/about_us/magnify.png" }
         %p
           = t('what_are_they_hiding_no_brand')
 
@@ -86,6 +89,9 @@
           = t('it_is_well_known_that_the_garment_industry')
         %p
           = t('paying_poverty_wages_directly_affects')
+
+      %img.pt-2.pb-5{ src: "/images/about_us/brand_collage.png" }
+      .middle-text
 
         %h3
           = t('economic_impact')
@@ -131,7 +137,6 @@
             = t('tell_brands_to_commit_to_paying_a_living_wage')
           %p
             = t('we_are_asking_brands_to_pay_an_extra_contribution')
-
           %a.btn.btn-primary.navy-btn{href: "take_action.html"}
             = t('take_action')
 
@@ -205,6 +210,7 @@
             = t('every_little_bit_helps')
           .py-2
             = t('future_research_and_translations_of_our_data')
+
 
           <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
           <input type="hidden" name="cmd" value="_s-xclick" />

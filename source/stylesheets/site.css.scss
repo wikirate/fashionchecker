@@ -472,3 +472,20 @@ main {
   max-height: 200px;
 }
 
+.stack {
+  display: inline-block;
+  width: 27%;
+  img {
+    max-width: 100%;
+    padding: 0.5em;
+  }
+  &.stack-1 {
+    width: 26%;
+  }
+  &.stack-2 {
+    width: 39%
+  }
+  &.stack-3 {
+    width: 29%
+  }
+}
