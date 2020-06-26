@@ -500,11 +500,13 @@ main {
 }
 
 .commitment-scores {
-  .row {
-    margin-top: 0;
-    margin-bottom: 0;
-  }
+  margin-left: 0;
+  margin-right: 0;
   .value {
     margin-right: 10px;
   }
+}
+.transparency-stars img {
+  max-width: 12%;
+  padding: 3px;
 }

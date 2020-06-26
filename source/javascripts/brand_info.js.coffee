@@ -41,7 +41,7 @@ class window.BrandInfo
       $template.find("._#{name}").text(data[name])
 
     selectImage($template.find("._living-wage-score"), "wage_score", data.scores.living_wage)
-    selectImage($template.find("._transparency-score"), "transparency_score", data.scores.transparency)
+    transparencyScore($template, data.scores.transparency)
     commitmentScore($template, "public-commitment", data.scores.commitment.public_commitment)
     commitmentScore($template, "action-plan", data.scores.commitment.action_plan)
     commitmentScore($template, "isolating-labour-cost", data.scores.commitment.isolating_labour_cost)
@@ -73,6 +73,14 @@ class window.BrandInfo
 
   # scoreClass = (score_name, score_value ) ->
   #  "_score-#{SCORE_MAP[score_name][score_value]}"
+
+  transparencyScore = ($template, score) ->
+    return unless (stars = SCORE_MAP["transparency_score"][score])
+    current = 1
+    while (current <= stars)
+      starImg = $template.find "._transparency-stars ._star-#{current}"
+      selectImage starImg, "transparency_score", "star_solid", "svg"
+      current++
 
   commitmentScore = ($el, name, value) ->
     $el.find("._#{name}").text(value)
