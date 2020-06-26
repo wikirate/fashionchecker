@@ -30,10 +30,11 @@
     = section :fuchsia, nil, "pb-5 pt-2" do
       .row
         .col-sm-6
-          .span.display-3.yellow
-            = t('living_wages')
-          .span.display-3.white
-            = t('not_poverty_wages')
+          .w-50
+            .span.display-3.yellow
+              = t('living_wages')
+            .span.display-3.white
+              = t('not_poverty_wages')
         .col-sm-6
           .lead.white
             = t('living_wages_info')
@@ -49,10 +50,11 @@
     = section :yellow do
       .row
         .col-sm-6
-          .span.display-3.red
-            = t('end')
-          .span.display-3.fuchsia
-            = t('gendered_pay')
+          .w-50
+            .span.display-3.red
+              = t('end')
+            .span.display-3.fuchsia
+              = t('gendered_pay')
         .col-sm-6
           %p.red.lead
             = t('gendered_pay_info')
@@ -62,14 +64,15 @@
     = section :red do
       .row
         .col-sm-6
-          .span.display-3.white
-            = t('resilience')
-          .span.display-3.yellow
-            = t('in_the_face_of_a_crisis')
+          .w-75
+            .span.display-3.white
+              = t('resilience')
+            .span.display-3.yellow
+              = t('in_the_face_of_a_crisis')
         .col-sm-6.white
           %p.lead
             = t('resilience_info')
-          %a.btn.btn-primary{ href: "our_demands.html" }
+          %a.btn.btn-primary.navy-btn{ href: "our_demands.html" }
             = t('our_demands')
 
     .top-banner
@@ -78,7 +81,7 @@
 
     = section :navy do
       .row.pl-5
-        .col-sm-6
+        .col-sm-6.voice-has-power
           %h3
             = t('your_voice_has_power')
           %p
