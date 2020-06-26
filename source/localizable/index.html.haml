@@ -4,11 +4,12 @@
     = section :red, :pink do
       .row
         .col-sm-12.col-md-6
-          .span.display-3.text-white
-            = t('header_question_1')
-          .span.display-3.yellow
-            = t('header_question_2')
-          %p.pt-3.white
+          .display-3
+            .text-white
+              = t('header_question_1')
+            .yellow
+              = t('header_question_2')
+          %p.pt-3.white.lead
             = t('find_out')
           = brand_profile_partial :search,  locals: { redirect: true }
         .d-none.d-md-block.col-md-6
@@ -18,9 +19,9 @@
     = section :pink, :fuchsia, "pb-5" do
       .container.p-4
         .row
-          .col-sm-5
-            %img{ src: "/images/homepage/pie_graph.svg" }
-          .col-sm-7
+          .col-sm-4
+            %img.w-100{ src: "/images/homepage/pie_graph.svg" }
+          .col-sm-8
             .display-3.red
               93%
             .display-3.black
@@ -43,9 +44,7 @@
               = t('read_more_living_wages')
         = partial "partials/shared/living_wage_table"
 
-    .top-banner
-      .top-banner-image
-        %img{ src: "/images/homepage/textile_scene.png" }
+    = banner "/images/homepage/textile_scene.png"
 
     = section :yellow do
       .row
@@ -75,9 +74,7 @@
           %a.btn.btn-primary.navy-btn{ href: "our_demands.html" }
             = t('our_demands')
 
-    .top-banner
-      .top-banner-image
-        %img{ src: "/images/homepage/trio.png" }
+    = banner "/images/homepage/trio.png"
 
     = section :navy do
       .row.pl-5

@@ -1,11 +1,7 @@
 %body
   = partial "partials/header"
   %main{:role => "main"}
-    .top-banner
-      .top-banner-image
-        %img{ src: "/images/transparency/top_banner.png" }
-      .top-banner-text.display-4
-        = t('transparency_header')
+    = banner "/images/transparency/top_banner.png", t('transparency_header')
     = section :white do
       .middle-text
         %h3
@@ -22,23 +18,34 @@
           = t('in_2016_nine_labor_and_human')
           %a{ href: "https://transparencypledge.org/about-us/" }
             = t('coalition')
-          = t('to_advocate_for_transparency')
-          %a{ href: "https://transparencypledge.org/what-is-the-transparency-pledge/" }
+          = t('to_advocate_for_transparency') + ' '
+          %a{ href: "https://transparencypledge.org/what-is-the-transparency-pledge/" }><
             = t('transparency_pledge')
           = t('the_pledge_is_based_on_existing')
+
+        %img{ src: "/images/transparency/hanger.png" }
+
         %p
           = t('there_has_been_an')
           %a{ href: "https://cleanclothes.org/news/2019/surge-in-garment-industry-transparency" }
             = t('encouraging_increase')
-          = t('in_how_transparent_fashion_brands_are_on')
-          %a{ href: "https://www.hrw.org/GoTransparent" }
+          = t('in_how_transparent_fashion_brands_are_on') + ' '
+          %a{ href: "https://www.hrw.org/GoTransparent" }><
             = t('transparency_pledge')
-          = t('however_there_are_still_too_many_brands_that')
-          %a{ href: "https://cleanclothes.org/campaigns/gotransparent" }
+          \.
+          = " " + t('however_there_are_still_too_many_brands_that') + ' '
+          %a{ href: "https://cleanclothes.org/campaigns/gotransparent" }<>
             = t('refuse_to_do_so')
           = t('and_even_the_most_progressive_brands')
         %p
           = t('what_are_they_hiding')
+
+        .text-on-image.at_machines_bg
+          .quote-on-image
+            = t('we_never_saw_data_about_brands_payments_what_price')
+            .citation
+              = t('a_worker_from_croatia')
+
         %p
           = t('we_re_demanding_that_brands_do_better')
 
@@ -60,8 +67,8 @@
         %h4
           = t('readable_data')
         %p
-          = t('we_want_brands_to_release_the_data')
-          %a{ href: "https://odsas.org/" }
+          = t('we_want_brands_to_release_the_data') + " "
+          %a{ href: "https://odsas.org/" }><
             = t('csv_or_json_data')
           \.
 
@@ -73,11 +80,12 @@
             = t('eu_ecolabel')
           = t('to_reflect_wage_abuses')
 
+        %img{ src: "/images/transparency/labels.png" }
+
         %p
-          = t('for_more_about_our')
-          %a{ href: "https://cleanclothes.org/campaigns/gotransparent" }
+          = t('for_more_about_our') + " "
+          %a{ href: "https://cleanclothes.org/campaigns/gotransparent" }><
             = t('transparency_campaign')
           \.
-
 
     = partial "partials/shared/footer"
