@@ -29,7 +29,7 @@ module Partials
 
   def section color, second_color=nil, py="py-5", &block
     color = [color, second_color].compact.join('-')
-    partial "partials/section", locals: { color: "#{color}-bg", py: py }, &block
+    partial "partials/shared/section", locals: { color: "#{color}-bg", py: py }, &block
   end
 
   def article filename
@@ -50,10 +50,11 @@ module Partials
 
   def commitment_modals title, values, id=nil
     values.map.with_index do |value, index|
+      text = t "commitment_score.#{title.downcase.gsub(" ", "_")}_score_#{index + 1}"
       partial "partials/brand_profile/modal",
               locals: { title: "#{title}: #{value}",
                         id: modal_id(id || title, index + 1),
-                        text: t("commitment_score.#{title.downcase.gsub(" ", "_")}_score_#{index + 1}") }
+                        text: text }
     end.join
   end
 
@@ -62,11 +63,11 @@ module Partials
   end
 
   def resource title, url, args={}
-    partial "partials/resource", locals: { title: title,
-                                           url: url,
-                                           new: args[:new],
-                                           year: args[:year],
-                                           desc: args[:desc] }
+    partial "partials/resources/resource", locals: { title: title,
+                                                     url: url,
+                                                     new: args[:new],
+                                                     year: args[:year],
+                                                     desc: args[:desc] }
   end
 
   def brand_demand &block
@@ -80,5 +81,9 @@ module Partials
   def score_translation_script
     hash = SCORE_KEYS.each_with_object({}) { |key, hash| hash[key] = t key }
     "var scoreTranslation = #{JSON.generate hash}"
+  end
+
+  def banner image_url, text=nil
+    partial "partials/shared/banner", locals: { image_url: image_url, text: text }
   end
 end

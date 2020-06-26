@@ -1,11 +1,7 @@
 %body
   = partial "partials/header"
   %main{:role => "main"}
-    .top-banner
-      .top-banner-image
-        %img{ src: "/images/gender/top_banner.png" }
-      .top-banner-text.display-4
-        = t('gender')
+    = banner "/images/gender/top_banner.png", t('gender')
     = section :white do
       .middle-text
         %h3

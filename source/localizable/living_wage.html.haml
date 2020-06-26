@@ -1,11 +1,7 @@
 %body
   = partial "partials/header"
   %main{:role => "main"}
-    .top-banner
-      .top-banner-image
-        %img{ src: "/images/living_wage/top_banner.png" }
-      .top-banner-text.display-4
-        = t('what_is_a_living_wage')
+    = banner "/images/living_wage/top_banner.png", t('what_is_a_living_wage')
     = section :white do
       .middle-text
         %h3
@@ -129,9 +125,14 @@
 
         %h3
           = t('why_do_we_talk_about_paying_factories_not_workers')
-
         %p
           = t('brands_do_not_pay_workers_directly')
+
+    = section "light-grey" do
+      .text-center.p-2
+        %img{ src: "/images/living_wage/global_supply_chain.png" }
+    = section :white do
+      .middle-text
         %p
           = t('suppliers_are_forced_to_estimate_the_lowest')
 
@@ -175,8 +176,8 @@
           = t('we_want_brands_to_do_more_to_support')
 
         %p
-          = t('read_more_about')
-          %a{ href: "https://cleanclothes.org/union-busting" }
+          = t('read_more_about') + ' '
+          %a{ href: "https://cleanclothes.org/union-busting" }><
             = t('foa')
           \.
 

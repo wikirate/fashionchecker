@@ -1,6 +1,6 @@
 en:
-  header_question_1: "Are the people who make your clothes"
-  header_question_2: "paid enough to live on?"
+  header_question_1: "Are the people<br>who make<br>your clothes"
+  header_question_2: "paid enough<br>to live on?"
   find_out: "Find out which apparel and footwear brands pay their workers a Living Wage."
   living_wages: "Living Wages"
   not_poverty_wages: "Not poverty wages"
@@ -482,9 +482,9 @@ en:
     Every little bit helps. This money will be used for website maintenance,
   future_research_and_translations_of_our_data: "future research and translations of our data."
   donate: "Donate"
-  of_surveyed_brands_aren_t_paying_garment_workers: "of surveyed brands aren't paying garment workers a living wage"
-  want_to_help_workers_fight_for: "Want to help workers fight for"
-  better_working_conditions: "Better working conditions?"
+  of_surveyed_brands_aren_t_paying_garment_workers: "of surveyed brands aren't paying garment workers<br>a living wage"
+  want_to_help_workers_fight_for: "Want to help<br>workers fight for"
+  better_working_conditions: "Better working<br>conditions?"
   twitter_storm: "Twitter storm"
   menu_take_action: "Take Action"
   visit_the_websites_of_our: >
@@ -690,3 +690,5 @@ en:
     This brand provides basic information in a practical, machine-readable format such as Excel spreadsheets which makes the data usable for others.
 
   partners: "Partners"
+  we_never_saw_data_about_brands_payments_what_price: >
+    "We never saw data about brands’ payments, what prices they really pay.Our director always says that we are at a loss.According to him, we should work even more. He tells us that we are drones, a bunch of goof-offs."

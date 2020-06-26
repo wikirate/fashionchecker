@@ -377,14 +377,13 @@ input {
     ),
     url("/images/living_wage/no_pay_slip_bg.png");
 }
-.living-wage-banner {
-  background-image: url("/images/living_wage/top_banner.png");
-}
-.gender-banner {
-  background-image: url("/images/gender/top_banner.png");
-}
-.about-fashion-banner {
-  background-image: url("/images/about_us/top_banner.png");
+.at_machines_bg {
+  background-image: linear-gradient(
+                  to right,
+                  #333 0%,
+                  rgba(255, 255, 255, 0) 80%
+  ),
+  url("/images/transparency/at_machines_bg.png");
 }
 
 @import "living_wage_table";
@@ -423,14 +422,14 @@ input {
   opacity: 60%;
 }
 
-.top-banner {
+.banner {
   position: relative;
   max-height: 350px;
   overflow: hidden;
-  .top-banner-image img {
+  .banner-image img {
     width: 100%;
   }
-  .top-banner-text {
+  .banner-text {
     position: absolute;
     text-align: center;
     color: #fff;
@@ -491,4 +490,7 @@ main {
 }
 .voice-has-power {
   line-height: 1.6em;
+}
+.lead {
+  line-height: 1.5em;
 }
