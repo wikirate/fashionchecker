@@ -264,7 +264,7 @@ en:
     We want governments to increase the transparency of products to empower citizens to make informed choices about their purchases. We want to expand the type of information on the labels of textile products to include information on the manufacturer. We also want to improve the social and sustainability criteria of the
   eu_ecolabel: "EU Ecolabel"
   to_reflect_wage_abuses: "to reflect wage abuses."
-  for_more_about_our: "For more about our"
+  for_more_about_our: "More info about our"
   transparency_campaign: "transparency campaign"
   csv_or_json_data: "CSV or JSON data"
   learn_more: "Learn more"
@@ -662,7 +662,7 @@ en:
   resources: "Resources"
   lw_c_50_plausible_notpublic: >
     The brand claims that 50% or more of its supplier factories are paying a living wage to all their workers, some plausible explanation is given, but the evidence is not public. Which means many of the workers making their clothes do not earn enough to live on.
-  lw_c_50_plausible_notpublic: >
+  lw_d_25_public: >
     The brand claims that between 1 and 25% of supplier factories in the company’s supply chain pay workers a living wage. This is public information. The majority of workers in the brand’s supply chain do not earn enough to live on."
   lw_d_started: >
     The company claims that it has started contributing towards a living wage by paying higher prices factories in its supply chain but these prices still do not cover labour costs. Which means the majority of the workers making their clothes do not earn enough to live on.

@@ -632,7 +632,7 @@ es:
   resources: "Resources"
   lw_c_50_plausible_notpublic: >
     The brand claims that 50% or more of its supplier factories are paying a living wage to all their workers, some plausible explanation is given, but the evidence is not public. Which means many of the workers making their clothes do not earn enough to live on.
-  lw_c_50_plausible_notpublic: >
+  lw_d_25_public: >
     The brand claims that between 1 and 25% of supplier factories in the company’s supply chain pay workers a living wage. This is public information. The majority of workers in the brand’s supply chain do not earn enough to live on."
   lw_d_started: >
     The company claims that it has started contributing towards a living wage by paying higher prices factories in its supply chain but these prices still do not cover labour costs. Which means the majority of the workers making their clothes do not earn enough to live on.
