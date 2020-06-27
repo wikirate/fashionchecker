@@ -94,27 +94,26 @@
               %a{ href: "https://labourbehindthelabel.org/"}
                 %img.card-img-top{src: "/images/ccceu/lbl.png", alt: "Labour Behind The Label", title: "United Kingdom"}
 
+    .top-extender.pink-bg
+      &nbsp;
 
-    = section :yellow do
-      .middle-text
-        %h3.red-head
-          = t('support_garment_workers_through_covid_19')
+    .yellow-bg.skew-right
+      .container-fluid.skew-left
+        .container.py-5
+          .middle-text
+            %h3.red-head
+              = t('support_garment_workers_through_covid_19')
 
-        .black
-          %p
-            = t('sign_the_petition_asking_brands_to_pay_for_orders')
-          %a.btn.btn-primary{ href: "https://cleanclothes.org/covid19-petition" }
-            = t('sign_the_petition')
+            .black
+              %p
+                = t('sign_the_petition_asking_brands_to_pay_for_orders')
+              %a.btn.btn-primary{ href: "https://cleanclothes.org/covid19-petition" }
+                = t('sign_the_petition')
 
-          %p
-            = t('donate_to_our_emergency_relief_fund')
-          <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-          <input type="hidden" name="cmd" value="_s-xclick" />
-          <input type="hidden" name="hosted_button_id" value="KN9SCNJEWD5EW" />
-          <input type="hidden" name="lc" value="en_US">
-          <input type="image" src="https://cleanclothes.org/image-repository/donate-fashionchecker.png" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
-          <img alt="" border="0" src="https://www.paypal.com/en_NL/i/scr/pixel.gif" width="1" height="1" />
-          </form>
+              %p
+                = t('donate_to_our_emergency_relief_fund')
+              = donate_button "KN9SCNJEWD5EW", "donate-fashionchecker.png"
 
+    .bottom-extender.yellow-bg
 
     = partial "partials/shared/footer"

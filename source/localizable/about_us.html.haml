@@ -121,80 +121,91 @@
             = t('we_re_demanding_that_brands_do')
           = t('we_want_them_to_show_how_they_are_working')
 
-    = section :yellow do
-      .row
-        .col-sm-6
-          .display-3.red
-            = t('a_living_wage')
-          .display-3.fuchsia
-            = t('for_all_workers')
-        .col-sm-6.black
-          .lead.pb-3
-            = t('tell_brands_to_commit_to_paying_a_living_wage')
-          %p
-            = t('we_are_asking_brands_to_pay_an_extra_contribution')
-          %a.btn.btn-primary.navy-btn{href: "take_action.html"}
-            = t('take_action')
+    .top-extender.red-bg
+      &nbsp;
 
-    = section :red do
-      .row
-        .col-sm-6
-          .display-3.yellow
-            = t('a_spotlight')
-          .display-3.white
-            = t('on_the_bottom_of_the_supply_chain')
-        .col-sm-6.white
-          .lead.pb-3
-            = t('where_are_the_unions')
-          %p.my-3
-            = t('brands_never_release_data_about_the_bottom')
-          %p.my-3
-            = t('we_want_brands_to_ask_their_suppliers')
-          %p.my-3
-            = t('we_want_to_know_if_the_workers_making')
+    .navy-bg.skew-right
+      .container-fluid.skew-left
+        .container.py-5
+          .py-5
 
-          %a.btn.btn-primary.navy-btn{href: "take_action.html"}
-            = t('take_action')
 
-    = section :pink do
-      .row
-        .col-sm-6
-          .display-3.fuchsia
-            = t('consumer')
-          .display-3.red
-            = t('transparency')
-        .col-sm-6.black
-          .lead.pb-3
-            = t('tell_brands_and_policy_makers')
-          %p.my-3
-            = t('do_you_want_to_know_if_the_people_who_made')
+            .p-4.my-3.yellow-bg
+              .row
+                .col-sm-6
+                  .display-3.red
+                    = t('a_living_wage')
+                  .display-3.fuchsia
+                    = t('for_all_workers')
+                .col-sm-6.black
+                  .lead.pb-3
+                    = t('tell_brands_to_commit_to_paying_a_living_wage')
+                  %p
+                    = t('we_are_asking_brands_to_pay_an_extra_contribution')
+                  %a.btn.btn-primary.navy-btn{href: "take_action.html"}
+                    = t('take_action')
 
-          %a.btn.btn-primary.navy-btn{href: "take_action.html"}
-            = t('take_action')
+            .p-4.my-3.red-bg
+              .row
+                .col-sm-6
+                  .display-3.yellow
+                    = t('a_spotlight')
+                  .display-3.white
+                    = t('on_the_bottom_of_the_supply_chain')
+                .col-sm-6.white
+                  .lead.pb-3
+                    = t('where_are_the_unions')
+                  %p.my-3
+                    = t('brands_never_release_data_about_the_bottom')
+                  %p.my-3
+                    = t('we_want_brands_to_ask_their_suppliers')
+                  %p.my-3
+                    = t('we_want_to_know_if_the_workers_making')
 
-    = section :fuchsia do
-      .row
-        .col-sm-6
-          .display-3.white
-            = t('covid_19')
-        .col-sm-6.white
-          .lead.pb-3
-            = t('support_workers_through_the_devastating_effects')
-          %p.my-3
-            = t('sign_the_petition_asking_brands_to_pay_for_orders')
-          %p.my-3
-            = t('donate_to_our_emergency_fund_to_help_us')
-          %p.my-3
-            = t('for_information_on_how_to_do_so_please')
-          %p.my-3
-            = t('follow_our_live_blog_for_the_latest_information')
-          %p.my-3
-            = t('find_out_more_about_our_demands')
+                  %a.btn.btn-primary.navy-btn{href: "take_action.html"}
+                    = t('take_action')
 
-          %a.btn.btn-primary.navy-btn{href: "take_action.html"}
-            = t('take_action')
+            .p-4.my-3.pink-bg
+              .row
+                .col-sm-6
+                  .display-3.fuchsia
+                    = t('consumer')
+                  .display-3.red
+                    = t('transparency')
+                .col-sm-6.black
+                  .lead.pb-3
+                    = t('tell_brands_and_policy_makers')
+                  %p.my-3
+                    = t('do_you_want_to_know_if_the_people_who_made')
 
-    = section :red do
+                  %a.btn.btn-primary.navy-btn{href: "take_action.html"}
+                    = t('take_action')
+
+            .p-4.my-3.fuchsia-bg
+              .row
+                .col-sm-6
+                  .display-3.white
+                    = t('covid_19')
+                .col-sm-6.white
+                  .lead.pb-3
+                    = t('support_workers_through_the_devastating_effects')
+                  %p.my-3
+                    = t('sign_the_petition_asking_brands_to_pay_for_orders')
+                  %p.my-3
+                    = t('donate_to_our_emergency_fund_to_help_us')
+                  %p.my-3
+                    = t('for_information_on_how_to_do_so_please')
+                  %p.my-3
+                    = t('follow_our_live_blog_for_the_latest_information')
+                  %p.my-3
+                    = t('find_out_more_about_our_demands')
+
+                  %a.btn.btn-primary.navy-btn{href: "take_action.html"}
+                    = t('take_action')
+
+    .bottom-extender.navy-bg
+
+    = section "high-z red" do
       .middle-text.text-center.white
         %h3
           = t('donate_to_the_campaign')
@@ -207,13 +218,6 @@
           .py-2
             = t('future_research_and_translations_of_our_data')
 
-
-          <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-          <input type="hidden" name="cmd" value="_s-xclick" />
-          <input type="hidden" name="hosted_button_id" value="MELX7VJAD7S5Q" />
-          <input type="hidden" name="lc" value="en_US">
-          <input type="image" src="https://cleanclothes.org/image-repository/donate-fc-black.png" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
-          <img alt="" border="0" src="https://www.paypal.com/en_NL/i/scr/pixel.gif" width="1" height="1" />
-          </form>
+          = donate_button "MELX7VJAD7S5Q", "donate-fc-black.png"
 
     = partial "partials/shared/footer"

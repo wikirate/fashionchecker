@@ -91,49 +91,55 @@
         = brand_demand do
           = t('brands_must_disclose_data_on_the_lowest_wage_level')
 
-    = section :yellow do
-      .text-center
-        .display-3.red
-          = t('our_demands')
-        .display-3.fuchsia
-          = t('to_policymakers')
-      .middle-text
-        .lead.black
-          = t('it_s_not_just_brands_that_are_responsible')
+    .top-extender.pink-bg
+      &nbsp;
 
-        %h3.red-head
-          = t('our_wage_demands')
+    .yellow-bg.skew-right
+      .container-fluid.skew-left
+        .container.py-5
+          .text-center
+            .display-3.red
+              = t('our_demands')
+            .display-3.fuchsia
+              = t('to_policymakers')
+          .middle-text
+            .lead.black
+              = t('it_s_not_just_brands_that_are_responsible')
 
-        = policy_demand do
-          = t('we_call_for_minimum_wages_in_production_countries')
+            %h3.red-head
+              = t('our_wage_demands')
 
-        = policy_demand do
-          = t('we_call_for_the_eu_to_ensure_that_minimum_wages')
+            = policy_demand do
+              = t('we_call_for_minimum_wages_in_production_countries')
 
-        %h3.red-head
-          = t('our_transparency_demands')
+            = policy_demand do
+              = t('we_call_for_the_eu_to_ensure_that_minimum_wages')
 
-        = policy_demand do
-          = t('we_call_for_the_eu_to_require_supply_chain')
+            %h3.red-head
+              = t('our_transparency_demands')
 
-        = policy_demand do
-          = t('we_call_for_mandatory_disclosure_of_data_on_lowest')
+            = policy_demand do
+              = t('we_call_for_the_eu_to_require_supply_chain')
 
-        = policy_demand do
-          = t('we_call_to_advance_human_rights_due_diligence')
+            = policy_demand do
+              = t('we_call_for_mandatory_disclosure_of_data_on_lowest')
 
-        = policy_demand do
-          = t('we_call_to_set_in_place_an_information_system_for')
+            = policy_demand do
+              = t('we_call_to_advance_human_rights_due_diligence')
+
+            = policy_demand do
+              = t('we_call_to_set_in_place_an_information_system_for')
 
 
-        = policy_demand do
-          = t('we_call_for_increased_transparency_at_product')
+            = policy_demand do
+              = t('we_call_for_increased_transparency_at_product')
 
-        %p.black
-          = t('see')
-          %a{ href: "https://cleanclothes.org/" }
-            = t('our_website')
-          = t('for_more_information_on_these_demands')
+            %p.black
+              = t('see')
+              %a{ href: "https://cleanclothes.org/" }
+                = t('our_website')
+              = t('for_more_information_on_these_demands')
 
+    .bottom-extender.yellow-bg
 
     = partial "partials/shared/footer"

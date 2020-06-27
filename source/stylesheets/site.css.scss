@@ -510,3 +510,37 @@ main {
   max-width: 12%;
   padding: 3px;
 }
+
+.skew-left, .skew-right {
+  position: relative;
+  z-index: 3
+}
+.skew-right {
+  transform: skewY(5deg);
+}
+.skew-left {
+  transform: skewY(-5deg);
+}
+.top-extender, .bottom-extender {
+  position: relative;
+  &:after {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    content: "";
+    background: inherit;
+  }
+}
+.top-extender:after {
+  bottom: -100px;
+}
+.bottom-extender:after {
+  top: -100px;
+}
+
+#footer, .high-z {
+  position: relative;
+  z-index: 10;
+}

@@ -27,9 +27,10 @@ module Partials
     partial "partials/brand_profile/#{template}", args
   end
 
-  def section color, second_color=nil, py="py-5", &block
+  def section color, second_color=nil, klass="py-5", &block
     color = [color, second_color].compact.join('-')
-    partial "partials/shared/section", locals: { color: "#{color}-bg", py: py }, &block
+    partial "partials/shared/section",
+            locals: { color: "#{color}-bg", klass: klass }, &block
   end
 
   def article filename
@@ -85,5 +86,10 @@ module Partials
 
   def banner image_url, text=nil
     partial "partials/shared/banner", locals: { image_url: image_url, text: text }
+  end
+
+  def donate_button button_id, filename
+    partial "partials/shared/donate",
+            locals: { button_id: button_id, filename: filename }
   end
 end
