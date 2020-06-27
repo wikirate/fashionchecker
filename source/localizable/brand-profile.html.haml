@@ -17,7 +17,16 @@
               %p.lead.font-weight-lighter
                 = t('find_out_which_apparel_and_footwear_brands_pay_the')
             =brand_profile_partial :search, locals: { redirect: true }
-    = section :red, :blue do
-      = brand_profile_partial :result
+
+    .top-extender.red-bg
+      &nbsp;
+
+    .blue-bg.skew-left
+      .container-fluid.skew-right
+        .container.py-5.result-container
+          = brand_profile_partial :result
+          &nbsp;
+
+    .bottom-extender.blue-bg
 
   = partial "partials/shared/footer"

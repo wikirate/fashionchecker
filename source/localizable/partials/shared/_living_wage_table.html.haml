@@ -1,21 +1,21 @@
-.row
-  .col-sm-12
-    .navy-bg.px-5.py-4.mt-4
-      .row
-        .col-sm-12
-          %h5.text-center
-            = t('difference_question')
-      .row.d-none.d-md-flex
-        .col-md-6.text-center
-          %h6
-            = t('minimum_wage')
-        .col-md-6.text-center
-          %h6
-            = t('living_wage')
-      = compare 'food', %i[rice], %i[fish rice apple banana]
-      = compare 'housing', %i[double_bed wall], %i[single_bed screwer toilet cable ventilator]
-      = compare 'health_care', %i[pills], %i[menstrual_pad medicine soap ambulance]
-      = compare 'education', %i[empty], %i[classroom]
-      = compare 'clothing', %i[shoes tshirt], %i[shoes tshirt jacket]
-      = compare 'transportation', %i[truck], %i[bus]
-      = compare 'savings', %i[broken], %i[intact]
+
+.navy-bg.px-5.py-4.mt-4
+  .living-wage-header
+    .row
+      .col-sm-12
+        %h5.text-center
+          = t('difference_question')
+    .row.d-none.d-md-flex
+      .col-md-6.text-center
+        %h6
+          = t('minimum_wage')
+      .col-md-6.text-center
+        %h6
+          = t('living_wage')
+  = compare 'food', %i[rice], %i[fish rice apple banana]
+  = compare 'housing', %i[double_bed wall], %i[single_bed screwer toilet cable ventilator]
+  = compare 'health_care', %i[pills], %i[menstrual_pad medicine soap ambulance]
+  = compare 'education', %i[empty], %i[classroom]
+  = compare 'clothing', %i[shoes tshirt], %i[shoes tshirt jacket]
+  = compare 'transportation', %i[truck], %i[bus]
+  = compare 'savings', %i[broken], %i[intact]

@@ -442,6 +442,20 @@ input {
     font-size: 46px;
   }
 }
+.trio-banner {
+  max-height: 500px;
+  &:after {
+    position: absolute;
+    background: $orange;
+    content: '';
+    transform: skewY(3deg);
+    min-height: 150px;
+    top: -100px;
+    right: 0;
+    left: 0;
+  }
+}
+
 .pointer {
   cursor: help;
 }
@@ -453,7 +467,7 @@ input {
   width: 100%;
   top: 0;
   overflow: hidden;
-  z-index: 10;
+  z-index: 15;
 }
 main {
   margin-top: 76px;
@@ -539,8 +553,13 @@ main {
 .bottom-extender:after {
   top: -100px;
 }
-
+.bottom-extender.extra-extender:after {
+  bottom: -200px;
+}
 #footer, .high-z {
   position: relative;
   z-index: 10;
+}
+.result-container {
+  min-height: 300px;
 }
