@@ -1,0 +1,695 @@
+hu:
+  header_question_1: "Vajon tisztességesen megfizetik azokat az embereket"
+  header_question_2: "akik a ruhádat készítették?"
+  find_out: "Nézz utána, mely ruha- és cipőmárka biztosítja dolgozóinak a tisztességes megélhetést biztosító munkabért."
+  living_wages: "A SZEGÉNYSÉGI KÜSZÖB ALATTI BÉREK"
+  not_poverty_wages: "HELYETT TISZTESSÉGES BÉREKET"
+  living_wages_info: >
+    A ruhaipari dolgozók nagy része nem engedheti meg magának 
+    az élet alapvető szükségleteit. 
+    A munkáért járó méltányos bérezés alapvető emberi jog; 
+    a nagy divatmárkák jellemzően nem fizetnek tisztességes bért a ruhagyári dolgozóknak.
+  read_more_living_wages: "Olvass tovább"
+  difference_question: >
+    Mi a különbség aközött, hogy az ember minimálbért kap vagy a tisztességes megélhetést biztosító bért? 
+  end: "ZÁMOLJUK FEL A NEMI"
+  gendered_pay: "DISZKRIMINÁCIÓN ALAPULÓ FIZETÉST"
+  gendered_pay_info: >
+    A ruhaipari dolgozók 80%-a nő. Ugyanazért az elvégzett munkáért a nők világszerte kevesebb pénzt kapnak, mint a férfiak. 
+    A nőket sújtó diszkrimináció a ruhaipar hatalmi berendezkedéséből fakad. 
+    A nők alacsonyabb fizetést kapnak, mint a férfiak, és részben ebből is adódik, hogy a verbális, fizikai és szexuális erőszaknak is jobban ki vannak téve.
+  gender: "Olvass tovább"
+  resilience: "SEGÍTSÜK"
+  in_the_face_of_a_crisis: "A RUHAGYÁRI MUNKÁSOKAT A KORONAVÍRUS-VÁLSÁG IDEJÉN"
+  our_demands: "KÖVETELÉSEINK"
+  resilience_info: >
+    A nagy divatmárkák hosszú-hosszú évek óta létminimum alatti bért fizetnek munkásaiknak, 
+    így rengeteget profitálnak az üzletből, miközben a ruhaipari dolgozók egyáltalán nem tudnak félretenni a nehezebb időkre. 
+    A koronavírus okozta válság felszínre hozta a ruhaiparban rejlő társadalmi és gazdasági egyenlőtlenségeket; 
+    különösen a nem törvényes módon foglalkoztatott munkások kiszolgáltatottsága vált nyilvánvalóvá.
+  your_voice_has_power: "VAN BELESZÓLÁSOD!"
+  take_action: "CSELEKEDJ"
+  your_voice_info_1: >
+    A mi munkánk a Te támogatásoddal kap értelmet. Eljött az ideje, hogy a divatmárkák felelősséget vállaljanak saját dolgozóikért, 
+    akik a mi ruháinkat gyártják. Fogyasztóként igenis van beleszólásunk a dolgok alakulásába! 
+    A divatmárkák hallgatnak ránk, ha hallatjuk a hangunkat. Vegyük rá együtt a világmárkákat, 
+    hogy kizsákmányolás helyett fizessenek tisztességes béreket a dolgozóiknak! 
+    Használd Te is a
+  your_voice_info_2: >
+    jelzést!
+
+
+  revenue: "Bevétel"
+  profit: "Profit"
+  top_3_production_countries: "Top 3 gyártó ország:"
+  brands_owned_by: "A márkák tulajdonosa"
+  headquarters: "Székhely"
+  owned_by: "Tulajdonos:"
+  search_for_brand: "Márka keresése"
+  interested_in_more_information: "Érdekel még több információ?"
+  check_out: "Megtekintés"
+  see_company_profile: "Vállalati profil megtekintése"
+
+  commitment_score:
+    title: "Nyilvános elköteleződés:"
+    public_commitment: "Nyilvános elköteleződés:?"
+    public_commitment_score_1: >
+      Ez a cég nem tett nyilvános ígéretet arra, hogy minden, a beszállítói láncához köthető munkásnak kifizeti a tisztességes megélhetést biztosító bért.
+    public_commitment_score_2: >
+      Ez a cég nyilvánosan ígéretet tett arra, hogy a munkások alapvető szükségleteit fedező bért biztosít, 
+      de arra nem, hogy egy, a munkások családjának alapvető szükségleteit is biztosító bért fizetne. 
+      Ez nem fedi a tisztességes megélhetést biztosító bér fogalmát.
+    public_commitment_score_3: >
+      Ez a cég nyilvános ígéretet tett arra, hogy minden, a beszállítói láncához köthető munkásnak kifizeti a tisztességes megélhetést biztosító bért.
+    action_plan: "Akcióterv?"
+    action_plan_score_1: >
+      Ennek a cégnek semmiféle terve nincs arra nézve, hogy a beszállítói láncában bérnövelést irányozzon elő.
+    action_plan_score_2: >
+      Ennek a cégnek bár meglehet, hogy van bérnövelést célzó akcióterve, a terv az első szintű (tier1) 
+      beszállítói láncot leszámítva nem elég konkrét, nem határidőkhöz kötött.
+    action_plan_score_3: >
+      Ez a cég nyilvános ígéretet tett arra, hogy minden, 
+      a beszállítói láncához köthető munkásnak kifizeti a tisztességes megélhetést biztosító bért.
+    separate_labor_costs_score_1: >
+      No evidence was found that this brand ensures labour costs are properly covered by using an established method to calculate them,
+      separating these costs from others.
+      All brands should pay prices to suppliers sufficient to cover a living wage and social protection contribution for all workers in their supply chain.
+    separate_labor_costs_score_2: >
+      Partial
+    separate_labor_costs_score_3: >
+      Brands need to ensure that labour costs are properly covered by using an established method to calculate them,
+      separating these costs from others.
+
+    separate_labor_costs: "A bérköltségek elkülönítése ?"
+    desc:
+      score_1: "A ruhaóriások által a beszállítóknak fizetett összegből a gyártási költségeket, a szállítást, és a bérköltségeket kell kifizetni. Ez a ruhacég nem tesz semmit azért, 
+      hogy a bérköltségeket a gyárak maradéktalanul fedezzék.."
+      score_2: "A ruhaóriások által a beszállítóknak fizetett összegből a gyártási költségeket, a szállítást, és a bérköltségeket kell kifizetni. A ruhacégeknek biztosítaniuk kell, hogy a bérköltségeket maradéktalanul fedezik: ennek módja az egységes bérkalkuláció, illetve a bérköltségek elkülönítése más költségektől."
+      score_3: "Text for score 3"
+
+
+  living_wage_score:
+    title: "A SZEGÉNYSÉGI KÜSZÖB ALATTI BÉREK"
+    desc_1:
+      score_5: >
+        A ruhacéghez köthető beszállítói lánc MINDEN gyára kifizeti dolgozóinak a tisztességes megélhetést biztosító bért, 
+        és ezt az adatot a ruhacég nyilvánosságra hozza.
+      score_4: >
+        A ruhacéghez köthető gyáraknak több mint a FELE kifizeti a dolgozóknak a tisztességes megélhetést biztosító bért, 
+        és ezt az adatot a ruhacég nyilvánosságra hozza.
+      score_3: >
+        A ruhacéghez köthető gyáraknak több mint a negyede, de kevesebb mint a fele fizeti ki dolgozóinak a tisztességes megélhetést biztosító bért, 
+        és ezt az adatot a ruhacég nyilvánosságra hozza.
+      score_2: >
+        A ruhacéghez köthető gyáraknak kevesebb, mint a negyede fizeti ki dolgozóinak a tisztességes megélhetést biztosító bért, és ezt az adatot a ruhacég nyilvánosságra hozza.
+      score_1: >
+        A ruhacéghez köthető beszállítói lánc EGYETLEN gyára SEM fizeti 
+        meg dolgozóinak a tisztességes megélhetést biztosító bért, 
+        és ezt az adatot a ruhacég nyilvánosságra hozza.
+    desc_2:
+      score_5: >
+        A ruhagyári munkások tisztességesen meg tudnak élni a fizetésükből.
+      score_4: >
+        A ruhagyári munkások egy része NEM tud tisztességesen megélni a fizetéséből.
+      score_3: >
+        A ruhagyári munkások nagy része NEM tud tisztességesen megélni a fizetéséből.
+      score_2: >
+        Ezért a ruhacéghez köthető munkások nagy része továbbra sem tud tisztességesen megélni a fizetéséből.
+      score_1: >
+        Vagyis a ruhacéghez köthető gyár munkásai NEM tudnak tisztességesen megélni a fizetésükből.
+
+
+  transparency_score:
+    title: "Mennyire teszi átláthatóvá a ruhacég a beszállítói láncát?"
+    read_more: "Olvass tovább"
+    about_why_transparency_is_important: "Az átláthatóság fontosságáról"
+    about_how_this_score_was_calculated: "A besorolás mögötti számítások "
+    what_does_this_mean: "Mit is jelent ez?"
+    desc:
+      score_1: "Ez a cég semmilyen, az Átláthatósági Vállalásokban előírt adatot nem tesz közzé a beszállítói lánc gyáraival, és az ott dolgozó ruhagyári munkásokkal kapcsolatban."
+      score_2: "Ez a cég közzétesz valamennyi információt, de nem elegendőt (pl. a gyár nevét igen, de a gyár címét már nem) a beszállítói lánc gyáraival, és az ott dolgozó ruhagyári munkásokkal kapcsolatban."
+      score_3: "Ez a cég közzéteszi az alapvető adatokat (gyár neve, címe, gyártott termék, a dolgozók létszáma, beszállítócsoport neve, a gyár nagyobb gyárcsoport része-e) a hozzá köthető gyárakról."
+      score_4: "Ez a cég közzé teszi az alapvető adatokat, méghozzá átlátható, rendszerezett formában, például Excel-táblázatban; így az adatok összehasonlításra is használhatók."
+      score_5: "Ez a cég az alapvető adatokon túl „egyéb adatokat” is közöl, méghozzá átlátható, rendszerezett formában, például Excel-táblázatban; így az adatok összehasonlításra is használhatók."
+
+  suppliers_table:
+    explore_supply_chain: "Explore supply chain"
+    sourcing_from_factories: "Sourcing from factories"
+    found: "found)"
+    number_of_workers: "number of workers"
+    wage: "wage"
+    workers: "workers"
+    company: "company"
+    female_male_other: "Female/Male/Other"
+    permanent_temporary: "Permanent/ Temporary"
+    average: "Average"
+    gap: "Gap"
+    have_cba: "Have cba"
+    know_brand: "Know brand"
+    pregnancy_leave: "Pregnancy leave"
+  latest: "Latest"
+  news: "News"
+  footer_info: "is a campaign by the Clean Clothes Campaign, funded by the European Union"
+  methodology_title: "A kutatás módszertana "
+  methodology_paragraph_1: >
+    Több mint 90 ruhaóriásnak küldtünk ki kérdőívet, amelyben beszámolhatnak, hogy konkrétan milyen lépéseket tettek idáig annak érdekében, hogy a beszállítói láncban szereplő minden munkásnak a tisztességes megélhetést biztosító bért fizessék. A ruhagyárakról is ebben a kérdőívben tudnak adatokat szolgáltatni, ha még nem tették volna meg az Átláthatósági Vállalások keretében. A kezdeményezés lényege, hogy a világmárkák az adatszolgáltatás útján kifejezhetik azon törekvésüket, hogy tisztességes megélhetést biztosító bért fizessenek a beszállító lánc munkásainak. Az átlátható és rendszerezett formában beküldött adatok a fogyasztók, a ruhaipari dolgozók és a politikai döntéshozók számára egyaránt hasznosak. Reményeink szerint a ruházati cégek Fashion Checker oldalon való megjelenése hosszútávon a kellő gondosság alapú átvilágítás, és a társadalmi felelősségvállalás folyamatában alapvető szerepet fog betölteni.
+  methodology_paragraph_2: >
+    Minthogy a kutatás érzékeny témákat érint a munkásokat nehéz szóra bírni, 
+    hiszen félnek feletteseik megtorlásától egyelőre csak olyan országokra terjed ki, ahol a ruhaipari munkásokkal való közvetlen és biztonságos kommunikáció lehetséges: Indonézia, Kína, Horvátország, India, Ukrajna. 
+    A kutatáshoz használt források: a munkások bérjegyzékei, és az ezeket magyarázó, munkásokkal folytatott interjúk, nem szerinti bontásban 
+    (férfiak és nők közti bérkülönbségek, felelősség- és feladatkörök, munkaórák, juttatások, túlórák). 
+    A munkások által közölt béreket összehasonlítottuk a ruházati cégek tisztességes bér-számításaival, illetve, az ezen számításon alapuló, beszállítók által ténylegesen fizetett bérekkel. 
+    Ahogy az adatok a különböző országokból beérkeznek, az adatbázisunkat folyamatosan bővítjük. 
+  methodology_paragraph_3A: "A ruházati cégek által beküldött adatok rendszerezéséhez és az összesítéshez a"
+  methodology_paragraph_3B: >
+    ,nyílt hozzáférésű adatok elemzőeszköze volt segítségünkre. 
+    Ezen kívül az 
+  methodology_paragraph_3C: "és az"
+  methodology_paragraph_3D: >
+    által gyűjtött adatokat is felhasználtuk. 
+    E mellett a megbízható, és nagy tapasztalattal bíró partnerektől származó adatsorok is fontos forrásai a kutatásnak. 
+    A felsorolt forrásoknak köszönhetően tudtuk felhasználóbarát módon publikálni a kutatás eddigi eredményeit. 
+    Az adatok közzétételének módjában a Semcon volt segítségünkre.
+  gender_header_1: "Nők a ruhaiparban"
+  gender_lead: >
+    Ne felejtsük el, hogy a ruhaipar munkásainak zöme nő.
+  gender_influences: >
+    Ez a tény számos módon befolyásolja a munkáltatás körülményeit: azoknak a sztereotípiáknak, hogy egyáltalán miféle munkát végezhet egy nő és hogyan kell ezt tennie, mennyi pénzt kaphat ezért, milyen lehet a kapcsolata a munkáltatójával, stb. óriási szerepe van a gyárban. A munkabér összege, az, hogy mennyire gyorsan fizet a munkaadó, a foglalkoztatás feltételei  ide tartozik például a szerződés megléte vagy hiánya, a szülési szabadság, betegszabadság lehetősége, az egyesülés joga, a nyugdíjazás kérdései  de akár az is, hogy hogyan beszélhet a munkaadó a munkavállalóval, hogy megérintheti-e  ezeket a körülményeket az határozza meg, hogy mi számít elfogadottnak a nőkkel szemben az adott országban. A gyárak részletes leírásából az derül ki, hogy a női dolgozókat tipikusan alacsonyabb pozíciókban foglalkoztatják, például gépkezelőnek vagy ellenőrnek veszik fel őket. A nőket tipikusan az alacsony képzettséget igénylő pozíciókban foglalkoztatják, és nagyon ritka, hogy vezető pozíciót töltenének be a gyárban vagy a szakszervezetekben.
+  croatian_gender_quote: >
+    "Hazaérek és vár a főzés, mosás, leckeírás a gyerekekkel. Nincs megállás. Estére annyira fáradt vagyok, hogy már csak arra koncentrálok, nehogy elájuljak, mielőtt elérek az ágyig."
+  a_worker_from_croatia: "ruhaipari dolgozó Horvátországból"
+  women_face_stress: >
+    A női munkások rengeteg különböző stresszforrásnak vannak kitéve: bármikor elveszíthetik munkájukat, gyakran verbális és fizikai zaklatás áldozatai, nem tudnak elég tápláló ennivalót vásárolni maguknak a fizetésükből, a folyamatos túlórázás miatt állandóan kimerültek, és semmit nem tudnak tenni a veszélyes munkavégzés és munkakörnyezet javítása érdekében. A nők jogait egyébként a munkahelyen kívül is megsértik. Erről sem szabad elfeledkeznünk, hiszen egy nő életét a munkahelyén, és munkahelyén kívül történő jogsértések, megaláztatások egyaránt meghatározzák. A kétszeres munkateher (pénzkeresés és a család ellátása), a közösségben és otthon megélt hátrányos megkülönböztetés, a jogi egyenlőtlenségek (lásd pl. az ingatlantulajdon, öröklés szabályozása) mind-mind fontos tényezők, hogy el tudjuk képzelni egy ruhagyári női munkás sanyarú életének egészét. Persze mindezekből a nehézségekből semmi sem látszik, amikor egy nő belép munkahelyére, a gyárba. Mégis: a nő, és gyermekeinek egészsége egyik napról a másikra összeroppanhat.
+  low_wages: "Borzalmasan alacsony bérek"
+  when_looking_at_the_garment_sector: >
+    Ha közelebbről szemügyre vesszük a ruhaipart, azt vesszük észre, hogy a munkamegosztásban a nőkre hárul a nehezebb szerep. Minél „lejjebb” vizsgálódunk a beszállítói lánc szereplőinek hierarchiájában, annál bizonytalanabb a dolgozók helyzete, alacsonyabb a fizetése, és nagyobb a nők aránya. A munkaadók hasznot húznak azokból a sztereotípiákból, melyek szerint a nők passzívak, alkalmazkodóak, és nem mernek szembe fordulni a főnökeikkel. A nők munkáját kevésbé fizetik meg, mint a férfiakét, arra hivatkozva, hogy az ő bérük úgyis csak „kiegészíti” az igazi kenyérkereső férfiak jövedelmét. A valóság ezzel szemben az, hogy a női munkások gyakran az egyetlen keresők a háztartásban. Ez az igazságtalan megkülönböztetés leglátványosabban a férfiak és nők bérének különbségében nyilvánul meg, ezt nevezzük a „nemek közti bérkülönbségnek”, vagy „nemen alapuló fizetésnek”. Vagyis a nők ugyanazért a munkáért alacsonyabb fizetést kapnak, mint a férfiak.
+  since_women_are_mainly_employed: >
+    A gyárakban a nőket főleg a rosszabbul fizetett, alacsonyabb pozíciókban alkalmazzák, így a szegénységnek is jobban ki vannak téve. A szegénység következményeként pedig nagyobb valószínűséggel esnek áldozatul erőszaknak és zaklatásnak. A nők elleni erőszak és zaklatás azokban az iparágakban a legelterjedtebb, ahol a nők alacsonyabb fizetést kapnak, mint a férfiak, és kevéssé van lehetőségük önállóan döntéseket hozni. A textil- és ruházati ipar egyike azoknak az iparágaknak, melyek struktúrájában mintegy kódolva van az erőszak és zaklatás lehetősége. És mivel a munkavállalók zöme világszerte nő, ráadásul köztük sok a fiatal nő és a bevándorló, így a ruhaipari munkások nagy részének nincs ereje és lehetősége arra, hogy javítson helyzetén. Ezek a munkásnők legtöbbször erősen függenek a férfi feletteseiktől, akik gyakran kihasználják és zaklatják beosztottjaikat, a munkásnőket.
+  gender_based_violence: "Nők elleni erőszak"
+  gender_based_violence_is_both_a_cause: >
+    A nők elleni erőszak a szegénységnek, valamint a nők és férfiak közti egyenlőtlenségnek egyszerre oka és következménye. A nők elleni erőszak fogalmába sok minden beletartozik: a szülési szabadsághoz, vagy a gyermekgondozáshoz való hozzáférés lehetetlensége ugyanúgy, mint a brutális fizikai erőszak, a nő megerőszakolása vagy megölése.
+  found_that_76_of_all: >
+    szerint a megkérdezett ruhaipari munkásnők 76%-a élte már át a nők elleni erőszak valamilyen formáját. A leggyakrabban előforduló eset a szexuális zaklatás. A fizikai erőszak formái közül a pofon a leggyakoribb: a munkásnők 80%-ának volt része benne. Ha nagy a nyomás, mert sok ruhát kell rövid határidővel legyártani, akkor különösen gyakori eset, hogy egy munkásnőt megpofoz a felettese. A pofozás mellett gyakori formái a fizikai erőszaknak a verés (a megkérdezettek 44%-a számolt be róla), a rúgás (42%), és az arcul csapás ököllel (11%). És bár a nők elleni erőszak leggyakoribb formája a családon belüli erőszak, a megerőszakolt munkásnőknek megdöbbentően magas aránya, 6%-a esetében a felettese vagy a műszakfőnöke volt az elkövető.
+  despite_its_prevalence_in_the_garment_sector: >
+    A nők elleni erőszak tehát súlyos, és sajnos mindennapi probléma a ruhagyárakban. A hatósági ellenőrzések alkalmával mégsem derül fény ezekre az esetekre, mert a hivatalos ellenőrzésekbe a munkásokat nem vonják be, vagy nem olyan szinten és formában, hogy a nők a sérelmeikről, érzékeny témákról, beszélni tudnának. A munkásnőket ugyanis a helyszínen, a gyárban kérdezik ki, sokszor a főnökük jelenlétében, akik esetleg maguk az elkövetők.
+  to_address_gender_based_violence_in_the_supply: >
+    És, hogy mi a világmárkák szerepe a nők elleni erőszak megfékezésében? Először is, fel kell, hogy fogják végre felelősségüket és szerepüket a beszállítói lánc működését illetően! Be kell látniuk végre: a jelenlegi felállás súlyos elnyomáshoz, erőszakhoz vezet! Friss kutatások azt mutatják, hogy a vásárlók nagy nyomást gyakorolnak a beszállítókra: alacsonyabb árakat szeretnének, még több ruhacikket még rövidebb idő alatt, és a rendeléseket gyakran váratlanul lemondják. A beszállítók  az igényeknek megfelelően  folyamatosan növelik a kitűzött termelési célt, és ahogy a nyomás nő, az erőszak és zaklatás is egyre jobban elharapódzik a gyárban, különösen, ha a dolgozók nem érik el a vezetőség által kitűzött célt.
+  this_is_confirmed_by_the_evidence: >
+    Ezt a szomorú forgatókönyvet a bangladesi példa támasztja alá: Az említett kutatásban a válaszadók 65%-a azt mondta, óriási nyomás alatt van, hogy még több ruhadarabot készítsen el adott idő alatt; 35%-uk állította azt, hogy a felettese részéről erőszakos fellépést tapasztalt a teljesítménykényszer miatt. Az iparág egyéb képviselői ugyanezeket a dinamikákat tárták fel, amikor az erőszak és zaklatás problémáját vizsgálták a ruhagyárakban. A Fair Wear Alapítvány megállapítása szerint a gyártás költségeinek alacsonyan tartása és a piacra dobás idejének csökkentése miatt a gyárakra nehezedő nyomás számos módon függ össze a gyárban tapasztalt erőszakkal és zaklatással. Az esti túlórázás miatt a nők ki vannak téve a szexuális bántalmazásnak - nem csak a munkahelyükön, a gyárban, hanem a hazafelé úton is. Azok a műszakvezetők, akikre nagy nyomás nehezedik felülről, nagyobb valószínűséggel viselkednek erőszakosan a beosztottjaikkal. Ezen kívül, mivel a bónuszokat, juttatásokat teljesítmény (legyártott darabszám) alapján ítélik oda, a női munkásokat feletteseik viszonylag könnyen rá tudják venni szexuális szolgáltatásokra a ruhagyári teljesítményük elismeréséért cserébe.
+  indian_gender_quote: >
+    "Verbálisan bántalmaznak minket. Női feletteseket szeretnénk és magasabb béreket, hogy a gyerekekről tisztességesen gondoskodhassunk"
+  a_worker_from_india: "Ruhagyári dolgozó Indiából"
+  when_you_are_living_pay_check_to_pay_check: >
+    Ha az ember napról napra él, nem teheti meg, hogy otthagyja a munkáját, ami az éhezéstől menti őt meg. Különösen akkor nem, ha a család többi tagjának betevő falatjáról is gondoskodni kell. A nagy világmárkáknak fel kell lépniük a beszállítói lánc munkásainak védelmében, a bántalmazás ellen, és azért, hogy a tisztességes megélhetést biztosító bér MINDEN dolgozónak járjon!
+  read_more_about: "Olvass tovább"
+  who_are_we: "Kik vagyunk"
+  menu_who_we_are: "Kik vagyunk"
+  menu_methodology: "Módszertan"
+  menu_gender: "Nők"
+  clean_clothes_campaign_is_a_global_network: >
+    A Clean Clothes Campaign (CCC) egy globális szervezet, 
+    mely a ruhaipari dolgozók munkakörülményeinek javításáért, a dolgozók jogaiért küzd.
+  since_1989_ccc_has_worked_to_ensure: >
+    A CCC 1989 óta azért dolgozik, hogy a munkások alapvető jogait tiszteletben tartsák. A fogyasztók tájékoztatása és mobilizálása a célunk, lobbitevékenységet folytatunk cégek és kormányok felé, és a  –  jogaikért és jobb munkakörülményekért küzdő  –  munkások számára közvetlen szolidaritási támogatást nyújtunk.
+  as_a_grassroots_network_of_hundreds: >
+    Több száz ruhaipari szervezetet és fogyasztói szakszervezetet tömörítő hálózat vagyunk, és a helyi problémákra fejlesztünk ki megoldási stratégiákat, mindig a helyi munkások céljait szem előtt tartva. Sok más munkajogi szervezettel, csoporttal működünk együtt.
+  all_workers_regardless_of_sex_age: >
+    Nemre, korra, származási országra, jogi helyzetre, foglalkoztatási státuszra vagy helyre, vagy bármi egyéb külső tényezőre való tekintet nélkül, MINDEN dolgozónak joga van a megfelelő és biztonságos munkakörülményekhez; az egyesülési jog és a kollektív tárgyalás joga minden dolgozót megillet; a tisztességes megélhetést biztosító bér minden dolgozónak jár.
+  visit_site: "látogasson el a weboldalra"
+  transparency_header: "Átláthatóság"
+  knowing_where_your_clothes_are_made: >
+    Hol és ki varrta a ruhádat? 
+    Ennek megválaszolása az első lépés a ruhagyári dolgozók munkakörülményeinek javításához
+  transparency_in_production_supply_chains: >
+    Az átláthatóság az egész beszállítói láncot illetően azonban valóban csak az első lépés, és nem jelent teljes körű megoldást a dolgozók problémáira. A gyár munkakörülményeivel, munkásaival kapcsolatos adatokat feltáró márkák, és az adatokat eltitkoló márkák között sajnos nincs nagy különbség a dolgozók helyzetét tekintve. A különbség annyi, hogy a munkajog megsértése miatti felelősséget nehezebb felróni az adatokat nem közlő ruhacégeknek. Mivel egy gyár több különböző divatmárkának is gyárt ruhákat, a márkák akár együtt is működhetnének annak érdekében, hogy a gyárban megesett munkajogi és emberi jogi jogsértéseket orvosolják.
+  transparency_needs_to_be_the_cornerstone: >
+    "Ha az emberi jogokat tiszteletben tartó beszállítói lánc létrehozása a cél, mindennek az alapja az átláthatóság"
+  aruna_kashyap: >
+    Mondja Aruna Kashyap, a Human Rights Watch nőjogi tanácsadója.
+  menu_transparency: "Átláthatóság"
+  in_2016_nine_labor_and_human: >
+    2016-ban kilenc munkajogi és emberi jogi szervezet hozta létre azt a
+  to_advocate_for_transparency: >
+    amely arra buzdítja a ruházati- és sportruházati cégek beszállítói láncait, hogy írják alá az
+  coalition: "szövetséget"
+  transparency_pledge: "Átláthatósági Vállalásokat"
+  the_pledge_is_based_on_existing: >
+    . A Vállalások alapját képezik az iparágban már létező, pozitív gyakorlatok. A Vállalások lényege, hogy legyen egy egységes rendszer, melynek keretében a ruhacégek minden beszállítói láncot illetően tegyék közzé az alapvető adatokat (például munkabérek), összehasonlítható formában.
+  there_has_been_an: "A közelmúltban biztató jelek"
+  encouraging_increase: "mutatkoztak egyes világmárkák átláthatóságával"
+  in_how_transparent_fashion_brands_are_on: >
+    illetve azzal kapcsolatban, hogy hol és mikor készültek a termékeik. Egyre több nagy ruhacég fedi fel gyártási helyszínét és írja alá az
+  however_there_are_still_too_many_brands_that: "Ugyanakkor még mindig rengeteg divatmárka van, amelyik erre"
+  refuse_to_do_so: "nem hajlandó"
+  and_even_the_most_progressive_brands: >
+    , és még a leghaladóbb szellemiségű márkák sem hagyják átvilágítani a teljes beszállítói láncukat; az ellenőrizhető, objektív adatok közzététele helyett homályos ígéretekbe burkolódznak a fizetések növelését illetően.
+  what_are_they_hiding: >
+    De vajon mit takargatnak a nagy világmárkák? A világ vezető ruhaipari óriása közül egyetlen egy sem teszi közzé, hogy mennyit fizet a munkásainak, és azt sem, hogy pontosan milyen intézkedésekkel (és mikor!) biztosítja azt, hogy beszállítói a tisztességes megélhetést biztosító bért fizessék a dolgozók részére. Homályos ígéretek persze vannak, de amire a munkásoknak valóban szüksége lenne, konkrét dátumhoz kötött, kézzelfogható és számon kérhető lépésekről nem esik szó. A beszállítói lánc szereplőinek sorában „lejjebb” haladva szinte semmilyen információnk nincs a bérezésről vagy a munkakörülményekről: az alvállalkozók és az otthonról dolgozók, a ruhaanyagot feldolgozó munkások sorsát, körülményeit teljes homály fedi.
+  we_re_demanding_that_brands_do_better: >
+    Követeljük, hogy a divatmárkák mondják meg, tegyék közzé, hogy konkrétan milyen lépéseket tesznek a tisztességes megélhetést biztosító bér felé! A politikai döntéshozóktól azt követeljük, hogy hozzanak létre egy olyan fórumot, ahol a problémában érintett minden fél részt vehet! Rögzítsék az átláthatóság minimum-kritériumait! Ez az egyetlen módja annak, hogy a ruhaóriások eleget tegyenek kötelességeiknek az emberi jogok terén; hosszútávon pedig az egyetlen módja annak, hogy a fogyasztók bizalmát ne veszítsék el.
+  going_beyond_the_pledge: "A Vállalásokon túl"
+  since_the_birth_of_the_pledge: >
+    A Vállalások megalkotása óta a beszállítói lánc átláthatósága nagyon sokat fejlődött. Több tucat ruhacég tette és teszi közzé a beszállító gyárainak nevét, címét, és egyéb adatokat. Ez persze csak a kezdet. Egy ruházati cégnek, amely komolyan veszi az etikus beszállítói lánc elvét, ennél jóval többet kell tennie. Néhány cég az első szintű beszállítói láncon túl a további beszállítók adatait is közzétette, sőt a nyersanyag beszerzésével kapcsolatos információt is. Ám az Átláthatósági Vállalások a minimumot rögzítik, nem a maximumot. Ahhoz, hogy valóban javuljanak a munkakörülmények a gyárakban, a ruházati cégeknek össze kell szedniük az adatokat a gyárakkal kapcsolatban.
+  the_bottom_of_the_supply_chain: "A beszállítói lánc legvégén lévő szereplők, a munkások"
+  we_want_brands_to_ask_suppliers_where: >
+    A ruhaóriásoktól azt követeljük, tudják meg a beszállítóktól, mi a helyzet a nőkkel és a bevándorló munkásokkal, és, hogy mennyi a legalacsonyabb fizetés! Ezek az információk tisztább képet fognak adni a gyáron belül tapasztalható hatalmi erőegyenlőtlenségekről, és a munkakörülmények javításának ez az első lépése.
+  worker_unions: "Szakszervezetek"
+  we_want_brands_to_ask_suppliers_if: >
+    A ruhaóriásoktól azt követeljük, tudják meg a beszállítóktól, hogy vannak-e a gyárakban szakszervezetek vagy munkástanácsok! Vajon van-e a ruháinkat készítő munkásoknak beleszólása a dolgok menetébe? Információt kell gyűjtenünk azzal kapcsolatban, kinek van valós beleszólási joga, befolyása a beszállítói láncon belül!
+  readable_data: "Szisztematikus adatgyűjtés"
+  we_want_brands_to_release_the_data: >
+    A ruhaóriásoktól azt követeljük, kutatásra és összehasonlításra alkalmas, szisztematikus formában közöljék a beszállítói láncukra vonatkozó adatokat, minden gyártási egységre és feldolgozó létesítményre vonatkozóan! A jövőben legyen ez alapvető kritérium a ruhacégek felé! Az adatok legyenek letölthetőek
+  transparency_for_the_consumer: "Átláthatóság a fogyasztók tájékoztatása"
+  we_want_governments_to_increase: >
+    Azt kérjük a kormányoktól, hogy tegyenek többet a ruhacikkek átláthatóságával kapcsolatban, ezzel segítsék az állampolgárokat a tudatos vásárlásban! → A termékcímkén szerepeljen a termék gyártására és életciklusára vonatkozó információ is!
+  eu_ecolabel: "Az EU Ecolabel"
+  to_reflect_wage_abuses: "szociális és fenntarthatósági kritériumait bővítsék ki, a munkások fizetésével kapcsolatos visszaéléseket vegyék figyelembe!"
+  for_more_about_our: "Az átláthatósági kampányról"
+  transparency_campaign: "bővebben itt"
+  csv_or_json_data: "CVS vagy JSON formában. "
+  learn_more: "Olvass tovább"
+  menu_living_wage: "A tisztességes megélhetést biztosító bér"
+  what_is_a_living_wage: "Mit jelent a tisztességes megélhetést biztosító bér?"
+  a_living_wage_recognized_by_the_un_as_a_right: >
+    Az ENSZ által emberi jogként meghatározott ún. tisztességes megélhetést biztosító bér méltóságteljes életszínvonalat garantál a dolgozónak és családjának.
+  it_should_be_earned_in_a_standard_work_week: >
+    A munkavállalóknak nem kellene heti 48 óránál többet dolgozniuk; élelmiszert, ivóvizet, lakhatást, oktatást, egészségügyi biztosítást, az utazás és a ruházkodás költségeit tudniuk kellene fedezni ebből a bérből, sőt, a bérből tudniuk kellene félretenni.
+  why_the_minimum_wage_is_not_enough: "Miért nem elég a minimálbér?"
+  legal_minimum_wages_in_garment_producing: >
+    A ruhagyártó országokban a törvényben meghatározott minimálbérek sajnos messze alul maradnak a tisztességes megélhetést biztosító bértől. Ezért a ruhaipari dolgozók nem engedhetik maguknak és családjuknak az élet alapvető szükségleteit sem. A törvényben meghatározott minimálbér és a tisztességes megélhetést biztosító bér közötti különbség az évek során egyre nő. A minimálbér sok országban meg sem közelíti a tisztességes megélhetést biztosító bért. Bangladesben például, 2019-es kutatás alapján, a minimálbér a tisztességes megélhetést biztosító bérnek 21%-a; Kínában ez az arány 46%. Az európai ruhagyártó országokban a helyzet sok helyen még keservesebb: Grúziában 10%, Magyarországon 40% ez az arány.
+  i_became_the_backbone: >
+    "Én lettem a család eltartója, de a fizetésem arra sem elég, 
+    hogy a család alapvető napi szükségleteit fedezni tudjam."
+  a_worker_from_indonesia: "Indonéziai munkás"
+  there_are_a_number_of_countries: >
+    Vannak olyan országok is, ahol egyszerűen nincs törvényben rögzített minimálbér. És ha rögzítve is vannak a minimálbérek, a gyártó ország kormánya általában nem szorgalmazza a minimálbér-növelést, hiszen akkor a ruhaóriások más országba telepítenék át a gyártást, oda, ahol a „kötelező” bérköltségek alacsonyabbak. A minimálbérek így számos országban soha nem fogják elérni a megélhetési szintet sem, miközben az alapvető szükségleti cikkek ára folyamatosan növekedik. Ez a divatipar rémisztő valósága. Hozzátartozik a tragikus képhez még az is, hogy a munkások egyáltalán nem, vagy csak nem méltányos módon lehetnek jelen a bértárgyalásokon, ami az ő sorsukat közvetlenül határozza meg. A legtöbb olyan országban, ahol az export zömét a ruházati cikkek alkotják, a közelmúltban a minimálbérek csak nagyon minimális mértékben növekedtek, és csak azért, hogy legalább valamennyire ellensúlyozzák az inflációt. És ha vannak is bérnövelések, azokat általában túl későn rendelik el, és elhanyagolható mértékűek: Bangladesben például a legalacsonyabban fizetett munkások 2016 óta még mindig a felét kapják annak, amit követeltek, és amire valóban szükségük is lenne a tisztességes élethez.
+  living_wage_benchmarks: "Tisztességes bér-számítást!"
+  calculating_a_living_wage_is_not_easy: >
+    A tisztességes megélhetést biztosító bér kiszámítása nem könnyű, de azért nem is lehetetlen. Számos társadalomtudományi szakember, szakszervezet, munkajogi csoport kidolgozott már hiteles, megbízható számítási módszereket egy adott országra vagy régióra vonatkozóan. A megbízható, tisztességes bér-számítás legyen:
+  transparent_in_method_and_conclusion: "Átlátható, világos, mind a módszertant, mind az eredményeket tekintve."
+  revised_on_a_regular_basis: >
+    Vizsgálják felül rendszeresen: az infláció és az alapvető árucikkek áremelkedése legyen belekalkulálva!
+  established_in_negotiation: >
+    Nemzeti vagy regionális szakszervezetek közreműködésével dolgozzák ki, hogy a számítások ne fokozzák az árversenyt!
+  enough_to_cover_the_full_basic_needs: >
+    A tisztességes megélhetést biztosító bér legyen elegendő a család alapvető cikkeinek fedezésére, és, ezen felül, a család legyen képes félretenni nehezebb időkre! Ez a gyermeküket egyedül nevelő anyákra, illetve az egyedülállóakra is vonatkozzon, akik adott esetben akár két idősebb rokonukat is eltartják saját fizetésükből.
+  a_living_wage_benchmark_should_put_a_floor: >
+    A tisztességes megélhetést biztosító bér-számítás a legalacsonyabb, és ne a legmagasabb bért rögzítse! A mellett, hogy biztosítja a tisztességes megélhetést garantáló bért, valóban segítse a munkások általános helyzetét!
+  savings_and_survival: "A megtakarítás elengedhetetlen a túléléshez"
+  asia_floor_wage_alliance: >
+    A fent leírt kritériumoknak megfelelő jó példák a tisztességes bér-számításra: Asia Floor Wage Alliance, Global Living Wage Coalition, Wage Indicator Foundation. A Fair Wear Alapítvány által kidolgozott bérlétrák különböző számításokat hasonlítanak össze a helyi törvényben előírt minimálbérekkel. Ilyesmikre gondolunk! Ezek az eszközök lehetnek iránymutatóak.
+  sometimes_i_have_to_take_painkillers: >
+    “Néha fájdalomcsillapítót kell bevennem, vagy izom és ízületi fájdalomcsillapító krémet kell használnom, sőt párszor fájdalomcsillapító injekciókra is volt szükségem, mert az izmaim egyszerűen megmerevedtek a szakadatlan munkától"
+  life_is_full_of_the_unexpected: >
+    Az élet váratlan események sorozata  és a fizetésed, már ha nem rettenetesen alacsony, elvileg épp arra való, hogy megbirkózhass a nehéz, váratlan eseményekkel. A ruha-és cipőipari munkások annyit sem keresnek, hogy az élet alapvető szükségleti cikkeit meg tudnák vásárolni, és álmodni sem tudnak arról, hogy félretegyenek a nehezebb időkre. A koronavírus miatti válság mindezt teljesen nyilvánvalóvá tette. A divatmárkák lemondták a megrendeléseket, hogy saját készpénzforgalmukat ne érje kár, így viszont az adott beszállítói lánc gyárai se a munkabéreket, se a gyártás egyéb költségeit nem tudják kifizetni. Ezért sok gyár bezárt, és dolgozók ezreit bocsátotta el.
+  not_only_have_brands_been_refusing: >
+    A világmárkák egyébként nem csak a már gyártás alatt lévő sőt, akár már a ruhaboltban kapható!  ruhakollekciók megrendelését mondták le egyik napról a másikra, és tagadták meg ezen kész áruk kifizetését, hanem különféle akciókkal és leárazásokkal még lejjebb nyomták az árakat, hogy becsalogassák a vásárlókat a boltokba, ezzel viszont megpecsételték a beszállítói lánc végén lévő egyszerű munkások sorsát... A legtöbb dolgozó a napokban az utcán tüntet, a március óta elmaradt bérek kifizetését követelve, de olyanok is vannak, akiket kényszerítenek arra, hogy visszatérjenek a gyárba, ahol azóta sem foganatosítottak biztonsági intézkedéseket. Nincs más választásuk, mivel nincs semmi pénzük. A feketén foglalkoztatott munkások helyzete még ennél is bizonytalanabb. A Nemzetközi Munkaügyi Szervezet (ILO) becslései szerint a feketegazdaság 1,6 milliárd ruhaipari dolgozóját éri
+  massive_damage: "nagyon súlyos kár"
+  to_their_livelihood: >
+    a COVID-19 utáni megszorító intézkedések miatt: a legtöbbjük elvesztette munkáját, vagy heti munkaórája a töredékére zsugorodott.
+  trade_unions_worry: >
+    “A szakszervezetek aggódnak, hogy a koronavírus-válság miatt a gyermekmunka, a rabszolgamunka és az emberkereskedelem rendkívüli mértékben elterjed majd, a ruhaipari dolgozóknak más munka után kell nézniük, és akár szexmunkára kényszerülnek.”
+  the_emperor_has_no_clothes: >
+    orrás: The Emperor has no clothes: Garment supply chains in the time of pandemic; az Asia Floor Wage Alliance kiadványa.
+  all_actors_in_fashion_now_understand: >
+    A koronavírus-válság utáni időkben a teljes divatipar számára világossá vált, mennyire fontos az, hogy alapvetően és sürgősen újragondoljuk ezt az iparágat, és azt az üzleti modellt, amely hosszú évek óta jellemzi. Mi azt akarjuk, hogy a tisztességes megélhetést biztosító bér legyen a központi eleme ennek a  divatiparról szóló  párbeszédnek. A válság idején tényleg eljött az ideje annak, hogy a ruha- és cipőipar méltányos fizetést, és a munkahely védelmét garantálja a beszállítói lánc minden szereplőjének.
+  for_more_information_on: "Az COVID-19-ről"
+  covid_19: "bővebben itt"
+  brand_responsibility: "A divatmárkák felelőssége"
+  brands_put_forward_all_kinds_of_excuses: >
+    A nagy világmárkák a legkülönfélébb kifogásokat találják ki arra, hogy miért nem fizetnek végre tisztességes megélhetést biztosító béreket a munkavállalóiknak. Arra hivatkoznak, hogy ez az ügy a beszállítók vagy a kormány felelőssége; hogy ha többet fizetnének megrendeléseikért, legyűrnék őket az árversenyben, és kiesnének a piacról; hogy a vásárlók nem hajlandók magasabb áron megvenni a ruhákat; vagy, hogy nincs konszenzus arra nézve, hogyan kell kiszámolni a tisztességes bért, és más hasonlók. Csakhogy: míg a gyártást ki lehet szervezni egy másik országba, a felelősséget nem. A ruhacégek nem mutogathatnak másra: az emberi jogok tiszteletben tartása és az ezért vállalt felelősség, vagyis a tisztességes megélhetést biztosító bérek kifizetése, a ruhacégek dolga.
+  the: "Az üzleti vállalkozások emberi jogi felelősségére vonatkozó"
+  un_guiding_principles_on_business_and_human_rights: "ENSZ-alapelvek"
+  un_guiding_principles_clearly_states: >
+    egyértelműen rögzítik az üzleti vállalkozások és az államok szerepét és felelősségét.
+  the_un_guiding_principles_three_pillars: "Az ENSZ-alapelvek három pillére:"
+  the_state_duty_to_protect_human_rights: "Az állam kötelessége az emberi jogok védelme"
+  the_corporate_responsibility_to_respect_human_righ: "Az üzleti vállalkozás felelőssége az emberi jogok tiszteletben tartása"
+  access_to_remedy: "Jogorvoslati lehetőség biztosítása"
+  this_establishes_a_principle_of_shared_responsibil: >
+    Az államnak és a ruházati cégnek egyaránt felelőssége a tisztességes bér biztosítása: a kormányoknak kötelessége megvédeni az emberi jogokat a megélhetési szinthez igazított, törvényben rögzített minimálbér útján, a cégeknek pedig tiszteletben kell tartaniuk az emberi jogot, miszerint a tisztességes megélhetést biztosító bér minden munkavállalónak jár.
+  the_framework_also_clearly_states_that: >
+    Az alapelvek azt is világosan leszögezik, hogy az emberi jogok tiszteletben tartásának felelőssége „létezik, függetlenül attól, hogy az állam képes-e és/vagy hajlandó-e betartani az emberi jogokkal kapcsolatos kötelezettségeit; a (ruházati) cégek az állami jogszabályok és törvények hiányában is kötelesek megvédeni az emberi jogokat.” Vagyis abban az esetben, ha a kormányok esetleg nem tesznek meg mindent az emberi jogok megvédése érdekében  tehát a törvényben rögzített minimálbér nem éri el a létminimum szintjét  a ruházati cégek nincsenek felmentve: ez esetben is kötelességük, hogy tiszteletben tartsák az emberi jogokat, és biztosítsák a tisztességes megélhetést biztosító bért dolgozóiknak, mintegy helyrehozva a kormányok mulasztását.
+  the_workers_wages_have_been_regularly_delayed: >
+    “2019 eleje óta rendszeresen egy vagy akár több hónapot is csúszik a bérünk kifizetése. Miután panaszt tettünk e miatt, kifizettek minket, de például erre a hónapra még nem. A gyárigazgató azt mondja, azért, mert az egyik beszállító nem fizetett neki. De mi rendesen ledolgoztuk a hónapot.”
+  a_worker_from_ukraine: "ruhagyári munkás Ukrajnából"
+  the_un_guiding_principles_establish:
+    Az ENSZ-alapelvek rögzítik a beszállítói lánc felelősségét: minden, árucikkek gyártásával foglalkozó cég felelős a beszállítói láncában bekövetkezett emberi jogi jogsértésekért, függetlenül attól, hogy a lánc mely részén (saját létesítményben, alvállalkozó gyárban, vagy otthonról dolgozó munkásokkal) történt a jogsértés. Vagyis a ruhagyártást ki lehet szervezni, de a felelősségtől a ruházati cégek nem szabadulhatnak meg, és nem „passzolhatják át” a beszállítói láncuk egy másik tagjára.
+  why_do_we_talk_about_paying_factories_not_workers: "Miért fontos a gyárak tisztességes megfizetése?"
+  brands_do_not_pay_workers_directly: >
+    Fontos látni, hogy nem a nagy ruhacégek fizetnek közvetlenül a munkásoknak: ők a beszállítóiknak fizetnek, és a beszállítók fizetik ki a ruhaipari dolgozókat. Egy beszállítói lánc általában három szintből áll: első, második és harmadik szintű beszállítók láncából. Az első szintű (Tier 1) beszállítót általában közvetlenül a ruházati cégek bízzák meg a gyártással; ez a beszállító azután más céget bíz meg alvállalkozóként, és így tovább  így alakulhat ki cégek egész láncolata.
+  on_their_current_wages_garment_workers: >
+    A jelenlegi bérek mellett a ruhaipari dolgozóknak gyakran igen nehéz döntéseket kell meghozniuk. Súlyos lemondásokra kényszerülnek, többek között saját egészségügyi ellátásukkal kapcsolatban, vagy a gyermekeik tanítását illetően. Gyakori eset a munkások között, hogy elájulnak munka közben, mert nem tudnak elég táplálékot vagy tápanyagot magukhoz venni: egyszerűen nem keresnek elég pénzt ahhoz, hogy elegendő és megfelelő minőségű élelmiszert vásároljanak maguknak és családjuknak. Ezt a szörnyű állapotot nehezíti még a szélmalomharc a befizetetlen számlákkal és adósságokkal, és az intenzív túlórázásnak betudható alváshiány. Munkások milliói számára jelentenek ezek a körülmények borzasztó megterhelést, s ennek a kizsákmányoló életmódnak hosszútávú és súlyos hatásai vannak a munkások szervezetére és egészségére. Egy ruhagyári munkás annyira keveset keres, hogy gyakran borzasztó döntésekre kényszerül: például el kell döntenie, hogy élelmiszert vásároljon magának, vagy inkább orvoshoz menjen. Mindkettő nem fér bele.
+  suppliers_are_forced_to_estimate_the_lowest: >
+    Ebből a struktúrából következik az, hogy a beszállítónak muszáj kiszámolnia egy árucikk lehető legalacsonyabb gyártási költségét: csak így nyerheti meg a többiekkel szemben a ruházati céggel való szerződés lehetőségét. A gond az, hogy miután a beszállító kikalkulált egy gyártási költséget és megegyezett a ruhacéggel, az adott gyártási költségből fedeznie kell egy csomó mindent: a gyár fenntartását (bérleti díj, áram, víz, fenntartási költségek), az anyagköltséget, a késztermékek szállítását, a gyár profitját...és a bérköltségeket. Mit tehet egy első szintű (Tier 1) beszállító, hogy biztosan megnyerjen egy projektet? A gyártáshoz kapcsolódó bérköltségeket lenyomja a lehető legalacsonyabbra, vagyis a minimálbér szintjére, megfosztva ezzel a tisztességes megélhetést biztosító bértől a munkásokat. Ezzel párhuzamosan napi kétórányi túlórával „toldja meg” a munkások nyolc órás munkanapját.
+  my_job_is_exhausting: >
+    “Totálisan ki vagyok merülve. Napi 18 órát dolgozom. Sokan nem tudják teljesíteni a gyár által előirányzott termelési célt. Őket egyszerűen kirúgják.”
+
+  current_purchasing_practices_reflect_the_rise_of_f: >
+    A fent leírt beszerzési stratégia persze a fast fashion elterjedésének következménye. Korábban a nagy márkák évszakonként egy-egy kollekciót dobtak a piacra: ma már, a Zara újítását követve, minden hónapban új kollekcióval rukkolnak elő. Manapság a legtöbb divatmárka évi 52 (!) mikro-szezonnal tervez. Ez önmagában is óriási mennyiségű ruha gyártását jelenti, és ehhez jön még az, hogy a népszerűbb darabokra pluszrendelést adnak le a ruhaóriások, gyakran egyik napról a másikra. Összességében hihetetlen mennyiségű ruhadarab cserélődik a piacon, bámulatosan rövid idő alatt; hogy melyik ruhadarabból mennyit kér a cég, az teljesen kiszámíthatatlan. A ruhaipari munkások lényegében a vásárlók kényének-kedvének vannak kitéve, a változékonyság, a nagyfokú bizonytalanság rajtuk csapódik le: rugalmas (értsd: bizonytalan) munkaszerződések, adott esetben a foglalkoztatás megtagadása, és a bérek leszorítása nehezíti amúgy is siralmas munkakörülményeiket.
+  my_factory_doesn_t_give_me_a_pay_slip: >
+    “A gyártól nem kapok bérigazolást. Keményen gürcölünk azért, hogy ez a ruha piacra kerülhessen. Napi 12 órát minimum, de van, hogy napi 24-et is, ha a ruhát a boltokban hamar elkapkodják.”
+  a_worker_from_india: "ruhaipari munkás Indiából"
+  brands_need_to_take_responsibility_to_modify: >
+    A ruhaipari óriások muszáj, hogy változtassanak hektikus vásárlói gyakorlatukon: gondoskodniuk kell arról, hogy beszállítóik minden esetben kifizessék a munkásaikat. Továbbra is keményen fogunk dolgozni a munkavállalói szervezetekkel és a szakszervezetekkel közösen, hogy a változások kézzelfoghatóak legyenek a munkások mindennapi életében.
+  unions_and_worker_committees: "Szakszervezetek és munkástanácsok"
+  workers_have_little_to_no_power_to_fight:
+    A ruhagyári munkásoknak vagy nagyon kevés erejük van, vagy egyáltalán nincs erejük és lehetőségük a jobb bérekért folytatott harchoz. Az egyesülés szabadsága nagyon nagy veszélyben van a legtöbb helyen, és erőteljes szakszervezetek, melyek magasabb bérekért harcolnának, a legtöbb ruhagyártó országban egyszerűen nincsenek. Az elmúlt években sok gyárban felülről kezdeményezett és vezetett munkástanácsokat hoztak létre a szakszervezetek helyett. Ez az intézkedés azt a képzetet kelti, hogy a ruhagyári dolgozók jól szervezettek, erőteljesek és van beleszólásuk a dolgokba. A ruházati cégek arra hivatkoznak, hogy a munkástanács és a szakszervezet lényegében ugyanaz, ami az esetek töredékére igaz csak.
+  trucks_are_constantly_leaving: >
+    "A készruhákkal megrakott teherautók folyamatosan szállítják az árut, amit gyorsan eladnak, rengeteg a munka, mégis állandóan azt halljuk, hogy nincs elég pénz. A szerződésemet mindig csak három hónapra újítják meg - ez így minden, csak nem biztonság.”
+
+  a_worker_in_croatia: "ruhaipari munkás Horvátországból"
+  instead_of_promoting_fair_worker_representation: >
+    A gyárakban a munkások igazi képviseletének kialakítása helyett a ruházati cégek, a beszállítók és a helyi kormány mindenféle alternatív érdekképviseletet eszkábál össze, azután ezekre hivatkozik. De tudjuk, hogy ezekkel az álszervekkel valójában elveszik a hatalmat a munkásoktól. A munkástanácsokba ugyanis többnyire beültetik a gyár vezetőségét is, és ez aláássa a ruhaipari munkások azon jogát, hogy kormányuktól vagy munkaadójuktól függetlenül, önállóan szervezhessék meg érdekképviseletüket. Ezen kívül pedig, néhány országban, például Bangladesben, ezek az új „munkástanácsok” nem tárgyalhatnak bérekről, miközben a szakszervezeteknek ez alapvető joga lenne. A ruhaipari óriáscégek így bástyázzák körül a gyártásért fizetendő, előre kiegyezett összeget.
+  we_are_never_allowed_to_go_home: >
+    “Kizárt dolog, hogy hazaengedjenek minket, ha a napi termelési célt még nem teljesítettük.”
+  we_want_brands_to_do_more_to_support: >
+    Követeljük a világmárkáktól, hogy álljanak ki a saját beszállítói láncuk ruhagyári munkásai mellett! A szakszervezetekről és munkástanácsokról való adatgyűjtés segíteni fog abban, hogy világosabb képet kapjunk a ruházati- és sportruházati iparban bekövetkező emberi jogi jogsértések okairól és következményeiről.
+  foa: "egyesülés szabadságáról"
+  i_have_problems_with_my_stomach: >
+    "Gyomorproblémáim vannak alultápláltság miatt, meg is kellett műteni, és most nagyon kell figyelnem az étrendemre. Viszont sajnos nem engedhetem meg magamnak a minőségi ételeket. A gyárban csak silány lisztből készült péksüteményeket kapunk."
+  women_can_be_made_to_dance: >
+    "A nőket dróton rángatják - a férfiakkal ugyanezt nem lehet megtenni. Mivel a férfiak kérését, panaszát meg kéne hallgatniuk, ezért inkább minket, nőket alkalmaznak, így kerülik ki a felelősségvállalást."
+  a_worker_from_bangladesh: "ruhagyári munkásnő Bangladesből"
+  gbv_in_bangladesh: "Nők elleni erőszak"
+  about_fashion_checker: "MI AZ A FASHION CHECKER?"
+  about_the_campaign: "MI AZ A FASHION CHECKER?"
+  a_living_wage_for_garment_workers: >
+    Tisztességes bért a ruhaipari dolgozóknak és átlátható beszállítási láncot!
+  menu_about_fashion_checker: "A Fashion Checker kampányról"
+  about: "A"
+  brands_in_the_fashion_industry_put_millions: >
+    A divatmárkák csilliókat költenek arra, hogy termékeiket etikusként és fenntarthatóként reklámozzák, és ezerszer is megfogadták már, hogy munkavállalóiknak a jövőben tisztességes megélhetést biztosító bért fizetnek. A Fashion Checker rávilágít arra, mennyire messze van mindez az igazságtól: a weboldal a vásárlók és a ruhaipari dolgozók számára egyaránt elérhetővé teszi a világmárkák beszállítói láncából származó valós adatokat.
+
+  power_in_the_garment_industry: "Hatalmi viszonyok a ruhaiparban"
+  we_believe_all_workers_in_a_supply: >
+    Mi azt gondoljuk, hogy egy beszállítói lánc minden dolgozójának jár a tisztességes bér. Jellemző, hogy a ruhaipar és a sportruházati márkák dolgozói az iparág megszületése óta 
+    létminimum alatti bérből tengődnek
+  poverty_wages: "létminimum alatti bérből tengődnek"
+  since_the_birth_of_the_industry_our_research_shows: "Kutatásunkból az derül ki, hogy"
+  no_major_clothing_brand: "a világ legnépszerűbb ruhaipari óriása közül egyetlen egy sem"
+  is_able_to_prove_that_workers_making_their_clothin: >
+    képes bizonyítani, hogy Ázsiában, Afrikában, Közép-Amerikában és Kelet-Európában dolgozó munkásaiknak tisztességes megélhetést biztosító bért fizetnének.
+  an_estimated_60_million_workers: >
+    Világszinten 60 millióra tehető a ruhaipari munkások száma. Ezek a munkások fillérekért dolgoznak, és sok milliárdnyi profitot termelnek az óriáscégeknek. A munkások a mindennapos túlórázások miatt kimerültek, és általában több különböző munkát vállalnak egyszerre, hogy az embertelenül alacsony fizetésekből valahogy meg tudjanak élni. A ruhaipari dolgozók körülbelül 80%-a nő, és ez nem véletlen. Egy szegénységi küszöb alatti bért kereső munkásnak vagy nagyon kevés, vagy semmilyen lehetősége nincs arra, hogy jogaiért harcoljon, így hosszútávon kényszerül bele e kizsákmányoló helyzetbe. A hatalmi erőegyenlőtlenségek, igazságtalanságok szinte be vannak betonozva a ruhaiparba.
+
+  earning_a_living_wage: "A tisztességes megélhetést biztosító bér"
+  demanding_a_wage_you_can_live_on: >
+    Minden munkavállalónak jár a tisztességes megélhetést biztosító bér - ez magától értetődő. 2015-ben követeltük a
+
+  living_wage_now: "tisztességes megélhetést biztosító béreket a ruhaiparban."
+  in_2015_it_s_five_years_later: >
+    Öt év telt el azóta, és semmi nem változott. Itt az idő, hogy most már követeljük a változást! Itt az idő, hogy foglalkozzunk a ruha- és cipőiparban általános, létminimum alatti bér rendszerszintű okaival: rá kell vennünk a ruhaóriásokat, hogy vállaljanak felelősséget munkavállalóikért!
+  for_decades_brands_and_retailers_have_built: >
+    A világmárkák és a ruhaüzletek a dolgozóiknak fizetett szégyentelenül alacsony munkabér miatt tudtak óriási profitra szert tenni, évtizedeken keresztül. A fast fashion üzletek által generált globális túlkínálat következtében a nagy ruhacégek a beszállítóikat képesek arra rávenni, hogy a ruhák, cipők gyártási költségeit a lehető legalacsonyabbra nyomják le. Abból az összegből, amit a ruhaipari óriáscégektől kapnak a beszállítók, fedezniük kell a gyár működési költségeit, meg kell oldani az anyagbeszerzést, a késztermékek szállítását, ki kell fizetni a munkásokat és ezen felül valamennyi profitot is kell hagyni a gyárnak. Ebben a felállásban mindig a munkások bére az a költség, amit a legegyszerűbb csökkenteni.
+  gender_in_the_garment_industry: "A nemek közti egyenlőtlenségek a ruhaiparban"
+  a_lot_of_informal_work_is_done_by_women: >
+    A feketemunkát világszerte nagyrészt nők végzik, önfoglalkoztatási vagy alvállalkozói formában. Az ő bérük még bizonytalanabb, mint a férfi munkásoké. A nemek közti bérkülönbség napjaink egyik legsúlyosabb társadalmi igazságtalansága  –  még mindig! Noha globális szinten némi javulás már látszik a férfiak és nők közti fizetési különbségek terén, a ruha- és cipőgyártásban még mindig nagyon komoly egyenlőtlenségek tapasztalhatók.
+  inside_factories_women_are_mainly_employed: >
+    A gyárakban a nőket főleg a rosszabbul fizetett, alacsonyabb pozíciókban alkalmazzák. A legtöbb ruhagyártó országban a férfiak és nők közötti egyenlőtlenségeknek mélyebb, kulturális eredete is van. Minél „lejjebb” vizsgálódunk a beszállítói lánc szereplőinek hierarchiájában, annál bizonytalanabb a dolgozók helyzete, alacsonyabb a fizetése, és nagyobb a nők aránya.
+  transparency_in_fashion: "Átláthatóság a divatban"
+  there_has_been_an_encouraging_increase_in_how: >
+    A közelmúltban biztató jelek mutatkoztak egyes világmárkák átláthatóságával kapcsolatban. Egyre több nagy ruhacég teszi nyilvánossá a gyártás helyszínét, és írja alá az Átláthatósági Vállalásokat. Ugyanakkor még mindig rengeteg divatmárka van, amelyik erre nem hajlandó, és még a leghaladóbb szellemiségű márkák sem hagyják átvilágítani a teljes beszállítói láncukat; az ellenőrizhető, objektív adatok közzététele helyett homályos ígéretekbe burkolódznak a fizetések növelését illetően.
+  putting_a_spotlight_on_the_supply_chain: "A ruhaipar beszállítói láncainak átvilágítása"
+  our_main_focus_is_wages_and_transparency: >
+    Legfontosabb célkitűzésünk, hogy a ruhaipari dolgozóknak fizetett bérek legyenek nyilvánosak. A munkavállalók béreinek „ellenőrzése”, nyilvánossá tétele ugyanis az egyetlen megbízható módja annak, hogy kiderítsük, a ruhaipari óriások megfizetik-e rendesen az adott beszállítói lánc gyárait ahhoz, hogy a gyárakat biztonságosan és tisztességesen működtessék (beleértve a tisztességes béreket is). A ruhaipari óriások a gyártás költségeit egyszerűen nem fizetik meg, és ez lehetetlen döntések elé állítja a gyárak vezetőit. Egy alulfizetett gyár ugyanis legelőször a munkások bérét fogja megnyirbálni, hogy minden egyéb költségét fedezni tudja. A munkabér és a munkások biztonsága a legkevésbé fontos a gyár számára, hiszen bármikor találnak olyan embereket, akiknek szükségük van a munkára, még ha kegyetlenül alacsony fizetést is kapnak érte.
+  brands_are_obligated_by_the: "A nagy ruhacégeknek egyébiránt az üzleti vállalkozások emberi jogi felelősségére vonatkozó"
+  to_run_their_business_responsibly: >
+    írják elő a felelős magatartást. Az irányelvek értelmében a tisztességes megélhetést biztosító munkabér  –  maximum 48 órás munkahét keretében  – alapvető emberi jog. Vagyis a nagy ruhacégeknek bizonyítaniuk kellene, hogy a beszállítóikat kellőképpen megfizetik annak érdekében, hogy azok a ruhagyári munkásokat tisztességesen megfizessék. Ehhez képest a legtöbb ruhaóriásnak fogalma sincs arról, hogy mennyi lenne (elméletileg) a tisztességes megélhetést biztosító bére az adott beszállítói láncok dolgozóinak. Mindezt súlyosbítja a kormányok hozzáállása: igyekeznek minél alacsonyabban tartani a hivatalos minimálbért azért, hogy a világmárkák az országukban gyártassák le termékeiket. A beszállítók pedig  –  szándékosan – sok országban a kevésbé hivatalos foglalkoztatási formákat alkalmazzák, hogy a lehető legalacsonyabban tartsák a gyártás költségeit.
+  what_are_they_hiding_no_brand: >
+    De vajon mit takargatnak a nagy világmárkák? A világ vezető ruhaipari óriása közül egyetlen egy sem teszi közzé, hogy mennyit fizet a munkásainak, és azt sem, hogy pontosan milyen intézkedésekkel biztosítják azt, hogy beszállítóik a tisztességes megélhetést biztosító bért fizessék a dolgozók részére. A beszállítói lánc szereplőinek sorában „lejjebb” haladva szinte semmilyen információnk nincs a bérezésről, vagy a munkakörülményekről: az alvállalkozók és az otthonról dolgozók, a ruhaanyagot feldolgozó munkások körülményeit, sorsát teljes homály fedi.
+  poverty_pay_isn_t_sustainable: "A létminimum alatti bérezés nem fenntartható"
+  it_is_well_known_that_the_garment_industry: >
+    Köztudott tény, hogy a ruhaipar a világon az egyik legszennyezőbb, rendkívül magas szén-dioxid kibocsátással járó iparág, amely ráadásul az egyike a legtöbb hulladékot  –  beleértve a vegyianyagokat is  –  termelő iparágaknak. Mindez a környezetre, és közvetlenül a dolgozók lakóhelyére is hihetetlenül káros hatást gyakorol. A divatipar folyamatosan azzal hitegeti a világot, hogy fenntartható, tudatos, fair és zöld, miközben nem hajlandó átláthatóvá tenni tevékenységét, és megtagadja a tisztességes megélhetést biztosító bér kifizetését dolgozói számára.
+  paying_poverty_wages_directly_affects: >
+    A szegénységi küszöb alatti bérek fizetése pedig az egész gazdaság fenntarthatóságára van hatással, közvetlenül. Egy biopamutból készült póló, amelynek a készítője létminimum alatti bérből tengődik, minden, csak nem fenntartható. Egyértelmű, hogy rendszerszintű változásra van szükség a divatiparban: először is, kell egy rendszer, ami ruhaipari munkások millióinak biztosítja a tisztességes megélhetést, hiszen őket viseli meg leginkább a ruhapiacon tomboló, őrült árverseny.
+  economic_impact: "Gazdasági hatás "
+  a_living_wage_for_all_workers_should_be: >
+    A minden munkavállalónak járó, tisztességes megélhetést biztosító bér a munkajogi aktivistáknak és a ruhaipari óriáscégeknek egyaránt érdeke kell, hogy legyen. A szégyentelenül alacsony bérek és a gyáron belüli egyenlőtlenségek terhe számos ruhagyártó országban zavargásokhoz, tüntetésekhez vezetett: a fenyegetések és az erőszak ellenére a munkások kétségbeesésükben az utcára vonultak, mert nem tudtak mást tenni. A tüntetésekre a nagy ruhacégek kapkodva, ügyetlenül reagáltak; láthatóan igyekeztek mindent megtenni azért, hogy az  – egyébként  –  zökkenőmentes gyártási folyamat visszaálljon a megszokott kerékvágásba.
+  an_unequal_distribution_of_income_and_wealth: >
+    "A jövedelem és vagyon egyenlőtlen elosztása nem csupán a válság magvait hinti el, hanem önmagában véve politikai és társadalmi konfliktus forrása."
+
+  economic_sustainability_and_resilience: >
+    A hosszútávú gazdasági stabilitás minden családnak és állampolgárnak  –  és egyúttal az államnak is  –  alapvető érdeke. A létminimum alatti bérből tengődés a nők helyzetét különösen súlyosbítja: a gondozó, segítő feladatokat egyébként is ellátó nőknek kell a  – gyárban is  –  a legtöbb fizetetlen munkaórát elvégeznie. A tisztességes megélhetést biztosító bér lenne az egyetlen megoldás arra, hogy a nők és férfiak számára egyenlő esélyeket teremtsünk, hogy a nők és a férfiak képességeiket teljes mértékben kibontakoztathassák. Ez az inkluzív és fenntartható fejlődésnek alapkövetelménye.
+  returning_the_power_after_covid_19: "A koronavírus után: #PayUp"
+  clothing_and_textile_manufacturing_has_always: >
+    A ruha és textilipar alapja kezdettől fogva a kizsákmányolás volt. A koronavírus-válság még élesebbé, még láthatóbbá tette ezt. A divatmárkák
+  billions_of_dollars: "dollármilliárdokat veszítettek"
+  by_canceling_orders_unnecessarily: >
+    mert rengeteg rendelést mondtak le, megbénítva ezzel a gyárakat, és kisemmizve a munkásokat. A ruhaipari óriáscégek, azáltal, hogy soha nem voltak hajlandóak tisztességes béreket fizetni, kezdettől fogva magukra hagyták a saját munkavállalóikat (!); semmiféle eszközt nem biztosítottak számukra egy esetleges válság túléléséhez. Félő, hogy munkások milliói maradnak fedél nélkül, sokukat éhezés fenyeget, sok gyárra pedig a gazdasági összeomlás vár. A ruhaipari óriáscégeknek túl sok ideig, túlságosan nagy befolyása volt beszállítóik felett. Itt az idő, hogy véget vessünk ennek!
+  to_do_so_we_need_transparency: >
+    A változáshoz az átláthatóság elengedhetetlen. Azt akarjuk tudni, hogy milyen hatalmi viszonyok határozzák meg a beszállítói lánc folyamatait: Hol fizetik a legkevesebbet a munkásoknak? Hol van lehetőségük a munkásoknak egyesülésre, önszerveződésre? Mi a helyzet a nőkkel és a bevándorló munkásokkal? Fedjük fel a divat világában tapasztalható emberi jogi jogsértéseket! Követeljünk konkrét, ésszerű, mérhető keresetnövelést a beszállítói lánc minden szereplője számára! Mert a munkások jobbat érdemelnek. A fogyasztók jobbat érdemelnek. A hatalom és vagyon igazságos elosztásának most jött el az ideje.
+  what_do_we_want: "Mit akarunk mi?"
+  what_can_you_do: "Mit tehetsz Te?"
+  we_re_demanding_that_brands_do: "Követelésünk a ruhaipari óriások felé a következő:"
+  we_want_them_to_show_how_they_are_working: >
+    Tegyék közzé, hogy konkrétan milyen lépéseket tesznek annak érdekében, hogy a beszállítói láncuk MINDEN dolgozója tisztességes megélhetést biztosító bérben részesüljön! A politikai döntéshozóktól azt követeljük, hogy hozzanak létre egy olyan fórumot, ahol a problémában érintett minden fél részt vehet! Ez az egyetlen módja annak, hogy a ruhaóriások eleget tegyenek kötelességeiknek az emberi jogok terén; hosszútávon pedig az egyetlen módja annak, hogy a fogyasztók bizalmát ne veszítsék el.
+  a_living_wage: "Tisztességes megélhetést biztosító bért"
+  for_all_workers: "MINDEN dolgozónak!"
+  tell_brands_to_commit_to_paying_a_living_wage: "Mondd meg Te is a nagy ruhacégeknek, hogy a beszállítói láncuk minden szereplőjének fizessenek méltányos és kielégítő bért!"
+  we_are_asking_brands_to_pay_an_extra_contribution: >
+    Azt követeljük a ruhaóriásoktól, hogy fizessenek kiegészítő juttatást a ruháikat gyártó folyamat során felmerülő munkaerő-költségekhez. Ezt a pluszpénzt kizárólag bérfizetésre használhatják fel, egyéb gyártási költségre nem. Ezáltal a nagy ruhacégek biztosak lehetnek afelől, hogy a beszállítói lánc minden dolgozója tisztességes bért visz haza. Ezen kívül azt is követeljük a nagy ruhacégektől, hogy  –  saját beszállítói láncuk szereplőit illetően  –  tegyenek valódi erőfeszítéseket a nők és férfiak egyenlő díjazása érdekében. Ez természetesen azzal jár, hogy a cégvezetőségnek fel kell térképeznie, egyáltalán kik dolgoznak a ruhagyárakban: csak akkor lesznek képesek enyhíteni a nők sanyarú helyzetén, ha a dolgozóikról már vannak pontos információik.
+  a_spotlight: "Figyeljünk oda a beszállítói lánc legvégén lévő szereplőkre,"
+  on_the_bottom_of_the_supply_chain: "a munkásokra!"
+  where_are_the_unions: >
+    Van-e lehetőségük a munkásoknak egyesülésre, önszerveződésre? Mi a helyzet a bevándorló munkásokkal? Mennyi a legalacsonyabb fizetés? Követeld Te is a nagy ruhacégektől, hogy tegyék közzé adataikat a teljes beszállítói lánc minden egyes szereplőjéről!
+  brands_never_release_data_about_the_bottom: >
+    A ruhaóriások soha nem tesznek közzé adatokat a beszállítói lánc végén lévő szereplőkről: még csak nem is tudjuk, hogy pontosan mennyire alacsonyak a munkásoknak fizetett legalacsonyabb bérek. És ha a cégvezetők ezt nem tudják, mennyire reálisak az ígéreteik a tisztességes bérek fizetését illetően?
+  we_want_brands_to_ask_their_suppliers: >
+    Arra akarjuk rávenni a ruhaóriások vezetőit, hogy kérdezzék meg, tudják meg beszállítóiktól, pontosan milyen szerepet játszanak a nők és a bevándorló munkások a ruhagyártás folyamatában, a gyárakban és a gyárakon kívül. A bevándorló munkásoknak  –  csak úgy, mint a nőknek  –  kevésbé van lehetősége az emberi jogokért kiállni, és gyakran ugyanolyan kizsákmányoló módon dolgoztatják őket a gyárakban, mint a nőket.
+  we_want_to_know_if_the_workers_making: >
+    Tudni akarjuk: van-e a ruháinkat készítő munkásoknak beleszólásuk a dolgok menetébe, a saját sorsukba? Van-e lehetőségük a munkásoknak egyesülésre, önszerveződésre, hogy kiállhassanak jogaikért és kedvezőbb munkakörülményeket harcoljanak ki maguknak?
+  consumer: "Követeljük a"
+  transparency: "fogyasztók tájékoztatását!"
+  tell_brands_and_policy_makers: >
+    Mondd meg a nagy ruhacégeknek és politikai döntéshozóknak, hogy tudni akarod, kik és milyen körülmények között varrták a ruhádat, amit hordasz!
+  do_you_want_to_know_if_the_people_who_made: >
+    Tudd meg, hogy a ruhádat varró munkásoknak volt-e lehetőségük betegszabadságot kivenni, vagy a gyerekeiket iskolába járatni! Tudd meg, hogy a gyár, ahol a ruhádat varrták, engedélyezi-e a dolgozóinak az önszerveződést, szakszervezet létrehozását! Mondd meg a kormánynak, hogy tegyen róla, hogy több információt tüntessenek fel a ruha címkéjén!
+
+  support_workers_through_the_devastating_effects: "Támogasd Te is a ruhaipari dolgozókat az alábbi, a koronavírus hatásaira reagáló petíció aláírásával!"
+  sign_the_petition_asking_brands_to_pay_for_orders: >
+    A petíció azt követeli a ruhaipari óriáscégektől, hogy fizessék ki a rendeléseiket. Súlyos dollármilliárdoktól esett el a ruhaipar, amikor a világmárkák egyszerűen lemondták a rendeléseiket, a koronavírus megjelenését követő, korlátozó intézkedések miatt. Munkások milliói számára egyet jelentett ez több havi bér kiesésével. Ezek a munkások most nem tudnak ennivalót venni maguknak.
+  donate_to_our_emergency_fund_to_help_us: >
+    Támogasd közvetlenül a ruhagyártó országok munkásait, adományozz Te is! Sok munkás még a koronavírus előtti fizetését sem kapta meg, hónapokra visszamenőleg.
+  for_information_on_how_to_do_so_please: >
+    Ha többet szeretnél tudni az adományozásról, látogass el a COVID-19 kampány angol nyelvű oldalra!
+  follow_our_live_blog_for_the_latest_information: >
+    Ha érdekel, mi történik a ruhaiparban a koronavírus idején, kövess minket folyamatosan frissülő élő blogunkon!
+  find_out_more_about_our_demands: "A követeléseinkről bővebben itt:"
+  donate_to_the_campaign: "Adományozz!"
+  you_can_help_fund_this_campaign: "Adományoddal hozzájárulsz a kampány finanszírozásához."
+  every_little_bit_helps: >
+    Most minden segítség jól jön! A beérkezett adományokat a honlap működtetésére,
+  future_research_and_translations_of_our_data: "kutatásra, és az adatok, eredmények fordítására szánjuk."
+  donate: "Adományozz!"
+  of_surveyed_brands_aren_t_paying_garment_workers: "A megkérdezett márkák 93%-a nem fizet tisztességes megélhetést biztosító bért a ruhaipari munkásoknak"
+  want_to_help_workers_fight_for: "Szeretnél tenni valamit a"
+  better_working_conditions: "ruhagyári dolgozókért?"
+  twitter_storm: "Posztolj ezerrel!"
+  menu_take_action: "Cselekedj!"
+  visit_the_websites_of_our: >
+    Látogass el testvér-szervezeteink honlapjára és derítsd ki, hogyan tudod emailben értesíteni a kedvenc márkáidat erről a kampányról!
+
+  support_garment_workers_through_covid_19: "Támogasd a ruhaipari dolgozókat a koronavírus-válság alatt!"
+  sign_the_petition: "Írd alá a petíciót!"
+  your_voice_matters_brands_are_highly: >
+    VAN beleszólásod a dolgok alakulásába! A divatmárkák igyekeznek megóvni jóhírüket, ezért a fogyasztók véleményét igen komolyan veszik. Mondd meg nekik Te is, hogy a ruhagyári dolgozók jobbat érdemelnek! Üzenj kedvenc márkáidnak Te is: kizsákmányolás-mentes ruhadarabokat szeretnél hordani!
+  donate_to_our_emergency_relief_fund: >
+    Támogasd közvetlenül a ruhagyártó országok munkásait, adományozz Te is a segélyalapba! Sok munkás még a koronavírus előtti fizetését sem kapta meg, hónapokra visszamenőleg. Helyi szervezeteink ételt osztanak a ruhaipari munkásoknak és családtagjaiknak, a helyi közösségekben. Ha érdekel, mi történik a ruhaiparban a koronavírus idején, kövess minket folyamatosan frissülő, angol nyelvű live blogunkon!
+  living_wage_table:
+    minimum_wage:
+      food: >
+        Nem egyszerű elegendő tápanyaghoz jutni. Sokszor minden nap ugyanazt a rizskását eszed. A hús vagy a gyümölcs túl drága. Gyakori egy-egy étkezés kihagyása, és hó végén kevesebb élelmiszer jut.
+      housing: >
+        Zsúfolt hálótermek. Privát szférának, fűtésnek, légkondicionálónak nyoma sincs, alig jár a levegő. Nincs elég ágy, alig van bútor.   A rossz minőségű építőanyagokból összeeszkábált épületek nem biztonságosak, sőt veszélyesek.
+      health_care: >
+        Az egyszerű fájdalomcsillapítót meg tudod venni, de a menstruációs termékeket már nem biztos. A receptre kapható gyógyszereket nem tudod megvenni, a sürgősségi orvosi ellátást nem tudod igénybe venni. Az alváshiány, az elégtelen táplálkozás, a silány higiéniai körülmények mind rossz hatással vannak az egészségedre.
+      education: >
+        Sem Te nem tudsz, se a gyermeked nem tud iskolába járni, oktatásban részt venni, és nincs lehetőséged arra, hogy változtass ezen. Nagyon valószínű, hogy a gyermekeid is borzasztó alacsony bérekért fognak dolgozni, ha felnőnek.
+      clothing: >
+        Nincsenek meleg téli ruháid. Egész nap állnod kell a műszak során, a gyárban, és nem tudsz kényelmes cipőt venni magadnak.
+      transportation: >
+        Nem tudsz biztonságos körülmények között bejutni a gyárba. A szegényebb ruhagyártó országokban a tömegközlekedés nem elterjedt. A gyár túlzsúfolt teherautóin mész munkába. Nőként szexuális zaklatásnak vagy kitéve.
+      savings: >
+        Nagyon valószínű, hogy el vagy adósodva. Befizetetlen számlák és kölcsönök között vergődsz, napról napra élsz.
+    living_wage:
+      food: >
+        Elég a jövedelmed arra, hogy ellásd élelmiszerrel a családod. Egészséges, változatos ételeket eszel, legalább háromszor egy nap.
+      housing: >
+        Biztonságos környezetben lakhatsz a családoddal, hozzátartozóiddal együtt. Van ablak, fény, lehet szellőztetni és van magánszférád is. Van elegendő bútorod és saját fürdőszobád.
+      health_care: >
+        Gond nélkül be tudod szerezni az alapvető egészségügyi cikkeket, így a menstruációs termékeket is, és a receptre kapható gyógyszereket is, mint az inzulin vagy az antibiotikum. Félre tudsz tenni annyit, hogy ha kell, igénybe tudd venni a sürgősségi orvosi ellátást.
+      education: >
+        Megteheted, hogy iskolába járj, Te is és a családtagjaid is. Az oktatás révén van lehetőséged arra, hogy egy jobban fizetett pozícióba kerülj.  Képes vagy alakítani a saját jövődet és a gyermekeid jövőjét is.
+      clothing: >
+        Van választási lehetőséged, és meg tudod venni az időjárásnak megfelelő ruházatot. A gyermekednek megfelelő méretű és minőségű ruhát és cipőt tudsz venni.
+      transportation: >
+        Keresel eleget ahhoz, hogy a saját magad által választott közlekedési eszközzel mehess munkába. A gyár ki tudja fizetni dolgozóinak a biztonságos munkába jutást. Félre tudsz tenni, hogy később saját autót vagy biciklit vegyél magadnak. De ami a legfontosabb, hogy VAN választási lehetőséged!
+      savings: >
+        Félre tudod tenni fizetésed egy részét, így fedezni tudod a váratlan kiadásokat vészhelyzet esetén, ez valamennyi biztonságot nyújt válság esetére.
+
+  to_brands: "A divatmárkák felé"
+  brands_need_to_do_more_to_change_the_power: >
+    A világmárkáknak többet kell tenniük azért, hogy a ruhaipar hatalmi berendezkedése megváltozzon. 2020-at írunk és a munkásoknak még mindig az alapvető emberi jogokért kell harcolniuk! Itt az idő, hogy most már követeljük a változást!
+  our_wage_demands: "Követeléseink: béremelést!"
+  pay_a_living_wage: "Tisztességes megélhetést biztosító bért MINDEN dolgozónak! "
+  we_want_brands_to_pay_more_for_orders: >
+    A ruhaipari óriáscégek fizessenek többet a megrendelésekért! A beszállítóknak csak így lesz lehetőségük arra, hogy valóban kifizessék a tisztességes megélhetést biztosító béreket. A beszállítók tárgyalásának alapja legyen az, hogy minden munkás tisztességes bérköltségét bekalkulálják - csak ez után tárgyalhatnak bármi egyébről a ruhacégekkel.
+  menu_our_demands: "Követeléseink"
+  brands_need_to_commit_to_paying_a: "A ruhaipari óriáscégektől azt követeljük, hogy a 2022. december 31-ig leadott minden rendelésük mellé fizessenek egy egyszeri,"
+  living_wage_contribution: "ún. tisztességes bér hozzájárulást,"
+  on_every_order_they_place: "amely elég magas ahhoz, hogy kiegészítse a beszállítói lánc minden munkásának bérét úgy, hogy az elérje a tisztességes megélhetést biztosító bért!"
+  using_living_wage_benchmarks: "Tisztességes bér-számítást!"
+  if_brands_are_going_to_pay_living_wages: "Ha a ruhaipari óriások valóban ki akarják fizetni a beszállítói lánc minden egyes dolgozójának a tisztességes megélhetést biztosító bért, ahogy azt ígérik, tisztában kell lenniük azzal, pontosan mennyi a gyártás bérköltsége. Ezt több különböző módszerrel ki is lehet kalkulálni."
+  brands_need_to_commit_to_using: "A nagy ruhacégek vezetői használjanak átlátható,"
+  transparent_and_robust_living_wage_benchmarks: "megbízható tisztességes bér-számításokat!"
+  pay_the_women_who_make_our_clothes: "Fizessék meg a nőket, akik a ruháinkat varrják!"
+  brands_need_to_do_more_to_reduce_gender_inequality: "A ruhaipari óriáscégeknek többet kell tenniük azért, hogy a ruhaipar beszállítói láncában világszerte tapasztalható nemek közti egyenlőtlenségeket felszámolják végre! A nőket rendre alacsonyabb fizetésű pozíciókra veszik fel, mint a férfiakat, és hosszútávon ez káros hatással van a nők egészségére és biztonságára."
+  brands_need_to_commit_to: "A ruhaipari óriáscégektől azt követeljük,"
+  reducing_the_gender_pay_gap: "hogy 2022. december 31-ig legalább 30%-kal csökkentsék"
+  in_their_supply_chain_by_at_least_30: "a nők és férfiak bérezésében mutatkozó különbséget!"
+  covid_19_pay_up: "Fizessék ki a koronavírus-válság miatt elmaradt havi béreket! !"
+  when_covid_19_shook_the_world_it_left_the_garment: "A koronavírus megrázta a világgazdaságot és romokban hagyta maga mögött a ruhaipart. Munkások milliói több havi munkabérüktől estek el. Ráadásul sok munkás még a koronavírus előtti, több havi fizetését sem kapta meg. A ruhaipari munkások nagy része teljesen kiszolgáltatott: ha nem kapják meg a teljes havi fizetésüket minden egyes hónapban, nem tudnak ennivalót vásárolni maguknak és családjuknak."
+  brands_need_to_publicly_commit_to_a: "Ezért elengedhetetlen, hogy a ruhaipari óriáscégek nyilvánosan is ígéretet tegyenek arra, hogy"
+  wage_guarantee: "garantálják a tisztességes munkabéreket"
+  for_all_workers_in_their_supply_chain_ensure: "a tisztességes és méltányos bér mindenkinek jár, a beszállítói lánc minden szereplőjének. A divatmárkáknak biztosítaniuk kell, hogy minden,"
+  receive_their_full_salaries: "a koronavírus megjelenésekor foglalkoztatásban lévő munkavállaló megkapja a teljes fizetését,"
+  or_in_the_case_of_factory_closure_receive: "(minden hónapra!) vagy, ha a gyára bezárt, végkielégítésben részesüljön. A tisztességes megélhetést biztosító bérről bővebben itt"
+  our_transparency_demands: "Követeléseink: tájékoztassák alaposan a fogyasztókat!"
+  a_transparent_supply_chain: "Átlátható beszállítói láncot!"
+  we_want_all_brands_to_commit_to_a_completely: "Követeljük, hogy minden divatmárka írja alá az Átláthatósági Vállalásokat, és biztosítsa ezzel, hogy teljes mértékben átláthatóvá teszi a beszállítói láncát! Az Átláthatósági Vállalások meghatározza, hogy mely információkat kell közzé tenniük a nagy ruhacégeknek a nekik beszállító gyárakkal kapcsolatban. Ezeket a kereteket 2017-ben kilenc szakszervezet és munkajogi szervezet szövetsége fektette le; a 2017-es és 2019-es jelentés pedig tovább finomította a szabályozást."
+  brands_that_haven_t_already_need_to_sign: "Minden világmárkának – ha még nem tette volna meg – alá kell írnia az Átláthatósági Vállalásokat!"
+  readable_data_on_women_migrants_and_unions: "Világos és egységes adatszolgáltatást a női és bevándorló munkásokkal, és a szakszervezetekkel kapcsolatban!"
+  not_only_do_brands_need_to_be_collecting_specific: "A ruhaipari óriáscégeknek egyrészt gyűjteniük és rögzíteniük kell az adatokat a beszállítói láncuk munkakörülményeit illetően, másrészt közzé is kell tenniük ezeket az adatokat olyan formában, hogy az aktivisták és szakszervezetek dolgozni tudjanak ezekkel az adatokkal. Tudni akarjuk, hogy a nők és a bevándorló munkások hol helyezkednek el a beszállítói láncban, és azt is, hogy a ruháinkat varró munkásoknak van-e lehetőségük saját érdekeik, jogaik megvédésére."
+  brands_must_disclose_data_using_machine_readable: "Ezért azt követeljük a ruhaóriásoktól, hogy tegyék nyilvánossá az adatokat (mechanikusan is feldolgozható, vagyis egységes formában) a beszállítóikról. A beszállító-listának tartalmaznia kell a férfi és női munkások arányát gyáranként, a bevándorló munkások arányát gyáranként, és a szakszervezetek vagy munkásbizottságok meglétét (vagy hiányát) gyáranként."
+  wages_at_the_bottom_of_the_supply_chain: "A beszállítói lánc legvégén lévő szereplők, vagyis a munkások béreivel kapcsolatos követeléseink:"
+  we_want_to_know_what_the_lowest_earning_workers: "Tudni akarjuk, hogy az adott beszállítói láncban mennyit keresnek azok a munkások, akik a legkevesebbet keresik: mennyi az ő heti munkabérük. A nagy ruhacégek ezt az adatot nem hogy nem teszik nyilvánossá, de még csak nem is tudják, nem is néznek utána. Ezen sürgősen változtatni kell!"
+  brands_must_disclose_data_on_the_lowest_wage_level: "Itt az ideje, hogy a világmárkák elárulják végre feketén-fehéren, hogy - a túlórákat, juttatásokat, prémiumokat nem számítva - mennyit keres hetente a legalacsonyabb munkabérrel bíró munkás, adott ruhagyártó országra és egyes beszállítókra levetítve."
+  to_policymakers: "Követeléseink a politikai döntéshozók felé"
+  it_s_not_just_brands_that_are_responsible: "De nem csak a divatmárkáknak kötelessége tenni azért, hogy a ruhaipar dolgozói igazságos és egyenlő bánásmódban részesüljenek. A politikai döntéshozóktól azt követeljük, hogy hozzanak létre olyan fórumot, ahol a problémában érintett minden fél részt vehet!"
+  we_call_for_minimum_wages_in_production_countries: "Követeljük, hogy a ruhagyártó országok dolgozóinak minimálbérét a valódi, nemzetközi normáknak megfelelő, tisztességes megélhetést biztosító bér alapján állapítsák meg, és, hogy az erre vonatkozó szabályzatoknak, eljárásoknak, egyezményeknek legyen egy átlátható, világos, egyértelmű viszonyítási alapja."
+  we_call_for_the_eu_to_ensure_that_minimum_wages: "Követeljük az EU intézményeitől, hogy az EU-ban dolgozó munkások minimálbérei biztosítsák a tisztes megélhetést, legyenek méltányosak; azokat a valódi, nemzetközi normáknak megfelelő tisztességes megélhetést biztosító bérnek megfelelően állapítsák meg; tegyék lehetővé, hogy a munkások igénybe vehessék a megfelelő társadalombiztosítást - foglalkoztatási formára való tekintet nélkül; csökkentsék a társadalmi kirekesztést és az egyenlőtlenségeket."
+  we_call_for_the_eu_to_require_supply_chain: "Követeljük az EU intézményeitől, hogy tegyék kötelezővé a vállalatok számára a beszállító láncuk nyilvánossá tételét: legalább a nagy kockázatnak kitett ágazatok, így a ruhagyártás, esetében, amelyekben a jogsértések mindennaposak. A beszállítói lánc-lista tartalmazza a világos és szisztematikus, összehasonlításra alkalmas adatok közzétételét minden gyártási egységre és feldolgozó létesítményre vonatkozóan: név, cím, anyavállalat neve, termékek, munkavállalók száma."
+  we_call_for_mandatory_disclosure_of_data_on_lowest: "Követeljük, hogy legyen kötelező a kifizetett legalacsonyabb bér (juttatások és prémiumok nélkül) nyilvánossá tétele gyártóországra és beszállítóra levetítve, nőkre és férfiakra, bevándorló munkásokra, és az egyes foglalkoztatási típusokra vonatkozóan, a teljes beszállítói láncot illetően."
+  we_call_to_advance_human_rights_due_diligence: "Követeljük az emberi jogi átvilágítás beemelését az EU-s jogszabályokba: a cégeknek legyen kötelező tiszteletben tartaniuk az emberi jogokat. Ebbe beletartozik az emberi jogok területén biztosítandó kellő gondosság alapú átvilágítás, szem előtt tartva az esetleges kockázatokat és jogsértéseket a teljes beszállítói láncot illetően, a „senkit sem hagyunk magára” alapelvvel összhangban."
+  we_call_to_set_in_place_an_information_system_for: "Követeljük a ruhacégekre vonatkozó egységes tájékoztató rendszer létrehozását: ebben az adatbázisban tegyék nyilvánossá az egyes gyárakkal és a teljes gyártási folyamattal kapcsolatos legfontosabb adatokat világos, rendszerezett és rendszeres módon. Az adatbázist a nyílt adatokra (nem személyes adatok) vonatkozó szabvány szerint dolgozzák ki; az adatbázisban legyenek elérhetőek a fentebb leírt adatok minden érdeklődő számára."
+  we_call_for_increased_transparency_at_product: "Követeljük az átlátható gyártási folyamatokat, a fogyasztók alapos tájékoztatását! A termékcímkén szerepeljen a termék gyártására és életciklusára vonatkozó információ is!"
+  see: "Ezekről"
+  our_website: "a követelésekről"
+  for_more_information_on_these_demands: "a követelésekről"
+  fashion: "Fashion"
+  checker: "Checker"
+  coming_soon: "Coming Soon"
+  explore: "Nézz az"
+  the_data: "adatok mögé!"
+  are_the_people_who_make_your_clothes_paid_enough_t: "Vajon tisztességesen megfizetik azokat az embereket, akik a ruhádat készítették?"
+  find_out_which_apparel_and_footwear_brands_pay_the: "Nézz utána, mely ruha- és cipőmárka biztosítja dolgozóinak a tisztességes megélhetést biztosító munkabért!"
+  country: "Country"
+  eu_disclaimer: "This website was created and maintained with the financial support of the European Union. Its contents are the sole responsibility of Clean Clothes Campaign and do not necessarily reflect the views of the European Union."
+  tweet_the_brand: "Tweeteld a márkát"
+  menu_resources: "Anyagok"
+  reports: "Kutatási jelentések"
+  living_wage: "A TISZTESSÉGES MEGÉLHETÉST BIZTOSÍTÓ BÉR"
+  power_dynamics: "Hatalmi dinamikák"
+  podcasts: "Podcast"
+  videos: "videók"
+  who_we_are: "Rólunk"
+  methodology: "Módszertan"
+  see_full_profiles: "Nézd meg teljes márkaprofilt"
+  minimum_wage: "Minimum Wage"
+  food: "Food"
+  housing: "Housing"
+  health_care: "Health care"
+  education: "Education"
+  clothing: "Clothing"
+  transportation: "Transportation"
+  savings: "Savings"
+  website_powered_by: "Website powered by"
+  privacy_policy: "Privacy Policy"
+  all_rights_reserved: "All rights reserved"
+  design_by: "Design by"
+  new: "new"
+  exploitation_made_in_europe: "Exploitation: made in Europe"
+  tailored_wages: "Tailored wages"
+  corporate_commitments_to_living_wages: "Corporate Commitments to Living Wages in the Garment Industry"
+  turn_around_h_m: "Turn around H&M"
+  europe_s_sweatshops: "Europe’s sweatshops"
+  presentation: "(presentation)"
+  a_sewing_kit_for_a_living_wage: "A Sewing Kit For A Living Wage"
+  oxfam_australia: "Oxfam Australia"
+  fashion_focus_the_fundamental_right: "Fashion Focus: The Fundamental Right To A Living Wage"
+  the_circle: "The Circle"
+  fashion_s_next_trend: "Fashion’s Next Trend: Accelerating Supply Chain Transparency in the Garment and Footwear Industry"
+  go_transparent: "#GoTransparent"
+  surge_in_garment_industry_transparency: "Surge in Garment Industry Transparency: Laws Needed to Ensure Companies Adopt Human Rights Practices"
+  wrc: "WRC"
+  fig_leaf_for_fashion: "Fig leaf for Fashion: How social auditing protects brands and fails workers"
+  follow_the_thread: "Follow the Thread. The Need for Supply Chain Transparency in the Garment and Footwear Industry"
+  the_transparency_pledge_the_apparel_and_footwear: "The transparency pledge: The apparel and footwear supply chain transparency pledge."
+  global_wage_report_2018_19: "Global Wage Report 2018/19 - What lies behind gender pay gaps"
+  ilo: "ILO"
+  will_women_workers_benefit_from_living_wages: "Will women workers benefit from living wages?"
+  christa_luginbuhl: "Christa Luginbühl"
+  despite_progress_gender_based_violence: "Despite progress gender-based violence and harassment is still a reality for global garment workers"
+  promoting_gender_equality_in_garment_industry: "Promoting gender equality in garment industry"
+  better_work: "Better Work"
+  gender_pay_gaps_in_the_garment_textile_footwear: "Gender pay gaps in the garment, textile and footwear sector in developing Asia"
+  garment_supply_chains_in_intensive_care: "Garment supply chains in intensive care"
+  ecchr: "ECCHR"
+  two_crises_one_flawed_supply_chain_model: "Two crises, one flawed supply chain model: How the imbalance of power in global supply chains harms workers"
+  the_emperor_has_no_clothes_garment_supply_chains: "The emperor has no clothes: Garment supply chains in the time of pandemic."
+  asia_floorwage_alliance: "Asia floorwage alliance"
+  global_capitalism_is_the_new_colonialism: "Global Capitalism Is the New Colonialism for Workers, and They Are Resisting"
+  truth_out: "Truth Out"
+  fashion_critical_with_lucy_siegle_and_livia_firth: "Fashion Critical with Lucy Siegle and Livia Firth"
+  episode_2_with_christie_medima_from_ccc_io: "Episode 2 With Christie Medima from CCC IO"
+  the_problem_with_social_audits: "The problem with social audits"
+  esg_insider: "ESG Insider"
+  ethical_consumer_we_need_to_stop_buying: "Ethical Consumer - We need to stop buying new clothes!"
+  with_bel_jacobs: "with Bel Jacobs, Fashion Editor of the Metro turned XR Boycott Fashion activist"
+  living_wage_now_documentary_trailor: "Living wage now documentary trailor."
+  the_ugly_truth_of_fast_fashion: "The Ugly Truth Of Fast Fashion"
+  fast_fashion_is_disgusting: "Fast fashion is disgusting"
+  haute_le_mode: "Haute le mode"
+  patriot_act_with_hasan_minhaj: "Patriot Act with Hasan Minhaj | Netflix"
+  the_importance_of_sustainability_ethics_in_fashion: "The Importance Of SUSTAINABILITY & ETHICS In Fashion"
+  the_fashion_archive: "The Fashion Archive"
+  ending_gender_based_violence: "Ending Gender-Based Violence in the Garment Industry"
+  global_fund_for_women: "Global Fund for Women"
+  five_business_practices: "5 Business Practices Many Major Clothing Brands Use that Hurt Workers"
+  human_rights_watch: "Human rights watch"
+  menu_explore_the_data: "Explore the Data"
+  resources: "Resources"
+  lw_c_50_plausible_notpublic: >
+    The brand claims that 50% or more of its supplier factories are paying a living wage to all their workers, some plausible explanation is given, but the evidence is not public. Which means many of the workers making their clothes do not earn enough to live on.
+  lw_d_25_public: >
+    The brand claims that between 1 and 25% of supplier factories in the company’s supply chain pay workers a living wage. This is public information. The majority of workers in the brand’s supply chain do not earn enough to live on."
+  lw_d_started: >
+    The company claims that it has started contributing towards a living wage by paying higher prices factories in its supply chain but these prices still do not cover labour costs. Which means the majority of the workers making their clothes do not earn enough to live on.
+  lw_e_noclaim_notpublic: >
+    The brand makes no claim and no public evidence was found that its suppliers are paying a living wage. Which means the brand cannot prove that the workers making their clothes do earn enough to live on.
+  lw_e_noevidence: >
+    There was no evidence found on the brand’s claims that it pays a living wage and no plausible explanation was given. Which means the brand cannot prove that the workers making their clothes do earn enough to live on.
+  transp_none: >
+    This brand provides no information on the supplier factories and garment workers in its supply chain which is required by the transparency pledge.
+  transp_partial: >
+    This brand provides some, but not enough information on the supplier factories and garment workers in its supply chain.
+  transp_partial_additional: >
+    This brand provides some information beyond the basics, but falls short of the minimum needed for the transparency pledge.
+  transp_partial_additional_machinereadable: >
+    This brand provides some information beyond the basics, in a practical, machine-readable format, but but falls short of the minimum needed for the transparency pledge.
+  transp_partial_machinereadable: >
+    This brand provides some, but not enough information on the factories and garment workers in its supply chain - it publishes in a practical, machine-readable format.
+  transp_pledge: >
+    This brand provides basic information like factory names and addresses, product type, number of workers, and supplier group, if the factory is part of a larger entity.
+  transp_pledge_additional: >
+    This brand provides information beyond the basics such as the gender composition of the workforce, if there is a union or if there is a collective bargaining agreement in place.
+  transp_pledge_additional_machinereadable: >
+    This brand provides information beyond the basics in a practical, machine-readable format such as Excel spreadsheets which makes the data usable for others.
+  transp_pledge_machinereadable: >
+    This brand provides basic information in a practical, machine-readable format such as Excel spreadsheets which makes the data usable for others.
+
+  partners: "Partners"
+  we_never_saw_data_about_brands_payments_what_price: >
+    "We never saw data about brands’ payments, what prices they really pay.Our director always says that we are at a loss.According to him, we should work even more. He tells us that we are drones, a bunch of goof-offs."
+  click_to_read_more: "click<br/>to read<br/>more"
