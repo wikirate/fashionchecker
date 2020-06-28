@@ -563,3 +563,33 @@ main {
 .result-container {
   min-height: 300px;
 }
+.card-face:hover {
+  border: 1px solid $yellow;
+  opacity: 0.9;
+}
+.living-wage-table {
+  position: relative;
+}
+.living-wage-header {
+  position: sticky;
+  top: 76px;
+  z-index: 12;
+  background: $navy;
+}
+.click-circle {
+  border-radius: 50%;
+  background-color: $yellow;
+  height: 75px;
+  width: 75px;
+  font-size: 0.8em;
+  color: $navy;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 10px;
+  top: 90px;
+  text-align: center;
+  z-index: 13;
+}

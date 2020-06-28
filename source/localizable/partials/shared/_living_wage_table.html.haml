@@ -1,5 +1,5 @@
 
-.navy-bg.px-5.py-4.mt-4
+.navy-bg.px-5.py-4.mt-4.living-wage-table
   .living-wage-header
     .row
       .col-sm-12
@@ -12,6 +12,8 @@
       .col-md-6.text-center
         %h6
           = t('living_wage')
+  .click-circle
+    = t('click_to_read_more')
   = compare 'food', %i[rice], %i[fish rice apple banana]
   = compare 'housing', %i[double_bed wall], %i[single_bed screwer toilet cable ventilator]
   = compare 'health_care', %i[pills], %i[menstrual_pad medicine soap ambulance]
