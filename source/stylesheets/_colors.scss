@@ -17,36 +17,57 @@ $sky-blue: #5a6fb7;
 .food {
   fill: #fdbf41;
   color: #fdbf41;
+  .card-face:hover {
+    border: 1px solid #fdbf41;
+  }
 }
 
 .housing {
   fill: $orange;
   color: $orange;
+  .card-face:hover {
+    border: 1px solid $orange;
+  }
 }
 
 .health_care {
   fill: $fuchsia;
   color: $fuchsia;
+  .card-face:hover {
+    border: 1px solid $fuchsia;
+  }
 }
 
 .education {
   fill: #8774db;
   color: #8774db;
+  .card-face:hover {
+    border: 1px solid #8774db;
+  }
 }
 
 .clothing {
   fill: #4493d0;
   color: #4493d0;
+  .card-face:hover {
+    border: 1px solid #4493d0;
+  }
 }
 
 .transportation {
   fill: #01b5a6;
   color: #01b5a6;
+  .card-face:hover {
+    border: 1px solid #01b5a6;
+  }
 }
 
 .savings {
   fill: #62ac5b;
   color: #62ac5b;
+  .card-face:hover {
+    border: 1px solid #62ac5b;
+  }
 }
 
 $table-color: $medium-grey;
