@@ -9,10 +9,10 @@ it:
     Una giusta retribuzione sul lavoro è un diritto umano fondamentale 
     ma fra i più grandi marchi della moda 
     non ce n’è uno che paga salari vivibili.
-  read_more_living_wages: "Maggiori informazioni sul salario dignitoso"
+  read_more_living_wages: "Maggiori informazioni sul salario dignitoso."
   difference_question: >
     Che differenza c'è tra guadagnare un salario vivibile e un salario minimo?
-  end: "Fine"
+  end: "Basta"
   gendered_pay: "Salario di genere"
   gendered_pay_info: >
    L’80% di chi lavora nell’abbigliamento sono donne. Di regola, sono pagate meno dei loro colleghi uomini. 
@@ -230,7 +230,7 @@ it:
   the_bottom_of_the_supply_chain: "L’anello più debole della catena di fornitura"
   we_want_brands_to_ask_suppliers_where: >
     Vogliamo che i marchi chiedano ai fornitori come sono collocate le donne e la forza lavoro migrante e quali sono i salari più bassi. Ciò fornirà un quadro molto più chiaro degli squilibri di potere nelle loro filiere, il primo passo per apportare miglioramenti.
-  worker_unions: ●	Presenza di rappresentanza sindacale."
+  worker_unions: "Presenza di rappresentanza sindacale."
   we_want_brands_to_ask_suppliers_if: >
     Vogliamo che i marchi chiedano ai fornitori se le loro fabbriche hanno sindacati o comitati di lavoratori. Il più delle volte non abbiamo idea se le persone che fanno i nostri vestiti abbiano una voce. Vogliamo maggiori informazioni sulle relazioni di potere nella filiera di produzione.
   readable_data: "Leggibilità dei dati."
@@ -341,7 +341,7 @@ it:
     “Non ci è mai permesso di tornare a casa se non abbiamo raggiunto l'obiettivo.”
   we_want_brands_to_do_more_to_support: >
     Vogliamo che i marchi facciano di più per supportare i lavoratori nella loro catena di approvvigionamento. La raccolta di dati sui sindacati e sui comitati dei lavoratori fornirà un quadro più chiaro delle cause e delle conseguenze delle violazioni dei diritti umani nella produzione di abbigliamento e abbigliamento sportivo.
-  foa: "FOA"
+  foa: "libertà sindacale"
   i_have_problems_with_my_stomach: >
     "Ho problemi allo stomaco. Mi hanno dovuto operare a causa della malnutrizione ed ora devo stare attento alla mia dieta. Ma non posso permettermi un pasto di qualità. I dolci che ci portano sono fatti con farine di scarto."
   women_can_be_made_to_dance: >
@@ -458,7 +458,7 @@ it:
     Ogni aiuto è importante. Questo denaro verrà utilizzato per la manutenzione del sito,
   future_research_and_translations_of_our_data: "per ricerche future e per le traduzioni."
   donate: "Dona"
-  of_surveyed_brands_aren_t_paying_garment_workers: "of surveyed brands aren't paying garment workers a living wage"
+  of_surveyed_brands_aren_t_paying_garment_workers: "dei marchi intervistati non sta pagando alle lavoratrici salari dignitosi"
   want_to_help_workers_fight_for: "Vuoi aiutare i lavoratori e le lavoratrici ad ottenere"
   better_working_conditions: "migliori condizioni di lavoro?"
   twitter_storm: "Twitter storm"
@@ -571,99 +571,98 @@ it:
   videos: "Video"
   who_we_are: "Chi siamo"
   methodology: "Metodologia"
-  see_full_profiles: "See the full brand profiles"
-  minimum_wage: "Minimum Wage"
-  food: "Food"
-  housing: "Housing"
-  health_care: "Health care"
-  education: "Education"
-  clothing: "Clothing"
-  transportation: "Transportation"
-  savings: "Savings"
-  website_powered_by: "Website powered by"
-  privacy_policy: "Privacy Policy"
-  all_rights_reserved: "All rights reserved"
-  design_by: "Design by"
-  new: "new"
-  exploitation_made_in_europe: "Exploitation: made in Europe"
-  tailored_wages: "Tailored wages"
-  corporate_commitments_to_living_wages: "Corporate Commitments to Living Wages in the Garment Industry"
+  see_full_profiles: "Guarda le schede complete dei brand”
+  minimum_wage: "Salario minimo"
+  food: "Cibo"
+  housing: "Casa"
+  health_care: "Assistenza sanitaria"
+  education: "Istruzione"
+  clothing: "Vestiario"
+  transportation: "Trasporti"
+  savings: "Risparmi"
+  website_powered_by: "Sito realizzato da"
+  privacy_policy: "Informativa privacy"
+  all_rights_reserved: "Tutti i diritti riservati"
+  design_by: "Disegnato da"
+  new: "nuovo"
+  exploitation_made_in_europe: "L’Europa dello sfruttamento"
+  tailored_wages: "Salari su misura"
+  corporate_commitments_to_living_wages: "Impegno societario sul salario vivibile nell’industria della moda"
   turn_around_h_m: "Turn around H&M"
   europe_s_sweatshops: "Europe’s sweatshops"
-  presentation: "(presentation)"
-  a_sewing_kit_for_a_living_wage: "A Sewing Kit For A Living Wage"
+  presentation: "presentazione"
+  a_sewing_kit_for_a_living_wage: "Salari su misura"
   oxfam_australia: "Oxfam Australia"
-  fashion_focus_the_fundamental_right: "Fashion Focus: The Fundamental Right To A Living Wage"
-  the_circle: "The Circle"
-  fashion_s_next_trend: "Fashion’s Next Trend: Accelerating Supply Chain Transparency in the Garment and Footwear Industry"
+  fashion_focus_the_fundamental_right: "Focus: il diritto fondamentale al salario vivibile"
+  the_circle: "Il Circolo"
+  fashion_s_next_trend: "Ultime tendenze nella moda: Accelerare la trasparenza nel settore dell’abbigliamento e calzature"
   go_transparent: "#GoTransparent"
   surge_in_garment_industry_transparency: "Surge in Garment Industry Transparency: Laws Needed to Ensure Companies Adopt Human Rights Practices"
   wrc: "WRC"
-  fig_leaf_for_fashion: "Fig leaf for Fashion: How social auditing protects brands and fails workers"
-  follow_the_thread: "Follow the Thread. The Need for Supply Chain Transparency in the Garment and Footwear Industry"
-  the_transparency_pledge_the_apparel_and_footwear: "The transparency pledge: The apparel and footwear supply chain transparency pledge."
-  global_wage_report_2018_19: "Global Wage Report 2018/19 - What lies behind gender pay gaps"
-  ilo: "ILO"
-  will_women_workers_benefit_from_living_wages: "Will women workers benefit from living wages?"
+  fig_leaf_for_fashion: "La foglia di fico della moda: come l'auditing sociale protegge i marchi a danno dei lavoratori”
+  follow_the_thread: "Segui il filo: alla ricerca della trasparenza di filiera nell’industria dell’abbigliamento e delle calzature”
+  the_transparency_pledge_the_apparel_and_footwear: "Il Transparency Pledge e la filiera dell’industria dell’abbigliamento e delle calzature” 
+  global_wage_report_2018_19: "Report sui salari globali 2018/19 - Cosa c’è dietro la differenza salariale di genere”
+  ilo: "OIL”
+  will_women_workers_benefit_from_living_wages: "Le lavoratrici beneficeranno del salario vivibile?"
   christa_luginbuhl: "Christa Luginbühl"
-  despite_progress_gender_based_violence: "Despite progress gender-based violence and harassment is still a reality for global garment workers"
-  promoting_gender_equality_in_garment_industry: "Promoting gender equality in garment industry"
-  better_work: "Better Work"
-  gender_pay_gaps_in_the_garment_textile_footwear: "Gender pay gaps in the garment, textile and footwear sector in developing Asia"
-  garment_supply_chains_in_intensive_care: "Garment supply chains in intensive care"
-  ecchr: "ECCHR"
-  two_crises_one_flawed_supply_chain_model: "Two crises, one flawed supply chain model: How the imbalance of power in global supply chains harms workers"
-  the_emperor_has_no_clothes_garment_supply_chains: "The emperor has no clothes: Garment supply chains in the time of pandemic."
-  asia_floorwage_alliance: "Asia floorwage alliance"
-  global_capitalism_is_the_new_colonialism: "Global Capitalism Is the New Colonialism for Workers, and They Are Resisting"
-  truth_out: "Truth Out"
-  fashion_critical_with_lucy_siegle_and_livia_firth: "Fashion Critical with Lucy Siegle and Livia Firth"
-  episode_2_with_christie_medima_from_ccc_io: "Episode 2 With Christie Medima from CCC IO"
-  the_problem_with_social_audits: "The problem with social audits"
+  despite_progress_gender_based_violence: "Nonostante i progressi la violenza di genere e le molestie sono ancora una realtà per molte lavoratrici tessili in tutto il mondo” 
+  promoting_gender_equality_in_garment_industry: "Promuovere l’eguaglianza di genere nell’industria della moda"
+  better_work: "Un lavoro migliore"
+  gender_pay_gaps_in_the_garment_textile_footwear: "La differenza salariale di genere nell’industria dell’abbigliamento e calzature nei paesi asiatici in via di sviluppo”
+  garment_supply_chains_in_intensive_care: "Le filiere globali della moda in terapia intensiva”   ecchr: "ECCHR"
+  two_crises_one_flawed_supply_chain_model: "Due crisi, una filiera intrinsecamente sbagliata: ecco come la diseguaglianza di potere danneggia i lavoratori”
+  the_emperor_has_no_clothes_garment_supply_chains: "Il re è nudo: la filiera della moda in tempo di pandemia”
+  asia_floorwage_alliance: "Alleanza asiatica per il salario vivibile"
+  global_capitalism_is_the_new_colonialism: "Il capitalismo globale è il nuovo colonialismo per i lavoratori, e stanno resistendo” 
+  truth_out: "Vogliamo la verità "
+  fashion_critical_with_lucy_siegle_and_livia_firth: "Fashion Critical con Lucy Siegle e Livia Firth"
+  episode_2_with_christie_medima_from_ccc_io: "Secondo episodio con Christie Medima dell’ufficio internazionale della Campagna abiti puliti"
+  the_problem_with_social_audits: "Il problema con i social audits"
   esg_insider: "ESG Insider"
-  ethical_consumer_we_need_to_stop_buying: "Ethical Consumer - We need to stop buying new clothes!"
-  with_bel_jacobs: "with Bel Jacobs, Fashion Editor of the Metro turned XR Boycott Fashion activist"
-  living_wage_now_documentary_trailor: "Living wage now documentary trailor."
-  the_ugly_truth_of_fast_fashion: "The Ugly Truth Of Fast Fashion"
-  fast_fashion_is_disgusting: "Fast fashion is disgusting"
-  haute_le_mode: "Haute le mode"
-  patriot_act_with_hasan_minhaj: "Patriot Act with Hasan Minhaj | Netflix"
-  the_importance_of_sustainability_ethics_in_fashion: "The Importance Of SUSTAINABILITY & ETHICS In Fashion"
-  the_fashion_archive: "The Fashion Archive"
-  ending_gender_based_violence: "Ending Gender-Based Violence in the Garment Industry"
-  global_fund_for_women: "Global Fund for Women"
-  five_business_practices: "5 Business Practices Many Major Clothing Brands Use that Hurt Workers"
+  ethical_consumer_we_need_to_stop_buying: "Consumo etico - Dobbiamo smetterla di comprare nuovi vestiti!"
+  with_bel_jacobs: "con Bel Jacobs, Fashion Editor del Metro turned XR Boycott Fashion activist"
+  living_wage_now_documentary_trailor: "Trailer documentario “Salari vivibili ora”."
+  the_ugly_truth_of_fast_fashion: "La trieste verità della fast fashion"
+  fast_fashion_is_disgusting: "La fast fashion è disgustosa"
+  haute_le_mode: "Alta moda"
+  patriot_act_with_hasan_minhaj: "Patriot Act con Hasan Minhaj | Netflix"
+  the_importance_of_sustainability_ethics_in_fashion: "L’importanza della sostenibilità e dell’etica nella moda”
+  the_fashion_archive: "L'archivio della moda” 
+  ending_gender_based_violence: "Stop alla violenza di genere nell’industria della moda” 
+  global_fund_for_women: "Fondo globale per le donne"
+  five_business_practices: "5 comportamenti dei grossi brand che danneggiano i lavoratori” 
   human_rights_watch: "Human rights watch"
   menu_explore_the_data: "Consulta i dati"
   resources: "Resources"
   lw_c_50_plausible_notpublic: >
-    The brand claims that 50% or more of its supplier factories are paying a living wage to all their workers, some plausible explanation is given, but the evidence is not public. Which means many of the workers making their clothes do not earn enough to live on.
+    Il brand dichiara che più del 50% dei propri fornitori paga un salario vivibile a tutti i lavoratori, fornisce alcune spiegazioni plausibili, ma non ci sono prove pubblicamente disponibili. Ciò significa che molti lavoratori della filiera del brand non guadagnano abbastanza per vivere.
   lw_d_25_public: >
-    The brand claims that between 1 and 25% of supplier factories in the company’s supply chain pay workers a living wage. This is public information. The majority of workers in the brand’s supply chain do not earn enough to live on."
+    Il brand dichiara che fra l’1% e il 25% dei fornitori della propria filiera pagano salari vivibili ai propri lavoratori. Questa informazione è pubblicamente disponibile. La maggioranza dei lavoratori che producono i vestiti per suo conto non guadagna abbastanza per vivere.
   lw_d_started: >
-    The company claims that it has started contributing towards a living wage by paying higher prices factories in its supply chain but these prices still do not cover labour costs. Which means the majority of the workers making their clothes do not earn enough to live on.
+    Il brand dichiara di avere intrapreso un programma per il salario vivibile, mediante il pagamento di prezzi più alti ai fornitori della propria filiera, ma tali prezzi comunque non coprono il costo del lavoro. Ciò significa che il brand non può dimostrare che la maggioranza dei lavoratori che producono i vestiti per suo conto guadagna abbastanza per vivere.
   lw_e_noclaim_notpublic: >
-    The brand makes no claim and no public evidence was found that its suppliers are paying a living wage. Which means the brand cannot prove that the workers making their clothes do earn enough to live on.
+    Il brand non ha fatto dichiarazioni e non vi sono prove del fatto che i suoi fornitori paghino salari vivibili. Ciò significa che il brand non può dimostrare che i lavoratori che producono i vestiti per suo conto guadagnano abbastanza per vivere.
   lw_e_noevidence: >
-    There was no evidence found on the brand’s claims that it pays a living wage and no plausible explanation was given. Which means the brand cannot prove that the workers making their clothes do earn enough to live on.
+    Non sono state trovate prove né spiegazioni plausibili a sostegno delle affermazioni del brand sul pagamento di salari vivibili. Ciò significa che il brand non può dimostrare che i lavoratori che producono i vestiti per suo conto guadagnano abbastanza per vivere.
   transp_none: >
-    This brand provides no information on the supplier factories and garment workers in its supply chain which is required by the transparency pledge.
+    Questo brand non fornisce alcuna informazione sui propri fornitori e sui lavoratori della filiera, come richiede il Transparency pledge.
   transp_partial: >
-    This brand provides some, but not enough information on the supplier factories and garment workers in its supply chain.
+    Questo brand fornisce alcune, ma non tutte le informazioni sui propri fornitori e sui lavoratori della filiera.
   transp_partial_additional: >
-    This brand provides some information beyond the basics, but falls short of the minimum needed for the transparency pledge.
+    Questo brand fornisce alcune informazioni aggiuntive rispetto al minimo, ma comunque in quantità inferiore a quanto richiesto dal Transparency pledge.
   transp_partial_additional_machinereadable: >
-    This brand provides some information beyond the basics, in a practical, machine-readable format, but but falls short of the minimum needed for the transparency pledge.
+    Questo brand fornisce alcune informazioni aggiuntive sui propri fornitori e sui lavoratori della filiera, ma comunque in quantità inferiore a quanto richiesto dal Transparency pledge.
   transp_partial_machinereadable: >
-    This brand provides some, but not enough information on the factories and garment workers in its supply chain - it publishes in a practical, machine-readable format.
+    Questo brand fornisce alcune informazioni sui fornitori e sui lavoratori della propria filiera, pubblicate in formato leggibile da un computer.
   transp_pledge: >
-    This brand provides basic information like factory names and addresses, product type, number of workers, and supplier group, if the factory is part of a larger entity.
+    Questo brand fornisce alcune informazioni di base quali i nomi e gli indirizzi dei fornitori, il tipo di capo prodotto, il numero di lavoratori, e informazioni sulla casa madre nel caso in cui il fornitore sia parte di un gruppo societario.
   transp_pledge_additional: >
-    This brand provides information beyond the basics such as the gender composition of the workforce, if there is a union or if there is a collective bargaining agreement in place.
+    Questo brand fornisce informazioni aggiuntive rispetto al minimo, quali la composizione per genere della forza lavoro, la presenza di sindacati o di accordi di contrattazione collettiva.
   transp_pledge_additional_machinereadable: >
-    This brand provides information beyond the basics in a practical, machine-readable format such as Excel spreadsheets which makes the data usable for others.
+    Questo brand fornisce informazioni aggiuntive rispetto al minimo, in un formato leggibile dal computer quale ad esempio un foglio Excel, e ciò permette ai terzi di utilizzarle.
   transp_pledge_machinereadable: >
-    This brand provides basic information in a practical, machine-readable format such as Excel spreadsheets which makes the data usable for others.
+    Questo brand fornisce informazioni minime in un formato leggibile dal computer, e ciò permette ai terzi di utilizzarle.
 
   partners: "Partners"
   we_never_saw_data_about_brands_payments_what_price: >
