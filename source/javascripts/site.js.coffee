@@ -21,9 +21,9 @@ $(document).ready ->
     if (selected.length > 0)
       company_id = selected[0].id
       if $(this).data("redirect")?
-        window.location.href = "./brand-profile.html?q=#{company_id}"
+        redirectBrandSearch company_id
       else
-        loadBrandInfo(company_id)
+        loadBrandInfo company_id
 
   $("body").on 'shown.bs.collapse', ".collapse", ->
     updateSuppliersTable($(this))
@@ -32,6 +32,15 @@ $(document).ready ->
     $(this).toggleClass("flipped")
 
   params = new URLSearchParams(window.location.search)
+
+  redirectBrandSearch = (company_id) ->
+    href = "/brand-profile.html?q=#{company_id}"
+    current = window.location.href
+    if /(\/$|html)/.test current
+      prefix = "."
+    else
+      prefix = current
+    window.location.href = prefix + href
 
   unless params.get('embed-info') == "show"
     $("._embed-info").hide()
