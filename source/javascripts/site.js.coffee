@@ -21,7 +21,7 @@ $(document).ready ->
     if (selected.length > 0)
       company_id = selected[0].id
       if $(this).data("redirect")?
-        window.location.href = "/brand-profile.html?q=#{company_id}"
+        window.location.href = "./brand-profile.html?q=#{company_id}"
       else
         loadBrandInfo(company_id)
 
