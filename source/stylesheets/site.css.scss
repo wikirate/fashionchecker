@@ -379,11 +379,11 @@ input {
 }
 .at_machines_bg {
   background-image: linear-gradient(
-                  to right,
-                  #333 0%,
-                  rgba(255, 255, 255, 0) 80%
-  ),
-  url("/images/transparency/at_machines_bg.png");
+      to right,
+      #333 0%,
+      rgba(255, 255, 255, 0) 80%
+    ),
+    url("/images/transparency/at_machines_bg.png");
 }
 
 @import "living_wage_table";
@@ -447,7 +447,7 @@ input {
   &:after {
     position: absolute;
     background: $orange;
-    content: '';
+    content: "";
     transform: skewY(3deg);
     min-height: 150px;
     top: -100px;
@@ -456,10 +456,10 @@ input {
   }
   .trio-text {
     position: absolute;
-    width: 250px;
+    width: 300px;
     color: #fff;
     font-size: 1.5em;
-    top: 200px;
+    top: 100px;
   }
 }
 
@@ -507,10 +507,10 @@ main {
     width: 26%;
   }
   &.stack-2 {
-    width: 39%
+    width: 39%;
   }
   &.stack-3 {
-    width: 29%
+    width: 29%;
   }
 }
 .voice-has-power {
@@ -532,9 +532,10 @@ main {
   padding: 3px;
 }
 
-.skew-left, .skew-right {
+.skew-left,
+.skew-right {
   position: relative;
-  z-index: 3
+  z-index: 3;
 }
 .skew-right {
   transform: skewY(5deg);
@@ -542,7 +543,8 @@ main {
 .skew-left {
   transform: skewY(-5deg);
 }
-.top-extender, .bottom-extender {
+.top-extender,
+.bottom-extender {
   position: relative;
   &:after {
     position: absolute;
@@ -563,7 +565,8 @@ main {
 .bottom-extender.extra-extender:after {
   bottom: -200px;
 }
-#footer, .high-z {
+#footer,
+.high-z {
   position: relative;
   z-index: 10;
 }
@@ -622,4 +625,3 @@ main {
     padding: 0;
   }
 }
-
