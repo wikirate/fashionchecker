@@ -1,0 +1,25 @@
+%body
+  %script
+    = score_translation_script
+  %main.embed-main.brand{:role => "main"}
+    = section :red do
+      .row
+        .col-sm-12.d-flex.justify-content-center
+          .narrow.d-flex.flex-wrap.justify-content-center
+            .text-center
+              %p.lead.pt-3.font-weight-bolder
+                = t('are_the_people_who_make_your_clothes_paid_enough_t')
+              %p.lead.font-weight-lighter
+                = t('find_out_which_apparel_and_footwear_brands_pay_the')
+            =brand_profile_partial :search, locals: { redirect: true }
+
+    .top-extender.red-bg
+      &nbsp;
+
+    .blue-bg.skew-left
+      .container-fluid.skew-right
+        .container.py-5.result-container
+          = brand_profile_partial :result
+          &nbsp;
+
+    .bottom-extender.blue-bg

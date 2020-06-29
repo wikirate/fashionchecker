@@ -478,7 +478,11 @@ input {
 }
 main {
   margin-top: 76px;
+  &.embed-main {
+    margin-top: 0;
+  }
 }
+
 
 .resource {
   line-height: 1.4em;
