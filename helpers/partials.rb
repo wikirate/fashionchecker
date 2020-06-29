@@ -3,7 +3,7 @@ module Partials
 
   SCORE_KEYS = %i[
      lw_c_50_plausible_notpublic
-     lw_c_50_plausible_notpublic
+     lw_d_25_public
      lw_d_started
      lw_e_noclaim_notpublic
      lw_e_noevidence
