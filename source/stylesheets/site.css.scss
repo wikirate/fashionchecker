@@ -599,3 +599,27 @@ main {
   text-align: center;
   z-index: 13;
 }
+
+.partner-links {
+  a {
+    width: 100%;
+    padding: 2em 0.3em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    img {
+      max-height: 80px;
+      max-width: 100%;
+    }
+  }
+}
+
+@include media-breakpoint-up(sm) {
+  .social-media-links {
+    justify-content: end;
+    padding: 0;
+  }
+}
+

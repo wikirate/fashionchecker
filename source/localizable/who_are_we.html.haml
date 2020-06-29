@@ -34,14 +34,18 @@
     = section "light-grey" do
       %h3.text-center
         = t('partners')
-      .py-3.d-flex.partner-links.justify-content-between.align-items-center
-        %a{ href: "https://decko.org" }
-          %img{ src:"/images/who_are_we/decko.png" }
-        %a{ href: "https://semcon.com" }
-          %img{ src:"/images/who_are_we/semcon.png" }
-        %a{ href: "https://wageindicator.org" }
-          %img{ src:"/images/who_are_we/wage_indicator.png" }
-        %a{ href: "https://wikirate.org" }
-          %img{ src:"/images/who_are_we/wikirate.png" }
+      .py-3.row.partner-links
+        .col-sm-2
+          %a{ href: "https://decko.org" }
+            %img{ src:"/images/who_are_we/decko.png" }
+        .col-sm-4
+          %a{ href: "https://semcon.com" }
+            %img{ src:"/images/who_are_we/semcon.png" }
+        .col-sm-4
+          %a{ href: "https://wageindicator.org" }
+            %img{ src:"/images/who_are_we/wage_indicator.png" }
+        .col-sm-2
+          %a{ href: "https://wikirate.org" }
+            %img{ src:"/images/who_are_we/wikirate.png" }
 
     = partial "partials/shared/footer"
