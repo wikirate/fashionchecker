@@ -1,0 +1,693 @@
+hr:
+  header_question_1: "Jesu li ljudi koji proizvode tvoju odjeću"
+  header_question_2: "plaćeni dovoljno za život?"
+  find_out: "Saznaj koji odjevni i obućarski brendovi svojim radnicima isplaćuju dostojanstvenu plaću."
+  living_wages: "Za Dostojanstvene"
+  not_poverty_wages: "Ne sirotinjske plaće"
+  living_wages_info: >
+    Većina odjevnih radnika ne može priuštiti osnovne životne potrepštine. 
+    Pravedna plaća za rad temeljno je ljudsko pravo, 
+    no niti jedan od najvećih modnih brendova odjevnim radnicima ne isplaćuje 
+    plaće od kojih mogu živjeti.
+  read_more_living_wages: "Pročitajte više o plaćama za život"
+  difference_question: >
+    Kakvu razliku čini zarada za život umjesto minimalne plaće?
+  end: "Ukinimo rodno uvjetovane"
+  gendered_pay: "Razlike u plaćama"
+  gendered_pay_info: >
+    80 posto odjevnih radnika čine žene. Obično su plaćene manje od svojih muških kolega. 
+    Rodna nejednakost duboko je ukorijenjena u neuravnoteženu raspodjelu moći unutar industrije,
+    a razlika u plaćama direktno je povezana s verbalnim, fizičkim i seksualnim nasiljem.
+  gender: "Pročitajte više o spolu"
+  resilience: "Otpornost"
+  in_the_face_of_a_crisis: "u vrijeme krize"
+  our_demands: "Naši zahtjevi"
+  resilience_info: >
+    Modni brendovi već desetljećima profitiraju od sirotinjskih plaća, 
+    ostavljajući odjevne radnike bez sigurnosti u neizvjesnim vremenima. 
+    Kriza uzrokovana virusom Covid-19 razotkrila je socijalnu i ekonomsku nejednakost unutar industrije, 
+    osobito zahvaćajući milijune radnika ovisnih o poslovima bez pravne zaštite.
+  your_voice_has_power: "Tvoj glas ima moć"
+  take_action: "Poduzeti"
+  your_voice_info_1: >
+    Tvoja podrška čini naš rad mogućim. 
+    Vrijeme je da brendovi preuzmu odgovornost za živote ljudi koji proizvode našu odjeću. 
+    Imamo moć kao kupci. Kad mi govorimo, oni slušaju. 
+    Pozovi brendove da isplate dostojanstvenu plaću putem hashtaga #LivingWageNow,
+  your_voice_info_2: >
+    kako bi osigurali da se stvori više od proizvoda uz eksploataciju.
+
+  revenue: "prihod (€)"
+  profit: "dobit (€)"
+  top_3_production_countries: "Top 3 proizvodne zemlje"
+  other_brands_owned_by: "Ostale marke u vlasništvu"
+  headquarters: "Zapovjedništvo"
+  owned_by: "u vlasništvu:"
+  search_for_brand: "potražite brend"
+  interested_in_more_information: "Zanima vas više informacija?"
+  check_out: "Provjeri"
+  see_company_profile: "Pogledajte profil tvrtke"
+
+  commitment_score:
+    title: "Rezultat predanosti"
+    public_commitment: "Javno obećanje?"
+    public_commitment_score_1: >
+      Brend nije obećao da će nastojati ostvariti isplatu dostojanstvenih plaća za sve radnike u svom dobavnom lancu.
+    public_commitment_score_2: >
+      Brend se javno obvezao da će isplatiti plaću 
+      “dovoljnu da pokrije osnovne potrebe radnika”, 
+      ali ta plaća ne pokriva troškove obitelji radnika. To nije dostojanstvena plaća.      
+    public_commitment_score_3: >
+      Brend je javno obećao da će nastojati ostvariti isplatu dostojanstvenih plaća za sve radnike u svom dobavnom lancu.
+    action_plan: "Akcijski plan?"
+    action_plan_score_1: >
+      Brend nema plan kako poboljšati niske plaće u svom dobavnom lancu.
+    action_plan_score_2: >
+      Brend ima plan koji nije vremenski ograničen, 
+      a odnosi se samo na dobavljače prvog reda ili su detalji plana nejasni (nisu objavljeni u SMART obliku).
+    action_plan_score_3: >
+      Brend je javno obećao da će nastojati ostvariti isplatu dostojanstvenih 
+      plaća za sve radnike u svom dobavnom lancu.
+    separate_labor_costs_score_1: >
+      Svi brendovi dobavljačima plaćaju iznose koji pokrivaju proizvodnju, slanje robe i trošak rada. 
+      Ovaj brend ne ulaže napor u osiguranje adekvatne isplate za troškove rada.
+    separate_labor_costs_score_2: >
+      Djelomično
+    separate_labor_costs_score_3: >
+      Svi brendovi plaćaju dobavljačima iznose koji pokrivaju proizvodnju, slanje robe i trošak rada. 
+      Brendovi moraju osigurati da trošak rada bude adekvatno plaćen primjenom utvrđene metode izračuna, 
+      razdvajajući ove troškove od ostalih.
+
+    separate_labor_costs: "Razdvajanje troška rada?"
+    desc:
+      score_1: "This brand isn't doing enough to move towards Living Wages
+                in its supply chain."
+      score_2: "Text for score 2"
+      score_3: "Text for score 3"
+
+
+  living_wage_score:
+    title: "Rezultat plaće za život"
+    desc_1:
+      score_5: >
+        100 posto tvornica u dobavnom lancu brenda može isplatiti dostojanstvenu plaću radnicima. 
+        Ova informacija je javna.
+      score_4: >
+        Više od 50 posto tvornica u dobavnom lancu brenda može isplatiti dostojanstvenu plaću radnicima. 
+        Ova informacija je javna.
+      score_3: >
+        Između 26 i 50 posto tvornica u dobavnom lancu brenda može isplatiti dostojanstvenu plaću radnicima. 
+        Ova informacija je javna.
+      score_2: >
+        Modna kompanija tvrdi da je počela raditi na isplati dostojanstvene plaće, plaćajući više cijene tvornicama u svom dobavnom lancu, ali ti iznosi i dalje ne pokrivaju trošak rada.
+      score_1: >
+        Brend nema nikakve javne informacije o dostojanstvenim plaćama.
+
+
+
+    desc_2:
+      score_5: >
+        Radnici koji proizvode odjeću zarađuju dovoljno za život.
+      score_4: >
+        Neki od radnika koji proizvode odjeću za brend ne zarađuju dovoljno za život.
+      score_3: >
+        Većina radnika koji proizvode odjeću za brend ne zarađuje dovoljno za život.
+      score_2: >
+        Većina radnika zaposlenih u dobavnom lancu brenda ne zarađuje dovoljno za život.
+      score_1: >
+        Radnici koji za njih proizvode odjeću ne zarađuju dovoljno za život.
+
+
+  transparency_score:
+    title: "Ocjena transparentnosti"
+    read_more: "Čitaj više"
+    about_why_transparency_is_important: "o tome zašto je transparentnost važna"
+    about_how_this_score_was_calculated: "o tome kako je izračunat ovaj rezultat"
+    what_does_this_mean: "Što to znači?"
+    desc:
+      score_1: "Brend ne objavljuje informacije o tvornicama i odjevnim radnicima zaposlenim u njegovu dobavnom lancu, kako se traži prema Jamstvu transparentnosti."
+      score_2: "Brend objavljuje neke, no ne dovoljno informacija o tvornicama i odjevnim radnicima zaposlenim u njegovu dobavnom lancu, npr. ime tvornice, ali bez adrese."
+      score_3: "Brend objavljuje osnovne informacije poput imena i adrese tvornice, vrste proizvoda, broja radnika i grupe dobavljača ako je tvornica dio veće grupacije"
+      score_4: "Brend objavljuje osnovne informacije u praktičnom, strojno čitljivom formatu poput Excel tablica, što podatke čini upotrebljivim za one koji su zainteresirani."
+      score_5: "Brend objavljuje više informacija od osnovnih u praktičnom, strojno čitljivom formatu poput Excel tablica, što podatke čini upotrebljivim za one koji su zainteresirani."
+
+  suppliers_table:
+    explore_supply_chain: "istražite lanac opskrbe"
+    sourcing_from_factories: "kupnja od tvornica"
+    found: "pronađeno"
+    number_of_workers: "broj radnika"
+    wage: "plaća"
+    workers: "radnici"
+    company: "društvo"
+    female_male_other: "žena/muški/drugo"
+    permanent_temporary: "trajan/privremen"
+    average: "Prosječan"
+    gap: "praznina"
+    have_cba: "Imati CBA"
+    know_brand: "Znajte marku"
+    pregnancy_leave: "dopust za trudnoću"
+  latest: "najnoviji"
+  news: "vijesti"
+  footer_info: "is a campaign by the Clean Clothes Campaign, funded by the European Union"
+  methodology_title: "Metodologija istraživanja"
+  methodology_paragraph_1: >
+    Poslali smo upitnike na adrese više od 90 brendova kako bi im dali priliku da nas informiraju o naporima koje čine prema osiguranju isplate dostojanstvene plaće za sve radnike u dobavnom lancu i objavljivanju njihovih proizvodnih lokacija (ako to nisu učinili kroz Jamstvo transparentnosti). Naglasak stavljamo na iskazivanje napora brendova po pitanju dostojanstvene plaće kroz SMART podatke prikupljene tokom istraživanja, u transparentnom formatu, pristupačnom kupcima, odjevnim radnicima i kreatorima politika. Nadamo se da će zastupljenost brendova na Kontroloru modne industrije dugoročno postati sastavni dio postupka dužne pažnje i zajedničkog standarda izvještavanja (CRS).
+  methodology_paragraph_2: >
+    Zbog zahtjevnog konteksta, koji uključuje i nevoljkost radnika da razgovaraju s istraživačima iz straha od odmazde, terensko istraživanje na nivou tvornice u početku je provedeno samo u pet zemalja gdje je pristup odjevnim radnicima garantiran: 
+    u Hrvatskoj, Indiji, Indoneziji, Kini i Ukrajini. 
+    Prikupili smo platne liste i napravili intervjue kako bi protumačili informacije koje platne liste pružaju, 
+    a pri analizi smo u obzir uzeli rodno pitanje (npr. istražili smo razliku u plaćama između spolova, odgovornostima na poslu, radnom vremenu, bonusima i odrađenim prekovremenim satima). 
+    Potom smo usporedili plaće s odgovorima koje su nam brendovi poslali o pragovima dostojanstvene plaće koje koriste i postotku dobavljača plaćenih prema tim pragovima. 
+    Dodavat ćemo podatke iz više zemalja kako projekt bude napredovao.
+  methodology_paragraph_3A: "Surađivali smo s organizacijom"
+  methodology_paragraph_3B: >
+    , astručnjakom za otvorene podatke, oko prikupljanja i sistematiziranja podataka o dobavnim lancima koje su objavili brendovi. 
+    Također koristimo, između ostalog, podatke prikupljene u bazama
+  methodology_paragraph_3C: "i"
+  methodology_paragraph_3D: >
+    Ova baza podataka, kao i podaci od pouzdanih partnera s dugogodišnjim iskustvom, 
+    čine materijal koji smo prikupili dostupnim javnosti na pristupačan način. 
+    Različite načine predstavljanja podataka testirali 
+    smo uz pomoć stručnjaka za upotrebljivost,
+  gender_header_1: "Pitanje roda u odjevnoj industriji"
+  gender_lead: >
+    Većinski ženska radna snaga otkriva pravu prirodu odjevne industrije.
+  gender_influences: >
+    Rod uvjetuje radnu praksu na bezbroj načina: utječe na ideje o poslovima koje žene mogu obavljati i na koji način ih trebaju raditi, njihove plaće, odnos poslodavaca i zakona prema njima. Sve – od razine plaćanja i brzine isplate do uvjeta zaposlenja, poput rada bez ugovora, nemogućnosti odlaska na bolovanje ili uzimanja porodiljnog dopusta, nepostojanja prava na organiziranje ili nedostatka mirovine, do načina na koji nadzornici razgovaraju ili verbalno gestikuliraju s radnicom – dijelom je temeljeno na rodno zasnovanim shvaćanjima o tome što je prihvatljivo. Detaljni profili tvornica otkrivaju da radnice obavljaju podređene, niže plaćene poslove. Žene se rutinski zapošljava na poslovima za koji su potrebne minimalne vještine i rijetko stižu do rukovodećih pozicija u tvornicama ili sindikatima.
+  croatian_gender_quote: >
+    "Dođem kući i ne mogu sjesti do večeri. Moram kuhati, prati rublje, pisati zadaću s djecom. Navečer sam toliko umorna da samo gledam da ne padnem prije nego legnem u krevet."
+  a_worker_from_croatia: "Radnica iz Hrvatske"
+  women_face_stress: >
+    Žene se suočavaju sa stresom uzrokovanim nesigurnim zaposlenjem, verbalnim i fizičkim nasiljem, lošom prehranom zbog niske plaće, iscrpljenosti zbog prisilnog prekovremenog rada i nemogućnosti da učine bilo što po pitanju nesigurne radne prakse i okruženja. Ženska prava krše se i izvan radnog mjesta. Tu činjenicu ne možemo zanemariti jer oblikuje sliku o tome tko je radnica na radnom mjestu i izvan njega. Diskriminacija u smislu dvostrukog opterećenja (produktivnog i reproduktivnog), diskriminacija u zajednici i kod kuće, diskriminacija pred zakonom (u obliku propisa o vlasništvu nad imovinom, nasljeđivanjem i sl.) – sve su to faktori koji utječu na okolnosti u kojima žena živi i radi. Ona ne odbacuje ove aspekte svoje stvarnosti kad odlazi na radno mjesto. Posljedični utjecaj na ženino zdravlje i zdravlje njezine djece jasno je vidljiv.
+  low_wages: "Niske plaće"
+  when_looking_at_the_garment_sector: >
+    Kad pogledamo odjevni sektor vidimo da je rad u velikoj mjeri podijeljen po spolu: što se više približavamo najnižim dijelovima dobavnog lanca rad je prekarniji; što je niža plaća veći je udio žena radnica. Poslodavci iskorištavaju kulturne stereotipe koji žene prikazuju kao pasivne, prilagodljive i manje sklone stupanju u sukob s menadžmentom. Žene su tipično plaćene manje nego muškarci jer se njihov dohodak smatra dodatkom dohotku muških partnera. Međutim, u stvarnosti one često predstavljaju jedine osiguravatelje prihoda u kućanstvu. Taj oblik nejednakosti najjasnije se vidi u razlici između muških i ženskih plaća, koju se često naziva “rodni jaz u plaćama”. U odjevnoj industriji žene su često plaćene manje od muškaraca, čak i kad rade iste poslove.
+  since_women_are_mainly_employed: >
+    Budući da su žene većinom zaposlene na nisko plaćenim pozicijama na kojima imaju manje mogućnosti, veća je vjerojatnost da će biti zahvaćene siromaštvom. Siromaštvo, opet, povećava vjerojatnost da žena postane žrtva nasilja i zlostavljanja. Rodno zasnovano nasilje i zlostavljanje najčešći su u industrijama gdje su žene nisko plaćene i imaju nizak autoritet prilikom donošenja odluka. Tekstilna industrija, strukturirana po dobavnim lancima, jedna je od industrija koje strukturno ohrabruju nasilje i zlostavljanje. Velika većina radne snage su žene, što uključuje i mnogo mladih žena i migrantkinja, stoga većina odjevnih radnika također nema moć poboljšati svoju situaciju. U zavisnom su odnosu prema uglavnom muškim nadzornicima koji su nerijetko i zlostavljači.
+  gender_based_violence: "Rodno zasnovano nasilje"
+  gender_based_violence_is_both_a_cause: >
+    Rodno zasnovano nasilje uzrok je i posljedica siromaštva i neravnopravnosti među spolovima. Ono se proteže od diskriminacije po spolu, poput nemogućnosti odlaska na porodiljni dopust zbog straha od otkazivanja ugovora do brutalnih fizičkih oblika nasilja, poput silovanja ili ubojstva.
+  found_that_76_of_all: >
+    Nedavni izvještaj o rodno zasnovanom nasilju u Bangladešu otkrio je da se 76 posto svih intervjuiranih radnica suočilo s nekim oblikom nasilja na radnom mjestu. Kad pogledamo sve slučajeve rodno zasnovanog nasilja, vidimo da je seksualno uznemiravanje oblik nasilja koji radnici najčešće doživljavaju. Analiza fizičkog nasilja pokazala je da je šamaranje najčešći oblik, koji je doživjelo 80 posto radnika. Radnici izvještavaju da šamar od nadzornika dobiju osobito često kad su proizvodne norme visoke, a rokovi kratki. Drugi najčešći oblici nasilja su udaranje (44 posto), šutanje (42 posto) i udaranje šakama (11posto). Iako je obiteljsko nasilje jedan od najraširenijih oblika seksualnog nasilja nad ženama, od intervjuiranih radnica koje su doživjele silovanje šokantnih 6 posto silovao je nadzornik ili šef proizvodne linije.
+  despite_its_prevalence_in_the_garment_sector: >
+    Unatoč raširenosti rodno uvjetovanog nasilja u sektoru proizvodnje odjeće, ono se uglavnom ne spominje prilikom socijalnih revizija u tvornicama, jer klasična revizija ne uključuje radnike do stupnja koji bi im omogućio da progovore o tako osjetljivim pitanjima. Intervjui s radnicima često se provode u tvornici, ponekad i u prisutnosti muških nadzornika koji su potencijalni počinitelji nasilja.
+  to_address_gender_based_violence_in_the_supply: >
+    Kako bi adresirali rodno uvjetovano nasilje u dobavnom lancu, brendovi moraju razumjeti i prepoznati vlastitu ulogu u dinamici koja vodi do njegove pojave. Nedavna istraživanja pokazuju da naručitelji proizvoda sve više iskorištavaju svoj utjecaj nad dobavljačima zahtijevajući niže cijene i kraće vrijeme isporuke za veću količinu, te naglo mijenjaju količinu narudžbi. Posljedično, dobavljači radnicima povećavaju proizvodne kvote, što vodi do porasta nasilja i zlostavljanja radnika kad kvote nisu ispunjene.
+  this_is_confirmed_by_the_evidence: >
+    Teza je potvrđena dokazom iz Bangladeša: 64 posto ispitanika spomenutog istraživanja reklo je da su pod ogromnim pritiskom prilikom zbog zahtjeva za brzinom proizvodnje odjeće, a 35 posto je reklo da su zbog toga doživjeli nasilje od nadzornika. Analizirajući nasilje i zlostavljanje u tvornicama odjeće i druge interesne grupe otkrile su istu dinamiku. Organizacija Fair Wear Foundation navodi da je pritisak proizvodnje – uključujući pritisak na snižavanje cijena i vrijeme dostave – povezan s nasiljem i zlostavljanjem na nekoliko načina. Na primjer, večernji prekovremeni sati mogu radnice učiniti lakom metom za seksualno nasilje u tvornici i na putu kući. Nadzornici koji su pod stresom zbog visokih proizvodnih kvota vjerojatnije će maltretirati radnike. K tome, ako su bonusi povezani s količinom izrađenih proizvoda radnike je lakše prisiliti na seksualne usluge nadzornicima u zamjenu za odobravanje kvota.
+  indian_gender_quote: >
+    "Verbalno nas zlostavljaju na poslu. Ženske nadzornice bi trebale biti među radnicama, i trebamo veću plaću da bismo se mogli brinuti o djeci."
+  a_worker_from_india: "Radnica iz Indije"
+  when_you_are_living_pay_check_to_pay_check: >
+    Kad živiš od plaće do plaće dati otkaz na poslu koji te štiti od gladovanja nije realna opcija. Osobito ako moraš hraniti nekoliko usta. Brendovi moraju učiniti više za zaštitu žena u njihovu proizvodnom lancu od nasilja i za osiguranje dostojanstvene plaće za SVE radnike.
+  read_more_about: "pročitajte više o"
+  who_are_we: "Tko smo?"
+  menu_who_we_are: "tko smo mi"
+  menu_methodology: "Metodologija"
+  menu_gender: "Rod"
+  clean_clothes_campaign_is_a_global_network: >
+    Clean Clothes kampanja (CCC) je globalna mreža posvećena poboljšanju radnih uvjeta 
+    i osnaživanju radnika u globalnoj industriji odjevnih predmeta i sportske odjeće.
+  since_1989_ccc_has_worked_to_ensure: >
+    CCC nastoji osigurati poštivanje temeljnih radničkih prava od 1989. godine. Obrazujemo i mobiliziramo kupce, promičemo naše ciljeve među tvrtkama i vladama, te nudimo izravnu solidarnu podršku radnicima koji se bore za svoja prava i zahtijevaju bolje radne uvjete.
+  as_a_grassroots_network_of_hundreds: >
+    Kao mreža bazirana na terenskom radu stotina organizacija i sindikata, kako u proizvodnji odjeće, tako i na potrošačkom tržištu, možemo identificirati lokalne probleme i pokrenuti strateške kampanje za podršku radnicima u ostvarivanju njihovih ciljeva. Također intenzivno surađujemo sa sličnim pokretima i grupama.
+  all_workers_regardless_of_sex_age: >
+    Svi radnici, bez obzira na spol, dob, zemlju podrijetla, pravni status, način i lokaciju zaposlenja ili bilo koju drugu osnovu, imaju pravo na dobre i sigurne radne uvjete, u kojima mogu koristiti temeljno pravo na slobodno organiziranje i kolektivno pregovaranje i zaraditi dostojanstvenu plaću, koja bi im omogućila da žive dostojanstveno.
+  visit_site: "Za više informacija o mreži posjeti web stranicu Clean Clothes Kampanje."
+  transparency_header: "Transparentnost"
+  knowing_where_your_clothes_are_made: >
+    Znati gdje je tvoja odjeća proizvedena i tko ju je proizveo ključno 
+    je za poboljšanje radnih uvjeta.
+  transparency_in_production_supply_chains: >
+    Transparentnost proizvodnog lanca prvi je korak, ali nije i rješenje. Brendovi koji otkrivaju podatke o tvornicama koje za njih proizvode nisu ništa bolji od brendova koji te informacije skrivaju. To ne znači da su plaće ili radni uvjeti bolji, samo donekle olakšava utvrđivanje odgovornosti za kršenja radničkih prava. Informacije o svim brendovima koji proizvode u svakoj tvornici mogu im pomoći da surađuju oko rješenja po pitanju poboljšanja radničkih prava.
+  transparency_needs_to_be_the_cornerstone: >
+    "Transparentnost treba biti kamen temeljac bilo kojeg ozbiljnog napora brendova da izgrade dobavni lanac bez kršenja ljudskih prava"
+  aruna_kashyap: >
+    rekla je Aruna Kashyap, viša savjetnica za ženska prava u organizaciji Human Rights Watch.
+  menu_transparency: "Transparentnost"
+  in_2016_nine_labor_and_human: >
+    Devet organizacija za radnička i ljudska prava formiralo je koaliciju 2016. godine,
+  to_advocate_for_transparency: >
+    kako bi zagovarali transparentnost u dobavnim lancima odjeće, pozivajući sve tvrtke koje proizvode odjevne predmete i sportsku odjeću da potpišu
+  coalition: "koaliciju"
+  transparency_pledge: "Jamstvo transparentnosti"
+  the_pledge_is_based_on_existing: >
+    . Amstvo se temelji na postojećim dobrim praksama unutar industrije. Cilj je pomoći odjevnoj industriji da dosegne zajednički minimalni standard objave informacija o dobavnom lancu, zahtijevanjem od kompanija da objave standardizirane, smislene informacije o svim tvornicama njihovih dobavnih lanaca koje se bave proizvodnjom.
+  there_has_been_an: "Postoji"
+  encouraging_increase: "ohrabrujući porast"
+  in_how_transparent_fashion_brands_are_on: >
+    transparentnosti modnih brendova po pitanjima gdje i na koji način je proizvedena odjeća za njih. Sve više i više brendova otkriva proizvodne lokacije i potpisuje Jamstvo transparentnosti.
+  however_there_are_still_too_many_brands_that: "Međutim, još uvijek postoji mnogo onih koji"
+  refuse_to_do_so: "odbijaju biti transparentni"
+  and_even_the_most_progressive_brands: >
+    Čak ni najprogresivniji brendovi ne otkrivaju cijeli dobavni lanac i ispraznim obećanjima skrivaju manjak napretka po pitanju poboljšanja plaća umjesto da objave provjerljive, objektivne podatke.
+  what_are_they_hiding: >
+    Što skrivaju? Niti jedan brend ne objavljuje jasne informacije o radničkim zaradama ili o tome kako konkretno (i kada!) mogu osigurati isplatu koja bi njihovim dobavljačima omogućila da radnicima plate dostojanstvene plaće. Mnogo je praznih “obećanja”, a ono što radnici trebaju su vremenski ograničeni, mjerljivi, provedivi koraci za poboljšanje situacije. Nedostaju nam informacije o nižim dijelovima proizvodnog lanca, o podizvođačima, radnicima koji proizvode od kuće i onima koji beru i procesuiraju sirovine i tkanine.
+  we_re_demanding_that_brands_do_better: >
+    Zahtijevamo da brendovi učine više: pokažite na koji način radite na ostvarivanju dostojanstvene plaće i učinite tu informaciju javno dostupnom. Također zahtijevamo da kreatori politika stvore ravnopravne uvjete i jednaka pravila igre za sve uključene strane: minimalna transparentnost na temelju koje brendovi mogu poboljšati svoje poslovanje trebala bi biti obvezna za sve. To je jedini način da tvrtke ispune obvezu prema poštivanju ljudskih prava (due diligence), a dugoročno jedini način zadržavanja povjerenja kupaca.
+  going_beyond_the_pledge: "Koraci nakon potpisivanja Jamstva"
+  since_the_birth_of_the_pledge: >
+    Transparentnost dobavnih lanaca u odjevnoj industriji značajno je porasla od pokretanja Jamstva. Deseci kompanija sad objavljuju imena, adrese i druge detalje o tvornicama dobavljača. No, to je tek početna točka. Odjevni brendovi koji se ozbiljno brinu o etičnosti dobavnih lanaca mogu i trebaju učiniti više. Šačica kompanija počela je uz podatke o tvornicama prvog reda objavljivati informacije o drugim dijelovima proizvodnog lanca, što uključuje proizvodnju sirovina. Ipak, ispunjavanje zahtjeva zadanih Jamstvom je donja, a ne gornja granica. Kako bi stvorili uvjete potrebne za promjenu u odjevnoj industriji, brendovi moraju prikupiti više podataka o tvornicama u njihovu dobavnom lancu.
+  the_bottom_of_the_supply_chain: "Najniži dijelovi dobavnog lanca"
+  we_want_brands_to_ask_suppliers_where: >
+    Želimo da brendovi pitaju dobavljače gdje u dobavnom lancu rade žene, a gdje migranti i kolike su najniže plaće. Te će informacije dati mnogo jasniju sliku neravnoteže moći, što je prvi korak prema postizanju poboljšanja.
+  worker_unions: "Radnički sindikati."
+  we_want_brands_to_ask_suppliers_if: >
+    Želimo da brendovi pitaju dobavljače postoje li u njihovim tvornicama sindikati ili radnička vijeća. Većinom ne znamo imaju li ljudi koji proizvode našu odjeću glas. Želimo više informacija o tome tko ima moć u dobavnom lancu.
+  readable_data: "Čitljivi podaci."
+  we_want_brands_to_release_the_data: >
+    Želimo da brendovi objave podatke o dobavnom lancu u formatu koji je koristan i čitljiv. Format bi trebao biti prilagođen standardu za strojno obradive informacije i obuhvaćati sve proizvodne jedinice i prerađivačke pogone u kojima se za brend proizvodi. Brendovi moraju osigurati podatke u
+  transparency_for_the_consumer: "Transparency for the Consumer"
+  we_want_governments_to_increase: >
+    Želimo da vlade povećaju transparentnost proizvoda kako bi osnažile građane da naprave informirane izbore o svojim kupnjama. Želimo proširiti vrstu informacija na etiketama tekstilnih proizvoda da uključuje informacije o proizvođaču. Također želimo poboljšati socijalne kriterije i kriterije održivosti
+  eu_ecolabel: "eko-oznake Europske unije"
+  to_reflect_wage_abuses: "da u obzir uzme i kršenja prava."
+  for_more_about_our: "Za više informacija o"
+  transparency_campaign: "kampanji za transparentnost"
+  csv_or_json_data: "CSV ili JSON formatu koji se mogu preuzeti."
+  learn_more: "Saznajte više"
+  menu_living_wage: "Što je dostojanstvena plaća"
+  what_is_a_living_wage: "Što je dostojanstvena plaća?"
+  a_living_wage_recognized_by_the_un_as_a_right: >
+    Dostojanstvena plaća, koju Ujedinjeni narodi (UN) prepoznaju kao ljudsko pravo, plaća je dovoljna da radnici i njihove obitelji priušte pristojan životni standard.
+  it_should_be_earned_in_a_standard_work_week: >
+    Treba biti zarađena u standardnom radnom tjednu maksimalnog trajanja 48 sati, i mora moći pokriti troškove hrane, vode, stanovanja, obrazovanja, zdravstvene skrbi, prijevoza, odjeće i diskrecijske zarade, što uključuje uštedu za neočekivane situacije.
+  why_the_minimum_wage_is_not_enough: "Zašto minimalna plaća nije dovoljna."
+  legal_minimum_wages_in_garment_producing: >
+    Zakonske minimalne plaće u proizvodnim zemljama diljem svijeta niže su od dostojanstvene plaće, što znači da odjevni radnici ne mogu osigurati osnovne potrebe za sebe i svoju obitelj. Razlika između zakonske minimalne plaće i dostojanstvene plaće se povećava. U mnogim je državama minimalna plaća daleko niža od dostojanstvene plaće. Minimalna plaća u Aziji varira od 21 posto iznosa dostojanstvene plaće u Bangladešu do 46 posto u Kini (prema istraživanju iz 2019). U proizvodnim zemljama Europe ponekad nailazimo i na veću razliku, od 10 posto u Gruziji do 40 posto iznosa dostojanstvene plaće u Mađarskoj.
+  i_became_the_backbone: >
+    "Postala sam oslonac obitelji, 
+    no moja plaća nije dovoljna da pokrije obiteljske dnevne troškove"
+  a_worker_from_indonesia: "Radnica iz Indonezije"
+  there_are_a_number_of_countries: >
+    Jedan dio država uopće nema zakonom određenu minimalnu plaću. Vlade proizvodnih zemalja nemaju namjeru podići minimalne plaće u strahu da će veći minimalac brendove potaknuti da narudžbe preusmjere u države gdje su troškovi rada još niži. To je realnost modne industrije, što znači da se minimalne plaće nikad ne podižu do egzistencijalne razine (u skladu s rastućim troškovima za osnovne potrebe). K tome, radnici često nisu pravedno ili nisu uopće zastupljeni prilikom pregovora o minimalnoj plaći. U većini zemalja gdje odjeća čini značajan dio izvoza, minimalne plaće podizane su veoma postupno kako bi se djelomično prilagodile inflaciji. Takav rast često dolazi prekasno i zanemariv je: na primjer, najniže plaćeni radnici u Bangladešu još uvijek zarađuju tek polovicu onoga što su zahtijevali i trebali od 2016.
+  living_wage_benchmarks: "Pragovi dostojanstvene plaće"
+  calculating_a_living_wage_is_not_easy: >
+    Izračun dostojanstvene plaće nije jednostavan, iako zasigurno nije nemoguć. Nekoliko znanstvenika, sindikata i grupa koje se bave radničkim pravima razvili su vjerodostojne pragove koji mogu vrijediti za jednu ili više zemalja ili regija. Stabilni kriteriji dostojanstvene plaće moraju biti:
+  transparent_in_method_and_conclusion: "Transparentni u metodi i zaključivanju"
+  revised_on_a_regular_basis: >
+    revidirani na redovnoj bazi kako bi se osiguralo da su inflacija i porast troškova osnovnih namirnica uzeti u obzir prilikom izračuna
+  established_in_negotiation: >
+    uspostavljeni kroz pregovore s nacionalnim ili regionalnim sindikatima kako se plaće ne bi smanjivale kroz tržišno natjecanje
+  enough_to_cover_the_full_basic_needs: >
+    dovoljni da u potpunosti pokriju nužne troškove obitelji, što je osnova, i da omoguće štednju. Dostojanstvena plaća mora pokrivati troškove uzdržavanja koje imaju samohrane majke ili radnik/ca bez partera koji uzdržava dva starija rođaka s jednom plaćom.
+  a_living_wage_benchmark_should_put_a_floor: >
+    prag dostojanstvene plaće trebao bi osigurati donju, a ne gornju razinu plaća. Trebao bi olakšati povećanje plaće, uz osiguranje minimalnog dohotka za sve radnike.
+  savings_and_survival: "Ušteda i preživljavanje"
+  asia_floor_wage_alliance: >
+    Asia Floor Wage Alliance, Global Living Wage Coalition i Wage Indicator Foundation primjeri su inicijativa koje su postavile takve pragove dostojanstvene plaće. Ljestvica plaća organizacije Fair Wear Foundation koja uspoređuje nekoliko pragova s lokalnim propisanim minimalnim plaćama još je jedan koristan alat.
+  sometimes_i_have_to_take_painkillers: >
+    “Ponekad moram uzeti tablete protiv bolova. Koristim gelove za bol u mišićima i zglobovima. Nekoliko puta sam morala ići na injekcije zbog ukočenosti."
+  life_is_full_of_the_unexpected: >
+    Život je pun neočekivanog. Zarađena plaća trebala bi pružiti dovoljno sigurnosti da se s neočekivanim suočimo. Činjenica da mnogi radnici u industriji odjevnih predmeta i sportske odjeće ne zarađuju dovoljno za pokriće osnovnih životnih troškova znači da ne mogu preživjeti u teškim vremenima. Covid-19 učinio je to kristalno jasnim. Brendovi su otkazali narudžbe kako bi očuvali svoj novčani tok, ostavljajući tvornice u njihovu dobavnom lancu bez načina da pokriju ne samo radničke plaće, nego i proizvodne troškove. Mnoge tvornice su se zatvorile, a tisuće radnika je dobilo otkaze.
+  not_only_have_brands_been_refusing: >
+    Ne samo da brendovi nisu htjeli platiti narudžbe čija je proizvodnja već započela, ponekad ni proizvode koji su već u dućanima, nego su i kupcima nudili rasprodaje i popuste, ostavljajući one na dnu proizvodnog lanca bez ičega. Mnogi radnici izašli su na ulice prosvjedovati za plaće koje nisu isplaćene od ožujka. U drugim slučajevima bili su prisiljeni vratiti se na posao, iako nisu poduzete prikladne sigurnosne mjere. Budući da nemaju novca nisu imali ni izbora. Radnici na crno bili su još više pogođeni ovakvim postupcima brendova. Međunarodna organizacija rada (ILO) procjenjuje da se 1.6 milijardi radnika u sivoj ekonomiji suočava s
+  massive_damage: "ogromnom štetom"
+  to_their_livelihood: >
+    po njihove živote nakon što je čitav sektor desetkovan restrikcijama zbog koronavirusa.
+  trade_unions_worry: >
+    “Sindikati se brinu da će kriza uzrokovana koronavirusom dovesti do naglog porasta dječjeg i prisilnog rada, i trgovine ljudima, a da će odjevni radnici morati prijeći u druga zanimanja, što uključuje seksualni rad.”
+  the_emperor_has_no_clothes: >
+    Car nema odjeću: Dobavni lanci odjeće u vrijeme pandemije (Asia Floor Wage Alliance)
+  all_actors_in_fashion_now_understand: >
+    Svi akteri unutar modne industrije sada razumiju hitnost i važnost preoblikovanja industrije i njezinog poslovnog modela. Želimo da dostojanstvene plaće budu u središtu tog razgovora. Vrijeme je da se industrija odjevnih predmeta i sportske odjeće ponovno izgradi kako bismo osigurali pravednu plaću za rad i sigurnost radnog mjesta u cijelom dobavnom lancu.
+  for_more_information_on: "Za više informacija o utjecaju"
+  covid_19: "virusa Covid-19"
+  brand_responsibility: "Odgovornost brendova"
+  brands_put_forward_all_kinds_of_excuses: >
+    Brendovi koriste razne isprike kako bi izbjegli obvezu na isplatu dostojanstvene plaće: dostojanstvena plaća je odgovornost dobavljača ili vlada, nemoguće je plaćati ju jer bi ih konkurencija izgurala s tržišta, kupci ne žele plaćati više, nema konsenzusa o izračunu dostojanstvene plaće itd. No, iako proizvodnja može biti prebačena na drugoga, odgovornost za poštivanje ljudskih prava i isplatu dostojanstvene plaće ostaje na brendu.
+  the: "Smjernice Ujedinjenih naroda o poslovnom sektoru i ljudskim pravima"
+  un_guiding_principles_on_business_and_human_rights: "(Smjernice UN-a)"
+  un_guiding_principles_clearly_states: >
+    jasno određuju ulogu i odgovornost poslovnog sektora i država (vlada).
+  the_un_guiding_principles_three_pillars: "Smjernice se temelje na tri stupa:"
+  the_state_duty_to_protect_human_rights: "Dužnost država da zaštite ljudska prava"
+  the_corporate_responsibility_to_respect_human_righ: "Korporativna odgovornost prema poštivanju ljudskih prava"
+  access_to_remedy: "Pristup pravnoj zaštiti"
+  this_establishes_a_principle_of_shared_responsibil: >
+    Na taj način uspostavljeno je načelo o odgovornosti podijeljenoj između država i poslovnog sektora, što znači da vlade imaju obvezu zaštititi ljudsko pravo na dostojanstvenu plaću postavljanjem zakonske minimalne plaće na egzistencijalnu razinu, a poslovni sektor mora, u skladu s navedenim, poštivati ljudsko pravo na zaradu dostojanstvene plaće.
+  the_framework_also_clearly_states_that: >
+    Okvir također jasno navodi da odgovornost prema poštivanju ljudskih prava “postoji neovisno o mogućnosti i/ili voljnosti Država da ispunjavaju svoje obveze, ne umanjuje te obveze i postoji povrh poštivanja nacionalnih zakona i propisa vezanih za ljudska prava.” Drugim riječima, u slučajevima gdje vlade ne uspiju zaštititi ljudska prava – kao u slučaju kad zakonska minimalna plaća ne doseže minimalnu egzistencijalnu razinu (dostojanstvenu plaću) – poslovni sektor još uvijek ima obvezu poštovati ljudsko pravo na dostojanstvenu plaću ispravljajući ovaj neuspjeh države.
+  the_workers_wages_have_been_regularly_delayed: >
+    “Isplata radničkih plaća redovno se odgađa za mjesec ili dva od početka 2019. Žalili smo se, pa su platili, ali ne u mjesecu u kojem su trebali, nego s odgodom. Direktor tvornice kaže da je to jer kompanija nije platila. Ali mi smo napravili naš posao.”
+  a_worker_from_ukraine: "Radnica iz Ukrajine"
+  the_un_guiding_principles_establish:
+    Smjernice UN-a utvrđuju odgovornost za dobavni lanac. Svaka proizvodna kompanija odgovorna je za svaki utjecaj na ljudska prava u svom proizvodnom lancu, neovisno o tome gdje se kršenja ljudskih prava pojave (u njihovim vlastitim pogonima, tvornicama podizvođača ili među kućanskim radnicima). Iako je proizvodnja odjeće često autsorsana, svaka korporacija ima odgovornost koju ne može delegirati na niže razine dobavnog lanca.
+  why_do_we_talk_about_paying_factories_not_workers: "Zašto govorimo o plaćanju tvornicama, a ne radnicima?"
+  brands_do_not_pay_workers_directly: >
+    Brendovi ne plaćaju izravno radnicima. Plaćaju svoje dobavljače koji onda plaćaju radnike. Dobavni lanac obično je podijeljen na tri reda dobavnih kompanija. Dobavljači prvog reda najčešće sklapaju ugovore o proizvodnji izravno s brendovima. Oni će posao povjeriti drugim dobavljačima.
+  on_their_current_wages_garment_workers: >
+    Dobavljači su prisiljeni procijeniti najniži mogući trošak proizvodnje po jedinici kako bi mogli pregovarati s brendovima za sklapanje ugovora o proizvodnji. Cijena bi trebala biti dovoljna za tvorničke troškove (najam, struja, voda i održavanje tvornice), trošak materijala, slanje robe, profitnu maržu za tvornicu i troškove rada.
+  suppliers_are_forced_to_estimate_the_lowest: >
+    Kako bi se mogli natjecati s drugim kompanijama prvog reda, dobavljači računaju troškove rada bazirane na minimalcu, radije nego na dostojanstvenim plaćama, i na desetosatnim radnim danima, što podrazumijeva dva sata prekovremenog rada, radije nego na osmosatnom radnom danu.
+  my_job_is_exhausting: >
+    “Moj posao je iscrpljujuć. Svaki dan moram raditi 18 sati. Mnogi radnici ne mogu ispuniti proizvodnu kvotu koju je odredila tvornica, pa dobiju otkaz.”
+
+  current_purchasing_practices_reflect_the_rise_of_f: >
+    Postojeće potrošačke navike odražavaju uspon industrije brze mode. Norma je nekad bila četiri stila po sezoni godišnje, a brend Zara prvi je započeo mijenjanje stilova na mjesečnoj razini. Većina brendova tzv. ulične mode (high street) sada proizvodi 52 mikro-sezone godišnje. Također, brendovi znaju iznenada naručiti dvostruko više svojih popularnih odjevnih predmeta. Brza izmjena proizvoda u paru s neodređenim količinama narudžbi proizvela je trenutni industrijski model. Nesigurnost koju uzrokuju potrošačke navike kupaca razmješta se na radnike, kroz upotrebu nesigurnih ugovora o radu, nezaposlenost tokom razdoblja kad ima manje narudžbi i pritisak na smanjivanje plaća.
+  my_factory_doesn_t_give_me_a_pay_slip: >
+    “U tvornici mi ne daju obračun plaće. Radimo naporno kako bi proizveli odjeću, najmanje 12 sati, što se nekad produžuje na 24 sata u vrijeme najvećeg opterećenja.”
+  a_worker_from_india: "Radnica iz Indije"
+  brands_need_to_take_responsibility_to_modify: >
+    Brendovi moraju preuzeti odgovornost za promjenu svojih praksi nabave kako bi osigurali da njihovi dobavljači mogu platiti radnike. Nastavit ćemo raditi s radničkim organizacijama i sindikatima kako bi osigurali učinkovitost promjena.
+  unions_and_worker_committees: "Sindikati i radnička vijeća"
+  workers_have_little_to_no_power_to_fight:
+    Radnici trenutno imaju malu ili nikakvu moć da se izbore za bolje plaće. Sloboda udruživanja (Freedom of Association) pod golemim je pritiskom, a gušenje sindikata koji se bore za veće plaće jest sve osim neuobičajenog u mnogim proizvodnim zemljama. U posljednjih nekoliko godina bilježimo i značajan porast broja radničkih vijeća osnovanih na razini tvornice. To stvara lažan dojam da su radnici danas organizirani i moćni. Brendovi često tvrde da su radnička vijeća i sindikati u osnovi isti, što je možda istina samo u malom broju slučajeva.
+  trucks_are_constantly_leaving: >
+    "Kamioni stalno odlaze, svi proizvodi su prodani i imamo puno posla, ali stalno nam govore da nema novca. Moj ugovor se produžuje svaka tri mjeseca. Nemam sigurnost.”
+
+  a_worker_in_croatia: "Radnica iz Hrvatske"
+  instead_of_promoting_fair_worker_representation: >
+    Umjesto promicanja pravednog zastupanja radnika na razini tvornice za brendove, dobavljače i lokalne vlade često je karakterističnije da podržavaju alternativne strukture koje radnicima daju značajno manju moć. Radnička vijeća često uključuju menadžment tvornice, što narušava pravo radnika na organiziranje bez uključivanja vlade ili poslodavca. K tome, u nekim državama, npr. u Bangladešu, radnička vijeća po zakonu ne mogu pregovarati o plaćama, dok sindikati mogu. U konačnici to znači da je cijena koju brendovi plaćaju za proizvodnju zaštićena.
+  we_are_never_allowed_to_go_home: >
+    “Nikada ne smijemo ići kući prije nego ispunimo kvotu.”
+  we_want_brands_to_do_more_to_support: >
+    Želimo da brendovi učine više kako bi podržali radnike u svom dobavnom lancu. Prikupljanje podataka o sindikatima i radničkim vijećima dat će jasniju sliku o uzrocima i posljedicama kršenja ljudskih prava u proizvodnji odjevnih predmeta i sportske odjeće.
+  foa: "Pročitaj više o slobodi udruživanja"
+  i_have_problems_with_my_stomach: >
+    "Imam problema sa želucem. Bila sam na operaciji zbog loše prehrane i sada moram paziti što jedem. No, ne mogu si priuštiti kvalitetan obrok. Peciva koja nam donose u firmu napravljena su od otpadnog brašna."
+  women_can_be_made_to_dance: >
+    "Žene se može natjerati da plešu kao lutke, ali muškarce se ne može maltretirati na isti način. Vlasnici ne mare ako mi tražimo nešto, no zahtjevi muškaraca moraju se razmotriti. Zbog toga tvrtka ne zapošljava muškarce."
+  a_worker_from_bangladesh: "Radnica iz Bangladeša"
+  gbv_in_bangladesh: "Rodno zasnovanom nasilju u Bangladešu"
+  about_fashion_checker: "O Kontroloru modne Industrije"
+  about_the_campaign: "O kampanji"
+  a_living_wage_for_garment_workers: >
+    Dostojanstvena plaća za odjevne radnike i transparentan lanac opskrbe.
+  menu_about_fashion_checker: "O Kontroloru modne Industrije"
+  about: "O"
+  brands_in_the_fashion_industry_put_millions: >
+    Brendovi u modnoj industriji ulažu milijune u promoviranje vlastite etičnosti i održivosti, mnogo puta tvrdeći da radnicima isplaćuju dostojanstvene plaće. Kontrolor modne industrije pokazuje koliko su te tvrdnje zapravo daleko od istine, tako što omogućava kupcu i radniku u proizvodnji odjeće pristup istinitim podacima o dobavnim lancima najvećih svjetskih brendova.
+
+  power_in_the_garment_industry: "Moć u odjevnoj industriji"
+  we_believe_all_workers_in_a_supply: >
+    Vjerujemo da svi radnici u dobavnom lancu imaju pravo na pravednu plaću. 
+    Radnici koji proizvode za tržište odjevnih predmeta i sportske odjeće zarađuju
+  poverty_wages: "sirotinjske nadnice"
+  since_the_birth_of_the_industry_our_research_shows: "od nastanka industrije. Naše istraživanje pokazuje da"
+  no_major_clothing_brand: "niti jedan veliki odjevni brend"
+  is_able_to_prove_that_workers_making_their_clothin: >
+    ne može dokazati da su radnici koji za njih proizvode u Aziji, Africi, Srednjoj Americi ili istočnoj Europi plaćeni dovoljno za život.
+  an_estimated_60_million_workers: >
+    Oko 60 milijuna radnika pokreće globalnu odjevnu industriju, stvarajući milijarde profita. Većina ih radi nehuman broj sati i više poslova kako bi spojila kraj s krajem. Oko 80 posto radnika su žene. To nije slučajnost. Radnici koji zarađuju sirotinjske nadnice imaju malu ili nikakvu mogućnost da se izbore za svoja prava, zbog čega i dalje zarađuju toliko malo na eksploatatorskim poslovima. Radi se o sistemskoj neuravnoteženosti moći ukorijenjenoj u industriju.
+
+  earning_a_living_wage: "Zarađivati dostojanstvenu plaću"
+  demanding_a_wage_you_can_live_on: >
+    Zahtjev za plaćom od koje se može živjeti ne bi trebao biti kontroverzan. Zahtijevali smo dostojanstvene plaće u kampanji
+
+  living_wage_now: "'living wage now'"
+  in_2015_it_s_five_years_later: >
+    započetoj 2015. Pet godina poslije nema napretka. Vrijeme je za promjenu. Vrijeme je da adresiramo sistemske uzroke sirotinjskih plaća u odjevnoj i obućarskoj industriji i prisilimo brendove da preuzmu odgovornost.
+  for_decades_brands_and_retailers_have_built: >
+    Desetljećima su brendovi i trgovci na malo ostvarivali profit na temelju niskih cijena. Višak odjeće koji na globalnoj razini stvara industrija brze mode brendovima daje moć da izvrše pritisak na svoje dobavljače koji su onda prisiljeni proizvoditi odjeću i obuću po najnižim mogućim cijenama. Cijena koju brendovi plaćaju dobavljačima trebala bi pokriti tvorničke troškove proizvodnje, kupnju materijala za proizvodnju, slanje proizvoda, cijenu rada i profitnu maržu za tvornicu. Radničke plaće trošak su koji je najjednostavnije srezati.
+  gender_in_the_garment_industry: "Pitanje roda u odjevnoj industriji"
+  a_lot_of_informal_work_is_done_by_women: >
+    Mnogo neformalnog rada obavljaju žene, bilo da su samozaposlene ili da rade kod podugovarača. Njihove plaće su još nesigurnije. Rodni jaz u plaćama još uvijek je jedna od najvećih socijalnih nepravdi. Napredak prema izjednačavanju plaća dobiva zamah diljem svjetskog gospodarstva, ali još uvijek svjedočimo ogromnoj nejednakosti u odjevnoj i obućarskoj proizvodnji.
+  inside_factories_women_are_mainly_employed: >
+    Radnice u tvornicama većinom rade na slabije plaćenim pozicijama na kojima imaju manje ovlasti. Neravnoteža među spolovima unutar tvornica duboko je ukorijenjena u kulturnim nejednakostima između muškaraca i žena, prisutnim u većini proizvodnih zemalja. Što se niže u dobavnom lancu nalazimo, rad je prekarniji; plaće su niže, više je žena radnica.
+  transparency_in_fashion: "Transparentnost u modnoj industriji"
+  there_has_been_an_encouraging_increase_in_how: >
+    Postoji ohrabrujući porast transparentnosti modnih brendova po pitanjima gdje i na koji način je proizvedena odjeća za njih. Sve više i više brendova otkriva proizvodne lokacije i potpisuje Jamstvo transparentnosti (Transparency Pledge). Međutim, još uvijek ima onih koji odbijaju biti transparentni. Čak ni najprogresivniji brendovi ne otkrivaju cijeli dobavni lanac i ispraznim obećanjima skrivaju manjak napretka po pitanju poboljšanja plaća umjesto da objave provjerljive, objektivne podatke.
+  putting_a_spotlight_on_the_supply_chain: "Stavljanje naglaska na lanac opskrbe"
+  our_main_focus_is_wages_and_transparency: >
+    Naš glavni fokus su plaće i transparentnost. Uvid u radničke plaće trenutno je jedini pouzdani način da saznamo plaćaju li brendovi tvornicama u svojem dobavnom lancu dovoljno da bi mogle funkcionirati sigurno i pravedno. Oni sustavno plaćaju premalo za proizvodnu snagu, što tvornice prisiljava da naprave teške izbore. Ako tvornica nije plaćena dovoljno, srezat će radničke plaće kako bi najprije pokrila druge troškove. Plaće i sigurnost radnika najniži su prioriteti jer će uvijek biti drugih ljudi kojima je posao potreban.
+  brands_are_obligated_by_the: "Prema"
+  to_run_their_business_responsibly: >
+    brendovi su obvezni odgovorno voditi poslovanje. Zarada plaće od koje se može ugodno živjeti unutar 48-satnog radnog tjedna temeljno je ljudsko pravo. To znači da bi brendovi trebali moći dokazati da su njihovi dobavljači plaćeni dovoljno da bi isplatili radnike. Većina ih ne računa ni kolika bi isplata radnicima u njihovu dobavnom lancu bila dovoljna za dostojanstven život. Vlade namjerno održavaju minimalnu plaću niskom kako bi ohrabrile strane brendove da proizvode u njihovoj državi, a dobavljači preusmjeravaju poslove u dijelove dobavnog lanca gdje se odvija neformalni rad kako bi za proizvodnju platili što je manje moguće.
+  what_are_they_hiding_no_brand: >
+    Što skrivaju? Niti jedan brend ne objavljuje jasne informacije o radničkim zaradama ili o tome kako konkretno mogu osigurati isplatu koja bi njihovim dobavljačima omogućila da radnicima plate dostojanstvene plaće. Nedostaju nam informacije o nižim dijelovima proizvodnog lanca. Podizvođači, radnici koji proizvode od kuće, radnici koji beru i procesuiraju sirovine i tkanine u potpunom su mraku.
+  poverty_pay_isn_t_sustainable: "Sirotinjska plaća nije održiva"
+  it_is_well_known_that_the_garment_industry: >
+    Dobro je poznato da je odjevna industrija jedan od najvećih zagađivača ugljikom i jedan od najvećih proizvođača otpada na zemlji, što uključuje otrovne kemikalije koje prodiru u okoliš i radničke zajednice. Današnja moda obećava održivost, savjesnost, pravednu i zelenu politiku, ali bez transparentnosti i plaća od kojih se može živjeti.
+  paying_poverty_wages_directly_affects: >
+    Isplaćivanje sirotinjskih plaća direktno utječe na održivost i otpornost cjelokupnog gospodarstva. Košulja od organskog materijala proizvedena za sirotinjske nadnice nije održiva niti bi trebala biti smatrana takvom. Sistemska promjena u modnoj industriji nedvojbena je nužnost, ali sistem najprije treba osigurati životne uvjete za milijune odjevnih radnika koji su njime najviše zahvaćeni.
+  economic_impact: "Ekonomski utjecaj"
+  a_living_wage_for_all_workers_should_be: >
+    Osiguranje dostojanstvene plaće za sve radnike trebalo bi biti briga brendova onoliko koliko i aktivista za radnička prava. Nekoliko proizvodnih zemalja svjedočilo je izbijanju socijalnih nemira zbog nejednakosti i niskih plaća. Radnici tih zemalja su, unatoč represivnim prijetnjama i nasilju, izašli na ulice i prosvjedovali u čistom očaju, uzrokujući nervozne reakcije globalnih brendova zbog prekinutog proizvodnog procesa, koji je do tada glatko tekao.
+  an_unequal_distribution_of_income_and_wealth: >
+    "Nejednaka raspodjela prihoda i bogatstva ne samo da stvara uvjete za krizu, nego je upravo ona izvor političkog i socijalnog sukoba"
+
+  economic_sustainability_and_resilience: >
+    Ekonomska održivost i otpornost središnje su pitanje svim državama, ali i obiteljima i pojedincima. Sirotinjske plaće posebno pogoršavaju položaj žena, glavnih skrbnica društva od kojih se očekuje da obavljaju najviše neplaćenog rada. Dostojanstvena plaća jedino je rješenje za ostvarivanje jednakih mogućnosti žena i muškaraca, kako bi mogli iskoristiti sve svoje kapacitete, što je preduvjet za inkluzivan i održiv napredak.
+  returning_the_power_after_covid_19: "Vraćanje moći nakon koronavirusa"
+  clothing_and_textile_manufacturing_has_always: >
+    Odjevna i tekstilna proizvodnja uvijek se temeljila na eksploatatorskom radu. Virus Covid-19 učinio je to vrlo očitim. Odjevna industrija izgubila je
+  billions_of_dollars: "milijarde dolara"
+  by_canceling_orders_unnecessarily: >
+    jer su brendovi nepotrebno otkazivali narudžbe, onesposobljavajući tvornice i osiromašujući radnike. Odbivši isplatiti radnicima plaću od koje mogu živjeti, brendovi su ostavili radnike koji za njih proizvode odjeću bez načina da se uzdržavaju. Milijuni radnika pod prijetnjom su beskućništva i gladi, a mnoge tvornice suočavaju se s ekonomskim kolapsom. Brendovi predugo imaju preveliku moć nad svojim dobavljačima. Vrijeme je da se to promjeni.
+  to_do_so_we_need_transparency: >
+    Kako bi do promjene moglo doći potrebna nam je transparentnost. Želimo znati gdje je unutar dobavnog lanca koncentrirana moć: Gdje su radnici plaćeni najmanje? Gdje su sindikalno organizirani? Gdje rade žene i migrantski radnici? Vrijeme je da počnemo koristiti dostupne podatke kako bi istaknuli kršenja ljudskih prava u modnoj industriji i dobili konkretna, značajna i mjerljiva povećanja plaća u cijelom dobavnom lancu. Radnici zaslužuju bolje. Kupci zaslužuju bolje. Vrijeme je da preraspodijelimo bogatstvo i moć.
+  what_do_we_want: "Što mi želimo?"
+  what_can_you_do: "Što TI možeš napraviti?"
+  we_re_demanding_that_brands_do: "Zahtijevamo da brendovi naprave više:"
+  we_want_them_to_show_how_they_are_working: >
+    želimo da pokažu na koji način rade na organizaciji proizvodnog lanca koji će SVIM radnicima omogućiti da zarade dostojanstvenu plaću. Također zahtijevamo da kreatori politika stvore ravnopravne uvjete i jednaka pravila igre za sve uključene strane. To je jedini način na koji brendovi mogu ispuniti obvezu poštivanja ljudskih prava (Human Rights Due Diligence), i dugoročno, jedini način na koji mogu zadržati povjerenje kupaca.
+  a_living_wage: "Dostojanstvena plaća"
+  for_all_workers: "za SVE radnike"
+  tell_brands_to_commit_to_paying_a_living_wage: "Pozovi brendove da se obvežu na isplatu dostojanstvene plaće u njihovom proizvodnom lancu."
+  we_are_asking_brands_to_pay_an_extra_contribution: >
+    Zahtijevamo od brendova da plate dodatak za troškove rada nastale tokom proizvodnje odjeće za njih. Taj bi novac bio namijenjen izravno za isplatu plaća umjesto za druge proizvodne troškove. Na taj način brendovi mogu biti sigurni da radnici u njihovu proizvodnom lancu zarađuju dovoljno za život. Također želimo da ulože značajan napor u smanjivanje razlike između plaća muškaraca i žena. To uključuje prikupljanje više podataka o ljudima koji proizvode odjeću i rad s tvornicama na smanjenju razlika u podjeli poslova prema spolu unutar procesa proizvodnje.
+  a_spotlight: "Naglasak"
+  on_the_bottom_of_the_supply_chain: "na dno lanca opskrbe"
+  where_are_the_unions: >
+    Gdje postoje sindikati? Gdje rade migranti? Kolike su najniže plaće? Pozovi brendove da objave čitljive podatke o svojim dobavnim lancima, od vrha prema dnu.
+  brands_never_release_data_about_the_bottom: >
+    Brendovi nikada ne objavljuju podatke o najnižim dijelovima dobavnog lanca. Plaće radnika koji ondje rade obavijene su mrakom. Kako brendovi mogu obećavati isplatu dostojanstvenih plaća bez prikupljanja ovih informacija?
+  we_want_brands_to_ask_their_suppliers: >
+    Želimo da pitaju dobavljače koju ulogu imaju žene i migranti u proizvodnji njihove odjeće unutar i izvan tvornica. Migranti, kao i žene, imaju manje mogućnosti boriti se za osnovna ljudska prava i često rade na istim eksploatatorskim poslovima.
+  we_want_to_know_if_the_workers_making: >
+    Želimo znati imaju li radnici koji proizvode našu odjeću svoj glas. Sindikati omogućuju radnicima da se zauzmu za sebe i pregovaraju za bolje radne uvjete.
+  consumer: "Transparentnost"
+  transparency: "prema potrošačima"
+  tell_brands_and_policy_makers: >
+    Reci brendovima i kreatorima politika da želiš znati na koji način je proizvedena tvoja odjeća.
+  do_you_want_to_know_if_the_people_who_made: >
+    Želiš li znati jesu li ljudi koji proizvode tvoju odjeću u mogućnosti otići na bolovanje? Ili poslati djecu u školu? Želiš li znati koriste li brendovi koje kupuješ tvornice koje radnicima dopuštaju da se organiziraju? Reci vladi svoje države da očekuješ više od etiketa na svojoj odjeći.
+
+  support_workers_through_the_devastating_effects: "Podrži radnike zahvaćene razornim učincima virusa Covid-19"
+  sign_the_petition_asking_brands_to_pay_for_orders: >
+    Potpiši peticiju i pozovi brendove da plate svoje narudžbe. Odjevna industrija ostala je bez milijardi dolara nakon što je koronavirus zaustavio društvo. Milijuni radnika mjesecima su bili bez punih plaća, a neisplata plaće za njih znači da ne mogu priuštiti hranu.
+  donate_to_our_emergency_fund_to_help_us: >
+    Doniraj za naš fond za krizne situacije kako bi pomogao radnicima u proizvodnim zemljama. Mnogi od njih čekali su isplatu neisplaćenih plaća i prije izbijanja krize uzrokovane koronavirusom.
+  for_information_on_how_to_do_so_please: >
+    Kako donirati saznaj na stranici o kampanji Covid-19 na našem webu.
+  follow_our_live_blog_for_the_latest_information: >
+    Za najnovije informacije o utjecaju virusa Covid-19 na odjevnu industriju posjeti naš live blog.
+  find_out_more_about_our_demands: "Saznaj više o našim zahtjevima"
+  donate_to_the_campaign: "Doniraj za kampanju"
+  you_can_help_fund_this_campaign: "Donacijom možeš pomoći financirati ovu kampanju."
+  every_little_bit_helps: >
+    Svaka donacija pomaže. Novac će biti korišten
+  future_research_and_translations_of_our_data: "za održavanje web stranice, buduća istraživanja i prijevod naših podataka."
+  donate: "Doniraj"
+  of_surveyed_brands_aren_t_paying_garment_workers: "anketiranih brendova ne isplaćuje dostojanstvenu plaću odjevnim radnicima"
+  want_to_help_workers_fight_for: "Želiš li pomoći radnicima u borbi za"
+  better_working_conditions: "bolje uvjete?"
+  twitter_storm: "“Bombardiranje”objavama na Twitteru"
+  menu_take_action: "Poduzmi akciju"
+  visit_the_websites_of_our: >
+    Posjeti stranice naših nacionalnih organizacija i otkrij na koji način možeš pisati brendovima i informirati ih o našoj kampanji.
+  support_garment_workers_through_covid_19: "SPodrži odjevne radnike za vrijeme krize uzrokovane koronavirusom"
+  sign_the_petition: "Potpiši peticiju"
+  your_voice_matters_brands_are_highly: >
+    Tvoj glas je važan. Brendovi jako brinu o svom imidžu i glas kupaca uzimaju veoma ozbiljno. Želimo da im daš do znanja da radnici zaslužuju bolje. Reci brendovima od kojih kupuješ da želiš kupiti odjeću proizvedenu bez izrabljivanja.
+  donate_to_our_emergency_relief_fund: >
+    Doniraj za naš fond za pomoć u kriznim situacijama kako bi pomogao radnicima u proizvodnim zemljama. Mnogi od njih čekaju neisplaćene plaće još prije izbijanja krize uzrokovane koronavirusom. Organizacije naše mreže organiziraju dijeljenje hrane u lokalnim zajednicama kako bi podržali odjevne radnike i njihove obitelji. Za najnovije vijesti prati naš live blog.
+  living_wage_table:
+    minimum_wage:
+      food: >
+        Nije lako dobiti dovoljno hranjivih tvari ili kalorija. Često jedete istu kašu ili rižu svakodnevno. Meso, riba i voće su preskupi. Preskakanje obroka vrlo je često i vaše će kućanstvo imati manje hrane do kraja mjeseca.
+      housing: >
+        Dijeliš zajedničku spavaonicu. Nema privatnosti, grijanja ili klima uređaja, a ventilacija je loša. Nema dovoljno namještaja ni kreveta. Loša kvaliteta građevinskog materijala život čini nesigurnim i opasnim.
+      health_care: >
+        Imaš pristup osnovnim lijekovima protiv bolova, ali dostupnost menstrualnih proizvoda je ograničena. Nemaš pristup lijekovima na recept ili hitnoj zdravstvenoj zaštiti. Nedostatak sna, prehrana i higijenska ograničenja utječu na tvoje zdravlje.
+      education: >
+        Nisi u mogućnosti obrazovati sebe ili svoju djecu. Nemaš priliku poboljšati svoju situaciju. Tvoja djeca će najvjerojatnije odrasti da bi zarađivala jednako nisku plaću kakvu ti zarađuješ.
+      clothing: >
+        Tvoja odjeća nije dovoljno topla za zimu. Nisi u mogućnosti kupiti kvalitetnu obuću u kojoj bi mogao izdržati cijeli dan na poslu.
+      transportation: >
+        Nemaš siguran način prijevoza. Javni prijevoz nije čest u siromašnijim proizvodnim zemljama. Ovisiš o pretrpanim vozilima koje organizira tvornica. Kao žena, u riziku si od seksualnog nasilja.
+      savings: >
+        Najvjerojatnije imaš dugove. Balansiraš između plaćanja računa i kredita, a živiš od danas do sutra.
+    living_wage:
+      food: >
+        Zarađujete dovoljno da prehranite sebe i svoje kućanstvo. Imate zdravu, raznoliku prehranu i jedete najmanje tri puta dnevno.
+      housing: >
+        Možeš priuštiti kuću u sigurnom okruženju za sebe i osobe koje uzdržavaš. Imaš prozore za provjetravanje i svjetlo, privatnost, dovoljno namještaja i vlastitu kupaonicu.
+      health_care: >
+        Imaš lak pristup osnovnoj zdravstvenoj njezi, uključujući menstrualne proizvode i lijekove na recept poput inzulina i antibiotika. Možeš uštedjeti za hitnu zdravstvenu njegu.
+      education: >
+        Imaš mogućnost obrazovati sebe i osobe o kojima brineš. Imaš vremena i slobodu za osposobljavanje prema bolje plaćenoj poziciji. Ti i tvoja djeca imate opcije za budućnost.
+      clothing: >
+        Posjeduješ odjeću za sve vremenske prilike koju si sam odabrao. U mogućnosti si kupiti anatomske cipele i odjeću za djecu u ispravnoj veličini.
+      transportation: >
+        Zarađuješ dovoljno da bi organizirao vlastiti prijevoz ili tvornica u kojoj radiš može osigurati siguran prijevoz. Možeš si priuštiti štednju za vlastito prijevozno sredstvo. Što je najvažnije, imaš izbor.
+      savings: >
+        Možeš odvojiti dio plaće za neočekivane troškove i hitne slučajeve, što ti daje sigurnost u kriznim vremenima.
+
+  to_brands: "Naši zahtjevi brendovima"
+  brands_need_to_do_more_to_change_the_power: >
+    Brendovi moraju učiniti više da bi promijenili raspodjelu moći u odjevnoj industriji. Radnici se ne bi trebali boriti za osnovna ljudska prava u 2020. Vrijeme je za promjenu.
+  our_wage_demands: "Naši zahtjevi po pitanju plaće"
+  pay_a_living_wage: "Isplatite dostojanstvenu plaću"
+  we_want_brands_to_pay_more_for_orders: >
+    Želimo da brendovi plate više za narudžbe. Dobavljači će moći isplatiti dostojanstvene plaće tek kad budu mogli pregovarati za cijene koje bi pokrile troškove rada.
+  menu_our_demands: "Zahtjevi"
+  brands_need_to_commit_to_paying_a: "Brendovi se moraju obvezati na isplatu"
+  living_wage_contribution: "dodatka za dostojanstvenu plaću"
+  on_every_order_they_place: "za svaku narudžbu, u iznosu dovoljnom da do 31. prosinca 2022. zatvore jaz u plaćama u svom dobavnom lancu."
+  using_living_wage_benchmarks: "Koristite pragove dostojanstvene plaće"
+  if_brands_are_going_to_pay_living_wages: "Ako brendovi namjeravaju početi isplaćivati dostojanstvene plaće svim radnicima u dobavnom lancu, trebaju znati koliko bi rad trebao koštati. Postoji mnogo pomagala koji im u tome mogu pomoći."
+  brands_need_to_commit_to_using: "Brendovi se moraju obvezati na korištenje"
+  transparent_and_robust_living_wage_benchmarks: "pragova koji određuju visinu dostojanstvene plaće transparentno i pomoću čvrsto utemeljenih podataka"
+  pay_the_women_who_make_our_clothes: "Platite ženama koje proizvode našu odjeću"
+  brands_need_to_do_more_to_reduce_gender_inequality: "Brendovi trebaju učiniti više kako bi smanjili rodnu nejednakost u dobavnom lancu odjeće. Žene se rutinski zapošljava na poslovima koji su plaćeni manje od poslova njihovih muških kolega, što je štetno za njihovo zdravlje i sigurnost."
+  brands_need_to_commit_to: "Brendovi se moraju obvezati na"
+  reducing_the_gender_pay_gap: "manjivanje rodnog jaza u plaćama"
+  in_their_supply_chain_by_at_least_30: "u svom dobavnom lancu za barem 30 posto do 31. prosinca 2022."
+  covid_19_pay_up: "Covid-19 – Podmirite dugove!"
+  when_covid_19_shook_the_world_it_left_the_garment: "Kad je koronavirus potresao svijet, industriju odjeće ostavio je u ruševinama. Milijuni radnika nisu primili punu plaću mjesecima. Mnogi od njih čekali su da im se isplate neisplaćene plaće i prije početka pandemije. Za veliku većinu radnika primanje bilo kakvog iznosa manjeg od pune plaće znači da neće moći priuštiti kupnju hrane."
+  brands_need_to_publicly_commit_to_a: "Brendovi se moraju javno obvezati na"
+  wage_guarantee: "osiguranje plaća"
+  for_all_workers_in_their_supply_chain_ensure: "za sve radnike u njihovu dobavnom lancu. Osiguraj i omogući da svi radnici koji su bili zaposleni na početku krize koronavirusa"
+  receive_their_full_salaries: "prime punu plaću"
+  or_in_the_case_of_factory_closure_receive: "ili otpremninu u slučaju zatvaranja tvornice. Za više informacija o dostojanstvenim plaćama"
+  our_transparency_demands: "Naši zahtjevi za transparentnosti"
+  a_transparent_supply_chain: "Transparentan dobavni lanac"
+  we_want_all_brands_to_commit_to_a_completely: "Želimo da se potpisivanjem Jamstva transparentnosti svi brendovi obvežu da će osigurati potpuno transparentan dobavni lanac. Jamstvo transparentnosti određuje osnovne minimalne informacije koje odjevne kompanije trebaju otkriti vanjskom svijetu o tvornicama u kojima se za njih proizvodi. Standard je postavila koalicija devet sindikata i radničkih organizacija 2017. godine, a dodatno je proširen u dva izvještaja iz 2017. i 2019."
+  brands_that_haven_t_already_need_to_sign: "Brendovi koji još nisu moraju potpisati Jamstvo transparentnosti u najkraćem mogućem roku."
+  readable_data_on_women_migrants_and_unions: "Čitljivi podaci o ženama, migrantima i sindikatima"
+  not_only_do_brands_need_to_be_collecting_specific: "Osim prikupljanja specifičnih podataka o radnim uvjetima u dobavnim lancima, brendovi moraju te podatke objaviti u formatu s kojim aktivisti i sindikati mogu raditi. Želimo znati gdje u dobavnom lancu rade žene i migranti i jesu li ljudi koji proizvode našu odjeću u mogućnosti zauzeti se za sebe."
+  brands_must_disclose_data_using_machine_readable: "Brendovi moraju podatke objaviti u obliku strojno čitljivih popisa dobavljača, uključujući i informacije o podjeli poslova po spolu, udjelu migrantskih radnika u radnoj snazi i prisutnosti sindikata ili radničkih odbora za svaku tvornicu."
+  wages_at_the_bottom_of_the_supply_chain: "Plaće na dnu dobavnog lanca"
+  we_want_to_know_what_the_lowest_earning_workers: "Želimo znati koliko radnici koji imaju najniže plaće u dobavnom lancu zarade u punom radnom tjednu. Ovu informaciju brendovi ne otkrivaju niti provjeravaju. To se mora promijeniti."
+  brands_must_disclose_data_on_the_lowest_wage_level: "Brendovi moraju objaviti podatke o najnižim plaćama koje radnicima isplaćuje svaki dobavljač u svakoj proizvodnoj zemlji, za puni radni tjedan, bez prekovremenih sati, naknada i dodataka na plaću."
+  to_policymakers: "Naši zahtjevi kreatorima politika"
+  it_s_not_just_brands_that_are_responsible: "Nisu samo brendovi odgovorni osigurati pravedno i ravnopravno tretiranje radnika u odjevnoj industriji. Vlade igraju vitalnu ulogu u stvaranju ravnopravnih uvjeta i jednakih pravila igre za sve uključene strane."
+  we_call_for_minimum_wages_in_production_countries: "Tražimo da se minimalna plaća u proizvodnim zemljama utvrdi u skladu s pouzdanim međunarodnim standardima za određivanje dostojanstvene plaće te da se transparentni pragovi koji određuju visinu dostojanstvene plaće pomoću čvrsto utemeljenih podataka uključe u strategije i sporazume."
+  we_call_for_the_eu_to_ensure_that_minimum_wages: "Tražimo od Europske unije da za radnike unutar EU osigura pravedne minimalne plaće, koje garantiraju dostojanstven život i uređene su u skladu s pouzdanim međunarodnim standardima, kao i da omogući pristup odgovarajućoj socijalnoj zaštiti bez obzira na radni odnos, te da se smanji socijalna isključenost i nejednakost."
+  we_call_for_the_eu_to_require_supply_chain: "Tražimo od EU da zahtijeva objavljivanje informacija o dobavnom lancu barem od kompanija u visokorizičnim sektorima gdje su kršenja prava česta. Liste dobavljača također trebaju uključivati strojno čitljive informacije za sve proizvodne jedinice i prerađivačke pogone, kao i ime, adresu, matično društvo poduzeća, vrstu proizvoda i broj radnika u svakom pogonu."
+  we_call_for_mandatory_disclosure_of_data_on_lowest: "Tražimo obvezno objavljivanje informacija o najnižim plaćama koje isplaćuje svaki dobavljač u svakoj proizvodnoj zemlji, bez naknada i dodataka na plaću. Podaci trebaju biti razvrstani po spolu te uključivati broj migrantskih radnika, njihove plaće i radni status, uključujući i poznavanje rizika i prava u cijelom dobavnom lancu."
+  we_call_to_advance_human_rights_due_diligence: "Tražimo unaprjeđenje legislative o dužnoj pažnji u pogledu ljudskih prava (Human Rights Due Diligence) na razini Europske unije, kako bi se ustanovila obveza kompanija na poštivanje ljudskih prava u svom poslovanju i lancima opskrbe, uključujući transparentnost postupka dužne pažnje, dobavnog lanca i plaća u dobavnom lancu, sa sviješću o rizicima i pravima duž cijelog dobavnog lanca, prema načelu “nitko ne smije biti zapostavljen"
+  we_call_to_set_in_place_an_information_system_for: "Tražimo uspostavljanje sustava informiranja preko kojega bi kompanije izvještavale i objavljivale odgovarajuće transparentne podatke o tvornicama i proizvodima. Pristup ovim informacijama trebao bi biti besplatan, neograničen i usklađen sa standardom otvorenih podataka."
+  we_call_for_increased_transparency_at_product: "Tražimo povećanje transparentnosti na razini proizvoda kako bismo osnažili znanje kupaca: proširite vrstu informacija na etiketama tekstila da uključuje podatke o proizvodnom procesu i njegovu životnom ciklusu."
+  see: "Posjeti"
+  our_website: "našu web stranicu"
+  for_more_information_on_these_demands: "Za više informacija o zahtjevima"
+  fashion: "Fashion"
+  checker: "Checker"
+  coming_soon: "Dolazi uskoro"
+  explore: "istražiti"
+  the_data: "podatke"
+  are_the_people_who_make_your_clothes_paid_enough_t: "Jesu li ljudi koji proizvode tvoju odjeću plaćeni dovoljno za život?"
+  find_out_which_apparel_and_footwear_brands_pay_the: "Saznaj koji odjevni i obućarski brendovi svojim radnicima isplaćuju dostojanstvenu plaću"
+  country: "Zemlja"
+  eu_disclaimer: "This website was created and maintained with the financial support of the European Union. Its contents are the sole responsibility of Clean Clothes Campaign and do not necessarily reflect the views of the European Union."
+  tweet_the_brand: "Tviteraj brend"
+  menu_resources: "Resursi"
+  reports: "Izvještaji"
+  living_wage: "Dostojanstvenu plaću"
+  power_dynamics: "Dinamika snage"
+  podcasts: "Podcasts"
+  videos: "Video"
+  who_we_are: "Tko smo mi"
+  methodology: "Metodologija"
+  see_full_profiles: "See the full brand profiles"
+  minimum_wage: "Minimum Wage"
+  food: "Food"
+  housing: "Housing"
+  health_care: "Health care"
+  education: "Education"
+  clothing: "Clothing"
+  transportation: "Transportation"
+  savings: "Savings"
+  website_powered_by: "Website powered by"
+  privacy_policy: "Privacy Policy"
+  all_rights_reserved: "All rights reserved"
+  design_by: "Design by"
+  new: "new"
+  exploitation_made_in_europe: "Exploitation: made in Europe"
+  tailored_wages: "Tailored wages"
+  corporate_commitments_to_living_wages: "Corporate Commitments to Living Wages in the Garment Industry"
+  turn_around_h_m: "Turn around H&M"
+  europe_s_sweatshops: "Europe’s sweatshops"
+  presentation: "(presentation)"
+  a_sewing_kit_for_a_living_wage: "A Sewing Kit For A Living Wage"
+  oxfam_australia: "Oxfam Australia"
+  fashion_focus_the_fundamental_right: "Fashion Focus: The Fundamental Right To A Living Wage"
+  the_circle: "The Circle"
+  fashion_s_next_trend: "Fashion’s Next Trend: Accelerating Supply Chain Transparency in the Garment and Footwear Industry"
+  go_transparent: "#GoTransparent"
+  surge_in_garment_industry_transparency: "Surge in Garment Industry Transparency: Laws Needed to Ensure Companies Adopt Human Rights Practices"
+  wrc: "WRC"
+  fig_leaf_for_fashion: "Fig leaf for Fashion: How social auditing protects brands and fails workers"
+  follow_the_thread: "Follow the Thread. The Need for Supply Chain Transparency in the Garment and Footwear Industry"
+  the_transparency_pledge_the_apparel_and_footwear: "The transparency pledge: The apparel and footwear supply chain transparency pledge."
+  global_wage_report_2018_19: "Global Wage Report 2018/19 - What lies behind gender pay gaps"
+  ilo: "ILO"
+  will_women_workers_benefit_from_living_wages: "Will women workers benefit from living wages?"
+  christa_luginbuhl: "Christa Luginbühl"
+  despite_progress_gender_based_violence: "Despite progress gender-based violence and harassment is still a reality for global garment workers"
+  promoting_gender_equality_in_garment_industry: "Promoting gender equality in garment industry"
+  better_work: "Better Work"
+  gender_pay_gaps_in_the_garment_textile_footwear: "Gender pay gaps in the garment, textile and footwear sector in developing Asia"
+  garment_supply_chains_in_intensive_care: "Garment supply chains in intensive care"
+  ecchr: "ECCHR"
+  two_crises_one_flawed_supply_chain_model: "Two crises, one flawed supply chain model: How the imbalance of power in global supply chains harms workers"
+  the_emperor_has_no_clothes_garment_supply_chains: "The emperor has no clothes: Garment supply chains in the time of pandemic."
+  asia_floorwage_alliance: "Asia floorwage alliance"
+  global_capitalism_is_the_new_colonialism: "Global Capitalism Is the New Colonialism for Workers, and They Are Resisting"
+  truth_out: "Truth Out"
+  fashion_critical_with_lucy_siegle_and_livia_firth: "Fashion Critical with Lucy Siegle and Livia Firth"
+  episode_2_with_christie_medima_from_ccc_io: "Episode 2 With Christie Medima from CCC IO"
+  the_problem_with_social_audits: "The problem with social audits"
+  esg_insider: "ESG Insider"
+  ethical_consumer_we_need_to_stop_buying: "Ethical Consumer - We need to stop buying new clothes!"
+  with_bel_jacobs: "with Bel Jacobs, Fashion Editor of the Metro turned XR Boycott Fashion activist"
+  living_wage_now_documentary_trailor: "Living wage now documentary trailor."
+  the_ugly_truth_of_fast_fashion: "The Ugly Truth Of Fast Fashion"
+  fast_fashion_is_disgusting: "Fast fashion is disgusting"
+  haute_le_mode: "Haute le mode"
+  patriot_act_with_hasan_minhaj: "Patriot Act with Hasan Minhaj | Netflix"
+  the_importance_of_sustainability_ethics_in_fashion: "The Importance Of SUSTAINABILITY & ETHICS In Fashion"
+  the_fashion_archive: "The Fashion Archive"
+  ending_gender_based_violence: "Ending Gender-Based Violence in the Garment Industry"
+  global_fund_for_women: "Global Fund for Women"
+  five_business_practices: "5 Business Practices Many Major Clothing Brands Use that Hurt Workers"
+  human_rights_watch: "Human rights watch"
+  menu_explore_the_data: "Explore the Data"
+  resources: "Resources"
+  lw_c_50_plausible_notpublic: >
+    The brand claims that 50% or more of its supplier factories are paying a living wage to all their workers, some plausible explanation is given, but the evidence is not public. Which means many of the workers making their clothes do not earn enough to live on.
+  lw_d_25_public: >
+    The brand claims that between 1 and 25% of supplier factories in the company’s supply chain pay workers a living wage. This is public information. The majority of workers in the brand’s supply chain do not earn enough to live on."
+  lw_d_started: >
+    The company claims that it has started contributing towards a living wage by paying higher prices factories in its supply chain but these prices still do not cover labour costs. Which means the majority of the workers making their clothes do not earn enough to live on.
+  lw_e_noclaim_notpublic: >
+    The brand makes no claim and no public evidence was found that its suppliers are paying a living wage. Which means the brand cannot prove that the workers making their clothes do earn enough to live on.
+  lw_e_noevidence: >
+    There was no evidence found on the brand’s claims that it pays a living wage and no plausible explanation was given. Which means the brand cannot prove that the workers making their clothes do earn enough to live on.
+  transp_none: >
+    This brand provides no information on the supplier factories and garment workers in its supply chain which is required by the transparency pledge.
+  transp_partial: >
+    This brand provides some, but not enough information on the supplier factories and garment workers in its supply chain.
+  transp_partial_additional: >
+    This brand provides some information beyond the basics, but falls short of the minimum needed for the transparency pledge.
+  transp_partial_additional_machinereadable: >
+    This brand provides some information beyond the basics, in a practical, machine-readable format, but but falls short of the minimum needed for the transparency pledge.
+  transp_partial_machinereadable: >
+    This brand provides some, but not enough information on the factories and garment workers in its supply chain - it publishes in a practical, machine-readable format.
+  transp_pledge: >
+    This brand provides basic information like factory names and addresses, product type, number of workers, and supplier group, if the factory is part of a larger entity.
+  transp_pledge_additional: >
+    This brand provides information beyond the basics such as the gender composition of the workforce, if there is a union or if there is a collective bargaining agreement in place.
+  transp_pledge_additional_machinereadable: >
+    This brand provides information beyond the basics in a practical, machine-readable format such as Excel spreadsheets which makes the data usable for others.
+  transp_pledge_machinereadable: >
+    This brand provides basic information in a practical, machine-readable format such as Excel spreadsheets which makes the data usable for others.
+
+  partners: "Partners"
+  we_never_saw_data_about_brands_payments_what_price: >
+    "We never saw data about brands’ payments, what prices they really pay.Our director always says that we are at a loss.According to him, we should work even more. He tells us that we are drones, a bunch of goof-offs."
+  click_to_read_more: "click<br/>to read<br/>more"
