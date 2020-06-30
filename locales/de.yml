@@ -646,13 +646,13 @@ de:
   menu_explore_the_data: "Erforsche die Daten"
   resources: "Resources"
   lw_c_50_plausible_notpublic: >
-    The brand claims that 50% or more of its supplier factories are paying a living wage to all their workers, some plausible explanation is given, but the evidence is not public. Which means many of the workers making their clothes do not earn enough to live on.
+    Dieses Unternehmen kann plausibel erklären, warum wenigstens 50% der Fabriken in ihrer Lieferkette einen existenzsichernden Lohn zahlen, macht dies aber nicht öffentlich. Das bedeutet, dass die meisten Arbeiter*innen, die Kleidung für das Unternehmen herstellen, nicht genug verdienen, um davon leben zu können.
   lw_d_25_public: >
-    The brand claims that between 1 and 25% of supplier factories in the company’s supply chain pay workers a living wage. This is public information. The majority of workers in the brand’s supply chain do not earn enough to live on."
+    Zwischen 1 und 25% der Fabriken in der Lieferkette des Unternehmens zahlen den Beschäftigten einen existenzsichernden Lohn. Diese Informationen sind öffentlich zugänglich. Die große Mehrheit der Arbeiter*innen, die Kleidung für das Unternehmen herstellen, verdient nicht genug, um davon leben zu können.
   lw_d_started: >
-    The company claims that it has started contributing towards a living wage by paying higher prices factories in its supply chain but these prices still do not cover labour costs. Which means the majority of the workers making their clothes do not earn enough to live on.
+    Das Unternehmen behauptet, dass es begonnen hat, zu einem existenzsichernden Lohn beizutragen, indem es den Fabriken in seiner Lieferkette höhere Preise zahlt, aber diese Preise decken immer noch nicht die Arbeitskosten. Das bedeutet, dass die Mehrheit der Arbeiter*innen, die ihre Kleidung herstellen, nicht genug verdient, um davon leben zu können.
   lw_e_noclaim_notpublic: >
-    The brand makes no claim and no public evidence was found that its suppliers are paying a living wage. Which means the brand cannot prove that the workers making their clothes do earn enough to live on.
+    Dieses Unternehmen veröffentlicht keine Informationen über existenzsichernde Löhne. Arbeiter*innen, die Kleidung für dieses Unternehmen herstellen, verdienen nicht genug, um davon leben zu können.
   lw_e_noevidence: >
     There was no evidence found on the brand’s claims that it pays a living wage and no plausible explanation was given. Which means the brand cannot prove that the workers making their clothes do earn enough to live on.
   transp_none: >
@@ -676,5 +676,5 @@ de:
 
   partners: "Partners"
   we_never_saw_data_about_brands_payments_what_price: >
-    "We never saw data about brands’ payments, what prices they really pay.Our director always says that we are at a loss.According to him, we should work even more. He tells us that we are drones, a bunch of goof-offs."
-  click_to_read_more: "click to read more"
+    "We never saw data about brands’ payments, what prices they really pay. Our director always says that we are at a loss.According to him, we should work even more. He tells us that we are drones, a bunch of goof-offs."
+  click_to_read_more: "mehr info: klicken"
