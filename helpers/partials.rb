@@ -92,4 +92,9 @@ module Partials
     partial "partials/shared/donate",
             locals: { button_id: button_id, filename: filename }
   end
+
+  def image_quote url, quote, citation
+    partial "partials/shared/image_quote",
+            locals: { url: url, quote: quote, citation: citation }
+  end
 end

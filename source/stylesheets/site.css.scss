@@ -54,52 +54,6 @@ body {
   line-height: 1.2;
 }
 
-// .red-pink-bg {
-//   background-image: linear-gradient(177deg, $orange 95%, $pink calc(95% + 1px));
-// }
-//
-// .pink-fuchsia-bg {
-//   background-image: linear-gradient(
-//     183deg,
-//     $pink 95%,
-//     $fuchsia calc(95% + 1px)
-//   );
-// }
-//
-// .red-blue-bg {
-//   background-image: linear-gradient(
-//     177deg,
-//     $orange 200px,
-//     $blue calc(200px + 1px)
-//   );
-// }
-//
-// @include media-breakpoint-up(md) {
-//   .red-pink-bg {
-//     background-image: linear-gradient(
-//       177deg,
-//       $orange 88%,
-//       $pink calc(88% + 1px)
-//     );
-//   }
-//
-//   .pink-fuchsia-bg {
-//     background-image: linear-gradient(
-//       183deg,
-//       $pink 88%,
-//       $fuchsia calc(88% + 1px)
-//     );
-//   }
-//
-//   .red-blue-bg {
-//     background-image: linear-gradient(
-//       177deg,
-//       $orange 200px,
-//       $blue calc(200px + 1px)
-//     );
-//   }
-// }
-
 ._score-desc.score-1 {
   .score-1 {
     display: block;
@@ -314,7 +268,7 @@ input {
 }
 
 .middle-text {
-  margin: 0 15%;
+  margin: 0 5%;
   .lead {
     line-height: 1.5em;
     margin-top: 1em;
@@ -344,55 +298,6 @@ input {
   width: 100%;
 }
 
-.citation {
-  font-size: 0.75em;
-  text-transform: uppercase;
-  margin-top: 1.3em;
-}
-
-.text-on-image {
-  margin: 1em 0 2em 0;
-  .quote-on-image {
-    padding: 1em 2em;
-    max-width: 80%;
-    color: $white;
-    font-size: 1.5em;
-  }
-  background-size: 100%;
-}
-
-.stomach_problems_bg {
-  background-image: linear-gradient(
-      to right,
-      #333 0%,
-      rgba(255, 255, 255, 0) 80%
-    ),
-    url("/images/living_wage/stomach_problems_bg.png");
-}
-.women_dance_bg {
-  background-image: linear-gradient(
-      to right,
-      #333 0%,
-      rgba(255, 255, 255, 0) 80%
-    ),
-    url("/images/gender/bangladeshi-women-factory_bg.png");
-}
-.no_pay_slip_bg {
-  background-image: linear-gradient(
-      to right,
-      #333 0%,
-      rgba(255, 255, 255, 0) 80%
-    ),
-    url("/images/living_wage/no_pay_slip_bg.png");
-}
-.at_machines_bg {
-  background-image: linear-gradient(
-      to right,
-      #333 0%,
-      rgba(255, 255, 255, 0) 80%
-    ),
-    url("/images/transparency/at_machines_bg.png");
-}
 
 @import "living_wage_table";
 
@@ -445,9 +350,13 @@ input {
     position: absolute;
     text-align: center;
     color: #fff;
-    top: 40%;
-    width: 100%;
     font-size: 46px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    bottom: 0;
+    width: 100%;
   }
 }
 .trio-banner {
@@ -458,16 +367,15 @@ input {
     content: "";
     transform: skewY(3deg);
     min-height: 150px;
-    top: -100px;
+    top: -115px;
     right: 0;
     left: 0;
   }
   .trio-text {
     position: absolute;
-    width: 300px;
-    color: #fff;
-    font-size: 1.5em;
-    top: 100px;
+    max-width: 300px;
+    color: white;
+    top: 50px;
   }
 }
 
@@ -631,9 +539,55 @@ main {
   }
 }
 
+
+.image-quote {
+  margin: 1em -10% 2em -10%;
+  position: relative;
+  img { width: 100% };
+  .filter, .quote {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+  .filter {
+    background-image: linear-gradient(to right, #333 0%, rgba(255, 255, 255, 0) 80%)
+  }
+  .quote {
+    padding: 1em;
+    color: $white;
+  }
+}
+
+.citation {
+  font-size: 0.75em;
+  text-transform: uppercase;
+  margin-top: 1.3em;
+}
+
+
 @include media-breakpoint-up(sm) {
   .social-media-links {
     justify-content: end;
     padding: 0;
+  }
+  .middle-text {
+    margin: 0 15%;
+  }
+  .image-quote {
+    margin: 1em 0 2em 0;
+    .quote {
+      padding: 1em;
+      font-size: 1.5em;
+      max-width: 80%;
+    }
+  }
+  .trio-banner .trio-text {
+    font-size: 1.5em;
+    top: 100px;
+  }
+  .trio-banner:after {
+    top: -100px;
   }
 }

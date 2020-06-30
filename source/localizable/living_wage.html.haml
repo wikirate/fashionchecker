@@ -27,12 +27,9 @@
         %p
           = t('there_are_a_number_of_countries')
 
-        .text-on-image.stomach_problems_bg
-          // %img{ src: "/images/living_wage/stomach_problems_bg.png"}
-          .quote-on-image
-            = t('i_have_problems_with_my_stomach')
-            .citation
-              = t('a_worker_from_croatia')
+        = image_quote "/images/living_wage/stomach_problems_bg.png",
+                      t('i_have_problems_with_my_stomach'),
+                      t('a_worker_from_croatia')
 
         %h3
           = t('living_wage_benchmarks')
@@ -130,7 +127,7 @@
 
     = section "light-grey" do
       .text-center.p-2
-        %img{ src: "/images/living_wage/global_supply_chain.png" }
+        %img.mw-100{ src: "/images/living_wage/global_supply_chain.png" }
     = section :white do
       .middle-text
         %p
@@ -144,11 +141,9 @@
         %p
           = t('current_purchasing_practices_reflect_the_rise_of_f')
 
-        .text-on-image.no_pay_slip_bg
-          .quote-on-image
-            = t('my_factory_doesn_t_give_me_a_pay_slip')
-            .citation
-              = t('a_worker_from_india')
+        = image_quote "/images/transparency/at_machines_bg.png",
+                      t('my_factory_doesn_t_give_me_a_pay_slip'),
+                      t('a_worker_from_india')
 
         %p
           = t('brands_need_to_take_responsibility_to_modify')
