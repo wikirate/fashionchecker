@@ -696,3 +696,8 @@ fr:
   we_never_saw_data_about_brands_payments_what_price: >
     "Nous n'avons jamais eu accès aux données des marques et aux prix concrètement payés. Notre directeur répète constamment que nous sommes en perte. Selon lui, nous devrions travailler encore davantage. Il nous traite de bande d’imbéciles."
   click_to_read_more: "clique sur l'image"
+  img_living_wage_circles: "/images/about_us/living_wage_circles-fr.jpg"
+  img_smiling_curve: "/images/about_us/smiling_curve-fr.jpg"
+  img_tee_shirt: "/images/about_us/tee_shirt-fr.jpg"
+  img_25_percent: "/images/about_us/25_percent-fr.png"
+  img_global_supply_chain: "/images/living_wage/global_supply_chain-fr.png"
