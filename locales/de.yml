@@ -44,12 +44,12 @@ de:
   revenue: "Umsatz"
   profit: "Gewinn"
   top_3_production_countries: " 3 wichtigste Produktionsländer"
-  other_brands_owned_by: "Marken von"
+  other_brands_owned_by: "andere Marken von"
   headquarters: "Unternehmenssitz"
   owned_by: "Owned by:"
   search_for_brand: "Unternehmen suchen"
   interested_in_more_information: "Interesse an mehr Informationen?"
-  check_out: "Check out"
+  check_out: "Sehe"
   see_company_profile: "Unternehmensprofil ansehen"
 
   commitment_score:
@@ -127,22 +127,22 @@ de:
       score_5: "This brand provides information beyond the basics in a practical, machine-readable format such as Excel spreadsheets which makes the data usable for others"
 
   suppliers_table:
-    explore_supply_chain: "Explore supply chain"
-    sourcing_from_factories: "Sourcing from factories"
-    found: "found"
-    number_of_workers: "number of workers"
-    wage: "wage"
-    workers: "workers"
-    company: "company"
-    female_male_other: "Female/Male/Other"
-    permanent_temporary: "Permanent/ Temporary"
-    average: "Average"
-    gap: "Gap"
-    have_cba: "Have cba"
-    know_brand: "Know brand"
-    pregnancy_leave: "Pregnancy leave"
-  latest: "Latest"
-  news: "News"
+    explore_supply_chain: "Lieferkette ansehen"
+    sourcing_from_factories: "beziehen von folgenden Fabriken"
+    found: "gefunden"
+    number_of_workers: "Anzahl der Arbeiter*innen"
+    wage: "Lohn"
+    workers: "Arbeiter*innen"
+    company: "Unternehmen"
+    female_male_other: "weiblich/männlich/divers"
+    permanent_temporary: "fester Vertrag/befristet"
+    average: "Durchschnitt"
+    gap: "Gefälle"
+    have_cba: "Tarifvertrag"
+    know_brand: "Kennen die Marke"
+    pregnancy_leave: "Schwangerschaftsurlaub"
+  latest: "aktuellste"
+  news: "Neuigkeiten"
   footer_info: "ist eine Kampagne der Clean Clothes Campaign, die von der Europäischen Union finanziert wird."
   methodology_title: "Unsere Forschungsmethodik"
   methodology_paragraph_1: >
@@ -187,7 +187,7 @@ de:
   a_worker_from_india: "Eine Arbeiterin aus Indien"
   when_you_are_living_pay_check_to_pay_check: >
     Wenn man von Gehaltsscheck zu Gehaltsscheck lebt, ist es keine realistische Option, den Job zu kündigen, der einen vor dem Verhungern schützt. Vor allem dann, wenn man mehrere Personen ernähren muss. Marken müssen mehr tun, um sicherzustellen, dass die Frauen in ihrer Lieferkette vor Missbrauch geschützt sind und auf einen existenzsichernden Lohn für ALLE Arbeiter*innen hinarbeiten.
-  read_more_about: "Read more about"
+  read_more_about: "Mehr dazu"
   who_are_we: "Wer sind wir?"
   menu_who_we_are: "Wer wir sind"
   menu_methodology: "Forschungsmethodik"
@@ -362,7 +362,7 @@ de:
   a_living_wage_for_garment_workers: >
     Ein Existenzlohn für Textilarbeiter*innen und eine transparente Lieferkette
   menu_about_fashion_checker: "Über Fashion Checker"
-  about: "About"
+  about: "Über"
   brands_in_the_fashion_industry_put_millions: >
     Modeunternehmen investieren Millionen in Werbung, um sich als ethisch und nachhaltig darzustellen. Sie behaupten, dass sie ihren Arbeiter*innen längst einen existenzsichernden Lohn zahlen. Fashion Checker zeigt, wie weit dies von der Wahrheit entfernt ist, indem er Konsument*innen und Textilarbeiter*innen Einblick in die Lieferketten der größten Bekleidungsunternehmen der Welt verschafft.
 
