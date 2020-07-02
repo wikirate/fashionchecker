@@ -476,8 +476,8 @@ de:
   visit_the_websites_of_our: >
     Besucht die Websites unserer nationalen Organisationen, um herauszufinden, wie ihr Marken per E-Mail über diese Kampagne informieren könnt.
 
-  support_garment_workers_through_covid_19: "Support garment workers through Covid-19"
-  sign_the_petition: "Sign the Petition"
+  support_garment_workers_through_covid_19: "Unterstützt Textilarbeiter*innen bei Covid-19"
+  sign_the_petition: "Unterschreibt die Petition"
   your_voice_matters_brands_are_highly: >
     Eure Stimme zählt! Marken sind imageorientiert und nehmen die Meinung der Konsument*innen sehr ernst. Lasst die Marken wissen, dass die Arbeiter*innen Besseres verdienen. Sagt den Unternehmen, bei denen ihr einkauft, dass ihr Kleidung kaufen wollt, die ohne Ausbeutung hergestellt wird.
   donate_to_our_emergency_relief_fund: >
@@ -566,22 +566,22 @@ de:
   fashion: "Fashion"
   checker: "Checker"
   coming_soon: "Coming Soon"
-  explore: "Explore"
-  the_data: "The Data"
-  are_the_people_who_make_your_clothes_paid_enough_t: "Are the people who make your clothes paid enough to live on?"
-  find_out_which_apparel_and_footwear_brands_pay_the: "Find out which apparel and footwear brands pay their workers a Living Wage."
-  country: "Country"
+  explore: "Erkunde"
+  the_data: "Die Daten"
+  are_the_people_who_make_your_clothes_paid_enough_t: "Werden die Menschen, die eure Kleidung herstellen, so bezahlt, dass sie davon leben können?"
+  find_out_which_apparel_and_footwear_brands_pay_the: "Findet heraus, welche Bekleidungs- und Schuhunternehmen ihren Arbeiter*innen einen existenzsichernden Lohn zahlen."
+  country: "Land"
   eu_disclaimer: "Diese Webseite wurde mit finanzieller Unterstützung der Europäischen Union erstellt. Der Inhalt liegt in der alleinigen Verantwortung der Clean Clothes Campaign und spiegelt nicht die Ansichten der Europäischen Union wider."
-  tweet_the_brand: "Tweet the Brand"
-  menu_resources: "Resources"
-  reports: "Reports"
-  living_wage: "Living Wage"
-  power_dynamics: "Power Dynamics"
+  tweet_the_brand: "Twittert den Unternehmen"
+  menu_resources: "Ressourcen"
+  reports: "Berichte"
+  living_wage: "Existenzsichernder Lohn"
+  power_dynamics: "Machtgefüge"
   podcasts: "Podcasts"
   videos: "Videos"
   who_we_are: "Wer sind wir"
   methodology: "Forschungsmethodik"
-  see_full_profiles: "See the full brand profiles"
+  see_full_profiles: "Die vollständigen Unternehmensprofile anzeigen"
   food: "Essen"
   housing: "Wohnen"
   health_care: "Gesundheit"
@@ -590,10 +590,10 @@ de:
   transportation: "Transport"
   savings: "Rücklagen"
   website_powered_by: "Website powered by"
-  privacy_policy: "Privacy Policy"
-  all_rights_reserved: "All rights reserved"
-  design_by: "Design by"
-  new: "new"
+  privacy_policy: "Datenschutzbestimmungen"
+  all_rights_reserved: "Alle Rechte vorbehalten"
+  design_by: "Design:"
+  new: "neu"
   exploitation_made_in_europe: "Exploitation: made in Europe"
   tailored_wages: "Tailored wages"
   corporate_commitments_to_living_wages: "Corporate Commitments to Living Wages in the Garment Industry"
@@ -646,37 +646,37 @@ de:
   menu_explore_the_data: "Erforsche die Daten"
   resources: "Resources"
   lw_c_50_plausible_notpublic: >
-    Dieses Unternehmen kann plausibel erklären, warum wenigstens 50% der Fabriken in ihrer Lieferkette einen existenzsichernden Lohn zahlen, macht dies aber nicht öffentlich. Das bedeutet, dass die meisten Arbeiter*innen, die Kleidung für das Unternehmen herstellen, nicht genug verdienen, um davon leben zu können.
+    Das Unternehmen behauptet, dass 50% oder mehr der Zulieferfabriken den Arbeiter*innen einen existenzsichernden Lohn zahlen. Zwar gibt es dazu plausible Erklärungen, aber Beweise dafür werden nicht veröffentlicht. Das bedeutet, dass viele der Arbeiter*innen, die die Kleidung des Unternehmens produzieren, nicht genug verdienen, um davon zu leben.
   lw_d_25_public: >
-    Zwischen 1 und 25% der Fabriken in der Lieferkette des Unternehmens zahlen den Beschäftigten einen existenzsichernden Lohn. Diese Informationen sind öffentlich zugänglich. Die große Mehrheit der Arbeiter*innen, die Kleidung für das Unternehmen herstellen, verdient nicht genug, um davon leben zu können.
+    Das Unternehmen behauptet, dass zwischen 1% und 25% der Lieferantenfabriken in der Lieferkette des Unternehmens den Arbeiter*innen einen existenzsichernden Lohn zahlen. Dies ist eine öffentliche Information. Die Mehrheit der Arbeiter*innen in der Lieferkette des Unternehmens verdient nicht genug, um davon zu leben.
   lw_d_started: >
-    Das Unternehmen behauptet, dass es begonnen hat, zu einem existenzsichernden Lohn beizutragen, indem es den Fabriken in seiner Lieferkette höhere Preise zahlt, aber diese Preise decken immer noch nicht die Arbeitskosten. Das bedeutet, dass die Mehrheit der Arbeiter*innen, die ihre Kleidung herstellen, nicht genug verdient, um davon leben zu können.
+    Das Unternehmen behauptet, dass es begonnen hat, den Fabriken mehr zu zahlen, um in seiner Lieferkette zu einem existenzsichernden Lohn beizutragen, aber die Preise decken noch immer nicht die Arbeitskosten. Das bedeutet, dass die Mehrheit der Textilarbeiter*innen nicht genug verdient, um davon zu leben.
   lw_e_noclaim_notpublic: >
     Dieses Unternehmen veröffentlicht keine Informationen über existenzsichernde Löhne. Arbeiter*innen, die Kleidung für dieses Unternehmen herstellen, verdienen nicht genug, um davon leben zu können.
   lw_e_noevidence: >
-    There was no evidence found on the brand’s claims that it pays a living wage and no plausible explanation was given. Which means the brand cannot prove that the workers making their clothes do earn enough to live on.
+    Es wurden keine Beweise für die Behauptungen des Unternehmens gefunden, dass es einen existenzsichernden Lohn zahlt, auch wurde keine plausible Erklärung gegeben. Das heißt, das Unternehmen kann nicht beweisen, dass die Arbeiter*innen, die die Kleidung herstellen, genug verdienen, um davon zu leben.
   transp_none: >
-    This brand provides no information on the supplier factories and garment workers in its supply chain which is required by the transparency pledge.
+    Das Unternehmen liefert keine Informationen über die Lieferantenfabriken und Textilarbeiter*innen in seiner Lieferkette, die für das Transparenzversprechen erforderlich sind.
   transp_partial: >
-    This brand provides some, but not enough information on the supplier factories and garment workers in its supply chain.
+    Das Unternehmen bietet einige, aber nicht genügend Informationen zu den Zulieferfabriken und Textilarbeiter*innen in seiner Lieferkette.
   transp_partial_additional: >
-    This brand provides some information beyond the basics, but falls short of the minimum needed for the transparency pledge.
+    Das Unternehmen bietet einige Informationen, die über die Grundlagen hinausgehen, erreicht jedoch nicht das für das Transparenzversprechen erforderliche Minimum.
   transp_partial_additional_machinereadable: >
-    This brand provides some information beyond the basics, in a practical, machine-readable format, but but falls short of the minimum needed for the transparency pledge.
+    Das Unternehmen bietet einige Informationen, die über die Grundlagen hinausgehen, und bietet ein praktisches, maschinenlesbares Format, unterschreitet jedoch das für das Transparenzversprechen erforderliche Minimum.
   transp_partial_machinereadable: >
-    This brand provides some, but not enough information on the factories and garment workers in its supply chain - it publishes in a practical, machine-readable format.
+    Das Unternehmen bietet einige, aber nicht genügend Informationen zu den Fabriken und Textilarbeiter*innen in seiner Lieferkette. Es veröffentlicht die Daten in einem praktischen, maschinenlesbaren Format.
   transp_pledge: >
-    This brand provides basic information like factory names and addresses, product type, number of workers, and supplier group, if the factory is part of a larger entity.
+    Das Unternehmen bietet grundlegende Informationen wie Fabriknamen und -adressen, Produkttyp, Anzahl der Mitarbeiter*innen und Lieferantengruppen, wenn die Fabrik Teil einer größeren Einheit ist.
   transp_pledge_additional: >
-    This brand provides information beyond the basics such as the gender composition of the workforce, if there is a union or if there is a collective bargaining agreement in place.
+    Das Unternehmen bietet Informationen, die über die Grundlagen hinausgehen, wie z. B. die Zusammensetzung der Belegschaft nach Geschlecht, ob es eine Gewerkschaft gibt oder ob ein Tarifvertrag besteht.
   transp_pledge_additional_machinereadable: >
-    This brand provides information beyond the basics in a practical, machine-readable format such as Excel spreadsheets which makes the data usable for others.
+    Das Unternehmen bietet Informationen, die über die Grundlagen hinausgehen, in einem praktischen, maschinenlesbaren Format wie Excel-Tabellen, mit dem die Daten für andere verwendet werden können.
   transp_pledge_machinereadable: >
-    This brand provides basic information in a practical, machine-readable format such as Excel spreadsheets which makes the data usable for others.
+    Das Unternehmen bietet grundlegende Informationen in einem praktischen, maschinenlesbaren Format wie Excel-Tabellen, mit denen die Daten für andere verwendet werden können.
 
-  partners: "Partners"
+  partners: "Partner*innen"
   we_never_saw_data_about_brands_payments_what_price: >
-    "We never saw data about brands’ payments, what prices they really pay. Our director always says that we are at a loss. According to him, we should work even more. He tells us that we are drones, a bunch of goof-offs."
+    "Wir haben noch nie schriftlich gesehen, welche Preise die einkaufenden Unternehmen wirklich zahlen. Der Fabrikdirektor sagt immer, dass wir Verlust machen. Seiner Meinung nach sollten wir noch mehr arbeiten und beschimpft uns als faul und dumm."
   click_to_read_more: "mehr info: klicken"
   img_living_wage_circles: "/images/about_us/living_wage_circles.png"
   img_smiling_curve: "/images/about_us/smiling_curve.png"
