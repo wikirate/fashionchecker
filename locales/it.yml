@@ -49,7 +49,7 @@ it:
   see_company_profile: "Guarda la scheda del brand"
 
   commitment_score:
-    title: "Punteggio sul livello di impegno alla trasparenza"
+    title: "Livello di impegno"
     public_commitment: "impegno pubblico?"
     public_commitment_score_1: >
       Non è stata trovata alcuna prova dell'impegno di questo brand a lavorare per il pagamento di un salario vivibile per tutti i lavoratori della sua catena di fornitura.
