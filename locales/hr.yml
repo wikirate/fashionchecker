@@ -40,7 +40,7 @@ hr:
   revenue: "prihod (€)"
   profit: "dobit (€)"
   top_3_production_countries: "Top 3 proizvodne zemlje"
-  other_brands_owned_by: "Ostale marke u vlasništvu"
+  brands_owned_by: "Ostale marke u vlasništvu"
   headquarters: "Zapovjedništvo"
   owned_by: "u vlasništvu:"
   search_for_brand: "potražite brend"
