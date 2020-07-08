@@ -82,8 +82,7 @@ en:
 
     separate_labor_costs: "separate labour costs?"
     desc:
-      score_1: "This brand isn't doing enough to move towards Living Wages
-        in its supply chain."
+      score_1: "This brand isn't doing enough to move towards Living Wages in its supply chain."
       score_2: "Text for score 2"
       score_3: "Text for score 3"
 
@@ -331,7 +330,8 @@ en:
   the_workers_wages_have_been_regularly_delayed: >
     “The workers’ wages have been regularly delayed for a month or two since the beginning of 2019. We complained and they paid, but not this month. The factory director says it is because a firm didn’t pay. But we did our job.”
   a_worker_from_ukraine: "a worker from Ukraine"
-  the_un_guiding_principles_establish: The UN Guiding Principles establish supply chain responsibility. Any production company is responsible for all human-rights impacts across its supply chain, independent of where the human rights abuse occurs (i.e. in their own facilities, with sub-contracted factories, or with homeworkers). So while production of garments is often outsourced, the responsibility remains with each corporation and cannot be delegated and outsourced down the supply chain.
+  the_un_guiding_principles_establish: >
+    The UN Guiding Principles establish supply chain responsibility. Any production company is responsible for all human-rights impacts across its supply chain, independent of where the human rights abuse occurs (i.e. in their own facilities, with sub-contracted factories, or with homeworkers). So while production of garments is often outsourced, the responsibility remains with each corporation and cannot be delegated and outsourced down the supply chain.
   why_do_we_talk_about_paying_factories_not_workers: "Why do we talk about paying factories not workers?"
   brands_do_not_pay_workers_directly: >
     Brands do not pay workers directly. They pay their suppliers, who then pay garment workers. A supply chain is usually broken up into 3 tiers of supplier companies. Tier 1 supplier companies are usually commissioned directly by brands for production contracts. These tier 1 companies will subcontract work to other suppliers.
@@ -350,7 +350,8 @@ en:
   brands_need_to_take_responsibility_to_modify: >
     Brands need to take responsibility to modify their purchasing practices to ensure their suppliers can pay their workers. We will continue to work with worker organisations and unions to ensure these changes are effective.
   unions_and_worker_committees: "Unions and Worker committees"
-  workers_have_little_to_no_power_to_fight: Workers have little to no power to fight for better wages. Freedom of Association (FOA) is under immense pressure and busting unions who are fighting for higher wages is anything but unusual in many garment producing countries. There has also been a remarkable increase in the number of worker committees established in the place of unions at factory level over the past couple of years. This creates the false impression that today’s workers are both organised and powerful. Brands often claim that worker committees and trade unions are essentially the same, which might only be true in a small percentage of cases.
+  workers_have_little_to_no_power_to_fight: >
+    Workers have little to no power to fight for better wages. Freedom of Association (FOA) is under immense pressure and busting unions who are fighting for higher wages is anything but unusual in many garment producing countries. There has also been a remarkable increase in the number of worker committees established in the place of unions at factory level over the past couple of years. This creates the false impression that today’s workers are both organised and powerful. Brands often claim that worker committees and trade unions are essentially the same, which might only be true in a small percentage of cases.
   trucks_are_constantly_leaving: >
     "Trucks are constantly leaving, all the products are sold, and there is a lot of work, but they keep saying that there is no money. My contract is only prolonged every 3 months. I have no security.”
 

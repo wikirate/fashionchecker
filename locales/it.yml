@@ -15,9 +15,9 @@ it:
   end: "Basta"
   gendered_pay: "Salario di genere"
   gendered_pay_info: >
-   L’80% di chi lavora nell’abbigliamento sono donne. Di regola, sono pagate meno dei loro colleghi uomini. 
-   La disuguaglianza di genere è profondamente radicata in un settore con forti squilibri di potere. 
-   La differenza salariale basata sul genere è strettamente connessa alla violenza verbale, fisica e sessuale.
+    L’80% di chi lavora nell’abbigliamento sono donne. Di regola, sono pagate meno dei loro colleghi uomini. 
+    La disuguaglianza di genere è profondamente radicata in un settore con forti squilibri di potere. 
+    La differenza salariale basata sul genere è strettamente connessa alla violenza verbale, fisica e sessuale.
   gender: "Maggiori informazioni sul salario di genere"
   resilience: "Resilienza"
   in_the_face_of_a_crisis: "di fronte a una crisi"
@@ -78,7 +78,6 @@ it:
       score_2: "Testo per il punteggio 2"
       score_3: "Testo per il punteggio 3"
 
-
   living_wage_score:
     title: "Punteggio sul salario vivibile"
     desc_1:
@@ -103,7 +102,6 @@ it:
         La maggior parte dei lavoratori della filiera di questo brand non guadagnano abbastanza per vivere.
       score_1: >
         I lavoratori di questa filiera non guadagnano abbastanza per vivere.
-
 
   transparency_score:
     title: "Punteggio sulla trasparenza"
@@ -144,7 +142,7 @@ it:
   methodology_paragraph_3A: "Abbiamo lavorato con"
   methodology_paragraph_3B: >
     , esperti di dati aperti, sull'aggregazione e il consolidamento delle informazioni sulla filiera rilasciate dai marchi. 
-    Utilizziamo anche i dati raccolti, tra gli altri, da 
+    Utilizziamo anche i dati raccolti, tra gli altri, da
   methodology_paragraph_3C: "e"
   methodology_paragraph_3D: >
     Questi database rendono i dati  disponibili e facili da usare, e costituiscono set di dati di partner affidabili e con una lunga esperienza.
@@ -177,7 +175,7 @@ it:
     Di ciò vi sono prove in Bangladesh: il 64% delle intervistate nel presente studio ha dichiarato di essere sottoposto a un'enorme pressione per la produzione di prodotti di abbigliamento e il 35% ha dichiarato di aver subito violenze da parte dei propri supervisori per tale motivo. Altri stakeholders del settore hanno riscontrato le stesse dinamiche durante l'analisi della violenza e delle molestie nelle fabbriche di abbigliamento. La Fair Wear Foundation afferma che la pressione sulla produzione - inclusa la pressione sui prezzi e la pressione sui tempi di consegna - è collegata alla violenza e alle molestie in diversi modi: ad esempio, le ore di straordinario possono rendere le lavoratrici vulnerabili alle aggressioni sessuali, sia in fabbrica che lungo la strada di casa. I supervisori che sono stressati da obiettivi di produzione elevati hanno maggiori probabilità di abusare delle lavoratrici. Inoltre, se i bonus sono collegati ai risultati della produzione, le lavoratrici vengono più facilmente messe sotto pressione per favori sessuali ai supervisori in cambio di approvazione degli obiettivi di produzione.
   indian_gender_quote: >
     "Siamo abusate verbalmente al lavoro. Dovrebbero esserci donne supervisori con le lavoratrici e abbiamo bisogno di una retribuzione migliore per poterci prendere cura dei nostri figli"
-  a_worker_from_india: "Una lavoratrice in India"
+  a_female_worker_from_india: "Una lavoratrice in India"
   when_you_are_living_pay_check_to_pay_check: >
     Quando si dipende da una busta paga, lasciare il lavoro che ti allontana dalla fame non è un'opzione. Soprattutto quando hai più bocche da sfamare. I marchi devono fare di più per garantire che le donne nella loro catena di approvvigionamento siano protette dagli abusi e lavorare per garantire un salario di sussistenza per TUTTE le lavoratrici e TUTTI i lavoratori.
   read_more_about: "Scopri di più"
@@ -205,7 +203,7 @@ it:
     Aruna Kashyap, consulente per i diritti delle donne presso Human Rights Watch
   menu_transparency: "Trasparenza"
   in_2016_nine_labor_and_human: >
-    Nel 2016, nove organizzazioni per il lavoro e i diritti umani hanno formato una 
+    Nel 2016, nove organizzazioni per il lavoro e i diritti umani hanno formato una
   to_advocate_for_transparency: >
     per sostenere la trasparenza nelle catene di approvvigionamento dell'abbigliamento chiedendo a tutte le società di produzione di abbigliamento, incluso quello sportivo, di firmare il
   coalition: "coalizione"
@@ -235,10 +233,10 @@ it:
     Vogliamo che i marchi chiedano ai fornitori se le loro fabbriche hanno sindacati o comitati di lavoratori. Il più delle volte non abbiamo idea se le persone che fanno i nostri vestiti abbiano una voce. Vogliamo maggiori informazioni sulle relazioni di potere nella filiera di produzione.
   readable_data: "Leggibilità dei dati."
   we_want_brands_to_release_the_data: >
-    Vogliamo che i marchi pubblichino i dati sulle catene di fornitura in un formato leggibile e utilizzabile. La pubblicazione dei dati in formato leggibile da un computer dovrebbe divenire standard per le informazioni relative a tutte le unità di produzione e gli impianti di trasformazione. I marchi devono fornire dati scaricabili in 
+    Vogliamo che i marchi pubblichino i dati sulle catene di fornitura in un formato leggibile e utilizzabile. La pubblicazione dei dati in formato leggibile da un computer dovrebbe divenire standard per le informazioni relative a tutte le unità di produzione e gli impianti di trasformazione. I marchi devono fornire dati scaricabili in
   transparency_for_the_consumer: "Trasparenza per il consumatore"
   we_want_governments_to_increase: >
-    Vogliamo che i governi aumentino la trasparenza dei prodotti per consentire ai cittadini di fare scelte informate sui loro acquisti. Vogliamo espandere il tipo di informazioni sulle etichette dei prodotti tessili per includere informazioni sul produttore. Vogliamo anche migliorare i criteri sociali e di sostenibilità dell' 
+    Vogliamo che i governi aumentino la trasparenza dei prodotti per consentire ai cittadini di fare scelte informate sui loro acquisti. Vogliamo espandere il tipo di informazioni sulle etichette dei prodotti tessili per includere informazioni sul produttore. Vogliamo anche migliorare i criteri sociali e di sostenibilità dell'
   eu_ecolabel: "etichetta ecologica dell'UE"
   to_reflect_wage_abuses: "per fare luce sugli abusi salariali."
   for_more_about_our: "Per ulteriori informazioni sulla nostra"
@@ -279,7 +277,7 @@ it:
   life_is_full_of_the_unexpected: >
     La vita è piena di imprevisti, e guadagnare uno stipendio dovrebbe dare abbastanza sicurezza per affrontarli. Il fatto che la maggior parte dei lavoratori nel settore dell'abbigliamento e dell’abbigliamento sportivo non guadagni abbastanza per coprire le necessità di base della vita significa che non possono sopravvivere in tempi difficili. Il Covid-19 lo ha reso ancora più evidente: i marchi hanno annullato gli ordini per preservare il proprio flusso di cassa, lasciando le fabbriche nella loro catena di approvvigionamento non solo senza i mezzi per coprire i salari dei lavoratori ma anche con tutti gli altri costi di produzione. Molte fabbriche hanno chiuso, licenziando migliaia di lavoratori.
   not_only_have_brands_been_refusing: >
-    Non solo i marchi si sono rifiutati di pagare per gli ordini già in produzione, a volte anche già arrivati nei negozi al dettaglio, ma hanno anche offerto vendite promozionali e sconti ai consumatori, lasciando però quelli in fondo alla catena di approvvigionamento a secco. La maggior parte dei lavoratori è scesa in strada per protestare per il mancato pagamento di salari dovuti da marzo, oppure sono stati costretti a tornare al lavoro senza adeguate misure di sicurezza. Dal momento che non hanno soldi, non hanno scelta. I lavoratori informali sono stati ancora più colpiti. L'Organizzazione internazionale del lavoro (OIL) stima che 1,6 miliardi di lavoratori nell'economia informale stiano affrontando 
+    Non solo i marchi si sono rifiutati di pagare per gli ordini già in produzione, a volte anche già arrivati nei negozi al dettaglio, ma hanno anche offerto vendite promozionali e sconti ai consumatori, lasciando però quelli in fondo alla catena di approvvigionamento a secco. La maggior parte dei lavoratori è scesa in strada per protestare per il mancato pagamento di salari dovuti da marzo, oppure sono stati costretti a tornare al lavoro senza adeguate misure di sicurezza. Dal momento che non hanno soldi, non hanno scelta. I lavoratori informali sono stati ancora più colpiti. L'Organizzazione internazionale del lavoro (OIL) stima che 1,6 miliardi di lavoratori nell'economia informale stiano affrontando
   massive_damage: "danni ingenti"
   to_their_livelihood: >
     al loro sostentamento dopo che la loro intera attività è stata decimata dalle restrizioni legate al Covid-19.
@@ -380,7 +378,7 @@ it:
     Per decenni, marchi e rivenditori hanno costruito i loro profitti sui prezzi bassi. L'eccesso di offerta globale di abbigliamento generato dalla fast fashion permette ai marchi di imporre ai propri fornitori il prezzo più basso possibile. Il prezzo che i marchi pagano ai loro fornitori dovrebbe essere sufficiente a coprire i costi di gestione degli impianti, acquistare materiale per la produzione, spedire i prodotti, pagare per la manodopera e lasciare un margine di profitto per l’azienda. I salari dei lavoratori sono il costo più facile da tagliare.
   gender_in_the_garment_industry: "Questioni di genere nell’industria dell’abbigliamento"
   a_lot_of_informal_work_is_done_by_women: >
-   Gran parte del lavoro informale, sia autonomo sia in subappalto, è svolto da donne. I loro salari sono ancora più precari. Ancora oggi i divari retributivi di genere rimangono una delle maggiori ingiustizie sociali. I progressi verso la parità retributiva stanno guadagnando slancio nell’economia globale ma le disuguaglianze nella produzione di abbigliamento e calzature sono ancora feroci.
+    Gran parte del lavoro informale, sia autonomo sia in subappalto, è svolto da donne. I loro salari sono ancora più precari. Ancora oggi i divari retributivi di genere rimangono una delle maggiori ingiustizie sociali. I progressi verso la parità retributiva stanno guadagnando slancio nell’economia globale ma le disuguaglianze nella produzione di abbigliamento e calzature sono ancora feroci.
   inside_factories_women_are_mainly_employed: >
     All'interno delle fabbriche le donne sono impiegate principalmente nelle posizioni meno pagate e di livello più basso. Nella maggior parte dei paesi di produzione dell'abbigliamento, gli squilibri di potere di genere all'interno delle fabbriche sono profondamente radicati nelle disparità culturali tra uomini e donne. Più si scende nella catena di approvvigionamento, più precario è il lavoro; minore è la retribuzione, maggiore è la percentuale di donne lavoratrici.
   transparency_in_fashion: " La Trasparenza nella Moda"
@@ -388,7 +386,7 @@ it:
     L’aumento delle pratiche di trasparenza da parte dei marchi della moda sulle proprie filiere è incoraggiante. Sempre più marchi stanno pubblicando informazioni sui luoghi di produzione dei loro capi e stanno sottoscrivendo il Transparency Pledge. Tuttavia, ci sono ancora troppi marchi che non lo fanno. Nemmeno i brand più progressisti pubblicano tutte le informazioni sulla filiera completa, limitandosi a vaghe promesse.
   putting_a_spotlight_on_the_supply_chain: "Facciamo luce sulla catena di fornitura"
   our_main_focus_is_wages_and_transparency: >
-   Il nostro obiettivo principale è la trasparenza salariale. Allo stato attuale, un monitoraggio dei salari dei lavoratori è l'unico modo affidabile per scoprire se i marchi stanno pagando i loro fornitori abbastanza per produrre in condizioni di sicurezza. Sistematicamente, invece, i marchi pagano troppo poco, costringendo le fabbriche a fare scelte difficili. Se un fornitore non viene pagato abbastanza, taglierà i salari dei lavoratori privilegiando la copertura di altre spese. I salari e la sicurezza dei lavoratori rimangono in fondo alla scala delle priorità, perché ci saranno sempre persone bisognose di lavoro.
+    Il nostro obiettivo principale è la trasparenza salariale. Allo stato attuale, un monitoraggio dei salari dei lavoratori è l'unico modo affidabile per scoprire se i marchi stanno pagando i loro fornitori abbastanza per produrre in condizioni di sicurezza. Sistematicamente, invece, i marchi pagano troppo poco, costringendo le fabbriche a fare scelte difficili. Se un fornitore non viene pagato abbastanza, taglierà i salari dei lavoratori privilegiando la copertura di altre spese. I salari e la sicurezza dei lavoratori rimangono in fondo alla scala delle priorità, perché ci saranno sempre persone bisognose di lavoro.
   brands_are_obligated_by_the: "I marchi sono obbligati dai"
   to_run_their_business_responsibly: >
     a gestire le proprie attività in modo responsabile. Guadagnare un salario con cui poter vivere, in una normale settimana lavorativa di massimo 48 ore, è un diritto umano fondamentale. Ciò significa che i marchi dovrebbero essere in grado di dimostrare che i loro fornitori sono pagati abbastanza per pagare a loro volta i lavoratori. La maggior parte dei marchi non ha nemmeno contezza di quanto i lavoratori della loro filiera dovrebbero essere pagati per poter svolgere una vita dignitosa nel loro paese. I governi mantengono i salari minimi intenzionalmente bassi per attrarre le produzioni dei marchi stranieri. I fornitori esternalizzano poi la produzione intenzionalmente verso subfornitori che impiegano lavoratori non in regola (i cd. lavoratori informali) per pagare il meno possibile per la produzione.
@@ -605,7 +603,7 @@ it:
   ilo: "OIL"
   will_women_workers_benefit_from_living_wages: "Le lavoratrici beneficeranno del salario vivibile?"
   christa_luginbuhl: "Christa Luginbühl"
-  despite_progress_gender_based_violence: "Nonostante i progressi la violenza di genere e le molestie sono ancora una realtà per molte lavoratrici tessili in tutto il mondo" 
+  despite_progress_gender_based_violence: "Nonostante i progressi la violenza di genere e le molestie sono ancora una realtà per molte lavoratrici tessili in tutto il mondo"
   promoting_gender_equality_in_garment_industry: "Promuovere l’eguaglianza di genere nell’industria della moda"
   better_work: "Un lavoro migliore"
   gender_pay_gaps_in_the_garment_textile_footwear: "La differenza salariale di genere nell’industria dell’abbigliamento e calzature nei paesi asiatici in via di sviluppo"
@@ -614,7 +612,7 @@ it:
   two_crises_one_flawed_supply_chain_model: "Due crisi, una filiera intrinsecamente sbagliata: ecco come la diseguaglianza di potere danneggia i lavoratori"
   the_emperor_has_no_clothes_garment_supply_chains: "Il re è nudo: la filiera della moda in tempo di pandemia"
   asia_floorwage_alliance: "Alleanza asiatica per il salario vivibile"
-  global_capitalism_is_the_new_colonialism: "Il capitalismo globale è il nuovo colonialismo per i lavoratori, e stanno resistendo" 
+  global_capitalism_is_the_new_colonialism: "Il capitalismo globale è il nuovo colonialismo per i lavoratori, e stanno resistendo"
   truth_out: "Vogliamo la verità "
   fashion_critical_with_lucy_siegle_and_livia_firth: "Fashion Critical con Lucy Siegle e Livia Firth"
   episode_2_with_christie_medima_from_ccc_io: "Secondo episodio con Christie Medima dell’ufficio internazionale della Campagna abiti puliti"
@@ -628,10 +626,10 @@ it:
   haute_le_mode: "Alta moda"
   patriot_act_with_hasan_minhaj: "Patriot Act con Hasan Minhaj | Netflix"
   the_importance_of_sustainability_ethics_in_fashion: "L’importanza della sostenibilità e dell’etica nella moda"
-  the_fashion_archive: "L'archivio della moda" 
-  ending_gender_based_violence: "Stop alla violenza di genere nell’industria della moda" 
+  the_fashion_archive: "L'archivio della moda"
+  ending_gender_based_violence: "Stop alla violenza di genere nell’industria della moda"
   global_fund_for_women: "Fondo globale per le donne"
-  five_business_practices: "5 comportamenti dei grossi brand che danneggiano i lavoratori" 
+  five_business_practices: "5 comportamenti dei grossi brand che danneggiano i lavoratori"
   human_rights_watch: "Human rights watch"
   menu_explore_the_data: "Consulta i dati"
   resources: "Resources"
