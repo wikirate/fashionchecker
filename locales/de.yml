@@ -40,11 +40,10 @@ de:
   your_voice_info_2: >
     Stellt sicher, dass in eurer Kleidung keine Ausbeutung steckt!
 
-
   revenue: "Umsatz"
   profit: "Gewinn"
   top_3_production_countries: " 3 wichtigste Produktionsländer"
-  other_brands_owned_by: "andere Marken von"
+  brands_owned_by: "andere Marken von"
   headquarters: "Unternehmenssitz"
   owned_by: "Owned by:"
   search_for_brand: "Unternehmen suchen"
@@ -58,9 +57,9 @@ de:
     public_commitment_score_1: >
       Dieses Unternehmen hat sich nicht öffentlich zur Zahlung existenzsichernder Löhne bekannt.
     public_commitment_score_2: >
-      Dieses Unternehmen hat sich öffentlich zur Zahlung existenzsichernder Löhne bekannt. Die Definition eines Existenzlohns deckt jedoch nicht alle nötigen Kriterien ab, z.B. dass der Lohn ausreichend für die Familie der Arbeiter*innen sein muss. 
+      Dieses Unternehmen hat sich öffentlich zur Zahlung existenzsichernder Löhne bekannt. Die Definition eines Existenzlohns deckt jedoch nicht alle nötigen Kriterien ab, z.B. dass der Lohn ausreichend für die Familie der Arbeiter*innen sein muss.
     public_commitment_score_3: >
-       Dieses Unternehmen hat sich öffentlich zur Zahlung existenzsichernder Löhne bekannt.
+      Dieses Unternehmen hat sich öffentlich zur Zahlung existenzsichernder Löhne bekannt.
     action_plan: "Aktionsplan?"
     action_plan_score_1: >
       Dieses Unternehmen hat keinen Plan, um die Niedriglöhne in seiner Lieferkette zu verbessern.
@@ -73,15 +72,13 @@ de:
     separate_labor_costs_score_2: >
       teilweise
     separate_labor_costs_score_3: >
-      Unternehmen handeln mit den Fabriken Preise für die bestellte Kleidung aus, die alle Produktionskosten decken müssen. Die Unternehmen müssen bei diesen Verhandlungen mit Zulieferern jedoch sicherstellen, dass die Arbeitskosten ordnungsgemäß gedeckt werden, also Zulieferer nicht aufgrund zu niedriger Preise an den Löhnen sparen. Dieses Unternehmen unternimmt keine Anstrengungen, um sicherzustellen, dass die Arbeitskosten angemessen gedeckt sind. 
+      Unternehmen handeln mit den Fabriken Preise für die bestellte Kleidung aus, die alle Produktionskosten decken müssen. Die Unternehmen müssen bei diesen Verhandlungen mit Zulieferern jedoch sicherstellen, dass die Arbeitskosten ordnungsgemäß gedeckt werden, also Zulieferer nicht aufgrund zu niedriger Preise an den Löhnen sparen. Dieses Unternehmen unternimmt keine Anstrengungen, um sicherzustellen, dass die Arbeitskosten angemessen gedeckt sind.
 
-    separate_labor_costs: "separate labor costs?"
+    separate_labor_costs: "Separiert Arbeitskosten?"
     desc:
-      score_1: "This brand isn't doing enough to move towards Living Wages
-                in its supply chain."
+      score_1: "This brand isn't doing enough to move towards Living Wages in its supply chain."
       score_2: "Text for score 2"
       score_3: "Text for score 3"
-
 
   living_wage_score:
     title: "Living Wage Paid"
@@ -105,13 +102,13 @@ de:
       score_5: >
         Die Arbeiter*innen, die Kleidung für das Unternehmen herstellen, verdienen genug, um davon leben zu können.
       score_4: >
-        Einige der Arbeiter*innen, die Kleidung für das Unternehmen herstellen, verdienen genug, um davon leben zu können. 
+        Einige der Arbeiter*innen, die Kleidung für das Unternehmen herstellen, verdienen genug, um davon leben zu können.
       score_3: >
-        Die meisten der Arbeiter*innen, die Kleidung für das Unternehmen herstellen, verdienen nicht genug, um davon leben zu können. 
+        Die meisten der Arbeiter*innen, die Kleidung für das Unternehmen herstellen, verdienen nicht genug, um davon leben zu können.
       score_2: >
-        Die große Mehrheit der Arbeiter*innen, die Kleidung für das Unternehmen herstellen, verdienen nicht genug, um davon leben zu können. 
+        Die große Mehrheit der Arbeiter*innen, die Kleidung für das Unternehmen herstellen, verdienen nicht genug, um davon leben zu können.
       score_1: >
-        Die Arbeiter*innen, die Kleidung für das Unternehmen herstellen, verdienen nicht genug, um davon leben zu können. 
+        Die Arbeiter*innen, die Kleidung für das Unternehmen herstellen, verdienen nicht genug, um davon leben zu können.
 
   transparency_score:
     title: "Transparenz"
@@ -184,7 +181,7 @@ de:
     Dies wird durch die Beweise aus Bangladesch bestätigt: 64% der Befragten in der vorliegenden Studie gaben an, dass sie unter enormem Druck stehen, Bekleidungsprodukte herzustellen, und 35% von ihnen gaben an, dass sie aus diesem Grund Gewalt von ihren Vorgesetzten erfahren haben. Andere Interessenvertreter*innen in der Branche fanden die gleiche Dynamik bei der Analyse von Gewalt und Belästigung in Bekleidungsfabriken. Die Fair Wear Foundation stellte fest, dass der Produktionsdruck – einschließlich Preis- und Zeitdruck – auf unterschiedliche Weise mit Gewalt und Belästigung verbunden ist: So können z.B. Überstunden am Abend die Arbeiterinnen anfälliger für sexuelle Übergriffe machen, sowohl in der Fabrik als auch auf dem Heimweg. Vorgesetzte, die durch hohe Produktionsziele gestresst sind, sind eher geneigt, Arbeiterinnen zu misshandeln. Wenn Bonuszahlungen an Produktionsziele gekoppelt sind, werden Arbeiter*innen darüber hinaus leichter zu sexuellen Gefälligkeiten gegenüber ihren Vorgesetzten gezwungen – im Austausch dafür, dass ihnen die Produktionsziele angerechnet werden.
   indian_gender_quote: >
     "Wir werden bei der Arbeit verbal missbraucht. Es sollte weibliche Vorgesetzte, die mit weiblichen Arbeiterinnen arbeiten, geben, und wir brauchen eine bessere Bezahlung, damit wir uns um unsere Kinder kümmern können"
-  a_worker_from_india: "Eine Arbeiterin aus Indien"
+  a_female_worker_from_india: "Eine Arbeiterin aus Indien"
   when_you_are_living_pay_check_to_pay_check: >
     Wenn man von Gehaltsscheck zu Gehaltsscheck lebt, ist es keine realistische Option, den Job zu kündigen, der einen vor dem Verhungern schützt. Vor allem dann, wenn man mehrere Personen ernähren muss. Marken müssen mehr tun, um sicherzustellen, dass die Frauen in ihrer Lieferkette vor Missbrauch geschützt sind und auf einen existenzsichernden Lohn für ALLE Arbeiter*innen hinarbeiten.
   read_more_about: "Mehr dazu"
@@ -318,7 +315,7 @@ de:
   the_workers_wages_have_been_regularly_delayed: >
     “Die Löhne der Arbeiter*innen sind seit Anfang 2019 regelmäßig um ein oder zwei Monate verzögert worden. Erst als wir uns beschwert haben, zahlten sie – diesen Monat allerdings erneut nicht. Der Fabrikdirektor sagte, dass eine Firma nicht gezahlt habe und er deshalb keine Wahl hat. Aber wir haben unsere Arbeit getan”
   a_worker_from_ukraine: "Ein*e Arbeiter*in aus der Ukraine"
-  the_un_guiding_principles_establish:
+  the_un_guiding_principles_establish: >
     Die UN-Leitprinzipien legen die Verantwortung für die Lieferkette fest. Jedes Unternehmen ist für alle Auswirkungen auf die Menschenrechte in seiner gesamten Lieferkette verantwortlich, unabhängig davon, wo die Menschenrechtsverletzungen auftreten (d.h. in den eigenen Betrieben, bei Subunternehmen oder bei Heimarbeiter*innen). Während also die Produktion von Bekleidung oft ausgelagert wird, bleibt die Verantwortung bei jedem Unternehmen und kann nicht delegiert oder weitergereicht werden.
   why_do_we_talk_about_paying_factories_not_workers: "Warum sprechen wir über die Bezahlung von Fabriken statt Arbeiter*innen?"
   brands_do_not_pay_workers_directly: >
@@ -338,7 +335,7 @@ de:
   brands_need_to_take_responsibility_to_modify: >
     Markenunternehmen müssen ihre Einkaufspraktiken ändern, um sicherzustellen, dass die Zulieferer ihre Arbeiter*innen bezahlen können. Wir werden weiterhin mit Arbeitsrechtsorganisationen und Gewerkschaften zusammenarbeiten, um sicherzustellen, dass diese Veränderungen wirksam sind.
   unions_and_worker_committees: "Gewerkschaften und Fabrikkomitees"
-  workers_have_little_to_no_power_to_fight:
+  workers_have_little_to_no_power_to_fight: >
     Arbeiter*innen haben wenig bis gar keine Macht, um für bessere Löhne zu kämpfen. Die Vereinigungsfreiheit steht unter immensem Druck, und die Zerschlagung von Gewerkschaften, die für höhere Löhne kämpfen, ist in vielen Produktionsländern alles andere als ungewöhnlich. In den letzten Jahren hat auch die Zahl der „Komitees“, die anstelle von Gewerkschaften auf Fabrikebene eingerichtet wurden, bemerkenswert zugenommen. Dies erweckt den falschen Eindruck, dass die Arbeiter*innen von heute sowohl organisiert als auch mächtig sind. Unternehmen behaupten oft, dass solche Komitees und Gewerkschaften im Wesentlichen gleich sind, was nur in sehr wenigen Fällen zutrifft.
   trucks_are_constantly_leaving: >
     "Ständig fahren Lastwagen ab, alle Produkte werden verkauft und es gibt viel Arbeit. Trotzdem sagen sie immer wieder, dass es kein Geld gibt. Mein Vertrag wird nur alle 3 Monate verlängert. Ich habe keine Sicherheit.”
@@ -458,7 +455,7 @@ de:
   donate_to_our_emergency_fund_to_help_us: >
     Spendet an unseren Nothilfefonds, damit wir die Arbeiter*innen in den Produktionsländern direkt unterstützen können, von denen viele bereits seit Wochen auf ihre Löhne warten.
   for_information_on_how_to_do_so_please: >
-      
+
   follow_our_live_blog_for_the_latest_information: >
     In unserem Live Blog findet ihr die neuesten Informationen über Covid-19 in der Bekleidungsindustrie.
   find_out_more_about_our_demands: ""
