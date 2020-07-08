@@ -77,8 +77,7 @@ fr:
 
     separate_labor_costs: "Séparer les coûts du travail?"
     desc:
-      score_1: "This brand isn't doing enough to move towards Living Wages
-        in its supply chain."
+      score_1: "This brand isn't doing enough to move towards Living Wages in its supply chain."
       score_2: "Text for score 2"
       score_3: "Text for score 3"
 
