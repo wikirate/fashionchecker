@@ -56,7 +56,7 @@ hr:
     public_commitment_score_2: >
       Brend se javno obvezao da će isplatiti plaću 
       “dovoljnu da pokrije osnovne potrebe radnika”, 
-      ali ta plaća ne pokriva troškove obitelji radnika. To nije dostojanstvena plaća.      
+      ali ta plaća ne pokriva troškove obitelji radnika. To nije dostojanstvena plaća.
     public_commitment_score_3: >
       Brend je javno obećao da će nastojati ostvariti isplatu dostojanstvenih plaća za sve radnike u svom dobavnom lancu.
     action_plan: "Akcijski plan?"
@@ -81,10 +81,9 @@ hr:
     separate_labor_costs: "Razdvajanje troška rada?"
     desc:
       score_1: "This brand isn't doing enough to move towards Living Wages
-                in its supply chain."
+        in its supply chain."
       score_2: "Text for score 2"
       score_3: "Text for score 3"
-
 
   living_wage_score:
     title: "Rezultat plaće za život"
@@ -103,8 +102,6 @@ hr:
       score_1: >
         Brend nema nikakve javne informacije o dostojanstvenim plaćama.
 
-
-
     desc_2:
       score_5: >
         Radnici koji proizvode odjeću zarađuju dovoljno za život.
@@ -116,7 +113,6 @@ hr:
         Većina radnika zaposlenih u dobavnom lancu brenda ne zarađuje dovoljno za život.
       score_1: >
         Radnici koji za njih proizvode odjeću ne zarađuju dovoljno za život.
-
 
   transparency_score:
     title: "Ocjena transparentnosti"
@@ -197,7 +193,7 @@ hr:
     Teza je potvrđena dokazom iz Bangladeša: 64 posto ispitanika spomenutog istraživanja reklo je da su pod ogromnim pritiskom prilikom zbog zahtjeva za brzinom proizvodnje odjeće, a 35 posto je reklo da su zbog toga doživjeli nasilje od nadzornika. Analizirajući nasilje i zlostavljanje u tvornicama odjeće i druge interesne grupe otkrile su istu dinamiku. Organizacija Fair Wear Foundation navodi da je pritisak proizvodnje – uključujući pritisak na snižavanje cijena i vrijeme dostave – povezan s nasiljem i zlostavljanjem na nekoliko načina. Na primjer, večernji prekovremeni sati mogu radnice učiniti lakom metom za seksualno nasilje u tvornici i na putu kući. Nadzornici koji su pod stresom zbog visokih proizvodnih kvota vjerojatnije će maltretirati radnike. K tome, ako su bonusi povezani s količinom izrađenih proizvoda radnike je lakše prisiliti na seksualne usluge nadzornicima u zamjenu za odobravanje kvota.
   indian_gender_quote: >
     "Verbalno nas zlostavljaju na poslu. Ženske nadzornice bi trebale biti među radnicama, i trebamo veću plaću da bismo se mogli brinuti o djeci."
-  a_worker_from_india: "Radnica iz Indije"
+  a_female_worker_from_india: "Radnica iz Indije"
   when_you_are_living_pay_check_to_pay_check: >
     Kad živiš od plaće do plaće dati otkaz na poslu koji te štiti od gladovanja nije realna opcija. Osobito ako moraš hraniti nekoliko usta. Brendovi moraju učiniti više za zaštitu žena u njihovu proizvodnom lancu od nasilja i za osiguranje dostojanstvene plaće za SVE radnike.
   read_more_about: "pročitajte više o"
@@ -332,8 +328,7 @@ hr:
   the_workers_wages_have_been_regularly_delayed: >
     “Isplata radničkih plaća redovno se odgađa za mjesec ili dva od početka 2019. Žalili smo se, pa su platili, ali ne u mjesecu u kojem su trebali, nego s odgodom. Direktor tvornice kaže da je to jer kompanija nije platila. Ali mi smo napravili naš posao.”
   a_worker_from_ukraine: "Radnica iz Ukrajine"
-  the_un_guiding_principles_establish:
-    Smjernice UN-a utvrđuju odgovornost za dobavni lanac. Svaka proizvodna kompanija odgovorna je za svaki utjecaj na ljudska prava u svom proizvodnom lancu, neovisno o tome gdje se kršenja ljudskih prava pojave (u njihovim vlastitim pogonima, tvornicama podizvođača ili među kućanskim radnicima). Iako je proizvodnja odjeće često autsorsana, svaka korporacija ima odgovornost koju ne može delegirati na niže razine dobavnog lanca.
+  the_un_guiding_principles_establish: Smjernice UN-a utvrđuju odgovornost za dobavni lanac. Svaka proizvodna kompanija odgovorna je za svaki utjecaj na ljudska prava u svom proizvodnom lancu, neovisno o tome gdje se kršenja ljudskih prava pojave (u njihovim vlastitim pogonima, tvornicama podizvođača ili među kućanskim radnicima). Iako je proizvodnja odjeće često autsorsana, svaka korporacija ima odgovornost koju ne može delegirati na niže razine dobavnog lanca.
   why_do_we_talk_about_paying_factories_not_workers: "Zašto govorimo o plaćanju tvornicama, a ne radnicima?"
   brands_do_not_pay_workers_directly: >
     Brendovi ne plaćaju izravno radnicima. Plaćaju svoje dobavljače koji onda plaćaju radnike. Dobavni lanac obično je podijeljen na tri reda dobavnih kompanija. Dobavljači prvog reda najčešće sklapaju ugovore o proizvodnji izravno s brendovima. Oni će posao povjeriti drugim dobavljačima.
@@ -352,8 +347,7 @@ hr:
   brands_need_to_take_responsibility_to_modify: >
     Brendovi moraju preuzeti odgovornost za promjenu svojih praksi nabave kako bi osigurali da njihovi dobavljači mogu platiti radnike. Nastavit ćemo raditi s radničkim organizacijama i sindikatima kako bi osigurali učinkovitost promjena.
   unions_and_worker_committees: "Sindikati i radnička vijeća"
-  workers_have_little_to_no_power_to_fight:
-    Radnici trenutno imaju malu ili nikakvu moć da se izbore za bolje plaće. Sloboda udruživanja (Freedom of Association) pod golemim je pritiskom, a gušenje sindikata koji se bore za veće plaće jest sve osim neuobičajenog u mnogim proizvodnim zemljama. U posljednjih nekoliko godina bilježimo i značajan porast broja radničkih vijeća osnovanih na razini tvornice. To stvara lažan dojam da su radnici danas organizirani i moćni. Brendovi često tvrde da su radnička vijeća i sindikati u osnovi isti, što je možda istina samo u malom broju slučajeva.
+  workers_have_little_to_no_power_to_fight: Radnici trenutno imaju malu ili nikakvu moć da se izbore za bolje plaće. Sloboda udruživanja (Freedom of Association) pod golemim je pritiskom, a gušenje sindikata koji se bore za veće plaće jest sve osim neuobičajenog u mnogim proizvodnim zemljama. U posljednjih nekoliko godina bilježimo i značajan porast broja radničkih vijeća osnovanih na razini tvornice. To stvara lažan dojam da su radnici danas organizirani i moćni. Brendovi često tvrde da su radnička vijeća i sindikati u osnovi isti, što je možda istina samo u malom broju slučajeva.
   trucks_are_constantly_leaving: >
     "Kamioni stalno odlaze, svi proizvodi su prodani i imamo puno posla, ali stalno nam govore da nema novca. Moj ugovor se produžuje svaka tri mjeseca. Nemam sigurnost.”
 

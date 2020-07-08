@@ -40,7 +40,7 @@ it:
   revenue: "Fatturato"
   profit: "Profitti"
   top_3_production_countries: "Primi 3 Paesi di produzione"
-  other_brands_owned_by: "Altri marchi del gruppo"
+  brands_owned_by: "Altri marchi del gruppo"
   headquarters: "Sede legale"
   owned_by: "Di proprietà di:"
   search_for_brand: "scerca per brand"

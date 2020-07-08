@@ -60,7 +60,7 @@ en:
       However, the brand`s definition does not meet all the criteria,
       e.g. it is not enough to cover the worker’s family.
     public_commitment_score_3: >
-      This brand has made a public commitment to working towards a living wage for all workers in it’s supply chain.
+      This brand has made a public commitment to working towards a living wage for all workers in its supply chain.
     action_plan: "action plan?"
     action_plan_score_1: >
       No evidence was found that this brand has a public time-bound action plan to improve the low wages in its supply chain.
@@ -83,10 +83,9 @@ en:
     separate_labor_costs: "separate labour costs?"
     desc:
       score_1: "This brand isn't doing enough to move towards Living Wages
-                in its supply chain."
+        in its supply chain."
       score_2: "Text for score 2"
       score_3: "Text for score 3"
-
 
   living_wage_score:
     title: "Living Wage Paid"
@@ -117,7 +116,6 @@ en:
         The majority of workers in the brand’s supply chain do not earn enough to live on
       score_1: >
         The workers making their clothes do not earn enough to live on.
-
 
   transparency_score:
     title: "Supply Chain Transparency"
@@ -198,7 +196,7 @@ en:
     This is confirmed by the evidence from Bangladesh: 64% of the respondents in the present study stated that they were under tremendous pressure to produce garment products and 35% of them stated that they had experienced violence from their supervisors for that reason. Other stakeholders in the industry found the same dynamics when analyzing violence and harassment in garment factories. Fair Wear Foundation states that production pressure - including price pressure and lead time pressure - is linked to violence and harassment in several ways: For example, evening overtime hours can make women workers vulnerable to sexual assault, in the factory as well as on the way home. Supervisors who are stressed by high production targets are more likely to abuse workers. Moreover, if bonuses are linked to production outputs, workers are more easily pressurized into sexual favors to supervisors in exchange for approving targets.
   indian_gender_quote: >
     "We are verbally abused at work. There should be female supervisors with female workers, and we need better pay so that we can look after our children"
-  a_worker_from_india: "A Worker in India"
+  a_female_worker_from_india: "A Worker in India"
   when_you_are_living_pay_check_to_pay_check: >
     When you are living pay check to pay check, quitting the job that protects you from starvation is not a realistic option. Especially when you have multiple mouths to feed. Brands need to do more to ensure the women in their supply chain are protected from abuse and work towards a living wage for ALL workers.
   read_more_about: "Read more about"
@@ -333,8 +331,7 @@ en:
   the_workers_wages_have_been_regularly_delayed: >
     “The workers’ wages have been regularly delayed for a month or two since the beginning of 2019. We complained and they paid, but not this month. The factory director says it is because a firm didn’t pay. But we did our job.”
   a_worker_from_ukraine: "a worker from Ukraine"
-  the_un_guiding_principles_establish:
-    The UN Guiding Principles establish supply chain responsibility. Any production company is responsible for all human-rights impacts across its supply chain, independent of where the human rights abuse occurs (i.e. in their own facilities, with sub-contracted factories, or with homeworkers). So while production of garments is often outsourced, the responsibility remains with each corporation and cannot be delegated and outsourced down the supply chain.
+  the_un_guiding_principles_establish: The UN Guiding Principles establish supply chain responsibility. Any production company is responsible for all human-rights impacts across its supply chain, independent of where the human rights abuse occurs (i.e. in their own facilities, with sub-contracted factories, or with homeworkers). So while production of garments is often outsourced, the responsibility remains with each corporation and cannot be delegated and outsourced down the supply chain.
   why_do_we_talk_about_paying_factories_not_workers: "Why do we talk about paying factories not workers?"
   brands_do_not_pay_workers_directly: >
     Brands do not pay workers directly. They pay their suppliers, who then pay garment workers. A supply chain is usually broken up into 3 tiers of supplier companies. Tier 1 supplier companies are usually commissioned directly by brands for production contracts. These tier 1 companies will subcontract work to other suppliers.
@@ -353,8 +350,7 @@ en:
   brands_need_to_take_responsibility_to_modify: >
     Brands need to take responsibility to modify their purchasing practices to ensure their suppliers can pay their workers. We will continue to work with worker organisations and unions to ensure these changes are effective.
   unions_and_worker_committees: "Unions and Worker committees"
-  workers_have_little_to_no_power_to_fight:
-    Workers have little to no power to fight for better wages. Freedom of Association (FOA) is under immense pressure and busting unions who are fighting for higher wages is anything but unusual in many garment producing countries. There has also been a remarkable increase in the number of worker committees established in the place of unions at factory level over the past couple of years. This creates the false impression that today’s workers are both organised and powerful. Brands often claim that worker committees and trade unions are essentially the same, which might only be true in a small percentage of cases.
+  workers_have_little_to_no_power_to_fight: Workers have little to no power to fight for better wages. Freedom of Association (FOA) is under immense pressure and busting unions who are fighting for higher wages is anything but unusual in many garment producing countries. There has also been a remarkable increase in the number of worker committees established in the place of unions at factory level over the past couple of years. This creates the false impression that today’s workers are both organised and powerful. Brands often claim that worker committees and trade unions are essentially the same, which might only be true in a small percentage of cases.
   trucks_are_constantly_leaving: >
     "Trucks are constantly leaving, all the products are sold, and there is a lot of work, but they keep saying that there is no money. My contract is only prolonged every 3 months. I have no security.”
 
