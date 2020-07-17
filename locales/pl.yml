@@ -39,46 +39,46 @@ pl:
     pracowniczkom i pracownikom godną płacę #GodnaPłacaTeraz,
     aby twoje ubrania nie były już szyte przez ludzi, którzy są wyzyskiwani.
 
-  revenue: "Revenue"
-  profit: "Profit"
-  top_3_production_countries: "Top 3 Production countries"
-  brands_owned_by: "Brands owned by"
-  headquarters: "Headquarters"
-  owned_by: "Owned by:"
-  search_for_brand: "search for brand"
-  interested_in_more_information: "Interested in more information?"
-  check_out: "Check out"
+  revenue: "Przychód"
+  profit: "Zysk"
+  top_3_production_countries: "3 główne kraje producenckie"
+  brands_owned_by: "Marki należące do"
+  headquarters: "Siedziba główna"
+  owned_by: "Właściciel(e):"
+  search_for_brand: "Szukaj marki"
+  interested_in_more_information: "Chcesz dowiedzieć się więcej?"
+  check_out: "Zajrzyj na"
   see_company_profile: "Zobacz profil marki"
 
   commitment_score:
-    title: "Commitment Score"
-    public_commitment: "public commitment?"
+    title: "Zobowiązanie dot. godnej płacy"
+    public_commitment: "Publiczne zobowiązanie?"
     public_commitment_score_1: >
-      No evidence was found that this brand has made a commitment to working towards a living wage for all workers in its supply chain.
+      Brak dowodów, że marka ma publicznie dostępny, ujęty w konkretnych ramach czasowych plan działania, by podnieść niskie płace w swoim łańcuchu dostaw.
     public_commitment_score_2: >
-      This brand has made a public commitment to pay a “living wage”.
-      However, the brand`s definition does not meet all the criteria,
-      e.g. it is not enough to cover the worker’s family.
+      Marka zobowiązała się publicznie do zapewnienia „godnej płacy”.
+      Jednak definicja, którą marka się posługuje, nie spełnia wszystkich kryteriów,
+      np. taka płaca nie wystarcza na zaspokojenie potrzeb rodziny pracowniczki.
     public_commitment_score_3: >
-      This brand has made a public commitment to working towards a living wage for all workers in it’s supply chain.
-    action_plan: "action plan?"
+      Marka zobowiązała się publicznie do dążenia do zapewnienia godnej płacy wszystkim pracownikom w swoim łańcuchu dostaw.
+    action_plan: "Plan działania?"
     action_plan_score_1: >
-      No evidence was found that this brand has a public time-bound action plan to improve the low wages in its supply chain.
+      Brak dowodów, że marka ma publicznie dostępny, ujęty w konkretnych ramach czasowych plan działania, by podnieść niskie płace w swoim łańcuchu dostaw.
     action_plan_score_2: >
-      This brand may have a plan that is not time-bound, only about their tier 1 factories,
-      or unclear on specifics (not SMART).
+      Marka ma plan, ale bez konkretnych ram czasowych, dotyczący tylko fabryk bezpośrednich dostawców,
+      lub niejasny co do szczegółów (nie jest to plan SMART).
     action_plan_score_3: >
-      This brand has a publicly available plan for achieving a living wage for all workers i
-      n their supply chain, including concrete steps within a specific time frame.
+      Marka ma dostępny publicznie plan zapewnienia godnej płacy wszystkim pracownikom
+      w swoim łańcuchu dostaw, obejmujący konkretne kroki w określonych ramach czasowych.
     separate_labor_costs_score_1: >
-      No evidence was found that this brand ensures labour costs are properly covered by using an established method to calculate them,
-      separating these costs from others.
-      All brands should pay prices to suppliers sufficient to cover a living wage and social protection contribution for all workers in their supply chain.
+      Brak dowodów, że ta marka gwarantuje, że oferowane przez nią ceny pokrywają koszty pracy, posługując się uznaną metodą ich obliczania,
+      przez oddzielanie ich od innych kosztów.
+      Wszystkie marki powinny płacić dostawcom ceny wystarczające do pokrycia kosztów godnej płacy i składek na zabezpieczenia społeczne dla wszystkich pracowników w swoim łańcuchu dostaw.
     separate_labor_costs_score_2: >
-      Partial
+      Częściowo
     separate_labor_costs_score_3: >
-      Brands need to ensure that labour costs are properly covered by using an established method to calculate them,
-      separating these costs from others.
+      Marki muszą zapewnić, że płacą ceny wystarczające na pokrycie kosztów pracy, używając uznanej metody ich obliczania,
+      przez oddzielanie ich od innych kosztów.
 
     separate_labor_costs: "separate labor costs?"
     desc:
@@ -88,7 +88,7 @@ pl:
       score_3: "Text for score 3"
 
   living_wage_score:
-    title: "Living Wage Paid"
+    title: "Zapewniona godna płaca"
     desc_1:
       score_5: >
         100% fabryk w łańcuchu dostaw marki płaci pracownikom godną płacę.
@@ -119,9 +119,9 @@ pl:
 
   transparency_score:
     title: "Transparentny łańcuch dostaw"
-    read_more: "Read more"
+    read_more: "Przeczytaj więcej"
     about_why_transparency_is_important: "dlaczego transparentność jest istotna"
-    about_how_this_score_was_calculated: "about how this score was calculated"
+    about_how_this_score_was_calculated: "o tym, jak przyznano tę ocenę."
     what_does_this_mean: "Co to oznacza?"
     desc:
       score_1: "Marka nie podaje informacji o fabrykach i pracownikach w swoim łańcuchu dostaw, co jest wymagane w ramach zobowiązania do transparentności."
@@ -131,22 +131,22 @@ pl:
       score_5: "Marka podaje informacje wykraczające poza podstawowe dane, w praktycznym formacie do odczytu maszynowego, takim jak arkusze Excela, dzięki czemu dane są łatwe do wykorzystania dla innych."
 
   suppliers_table:
-    explore_supply_chain: "Explore supply chain"
-    sourcing_from_factories: "Sourcing from factories"
+    explore_supply_chain: "Łańcuch dostaw"
+    sourcing_from_factories: "Fabryki produkujące dla marki"
     found: "found)"
-    number_of_workers: "number of workers"
-    wage: "wage"
-    workers: "workers"
-    company: "company"
-    female_male_other: "Female/Male/Other"
-    permanent_temporary: "Permanent/ Temporary"
-    average: "Average"
-    gap: "Gap"
-    have_cba: "Have cba"
-    know_brand: "Know brand"
-    pregnancy_leave: "Pregnancy leave"
-  latest: "Latest"
-  news: "News"
+    number_of_workers: "Liczba pracowników"
+    wage: "płaca"
+    workers: "pracownicy"
+    company: "firma"
+    female_male_other: "Kobiety/Mężczyźni/Inni"
+    permanent_temporary: "Stali/Tymczasowi"
+    average: "Średnia"
+    gap: "Luka"
+    have_cba: "Mają układ zbiorowy"
+    know_brand: "Znają markę"
+    pregnancy_leave: "Urlop macierzyński"
+  latest: "Najnowsze"
+  news: "informacje"
   footer_info: "to kampania prowadzona przez Clean Clothes Campaign, finansowana ze środków Unii Europejskiej."
   methodology_title: "Nasza metodologia badań"
   methodology_paragraph_1: >
@@ -199,11 +199,11 @@ pl:
   a_female_worker_from_india: "Pracowniczka w Indiach"
   when_you_are_living_pay_check_to_pay_check: >
     Kiedy żyjesz od wypłaty do wypłaty, rzucenie pracy, która chroni cię przed śmiercią z głodu, nie jest realistyczną opcją. Zwłaszcza jeśli masz wiele osób na utrzymaniu. Marki muszą robić więcej, aby zapewnić kobietom pracującym w ich łańcuchu dostaw ochronę przed przemocą, a także działać na rzecz wprowadzenia godnych płac dla wszystkich pracowniczek i pracowników.
-  read_more_about: "Read more about"
+  read_more_about: "Przeczytaj więcej o"
   who_are_we: "Kim jesteśmy"
   menu_who_we_are: "Kim jesteśmy"
   menu_methodology: "Metodologia"
-  menu_gender: "Gender"
+  menu_gender: "kwestii płci"
   clean_clothes_campaign_is_a_global_network: >
     Clean Clothes Campaign to globalna sieć zajmująca się poprawą warunków pracy i
     wzmacnianiem pozycji pracowników w światowym przemyśle odzieżowym.
@@ -213,7 +213,7 @@ pl:
     Jako oddolna sieć zrzeszająca setki organizacji i związków zawodowych, zarówno w krajach produkcji odzieży, jak i na rynkach konsumenckich, potrafimy wskazać lokalne problemy i opracować strategie kampanii wspierających pracowników w osiąganiu ich celów. Współpracujemy także z podobnymi kampaniami i grupami działającymi na rzecz praw pracowniczych.
   all_workers_regardless_of_sex_age: >
     Wszyscy pracownicy – bez względu na płeć, wiek, kraj pochodzenia, status prawny, status zatrudnienia, miejsce pracy i wszelkie inne kwestie – mają prawo do dobrych, bezpiecznych warunków pracy, w której mogą korzystać ze swojego podstawowego prawa do swobodnego zakładania związków zawodowych i negocjacji zbiorowych, a także zarabiania godnej płacy, umożliwiającej godne życie.
-  visit_site: "Visit Site"
+  visit_site: "Odwiedź stronę"
   transparency_header: "Transparentność"
   knowing_where_your_clothes_are_made: >
     Wiedza, gdzie wyprodukowano twoje ubrania i kto je uszył, to istotny krok do poprawy
@@ -264,8 +264,8 @@ pl:
   to_reflect_wage_abuses: "oraz te dotyczące zrównoważonego rozwoju, tak by obejmowały naruszenia praw pracowniczych w zakresie płac."
   for_more_about_our: "Więcej na temat kampanii"
   transparency_campaign: "dotyczącej transparentności"
-  csv_or_json_data: "CSV or JSON data"
-  learn_more: "Learn more"
+  csv_or_json_data: "dane CSV lub JSON"
+  learn_more: "Dowiedz się więcej"
   menu_living_wage: "Co to jest godna płaca?"
   what_is_a_living_wage: "Co to jest godna płaca?"
   a_living_wage_recognized_by_the_un_as_a_right: >
@@ -293,7 +293,7 @@ pl:
     Wystarczający do zaspokojenia pełnych podstawowych potrzeb rodziny oraz umożliwiać odłożenie oszczędności. Obejmuje to samotne matki lub pracowniczki i pracowników bez partnerów/-ek, utrzymujących z jednej pensji także dwoje krewnych w podeszłym wieku.
   a_living_wage_benchmark_should_put_a_floor: >
     Wskaźnik godnej płacy powinien wyznaczać dolną, nie górną granicę wynagrodzeń. Powinien ułatwiać także dalszą poprawę, wykraczającą poza zapewnienie wszystkim pracownikom minimalnego dochodu.
-  savings_and_survival: "Savings and Survival"
+  savings_and_survival: "Oszczędności i przetrwanie"
   asia_floor_wage_alliance: >
     Asia Floor Wage Alliance, Global Living Wage Coalition oraz Wage Indicator Foundation to przykłady organizacji, które wypracowały wskaźniki spełniające te kryteria. Przydatnym narzędziem są też Wage Ladders („drabinki płacowe”) Fair Wear Foundation, które porównują kilka wskaźników z lokalnymi ustawowymi płacami minimalnymi.
   sometimes_i_have_to_take_painkillers: >
@@ -336,7 +336,7 @@ pl:
   brands_do_not_pay_workers_directly: >
     Marki nie płacą bezpośrednio pracownikom szyjącym ich ubrania. Płacą swoim dostawcom, którzy następnie wypłacają pensje pracowniczkom i pracownikom fabryk. Łańcuch dostaw składa się zwykle z trzech poziomów firm dostawców. Dostawcy pierwszego poziomu na ogół dostają zamówienia bezpośrednio od marek odzieżowych, a następnie podzlecają pracę podwykonawcom – dostawcom z kolejnych (niższych) poziomów.
   on_their_current_wages_garment_workers: >
-    On their current wages, garment workers often have to make hard decisions about their health care or their children’s education. It is common for workers to faint from lack of nutrition since they often do not earn enough to feed themselves and their families adequately. The added stress of juggling bills and loans and lack of sleep from inhumane working hours has long term health consequences for millions of workers. Most will have to make a choice between buying food and paying to see a doctor.
+    Przy obecnych płacach pracownicy sektora odzieżowego często muszą podejmować trudne decyzje dotyczące opieki zdrowotnej czy edukacji dzieci. W fabrykach dochodzi do omdleń z powodu niedożywienia, bo zarobki nie wystarczają na odpowiednie wykarmienie siebie i rodziny. Dodatkowy stres związany z kombinowaniem, jak zapłacić rachunki i spłacić pożyczki, oraz brak snu wynikający z nieludzkich godzin pracy mają długofalowe konsekwencje dla zdrowia milionów pracowników. Większość musi wybierać między kupnem jedzenia a zapłaceniem za wizytę u lekarza.
   suppliers_are_forced_to_estimate_the_lowest: >
     Dostawcy są zmuszeni oszacować najniższe możliwy koszty produkcji w przeliczeniu na sztukę odzieży, aby targować się z markami o kontrakty produkcyjne. Wynegocjowana cena powinna wystarczyć na pokrycie kosztów operacyjnych fabryki, w tym opłacenie czynszu, prądu, wody i konserwacji, a także kosztów surowców i dostawy oraz wszystkich kosztów pracy, i dać fabryce marżę zysku. Aby konkurować z innymi firmami z pierwszego poziomu, dostawcy obliczają koszty pracy na podstawie płac minimalnych, a nie godnej płacy, oraz dziesięciogodzinnego dnia pracy, z dwiema nadgodzinami, zamiast dnia ośmiogodzinnego.
   my_job_is_exhausting: >
@@ -367,7 +367,7 @@ pl:
   women_can_be_made_to_dance: >
     "Kobiety można zmusić, żeby tańczyły, jak im się zagra, ale mężczyzn nie da się w ten sposób wykorzystywać. Właścicieli [fabryki] nic nie obchodzi, jeśli my o coś prosimy, ale żądania mężczyzn trzeba wziąć pod uwagę. Dlatego mężczyzn nie zatrudniają."
   a_worker_from_bangladesh: "Pracowniczka w Bangladeszu"
-  gbv_in_bangladesh: "GBV in Bangladesh"
+  gbv_in_bangladesh: "Przemoc uwarunkowana płcią w Bangladeszu"
   about_fashion_checker: "O Fashion Checker"
   about_the_campaign: "O kampanii"
   a_living_wage_for_garment_workers: >
@@ -568,43 +568,43 @@ pl:
   we_call_for_the_eu_to_require_supply_chain: "Apelujemy do UE, aby wymagała ujawniania łańcuchów dostaw przynajmniej od firm w sektorach wysokiego ryzyka, gdzie często dochodzi do naruszeń praw pracowniczych. Lista dostawców powinna obejmować informacje do odczytu maszynowego na temat wszystkich zakładów produkcyjnych i przetwórczych, a także nazwę, adres i firmę macierzystą każdego zakładu, rodzaj wytwarzanych w nim produktów i liczbę pracowników."
   we_call_for_mandatory_disclosure_of_data_on_lowest: "Apelujemy o obowiązkowe ujawnianie danych o najniższym poziomie wynagrodzeń wypłacanych przez każdego z dostawców w każdym kraju producenckim, z wyłączeniem dodatków, świadczeń i premii, z podaniem płci i wskazaniem, czy chodzi o pracowników migracyjnych, oraz podaniem statusu zatrudnienia ze świadomością zagrożeń i praw, aż do najniższego poziomu łańcucha dostaw."
   we_call_to_advance_human_rights_due_diligence: "Apelujemy o uchwalenie na szczeblu UE ustawodawstwa o należytej staranności w zakresie praw człowieka, aby wprowadzić dla firm obowiązek przestrzegania praw człowieka w swojej działalności i w łańcuchach dostaw, włącznie z transparentnością procesu należytej staranności, łańcuchów dostaw i wypłacanych w nich wynagrodzeń, ze świadomością zagrożeń i praw w całym łańcuchu dostaw, aż do najniższego poziomu, i zgodnie z zasadą „nikogo nie zostawiamy”"
-  we_call_to_set_in_place_an_information_system_for: "We call to set in place an information system for companies to report and disclose adequate and transparent information on factory-level and on product-level. Access to this information system should be free, unlimited and according to established Open Data standards."
+  we_call_to_set_in_place_an_information_system_for: "Apelujemy o wprowadzenie systemu informacyjnego dla firm, w którym mogłyby zgłaszać i ujawniać odpowiednie, transparentne informacje dotyczące fabryk i produktów. Dostęp do tego systemu powinien być bezpłatny, nieograniczony i zgodny z ugruntowanymi standardami otwartości danych."
   we_call_for_increased_transparency_at_product: "Apelujemy o zwiększenie transparentności na poziomie produktu, aby wzmocnić pozycję obywatelek i obywateli: rozszerzyć informacje zamieszczane na metkach wyrobów tekstylnych, tak by obejmowały dane o procesie produkcji i cyklu życia produktu."
   see: "Zobacz"
   our_website: "naszą stronę"
   for_more_information_on_these_demands: ", na której znajdziesz więcej informacji o tych żądaniach."
   fashion: "Fashion"
   checker: "Checker"
-  coming_soon: "Coming Soon"
-  explore: "Explore"
-  the_data: "The Data"
+  coming_soon: "Już wkrótce"
+  explore: "Eksploruj"
+  the_data: "dane"
   are_the_people_who_make_your_clothes_paid_enough_t: "Czy zarobki osób, które szyją twoje ubrania, wystarczają im na życie?"
   find_out_which_apparel_and_footwear_brands_pay_the: "Dowiedz się, które marki odzieżowe i obuwnicze zapewniają swoim pracowniczkom i pracownikom godną płacę."
-  country: "Country"
-  eu_disclaimer: "This website was created and maintained with the financial support of the European Union. Its contents are the sole responsibility of Clean Clothes Campaign and do not necessarily reflect the views of the European Union."
-  tweet_the_brand: "Tweet the Brand"
-  menu_resources: "Resources"
+  country: "kraj"
+  eu_disclaimer: "Ten serwis internetowy powstał i jest utrzymywany przy wsparciu finansowym Unii Europejskiej. Wyłączną odpowiedzialność za treści w nim zawarte ponosi Clean Clothes Campaign i nie muszą one odzwierciedlać stanowiska Unii Europejskiej."
+  tweet_the_brand: "Zatweetuj to marki"
+  menu_resources: "Materiały"
   reports: "Raporty"
   living_wage: "Godna płaca"
-  power_dynamics: "Power Dynamics"
+  power_dynamics: "Dynamika sił"
   podcasts: "Podcasty"
   videos: "Wideo"
   who_we_are: "O nas"
   methodology: "Metodologia"
-  see_full_profiles: "See the full brand profiles"
-  minimum_wage: "Minimum Wage"
-  food: "Food"
-  housing: "Housing"
-  health_care: "Health care"
-  education: "Education"
-  clothing: "Clothing"
-  transportation: "Transportation"
-  savings: "Savings"
-  website_powered_by: "Website powered by"
-  privacy_policy: "Privacy Policy"
-  all_rights_reserved: "All rights reserved"
-  design_by: "Design by"
-  new: "new"
+  see_full_profiles: "Zobacz pełne profile marek"
+  minimum_wage: "Płaca minimalna"
+  food: "Jedzenie"
+  housing: "Mieszkanie"
+  health_care: "Opieka zdrowotna"
+  education: "Edukacja"
+  clothing: "Ubranie"
+  transportation: "Transport"
+  savings: "Oszczędności"
+  website_powered_by: "Serwis oparty o"
+  privacy_policy: "Polityka prywatności"
+  all_rights_reserved: "Wszystkie prawa zastrzeżone"
+  design_by: "Projekt"
+  new: "nowe"
   exploitation_made_in_europe: "Exploitation: made in Europe"
   tailored_wages: "Tailored wages"
   corporate_commitments_to_living_wages: "Corporate Commitments to Living Wages in the Garment Industry"
@@ -654,46 +654,46 @@ pl:
   global_fund_for_women: "Global Fund for Women"
   five_business_practices: "5 Business Practices Many Major Clothing Brands Use that Hurt Workers"
   human_rights_watch: "Human rights watch"
-  menu_explore_the_data: "Explore the Data"
-  resources: "Resources"
+  menu_explore_the_data: "Eksploruj dane"
+  resources: "Materiały"
   lw_c_50_plausible_notpublic: >
-    The brand claims that 50% or more of its supplier factories are paying a living wage to all their workers, some plausible explanation is given, but the evidence is not public. Which means many of the workers making their clothes do not earn enough to live on.
+    Marka twierdzi, że co najmniej 50% fabryk jej dostawców zapewnia godną płacę wszystkim pracownikom, podaje pewne wiarygodne wyjaśnienia, ale nie udostępnia dowodów publicznie. Co oznacza, że wielu pracownikom szyjącym jej ubrania zarobki nie wystarczają na utrzymanie.
   lw_d_25_public: >
-    The brand claims that between 1 and 25% of supplier factories in the company’s supply chain pay workers a living wage. This is public information. The majority of workers in the brand’s supply chain do not earn enough to live on.
+    Marka twierdzi, że od 1 do 25% fabryk w jej łańcuchu dostaw zapewnia pracownikom godną płacę. Są to informacje dostępne publicznie. Większość pracowników w łańcuchu dostaw marki nie otrzymuje płac wystarczających na utrzymanie.
   lw_d_started: >
-    The company claims that it has started contributing towards a living wage by paying higher prices factories in its supply chain but these prices still do not cover labour costs. Which means the majority of the workers making their clothes do not earn enough to live on.
+    Firma twierdzi, że zaczęła przyczyniać się do zapewnienia godnych płac, płacąc wyższe ceny za zamówienia fabrykom w swoim łańcuchu dostaw, ale te ceny nadal nie pokrywają kosztów pracy. Co oznacza, że większość pracowniczek i pracowników szyjących ubrania marki nie otrzymuje płac wystarczających na życie.
   lw_e_noclaim_notpublic: >
-    The brand makes no claim and no public evidence was found that its suppliers are paying a living wage. Which means the brand cannot prove that the workers making their clothes earn enough to live on.
+    Marka nie podaje żadnych informacji o tym, że jej dostawcy zapewniają pracownikom godną płacę, ani nie znaleziono na to żadnych publicznie dostępnych dowodów. Co oznacza, że marka nie może udowodnić, że zarobki pracowników szyjących jej ubrania wystarczają im na utrzymanie.
   lw_e_noevidence: >
-    There was no evidence found on the brand’s claims that it pays a living wage and no plausible explanation was given. Which means the brand cannot prove that the workers making their clothes earn enough to live on.
+    Nie znaleziono dowodów na twierdzenia marki, że zapewnia ona godną płacę; nie podała też żadnych wiarygodnych wyjaśnień. Co oznacza, że marka nie może udowodnić, że zarobki pracowników szyjących jej ubrania wystarczają im na utrzymanie.
   transp_none: >
-    This brand provides no information on the supplier factories and garment workers in its supply chain which is required by the transparency pledge.
+    Marka nie podaje informacji o fabrykach i pracownikach w swoim łańcuchu dostaw, co jest wymagane w ramach zobowiązania do transparentności.
   transp_partial: >
-    This brand provides some, but not enough information on the supplier factories and garment workers in its supply chain.
+    Marka podaje pewne, ale niewystarczające informacje o fabrykach i pracownikach w swoim łańcuchu dostaw.
   transp_partial_additional: >
-    This brand provides some information beyond the basics, but falls short of the minimum needed for the transparency pledge.
+    Marka podaje pewne informacje wykraczające poza podstawowe dane, ale nie spełnia minimum wymaganego w ramach zobowiązania do transparentności.
   transp_partial_additional_machinereadable: >
-    This brand provides some information beyond the basics, in a practical, machine-readable format, but but falls short of the minimum needed for the transparency pledge.
+    Marka podaje pewne informacje wykraczające poza podstawowe dane, w praktycznym formacie do odczytu maszynowego, ale nie spełnia minimum wymaganego w ramach zobowiązania do transparentności.
   transp_partial_machinereadable: >
-    This brand provides some, but not enough information on the factories and garment workers in its supply chain - it publishes in a practical, machine-readable format.
+    Marka podaje pewne, ale niewystarczające informacje o fabrykach i pracownikach w swoim łańcuchu dostaw, i publikuje je w praktycznym formacie do odczytu maszynowego.
   transp_pledge: >
-    This brand provides basic information like factory names and addresses, product type, number of workers, and supplier group, if the factory is part of a larger entity.
+    Marka podaje podstawowe informacje, takie jak nazwy i adresy fabryk, rodzaj produktu, liczba pracowników i kategoria dostawcy, oraz czy fabryka jest częścią większego podmiotu.
   transp_pledge_additional: >
-    This brand provides information beyond the basics such as the gender composition of the workforce, if there is a union or if there is a collective bargaining agreement in place.
+    Marka podaje informacje wykraczające poza podstawowe dane, a więc także o odsetku kobiet i mężczyzn wśród pracowników, o tym, czy w zakładzie działa związek zawodowy i czy obowiązuje układ zbiorowy.
   transp_pledge_additional_machinereadable: >
-    This brand provides information beyond the basics in a practical, machine-readable format such as Excel spreadsheets which makes the data usable for others.
+    Marka podaje informacje wykraczające poza podstawowe dane, w praktycznym formacie do odczytu maszynowego, takim jak arkusze Excela, dzięki czemu dane są łatwe do wykorzystania dla innych.
   transp_pledge_machinereadable: >
-    This brand provides basic information in a practical, machine-readable format such as Excel spreadsheets which makes the data usable for others.
+    Marka podaje podstawowe informacje w praktycznym formacie do odczytu maszynowego, takim jak arkusze Excela, dzięki czemu dane są łatwe do wykorzystania dla innych.
 
   partners: "Partners"
   we_never_saw_data_about_brands_payments_what_price: >
-    "We never saw data about brands’ payments, what prices they really pay. Our director always says that we are at a loss. According to him, we should work even more. He tells us that we are drones, a bunch of goof-offs."
-  click_to_read_more: "click<br/>to read<br/>more"
+    "Nigdy nie widzieliśmy danych dotyczących płatności od marek odzieżowych, cen, które naprawdę płacą. Nasz dyrektor zawsze mówi, że mamy straty. Według niego powinniśmy jeszcze więcej pracować. Mówi nam, że jesteśmy trutniami, że się obijamy."
+  click_to_read_more: "Więcej na ten temat – kliknij"
   img_living_wage_circles: "/images/about_us/living_wage_circles.png"
   img_smiling_curve: "/images/about_us/smiling_curve.png"
   img_tee_shirt: "/images/about_us/tee_shirt.png"
   img_25_percent: "/images/about_us/25_percent.png"
   img_global_supply_chain: "/images/living_wage/global_supply_chain.png"
-  social_media_title: "FashionChecker: wages and transparency in the garment industry"
-  social_media_description: "See how brands perform on paying their workers and how open they are about where their products are made."
+  social_media_title: "FashionChecker: płace i transparentność w przemyśle odzieżowym"
+  social_media_description: "Sprawdź, czy marki zapewniają pracownikom godną płacę i na ile otwarcie podają, gdzie szyte są ich produkty."
   social_media_image: "https://fashionchecker.org/images/CCC_FC_web_preview.jpg"
