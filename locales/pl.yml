@@ -1,0 +1,699 @@
+pl:
+  header_question_1: "Czy zarobki osób, które szyją twoje ubrania,"
+  header_question_2: "wystarczają im na życie?"
+  find_out: "Dowiedz się, które marki odzieżowe i obuwnicze zapewniają swoim pracowniczkom i pracownikom godną płacę."
+  living_wages: "Godne płace"
+  not_poverty_wages: "Nie głodowe płace"
+  living_wages_info: >
+    Większości pracowniczek i pracowników przemysłu odzieżowego nie stać na zaspokojenie podstawowych życiowych potrzeb.
+    Sprawiedliwa zapłata za pracę jest jednym z podstawowych praw człowieka,
+    ale żadna z największych marek odzieżowych nie płaci szwaczkom i innym pracownikom fabryk pensji
+    wystarczających na życie.
+  read_more_living_wages: "Przeczytaj więcej o godnej płacy."
+  difference_question: >
+    Na czym polega różnica między godną płacą a płacą minimalną?
+  end: "Koniec"
+  gendered_pay: "Stop nierównościom płacowym"
+  gendered_pay_info: >
+    80% zatrudnionych w przemyśle odzieżowym to kobiety. Na ogół zarabiają mniej niż mężczyźni wykonujący
+    tę samą pracę. Nierówności płci są głęboko zakorzenione w nierównowadze sił w tym sektorze, a nierówności
+    płacowe wiążą się bezpośrednio z przemocą werbalną, fizyczną i seksualną wobec kobiet.
+  gender: "Przeczytaj więcej o kwestii płci w kontekście płac"
+  resilience: "Przetrwanie"
+  in_the_face_of_a_crisis: "w obliczu kryzysu"
+  our_demands: "Nasze żądania"
+  resilience_info: >
+    Marki od dziesięcioleci czerpią zyski z głodowych płac, pozostawiając pracowniczki i pracowników
+    przemysłu odzieżowego bez zabezpieczeń w tych niepewnych czasach. Kryzys związany z pandemią wirusa Covid-19
+    pokazał jak na dłoni społeczno-ekonomiczne nierówności tego sektora, szczególnie dotykające milionów ludzi skazanych
+    na pracę bez ochrony prawnej.
+  your_voice_has_power: "Twój głos ma moc"
+  take_action: "Działaj"
+  your_voice_info_1: >
+    Nasze działania są możliwe dzięki twojemu poparciu.
+    Pora, żeby firmy – właściciele marek – wzięły odpowiedzialność
+    za życie ludzi, którzy szyją nasze ubrania.
+    Jako konsumentki i konsumenci mamy moc. Kiedy mówimy,
+    marki słuchają. Domagaj się od marek, by zapewniły
+  your_voice_info_2: >
+    pracowniczkom i pracownikom godną płacę #GodnaPłacaTeraz,
+    aby twoje ubrania nie były już szyte przez ludzi, którzy są wyzyskiwani.
+
+  revenue: "Przychód"
+  profit: "Zysk"
+  top_3_production_countries: "3 główne kraje producenckie"
+  brands_owned_by: "Marki należące do"
+  headquarters: "Siedziba główna"
+  owned_by: "Właściciel(e):"
+  search_for_brand: "Szukaj marki"
+  interested_in_more_information: "Chcesz dowiedzieć się więcej?"
+  check_out: "Zajrzyj na"
+  see_company_profile: "Zobacz profil marki"
+
+  commitment_score:
+    title: "Zobowiązanie dot. godnej płacy"
+    public_commitment: "Publiczne zobowiązanie?"
+    public_commitment_score_1: >
+      Brak dowodów, że marka ma publicznie dostępny, ujęty w konkretnych ramach czasowych plan działania, by podnieść niskie płace w swoim łańcuchu dostaw.
+    public_commitment_score_2: >
+      Marka zobowiązała się publicznie do zapewnienia „godnej płacy”.
+      Jednak definicja, którą marka się posługuje, nie spełnia wszystkich kryteriów,
+      np. taka płaca nie wystarcza na zaspokojenie potrzeb rodziny pracowniczki.
+    public_commitment_score_3: >
+      Marka zobowiązała się publicznie do dążenia do zapewnienia godnej płacy wszystkim pracownikom w swoim łańcuchu dostaw.
+    action_plan: "Plan działania?"
+    action_plan_score_1: >
+      Brak dowodów, że marka ma publicznie dostępny, ujęty w konkretnych ramach czasowych plan działania, by podnieść niskie płace w swoim łańcuchu dostaw.
+    action_plan_score_2: >
+      Marka ma plan, ale bez konkretnych ram czasowych, dotyczący tylko fabryk bezpośrednich dostawców,
+      lub niejasny co do szczegółów (nie jest to plan SMART).
+    action_plan_score_3: >
+      Marka ma dostępny publicznie plan zapewnienia godnej płacy wszystkim pracownikom
+      w swoim łańcuchu dostaw, obejmujący konkretne kroki w określonych ramach czasowych.
+    separate_labor_costs_score_1: >
+      Brak dowodów, że ta marka gwarantuje, że oferowane przez nią ceny pokrywają koszty pracy, posługując się uznaną metodą ich obliczania,
+      przez oddzielanie ich od innych kosztów.
+      Wszystkie marki powinny płacić dostawcom ceny wystarczające do pokrycia kosztów godnej płacy i składek na zabezpieczenia społeczne dla wszystkich pracowników w swoim łańcuchu dostaw.
+    separate_labor_costs_score_2: >
+      Częściowo
+    separate_labor_costs_score_3: >
+      Marki muszą zapewnić, że płacą ceny wystarczające na pokrycie kosztów pracy, używając uznanej metody ich obliczania,
+      przez oddzielanie ich od innych kosztów.
+
+    separate_labor_costs: "separate labor costs?"
+    desc:
+      score_1: "This brand isn't doing enough to move towards Living Wages
+        in its supply chain."
+      score_2: "Text for score 2"
+      score_3: "Text for score 3"
+
+  living_wage_score:
+    title: "Zapewniona godna płaca"
+    desc_1:
+      score_5: >
+        100% fabryk w łańcuchu dostaw marki płaci pracownikom godną płacę.
+        Są to informacje dostępne publicznie.
+      score_4: >
+        Ponad 50% fabryk w łańcuchu dostaw marki zapewnia pracownikom godną płacę.
+        Są to informacje dostępne publicznie.
+      score_3: >
+        Od 26 do 50% fabryk w łańcuchu dostaw marki zapewnia pracownikom godną płacę.
+        Są to informacje dostępne publicznie.
+      score_2: >
+        Firma twierdzi, że zaczęła przyczyniać się do zapewnienia godnych płac, płacąc wyższe ceny za zamówienia fabrykom w swoim łańcuchu dostaw, ale te ceny nadal nie pokrywają kosztów pracy.
+      score_1: >
+        Firma twierdzi, że zaczęła przyczyniać się do
+        zapewnienia godnych płac, płacąc wyższe ceny wszystkim
+        fabrykom w swoim łańcuchu dostaw.
+    desc_2:
+      score_5: >
+        Pracowniczki i pracownicy szyjący ubrania marki otrzymują płace wystarczające na życie.
+      score_4: >
+        Niektórzy pracownicy i pracowniczki szyjące ubrania marki nie otrzymują płac wystarczających na życie.
+      score_3: >
+        Większość pracowniczek i pracowników szyjących ubrania marki nie otrzymuje płac wystarczających na życie.
+      score_2: >
+        Większość pracowników w łańcuchu dostaw marki nie otrzymuje płac wystarczających na życie.
+      score_1: >
+        Pracowniczki i pracownicy szyjący ubrania marki nie otrzymują płac wystarczających na życie.
+
+  transparency_score:
+    title: "Transparentny łańcuch dostaw"
+    read_more: "Przeczytaj więcej"
+    about_why_transparency_is_important: "dlaczego transparentność jest istotna"
+    about_how_this_score_was_calculated: "o tym, jak przyznano tę ocenę."
+    what_does_this_mean: "Co to oznacza?"
+    desc:
+      score_1: "Marka nie podaje informacji o fabrykach i pracownikach w swoim łańcuchu dostaw, co jest wymagane w ramach zobowiązania do transparentności."
+      score_2: "Marka podaje pewne, ale niewystarczające informacje o fabrykach i pracownikach w swoim łańcuchu dostaw, np.: nazwy fabryk, ale bez adresów."
+      score_3: "Marka podaje podstawowe informacje, takie jak nazwy i adresy fabryk, rodzaj produktu, liczba pracowników i kategoria dostawcy, oraz czy fabryka jest częścią większego podmiotu."
+      score_4: "Marka podaje podstawowe informacje w praktycznym formacie do odczytu maszynowego, takim jak arkusze Excela, dzięki czemu dane są łatwe do wykorzystania dla innych."
+      score_5: "Marka podaje informacje wykraczające poza podstawowe dane, w praktycznym formacie do odczytu maszynowego, takim jak arkusze Excela, dzięki czemu dane są łatwe do wykorzystania dla innych."
+
+  suppliers_table:
+    explore_supply_chain: "Łańcuch dostaw"
+    sourcing_from_factories: "Fabryki produkujące dla marki"
+    found: "found)"
+    number_of_workers: "Liczba pracowników"
+    wage: "płaca"
+    workers: "pracownicy"
+    company: "firma"
+    female_male_other: "Kobiety/Mężczyźni/Inni"
+    permanent_temporary: "Stali/Tymczasowi"
+    average: "Średnia"
+    gap: "Luka"
+    have_cba: "Mają układ zbiorowy"
+    know_brand: "Znają markę"
+    pregnancy_leave: "Urlop macierzyński"
+  latest: "Najnowsze"
+  news: "informacje"
+  footer_info: "to kampania prowadzona przez Clean Clothes Campaign, finansowana ze środków Unii Europejskiej."
+  methodology_title: "Nasza metodologia badań"
+  methodology_paragraph_1: >
+    Wysłaliśmy ankiety do ponad 90 firm, aby dać im możliwość pokazania podejmowanych przez nie starań w kierunku zapewnienia godnej płacy wszystkim pracownikom w swoim łańcuchu dostaw oraz ujawnienia miejsc produkcji (jeśli jeszcze tego nie zrobiły w ramach zobowiązania do transparentności – Transparency Pledge). Oczekujemy od firm przedstawienia tych starań w formie danych SMART, zgromadzonych poprzez te badania, w transparentnym formacie zrozumiałym dla konsumentów, pracowników sektora odzieżowego i decydentów politycznych. Mamy nadzieję, że na dłuższą metę przedstawienie marek w Fashion Checker stanie się częścią ich procesu należytej staranności oraz weryfikacji ich działań w zakresie CSR.
+  methodology_paragraph_2: >
+    Ze względu na trudne warunki, między innymi niechęć pracowniczek i pracowników do rozmawiania z badaczami z obawy przed odwetem ze strony przełożonych, badania terenowe w miejscu pracy przeprowadzano początkowo tylko w pięciu krajach, w których zapewniony jest dostęp badaczy do pracowników sektora odzieżowego: Indonezji, Chinach, Chorwacji, Indiach i Ukrainie. Zebraliśmy paski wypłat pracowników,
+    przeprowadziliśmy wywiady, aby zinterpretować przedstawione na nich informacje, z podziałem
+    według płci (m.in. na temat luki płacowej między kobietami i mężczyznami, obowiązków w pracy, godzin pracy, premii,
+    nadgodzin). Następnie porównaliśmy te dane o płacach z odpowiedziami udzielonymi nam przez marki, dotyczącymi ich
+    wskaźników godnej płacy i odsetka dostawców, którym płacą według podanego
+    wskaźnika. W miarę rozwoju tego projektu będziemy dodawać dane dotyczące kolejnych krajów.
+  methodology_paragraph_3A: "Współpracowaliśmy z"
+  methodology_paragraph_3B: >
+    , ekspertem otwartych danych, przy agregowaniu i konsolidowaniu informacji o łańcuchach
+    dostaw ujawnionych przez marki odzieżowe. Korzystamy też między innymi z danych zebranych przez
+  methodology_paragraph_3C: "oraz"
+  methodology_paragraph_3D: >
+    Ta baza danych, podobnie jak zbiory danych od zaufanych partnerów z wieloletnim doświadczeniem,
+    udostępnia informacje wszystkim zainteresowanym w przyjazny dla użytkownika sposób.
+    Przetestowaliśmy różne metody prezentowania tych danych
+    z pomocą ekspertów od użyteczności.
+  gender_header_1: "Kwestie płci"
+  gender_lead: >
+    Zdecydowaną większość pracowników przemysłu odzieżowego stanowią kobiety i to pokazuje prawdziwą naturę tej branży.
+  gender_influences: >
+    Kwestie płci wpływają na wiele różnych aspektów zatrudnienia: przekonania na temat tego, jakie prace mogą wykonywać kobiety i jak powinny je wykonywać, płace, stosunki z pracodawcą i status prawny. Wszystko – od poziomu wynagrodzenia i tego, jak szybko jest wypłacane, przez warunki zatrudnienia, takie jak brak umowy, brak zwolnień lekarskich i urlopu macierzyńskiego, brak prawa do organizowania się i prawa do emerytury, aż po sposób, w jaki przełożony odzywa się do pracowniczki lub jej dotyka – wynika częściowo z uwarunkowanych płcią przekonań o tym, co jest dopuszczalne. Szczegółowe dane z fabryk pokazują, że najwięcej kobiet pracuje na podrzędnych stanowiskach, takich jak operatorki maszyn i kontrolerki jakości. Kobiety są rutynowo zatrudniane do prac niewymagających wysokich kwalifikacji i rzadko docierają na stanowiska kierownicze w swoich fabrykach czy związkach zawodowych.
+  croatian_gender_quote: >
+    "Wracam do domu i do wieczora jestem na nogach. Muszę ugotować, poprać, odrobić lekcje z dziećmi. Wieczorem jestem tak zmęczona, że tylko staram się nie przewrócić, zanim się położę."
+  a_worker_from_croatia: "Pracowniczka z Chorwacji"
+  women_face_stress: >
+    Kobiety mierzą się ze stresem wywołanym niepewnością zatrudnienia, przemocą słowną i fizyczną, niedożywieniem wskutek niskich płac, wyczerpaniem w wyniku przymusowych nadgodzin i bezradnością wobec niebezpiecznych warunków zatrudnienia i środowiska pracy. Prawa kobiet są łamane także poza pracą. Nie można tego ignorować, ponieważ kształtuje to realia tego, kim jest pracowniczka, zarówno w miejscu pracy, jak i poza nim. Dyskryminacja w postaci podwójnego obciążenia pracą (produkcyjną i reprodukcyjną), dyskryminacja w społeczności i w domu, dyskryminacja wobec prawa (w kształcie regulacji dotyczących prawa własności, dziedziczenia itd.) – wszystko to są czynniki tworzące kontekst, w którym żyją i pracują kobiety. Te aspekty rzeczywistości nie znikają, kiedy kobieta wchodzi do zakładu pracy. Ich wpływ na zdrowie kobiet i ich dzieci jest wyraźnie widoczny.
+  low_wages: "Niskie płace"
+  when_looking_at_the_garment_sector: >
+    Podział pracy w przemyśle odzieżowym jest w znacznej mierze uwarunkowany płcią: im niżej zejdziemy w łańcuchu dostaw, tym bardziej niepewne zatrudnienie; im niższa płaca, tym większy odsetek wykonujących ją kobiet. Pracodawcy mogą wykorzystywać stereotypy kulturowe przedstawiające kobiety jako bierne, elastyczne i mniej skłonne stawiać się kierownictwu. Kobiety na ogół zarabiają mniej od mężczyzn, bo ich dochody są uważane za uzupełniające pensję mężczyzny – żywiciela rodziny. W rzeczywistości jednak to często kobiety są jedynymi zarabiającymi na gospodarstwo domowe. Tę formę nierówności najwyraźniej widać w różnicy między płacami kobiet i mężczyzn, którą często nazywa się luką płacową. W przemyśle odzieżowym kobiety często zarabiają mniej od mężczyzn, nawet jeśli wykonują te same zadania.
+  since_women_are_mainly_employed: >
+    Ponieważ kobiety są zatrudniane głównie w na niskopłatnych stanowiskach o niskim prestiżu, częściej dotyka je ubóstwo, które z kolei zwiększa prawdopodobieństwo stania się ofiarą przemocy i molestowania. Przemoc, nękanie i molestowanie uwarunkowane płcią są najpowszechniejsze w branżach, w których kobiety zarabiają mało i mają niewielki autorytet w podejmowaniu decyzji. Przemysł tekstylny, z długimi łańcuchami dostaw, jest jedną z tych branż, których struktura sprzyja przemocy i molestowaniu. Ponieważ większość siły roboczej stanowią w nim kobiety, w tym wiele młodych i migrantek, pracowniczki sektora odzieżowego na ogół nie mają możliwości poprawy swojej sytuacji. Znajdują się w relacji podległości wobec przełożonych, w większości mężczyzn, którzy często są właśnie ich prześladowcami.
+  gender_based_violence: "Przemoc uwarunkowana płcią"
+  gender_based_violence_is_both_a_cause: >
+    Przemoc uwarunkowana płcią jest zarówno przyczyną, jak i konsekwencją ubóstwa oraz nierówności płciowych. Taka przemoc przybiera różne formy, od dyskryminacji ze względu na płeć, takiej jak brak dostępu do urlopów macierzyńskich i opieki nad dziećmi, po brutalną przemoc fizyczną, taką jak gwałt czy morderstwo. W niedawnym raporcie o przemocy uwarunkowanej płcią w Bangladeszu
+  found_that_76_of_all: >
+    stwierdzono, że 76% ankietowanych pracowniczek spotkało się z jakąś formą przemocy w miejscu pracy. Najczęstszą z nich jest molestowanie seksualne. Jeśli chodzi o przemoc fizyczną, najczęstsze było policzkowanie – doświadczyło go 80% pracowniczek. Jak podają ankietowane, przełożeni policzkują je zwłaszcza wtedy, kiedy trzeba zrealizować wysokie normy produkcyjne w krótkim terminie. Do częstych form przemocy należą także bicie (44%), kopanie (42%) i bicie pięściami (11%). Chociaż jedną z najbardziej rozpowszechnionych form przemocy seksualnej wobec kobiet jest ewidentnie przemoc domowa, spośród tych ankietowanych, które przeżyły gwałt, aż 6% zostało zgwałconych przez swojego przełożonego.
+  despite_its_prevalence_in_the_garment_sector: >
+    Mimo powszechności przemocy uwarunkowanej płcią w sektorze odzieżowym, na ogół audyty fabryk o niej milczą, bo format klasycznych audytów nie przewiduje udziału pracowniczek w takim stopniu, który umożliwiłby im mówienie o tak wrażliwych kwestiach. Wywiady z pracowniczkami są często przeprowadzane na terenie zakładu, czasem nawet w obecności przełożonego, który może być sprawcą przemocy uwarunkowanej płcią.
+  to_address_gender_based_violence_in_the_supply: >
+    Aby zmierzyć się z przemocą uwarunkowaną płcią w łańcuchu dostaw, marki odzieżowe muszą zrozumieć i uznać swoją rolę w dynamice prowadzącej do tej przemocy. Z ostatnich badań wynika, że zamawiający (czyli marki) coraz częściej wykorzystują swoją przewagę nad dostawcami, aby domagać się niższych cen i krótszego czasu realizacji zamówień dla większej ilości produktów, a także nagle zmieniać zamówienia. W rezultacie dostawcy podnoszą normy do wykonania przez pracowniczki, co prowadzi do zwiększonej przemocy i molestowania wobec nich, kiedy nie wyrabiają tych norm.
+  this_is_confirmed_by_the_evidence: >
+    Potwierdzają to dane z Bangladeszu: 64% respondentek w omawianym badaniu podało, że wywierano na nie wielką presję, żeby uszyły ustaloną w normach liczbę sztuk odzieży, a 35% z nich stwierdziło, że doświadczyło z tego powodu przemocy ze strony przełożonych. Inni interesariusze w sektorze dostrzegli taką samą dynamikę, analizując przemoc i molestowanie w fabrykach odzieżowych. Fair Wear Foundation twierdzi, że presja produkcyjna – w tym presja cenowa i związana z czasem realizacji zamówień – jest związana z przemocą i molestowaniem na kilka sposobów. Na przykład wieczorne nadgodziny mogą narażać pracowniczki na napaści seksualne, zarówno w fabryce, jak i w drodze do domu. Przełożeni, którzy są zestresowani wyśrubowanymi normami produkcyjnymi, częściej źle traktują pracowniczki. Ponadto, jeśli premie są związane z wielkością produkcji, przełożonym łatwiej wywrzeć na pracowniczki presję, skłaniając je do przysług seksualnych w zamian za zatwierdzenie wykonania norm.
+  indian_gender_quote: >
+    "W pracy stosuje się wobec nas agresję słowną. Pracowniczkami powinna się zajmować nadzorczyni – kobieta. Potrzebujemy też lepszych płac, żeby móc opiekować się dziećmi"
+  a_female_worker_from_india: "Pracowniczka w Indiach"
+  when_you_are_living_pay_check_to_pay_check: >
+    Kiedy żyjesz od wypłaty do wypłaty, rzucenie pracy, która chroni cię przed śmiercią z głodu, nie jest realistyczną opcją. Zwłaszcza jeśli masz wiele osób na utrzymaniu. Marki muszą robić więcej, aby zapewnić kobietom pracującym w ich łańcuchu dostaw ochronę przed przemocą, a także działać na rzecz wprowadzenia godnych płac dla wszystkich pracowniczek i pracowników.
+  read_more_about: "Przeczytaj więcej o"
+  who_are_we: "Kim jesteśmy"
+  menu_who_we_are: "Kim jesteśmy"
+  menu_methodology: "Metodologia"
+  menu_gender: "kwestii płci"
+  clean_clothes_campaign_is_a_global_network: >
+    Clean Clothes Campaign to globalna sieć zajmująca się poprawą warunków pracy i
+    wzmacnianiem pozycji pracowników w światowym przemyśle odzieżowym.
+  since_1989_ccc_has_worked_to_ensure: >
+    Od 1989 roku CCC działa na rzecz przestrzegania podstawowych praw pracowników. Edukujemy i mobilizujemy konsumentów, prowadzimy lobbing skierowany do firm i rządów państw, a także zapewniamy bezpośrednie wsparcie solidarnościowe pracownikom walczącym o swoje prawa i domagającym się lepszych warunków pracy.
+  as_a_grassroots_network_of_hundreds: >
+    Jako oddolna sieć zrzeszająca setki organizacji i związków zawodowych, zarówno w krajach produkcji odzieży, jak i na rynkach konsumenckich, potrafimy wskazać lokalne problemy i opracować strategie kampanii wspierających pracowników w osiąganiu ich celów. Współpracujemy także z podobnymi kampaniami i grupami działającymi na rzecz praw pracowniczych.
+  all_workers_regardless_of_sex_age: >
+    Wszyscy pracownicy – bez względu na płeć, wiek, kraj pochodzenia, status prawny, status zatrudnienia, miejsce pracy i wszelkie inne kwestie – mają prawo do dobrych, bezpiecznych warunków pracy, w której mogą korzystać ze swojego podstawowego prawa do swobodnego zakładania związków zawodowych i negocjacji zbiorowych, a także zarabiania godnej płacy, umożliwiającej godne życie.
+  visit_site: "Odwiedź stronę"
+  transparency_header: "Transparentność"
+  knowing_where_your_clothes_are_made: >
+    Wiedza, gdzie wyprodukowano twoje ubrania i kto je uszył, to istotny krok do poprawy
+    warunków pracy.
+  transparency_in_production_supply_chains: >
+    Transparentność w produkcyjnych łańcuchach dostaw jest pierwszym krokiem w tym kierunku, ale sama jeszcze nie wystarczy za rozwiązanie. Marki odzieżowe ujawniające dane o fabrykach, w których szyją, nie są lepsze w respektowaniu praw pracowniczych od marek, które tych informacji nie ujawniają. Sama jawność nie oznacza lepszych płac i warunków pracy. Po prostu sprawia, że trochę łatwiej jest wskazać, kto odpowiada za łamanie praw pracowników. Jeśli wiadomo, dla których licznych marek szyje dana fabryka, samym markom łatwiej jest współpracować ze sobą przy tworzeniu rozwiązań problemów z prawami pracowników.
+  transparency_needs_to_be_the_cornerstone: >
+    "Transparentność musi być podstawą wszelkich poważnych działań ze strony marek w kierunku budowania łańcucha dostaw wolnego od łamania praw człowieka"
+  aruna_kashyap: >
+    Aruna Kashyap, radczyni prawna do spraw praw kobiet w Human Rights Watch
+  menu_transparency: "Transparentność"
+  in_2016_nine_labor_and_human: >
+    W 2016 roku dziewięć organizacji praw pracowniczych i praw człowieka utworzyło koalicję
+  to_advocate_for_transparency: >
+    by działać na rzecz transparentności w łańcuchach dostaw przemysłu odzieżowego, wzywając wszystkie firmy produkujące odzież, także sportową, do podpisania
+  coalition: "koalicja"
+  transparency_pledge: "zobowiązania do transparentności"
+  the_pledge_is_based_on_existing: >
+    . Opiera się ono na istniejących, pozytywnych praktykach w branży. Celem jest pomoc przemysłowi odzieżowemu w wypracowaniu wspólnego standardu minimum w zakresie ujawniania łańcuchów dostaw, przez przekonanie firm do publikowania zestandaryzowanych, istotnych informacji dotyczących wszystkich fabryk z etapu produkcyjnego swoich łańcuchów dostaw.
+  there_has_been_an: "Nastąpił"
+  encouraging_increase: "obiecujący wzrost"
+  in_how_transparent_fashion_brands_are_on: >
+    transparentności marek odzieżowych – zaczęły dokładniej informować, gdzie i jak są produkowane ich ubrania. Coraz więcej marek ujawnia miejsca produkcji i podpisuje
+  however_there_are_still_too_many_brands_that: "Nadal jednak bardzo wiele firm"
+  refuse_to_do_so: "nie chce tego robić"
+  and_even_the_most_progressive_brands: >
+    , a nawet najbardziej postępowe marki wciąż nie pokazują całego swojego łańcucha dostaw, zaś brak postępów w kwestii podniesienia płac ukrywają za mętnymi obietnicami, zamiast przedstawić dające się zweryfikować, obiektywne dane.
+  what_are_they_hiding: >
+    Co takiego ukrywają? Żadna marka nie publikuje jasnych informacji dotyczących zarobków pracowników fabryk ani nawet konkretnych propozycji, jak (i kiedy!) zagwarantować, by dostawcy zapewniali pracownikom godne płace. Dostajemy tylko wiele mglistych „zobowiązań”, podczas gdy pracownicy potrzebują określonych w czasie, wymiernych, praktycznych kroków zmierzających do poprawy sytuacji. Niemal zupełnie brakuje też informacji o niższych poziomach łańcucha dostaw: o podwykonawcach, pracownikach chałupniczych, osobach pracujących przy pozyskiwaniu i przetwarzaniu surowców oraz tkanin.
+  we_re_demanding_that_brands_do_better: >
+    Żądamy, by marki robiły więcej w tej kwestii: pokażcie, jak pracujecie nad wprowadzeniem godnych płac i upublicznijcie te informacje. Domagamy się także, by polityczni decydenci stworzyli równe warunki: przynajmniej minimalny stopień transparentności powinien być obowiązkowy dla wszystkich marek, które oczywiście mogłyby wykraczać poza to minimum. Tylko w ten sposób firmy mogą zachować należytą staranność, a na dłuższą metę także zaufanie konsumentów.
+  going_beyond_the_pledge: "Wykraczanie poza zobowiązanie do transparentności"
+  since_the_birth_of_the_pledge: >
+    Od wprowadzenia zobowiązania do transparentności (Transparency Pledge) jawność w łańcuchach dostaw w przemyśle odzieżowym ogromnie wzrosła. Dziesiątki firm publikują dziś nazwy, adresy i inne dane fabryk swoich dostawców. Ale to dopiero początek. Marki odzieżowe, które poważnie traktują ideę etycznych łańcuchów dostaw, mogą i powinny robić więcej. Niektóre firmy zaczęły ujawniać części swojego łańcucha dostaw poniżej poziomu pierwszego (bezpośrednich dostawców), w tym informacje o produkcji surowców. Podpisywane zobowiązanie do transparentności to jednak dolna, nie górna granica. Aby stworzyć niezbędne warunki do zmian w przemyśle odzieżowym, marki muszą zbierać więcej danych o fabrykach w swoim łańcuchu dostaw.
+  the_bottom_of_the_supply_chain: "Najniższy poziom łańcucha dostaw"
+  we_want_brands_to_ask_suppliers_where: >
+    Chcemy, żeby marki pytały dostawców, gdzie zatrudnione są kobiety, gdzie migranci i jakie są płace. Dzięki temu otrzymamy o wiele jaśniejszy obraz nierównowagi sił w łańcuchach dostaw, co jest pierwszym krokiem na drodze do poprawy.
+  worker_unions: "Związki zawodowe."
+  we_want_brands_to_ask_suppliers_if: >
+    Chcemy, aby marki pytały dostawców, czy w ich fabrykach działają związki zawodowe lub komitety pracownicze. Na ogół nie mamy pojęcia, czy ludzie szyjący nasze ubrania mają głos. Chcemy mieć więcej informacji o tym, kto ma władzę i siłę w łańcuchu dostaw.
+  readable_data: "Czytelne dane."
+  we_want_brands_to_release_the_data: >
+    Chcemy, aby marki ujawniły dane o swoim łańcuchu dostaw w formacie, który będzie użyteczny i czytelny. Standardem powinno być dostarczanie informacji do odczytu maszynowego dotyczących wszystkich zakładów produkcyjnych i przetwórczych. Marki muszą przekazywać możliwe do pobrania dane CVS lub JSON.
+  transparency_for_the_consumer: "Transparentność dla konsumentów."
+  we_want_governments_to_increase: >
+    Chcemy, by rządy zwiększyły transparentność produktów, aby umożliwić obywatelkom i obywatelom podejmowanie świadomych decyzji o zakupach. Chcemy rozszerzyć informacje podawane na metkach produktów tekstylnych, tak by obejmowały dane o producencie (szyjącej produkt fabryce). Chcemy także poprawić kryteria społeczne
+  eu_ecolabel: "EU Ecolabel"
+  to_reflect_wage_abuses: "oraz te dotyczące zrównoważonego rozwoju, tak by obejmowały naruszenia praw pracowniczych w zakresie płac."
+  for_more_about_our: "Więcej na temat kampanii"
+  transparency_campaign: "dotyczącej transparentności"
+  csv_or_json_data: "dane CSV lub JSON"
+  learn_more: "Dowiedz się więcej"
+  menu_living_wage: "Co to jest godna płaca?"
+  what_is_a_living_wage: "Co to jest godna płaca?"
+  a_living_wage_recognized_by_the_un_as_a_right: >
+    Godna płaca, uznawana przez ONZ za jedno z praw człowieka, to płaca wystarczająca na zapewnienie godziwego poziomu życia pracowniczce czy pracownikowi i jej/jego rodzinie.
+  it_should_be_earned_in_a_standard_work_week: >
+    Powinna być to płaca za standardowy tydzień pracy, obejmujący nie więcej niż 48 godzin, i musi wystarczać na pokrycie wydatków na jedzenie, wodę, mieszkanie, edukację, opiekę zdrowotną, transport i ubranie, a także na odłożenie pewnych oszczędności, m.in. na nieprzewidziane wydatki.
+  why_the_minimum_wage_is_not_enough: "Dlaczego płaca minimalna nie wystarcza."
+  legal_minimum_wages_in_garment_producing: >
+    Ustawowe płace minimalne w krajach produkcji odzieży w różnych częściach świata są poniżej poziomu godnej płacy, co oznacza, że pracownicy sektora odzieżowego nie są w stanie zaspokoić podstawowych potrzeb swoich i swoich rodzin. Luka między ustawową płacą minimalną a godną płacą cały czas rośnie. W wielu krajach płaca minimalna jest znacznie niższa od godnej płacy. W Azji minimalne wynagrodzenie może wynosić od 21% (Bangladesz) do około 46% (Chiny) godnej płacy (wg badań z 2019 roku). W krajach producenckich w Europie ta luka jest czasem jeszcze większa – minimum ustawowe to od 10% (Gruzja) do 40% (Węgry) godnej płacy.
+  i_became_the_backbone: >
+    "Stałam się podporą naszej rodziny, ale moja pensja nie wystarcza na zaspokojenie jej
+    codziennych potrzeb"
+  a_worker_from_indonesia: "Pracowniczka z Indonezji"
+  there_are_a_number_of_countries: >
+    W niektórych krajach w ogóle nie ma ustawowej płacy minimalnej. Rządy krajów producenckich nie mają motywacji do podnoszenia minimum ustawowego, bojąc się, że doprowadzi to do przenoszenia przez marki zamówień do krajów, w których koszty pracy są jeszcze niższe. Tak wyglądają realia w branży odzieżowej. Płace minimalne nie są podnoszone do poziomu minimum egzystencji (razem z rosnącymi kosztami podstawowych potrzeb życiowych). W dodatku pracownicy często nie są sprawiedliwie reprezentowani – lub nie są reprezentowani w ogóle – w procesie negocjowania płacy minimalnej. W większości krajów, których produkcja odzieży stanowi istotną część eksportu, płace minimalne wzrosły tylko w niewielkim stopniu, tak by częściowo uwzględnić inflację. Te podwyżki często przychodzą za późno i są tak niskie, że właściwie nieistotne: na przykład w Bangladeszu najgorzej opłacani pracownicy nadal zarabiają tylko połowę tego, czego się domagali od 2016 roku.
+  living_wage_benchmarks: "Wskaźniki godnej płacy"
+  calculating_a_living_wage_is_not_easy: >
+    Obliczenie godnej płacy nie jest łatwe, chociaż z pewnością nie niemożliwe. Różni naukowcy, związki zawodowe i organizacje praw pracowniczych opracowały wiarygodne wskaźniki dla jednego lub kilku krajów lub regionów. Solidny wskaźnik godnej płacy musi być:
+  transparent_in_method_and_conclusion: "Transparentny, jeśli chodzi o metodę opracowania i wnioski"
+  revised_on_a_regular_basis: >
+    Regularnie aktualizowany i korygowany, tak by uwzględnić inflację i rosnące koszty podstawowych towarów i usług.
+  established_in_negotiation: >
+    Ustalony w drodze negocjacji z krajowymi lub regionalnymi związkami zawodowymi, tak by nie nasilać konkurowania niskimi płacami.
+  enough_to_cover_the_full_basic_needs: >
+    Wystarczający do zaspokojenia pełnych podstawowych potrzeb rodziny oraz umożliwiać odłożenie oszczędności. Obejmuje to samotne matki lub pracowniczki i pracowników bez partnerów/-ek, utrzymujących z jednej pensji także dwoje krewnych w podeszłym wieku.
+  a_living_wage_benchmark_should_put_a_floor: >
+    Wskaźnik godnej płacy powinien wyznaczać dolną, nie górną granicę wynagrodzeń. Powinien ułatwiać także dalszą poprawę, wykraczającą poza zapewnienie wszystkim pracownikom minimalnego dochodu.
+  savings_and_survival: "Oszczędności i przetrwanie"
+  asia_floor_wage_alliance: >
+    Asia Floor Wage Alliance, Global Living Wage Coalition oraz Wage Indicator Foundation to przykłady organizacji, które wypracowały wskaźniki spełniające te kryteria. Przydatnym narzędziem są też Wage Ladders („drabinki płacowe”) Fair Wear Foundation, które porównują kilka wskaźników z lokalnymi ustawowymi płacami minimalnymi.
+  sometimes_i_have_to_take_painkillers: >
+    “Czasami muszę brać leki przeciwbólowe i używać żelów na ból mięśni i stawów. Kilka razy musiałam iść na zastrzyki, z powodu sztywnienia kończyn."
+  life_is_full_of_the_unexpected: >
+    Życie jest pełne niespodzianek. Zarobki powinny dawać nam wystarczające poczucie bezpieczeństwa, by móc stawić im czoła. To, że większość pracowników sektora odzieżowego (w tym odzieży sportowej) zarabia za mało, by pieniędzy starczyło na zaspokojenie podstawowych potrzeb życiowych, oznacza, że nie są w stanie przetrwać ciężkich czasów. Covid-19 pokazał to jak na dłoni. Marki wycofały zamówienia, żeby utrzymać własną płynność finansową, pozostawiając fabryki w swoich łańcuchach dostaw nie tylko bez środków na wypłacenie wynagrodzeń pracownikom, ale także na pokrycie wszystkich innych kosztów produkcji. Wiele fabryk się zamknęło, zwalniając tysiące pracowników.
+  not_only_have_brands_been_refusing: >
+    Marki nie tylko odmawiają zapłaty za zamówienia, które już weszły do produkcji, a czasem nawet do sklepów, ale także oferują konsumentom wyprzedaże i przeceny, zostawiając osoby na samym dole łańcucha dostaw z niczym. Większość pracowników wyszła na ulice demonstrować, domagając się zaległych wypłat, należnych im od marca. Część jest zmuszana do powrotu do pracy bez odpowiednich środków bezpieczeństwa. Nie mają pieniędzy, więc nie mają też wyboru. Pracownicy nieformalni są w jeszcze gorszej sytuacji. Międzynarodowa Organizacja Pracy (MOP) szacuje, że 1,6 miliarda pracowników w gospodarce nieformalnej grozi
+  massive_damage: "utrata środków do życia"
+  to_their_livelihood: >
+    , po tym, jak cała branża została zdziesiątkowana przez obostrzenia w związku z koronawirusem.
+  trade_unions_worry: >
+    “Związki zawodowe obawiają się, że kryzys związany z wirusem Covid-19 doprowadzi do zwiększenia liczby przypadków pracy dzieci, pracy przymusowej i handlu ludźmi, a pracowniczki przemysłu odzieżowego będą przechodzić do innych zawodów, w tym pracy seksualnej.”
+  the_emperor_has_no_clothes: >
+    The Emperor has no clothes: Garment supply chains in the time of pandemic by Asia Floor Wage Alliance.
+  all_actors_in_fashion_now_understand: >
+    Wszystkie podmioty w sektorze mody rozumieją, jak pilną i istotną kwestią jest stworzenie nowej wizji tej branży i jej modelu biznesowego. Chcemy, by godna płaca znalazła się na pierwszym planie w tych rozmowach. Pora przebudować przemysł odzieżowy, by zapewnić sprawiedliwe wynagrodzenia za pracę oraz bezpieczeństwo zatrudnienia w całym łańcuchu dostaw.
+  for_more_information_on: "Więcej informacji o"
+  covid_19: "Covid-19"
+  brand_responsibility: "Odpowiedzialność marek"
+  brands_put_forward_all_kinds_of_excuses: >
+    Marki odzieżowe przedstawiają najróżniejsze wymówki, żeby nie zobowiązać się do zapewniania godnej płacy: twierdzą, że odpowiadają za to dostawcy lub rządy państw, że nie da się jej wprowadzić, bo firma przestałaby być konkurencyjna cenowo i wypadłaby z rynku, że konsumenci nie chcą więcej płacić, że nie ma konsensusu co do tego, jak ją obliczać itd. Jednak chociaż produkcję można zlecać zewnętrznym fabrykom, to marki ponoszą odpowiedzialność za poszanowanie praw człowieka i zapewnienie godnej płacy pracownikom.
+  the: "Wytyczne"
+  un_guiding_principles_on_business_and_human_rights: "ONZ dotyczące biznesu i praw człowieka"
+  un_guiding_principles_clearly_states: >
+    (Wytyczne ONZ) jasno określają rolę i obowiązki firm oraz państw (rządów).
+  the_un_guiding_principles_three_pillars: "Wytyczne ONZ opierają się na trzech filarach. Są to:"
+  the_state_duty_to_protect_human_rights: "Obowiązek państw, by chronić prawa człowieka"
+  the_corporate_responsibility_to_respect_human_righ: "Obowiązek przedsiębiorstw, by przestrzegać praw człowieka"
+  access_to_remedy: "Dostęp do środków zaradczych"
+  this_establishes_a_principle_of_shared_responsibil: >
+    Tworzy to zasadę odpowiedzialności dzielonej między państwo a przedsiębiorstwa, co oznacza, że rządy mają obowiązek chronić prawo człowieka do godnej płacy, wprowadzając ustawową płace minimalną na poziomie wystarczającym na życie, a firmy muszą przestrzegać prawa człowieka do zarabiania godnej płacy.
+  the_framework_also_clearly_states_that: >
+    Wytyczne także jasno stwierdzają, że obowiązek przestrzegania praw człowieka „istnieje niezależnie od zdolności i/lub gotowości Państw do wypełnienia własnych obowiązków w zakresie praw człowieka, i tych obowiązków nie pomniejsza. Istnieje niezależnie od zgodności z krajowymi prawami i przepisami chroniącymi prawa człowieka”. Innymi słowy, w przypadkach, gdy rządy nie wywiązują się z ochrony praw człowieka – na przykład kiedy ustawowa płaca minimalna nie wystarcza na zaspokojenie potrzeb życiowych (a więc jest poniżej poziomu godnej płacy) – firmy nadal mają obowiązek przestrzegania prawa człowieka do godnej płacy, naprawiając zaniechania ze strony państwa.
+  the_workers_wages_have_been_regularly_delayed: >
+    “Od początku 2019 roku wypłaty pensji regularnie opóźniają się o miesiąc lub dwa. Złożyliśmy skargę i zapłacili, ale za ten miesiąc już nie. Dyrektor fabryki mówi, że to dlatego, że jakaś firma nie zapłaciła za zamówienie. Ale my wykonaliśmy naszą pracę.”
+  a_worker_from_ukraine: "Pracowniczka z Ukrainy"
+  the_un_guiding_principles_establish: Wytyczne ONZ wprowadzają odpowiedzialność w łańcuchu dostaw. Każda firma produkcyjna odpowiada za wszystkie naruszenia praw człowieka w całym swoim łańcuchu dostaw, niezależnie od tego, gdzie te naruszenia mają miejsce (tj. czy we własnych zakładach firmy, czy w fabrykach podwykonawców, czy u pracowników chałupniczych). Chociaż więc produkcja odzieży często odbywa się na zasadzie outsourcingu, odpowiedzialność wciąż spoczywa na każdej firmie zlecającej i nie może być przerzucana w dół łańcucha dostaw.
+  why_do_we_talk_about_paying_factories_not_workers: "Dlaczego mówimy o płaceniu fabrykom, nie pracownikom?"
+  brands_do_not_pay_workers_directly: >
+    Marki nie płacą bezpośrednio pracownikom szyjącym ich ubrania. Płacą swoim dostawcom, którzy następnie wypłacają pensje pracowniczkom i pracownikom fabryk. Łańcuch dostaw składa się zwykle z trzech poziomów firm dostawców. Dostawcy pierwszego poziomu na ogół dostają zamówienia bezpośrednio od marek odzieżowych, a następnie podzlecają pracę podwykonawcom – dostawcom z kolejnych (niższych) poziomów.
+  on_their_current_wages_garment_workers: >
+    Przy obecnych płacach pracownicy sektora odzieżowego często muszą podejmować trudne decyzje dotyczące opieki zdrowotnej czy edukacji dzieci. W fabrykach dochodzi do omdleń z powodu niedożywienia, bo zarobki nie wystarczają na odpowiednie wykarmienie siebie i rodziny. Dodatkowy stres związany z kombinowaniem, jak zapłacić rachunki i spłacić pożyczki, oraz brak snu wynikający z nieludzkich godzin pracy mają długofalowe konsekwencje dla zdrowia milionów pracowników. Większość musi wybierać między kupnem jedzenia a zapłaceniem za wizytę u lekarza.
+  suppliers_are_forced_to_estimate_the_lowest: >
+    Dostawcy są zmuszeni oszacować najniższe możliwy koszty produkcji w przeliczeniu na sztukę odzieży, aby targować się z markami o kontrakty produkcyjne. Wynegocjowana cena powinna wystarczyć na pokrycie kosztów operacyjnych fabryki, w tym opłacenie czynszu, prądu, wody i konserwacji, a także kosztów surowców i dostawy oraz wszystkich kosztów pracy, i dać fabryce marżę zysku. Aby konkurować z innymi firmami z pierwszego poziomu, dostawcy obliczają koszty pracy na podstawie płac minimalnych, a nie godnej płacy, oraz dziesięciogodzinnego dnia pracy, z dwiema nadgodzinami, zamiast dnia ośmiogodzinnego.
+  my_job_is_exhausting: >
+    “Moja praca jest wyczerpująca. Codziennie muszę pracować 18 godzin. Dużo osób nie jest w stanie wyrobić norm narzucanymi przez fabrykę, więc zostają zwolnione.”
+
+  current_purchasing_practices_reflect_the_rise_of_f: >
+    Obecne praktyki zakupowe odzwierciedlają rozwój szybkiej mody (fast fashion). Podczas gdy wcześniej normą były cztery sezonowe style w ciągu roku, marka Zara jako pierwsza wprowadziła zmienianie stylów co miesiąc. Większość marek sieciowych (tzw. sieciówek) produkuje dziś 52 „mikrosezony” w roku. Często się też zdarza, że marki nagle zamawiają dwa razy więcej sztuk ubrań cieszących się popularnością. Ten duży obrót produktów, w połączeniu ze zmiennymi ilościami w zamówieniach, ukształtował obecny model działania branży odzieżowej. Niepewność spowodowana praktykami zakupowymi zamawiających (marek) jest przerzucana na pracowników przez stosowanie elastycznych form zatrudnienia, zwolnienia podczas fluktuacji w produkcji oraz presję na obniżanie płac.
+  my_factory_doesn_t_give_me_a_pay_slip: >
+    “Moja fabryka nie daje mi paska wypłat. Ciężko pracujemy, żeby szyć te sukienki. Pracujemy po minimum 12 godzin dziennie, a w szczycie sezonu nawet po 24 godziny.”
+  a_worker_from_india: "Pracowniczka z Indii"
+  brands_need_to_take_responsibility_to_modify: >
+    Marki muszą wziąć na siebie odpowiedzialność i zmodyfikować swoje praktyki zakupowe, tak by zagwarantować, żeby dostawcy mogli płacić pracownikom. Będziemy dalej działać we współpracy z organizacjami pracowników i związkami zawodowymi, aby zapewnić, że te zmiany wejdą w życie.
+  unions_and_worker_committees: "Związki zawodowe a komitety pracownicze"
+  workers_have_little_to_no_power_to_fight: Pracownicy mają niewielkie możliwości – lub nie mają żadnych – walki o lepsze płace. Wolność zrzeszania się jest poważnie zagrożona, a wielu krajach producenckich rozbijanie związków zawodowych walczących o wyższe płace jest na porządku dziennym. W ciągu ostatnich kilku lat niezwykle też wzrosła liczba komitetów pracowniczych zakładanych w fabrykach zamiast związków. Tworzy to fałszywe wrażenie, że pracownicy są dziś zorganizowani i mają silną pozycję. Marki odzieżowe często twierdzą, że komitety pracownicze i związki zawodowe to w zasadzie to samo, co jest prawdą tylko w odosobnionych przypadkach.
+  trucks_are_constantly_leaving: >
+    "Spod fabryki ciągle odjeżdżają ciężarówki, wszystkie produkty są sprzedawane, jest mnóstwo pracy, ale wciąż nam mówią, że nie ma pieniędzy. Moja umowa jest przedłużana co trzy miesiące. Nie mam żadnych zabezpieczeń.”
+
+  a_worker_in_croatia: "Pracowniczka z Chorwacji"
+  instead_of_promoting_fair_worker_representation: >
+    Zamiast promować sprawiedliwą reprezentację pracowników na poziomie fabryki, marki odzieżowe, dostawcy i lokalne rządy często wolą wspierać alternatywne struktury, które dają pracownikom znacznie słabszą pozycję. Do komitetów pracowniczych nierzadko należą też osoby z kierownictwa fabryki, co podważa prawo pracowników do swobodnego organizowania się, bez udziału rządu i pracodawcy. Poza tym w niektórych krajach, na przykład w Bangladeszu, komitety pracownicze nie mogą – według prawa – negocjować płac, w przeciwieństwie do związków zawodowych. Koniec końców oznacza to, że ceny, jakie płacą marki dostawcom, są chronione.
+  we_are_never_allowed_to_go_home: >
+    “Nie wolno nam iść do domu, zanim nie wyrobimy przewidzianej normy.”
+  we_want_brands_to_do_more_to_support: >
+    Chcemy, żeby marki robiły więcej, by wspierać pracowników w swoim łańcuchu dostaw. Zbieranie danych na temat związków zawodowych i komitetów pracowniczych przyniesie wyraźniejszy obraz przyczyn i konsekwencji łamania praw człowieka w produkcji odzieży.
+  foa: "Poczytaj więcej o wolności zrzeszania się"
+  i_have_problems_with_my_stomach: >
+    "Mam problemy z żołądkiem. Z powodu złego odżywiania musiałam przejść operację, a teraz muszę uważać na to, co jem. Ale nie stać mnie na porządny posiłek. Do fabryki przywożą nam paszteciki zrobione z mąki z odpadów."
+  women_can_be_made_to_dance: >
+    "Kobiety można zmusić, żeby tańczyły, jak im się zagra, ale mężczyzn nie da się w ten sposób wykorzystywać. Właścicieli [fabryki] nic nie obchodzi, jeśli my o coś prosimy, ale żądania mężczyzn trzeba wziąć pod uwagę. Dlatego mężczyzn nie zatrudniają."
+  a_worker_from_bangladesh: "Pracowniczka w Bangladeszu"
+  gbv_in_bangladesh: "Przemoc uwarunkowana płcią w Bangladeszu"
+  about_fashion_checker: "O Fashion Checker"
+  about_the_campaign: "O kampanii"
+  a_living_wage_for_garment_workers: >
+    Godna płaca w przemyśle odzieżowym i transparentny łańcuch dostaw.
+  menu_about_fashion_checker: "O Fashion Checker"
+  about: "O"
+  brands_in_the_fashion_industry_put_millions: >
+    Marki w przemyśle odzieżowym płacą miliony za reklamowanie się jako etyczne i zrównoważone, często twierdząc, że zapewniają pracowniczkom i pracownikom godną płacę. Fashion Checker pokazuje, jak bardzo dalekie od prawdy są to twierdzenia, udostępniając konsumentkom i konsumentom oraz pracowniczkom i pracownikom sektora odzieżowego prawdziwe dane z łańcuchów dostaw największych światowych marek.
+
+  power_in_the_garment_industry: "Nierównowaga sił w przemyśle odzieżowym"
+  we_believe_all_workers_in_a_supply: >
+    Uważamy, że wszyscy pracownicy i pracowniczki w łańcuchu dostaw mają prawo do sprawiedliwej płacy. Osoby szyjące produkty na rynek odzieży, także sportowej, zarabiają
+    głodowe płace
+  poverty_wages: "głodowe płace"
+  since_the_birth_of_the_industry_our_research_shows: "od początku istnienia tego sektora. Z naszych badań wynika, że"
+  no_major_clothing_brand: "żadna duża marka odzieżowa"
+  is_able_to_prove_that_workers_making_their_clothin: >
+    nie jest w stanie udowodnić, że szwaczki szyjące jej ubrania w Azji, Afryce, Ameryce Środkowej lub Europie Wschodniej otrzymują płace wystarczające na życie.
+  an_estimated_60_million_workers: >
+    Globalny przemysł odzieżowy jest zasilany przez około 60 milionów pracowników i pracowniczek, generujących jego miliardowe zyski. Większość z nich pracuje po kilkanaście godzin na dobę w kilku różnych miejscach, żeby związać koniec z końcem. Około 80% zatrudnionych to kobiety. To nie przypadek. Pracowniczki zarabiające głodowe pensje mają znikome możliwości walki o swoje prawa – lub zgoła nie mają żadnych – i dlatego pozostają przy niskopłatnej, opartej na wyzysku pracy. To systemowa nierównowaga sił wpisana w ten sektor.
+
+  earning_a_living_wage: "Zarabianie godnej płacy"
+  demanding_a_wage_you_can_live_on: >
+    Domaganie się płacy wystarczającej na życie nie powinno budzić kontrowersji. Apelowaliśmy o
+
+  living_wage_now: "'godną pracę już teraz'"
+  in_2015_it_s_five_years_later: >
+    w 2015 roku. Minęło pięć lat i nie ma żadnych postępów w tej sprawie. Nadszedł czas na zmiany. Pora zająć się systemowymi przyczynami głodowych płac w przemyśle odzieżowym i obuwniczym, i zmusić marki do wzięcia odpowiedzialności.
+  for_decades_brands_and_retailers_have_built: >
+    Od dziesięcioleci marki i sieci handlowe budują swoje zyski na niskich cenach. Globalna nadpodaż ubrań wytwarzanych w modelu fast fashion daje markom silną pozycję, dzięki której mogą skłaniać dostawców, żeby godzili się na produkowanie ubrań i butów za najniższą możliwą cenę. Ceny, które marki płacą swoim dostawcom, mają wystarczać na pokrycie kosztów prowadzenia fabryki, zakup materiałów, dostawę produktów, opłacenie pracowników i zostawić pewną marżę zysku dla właścicieli zakładu. Płace pracowniczek i pracowników to koszt, który najłatwiej ciąć.
+  gender_in_the_garment_industry: "Kobiety w przemyśle odzieżowym"
+  a_lot_of_informal_work_is_done_by_women: >
+    Nieformalną pracę często wykonują kobiety, w ramach samozatrudnienia lub podwykonawstwa. Ich płace są jeszcze bardziej niepewne. Luka płacowa między kobietami a mężczyznami pozostaje dziś jedną z największych niesprawiedliwości społecznych. W całej gospodarce światowej obserwujemy coraz większe postępy w kierunku równości płac, ale w przemyśle odzieżowym i obuwniczym nierówności płacowe wciąż są rażące.
+  inside_factories_women_are_mainly_employed: >
+    W fabrykach kobiety pracują głównie na gorzej płatnych, niższych stanowiskach. Ta płciowa nierównowaga sił w fabrykach ma swoje źródło w nierównościach kulturowych między kobietami i mężczyznami w większości krajów, w których odbywa się produkcja ubrań. Im niżej w łańcuchu dostaw, tym bardziej niepewny charakter ma zatrudnienie; im niższa płaca, tym większy odsetek kobiet wśród pracowników.
+  transparency_in_fashion: "Transparentność w modzie"
+  there_has_been_an_encouraging_increase_in_how: >
+    Nastąpił obiecujący wzrost transparentności marek odzieżowych – zaczęły znacznie częściej i dokładniej informować, gdzie i jak są produkowane ich ubrania. Coraz więcej marek ujawnia miejsca produkcji i podpisuje zobowiązanie do transparentności. Nadal jednak bardzo wiele firm nie chce tego robić, a nawet najbardziej postępowe marki wciąż nie pokazują całego swojego łańcucha dostaw, zaś brak postępów w kwestii podniesienia płac ukrywają za mętnymi obietnicami, zamiast przedstawić dające się zweryfikować, obiektywne dane.
+  putting_a_spotlight_on_the_supply_chain: "Łańcuch dostaw pod lupą"
+  our_main_focus_is_wages_and_transparency: >
+    Skupiamy się przede wszystkim na płacach i transparentności. Sprawdzanie płac pracowników jest w tej chwili jedynym wiarygodnym sposobem, żeby się dowiedzieć, czy marki płacą fabrykom w swoim łańcuchu dostaw na tyle dużo, by te mogły działać bezpiecznie i etycznie. Regularne zaniżanie przez marki cen płaconych wytwórcom zmusza fabryki do trudnych wyborów. Jeśli kontrahent nie zapłaci wystarczająco dużo fabryce, ta obetnie wynagrodzenia pracownikom, żeby najpierw pokryć inne koszty. Płace i bezpieczeństwo pracowników to najniższe priorytety, bo zawsze znajdą się ludzie potrzebujący zatrudnienia.
+  brands_are_obligated_by_the: "Marki są zobowiązane przez"
+  to_run_their_business_responsibly: >
+    do prowadzenia działalności w sposób odpowiedzialny. Płaca, z której można się utrzymać, zarabiana w ciągu tygodnia pracy liczącego 48 godzin, to jedno z podstawowych praw człowieka. Oznacza to, że marki powinny być w stanie udowodnić, że płacą dostawcom na tyle dużo, by ci mogli zagwarantować pracownikom godziwe zarobki. Większość marek nawet nie bada, ile musieliby zarabiać pracownicy w ich łańcuchu dostaw, aby płace wystarczały im na godne życie. Rządy państw celowo utrzymują płacę minimalną na bardzo niskim poziomie, aby zachęcić zagraniczne firmy do produkowania w danym kraju. A dostawcy celowo podzlecają wykonawstwo mniej formalnym pracownikom, żeby jak najmniej zapłacić za produkcję.
+  what_are_they_hiding_no_brand: >
+    Co takiego ukrywają? Żadna marka nie publikuje jasnych informacji dotyczących zarobków pracowników fabryk ani nawet konkretnych propozycji, jak zagwarantować, by dostawcy zapewniali pracownikom godne płace. Brakuje też informacji o niższych poziomach łańcucha dostaw. Podwykonawcy, pracownicy chałupniczy, osoby pracujące przy pozyskiwaniu i przetwarzaniu surowców oraz tkanin nie są ujmowani w raportach, statystykach itd.
+  poverty_pay_isn_t_sustainable: "Nie ma mowy o zrównoważonym rozwoju, jeśli płace są głodowe"
+  it_is_well_known_that_the_garment_industry: >
+    Powszechnie wiadomo, że przemysł odzieżowy jest jednym z sektorów generujących największe emisje dwutlenku węgla na planecie, a także jednym z największych producentów odpadów, w tym toksycznych chemikaliów, które przenikają do środowiska i zatruwają okolicę, w której żyje lokalna społeczność. Dzisiejsza moda zapewnia, że jest zrównoważona, etyczna, świadoma, fair i eko, ale nie ma na to potwierdzenia w postaci transparentności i godnych płac.
+  paying_poverty_wages_directly_affects: >
+    Głodowe płace pracowników mają bezpośredni wpływ na zrównoważony rozwój i odporność całych gospodarek. Ekologiczna koszulka uszyta za głodowe wynagrodzenie to nie jest zrównoważona, etyczna moda i nie powinna być za taką uważana. Systemowa zmiana w przemyśle odzieżowym jest na pewno konieczna, najpierw jednak system musi zapewnić środki na utrzymanie milionom pracowniczek i pracowników, których w największym stopniu dotyka.
+  economic_impact: "Wpływ na gospodarkę"
+  a_living_wage_for_all_workers_should_be: >
+    Godna płaca dla wszystkich pracowników powinna być dla marek sprawą równie ważną jak dla aktywistek i aktywistów działających na rzecz praw pracowniczych. W kilku krajach producenckich w sektorze odzieżowym niskie płace i nierówności doprowadziły do niepokojów społecznych: pracownicy, mimo przemocy i gróźb represji, wyszli na ulice i protestowali z czystej desperacji. Spowodowało to nerwowe reakcje globalnych marek, bo nagle została zakłócona płynność procesu produkcji.
+  an_unequal_distribution_of_income_and_wealth: >
+    "Nierówna dystrybucja dochodów i majątku nie tylko tworzy warunki dla kryzysu, ale także sama jest źródłem konfliktów politycznych i społecznych."
+
+  economic_sustainability_and_resilience: >
+    Zrównoważony rozwój i odporność gospodarki mają kluczowe znaczenie dla wszystkich państw, ale także dla rodzin i jednostek. Głodowe płace szczególnie pogarszają sytuację kobiet, bo to one głównie pełnią role opiekuńcze w społeczeństwie – oczekuje się od nich wykonywania większości nieodpłatnych prac. Godna płaca to jedyne rozwiązanie, by zapewnić kobietom i mężczyznom równe szanse realizacji pełni swoich możliwości, co jest warunkiem koniecznym inkluzywnego i zrównoważonego postępu.
+  returning_the_power_after_covid_19: "Przywracanie siły po Covid-19"
+  clothing_and_textile_manufacturing_has_always: >
+    Przemysł odzieżowo-włókienniczy zawsze opierał się na wyzysku siły roboczej. Pandemia Covid-19 wyraźnie to pokazała. Fabryki odzieżowe poniosły
+  billions_of_dollars: "miliardy dolarów strat"
+  by_canceling_orders_unnecessarily: >
+    za sprawą marek, które niepotrzebnie wycofały zamówienia, co sparaliżowało fabryki i ma druzgocące skutki dla pracowników. Odmawiając zagwarantowania godnej płacy pracownikom, marki pozostawiły szyjących ich ubrania ludzi bez środków do życia. Milionom pracowniczek i pracowników grozi bezdomność i głód, a wielu fabrykom upadłość. Marki od dawna mają zbyt dużą władzę nad swoimi dostawcami. Pora to zmienić.
+  to_do_so_we_need_transparency: >
+    W tym celu potrzebujemy transparentności. Chcemy wiedzieć, gdzie w łańcuchu dostaw tkwi siła i władza. Gdzie pracownicy zarabiają najmniej? Gdzie są zrzeszeni w związkach zawodowych? Gdzie pracują kobiety i pracownicy migracyjni? Pora wykorzystać dostępne dane, by podkreślić łamanie praw człowieka w przemyśle odzieżowym i uzyskać konkretne, istotne, wymierne podwyżki płac w całym łańcuchu dostaw. Pracownicy i pracowniczki zasługują na coś lepszego. Konsumentki i konsumenci zasługują na coś lepszego. Pora na redystrybucję władzy i bogactwa.
+  what_do_we_want: "Czego żądamy?"
+  what_can_you_do: "Co Ty możesz zrobić?"
+  we_re_demanding_that_brands_do: "Domagamy się od marek, żeby dawały z siebie więcej:"
+  we_want_them_to_show_how_they_are_working: >
+    chcemy, żeby pokazały, co robią, by stworzyć łańcuch dostaw, który umożliwia zarabianie godnej płacy wszystkim pracowniczkom i pracownikom. Domagamy się także od decydentów politycznych wyrównania szans wszystkich zainteresowanych stron. Tylko w ten sposób marki mogą zachować należytą staranność w zakresie praw człowieka, a na dłuższą metę – zaufanie konsumentek i konsumentów.
+  a_living_wage: "Godna płaca"
+  for_all_workers: "dla wszystkich"
+  tell_brands_to_commit_to_paying_a_living_wage: "Powiedz markom odzieżowym, żeby zobowiązały się do zapewnienia godnej płacy w całym łańcuchu dostaw."
+  we_are_asking_brands_to_pay_an_extra_contribution: >
+    Prosimy marki, aby płaciły dodatkową składkę na koszty pracy ponoszone przy produkcji zamówionych przez nie ubrań. Te pieniądze będą zarezerwowane na bezpośrednie wypłaty, a nie na żadne inne koszty produkcji. W ten sposób marki mogą mieć pewność, że pracownicy w ich łańcuchu dostaw zarabiają na tyle dużo, by wystarczało im na życie. Chcemy także, żeby marki podjęły istotne działania w kierunku zmniejszenia nierówności płacowych między płciami w łańcuchu dostaw. To oznacza zbieranie większej ilości danych o ludziach szyjących ich ubrania oraz współpracowanie z fabrykami w celu ograniczenia podziału stanowisk pracy według płci.
+  a_spotlight: "Światło"
+  on_the_bottom_of_the_supply_chain: "na najniższy poziom łańcucha dostaw"
+  where_are_the_unions: >
+    Gdzie są związki zawodowe? Gdzie są migranci? Jakie są najniższe płace? Powiedz markom odzieżowym, żeby ujawniły czytelne dane o całym swoim łańcuchu dostaw, aż do najniższego poziomu.
+  brands_never_release_data_about_the_bottom: >
+    Marki nigdy nie publikują danych o dolnym poziomie łańcucha dostaw. Nie wiadomo, jakie są zarobki pracowników w najniższych widełkach płacowych. Jak marki mogą obiecywać pracownikom godną płacę, nie gromadząc tych informacji?
+  we_want_brands_to_ask_their_suppliers: >
+    Chcemy, żeby marki pytały dostawców, na jakich stanowiskach przy produkcji ubrań pracują u nich kobiety i migranci, a także jakie role odgrywają poza fabryką. Migranci, podobnie jak kobiety, mają mniejsze możliwości walki o swoje podstawowe prawa człowieka i często wykonują podobne prace, oparte na wyzysku.
+  we_want_to_know_if_the_workers_making: >
+    Chcemy wiedzieć, czy pracowniczki i pracownicy szyjący nasze ubrania mają głos. Związki zawodowe pozwalają pracownikom upominać się o swoje prawa i negocjować lepsze warunki pracy.
+  consumer: ""
+  transparency: "Transparentność wobec konsumentów"
+  tell_brands_and_policy_makers: >
+    Powiedz markom i decydentom, że chcesz wiedzieć, jak powstały twoje ubrania.
+  do_you_want_to_know_if_the_people_who_made: >
+    Chcesz wiedzieć, czy ludzie, którzy uszyli twoje ubrania, mogli pójść na zwolnienie, kiedy zachorowali? Czy mogli posłać dzieci do szkoły? Chcesz wiedzieć, czy marki, których ubrania kupujesz, szyją w fabrykach pozwalających pracownikom tworzyć związki zawodowe? Powiedz rządowi, że oczekujesz więcej od marek odzieżowych, których ubrania nosisz.
+
+  support_workers_through_the_devastating_effects: "Wspieraj pracowników, żeby pomóc im przetrwać katastrofalne skutki Covid-19"
+  sign_the_petition_asking_brands_to_pay_for_orders: >
+    Podpisz petycję do marek z apelem o zapłacenie fabrykom za zamówione towary. Przemysł odzieżowy stracił miliardy dolarów, kiedy marki anulowały zamówienia po wprowadzeniu izolacji społecznej w związku z pandemią koronawirusa. Miliony pracowniczek i pracowników od miesięcy nie otrzymują pełnych wypłat, a brak płacy oznacza dla nich brak jedzenia.
+  donate_to_our_emergency_fund_to_help_us: >
+    Przekaż darowiznę na nasz fundusz kryzysowy, aby pomóc nam bezpośrednio wesprzeć pracowników w krajach producenckich – wielu z nich już czekało na zaległe płace przed wybuchem pandemii Covid-19.
+  for_information_on_how_to_do_so_please: >
+    Informacje, jak to zrobić, znajdziesz na podstronie kampanii dotyczącej Covid-19.
+  follow_our_live_blog_for_the_latest_information: >
+    Najnowsze informacje o Covid-19 w przemyśle odzieżowym – w naszym blogu na żywo.
+  find_out_more_about_our_demands: "Dowiedz się więcej o naszych postulatach."
+  donate_to_the_campaign: "Przekaż darowiznę na rzecz kampanii"
+  you_can_help_fund_this_campaign: "Możesz pomóc w sfinansowaniu tej kampanii, przekazując darowiznę."
+  every_little_bit_helps: >
+    Pomoże każda, nawet najdrobniejsza suma. Pieniądze zostaną wykorzystane na utrzymanie tej strony internetowej,
+  future_research_and_translations_of_our_data: "przyszłe badania oraz tłumaczenia naszych danych."
+  donate: "Przekaż darowiznę"
+  of_surveyed_brands_aren_t_paying_garment_workers: "of surveyed brands aren't paying garment workers a living wage"
+  want_to_help_workers_fight_for: "Chcesz pomóc pracownikom walczyć o"
+  better_working_conditions: "lepsze warunki pracy?"
+  twitter_storm: "Burza na Twitterze"
+  menu_take_action: "Działaj!"
+  visit_the_websites_of_our: >
+    Zajrzyj na strony naszych organizacji krajowych, żeby się dowiedzieć, jak pisać maile do marek odzieżowych, aby poinformować o tej kampanii.
+
+  support_garment_workers_through_covid_19: "Pomóż pracownikom przemysłu odzieżowego przetrwać pandemię Covid-19"
+  sign_the_petition: "Podpisz petycję"
+  your_voice_matters_brands_are_highly: >
+    Twój głos ma znaczenie. Marki odzieżowe dbają o image i traktują opinie konsumentów bardzo poważnie. Powiedzcie im, że pracownicy zasługują na lepsze płace i warunki. Powiedzcie markom, których ubrania kupujecie, że chcecie, aby wasze ubrania były szyte w sposób wolny od wyzysku.
+  donate_to_our_emergency_relief_fund: >
+    Przekaż darowiznę na nasz fundusz pomocowy, aby wesprzeć pracowników w krajach producenckich – wielu z nich już czekało na zaległe płace przed wybuchem pandemii Covid-19. Organizacje z naszej sieci prowadzą akcje rozdawania żywności, by wspierać pracowniczki i pracowników fabryk odzieżowych i ich rodziny w lokalnych społecznościach. Najnowsze informacje znajdziesz w naszym blogu na żywo.
+  living_wage_table:
+    minimum_wage:
+      food: >
+        Nie jest Ci łatwo dostarczyć sobie wystarczającą ilość składników odżywczych lub kalorii. Zwykle, każdego dnia,  jesz tę samą owsiankę lub ryż. Mięso, ryby i owoce są zbyt drogie. Często pomijasz posiłki, zwłaszcza pod koniec miesiąca, kiedy w twoim gospodarstwie domowym zaczyna brakować jedzenia.
+      housing: >
+        Mieszkasz w zatłoczonym hotelu robotniczym, w pokoju z innymi pracownikami. Nie ma prywatności, ogrzewania ani klimatyzacji, wentylacja jest kiepska. Macie za mało mebli i łóżek. Budynek powstał z materiałów budowlanych niskiej jakości, więc mieszkanie tu nie jest bezpieczne.
+      health_care: >
+        Masz dostęp do podstawowych leków przeciwbólowych, ale do środków higieny potrzebnych przy menstruacji dostęp jest ograniczony, a do leków na receptę i do opieki zdrowotnej w nagłych wypadkach nie masz go wcale. Brak snu, ograniczenia dotyczące żywienia i higieny mają negatywny wpływ na twoje zdrowie.
+      education: >
+        Nie jesteś w stanie wykształcić siebie i swoich dzieci. Nie masz możliwości poprawy swojej sytuacji. Twoje dzieci, kiedy dorosną, najprawdopodobniej będą zarabiać podobnie jak ty.
+      clothing: >
+        Nie masz wystarczająco ciepłych ubrań na zimę. Nie stać cię na kupno odpowiednich butów, a w pracy cały dzień jesteś na nogach.
+      transportation: >
+        Nie masz bezpiecznego środka transportu. Transport publiczny nie jest powszechny w biedniejszych krajach producenckich. Musisz polegać na zatłoczonych ciężarówkach, dowożących pracowników do fabryki. Jako kobieta jesteś narażona na molestowanie seksualne.
+      savings: >
+        Najprawdopodobniej masz długi. Stajesz na głowie, żeby zapłacić rachunki i pospłacać kredyty i pożyczki, żyjesz od wypłaty do wypłaty.
+    living_wage:
+      food: >
+        Zarabiasz wystarczająco, żeby wyżywić siebie i domowników. Prowadzisz zdrową, urozmaiconą dietę i jesz co najmniej trzy razy dziennie.
+      housing: >
+        Możesz sobie pozwolić na dom dla siebie i osób na twoim utrzymaniu w bezpiecznym otoczeniu. Masz okna, które zapewniają dostęp światła i powietrza, prywatność, potrzebne meble i własną łazienkę.
+      health_care: >
+        Masz łatwy dostęp do podstawowej opieki zdrowotnej, w tym do leków na receptę, takich jak insulina i antybiotyki, a także do środków higieny potrzebnych przy menstruacji. Jesteś w stanie zaoszczędzić na opiekę zdrowotną w nagłych wypadkach.
+      education: >
+        Jesteś w stanie wykształcić siebie i osoby na swoim utrzymaniu. Masz czas i swobodę, żeby się szkolić, by przejść na lepiej płatne stanowisko. Ty i twoje dzieci macie perspektywy na przyszłość.
+      clothing: >
+        Masz ubrania odpowiednie do pogody, które sama sobie wybrałaś. Możesz kupić sobie odpowiednie, wygodne buty, a dzieciom ubrania we właściwym rozmiarze.
+      transportation: >
+        Albo zarabiasz wystarczająco dużo, żeby mieć własny środek transportu, albo twoją fabrykę stać na zapewnienie bezpiecznego dowozu pracowników. Jesteś w stanie zaoszczędzić na własny środek transportu. Co najważniejsze, masz wybór.
+      savings: >
+        Jesteś w stanie zaoszczędzić część wynagrodzenia na nieprzewidziane wydatki i sytuacje kryzysowe, dzięki czemu łatwiej ci je przetrwać.
+
+  to_brands: "Nasze żądania wobec marek odzieżowych"
+  brands_need_to_do_more_to_change_the_power: >
+    Marki muszą robić więcej, by zmienić dynamikę sił w przemyśle odzieżowym. Mamy rok 2020, pracownicy nie powinni dalej musieć walczyć o podstawowe prawa człowieka. Czas domagać się zmian.
+  our_wage_demands: "Nasze żądania płacowe"
+  pay_a_living_wage: "Zapewnienie godnej płacy"
+  we_want_brands_to_pay_more_for_orders: >
+    Chcemy, żeby marki płaciły więcej za zamówienia. Dostawcy będą w stanie zapewnić godne płace pracownikom tylko wtedy, gdy będą mogli wynegocjować od marek ceny umożliwiające pokrycie kosztów pracy.
+  menu_our_demands: "Nasze żądania"
+  brands_need_to_commit_to_paying_a: "Marki muszą się zobowiązać do płacenia"
+  living_wage_contribution: "składek na rzecz godnej płacy"
+  on_every_order_they_place: "od każdego zamówienia, wystarczających do zniwelowania luki płacowej wśród wszystkich pracowników w ich łańcuchu dostaw, do 31 grudnia 2022 roku."
+  using_living_wage_benchmarks: "Stosowanie wskaźników godnej płacy"
+  if_brands_are_going_to_pay_living_wages: "Jeśli marki mają zapewnić godną płacę wszystkim pracownikom w całym łańcuchu dostaw, muszą wiedzieć, ile powinna kosztować praca. Istnieje wiele narzędzi, z których mogą w tym celu skorzystać."
+  brands_need_to_commit_to_using: "Marki muszą się zobowiązać do stosowania"
+  transparent_and_robust_living_wage_benchmarks: "transparentnych i solidnych wskaźników godnej płacy."
+  pay_the_women_who_make_our_clothes: "Godziwe wynagrodzenia dla kobiet szyjących nasze ubrania"
+  brands_need_to_do_more_to_reduce_gender_inequality: "Marki muszą robić więcej, by zmniejszyć nierówności płacowe w łańcuchu dostaw odzieży. Kobiety są na ogół zatrudniane na niżej płatnych stanowiskach, co odbija się na ich zdrowiu i bezpieczeństwie."
+  brands_need_to_commit_to: "Marki muszą się zabowiązać do"
+  reducing_the_gender_pay_gap: "zmniejszenia nierówności płacowych między kobietami i mężczyznami"
+  in_their_supply_chain_by_at_least_30: "w swoim łańcuchu dostaw o co najmniej 30% do 31 grudnia 2022."
+  covid_19_pay_up: "Covid-19 – Zapłaćcie za zamówienia!"
+  when_covid_19_shook_the_world_it_left_the_garment: "Kiedy Covid-19 wstrząsnął światem, zostawił przemysł odzieżowy w ruinie. Miliony pracowników od miesięcy nie dostają pełnych płac. Wielu z nich już czekało na zaległe wynagrodzenia sprzed pandemii. Dla zdecydowanej większości pracowniczek i pracowników jakiekolwiek obcięcie pensji oznacza, że nie stać ich na jedzenie."
+  brands_need_to_publicly_commit_to_a: "Marki muszą zobowiązać się publicznie do"
+  wage_guarantee: "gwarancji płacowych"
+  for_all_workers_in_their_supply_chain_ensure: "dla wszystkich pracowników w swoim łańcuchu dostaw. Muszą zagwarantować i umożliwić"
+  receive_their_full_salaries: "otrzymanie pełnych pensji"
+  or_in_the_case_of_factory_closure_receive: "przez wszystkich pracowników, którzy byli zatrudnieni na początku kryzysu Covid-19 lub, w przypadku zamknięcia fabryki, zagwarantować pracownikom odprawy. Więcej informacji o godnej płacy."
+  our_transparency_demands: "Nasze żądania dotyczące transparentności"
+  a_transparent_supply_chain: "Transparentny łańcuch dostaw"
+  we_want_all_brands_to_commit_to_a_completely: "Chcemy, żeby wszystkie marki zobowiązały się do transparentności w całym łańcuchu dostaw, przez podpisanie zobowiązania do transparentności (Transparency Pledge). Określa ono minimum informacji, jakie powinny ujawniać światu firmy odzieżowe, o fabrykach, w których produkują. Ten standard transparentności został opracowany w 2017 roku przez koalicję dziewięciu związków zawodowych i organizacji pracowniczych, i dalej rozwinięty w dwóch raportach w 2017 i 2019 roku."
+  brands_that_haven_t_already_need_to_sign: "Marki, które jeszcze nie podpisały Transparency Pledge, muszą to jak najszybciej zrobić."
+  readable_data_on_women_migrants_and_unions: "Czytelne dane o kobietach, migrantach i związkach zawodowych"
+  not_only_do_brands_need_to_be_collecting_specific: "Marki odzieżowe muszą nie tylko zbierać konkretne dane o warunkach pracy w swoim łańcuchu dostaw, ale także je publikować w formacie nadającym się do wykorzystania przez aktywistów i związkowców. Chcemy wiedzieć, gdzie w łańcuchu dostaw pracują kobiety i migranci, i czy osoby, które szyją nasze ubrania, są w stanie bronić swoich praw."
+  brands_must_disclose_data_using_machine_readable: "Marki muszą ujawniać listy dostawców w formie danych do odczytu maszynowego, obejmujące następujące informacje o każdej fabryce: podział stanowisk między kobiety i mężczyzn, procentowy udział migrantów wśród pracowników, obecność w zakładzie związków zawodowych lub komitetów pracowniczych."
+  wages_at_the_bottom_of_the_supply_chain: "Płace na najniższym poziomie łańcucha dostaw"
+  we_want_to_know_what_the_lowest_earning_workers: "Chcemy wiedzieć, jakie wynagrodzenie za pełny tydzień pracy otrzymują najniżej opłacani pracownicy w łańcuchu dostaw. Marki odzieżowe nie ujawniają takich danych ani nawet ich nie sprawdzają. Musi się to zmienić."
+  brands_must_disclose_data_on_the_lowest_wage_level: "Marki muszą ujawniać dane o najniższym poziomie wynagrodzeń płaconych przez poszczególnych dostawców w każdym kraju producenckim za pełny tydzień pracy, bez nadgodzin, dodatków i premii."
+  to_policymakers: "Nasze żądania wobec decydentów politycznych"
+  it_s_not_just_brands_that_are_responsible: "Nie tylko marki są odpowiedzialne za zapewnienie, by pracowniczki i pracownicy przemysłu odzieżowego byli traktowani sprawiedliwie i równościowo. Rządy państw odgrywają istotną rolę warunków wyrównujących szanse wszystkich zaangażowanych stron."
+  we_call_for_minimum_wages_in_production_countries: "Apelujemy o ustalanie płac minimalnych w krajach producenckich zgodnie z wiarygodnymi międzynarodowymi standardami godnej płacy oraz o włączanie do polityk i umów transparentnych, solidnych wskaźników godnej płacy."
+  we_call_for_the_eu_to_ensure_that_minimum_wages: "Apelujemy do UE o zapewnienie, by płace minimalne dla pracowników w UE były sprawiedliwe i gwarantowały godziwy poziom życia, i były ustalane zgodnie z wiarygodnymi międzynarodowymi standardami godnej płacy, a także o umożliwienie dostępu do odpowiednich zabezpieczeń socjalnych bez względu na stosunek zatrudnienia oraz ograniczenie wykluczenia i nierówności społecznych."
+  we_call_for_the_eu_to_require_supply_chain: "Apelujemy do UE, aby wymagała ujawniania łańcuchów dostaw przynajmniej od firm w sektorach wysokiego ryzyka, gdzie często dochodzi do naruszeń praw pracowniczych. Lista dostawców powinna obejmować informacje do odczytu maszynowego na temat wszystkich zakładów produkcyjnych i przetwórczych, a także nazwę, adres i firmę macierzystą każdego zakładu, rodzaj wytwarzanych w nim produktów i liczbę pracowników."
+  we_call_for_mandatory_disclosure_of_data_on_lowest: "Apelujemy o obowiązkowe ujawnianie danych o najniższym poziomie wynagrodzeń wypłacanych przez każdego z dostawców w każdym kraju producenckim, z wyłączeniem dodatków, świadczeń i premii, z podaniem płci i wskazaniem, czy chodzi o pracowników migracyjnych, oraz podaniem statusu zatrudnienia ze świadomością zagrożeń i praw, aż do najniższego poziomu łańcucha dostaw."
+  we_call_to_advance_human_rights_due_diligence: "Apelujemy o uchwalenie na szczeblu UE ustawodawstwa o należytej staranności w zakresie praw człowieka, aby wprowadzić dla firm obowiązek przestrzegania praw człowieka w swojej działalności i w łańcuchach dostaw, włącznie z transparentnością procesu należytej staranności, łańcuchów dostaw i wypłacanych w nich wynagrodzeń, ze świadomością zagrożeń i praw w całym łańcuchu dostaw, aż do najniższego poziomu, i zgodnie z zasadą „nikogo nie zostawiamy”"
+  we_call_to_set_in_place_an_information_system_for: "Apelujemy o wprowadzenie systemu informacyjnego dla firm, w którym mogłyby zgłaszać i ujawniać odpowiednie, transparentne informacje dotyczące fabryk i produktów. Dostęp do tego systemu powinien być bezpłatny, nieograniczony i zgodny z ugruntowanymi standardami otwartości danych."
+  we_call_for_increased_transparency_at_product: "Apelujemy o zwiększenie transparentności na poziomie produktu, aby wzmocnić pozycję obywatelek i obywateli: rozszerzyć informacje zamieszczane na metkach wyrobów tekstylnych, tak by obejmowały dane o procesie produkcji i cyklu życia produktu."
+  see: "Zobacz"
+  our_website: "naszą stronę"
+  for_more_information_on_these_demands: ", na której znajdziesz więcej informacji o tych żądaniach."
+  fashion: "Fashion"
+  checker: "Checker"
+  coming_soon: "Już wkrótce"
+  explore: "Eksploruj"
+  the_data: "dane"
+  are_the_people_who_make_your_clothes_paid_enough_t: "Czy zarobki osób, które szyją twoje ubrania, wystarczają im na życie?"
+  find_out_which_apparel_and_footwear_brands_pay_the: "Dowiedz się, które marki odzieżowe i obuwnicze zapewniają swoim pracowniczkom i pracownikom godną płacę."
+  country: "kraj"
+  eu_disclaimer: "Ten serwis internetowy powstał i jest utrzymywany przy wsparciu finansowym Unii Europejskiej. Wyłączną odpowiedzialność za treści w nim zawarte ponosi Clean Clothes Campaign i nie muszą one odzwierciedlać stanowiska Unii Europejskiej."
+  tweet_the_brand: "Zatweetuj to marki"
+  menu_resources: "Materiały"
+  reports: "Raporty"
+  living_wage: "Godna płaca"
+  power_dynamics: "Dynamika sił"
+  podcasts: "Podcasty"
+  videos: "Wideo"
+  who_we_are: "O nas"
+  methodology: "Metodologia"
+  see_full_profiles: "Zobacz pełne profile marek"
+  minimum_wage: "Płaca minimalna"
+  food: "Jedzenie"
+  housing: "Mieszkanie"
+  health_care: "Opieka zdrowotna"
+  education: "Edukacja"
+  clothing: "Ubranie"
+  transportation: "Transport"
+  savings: "Oszczędności"
+  website_powered_by: "Serwis oparty o"
+  privacy_policy: "Polityka prywatności"
+  all_rights_reserved: "Wszystkie prawa zastrzeżone"
+  design_by: "Projekt"
+  new: "nowe"
+  exploitation_made_in_europe: "Exploitation: made in Europe"
+  tailored_wages: "Tailored wages"
+  corporate_commitments_to_living_wages: "Corporate Commitments to Living Wages in the Garment Industry"
+  turn_around_h_m: "Turn around H&M"
+  europe_s_sweatshops: "Europe’s sweatshops"
+  presentation: "(presentation)"
+  a_sewing_kit_for_a_living_wage: "A Sewing Kit For A Living Wage"
+  oxfam_australia: "Oxfam Australia"
+  fashion_focus_the_fundamental_right: "Fashion Focus: The Fundamental Right To A Living Wage"
+  the_circle: "The Circle"
+  fashion_s_next_trend: "Fashion’s Next Trend: Accelerating Supply Chain Transparency in the Garment and Footwear Industry"
+  go_transparent: "#GoTransparent"
+  surge_in_garment_industry_transparency: "Surge in Garment Industry Transparency: Laws Needed to Ensure Companies Adopt Human Rights Practices"
+  wrc: "WRC"
+  fig_leaf_for_fashion: "Fig leaf for Fashion: How social auditing protects brands and fails workers"
+  follow_the_thread: "Follow the Thread. The Need for Supply Chain Transparency in the Garment and Footwear Industry"
+  the_transparency_pledge_the_apparel_and_footwear: "The transparency pledge: The apparel and footwear supply chain transparency pledge."
+  global_wage_report_2018_19: "Global Wage Report 2018/19 - What lies behind gender pay gaps"
+  ilo: "ILO"
+  will_women_workers_benefit_from_living_wages: "Will women workers benefit from living wages?"
+  christa_luginbuhl: "Christa Luginbühl"
+  despite_progress_gender_based_violence: "Despite progress gender-based violence and harassment is still a reality for global garment workers"
+  promoting_gender_equality_in_garment_industry: "Promoting gender equality in garment industry"
+  better_work: "Better Work"
+  gender_pay_gaps_in_the_garment_textile_footwear: "Gender pay gaps in the garment, textile and footwear sector in developing Asia"
+  garment_supply_chains_in_intensive_care: "Garment supply chains in intensive care"
+  ecchr: "ECCHR"
+  two_crises_one_flawed_supply_chain_model: "Two crises, one flawed supply chain model: How the imbalance of power in global supply chains harms workers"
+  the_emperor_has_no_clothes_garment_supply_chains: "The emperor has no clothes: Garment supply chains in the time of pandemic."
+  asia_floorwage_alliance: "Asia floorwage alliance"
+  global_capitalism_is_the_new_colonialism: "Global Capitalism Is the New Colonialism for Workers, and They Are Resisting"
+  truth_out: "Truth Out"
+  fashion_critical_with_lucy_siegle_and_livia_firth: "Fashion Critical with Lucy Siegle and Livia Firth"
+  episode_2_with_christie_medima_from_ccc_io: "Episode 2 With Christie Medima from CCC IO"
+  the_problem_with_social_audits: "The problem with social audits"
+  esg_insider: "ESG Insider"
+  ethical_consumer_we_need_to_stop_buying: "Ethical Consumer - We need to stop buying new clothes!"
+  with_bel_jacobs: "with Bel Jacobs, Fashion Editor of the Metro turned XR Boycott Fashion activist"
+  living_wage_now_documentary_trailor: "Living wage now documentary trailor."
+  the_ugly_truth_of_fast_fashion: "The Ugly Truth Of Fast Fashion"
+  fast_fashion_is_disgusting: "Fast fashion is disgusting"
+  haute_le_mode: "Haute le mode"
+  patriot_act_with_hasan_minhaj: "Patriot Act with Hasan Minhaj | Netflix"
+  the_importance_of_sustainability_ethics_in_fashion: "The Importance Of SUSTAINABILITY & ETHICS In Fashion"
+  the_fashion_archive: "The Fashion Archive"
+  ending_gender_based_violence: "Ending Gender-Based Violence in the Garment Industry"
+  global_fund_for_women: "Global Fund for Women"
+  five_business_practices: "5 Business Practices Many Major Clothing Brands Use that Hurt Workers"
+  human_rights_watch: "Human rights watch"
+  menu_explore_the_data: "Eksploruj dane"
+  resources: "Materiały"
+  lw_c_50_plausible_notpublic: >
+    Marka twierdzi, że co najmniej 50% fabryk jej dostawców zapewnia godną płacę wszystkim pracownikom, podaje pewne wiarygodne wyjaśnienia, ale nie udostępnia dowodów publicznie. Co oznacza, że wielu pracownikom szyjącym jej ubrania zarobki nie wystarczają na utrzymanie.
+  lw_d_25_public: >
+    Marka twierdzi, że od 1 do 25% fabryk w jej łańcuchu dostaw zapewnia pracownikom godną płacę. Są to informacje dostępne publicznie. Większość pracowników w łańcuchu dostaw marki nie otrzymuje płac wystarczających na utrzymanie.
+  lw_d_started: >
+    Firma twierdzi, że zaczęła przyczyniać się do zapewnienia godnych płac, płacąc wyższe ceny za zamówienia fabrykom w swoim łańcuchu dostaw, ale te ceny nadal nie pokrywają kosztów pracy. Co oznacza, że większość pracowniczek i pracowników szyjących ubrania marki nie otrzymuje płac wystarczających na życie.
+  lw_e_noclaim_notpublic: >
+    Marka nie podaje żadnych informacji o tym, że jej dostawcy zapewniają pracownikom godną płacę, ani nie znaleziono na to żadnych publicznie dostępnych dowodów. Co oznacza, że marka nie może udowodnić, że zarobki pracowników szyjących jej ubrania wystarczają im na utrzymanie.
+  lw_e_noevidence: >
+    Nie znaleziono dowodów na twierdzenia marki, że zapewnia ona godną płacę; nie podała też żadnych wiarygodnych wyjaśnień. Co oznacza, że marka nie może udowodnić, że zarobki pracowników szyjących jej ubrania wystarczają im na utrzymanie.
+  transp_none: >
+    Marka nie podaje informacji o fabrykach i pracownikach w swoim łańcuchu dostaw, co jest wymagane w ramach zobowiązania do transparentności.
+  transp_partial: >
+    Marka podaje pewne, ale niewystarczające informacje o fabrykach i pracownikach w swoim łańcuchu dostaw.
+  transp_partial_additional: >
+    Marka podaje pewne informacje wykraczające poza podstawowe dane, ale nie spełnia minimum wymaganego w ramach zobowiązania do transparentności.
+  transp_partial_additional_machinereadable: >
+    Marka podaje pewne informacje wykraczające poza podstawowe dane, w praktycznym formacie do odczytu maszynowego, ale nie spełnia minimum wymaganego w ramach zobowiązania do transparentności.
+  transp_partial_machinereadable: >
+    Marka podaje pewne, ale niewystarczające informacje o fabrykach i pracownikach w swoim łańcuchu dostaw, i publikuje je w praktycznym formacie do odczytu maszynowego.
+  transp_pledge: >
+    Marka podaje podstawowe informacje, takie jak nazwy i adresy fabryk, rodzaj produktu, liczba pracowników i kategoria dostawcy, oraz czy fabryka jest częścią większego podmiotu.
+  transp_pledge_additional: >
+    Marka podaje informacje wykraczające poza podstawowe dane, a więc także o odsetku kobiet i mężczyzn wśród pracowników, o tym, czy w zakładzie działa związek zawodowy i czy obowiązuje układ zbiorowy.
+  transp_pledge_additional_machinereadable: >
+    Marka podaje informacje wykraczające poza podstawowe dane, w praktycznym formacie do odczytu maszynowego, takim jak arkusze Excela, dzięki czemu dane są łatwe do wykorzystania dla innych.
+  transp_pledge_machinereadable: >
+    Marka podaje podstawowe informacje w praktycznym formacie do odczytu maszynowego, takim jak arkusze Excela, dzięki czemu dane są łatwe do wykorzystania dla innych.
+
+  partners: "Partners"
+  we_never_saw_data_about_brands_payments_what_price: >
+    "Nigdy nie widzieliśmy danych dotyczących płatności od marek odzieżowych, cen, które naprawdę płacą. Nasz dyrektor zawsze mówi, że mamy straty. Według niego powinniśmy jeszcze więcej pracować. Mówi nam, że jesteśmy trutniami, że się obijamy."
+  click_to_read_more: "Więcej na ten temat – kliknij"
+  img_living_wage_circles: "/images/about_us/living_wage_circles.png"
+  img_smiling_curve: "/images/about_us/smiling_curve.png"
+  img_tee_shirt: "/images/about_us/tee_shirt.png"
+  img_25_percent: "/images/about_us/25_percent.png"
+  img_global_supply_chain: "/images/living_wage/global_supply_chain.png"
+  social_media_title: "FashionChecker: płace i transparentność w przemyśle odzieżowym"
+  social_media_description: "Sprawdź, czy marki zapewniają pracownikom godną płacę i na ile otwarcie podają, gdzie szyte są ich produkty."
+  social_media_image: "https://fashionchecker.org/images/CCC_FC_web_preview.jpg"
