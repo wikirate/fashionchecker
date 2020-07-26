@@ -49,7 +49,7 @@ $border-radius: 0;
 @import "bootstrap/utilities";
 @import "bootstrap/print";
 body {
-  font-family: "Karla", sans-serif;
+  font-family: "karmilla", sans-serif;
   font-size: 1rem;
   line-height: 1.2;
 }
@@ -298,7 +298,6 @@ input {
   width: 100%;
 }
 
-
 @import "living_wage_table";
 
 .red-head,
@@ -538,12 +537,14 @@ main {
   }
 }
 
-
 .image-quote {
   margin: 1em -10% 2em -10%;
   position: relative;
-  img { width: 100% };
-  .filter, .quote {
+  img {
+    width: 100%;
+  }
+  .filter,
+  .quote {
     position: absolute;
     top: 0;
     right: 0;
@@ -551,7 +552,11 @@ main {
     left: 0;
   }
   .filter {
-    background-image: linear-gradient(to right, #333 0%, rgba(255, 255, 255, 0) 80%)
+    background-image: linear-gradient(
+      to right,
+      #333 0%,
+      rgba(255, 255, 255, 0) 80%
+    );
   }
   .quote {
     padding: 1em;
@@ -564,7 +569,6 @@ main {
   text-transform: uppercase;
   margin-top: 1.3em;
 }
-
 
 @include media-breakpoint-up(sm) {
   .social-media-links {
