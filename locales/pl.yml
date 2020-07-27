@@ -495,11 +495,11 @@ pl:
   living_wage_table:
     minimum_wage:
       food: >
-        Nie jest Ci łatwo dostarczyć sobie wystarczającą ilość składników odżywczych lub kalorii. Zwykle, każdego dnia,  jesz tę samą owsiankę lub ryż. Mięso, ryby i owoce są zbyt drogie. Często pomijasz posiłki, zwłaszcza pod koniec miesiąca, kiedy w twoim gospodarstwie domowym zaczyna brakować jedzenia.
+        Nie jest Ci łatwo dostarczyć sobie wystarczającą ilość składników odżywczych lub kalorii. Zwykle wciąż jesz to samo - owsiankę lub ryż. Mięso, ryby i owoce są za drogie. Często pomijasz posiłki, zwłaszcza pod koniec miesiąca, kiedy jedzenie w domu się kończy.
       housing: >
-        Mieszkasz w zatłoczonym hotelu robotniczym, w pokoju z innymi pracownikami. Nie ma prywatności, ogrzewania ani klimatyzacji, wentylacja jest kiepska. Macie za mało mebli i łóżek. Budynek powstał z materiałów budowlanych niskiej jakości, więc mieszkanie tu nie jest bezpieczne.
+        Mieszkasz w zatłoczonym hotelu robotniczym, w pokoju z innymi pracownikami. Nie ma prywatności, ogrzewania ani klimatyzacji. Wentylacja jest słaba. Brakuje mebli i łóżek. Budynek powstał z kiepskich materiałów, więc mieszkanie tu nie jest bezpieczne.
       health_care: >
-        Masz dostęp do podstawowych leków przeciwbólowych, ale do środków higieny potrzebnych przy menstruacji dostęp jest ograniczony, a do leków na receptę i do opieki zdrowotnej w nagłych wypadkach nie masz go wcale. Brak snu, ograniczenia dotyczące żywienia i higieny mają negatywny wpływ na twoje zdrowie.
+        Masz dostęp do podstawowych leków przeciwbólowych, ale do leków na receptę i opieki zdrowotnej w nagłych wypadkach już nie. Do środków higieny potrzebnych przy menstruacji dostęp jest ograniczony. Brak snu i inne ograniczenia mają negatywny wpływ na twoje zdrowie.
       education: >
         Nie jesteś w stanie wykształcić siebie i swoich dzieci. Nie masz możliwości poprawy swojej sytuacji. Twoje dzieci, kiedy dorosną, najprawdopodobniej będą zarabiać podobnie jak ty.
       clothing: >
