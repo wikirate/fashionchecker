@@ -203,7 +203,7 @@ pl:
   who_are_we: "Kim jesteśmy"
   menu_who_we_are: "Kim jesteśmy"
   menu_methodology: "Metodologia"
-  menu_gender: "Kwestii płci"
+  menu_gender: "Kwestie płci"
   clean_clothes_campaign_is_a_global_network: >
     Clean Clothes Campaign to globalna sieć zajmująca się poprawą warunków pracy i
     wzmacnianiem pozycji pracowników w światowym przemyśle odzieżowym.
@@ -688,11 +688,11 @@ pl:
   we_never_saw_data_about_brands_payments_what_price: >
     "Nigdy nie widzieliśmy danych dotyczących płatności od marek odzieżowych, cen, które naprawdę płacą. Nasz dyrektor zawsze mówi, że mamy straty. Według niego powinniśmy jeszcze więcej pracować. Mówi nam, że jesteśmy trutniami, że się obijamy."
   click_to_read_more: "Więcej na ten temat – kliknij"
-  img_living_wage_circles: "/images/about_us/living_wage_circles.png"
+  img_living_wage_circles: "/images/about_us/living_wage_circles-pl.jpg"
   img_smiling_curve: "/images/about_us/smiling_curve.png"
-  img_tee_shirt: "/images/about_us/tee_shirt.png"
+  img_tee_shirt: "/images/about_us/tee_shirt-pl.jpg"
   img_25_percent: "/images/about_us/25_percent.png"
-  img_global_supply_chain: "/images/living_wage/global_supply_chain-pl.jpg"
+  img_global_supply_chain: "/images/living_wage/global_supply_chain.png"
   social_media_title: "FashionChecker: płace i transparentność w przemyśle odzieżowym"
   social_media_description: "Sprawdź, czy marki zapewniają pracownikom godną płacę i na ile otwarcie podają, gdzie szyte są ich produkty."
   social_media_image: "https://fashionchecker.org/images/CCC_FC_web_preview.jpg"
