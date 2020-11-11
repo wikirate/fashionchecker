@@ -1,0 +1,6 @@
+- key = "suppliers_table.#{key}"
+- content = t "#{key}_info" || "ooga"
+
+= t key
+%a{ data: { toggle: "popover", trigger: "hover", content: "#{content}" } }
+  %i.fa.fa-info-circle

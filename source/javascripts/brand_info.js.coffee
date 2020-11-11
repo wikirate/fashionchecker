@@ -58,10 +58,10 @@ class window.BrandInfo
     showLogo $template.find("._logo"), data.logo
 
     for index, brand of data.brands
-      addBrand(brand, $template)
+      addBrand brand, $template
     for index, supplier of data.suppliers
-      addSupplier(supplier, $template)
-    $output.append($template)
+      addSupplier supplier, $template
+    $output.append $template
 
   showScoreDesc = ($template, score_name, score_key) ->
     $template.find("._#{score_name}_score-text").text scoreTranslation[score_key]
@@ -123,7 +123,9 @@ class window.BrandInfo
         supplier.workers_by_contract.temporary ].map(replaceNull).join(" / "))
     row += newCell supplier["average_net_wage"], "lighter-blue-bg"
     row += newCell supplier["wage_gap"], "lighter-blue-bg"
-    for index, property of ["workers_have_cba", "workers_know_brand", "workers_get_pregnancy_leave"]
+    for index, property of ["workers_have_cba",
+                            "workers_know_brand",
+                            "workers_get_pregnancy_leave"]
       row += newCell supplier[property]
     row += "</tr>"
     tbody.append $(row)

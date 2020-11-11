@@ -49,16 +49,16 @@ $(document).ready ->
     $('body').css("background", params.get("background"))
 
   if params.has('q')
-    loadBrandInfo(params.get("q"))
-    # $("#brand-select").val params.get("q")
-    # $("#barnd-select").trigger "change"
+    loadBrandInfo params.get("q")
 
 loadBrandInfo = (company_id) ->
   $.ajax(url: brandInfoURL(company_id), dataType: "json").done((data) ->
     $output = $("#result")
     $output.empty()
     new BrandInfo(data).render($output)
+    $('[data-toggle="popover"]').popover()
   )
+
 
 brandInfoURL = (company_id) ->
   "#{API_HOST}/~#{company_id}.json?view=transparency_info"

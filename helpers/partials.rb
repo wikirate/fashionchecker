@@ -97,4 +97,8 @@ module Partials
     partial "partials/shared/image_quote",
             locals: { url: url, quote: quote, citation: citation }
   end
+
+  def supplier_table_header key
+    brand_profile_partial :suppliers_table_header, locals: { key: key }
+  end
 end
