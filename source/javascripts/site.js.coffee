@@ -59,7 +59,6 @@ loadBrandInfo = (company_id) ->
     $('[data-toggle="popover"]').popover()
   )
 
-
 brandInfoURL = (company_id) ->
   "#{API_HOST}/~#{company_id}.json?view=transparency_info"
 

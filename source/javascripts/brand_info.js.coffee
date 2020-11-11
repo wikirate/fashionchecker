@@ -65,11 +65,6 @@ class window.BrandInfo
 
   showScoreDesc = ($template, score_name, score_key) ->
     $template.find("._#{score_name}_score-text").text scoreTranslation[score_key]
-  #   for el in $container.find("._#{score_name}-templates ._score-desc")
-  #     if $(el).hasClass(scoreClass(score_name, score_value))
-  #       $(el).show()
-  #     else
-  #       $(el).hide()
 
   # scoreClass = (score_name, score_value ) ->
   #  "_score-#{SCORE_MAP[score_name][score_value]}"
