@@ -105,7 +105,7 @@ class window.BrandInfo
 
   addRow = (tbody, supplier) ->
     row = "<tr"
-    row += ' class="no-data"' unless supplier["present"]
+    row += ' class="no-data"' unless supplier["num_values"] > 0
     row += ">"
     row += newCell companyLink(supplier.name, supplier.link_name), "medium-blue-bg text-left"
     row += newCell supplier.country_name, "medium-blue-bg"
