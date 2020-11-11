@@ -203,7 +203,7 @@ pl:
   who_are_we: "Kim jesteśmy"
   menu_who_we_are: "Kim jesteśmy"
   menu_methodology: "Metodologia"
-  menu_gender: "Kwestii płci"
+  menu_gender: "Kwestie płci"
   clean_clothes_campaign_is_a_global_network: >
     Clean Clothes Campaign to globalna sieć zajmująca się poprawą warunków pracy i
     wzmacnianiem pozycji pracowników w światowym przemyśle odzieżowym.
@@ -380,7 +380,6 @@ pl:
   power_in_the_garment_industry: "Nierównowaga sił w przemyśle odzieżowym"
   we_believe_all_workers_in_a_supply: >
     Uważamy, że wszyscy pracownicy i pracowniczki w łańcuchu dostaw mają prawo do sprawiedliwej płacy. Osoby szyjące produkty na rynek odzieży, także sportowej, zarabiają
-    głodowe płace
   poverty_wages: "głodowe płace"
   since_the_birth_of_the_industry_our_research_shows: "od początku istnienia tego sektora. Z naszych badań wynika, że"
   no_major_clothing_brand: "żadna duża marka odzieżowa"
@@ -499,7 +498,7 @@ pl:
       housing: >
         Mieszkasz w zatłoczonym hotelu robotniczym, w pokoju z innymi pracownikami. Nie ma prywatności, ogrzewania ani klimatyzacji. Wentylacja jest słaba. Brakuje mebli i łóżek. Budynek powstał z kiepskich materiałów, więc mieszkanie tu nie jest bezpieczne.
       health_care: >
-        Masz dostęp do podstawowych leków przeciwbólowych, ale do leków na receptę i opieki zdrowotnej w nagłych wypadkach już nie. Do środków higieny potrzebnych przy menstruacji dostęp jest ograniczony. Brak snu i inne ograniczenia mają negatywny wpływ na twoje zdrowie.
+        Brak snu i inne czynniki negatywnie odbijają się na twoim zdrowiu, ale masz dostęp jedynie do podstawowych leków przeciwbólowych. Do leków na receptę i opieki zdrowotnej już nie. Do środków higieny potrzebnych przy menstruacji dostęp jest ograniczony.
       education: >
         Nie jesteś w stanie wykształcić siebie i swoich dzieci. Nie masz możliwości poprawy swojej sytuacji. Twoje dzieci, kiedy dorosną, najprawdopodobniej będą zarabiać podobnie jak ty.
       clothing: >
@@ -605,6 +604,7 @@ pl:
   all_rights_reserved: "Wszystkie prawa zastrzeżone"
   design_by: "Projekt"
   new: "nowe"
+  europe_floor_wage_benchmark: "The European Floor Wage Benchmark"
   exploitation_made_in_europe: "Exploitation: made in Europe"
   tailored_wages: "Tailored wages"
   corporate_commitments_to_living_wages: "Corporate Commitments to Living Wages in the Garment Industry"
@@ -689,9 +689,9 @@ pl:
   we_never_saw_data_about_brands_payments_what_price: >
     "Nigdy nie widzieliśmy danych dotyczących płatności od marek odzieżowych, cen, które naprawdę płacą. Nasz dyrektor zawsze mówi, że mamy straty. Według niego powinniśmy jeszcze więcej pracować. Mówi nam, że jesteśmy trutniami, że się obijamy."
   click_to_read_more: "Więcej na ten temat – kliknij"
-  img_living_wage_circles: "/images/about_us/living_wage_circles.png"
+  img_living_wage_circles: "/images/about_us/living_wage_circles-pl.jpg"
   img_smiling_curve: "/images/about_us/smiling_curve.png"
-  img_tee_shirt: "/images/about_us/tee_shirt.png"
+  img_tee_shirt: "/images/about_us/tee_shirt-pl.jpg"
   img_25_percent: "/images/about_us/25_percent.png"
   img_global_supply_chain: "/images/living_wage/global_supply_chain.png"
   social_media_title: "FashionChecker: płace i transparentność w przemyśle odzieżowym"

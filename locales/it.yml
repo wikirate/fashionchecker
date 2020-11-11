@@ -6,8 +6,8 @@ it:
   not_poverty_wages: "Non salari di povertà"
   living_wages_info: >
     La maggior parte di coloro che lavorano nella filiera dell’abbigliamento non può permettersi di soddisfare i bisogni primari della vita.
-    Una giusta retribuzione sul lavoro è un diritto umano fondamentale 
-    ma fra i più grandi marchi della moda 
+    Una giusta retribuzione sul lavoro è un diritto umano fondamentale
+    ma fra i più grandi marchi della moda
     non ce n’è uno che paga salari vivibili.
   read_more_living_wages: "Maggiori informazioni sul salario dignitoso."
   difference_question: >
@@ -15,24 +15,24 @@ it:
   end: "Basta"
   gendered_pay: "Salario di genere"
   gendered_pay_info: >
-    L’80% di chi lavora nell’abbigliamento sono donne. Di regola, sono pagate meno dei loro colleghi uomini. 
-    La disuguaglianza di genere è profondamente radicata in un settore con forti squilibri di potere. 
+    L’80% di chi lavora nell’abbigliamento sono donne. Di regola, sono pagate meno dei loro colleghi uomini.
+    La disuguaglianza di genere è profondamente radicata in un settore con forti squilibri di potere.
     La differenza salariale basata sul genere è strettamente connessa alla violenza verbale, fisica e sessuale.
   gender: "Maggiori informazioni sul salario di genere"
   resilience: "Resilienza"
   in_the_face_of_a_crisis: "di fronte a una crisi"
   our_demands: "Le nostre richieste"
   resilience_info: >
-    Per decenni i marchi hanno approfittato dei salari bassissimi, privando i lavoratori 
-    dell'abbigliamento di sicurezza in tempi di crisi. 
-    La crisi dovuta alla pandemia di Covid-19 ha mostrato le disuguaglianze sociali ed economiche del settore, 
+    Per decenni i marchi hanno approfittato dei salari bassissimi, privando i lavoratori
+    dell'abbigliamento di sicurezza in tempi di crisi.
+    La crisi dovuta alla pandemia di Covid-19 ha mostrato le disuguaglianze sociali ed economiche del settore,
     colpendo in modo particolare milioni di persone che lavorano senza protezioni legali.
   your_voice_has_power: "La tua voce ha un potere"
   take_action: "Entra in azione"
   your_voice_info_1: >
-    Il tuo supporto rende possibile il nostro lavoro. 
-    È ora che i grandi brand si assumano la responsabilità della vita delle persone 
-    che fabbricano i nostri vestiti. 
+    Il tuo supporto rende possibile il nostro lavoro.
+    È ora che i grandi brand si assumano la responsabilità della vita delle persone
+    che fabbricano i nostri vestiti.
     Come consumatori, abbiamo potere. Chiedi ai marchi di pagare un
   your_voice_info_2: >
     per garantire che i tuoi vestiti non vengano più realizzati sfruttando le persone.
@@ -141,7 +141,7 @@ it:
     A causa delle difficoltà di contesto, in primo luogo la riluttanza dei lavoratori a parlare con i ricercatori per timore di rappresaglie, inizialmente la ricerca sul campo è stata condotta solo in cinque paesi che ci hanno permesso di parlare con i lavoratori; Indonesia, Cina, Croazia, India e Ucraina. Abbiamo raccolto le buste paga, condotto interviste per interpretare le informazioni fornite dalle buste paga, disaggregate per genere (per esempio con riferimento a lacune retributive di genere, responsabilità lavorative, ore di lavoro, premi, straordinari). Abbiamo quindi comparato le buste paga con le risposte fornite dai marchi sui loro parametri di riferimento salariali e sulla percentuale di fornitori pagati secondo questo benchmark. Nel corso del progetto, aggiungeremo dati da sempre più paesi.
   methodology_paragraph_3A: "Abbiamo lavorato con"
   methodology_paragraph_3B: >
-    , esperti di dati aperti, sull'aggregazione e il consolidamento delle informazioni sulla filiera rilasciate dai marchi. 
+    , esperti di dati aperti, sull'aggregazione e il consolidamento delle informazioni sulla filiera rilasciate dai marchi.
     Utilizziamo anche i dati raccolti, tra gli altri, da
   methodology_paragraph_3C: "e"
   methodology_paragraph_3D: >
@@ -582,6 +582,7 @@ it:
   all_rights_reserved: "Tutti i diritti riservati"
   design_by: "Disegnato da"
   new: "nuovo"
+  europe_floor_wage_benchmark: "The European Floor Wage Benchmark"
   exploitation_made_in_europe: "L’Europa dello sfruttamento"
   tailored_wages: "Salari su misura"
   corporate_commitments_to_living_wages: "Impegno societario sul salario vivibile nell’industria della moda"

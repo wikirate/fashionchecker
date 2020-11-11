@@ -12,6 +12,10 @@
           = t('living_wage')
 
         .pb-4
+          = resource :europe_floor_wage_benchmark,
+                     "https://cleanclothes.org/file-repository/cleanclothescampaign_europefloorwage_report_web.pdf/view",
+                     year: 2020,
+                     new: true
           = resource :exploitation_made_in_europe,
                      "https://cleanclothes.org/file-repository/exploitation-made.pdf/view",
                      year: 2020,
@@ -20,7 +24,7 @@
                      "https://cleanclothes.org/file-repository/tailoredwages-fp.pdf/view",
                      year: 2019
           = resource :corporate_commitments_to_living_wages,
-                     "https://insite.cleanclothes.org/workspaces/ccc-network-living-wage-strategies-development/lw-eba-development/background-and-educational-materials/corporate-commitments-to-living-wages-in-the-garment-industry-speri-report.pdf/view",
+                     "http://speri.dept.shef.ac.uk/wp-content/uploads/2019/05/Corporate-Commitments-to-Living-Wages-in-the-Garment-Industry-SPERI-report.pdf",
                      year: 2019
           = resource :turn_around_h_m,
                      "https://turnaroundhm.org/static/hm-wages-september2018-summary-f523b0075e381f822e6fd6fbff1331cb.pdf",
@@ -91,7 +95,7 @@
           = resource :un_guiding_principles_on_business_and_human_rights,
                      "https://www.ohchr.org/Documents/Publications/GuidingPrinciplesBusinessHR_EN.pdf"
           = resource :garment_supply_chains_in_intensive_care,
-                     "https://mail.cleanclothes.org/?_task=mail&_action=get&_mbox=INBOX&_uid=1697&_token=AOoUQyXeWGLG0jDUDtYoXOGLoqKgxdnj&_part=2",
+                     "https://www.ecchr.eu/en/publication/garment-supply-chains-in-intensive-care/",
                      desc: :ecchr,
                      year: 2020
 

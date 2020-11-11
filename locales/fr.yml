@@ -5,9 +5,9 @@ fr:
   living_wages: "Un salaire vital:"
   not_poverty_wages: "Pour assurer la subsistance"
   living_wages_info: >
-    La plupart des travailleuses et travailleurs de l'habillement ne sont pas payés 
-    suffisamment pour subvenir à leurs besoins fondamentaux ainsi qu'à ceux de leur famille. 
-    Pour cause ? Aucune marque et enseigne d'habillement ne garantit aujourd'hui un salaire 
+    La plupart des travailleuses et travailleurs de l'habillement ne sont pas payés
+    suffisamment pour subvenir à leurs besoins fondamentaux ainsi qu'à ceux de leur famille.
+    Pour cause ? Aucune marque et enseigne d'habillement ne garantit aujourd'hui un salaire
     vital au sein de ses filières d'approvisionnement.
   read_more_living_wages: "En savoir plus sur le salaire vital"
   difference_question: >
@@ -15,25 +15,25 @@ fr:
   end: "Un salaire vital:"
   gendered_pay: "pour les hommes comme pour les femmes"
   gendered_pay_info: >
-    80% des travailleurs de l'habillement sont en fait des travailleuses. Pourtant, les femmes 
-    sont systématiquement payées moins que leurs collègues masculins. Les inégalités de genre sont 
-    solidement ancrées dans les rapports de force au sein de l'industrie de l’habillement. 
+    80% des travailleurs de l'habillement sont en fait des travailleuses. Pourtant, les femmes
+    sont systématiquement payées moins que leurs collègues masculins. Les inégalités de genre sont
+    solidement ancrées dans les rapports de force au sein de l'industrie de l’habillement.
     Elles sont aussi directement liées à de la violence verbale, physique et sexuelle.
   gender: "En savoir plus sur les inégalités de genre"
   resilience: "Un salaire vital: "
   in_the_face_of_a_crisis: "Pour résister aux crises"
   our_demands: "Nos revendications"
   resilience_info: >
-    Voilà des années que les marques dans l'industrie de l'habillement profitent de salaires si bas 
-    qu'ils ne permettent pas aux travaillleur·euse·s de subvenir à leurs besoins de base. 
-    Impossible donc de mettre de l'argent de côté pour faire face aux imprévus. La crise du Covid-19 
-    a mis en évidence, une fois de plus, les inégalités sociales et économiques du secteur de l'habillement, 
+    Voilà des années que les marques dans l'industrie de l'habillement profitent de salaires si bas
+    qu'ils ne permettent pas aux travaillleur·euse·s de subvenir à leurs besoins de base.
+    Impossible donc de mettre de l'argent de côté pour faire face aux imprévus. La crise du Covid-19
+    a mis en évidence, une fois de plus, les inégalités sociales et économiques du secteur de l'habillement,
     avec des conséquences d'autant plus dramatiques pour les travailleur·euse·s du secteur informel.
   your_voice_has_power: "Un salaire vital:"
   take_action: "Agir"
   your_voice_info_1: >
-    Ensemble, nous pouvons agir. Il est temps que les marques s'engagent pour garantir une vie décente 
-    aux travaillleur·euse·s qui fabriquent nos vêtements. En tant que consommateur·trice·s, nous avons du pouvoir. 
+    Ensemble, nous pouvons agir. Il est temps que les marques s'engagent pour garantir une vie décente
+    aux travaillleur·euse·s qui fabriquent nos vêtements. En tant que consommateur·trice·s, nous avons du pouvoir.
     Les marques nous écoutent. Demandons-leur de payer un #SalaireVital,
   your_voice_info_2: >
     pour des vêtements faits dans la dignité.
@@ -72,7 +72,7 @@ fr:
     separate_labor_costs_score_2: >
       Partiel
     separate_labor_costs_score_3: >
-      Aucune preuve n'a été trouvée indiquant que cette marque s'assure que les coûts du travail suffisent à payer un salaire vital en utilisant une méthode établie pour les calculer, en séparant ces coûts des autres coûts de fabrication. 
+      Aucune preuve n'a été trouvée indiquant que cette marque s'assure que les coûts du travail suffisent à payer un salaire vital en utilisant une méthode établie pour les calculer, en séparant ces coûts des autres coûts de fabrication.
       Toutes les marques devraient payer des prix aux fournisseurs suffisent pour payer un salaire vital et une participation à la couverture sociale à tous les travailleur·euses des chaînes d'approvisionnement.
 
     separate_labor_costs: "Séparer les coûts du travail?"
@@ -85,13 +85,13 @@ fr:
     title: "Paiement d'un salaire vital?"
     desc_1:
       score_5: >
-        La marque affirme que 100% des usines des fournisseurs de sa filière d'approvisionnement versent aux travailleur·euse·s un salaire 
+        La marque affirme que 100% des usines des fournisseurs de sa filière d'approvisionnement versent aux travailleur·euse·s un salaire
         vital. Ces informations sont publiques. Les travailleur·euse·s qui fabriquent leurs vêtements gagnent suffisamment pour subvenir à leurs besoins fondamentaux.
       score_4: >
-        La marque affirme que plus de 50% des usines des fournisseurs de sa filière d'approvisionnement paient un salaire vital aux 
+        La marque affirme que plus de 50% des usines des fournisseurs de sa filière d'approvisionnement paient un salaire vital aux
         travailleur·euse·s. Ces informations sont publiques. Certain.e.s des travailleur·euse·s qui fabriquent leurs vêtements ne gagnent pas assez pour subvenir à leurs besoins fondamentaux.
       score_3: >
-        La marque affirme qu'entre 26 et 50% des usines des fournisseurs de sa filière d'approvisionnement versent aux travailleur·euse·s 
+        La marque affirme qu'entre 26 et 50% des usines des fournisseurs de sa filière d'approvisionnement versent aux travailleur·euse·s
         un salaire vital. Il s'agit d'informations publiques. La plupart des travailleur·euse·s qui fabriquent leurs vêtements ne gagnent pas assez pour subvenir à leurs besoins fondamentaux.
       score_2: >
         La marque affirme que 50% ou plus des usines des fournisseurs de sa filière d'approvisionnement versent un salaire vital aux travailleur·euses, des explications plausibles sont partagées mais les preuves ne sont pas publiques. Cela signifie qu'un grand nombre de travailleur·euse·s qui fabriquent leurs vêtements ne gagnent pas assez pour subvenir à leurs besoins fondamentaux.
@@ -144,36 +144,36 @@ fr:
   footer_info: "est une campagne lancée par la Clean Clothes Campaign et financée par l'Union Européenne."
   methodology_title: "Notre méthodologie de recherche"
   methodology_paragraph_1: >
-    Nous avons envoyé à plus de 90 marques un questionnaire qui leur donne l'opportunité de présenter les efforts 
-    mis en place vers le payement d'un salaire vital à toutes les personnes impliquées dans la filière 
-    d’approvisionnement et de publier les lieux de fabrication (si ça n'avait pas encore été fait dans le cadre du 
-    Pacte pour la Transparence). Nous mettons l'accent sur les efforts consentis par les marques, dans la lutte pour 
-    un salaire vital, à collecter des données utiles et utilisables tant par les consommateur·trice·s que par les 
-    travaillleur·euse·s et les décideurs politiques. Nous espérons ainsi que dans le long terme, la présence d'une 
-    marque sur Fashion Checker constitue un élément de son devoir de vigilance et de son processus de validation de sa 
+    Nous avons envoyé à plus de 90 marques un questionnaire qui leur donne l'opportunité de présenter les efforts
+    mis en place vers le payement d'un salaire vital à toutes les personnes impliquées dans la filière
+    d’approvisionnement et de publier les lieux de fabrication (si ça n'avait pas encore été fait dans le cadre du
+    Pacte pour la Transparence). Nous mettons l'accent sur les efforts consentis par les marques, dans la lutte pour
+    un salaire vital, à collecter des données utiles et utilisables tant par les consommateur·trice·s que par les
+    travaillleur·euse·s et les décideurs politiques. Nous espérons ainsi que dans le long terme, la présence d'une
+    marque sur Fashion Checker constitue un élément de son devoir de vigilance et de son processus de validation de sa
     responsabilité sociale.
   methodology_paragraph_2: >
-    Dû au contexte difficile, notamment la crainte des travailleur·euse·s de se confier aux chercheurs par peur 
-    de représailles, le travail de recherche de terrain s'est déroulé dans cinq pays où l'accès aux travailleur·euse·s 
-    de l'habillement est garanti : Indonésie, Chine, Croatie, Inde et Ukraine. Nous avons collecté les fiches de paye 
-    des travaillleur·euse·s, conduit des interviews pour interpréter correctement ces fiches, ventilé ces informations 
-    par genre (ex : concernant l'écart salarial, les responsabilités professionnelles, le nombre d'heures travaillées, 
-    les primes, ou les heures supplémentaires). Nous avons ensuite vérifié que les salaires des fiches de paye 
-    correspondaient aux réponses des marques sur leurs propres référentiels salariaux et le pourcentage payé par les 
-    fournisseurs sur base de ces référentiels. Nous continuerons, à travers ce projet, à ajouter des données sur 
+    Dû au contexte difficile, notamment la crainte des travailleur·euse·s de se confier aux chercheurs par peur
+    de représailles, le travail de recherche de terrain s'est déroulé dans cinq pays où l'accès aux travailleur·euse·s
+    de l'habillement est garanti : Indonésie, Chine, Croatie, Inde et Ukraine. Nous avons collecté les fiches de paye
+    des travaillleur·euse·s, conduit des interviews pour interpréter correctement ces fiches, ventilé ces informations
+    par genre (ex : concernant l'écart salarial, les responsabilités professionnelles, le nombre d'heures travaillées,
+    les primes, ou les heures supplémentaires). Nous avons ensuite vérifié que les salaires des fiches de paye
+    correspondaient aux réponses des marques sur leurs propres référentiels salariaux et le pourcentage payé par les
+    fournisseurs sur base de ces référentiels. Nous continuerons, à travers ce projet, à ajouter des données sur
     davantage de pays.
   methodology_paragraph_3A: "Nous avons travaillé en lien avec l'outil open data"
   methodology_paragraph_3B: >
-    , pour agréger et consolider les informations diffusées par les marques. Nous avons également utilisé, 
+    , pour agréger et consolider les informations diffusées par les marques. Nous avons également utilisé,
     parmi d'autres, les bases de données
   methodology_paragraph_3C: "et"
   methodology_paragraph_3D: >
-    . Ces données et celles de nos partenaires de confiance ayant une longue expérience sont mises 
-    à disposition du public de façon la plus intuitive possible pour l'utilisateur. Nous avons testé diverses 
+    . Ces données et celles de nos partenaires de confiance ayant une longue expérience sont mises
+    à disposition du public de façon la plus intuitive possible pour l'utilisateur. Nous avons testé diverses
     méthodes de présentation des données grâce à l'aide de l’entreprise de communication,
   gender_header_1: "Différences de genre dans l'industrie de l'habillement"
   gender_lead: >
-    La part importante de femmes dans l'industrie de l’habillement est directement liée aux conditions 
+    La part importante de femmes dans l'industrie de l’habillement est directement liée aux conditions
     déplorables qui y règnent.
   gender_influences: >
     Le type de travail qui y est effectué, la manière dont ce travail doit être fait, les salaires, les relations aux employeurs et même les lois, varient selon le genre. Du salaire aux retards de salaires jugés acceptables ou aux types de contrats proposés, jusqu'à la façon avec laquelle un superviseur s'adresse à une travailleuse, ce qui semble acceptable ou pas, dépend en grande partie du genre de la personne. Les données détaillées au niveau des usines montrent aussi que la proportion de femmes dans des positions inférieures telles que l'opération des machines ou la vérification des pièces, est très élevée. Les femmes sont systématiquement employées pour des tâches de faible qualification et n'occupent que rarement le rôle de responsable au sein des usines ou des organisations syndicales.
@@ -610,6 +610,7 @@ fr:
   all_rights_reserved: "All rights reserved"
   design_by: "Design by"
   new: "new"
+  europe_floor_wage_benchmark: "The European Floor Wage Benchmark"
   exploitation_made_in_europe: "Exploitation: made in Europe"
   tailored_wages: "Tailored wages"
   corporate_commitments_to_living_wages: "Corporate Commitments to Living Wages in the Garment Industry"
