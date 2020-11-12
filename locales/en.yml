@@ -142,20 +142,22 @@ en:
     average: "Average"
     average_info:
       The monthly average net salary (in EUR equivalent of the local currency) as listed
-      on worker payslips
+      on surveyed workers' payslips
     gap: "Gap"
     gap_info:
       The monthly average difference between minimum and actual wages (in EUR) for
-      workers at the company/facility
+      surveyed workers at the company/facility
     have_cba: "Have CBA"
     have_cba_info:
-      The percentage of workers covered by a collective bargaining agreement
+      The percentage of surveyed workers covered by a collective bargaining agreement
     know_brand: "Know brand"
     know_brand_info:
-      The percentage of workers who know which brands their factory makes products for
+      The percentage of surveyed workers who know which brands their factory makes
+      products for
     pregnancy_leave: "Pregnancy leave"
     pregnancy_leave_info:
-      The percentage of workers, who had been pregnant, who were given pregnancy leave
+      The percentage of surveyed workers, who had been pregnant, who were given
+      pregnancy leave
   latest: "Latest"
   news: "News"
   footer_info: "is a campaign by the Clean Clothes Campaign, funded by the European Union"
