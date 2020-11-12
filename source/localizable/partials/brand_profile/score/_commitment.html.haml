@@ -3,21 +3,24 @@
 //= # score_desc "commitment_score.desc", 3
 .row.border-top.py-2.commitment-scores
   .col-sm-6.pl-0.text-uppercase
-    %a.white{ href: "https://wikirate.org/Clean_Clothes_Campaign+Public_Commitment_on_Living_Wage" }
+    %a.white{ target: "_wikirate",
+              href: "https://wikirate.org/Clean_Clothes_Campaign+Public_Commitment_on_Living_Wage" }
       = t('commitment_score.public_commitment')
   .col-sm-6.pr-0.text-right.pointer._public-commitment-help{"data-toggle":"modal"}
     %span.value._public-commitment
     %img._public-commitment-smiley{src: "/images/smiley/No.png", height: "30px"}
 .row.border-top.py-2.commitment-scores
   .col-sm-6.pl-0.text-uppercase
-    %a.white{ href: "https://wikirate.org/Clean_Clothes_Campaign+Living_Wage_Action_Plan" }
+    %a.white{ target: "_wikirate",
+              href: "https://wikirate.org/Clean_Clothes_Campaign+Living_Wage_Action_Plan" }
       = t('commitment_score.action_plan')
   .col-sm-6.pr-0.text-right.pointer._action-plan-help{"data-toggle":"modal"}
     %span.value._action-plan
     %img._action-plan-smiley{src: "/images/smiley/Yes.png", height: "30px"}
 .row.border-top.py-2.commitment-scores
   .col-sm-6.pl-0.text-uppercase
-    %a.white{ href: "https://wikirate.org/Clean_Clothes_Campaign+Isolating_Labour_Cost" }
+    %a.white{ target: "_wikirate",
+              href: "https://wikirate.org/Clean_Clothes_Campaign+Isolating_Labour_Cost" }
       = t('commitment_score.separate_labor_costs')
   .col-sm-6.pr-0.text-right.pointer._isolating-labour-cost-help{"data-toggle":"modal"}
     %span.value._isolating-labour-cost
