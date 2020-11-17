@@ -68,10 +68,14 @@
         %h3.black-head
           = t('gender_header_1')
         .pb-4
+          = resource :wages_gbv_2020,
+                     "https://cleanclothes.org/file-repository/wages_and_gbv_femnet_position_paper.pdf/view",
+                     desc: :femnet,
+                     new: true,
+                     year: 2020
           = resource :global_wage_report_2018_19,
                      "https://www.ilo.org/wcmsp5/groups/public/---dgreports/---dcomm/---publ/documents/publication/wcms_650553.pdf",
                      desc: :ilo,
-                     new: true,
                      year: 2019
           = resource :will_women_workers_benefit_from_living_wages,
                      "https://cleanclothes.org/file-repository/ccc_dec2019_luginbuhl_lw_gender.pdf/view",

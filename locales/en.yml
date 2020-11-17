@@ -148,8 +148,7 @@ en:
       The monthly average difference between minimum and actual wages (in EUR) for
       surveyed workers at the company/facility
     have_cba: "Have CBA"
-    have_cba_info:
-      The percentage of surveyed workers covered by a collective bargaining agreement
+    have_cba_info: The percentage of surveyed workers covered by a collective bargaining agreement
     know_brand: "Know brand"
     know_brand_info:
       The percentage of surveyed workers who know which brands their factory makes
@@ -630,6 +629,8 @@ en:
   oxfam_australia: "Oxfam Australia"
   fashion_focus_the_fundamental_right: "Fashion Focus: The Fundamental Right To A Living Wage"
   the_circle: "The Circle"
+  femnet: "Femnet e.V."
+  wages_gbv_2020: "Wages and Gender-based Violence"
   fashion_s_next_trend: "Fashion’s Next Trend: Accelerating Supply Chain Transparency in the Garment and Footwear Industry"
   go_transparent: "#GoTransparent"
   surge_in_garment_industry_transparency: "Surge in Garment Industry Transparency: Laws Needed to Ensure Companies Adopt Human Rights Practices"
