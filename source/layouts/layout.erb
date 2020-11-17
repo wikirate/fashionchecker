@@ -45,11 +45,12 @@
     <%- #stylesheet_link_tag "select2-bootstrap4.min" %>
     <%= stylesheet_link_tag "site" %>
     <%= javascript_include_tag "jquery.min" %>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <%= javascript_include_tag "bootstrap.min" %>
+
     <%= javascript_include_tag "select2.full.min" %>
     <%= javascript_include_tag "brand_info" %>
     <%= javascript_include_tag "site" %>
-
   </head>
   <body>
     <%= yield %>

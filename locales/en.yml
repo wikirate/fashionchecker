@@ -140,10 +140,24 @@ en:
     female_male_other: "Female/Male/Other"
     permanent_temporary: "Permanent/ Temporary"
     average: "Average"
+    average_info:
+      The monthly average net salary (in EUR equivalent of the local currency) as listed
+      on surveyed workers' payslips
     gap: "Gap"
-    have_cba: "Have cba"
+    gap_info:
+      The monthly average difference between minimum and actual wages (in EUR) for
+      surveyed workers at the company/facility
+    have_cba: "Have CBA"
+    have_cba_info:
+      The percentage of surveyed workers covered by a collective bargaining agreement
     know_brand: "Know brand"
+    know_brand_info:
+      The percentage of surveyed workers who know which brands their factory makes
+      products for
     pregnancy_leave: "Pregnancy leave"
+    pregnancy_leave_info:
+      The percentage of surveyed workers, who had been pregnant, who were given
+      pregnancy leave
   latest: "Latest"
   news: "News"
   footer_info: "is a campaign by the Clean Clothes Campaign, funded by the European Union"

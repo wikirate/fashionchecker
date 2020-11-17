@@ -24,11 +24,12 @@
           %tr.light-blue-bg.border-top-0.border-bottom-2
             %td.medium-blue-bg.border-0.text-left.text-uppercase= t('suppliers_table.company')
             %td.medium-blue-bg.border-0= t('country')
-            %td= t('suppliers_table.female_male_other')
+            %td
+              = t('suppliers_table.female_male_other')
             %td= t('suppliers_table.permanent_temporary')
-            %td.other-blue-bg= t('suppliers_table.average')
-            %td.other-blue-bg= t('suppliers_table.gap')
-            %td= t('suppliers_table.have_cba')
-            %td= t('suppliers_table.know_brand')
-            %td= t('suppliers_table.pregnancy_leave')
+            %td.other-blue-bg= supplier_table_header :average
+            %td.other-blue-bg= supplier_table_header :gap
+            %td= supplier_table_header :have_cba
+            %td= supplier_table_header :know_brand
+            %td= supplier_table_header :pregnancy_leave
         %tbody

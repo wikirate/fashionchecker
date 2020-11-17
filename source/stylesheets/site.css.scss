@@ -564,6 +564,13 @@ main {
   }
 }
 
+.suppliers-table tbody td {
+  white-space: nowrap;
+  &:first-child {
+    white-space: break-spaces;
+  }
+}
+
 .citation {
   font-size: 0.75em;
   text-transform: uppercase;
