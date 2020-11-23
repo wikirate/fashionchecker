@@ -46,11 +46,21 @@
           = t('transparency')
 
         .pb-4
+          = resource :out_of_the_shadows,
+                     "https://cleanclothes.org/file-repository/ccc_dci_report_outoftheshadows_sept2020_highres.pdf/view",
+                     year: 2020,
+                     desc: :clean_clothes_campaign,
+                     new: true
+          = resource :position_pager_transparency,
+                     "https://cleanclothes.org/file-repository/transparency_position_paper_ccc_2020-10-15.pdf/view",
+                     year: 2020,
+                     desc: :clean_clothes_campaign,
+                     new: true
           = resource :fashion_s_next_trend,
                      "https://cleanclothes.org/file-repository/garment_industry_brochure_dec_2019-1.pdf/view",
                      year: 2019,
                      desc: :go_transparent,
-                     new: true
+                     desc: :clean_clothes_campaign
           = resource :surge_in_garment_industry_transparency,
                      "https://www.workersrights.org/press-release/surge-in-garment-industry-transparency-laws-needed-to-ensure-companies-adopt-human-rights-practices/",
                      desc: :wrc,
@@ -138,6 +148,10 @@
           = t('videos')
         .pb-4
           = resource :fashioncheckervid_why_it_is_time,
+                     "https://www.youtube.com/watch?v=qIo7xhPWJS4&feature=emb_logo",
+                     new: true,
+                     desc: :clean_clothes_campaign
+          = resource :fashioncheckervid_gbv,
                      "https://www.youtube.com/watch?v=qIo7xhPWJS4&feature=emb_logo",
                      new: true,
                      desc: :clean_clothes_campaign
