@@ -1,0 +1,721 @@
+zh_cn:
+  header_question_1: "制造<br>您的衣服<br>的工人"
+  header_question_2: "有得到<br>足以维生的工资吗？"
+  find_out: "找出有哪个服装和鞋类品牌公司向其工人支付生活工资"
+  living_wages: "生活工资"
+  not_poverty_wages: "不要贫困工资"
+  living_wages_info: >
+    大多数的制衣工人负担不起生活必需品。
+    公平的劳动报酬是一项基本人权，
+    但那些全球最大服装品牌公司，沒有一个有向其制衣工人支付
+    可以让他们维生的工资。
+  read_more_living_wages: "阅读更多有关生活工资的信息"
+  difference_question: >
+    赚取生活工资和赚取最低工资有什么不同？
+  end: "结束"
+  gendered_pay: "性別工资差距"
+  gendered_pay_info: >
+    80% 的制衣工人是女性。她们得到的工资通常都低于男性。
+    性別不平等的观念根深蒂固于该行业的权利不平衡中，
+    而性別工资差距又与言语攻击、人身攻击和性侵犯有直接的关系。
+  gender: "阅读更多有关性別的问题"
+  resilience: "面对危机时的"
+  in_the_face_of_a_crisis: "应变能力"
+  our_demands: "我们的要求"
+  resilience_info: >
+    几十年来，品牌公司已经从贫困工资中获利无数，
+    而无视制衣工人在不确定的易变时期中的无安全感。
+    新冠肺炎的疫情正正凸显了该行业的社会和经济不平等现象，
+    特別影响了数百万被困于沒有任何法律保障的工作中的工人。
+  your_voice_has_power: "您的声音的力量"
+  take_action: "采取行动"
+  your_voice_info_1: >
+    您的支持能帮助我们实现目标。
+    现在是时候让这些品牌公司
+    对制造我们的服装的工人的生活负责任了。
+    作为消费者，我们拥有力量。我们开口讲话，品牌公司会倾听。
+    要求品牌公司支付工人
+  your_voice_info_2: >
+    以确保您的衣服不再是被剥削的工人制造出来的。
+
+  revenue: "收入"
+  profit: "利润"
+  top_3_production_countries: "前三大生产国"
+  brands_owned_by: "该企业拥有的品牌"
+  headquarters: "总部"
+  owned_by: "品牌所属企业："
+  search_for_brand: "搜寻品牌"
+  interested_in_more_information: "想了解更多资料？"
+  check_out: "查看"
+  see_company_profile: "查看公司概况"
+
+  commitment_score:
+    title: "承诺方面的得分"
+    public_commitment: "公众承诺？"
+    public_commitment_score_1: >
+      沒有证据显示，该品牌公司有做出承诺，致力于为其供应链的所有工人争取生活工资。
+    public_commitment_score_2: >
+      该品牌公司有公开承诺支付“生活工资”。
+      但是，该公司的定义并不符合所有的准则,
+      例如，工资并不足以照顾到工人的家庭。
+    public_commitment_score_3: >
+      该品牌公司已做出公开承诺，致力于为其供应链的所有工人争取生活工资。
+    action_plan: "行动计划？"
+    action_plan_score_1: >
+      沒有证据显示,该品牌公司有公开提出一个设定时限的行动计划,来改善其供应链中的低工资情况。
+    action_plan_score_2: > 
+      该品牌公司可能有一个沒有设定时限的行动计划，但只跟它的一级工厂有关,
+      或者沒有公布细节（不是SMART)。
+    action_plan_score_3: >
+      该品牌公司已定出一个公开、可用的行动计划,致力于为其供应链的所有工人争取生活工资,
+      包括在特定时间范围内的具体步骤。
+    separate_labor_costs_score_1: >
+      沒有证据显示,该品牌公司有通过使用一个既定方法来计算劳工成本,并将这些成本与其他成本分开,
+      从而确保公司有适当地顾及劳工成本。
+      所有品牌公司都应向供应商支付足够的价钱，以支付其供应链中所有工人的生活工资和社会保障费用。
+    separate_labor_costs_score_2: >
+      部分
+    separate_labor_costs_score_3: >
+      品牌公司需要使用一个既定方法来计算劳工成本,并将这些成本与其他成本分开,
+      从而确保公司有适当地顾及劳工成本。
+
+    separate_labor_costs: "分开计算劳工成本？"
+    desc:
+      score_1: "该品牌公司在致力促进其供应链工厂支付生活工资方面的工作做得还不够。"
+      score_2: "得分 2 的文本"
+      score_3: "得分 3 的文本"
+
+  living_wage_score:
+    title: "支付生活工资"
+    desc_1:
+      score_5: >
+        该品牌公司的供应链中,100%的工厂有向工人支付生活工资。
+        此信息是公开的。
+      score_4: >
+        该品牌公司的供应链中,超过50%的工厂有向工人支付生活工资。
+        此信息是公开的。
+      score_3: >
+        该品牌公司的供应链中,有26% 到 50% 的工厂向工人支付生活工资。
+      score_2: >
+        该公司声称,它已经开始支付其供应链所有工厂较高的价格，有助于达致生活工资的水平，但其支付的价格仍不包括劳工成本。
+      score_1: >
+        该公司声称，它已经开始支付其供应链所有工厂较高的价格，有助于达致生活工资的水平。
+    desc_2:
+      score_5: >
+        其制衣工人的收入足以维持生活。
+      score_4: >
+        其部分的制衣工人的收入不足以维持生活。
+      score_3: >
+        其至少一半的制衣工人的收入不足以维持生活。
+      score_2: >
+        其大部分的制衣工人的收入不足以维持生活。
+      score_1: >
+        其制衣工人的收入不足以维持生活。
+
+  transparency_score:
+    title: "供应链资料的透明度"
+    read_more: "阅读更多资料"
+    about_why_transparency_is_important: "透明度的重要性"
+    about_how_this_score_was_calculated: "计算此分数的方法"
+    what_does_this_mean: "这代表什么意思？"
+    desc:
+      score_1: "该品牌公司没有做到其透明度承诺中所要求的，公开其供应链中的工厂和制衣工人的资料。"
+      score_2: "该品牌公司只提供一些有关其供应链中的工厂和制衣工人的资料，但资料不足；例如，提供工厂名称，但没有地址。"
+      score_3: "该品牌公司有提供基本资料，例如工厂名称和地址、产品类型、工人数量和所属供应商集团（如果该厂是某集团旗下的工厂）"
+      score_4: "该品牌公司以实用的、电脑可读的格式，例如Excel电子表格，来提供基本资料，让公众可以使用其数据。"
+      score_5: "除了基本资料，该品牌公司还提供了其他资料，并以实用的、电脑可读的格式，例如Excel电子表格来输入，让公众可以使用其数据。"
+
+  suppliers_table:
+    explore_supply_chain: "索览供应链"
+    sourcing_from_factories: "从以下工厂采购"
+    found: "找到"
+    number_of_workers: "工人数量"
+    wage: "工资"
+    workers: "工人"
+    company: "公司"
+    female_male_other: "女性/男性/其他"
+    permanent_temporary: "长工/短工"
+    average: "平均数"
+    average_info:
+      受访工人的工资单上列出的每月平均净工资（当地货币转换为等值欧元）
+    gap: "差额"
+    gap_info:
+      受访工人的实际工资和法定最低工资之间的每月平均差额（以欧元为单位）
+    have_cba: "有CBA"
+    have_cba_info: 有集体劳资谈判协议的受访工人百分比
+    know_brand: "知道品牌"
+    know_brand_info:
+      知道他们的工厂为哪些品牌生产产品的受访工人百分比
+    pregnancy_leave: "产假"
+    pregnancy_leave_info:
+      受访工人中，曾怀孕、而工厂有给予产假的百分比
+  latest: "最新"
+  news: "消息"
+  footer_info: "是全球联盟组织“清洁成衣运动（Clean Clothes Campaign)”发起的一项运动，由欧盟资助。"
+  methodology_title: "我们的研究方法"
+  methodology_paragraph_1: >
+    我们把调查问卷发送给90多个品牌公司，使他们有机会来展示他们在促进供应链中的所有工人能得到生活工资方面所做的努力，
+    以及披露他们的生产地点（如果他们还未就“透明度承诺书”而披露的话）。
+    我们的重点是通过这项研究收集到的SMART数据，以一个透明的、全面的格式向消费者、制衣工人和政策制定者展示品牌公司为达到能支付工人生活工资所做的努力。
+    长远来看，我们希望在“时装核查（Fashion Checker）”上的品牌代表将成为其公司尽责调查和CSR验证过程的一部分。
+  methodology_paragraph_2: >
+    研究课题的敏感度使我们的调查极具挑战性，当中包括了工人因害怕遭遇报复而不愿与研究人员坦诚交谈。
+    研究初期，我们到厂房做实地调查的工作只能在五个可以接触到制衣工人的国家中进行：印尼、中国、克罗地亚、印度和乌克兰。
+    我们收集了工人的工资单，和工人进行访谈，以了解工资单上的资料的意思；并按性别分类进行统计分析（例如：性别工资差距、工作职责、工作时间、奖金、加班等）。
+    最后，我们再根据品牌公司对其生活工资方面所作的回应，以及他们根据该基准支付的供应商所占百分比的数据，来和我们收集到的实际工资数据做对照。
+    随着该调查项目的进展，我们将逐步添加更多国家的数据。
+  methodology_paragraph_3A: "我们与开放式数据专家"
+  methodology_paragraph_3B: >
+    合作，对品牌公司发放的供应链资料进行汇总和合并。我们也使用了
+  methodology_paragraph_3C: "和"
+  methodology_paragraph_3D: >
+    等收集到的数据。
+    这个数据库，以及来自可信赖的、具备长期运作经验的合作伙伴的数据集，
+    让我们可以把这些证据以方便用户的方式向公众公开。
+    我们也在专家的帮助下，测试了多种显示数据的方法，以达到广泛的可用性。
+  gender_header_1: "服装行业的性别问题"
+  gender_lead: >
+    服装业中绝大多数是女工的现象显示了该行业的真面目。
+  gender_influences: >
+    性别问题以无数种方式影响着劳动工作：对妇女可以从事何种工作的看法、应该如何做、工资水平、她们与雇主的关系，以及法律的制定。
+    任何事情的进行和可接受性，都会受到固有的性别观念的影响。
+    从最基本的，例如工资水平以及工资的支付速度，到雇佣条款，包括没有合同、没有病假或产假、没有组织权、没有养恤金；以及主管与员工讲话的方式、触摸员工的情况。
+    详细的工厂概况资料显示出，工厂层面的工作中，女工都集中在低下级的角色，例如机器操作员和检查员。
+    女性通常受雇于低技能的职位，很少能在其工厂或工会中担当领导职务。
+  croatian_gender_quote: >
+    “我放工回家，不到晚上我都没有机会坐下来。我需要煮饭、洗衣服、陪孩子们做功课……到了晚上，我已经累得不行了，我只能在躺下睡觉之前尽量不要倒下去。”
+  a_worker_from_croatia: "来自克罗地亚的工人"
+  women_face_stress: >
+    女性面临着多方面带来的压力：工作无安全感、言语和肢体骚扰、低薪引起的营养不良、强迫加班导致的疲惫，以及对不安全的工作方式和工作环境的无力感。
+    在工作场所外，女性的权利也受到侵犯。这也是不可忽视的，因为这些经验都会塑造了一位女工的真我，不管是在工作场所内外。
+    女性承担着工作和养育孩子双重工作量的歧视、在社区中和家庭中的歧视、在法律面前的歧视（关于财产所有权、遗产继承等法例），这些因素都直接创造了女性生活和工作的环境。
+    当她进入工作场所时，并不代表她就能摆脱掉这些现实状态。而再进一步显而易见的影响就是女性及其子女的健康问题。
+  low_wages: "低薪"
+  when_looking_at_the_garment_sector: >
+    制衣业里面的性别分工是很明显的：供应链越下游，工作就越不稳定，工资也越低，女工所占率就越大。雇主会利用文化定型观念的好处，把女性描绘为被动的、灵活的，而且不大可能挑战管理方式或管理层。女性的工资通常比男性低，因为男性被视为养家者，而女性的收入则被视为补贴性质的。然而，实际上，女工经常是家庭中唯一有收入的。这种不平等的现象很明显地体现在男性工资和女性工资之间的差距，我们称之为“性别工资差距”。在制衣业中，即使大家从事同样的工作，女性的工资也往往比男性低。
+  since_women_are_mainly_employed: >
+    由于女性主要受雇于低薪和低权力职位，因此她们更容易受到贫困问题的影响。而贫困又增加了女性成为暴力和骚扰受害者的可能性。在那些女性通常赚取低薪又没有多少决策权的行业中，因性别而引起的暴力和骚扰行为则最为常见。具有供应链结构的纺织业，属于在结构上鼓励暴力和骚扰的行业之一。由于女工占大多数，包括许多年轻妇女和移民工，因此大部分的制衣工人也没有任何可以改善她们的状况的权力。她们与上司的关系是一种不平等的依赖关系，而上司大多数都是男性，很多时候也是她们的施暴者。
+  gender_based_violence: "基于性别的暴力行为"
+  gender_based_violence_is_both_a_cause: >
+    基于性别的暴力行为（以下简称“GBV”），既是贫穷和性别不平等的原因，又是其后果。 GBV的范围从性别歧视（例如没有产假或无法获得托儿服务）到残酷的人身暴力（例如强奸和谋杀）。最近的一份调查报告，
+  found_that_76_of_all: >
+    发现，76%的受访工人在工作场所中曾遇到某种形式的GBV。而在所有的GBV案例中，性骚扰是工人最常受到的暴力行为。而在人身暴力方面，“掌掴”是最常见的行为，有80%的工人经历过。工人表示，当生产目标很高以及/或者期限快到的时候，受到监工掌掴就更为常见。其他最常见的暴力形式是殴打（44%）、脚踢（42%）和拳打（11%）。虽然家庭暴力是针对女性的性暴力最普遍的形式之一，但在那些经历过被强奸的受访者当中，令人震惊的是有6%是被监工或生产线主管强奸的。
+  despite_its_prevalence_in_the_garment_sector: >
+    尽管GBV在服装行业很常见，但在工厂审核中通常没有提及，因为惯常的审核做法和格式不会深入到可以让工人来谈论这些敏感问题。与工人的面谈通常是在现场进行的，有时甚至是在男上司面前进行，而这些男上司有可能就是GBV的犯案者。
+  to_address_gender_based_violence_in_the_supply: >
+    为了解决供应链中基于性别的暴力行为问题，品牌公司需要了解并认识到自己在这暴力问题中的“帮凶”角色。最近的研究表明，买家越来越多利用杠杆作用，要求供应商降低价格、以更短的交货时间来完成更多的产量，并且突然改变订单。结果，供应商提高了工人的生产目标，而当目标未达到时，对工人的暴力和骚扰行为就会增加。
+  this_is_confirmed_by_the_evidence: >
+    孟加拉的调查报告证实了这一点：在该调查中，64%的受访者表示，他们在生产服装产品方面承受巨大压力，其中有35%的受访者表示他们因此遭到监工的暴力对待。此行业的其他利益相关者在分析制衣厂内的暴力和骚扰问题时也发现了同样的权力动态关系。公平服装基金会（Fair Wear Foundation)指出，生产压力（包括价格压力和交货时间压力）与暴力和骚扰问题有关，并从多方面表现出来：例如，晚上加班使女工容易遭受性侵犯，包括在工厂内及回家途中。承受高生产目标压力的监工更有可能对工人施加暴力。除此之外，如果奖金和产量挂钩的话，工人则更容易屈服于监工的性要求，来换取核准目标额。
+  indian_gender_quote: >
+    “我们在工作场所中遭受言语攻击。女工应该由女监工来负责管理。我们需要更高的薪水，以便我们照顾孩子。”
+  a_female_worker_from_india: "来自印度的工人"
+  when_you_are_living_pay_check_to_pay_check: >
+    当您需要靠发薪度日时，叫您辞掉这份使您免于饥饿的工作是不现实的事，特别是当您还有多张嘴等着您去喂的时候。品牌公司需要做更多的工作，以确保其供应链中的女工免受虐待，并致力于为所有工人提供生活工资。
+  read_more_about: "了解更多有关"
+  who_are_we: "我们是谁？"
+  menu_who_we_are: "我们是谁？ "
+  menu_methodology: "研究方法"
+  menu_gender: "性別问题"
+  clean_clothes_campaign_is_a_global_network: >
+    “清洁成衣运动（Clean Clothes Campaign, CCC)”是一个全球联盟组织网络，
+    致力于改善全球服饰和运动服产业工人的工作条件，与工人的培力。
+  since_1989_ccc_has_worked_to_ensure: >
+    自1989年以来，CCC一直致力于确保工人的基本权利得到尊重。我们教育和动员消费者，游说公司和政府，并在工人为自己争取权利和要求更好的工作条件的时候，向他们提供直接的支持和声援。
+  as_a_grassroots_network_of_hundreds: >
+    作为一个结合了服装生产和消费者市场中数百个组织和工会的基层网络，我们可以发掘到当地的问题，并制定运动策略来支持工人实现其目标。我们也与类似的劳工权益运动和团体广泛合作。
+  all_workers_regardless_of_sex_age: >
+    所有工人，不论性别、年龄、原籍国、法律地位、就业状况或地点，或任何其他基本特征，均有权享有良好和安全的工作条件，他们可以行使其自由结社和集体谈判的基本权利，并赚取一份生活工资，使他们可以有尊严地生活。
+  visit_site: "浏览网站"
+  transparency_header: "透明度"
+  knowing_where_your_clothes_are_made: >
+    了解您的衣服是在哪里生产的，以及是由谁生产的，
+    这是改善工人工作条件至关重要的一步。
+  transparency_in_production_supply_chains: >
+    生产供应链中的透明度是改善工作条件的第一步，但这并不是解决方案。有披露其供应链工厂数据的品牌公司并没有比那些没有披露的公司好，也不代表他们所支付的薪水或工作条件就会比较好。它只是让我们稍微容易确定公司对侵犯劳工权利存在的责任。知道一间工厂为哪些品牌公司生产服饰，有助于品牌公司互相合作，解决劳工权益问题。
+  transparency_needs_to_be_the_cornerstone: >
+   “品牌公司如果要认真建立一个免于侵犯人权的供应链的话，透明度是必要的基石。”
+  aruna_kashyap: >
+    人权观察组织 妇女权利高级顾问 Aruna Kashyap
+  menu_transparency: "透明度"
+  in_2016_nine_labor_and_human: >
+    2016年，九个劳工和人权组织成立了一个
+  to_advocate_for_transparency: >
+    ，来倡导服装供应链的透明度，他们呼吁所有服饰和运动服生产公司签署一份
+  coalition: "联盟"
+  transparency_pledge: "“透明度承诺书”"
+  the_pledge_is_based_on_existing: >
+    。该承诺书参考了现有的、正面的行业惯例。目的是通过呼吁品牌公司以标准化形式发布其供应链、制造过程中的所有工厂的有意义的资料，来帮助制衣业在“供应链资料披露”方面达到一个通用的最低标准。
+  there_has_been_an: "时装品牌公司在哪里生产衣服，以及如何生产的透明度"
+  encouraging_increase: "已经越来越高"
+  in_how_transparent_fashion_brands_are_on: >
+    。越来越多的品牌公司公开了它们的生产地点，并签署了
+  however_there_are_still_too_many_brands_that: "。然而，仍然有很多的品牌公司"
+  refuse_to_do_so: "拒绝这样做"
+  and_even_the_most_progressive_brands: >
+    ，即使是最进步的品牌，也仍然没有公开其完整的供应链；对于在提高工资方面缺乏进展的情况，他们宁愿以模糊的承诺来掩盖，而不是由可验证的、客观的数据来说明。
+  what_are_they_hiding: >
+    他们在隐瞒什么？没有一个品牌公司发布清楚的资料来说明工人的工资水平，甚至没有说明其公司有什么具体的计划，来确保其供应商如何（以及什么时候！）能够支付生活工资。有很多模糊的“承诺”，但工人需要的是有时限的、可量度的、可执行的步骤来改善他们的情况。在供应链的下游，资料几乎是空白的：包括分包商、家庭作坊的工人、收割和加工原材料和纺织品的工人。
+  we_re_demanding_that_brands_do_better: >
+    我们要求品牌公司要做得好一些：展示你们会做些什么工作来促进工人得到生活工资，并公开这些信息。我们也要求决策者创造一个公平的竞争环境：所有品牌公司都要达到法定的、最低限度的透明度；之后品牌公司当然可以再自己提高透明度。这是公司进行尽职调查的唯一方法，从长远来看，也是保持消费者信任的唯一方法。
+  going_beyond_the_pledge: "超越承诺层面"
+  since_the_birth_of_the_pledge: >
+    自从“透明度承诺书”运动的开展以来，服装业关于供应链的透明度大大提高了。现在有数十家品牌公司公布了供应商工厂的名称、地址和其他详细资料。但这仅仅是一个起点。重视道德的供应链的服装品牌公司可以、也应该做得更多。有少量公司已经开始披露其第一级工厂以外的供应链资料了，包括有关原材料生产的信息。但是，透明度承诺是一个底线，而不是上限。为了营造服装业变革所需的条件，品牌公司需要收集更多有关其供应链中的工厂的数据。
+  the_bottom_of_the_supply_chain: "供应链的最底层"
+  we_want_brands_to_ask_suppliers_where: >
+    我们想要品牌公司询问他们的供应商：女性在哪儿？移民工在哪儿？最低的工资是多少？这会让他们更加清楚其供应链中权力不平衡的状况，而这正是要进行改善的第一步。
+  worker_unions: "工会"
+  we_want_brands_to_ask_suppliers_if: >
+    我们想要品牌公司询问他们的供应商，他们的工厂是否有工会或工人委员会？我们通常都不知道，制造我们的衣服的人是否有发声的机会。我们想知道，在供应链中，拥有权力的是什么人？
+  readable_data: "可读的数据."
+  we_want_brands_to_release_the_data: >
+    我们想要品牌公司以有用的、和可读的格式来发布其有关供应链的数据。他们应该按照标准，以电脑可读性的格式，提供所有生产单位和加工厂的资料。品牌公司需要提供可供下载的
+  transparency_for_the_consumer: "为消费者提供透明度"
+  we_want_governments_to_increase: >
+    我们呼吁政府提高产品的透明度，使公民在购物时知道如何做出明智选择。我们希望可以扩展纺织品标签上的资料类型，以增加制造商的相关资料。我们亦希望改善
+  eu_ecolabel: "“欧盟生态标签（EU Ecolabel)”"
+  to_reflect_wage_abuses: "上的社会和可持续性准则，以反映工人工资被剥削的情况。"
+  for_more_about_our: "进一步了解我们推动的"
+  transparency_campaign: "透明度的运动"
+  csv_or_json_data: "CSV 或 JSON 数据"
+  learn_more: "了解更多"
+  menu_living_wage: "什么是“生活工资”"
+  what_is_a_living_wage: "什么是“生活工资”？"
+  a_living_wage_recognized_by_the_un_as_a_right: >
+    生活工资，被联合国确认是人权的一部份，指的是该份工资是足够为工人及其家庭提供一个体面的生活水平。
+  it_should_be_earned_in_a_standard_work_week: >
+    工人工作的时间应该是标准的、一周不超过48个小时；该份工资必须足以支付食物、水、住房、教育、医疗保健、交通、衣服的开支，以及一些可自由支配的收入，包括储蓄，以备不时之需。
+  why_the_minimum_wage_is_not_enough: "为何最低工资是不够的？"
+  legal_minimum_wages_in_garment_producing: >
+    全世界成衣生产国家的法定最低工资均远低于生活工资，这意味着制衣工人无法满足自己及家庭最基本的生活所需。而且，法定的最低工资与生活工资之间的差距日益扩大。在很多国家，最低工资远远低于生活工资。在亚洲，最低工资可以低至只占生活工资的21%（孟加拉），至约46％（中国）（2019年的调查）。
+    在欧洲的生产国，我们有时会看到更大的差距，从乔治亚的10%到匈牙利的40%。
+  i_became_the_backbone: >
+    “我是我们家庭的骨干，但我的薪水不足以满足家庭的日常需求”。
+  a_worker_from_indonesia: "来自印尼的工人"
+  there_are_a_number_of_countries: >
+    而且，许多国家根本没有法定最低工资。生产国的政府往往没有动力去提高最低工资，担心最低工资的提高会导致品牌公司将订单转移到其他劳动力成本更低的国家。这是服装业面对的现实情况，这意味着最低工资永远不可能会提高到能维持生计的水平（与生活基本所需的价格上升相一致）。除此之外，在最低工资的讨价还价过程中，通常没有、或没有足够的工人代表。在大多数服装占很大出口比例的国家中，政府只是逐渐提高最低工资，因通胀率而稍作调整。这些涨幅往往来得太晚，而且微不足道。以孟加拉为例，工资最低的工人到现在仍然只能赚取他们自2016年以来所要求的、和所需的工资的一半。
+  living_wage_benchmarks: "生活工资基准"
+  calculating_a_living_wage_is_not_easy: >
+    计算生活工资并非易事， 但当然也不是不可能。一些学者、工会和劳工权益团体已经为一个或多个国家或地区制定了可靠的基准。一个稳健可靠的基准必须符合以下条件：
+  transparent_in_method_and_conclusion: "方法和结论具透明度"
+  revised_on_a_regular_basis: >
+    定期修订，确保有考虑到通胀和基本所需品的费用上涨问题。
+  established_in_negotiation: >
+    与国家内的工会或地区工会建立协商关系，避免增加工资竞争的情况。
+  enough_to_cover_the_full_basic_needs: >
+    足够满足一个家庭的全部生活基本所需----这是工资水平的底线，然后加上储蓄。这包括了单亲母亲，或者需要抚养两名年老亲人的单身工人。
+  a_living_wage_benchmark_should_put_a_floor: >
+    生活工资的基准应该是为工资水平设置一个底线，而不是上限。除了确保所有工人的最低收入外，它应该进一步促进工人生活的改善。
+  savings_and_survival: "储蓄与生存"
+  asia_floor_wage_alliance: >
+    亚洲基本工资联盟（Asia Floor Wage Alliance）、全球生活工资联盟（Global Living Wage Coalition)以及工资指标基金会（Wage Indicator Foundation）制定的基准就是符合这些条件的例子。公平服装基金会（Fair Wear Foundation）的“工资阶梯”把当地的法定最低工资与几个基准来进行比较，也是另一个有用的工具。
+  sometimes_i_have_to_take_painkillers: >
+    “有时我必须服用止痛药，我还需要涂凝胶来缓解肌肉和关节的痛楚。有几次我不得不去打针，因为都僵硬了。”
+  life_is_full_of_the_unexpected: >
+    生活充满了意外之事。赚取一份工资本应让您有足够的保障来面对生活中的突发事件。但事实是，服装业和运动服行业大多数的工人的收入并不足以满足生活的基本所需，这意味着他们无法在困难时期中生存。新冠肺炎疫情使这问题显而易见。品牌公司取消订单以保住他们自己的现金流量，使供应链中的工厂不仅没有资金支付工人的工资，也无法支付其他的生产成本。很多工厂都倒闭了，解雇了数千名工人。
+  not_only_have_brands_been_refusing: >
+    品牌公司不仅拒绝为那些已经在生产中的订单付款，有些甚至已经运送到商店中的订单也被拒付款；而这些品牌的商店还一直在进行促销活动，为消费者提供折扣等；但那些处于供应链底部的工人就一无所有。很多工人都上街抗议，声讨他们自三月份以来的欠薪，或者抗议他们在工厂没有采取任何适当的安全措施下被迫重新开工。但，由于他们没有钱，所以别无选择。非正式工人受到的影响则更大。国际劳工组织（International Labour Organization, ILO）估计，由于很多业务因新冠肺炎疫情的限制而被摧毁，非正规经济领域内有约16亿的工人的生计受到
+  massive_damage: "严重损害。"
+  to_their_livelihood: >
+    
+  trade_unions_worry: >
+    “工会担心，由于制衣工人转向其他行业，包括性工作，之后制衣行业内的童工、抵债劳工和人口贩卖情况会激增。”
+  the_emperor_has_no_clothes: >
+    《皇帝沒有新衣：疫情下的服装业供应链》（The Emperor has no clothes: Garment supply chains in the time of pandemic）；亚洲基本工资联盟出版。
+  all_actors_in_fashion_now_understand: >
+    现在，所有时装界人士都意识到重新构思该行业及其商业模式的紧迫性和重要性。我们希望“生活工资”成为时装界讨论的前列话题。现在是重建服装和运动服行业的时候了，以确保在整个供应链中的工人得到合理的工资和安全感。
+  for_more_information_on: "更多关于"
+  covid_19: "新冠肺炎疫情的资料"
+  brand_responsibility: "品牌公司的责任"
+  brands_put_forward_all_kinds_of_excuses: >
+    品牌公司为他们不履行生活工资的责任而提出了各式各样的借口：这是供应商或政府的责任；无法支付更高的价格，因为会无法在市场中生存下去；消费者不想付较高的价钱；没有共识如何计算生活工资等等。但是，尽管品牌公司可以将生产外包；然而，他们仍然要承担尊重人权、和支付生活工资的责任。
+  the: " "
+  un_guiding_principles_on_business_and_human_rights: "《联合国工商企业与人权指导原则》（UN Guiding Principles on Business and Human Rights）"
+  un_guiding_principles_clearly_states: >
+    ，以下简称《联合国指导原则》，明确规定了企业和国家政府的作用和责任。
+  the_un_guiding_principles_three_pillars: "《联合国指导原则》建基于以下三个支柱："
+  the_state_duty_to_protect_human_rights: "国家保护人权的义务"
+  the_corporate_responsibility_to_respect_human_righ: "公司尊重人权的责任"
+  access_to_remedy: "遇有违反权力与义务事件时，能获得适当与有效的补救"
+  this_establishes_a_principle_of_shared_responsibil: >
+    这确立了国家与企业之间共同承担责任的原则。这意味着政府有义务把法定最低工资制定在一个可以维持生计的水平，通过这样去保护工人获得生活工资的人权。而企业则必须相应地尊重工人赚取生活工资的人权。
+  the_framework_also_clearly_states_that: >
+    该原则框架还清晰指出，尊重人权的责任的存在，是“独立于国家履行其自身人权义务的能力和/或意愿，不会克减这些义务。同时它的存在，首先要遵守国家保护人权的法律和条例。”换句话说，在政府未能保护人权的情况下----例如当法定最低工资未能达到最低生活水平（生活工资）的时候----工商企业仍然有义务去尊重工人赚取生活工资的人权，并通过补救措施纠正国家的失责。
+  the_workers_wages_have_been_regularly_delayed: >
+    “自2019年初以来，工人的工资就经常被拖欠一两个月。每次都是我们去投诉，他们才付工资。但这个月没有付。工厂负责人说，是因为有公司没有付款。但我们做了我们的工作了。”
+  a_worker_from_ukraine: "来自乌克兰的工人"
+  the_un_guiding_principles_establish: >
+    《联合国指导原则》确立了供应链责任。任何生产公司都应对其整个供应链中发生的所有人权事件负责，不管侵犯人权事件是在哪里发生的（意即：在他们自己的厂房里、外判商的厂房，或是家庭作坊的）。因此，尽管服装生产通常是外判的，但企业还是要承担责任的，该责任是不能下放或外判给供应链工厂的。
+  why_do_we_talk_about_paying_factories_not_workers: "为什么我们讲的是支付给工厂，而不是工人？"
+  brands_do_not_pay_workers_directly: >
+    品牌公司不会直接支付薪水给工人。他们付款给供应商，供应商再支付制衣工人工资。供应链中的供应商公司通常分为三级。接受品牌公司的委托、与他们签订生产合同的通常是一级供应商公司。这些一级供应商公司再把工作外判给其他供应商。
+  on_their_current_wages_garment_workers: >
+    就目前的工资水平，制衣工人通常不得不在医疗护理或子女教育之间做出艰难的决定。工人因营养不良而晕倒是很常见的，因为他们的收入通常不足以养活自己和家人。再加上其他方面带来的压力，例如支付杂费账单和贷款，以及不人道的长工作时间造成的睡眠不足，都给数百万工人带来了长期的健康后果。大部分工人都要在购买食物或看医生之间做出选择。
+  suppliers_are_forced_to_estimate_the_lowest: >
+    供应商被迫估算每件产品的最低生产成本，以便与品牌公司议价和争取生产合同。这个价格应该是足以应付工厂的经营成本的，包括了租金、电费、水费、维修费、材料成本、运输费、工厂的利润，以及支付所有的人工成本。为了与其他一级公司竞争，供应商会根据法定最低工资，而不是生活工资，来预算劳工成本；工作时间则以一天十个小时（包括两小时的加班时间），而不是八个小时来预算的。
+  my_job_is_exhausting: >
+    “我的工作很累。我每天需要做18个小时。很多工人因为无法完成工厂定下的生产目标而被解雇了。”
+    
+  current_purchasing_practices_reflect_the_rise_of_f: >
+    目前市场上的购买行为反映了“速食时装”的兴起。在时装界，以前都是一年四个风格季节，但Zara品牌则带领起每月更换款式的做法。现在，大部分的高街品牌每年都会生产52个“微季节”。对于热门商品，品牌公司会突然订购两倍的产品。产品的高周转率，加上不确定的订单数量，造就了当前的行业模式。工厂则利用灵活的工作合同、生产波动周期间的失业率、以及降低工资水平的方法，将买家采购行为的不确定性转移到工人身上。
+  my_factory_doesn_t_give_me_a_pay_slip: >
+    “我的工厂没有给我工资单。我们很努力地生产这条裙子。我们每天至少工作12小时，在高峰期间还可能延长到每天工作24个小时。”
+  a_worker_from_india: "来自印度的工人"
+  brands_need_to_take_responsibility_to_modify: >
+    品牌公司需要承担责任，改变他们的采购习惯，来确保其供应商有能力给工人支付工资。我们将继续与工人组织和工会合作，以确保这些改变措施是有效的。
+  unions_and_worker_committees: "工会与工人委员会"
+  workers_have_little_to_no_power_to_fight: >
+    工人几乎没有任何权力去争取更高的工资。结社自由（Freedom of Association，FOA)承受着巨大压力；而在许多成衣生产国中，那些为争取更高工资的工会遭受打击是绝非罕见的。在过去几年中，用来代替工会而成立的工人委员会的数量有显著的增加。这给人一种错误的印象，好像现在的工人既有组织又有力量。品牌公司经常声称工人委员会和工会在本质上是一样的，但这可能仅在少数情况下是正确的。
+  trucks_are_constantly_leaving: >
+   “货车不断开走，所有产品都卖掉了；我们的工作量很大，但他们一直说没有钱。我的合同每三个月延长一次。我没有安全保障。”
+   
+  a_worker_in_croatia: "来自克罗地亚的工人"
+  instead_of_promoting_fair_worker_representation: >
+    工人委员会的成立，与其说是为了促进公平的工人代表，不如说是为了取悦品牌公司、供应商和地方政府，让他们支持一个可以大大降低工人权力的替代结构。工厂管理层往往参与到工人委员会中，削弱了制衣工人的组织权，无法摆脱其政府或顾主的干预。此外，在某些国家，例如孟加拉，法律列明，工人委员会不可以就工资进行讨价还价。而工会则是会这样做的。这意味着，品牌公司支付的生产价格最终受到了保护。
+  we_are_never_allowed_to_go_home: >
+    “在产量未达标之前，我们不可以回家。”
+  we_want_brands_to_do_more_to_support: >
+    我们希望品牌公司多做一些工作，来支持他们供应链中的工人。收集工会和工人委员会的数据，可以让大家更加了解服装和运动服生产过程中，侵犯人权事件的原因和后果。
+  foa: "结社自由"
+  i_have_problems_with_my_stomach: >
+    “我的胃有问题。因为营养不良，我需要动手术，现在我需要注意饮食。但我买不起好的食物。他们给我们吃的糕点是用废面粉做的。”
+  women_can_be_made_to_dance: >
+    “他们可以玩弄妇女，让她们像木偶一样跳舞，但他们不能以相同的方式来虐待男人。如果我们有什么要求，工厂老板不会理我们的；但如果是男工提出的话，他们就必须做出考虑。所以他们不请男工。”
+  a_worker_from_bangladesh: "来自孟加拉的工人"
+  gbv_in_bangladesh: "《孟加拉国基于性别的暴力行为》"
+  about_fashion_checker: "关于时装核查（Fashion Checker）" 
+  about_the_campaign: "关于此运动"
+  a_living_wage_for_garment_workers: >
+    制衣工人的生活工资和高透明度的供应链
+  menu_about_fashion_checker: "时装核查（Fashion Checker）"
+  about: "关于"
+  brands_in_the_fashion_industry_put_millions: >
+    时装界的品牌公司投放数以百万的广告费，宣传他们是道德的和可持续发展的公司；他们多次声称有支付他们的工人生活工资。时装核查（Fashion Checker） 展示了这与实际情况相差有多远，让消费者和制衣工人可以看到世界大品牌公司的供应链的真实数据。
+    
+  power_in_the_garment_industry: "制衣行业的权力问题"
+  we_believe_all_workers_in_a_supply: >
+   我们相信供应链的所有工人都有获得合理工资的权利。自该行业诞生以来，为服装和运动服市场生产服饰的工人一直在赚取
+  poverty_wages: "贫困工资"
+  since_the_birth_of_the_industry_our_research_shows: "。我们的研究表明，"
+  no_major_clothing_brand: "没有一个大的服装品牌公司"
+  is_able_to_prove_that_workers_making_their_clothin: >
+    能够证明他们在亚洲、非洲、中美洲或东欧的制衣工人的工资是足以维持生活的。
+  an_estimated_60_million_workers: >
+    估计全球有6000万工人在背后为这创造了数十亿美元利润的服装业生产产品。大部分的工人需要工作很长的时间，以及从事多份工作，才能维持生计。这些工人中大约有80%是女性。这不是巧合。赚取贫困工资的工人几乎没有能力为自己的权利而斗争，这就是为什么她们在这剥削性工作中仍然赚很少钱的原因。这是该行业内系统性的权力失衡所造成的。
+
+  earning_a_living_wage: "赚取生活工资"
+  demanding_a_wage_you_can_live_on: >
+    要求一份可以维持生计的工资，应该是很合理的。我们在2015年就已经提出要求：
+    
+  living_wage_now: "“现在就要生活工资”"
+  in_2015_it_s_five_years_later: >
+    。五年过去了，但还是没有进展。现在是时候要进行改变了。现在是解决服装和鞋类行业中造成贫困工资的系统性原因的时候了，也是迫使品牌公司承担责任的时候了。
+  for_decades_brands_and_retailers_have_built: >
+    几十年来，品牌公司和零售商一直依靠低成本来获取利润。由“速食时装”引起的全球服装供过于求的现象，使品牌公司能够迫使供应商同意以最低成本来生产服装和鞋类。品牌公司向供应商支付的价格应该是要足以支付工厂的运营成本、购买生产材料、运输费、支付人工，以及工厂的利润。当中，工人的工资是最容易被削减的成本。
+  gender_in_the_garment_industry: "成衣业里的性別问题"
+  a_lot_of_informal_work_is_done_by_women: >
+    妇女从事许多非正式工作，无论是自顾还是分包商。她们的工资更不稳定。性别工资差距仍然是当今最大的社会不公之一。在全球经济中，同工同酬运动已渐见效果；但在服装和鞋类制造业里，性别工资不平等的现象仍然十分严重。
+  inside_factories_women_are_mainly_employed: >
+    在工厂内部， 女性主要受雇于低薪和低权力职位。在大多数的成衣生产国内，工厂内部性别权力失衡的根源在于男女不平等的社会文化。供应链越下游，工作就越不稳定，工资也越低，女工所占率就越大。
+  transparency_in_fashion: "服装业的透明度"
+  there_has_been_an_encouraging_increase_in_how: >
+    时装品牌公司在哪里生产衣服，以及如何生产的透明度已经越来越高。越来越多的品牌公司公开了它们的生产地点，并签署了《透明度承诺书》。然而，仍然有很多的品牌公司拒绝这样做，即使是最进步的品牌，也仍然没有公开其完整的供应链；对于在提高工资方面缺乏进展的情况，它们宁愿以模糊的承诺来掩盖，而不是由可验证的、客观的数据来说明。
+  putting_a_spotlight_on_the_supply_chain: "把焦点聚集在供应链上"
+  our_main_focus_is_wages_and_transparency: >
+    我们主要的重点是在“工资”和“透明度”。如果要知道品牌公司是否有向其供应链中的工厂支付足够的费用，来确保工厂可以安全及公平地运营的话，目前，检查工人的工资是唯一可靠的方法。品牌公司系统性地支付过低的生产费，迫使工厂要做出艰难的选择。如果工厂收到的费用不够高，它通常首先削减工人的工资，以支付其他费用。工资和工人安全这两方面往往被置于最后，因为总会有人需要这份工作。
+  brands_are_obligated_by_the: "根据"
+  to_run_their_business_responsibly: >
+    ，品牌公司需要负责任地经营业务。一周最多工作48个小时、赚取一份让您可以舒适生活的工资是一项基本人权。这表示，品牌公司要能够证明其支付供应商足够的费用，让他们能够支付工人工资。大多数的品牌公司甚至不会去计算他们供应链中的工人需要多少工资，才能过上有体面的生活。政府则故意将最低工资维持在较低水平，以鼓励外国品牌在本国生产。而供应商则有目的地将工作外判给非正式工人，以尽量减少工资成本和生产成本。
+  what_are_they_hiding_no_brand: >
+    他们在隐瞒什么？没有一个品牌公司发布清楚的资料来说明工人的工资水平，甚至没有说明其公司有什么具体的计划，来确保其供应商如何能够支付生活工资。在供应链的下游，资料几乎是空白的。而分包商、家庭作坊的工人、收割和加工原材料和纺织品的工人，也是没有任何关于他们的资料。
+  poverty_pay_isn_t_sustainable: "贫困工资是不可持续的"
+  it_is_well_known_that_the_garment_industry: >
+    众所周知，制衣业是地球上最大的碳污染者之一，也是最大的废物产生者之一，其中包括能渗透到环境和工人社区的有毒化学物质。当今的服装界承诺要做到可持续发展、自觉、公平和环保，但却没有任何透明度，也没有提供可维生的工资。
+  paying_poverty_wages_directly_affects: >
+    贫困工资直接影响到整个经济的可持续性和复原力。用贫困工资生产出来的有机衬衫是不可持续的，也永远不应被视为如此。服装业必须进行制度改革，这是不可否认的必要措施；但首先，该制度必须确保数百万受其影响最大的制衣工人的生计。
+  economic_impact: "经济影响"
+  a_living_wage_for_all_workers_should_be: >
+    品牌公司其实应该像劳工权益活动份子那样关注所有工人都能赚取生活工资这一议题。数个服装生产国经历了由低工资和不平等现象引起的社会动荡。尽管面对镇压式的威胁和暴力，工人仍再次走上街头，在绝望中抗议；这些事件也引起了全球品牌公司的紧张反应，因为打断了他们本来顺畅的生产过程。
+  an_unequal_distribution_of_income_and_wealth: >
+    “收入和财富的不平等分配，不仅创造了危机发生的条件，而且本身就是政治和社会冲突的根源。”
+
+  economic_sustainability_and_resilience: >
+    经济的可持续性和复原力对所有国家都很重要，对家庭体系和个人也至关重要。贫困工资特别加剧了妇女的状况，她们通常是社会中主要的照顾者，从事最无偿的照顾工作。生活工资是实现男女机会均等的唯一方法，并可以充分利用到大家的全部能力，这是迈向一个包容和可持续进步的社会的前提条件。
+  returning_the_power_after_covid_19: "新冠肺炎疫情过后，把权力交回工人"
+  clothing_and_textile_manufacturing_has_always: >
+    服装和纺织品的制造一向依靠剥削劳动力。新冠肺炎疫情使这问题更显而易见。品牌公司不必要地取消订单、瘫痪工厂的运作、破坏工人的生计，使服装业损失了
+  billions_of_dollars: "数十亿美元"
+  by_canceling_orders_unnecessarily: >
+    。品牌公司拒绝向工人支付生活工资，任由那些为他们生产衣服的工人在疫情期间没有任何维生方法。数百万的工人正面临无家可归和饥饿的威胁，许多工厂正面临经济倒塌。品牌公司已经控制供应商控制得太久了。现在是时候要进行改变了。 
+  to_do_so_we_need_transparency: >
+    要做到这一点，我们需要透明度。我们想知道供应链中的权力在哪里：哪里的工人薪水最低？工人是否有工会？工会在哪里？妇女和移民工在哪里？现在是时候运用现有数据来突显时装业里的人权侵犯状况，并为整个供应链争取具体的、有意义的、可衡量的工资增长。工人应该得到更好的待遇。消费者应该得到更多的资讯。是时候来重新分配权力和财富了。
+  what_do_we_want: "我们想做些什么？"
+  what_can_you_do: "您可以做些什么？"
+  we_re_demanding_that_brands_do: "我们要求品牌公司要做得好一些："
+  we_want_them_to_show_how_they_are_working: >
+    我们想要他们公开他们会做些什么工作，来促进供应链的工人得到生活工资。我们也要求决策者创造一个公平的竞争环境。这是公司进行尽职调查的唯一方法，从长远来看，也是保持消费者信任的唯一方法。
+  a_living_wage: "所有工人<br>赚取"
+  for_all_workers: "生活工资"
+  tell_brands_to_commit_to_paying_a_living_wage: "要求品牌公司承诺支付生活工资给整个供应链的工人。"
+  we_are_asking_brands_to_pay_an_extra_contribution: >
+    我们要求品牌公司在其生产成本中，增加人工成本的额外费用。这笔额外费用将被保留起来，直接用于支付工资；而不是支付任何其他生产成本。这样，品牌公司可以确保其供应链中的工人能够赚取足以维生的工资。我们也要求品牌公司做出有意义的努力，来减低其供应链中的性别工资差距。这意味着品牌公司要收集制衣工人的更多数据，并与工厂合作，以减少按性别划分的生产角色的现象。
+  a_spotlight: "聚焦于"
+  on_the_bottom_of_the_supply_chain: "供应链<br>最底层"
+  where_are_the_unions: >
+    工会在哪里？移民工在哪里？最低的工资是多少？要求品牌公司以一种可读性的格式，公布其整个供应链从上到下的数据
+  brands_never_release_data_about_the_bottom: >
+    品牌公司从不公布供应链底层的数据。最低工资水平一栏是完全空白的。如果不收集这方面的资料，品牌公司如何可以承诺向工人支付生活工资？
+  we_want_brands_to_ask_their_suppliers: >
+    我们要求品牌公司询问供应商：女性和移民工在生产线中，以及在工厂内外的角色。像女性一样，移民工，他们争取基本人权的能力较弱，也经常像女性一样，从事被剥削的工作。
+  we_want_to_know_if_the_workers_making: >
+    我们想知道，制造我们的衣服的工人是否有发声的机会。工会的存在使工人能够为自己的权益站起来，并为改善工作条件进行谈判。
+  consumer: "消费者"
+  transparency: "透明度"
+  tell_brands_and_policy_makers: >
+    告诉品牌公司和决策者，您想知道您的衣服是怎样制造出来的。
+  do_you_want_to_know_if_the_people_who_made: >
+    您是否想知道，制造您的衣服的工人是否可以请病假？是否有能力送孩子去上学？您是否想知道您所购买的品牌，他们的供应链的工厂是否允许工人加入工会？告诉您的政府，您期望能从衣服标签上得到更多信息。
+
+  support_workers_through_the_devastating_effects: "支持受到新冠肺炎疫情严重影响的工人"
+  sign_the_petition_asking_brands_to_pay_for_orders: >
+    签署请愿书，要求品牌公司支付订单的费用。新冠肺炎来袭，社会运作停顿，品牌公司因而取消订单，制衣业因而损失数十亿美元。数百万的工人已经有好几个月没有领取全额工资。而对他们而言，没有工资，就没有食物。
+  donate_to_our_emergency_fund_to_help_us: >
+    捐款到我们的紧急救援基金，以帮助我们直接支持生产国内的工人；其中许多人在疫情爆发前就已经被拖欠工资。
+  for_information_on_how_to_do_so_please: >
+    有关如何捐款，请到我们网站上的"新冠肺炎疫情（Covid-19)"专页，查看更多资料。
+  follow_our_live_blog_for_the_latest_information: >
+    关注我们的实时博客，获取有关制衣业和新冠肺炎疫情的最新消息。
+  find_out_more_about_our_demands: "查看更多有关“我们的要求”的资料。"
+  donate_to_the_campaign: "捐款支持该运动"
+  you_can_help_fund_this_campaign: "您可以通过捐款来资助该运动。"
+  every_little_bit_helps: >
+    点点滴滴都有很大的帮助。这笔钱将用于网站的维护、
+  future_research_and_translations_of_our_data: "未来的调查项目和翻译数据"
+  donate: "捐款"
+  of_surveyed_brands_aren_t_paying_garment_workers: "调查的品牌沒有支付制衣工人<br>生活工资"
+  want_to_help_workers_fight_for: "想要帮助<br>工人争取"
+  better_working_conditions: "更好的<br>工作条件？"
+  twitter_storm: "推特（Twitter）风暴"
+  menu_take_action: "采取行动"
+  visit_the_websites_of_our: >
+    请浏览我们国内组织的网站，以了解如何通过电邮向品牌公司发送有关此运动的信息。
+
+  support_garment_workers_through_covid_19: "支持制衣工人走过新冠肺炎疫情"
+  sign_the_petition: "签署请愿书"
+  your_voice_matters_brands_are_highly: >
+    您的声音很重要。品牌公司非常注重形象，也非常重视消费者的意见。我们希望您让他们知道，工人应该得到更好的待遇。告诉您购买衣服的品牌公司，您希望您的衣服不是在剥削工人的情况下制造出来的。
+  donate_to_our_emergency_relief_fund: >
+    捐款到我们的紧急救援基金，以帮助我们直接支持生产国内的工人；其中许多人在疫情爆发前就已经被拖欠工资。我们基层网络中的组织正在地方社区中安排分发食品，以支持当地的制衣工人及其家人。请关注我们的实时博客，获取最新消息。
+  living_wage_table:
+    minimum_wage:
+      food: >
+        要获得足够的营养或热量并不容易。您通常每天都吃相同的粥或米饭。肉、鱼和水果太贵了。不吃饭对您来说很普遍；越接近月底，家里的食物就越少。
+      housing: >
+        您与别人同住在一间拥挤的宿舍里。没有私隐，没有暖气或空调，通风不良。没有足够的家具或床。宿舍劣质的建筑材料使住在那里变得很危险。
+      health_care: >
+        您能买到普通的止痛药，但不容易获得月经产品；您买不起处方药，也无法获得紧急医疗服务。睡眠不足、营养不良和差劣的卫生环境影响了您的健康。您必须省下吃饭的钱才能去看医生。
+      education: >
+        您无法为自己或您的子女提供教育的机会。您没有机会去改善自己的状态。您的子女长大后很可能赚取跟您差不多的工资。
+      clothing: >
+        您的衣服在冬天不够保暖。您在工作间整日站立着，但买不起适当的鞋子。
+      transportation: >
+        您没有安全的交通工具。在较贫穷的生产国，公共交通并不多。您上下班需要靠工厂提供的拥挤的货车。作为女性，您会面对性骚扰的风险。
+      savings: >
+        您大多数是负债累累。经常要在付账单还是还贷款中做决定。您过着“手停就口停”的日子。
+    living_wage:
+      food: >
+        您的收入足以养活自己和家人。您的饮食健康、多样，每天至少吃三餐。
+      housing: >
+        您能够为自己和家人提供一个安全的住所。您的住所有用来通风和采光的窗户；您有私隐，有足够的家具和自己的浴室设施。
+      health_care: >
+        您可以容易获得基本的医疗保健服务，包括月经产品和处方药物，例如胰岛素和抗生素。您有储蓄可以应付紧急的医疗费用。
+      education: >
+        您有能力为自己和家人提供教育的机会。您有时间和自由去参加培训，以争取更高薪金的职位。您和您的子女对未来是有选择的。
+      clothing: >
+        您可以选择适合自己、适合天气的衣服。您可以为子女购买正确尺寸的鞋子和衣服。
+      transportation: >
+        您要嘛有足够的收入来安排自己的交通工具，要嘛您的工厂可以提供安全的交通工具。您有储蓄的能力，日后可能可以购买自己的交通工具。最重要的是，您有选择。
+      savings: >
+        您可以储存起一小部分的工资，以应付突如其来的开支和紧急情况；使您在危机时刻具有一定的应变能力。
+
+  to_brands: "致品牌公司"
+  brands_need_to_do_more_to_change_the_power: >
+    品牌公司需要做更多的工作，来改变服装业内的权力动态关系。工人不应该在2020年了还需要为基本人权而抗争。是时候要求变革了。
+  our_wage_demands: "我们对工资的要求"
+  pay_a_living_wage: "支付生活工资"
+  we_want_brands_to_pay_more_for_orders: >
+    我们要求品牌公司支付较高的费用。供应商只有在能够争取到一个足以支付劳动成本的价格的情况下，才能支付工人生活工资。
+  menu_our_demands: "我们的要求"
+  brands_need_to_commit_to_paying_a: "品牌公司需要承诺，在他们下的每一笔订单上支付"
+  living_wage_contribution: "生活工资款项"
+  on_every_order_they_place: "，目标是在2022年12月31日之前，弥补其供应链中所有工人的工资差距。"
+  using_living_wage_benchmarks: "使用生活工资基准"
+  if_brands_are_going_to_pay_living_wages: "如果品牌公司要向整个供应链中的所有工人支付生活工资，他们首先需要知道劳工的成本是多少。有很多工具可以帮品牌公司计算这一费用。"
+  brands_need_to_commit_to_using: "品牌公司需要承诺使用"
+  transparent_and_robust_living_wage_benchmarks: "具透明度又可靠的生活工资基准。"
+  pay_the_women_who_make_our_clothes: "支付工资给制造我们的衣服的妇女"
+  brands_need_to_do_more_to_reduce_gender_inequality: "品牌公司需要做更多的工作来减低服装供应链中的性别不平等问题。女性经常受雇于薪水比男性同工低的职位，这为她们的健康和安全都会带来负面的影响。"
+  brands_need_to_commit_to: "品牌公司需要承诺，在2022年12月31日之前，将其供应链中的"
+  reducing_the_gender_pay_gap: "性別工资差距减少"
+  in_their_supply_chain_by_at_least_30: "至少30%。"
+  covid_19_pay_up: "新冠肺炎 - 付足工资！"
+  when_covid_19_shook_the_world_it_left_the_garment: "当新冠肺炎疫情冲击全球时，服装行业也陷入瘫痪状态。数百万工人已经好几个月没能领取全薪。他们当中许多人在疫情之前就已经被拖欠薪金。而对大多数的工人来说，如果领不到全薪，只领取到部分工资的话，就意味着他们买不起食物。"
+  brands_need_to_publicly_commit_to_a: "品牌公司需要公开承诺，为其供应链中的所有工人提供"
+  wage_guarantee: "工资保证"
+  for_all_workers_in_their_supply_chain_ensure: "。确保所有在新冠肺炎疫情爆发前受雇的工人"
+  receive_their_full_salaries: "获得全薪"
+  or_in_the_case_of_factory_closure_receive: "，或者在工厂倒闭的情况下能获得遣散费。了解更多"
+  our_transparency_demands: "我们对透明度的要求"
+  a_transparent_supply_chain: "一个高透明度的供应链"
+  we_want_all_brands_to_commit_to_a_completely: "我们希望所有品牌公司通过签署“透明度承诺书”，致力于建立一个高透明度的供应链。 “透明度承诺书”制定了一个底线框架，列出公司至少应向外界披露生产工厂的一些基本资料。该标准是由九个工会和劳工权益组织在2017年组成的联盟推出的；并在2017年和2019年的两份报告中进一步作出阐述。"
+  brands_that_haven_t_already_need_to_sign: "还未签署“透明度承诺书”的品牌公司，应该尽快签署。"
+  readable_data_on_women_migrants_and_unions: "关于女工、移民工和工会的可读性数据"
+  not_only_do_brands_need_to_be_collecting_specific: "品牌公司不仅需要收集有关其供应链工厂的工作条件的特定数据，还需要以一个适当的格式发布，让工运家和工会可以使用这些数据。我们想知道妇女和移民工在供应链中的角色地位，以及制造我们的衣服的工人是否有为自己争取权利的机会。"
+  brands_must_disclose_data_using_machine_readable: "品牌公司必须用电脑可读的格式来公开供应商名单相关数据，包括每间工厂里的角色的性别分类，每间工厂里移民工占劳动力的比例，以及是否每间工厂都有工会或工人委员会。"
+  wages_at_the_bottom_of_the_supply_chain: "供应链底层工人的工资"
+  we_want_to_know_what_the_lowest_earning_workers: "我们想知道供应链中收入最低的工人的收入到底是多少？在一个工作周中，他们赚取多少工资？在这方面，目前品牌公司没有公开任何资料，或者根本就没有去审查。这需要做出改变。"
+  brands_must_disclose_data_on_the_lowest_wage_level: "品牌公司必须披露每个生产国、每个供应商一个工作周支付的最低工资水平的数据，包括加班费、福利和奖金。"
+  to_policymakers: "致决策者"
+  it_s_not_just_brands_that_are_responsible: "不仅是品牌公司有责任要确保制衣业工人得到公平和平等的待遇，各国政府在为各方创造一个公平的竞争环境方面也发挥着至关重要的作用。"
+  we_call_for_minimum_wages_in_production_countries: "我们呼吁各个生产国政府应该参考可靠的国际生活工资标准，来确定最低工资的水平；并把透明度和稳健可靠的工资基准纳入政策和协议中。"
+  we_call_for_the_eu_to_ensure_that_minimum_wages: "我们呼吁欧盟要确保在欧盟的工人的最低工资是公平的、可以保证工人能以之过上体面的生活，而且是按照可靠的国际生活工资标准来制定的。除此之外，欧盟也应确保无论雇佣关系如何，工人也能获得适当的社会保障；以及减少社会排斥和不平等的现象。"
+  we_call_for_the_eu_to_require_supply_chain: "我们呼吁欧盟至少应要求违规现象频发的高风险行业的公司披露供应链的信息。供应商名单也应该以电脑可读的格式公布，提供所有生产单位和加工厂的资料，以及各个厂房的名称、地址、母公司、制造的产品类型，和工人数量。"
+  we_call_for_mandatory_disclosure_of_data_on_lowest: "我们呼吁政府制定政策，强制要求公司披露每个生产国的每个供应商支付的最低工资水平的数据，不包括福利和奖金，并按性别、移民工和就业状况来划分；还要对整个供应链中的工人的风险和权利有一定的察觉。"
+  we_call_to_advance_human_rights_due_diligence: "我们呼吁从欧盟层面就推动人权尽职调查方面立法，使公司在其营运和供应链中要尽到尊重人权的义务，当中包括要在尽职调查过程中、供应链和支付工资方面都要保持高透明度，还要对整个供应链中的工人的风险和权利有一定的察觉，并遵循“一个也不能少”的原则。"
+  we_call_to_set_in_place_an_information_system_for: "我们呼吁建立一个信息系统，供公司去报告和披露有关工厂和产品层面的信息，提供足够和透明的数据。此信息系统应该根据既定的开放数据标准，公众可以免费、不受限制地浏览和使用。"
+  we_call_for_increased_transparency_at_product: "我们呼吁提高产品的透明度，以增强公民权能：扩大纺织品标签上的信息的类型，加上产品制造过程和生命周期的资料。"
+  see: "浏览"
+  our_website: "我们的网站"
+  for_more_information_on_these_demands: "查看更多关于这些要求的资料。"
+  fashion: "时装（Fashion）"
+  checker: "核查（Checker）"
+  coming_soon: "即将推出"
+  explore: "索览"
+  the_data: "数据"
+  are_the_people_who_make_your_clothes_paid_enough_t: "制造您的衣服的工人，有得到足以维生的工资吗？"
+  find_out_which_apparel_and_footwear_brands_pay_the: "找出有哪个服装和鞋类品牌公司向其工人支付生活工资"
+  country: "国家"
+  eu_disclaimer: "该网站是在欧盟的财政资助下建立和维护的。网站内容由“清洁成衣运动（Clean Clothes Campaign）”全权负责，未必反映欧盟观点。"
+  tweet_the_brand: "给品牌发推特讯息"
+  menu_resources: "资源"
+  reports: "报告"
+  living_wage: "生活工资"
+  power_dynamics: "权力动态关系"
+  podcasts: "播客（Podcasts）"
+  videos: "影片"
+  who_we_are: "我们是谁？"
+  methodology: "研究方法"
+  see_full_profiles: "查看完整的品牌公司概况"
+  minimum_wage: "最低工资"
+  food: "食物"
+  housing: "住房"
+  health_care: "医疗保健"
+  education: "教育"
+  clothing: "衣服"
+  transportation: "交通"
+  savings: "储蓄"
+  website_powered_by: "网站开发和支持者"
+  privacy_policy: "私隐条例"
+  all_rights_reserved: "版权所有"
+  design_by: "网站设计者"
+  new: "最新"
+  europe_floor_wage_benchmark: "The European Floor Wage Benchmark"
+  exploitation_made_in_europe: "Exploitation: made in Europe"
+  tailored_wages: "Tailored wages"
+  corporate_commitments_to_living_wages: "Corporate Commitments to Living Wages in the Garment Industry"
+  turn_around_h_m: "Turn around H&M"
+  europe_s_sweatshops: "Europe’s sweatshops"
+  presentation: "(presentation)"
+  a_sewing_kit_for_a_living_wage: "A Sewing Kit For A Living Wage"
+  oxfam_australia: "Oxfam Australia"
+  fashion_focus_the_fundamental_right: "Fashion Focus: The Fundamental Right To A Living Wage"
+  the_circle: "The Circle"
+  femnet: "Femnet e.V."
+  wages_gbv_2020: "Wages and Gender-based Violence"
+  fashioncheckervid_why_it_is_time: "Fashion Checker: Why it's time for change for garment workers"
+  fashioncheckervid_gbv: "Gender based violence in the garment industry - Ratify ILO 190"
+  out_of_the_shadows: "Out of the Shadows: A spotlight on exploitation in the fashion industry"
+  position_pager_transparency: "Position Paper on Transparency"
+  clean_clothes_campaign: "Clean Clothes Campaign"
+  fashion_s_next_trend: "Fashion’s Next Trend: Accelerating Supply Chain Transparency in the Garment and Footwear Industry"
+  go_transparent: "#GoTransparent"
+  surge_in_garment_industry_transparency: "Surge in Garment Industry Transparency: Laws Needed to Ensure Companies Adopt Human Rights Practices"
+  wrc: "WRC"
+  fig_leaf_for_fashion: "Fig leaf for Fashion: How social auditing protects brands and fails workers"
+  follow_the_thread: "Follow the Thread. The Need for Supply Chain Transparency in the Garment and Footwear Industry"
+  the_transparency_pledge_the_apparel_and_footwear: "The transparency pledge: The apparel and footwear supply chain transparency pledge."
+  global_wage_report_2018_19: "Global Wage Report 2018/19 - What lies behind gender pay gaps"
+  ilo: "ILO"
+  will_women_workers_benefit_from_living_wages: "Will women workers benefit from living wages?"
+  christa_luginbuhl: "Christa Luginbühl"
+  despite_progress_gender_based_violence: "Despite progress gender-based violence and harassment is still a reality for global garment workers"
+  promoting_gender_equality_in_garment_industry: "Promoting gender equality in garment industry"
+  better_work: "Better Work"
+  gender_pay_gaps_in_the_garment_textile_footwear: "Gender pay gaps in the garment, textile and footwear sector in developing Asia"
+  garment_supply_chains_in_intensive_care: "Garment supply chains in intensive care"
+  ecchr: "ECCHR"
+  two_crises_one_flawed_supply_chain_model: "Two crises, one flawed supply chain model: How the imbalance of power in global supply chains harms workers"
+  the_emperor_has_no_clothes_garment_supply_chains: "The emperor has no clothes: Garment supply chains in the time of pandemic."
+  asia_floorwage_alliance: "Asia floorwage alliance"
+  global_capitalism_is_the_new_colonialism: "Global Capitalism Is the New Colonialism for Workers, and They Are Resisting"
+  truth_out: "Truth Out"
+  fashion_critical_with_lucy_siegle_and_livia_firth: "Fashion Critical with Lucy Siegle and Livia Firth"
+  episode_2_with_christie_medima_from_ccc_io: "Episode 2 With Christie Medima from CCC IO"
+  the_problem_with_social_audits: "The problem with social audits"
+  esg_insider: "ESG Insider"
+  ethical_consumer_we_need_to_stop_buying: "Ethical Consumer - We need to stop buying new clothes!"
+  with_bel_jacobs: "with Bel Jacobs, Fashion Editor of the Metro turned XR Boycott Fashion activist"
+  living_wage_now_documentary_trailor: "Living wage now documentary trailor."
+  the_ugly_truth_of_fast_fashion: "The Ugly Truth Of Fast Fashion"
+  fast_fashion_is_disgusting: "Fast fashion is disgusting"
+  haute_le_mode: "Haute le mode"
+  patriot_act_with_hasan_minhaj: "Patriot Act with Hasan Minhaj | Netflix"
+  the_importance_of_sustainability_ethics_in_fashion: "The Importance Of SUSTAINABILITY & ETHICS In Fashion"
+  the_fashion_archive: "The Fashion Archive"
+  ending_gender_based_violence: "Ending Gender-Based Violence in the Garment Industry"
+  global_fund_for_women: "Global Fund for Women"
+  five_business_practices: "5 Business Practices Many Major Clothing Brands Use that Hurt Workers"
+  human_rights_watch: "Human rights watch"
+  menu_explore_the_data: "索览数据"
+  resources: "资源"
+  lw_c_50_plausible_notpublic: >
+    该品牌公司声称，其有一半或超过一半的供应商工厂向工人支付生活工资，有做出一些合理的解释，但并没有公开任何证据，这表示许多给他们生产衣服的工人的收入不足以维持生计。
+  lw_d_25_public: >
+    该品牌公司声称，其有1%至25%的供应商工厂向工人支付生活工资。此信息是公开的。该品牌公司供应链中的大多数工人收入不足以维持生计。
+  lw_d_started: >
+    该品牌公司声称，它已经开始支付其供应链的工厂较高的价格，有助于达致生活工资的水平，但其支付的价格仍不包括劳工成本。这表示他们大部分的制衣工人的收入不足以维持生计。
+  lw_e_noclaim_notpublic: >
+    该品牌公司没有做出任何声明，也没有找到任何公开证据证明其供应商向工人支付生活工资。这表示该品牌公司无法证明其制衣工人的收入足以维持生计。
+  lw_e_noevidence: >
+    从该品牌公司的声明中，无法找到证据证明其向工人支付生活工资，也没有做出合理的解释。这表示该品牌公司无法证明其制衣工人的收入足以维持生计。
+  transp_none: >
+    该品牌公司未有根据透明度承诺所要求的，提供任何有关其供应链中的供应商工厂和制衣工人的资料。
+  transp_partial: >
+    该品牌提供了一些有关其供应链中的供应商工厂和制衣工人的资料，但资料并不足够。
+  transp_partial_additional: >
+    该品牌公司提供了一些基本资料，但还未达到透明度承诺中的最低要求。
+  transp_partial_additional_machinereadable: >
+    该品牌公司以实用的、电脑可读的格式，提供了一些基本资料，但还未达到透明度承诺中的最低要求。
+  transp_partial_machinereadable: >
+    该品牌公司以实用的、电脑可读的格式，提供了一些有关其供应链中的供应商工厂和制衣工人的资料，但资料不足够。
+  transp_pledge: >
+    该品牌公司提供了基本的资料，例如工厂名称、地址、产品类型、工人数量，和所属供应商集团（如果该厂是某集团旗下的工厂）。
+  transp_pledge_additional: >
+    该品牌公司提供了一些基本资料以外的信息，例如劳动力的性别组成，是否有工会或集体谈判协议。
+  transp_pledge_additional_machinereadable: >
+    该品牌公司以实用的、电脑可读的格式，例如Excel电子表格，提供基本资料以外的信息，让公众可以使用其数据。
+  transp_pledge_machinereadable: >
+    该品牌公司以实用的、电脑可读的格式，例如Excel电子表格，来提供基本资料，让公众可以使用其数据。
+
+  partners: "合作伙伴"
+  we_never_saw_data_about_brands_payments_what_price: >
+    “我们从未见过品牌公司实际支付的价格的数据。我们的主任总是说工厂在亏本。根据他的意思，我们需要更加努力。他说我们是无人驾驶飞机，说我们是一堆蠢货。”
+  click_to_read_more: "点击<br/>阅读<br/>更多"
+  img_living_wage_circles: "/images/about_us/living_wage_circles.png"
+  img_smiling_curve: "/images/about_us/smiling_curve.png"
+  img_tee_shirt: "/images/about_us/tee_shirt.png"
+  img_25_percent: "/images/about_us/25_percent.png"
+  img_global_supply_chain: "/images/living_wage/global_supply_chain.png"
+  social_media_title: "服装核查：服装业里的工资和透明度（FashionChecker: wages and transparency in the garment industry）"
+  social_media_description: "了解品牌公司支付工人工资方面的表现，以及他们对产品制造地的公开程度。"
+  social_media_image: "https://fashionchecker.org/images/CCC_FC_web_preview.jpg"
+  a_worker_from_china: "来自中国的工人"
