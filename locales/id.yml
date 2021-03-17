@@ -490,17 +490,17 @@ id:
   living_wage_table:
     minimum_wage:
       food: >
-        Tidak mudah untuk mendapatkan nutrisi atau kalori yang mencukupi. Seringkali saya makan bubur atau nasi yang sama setiap hari. Daging, ikan, dan buah terlalu mahal buat kami. Melewatkan makan adalah hal yang biasa dan rumah kami biasanya kehabisan makanan di akhir bulan.
+        Tidak mudah untuk mendapatkan nutrisi atau kalori yang mencukupi. Seringkali saya makan bubur atau nasi yang sama setiap hari. Daging, ikan, dan buah terlalu mahal buat kami. Melewatkan makan hal yang biasa dan kekurangan makanan di akhir bulan.
       housing: >
-        Anda berbagi kamar asrama yang penuh sesak. Tidak ada privasi, tidak ada pemanas ruangan atau AC dan ventilasinya buruk. Tidak ada furnitur yang mencukupi ataupun tempat tidur. Bahan bangunan yang berkualitas rendah membuat hidup di dalamnya tidak aman dan berbahaya.
+        Anda berbagi kamar asrama yang penuh sesak. Tidak ada privasi, tidak ada pemanas atau AC dan ventilasinya buruk. Tidak ada furnitur yang mencukupi ataupun tempat tidur. Kualitas bahan bangunan rendah membuat hidup di dalamnya tidak aman dan berbahaya.
       health_care: >
-        Anda memiliki akses terhadap pereda rasa sakit tetapi akses yang sangat terbatas terhadap produk menstruasi dan tidak ada akses terhadap obat yang diresepkan dokter ataupun layanan kesehatan darurat. Kurang tidur dan kurang nutrisi serta kurang kebersihan mempengaruhi kesehatan anda. Anda terpaksa tidak makan untuk bisa ke dokter.
+        Anda bisa mendapatkan antibiotik tapi akses terbatas terhadap produk menstruasi dan sulit terhadap obat resep dokter atau layanan darurat. Kurang tidur, nutrisi dan sanitasi berdampak pada kesehatan. Anda terpaksa tidak makan untuk bisa ke dokter.
       education: >
         Anda tidak bisa memberikan pendidikan kepada diri anda sendiri atau anak-anak anda. Anda tidak punya kesempatan untuk memperbaiki situasi anda. Anak-anak anda kemungkinan akan tumbuh dewasa dan mendapatkan upah yang sama dengan anda sekarang.
       clothing: >
         Pakaian anda tidak cukup hangat selama musim dingin. Anda tidak mampu membeli alas kaki yang baik untuk bekerja sambil berdiri sepanjang hari.
       transportation: >
-        Anda tidak memiliki sarana transportasi yang aman. Transportasi publik biasanya tidak tersedia di negara-negara produsen yang lebih miskin. Anda bergantung pada truk penuh sesak yang disediakan oleh pabrik. Sebagai seorang perempuan, anda beresiko mendapatkan pelecehan seksual.
+        Anda tidak memiliki sarana transportasi yang aman. Transportasi publik biasanya tidak tersedia di negara-negara produsen yang miskin. Anda bergantung pada truk penuh sesak yang disediakan oleh pabrik. Sebagai perempuan, anda beresiko mendapatkan pelecehan seksual.
       savings: >
         Anda kemungkinan besar memiliki hutang. Adalah perjuangan berat untuk bisa menyeimbangkan tagihan dan pinjaman dan anda hidup hanya dengan upah bulan itu yang hampir-hampir tidak cukup.
     living_wage:
@@ -515,7 +515,7 @@ id:
       clothing: >
         Anda memiliki pakaian yang sesuai dengan musim yang anda pilih sendiri. Anda mampu membeli sepatu dan pakaian yang mendukung anda dan ukuran yang tepat untuk anak-anak anda.
       transportation: >
-        Anda memiliki upah yang mencukupi untuk memilih sarana transportasi anda sendiri atau pabrik tempat anda bekerja mampu menyediakan transportasi yang aman. Anda bisa menyimpan untuk membeli sarana transportasi anda sendiri. Yang paling penting anda memiliki pilihan.
+        Anda memiliki upah yang cukup untuk memilih sarana transportasi sendiri atau pabrik tempat anda bekerja mampu menyediakan transportasi yang aman. Anda bisa menyimpan untuk membeli sarana transportasi sendiri. Yang paling penting anda memiliki pilihan.
       savings: >
         Anda bisa menyimpan sebagian dari upah anda untuk pengeluaran tidak terduga dan kebutuhan darurat, memberikan anda rasa aman dan ketahanan di masa krisis.
 
