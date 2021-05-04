@@ -63,7 +63,7 @@ zh_hk:
     action_plan: "行動計劃？"
     action_plan_score_1: >
       沒有證據顯示，該品牌公司有公開提出一個設定時限的行動計劃，來改善其供應鏈中的低工資情況。
-    action_plan_score_2: > 
+    action_plan_score_2: >
       該品牌公司可能有一個沒有設定時限的行動計劃，但只跟其一級工廠有關，
       或者沒有公佈細節（不是SMART)。
     action_plan_score_3: >
@@ -136,19 +136,15 @@ zh_hk:
     female_male_other: "女性/男性/其他"
     permanent_temporary: "長工/短工"
     average: "平均數"
-    average_info:
-      受訪工人的工資單上列出的每月平均淨工資（當地貨幣轉換為等值歐元）
+    average_info: 受訪工人的工資單上列出的每月平均淨工資（當地貨幣轉換為等值歐元）
     gap: "差額"
-    gap_info:
-      受訪工人的實際工資和法定最低工資之間的每月平均差額（以歐元為單位）
+    gap_info: 受訪工人的實際工資和法定最低工資之間的每月平均差額（以歐元為單位）
     have_cba: "有CBA"
     have_cba_info: 有集體勞資談判協議的受訪工人百分比
     know_brand: "知道品牌"
-    know_brand_info:
-      知道他們的工廠為哪些品牌生產產品的受訪工人百分比
+    know_brand_info: 知道他們的工廠為哪些品牌生產產品的受訪工人百分比
     pregnancy_leave: "產假"
-    pregnancy_leave_info:
-      受訪工人中，曾懷孕、而工廠有給予產假的百分比
+    pregnancy_leave_info: 受訪工人中，曾懷孕、而工廠有給予產假的百分比
   latest: "最新"
   news: "消息"
   footer_info: "是全球聯盟組織「清潔成衣運動（Clean Clothes Campaign)」發起的一項運動，由歐盟資助。"
@@ -233,7 +229,7 @@ zh_hk:
   transparency_in_production_supply_chains: >
     生產供應鏈中的透明度是改善工作條件的第一步，但這並不是解決方案。有披露其供應鏈工廠數據的品牌公司並沒有比那些沒有披露的公司好，不代表他們所支付的薪水或工作條件就會比較好。它只是讓我們稍微容易確定公司對侵犯勞工權利存在的責任。知道一間工廠為哪些品牌公司生產服飾，有助於品牌公司互相合作，解決勞工權益問題。
   transparency_needs_to_be_the_cornerstone: >
-   「品牌公司如果要認真建立一個免於侵犯人權的供應鏈的話，透明度是必要的基石。」
+    「品牌公司如果要認真建立一個免於侵犯人權的供應鏈的話，透明度是必要的基石。」
   aruna_kashyap: >
     人權觀察組織 婦女權利高級顧問 Aruna Kashyap
   menu_transparency: "透明度"
@@ -316,7 +312,7 @@ zh_hk:
     品牌公司不僅拒絕為那些已經在生產中的訂單付款，有些甚至已經運送到商店中的訂單也被拒付款；而這些品牌的商店還一直在進行促銷活動，為消費者提供折扣等；但那些處於供應鏈底部的就一無所有。很多工人都上街抗議，聲討他們自三月份以來的欠薪，或者抗議他們在工廠沒有採取任何適當的安全措施下被迫重新開工。但，由於他們沒有錢，所以別無選擇。非正式工人受到的影響則更大。國際勞工組織（International Labour Organization, ILO）估計，由於很多業務因新冠肺炎疫情的限制而被摧毀，非正規經濟領域內有約16億的工人的生計受到
   massive_damage: "嚴重損害。"
   to_their_livelihood: >
-    
+
   trade_unions_worry: >
     「工會擔心，由於製衣工人轉向其他行業，包括性工作，之後製衣行業內的童工、抵債勞工和人口販賣情況會激增。」
   the_emperor_has_no_clothes: >
@@ -354,7 +350,7 @@ zh_hk:
     供應商被迫估算每件產品的最低生產成本，以便與品牌公司議價和爭取生產合同。這個價格應該是足以應付工廠的經營成本的，包括了租金、電費、水費、維修費、材料成本、運輸費、工廠的利潤，以及支付所有的人工成本。為了與其他一級公司競爭，供應商會根據法定最低工資，而不是生活工資，來預算勞工成本；工作時間則以一天十個小時（包括兩小時的加班時間），而不是八個小時來預算的。
   my_job_is_exhausting: >
     「我的工作很累。我每天需要做18個小時。很多工人因為無法完成工廠定下的生產目標而被解僱了。」
-    
+
   current_purchasing_practices_reflect_the_rise_of_f: >
     目前市場上的購買行為反映了「速食時裝」的興起。在時裝界，以前都是一年四個風格季節，但Zara品牌則帶領起每月更換款式的做法。現在，大部份的高街品牌每年都會生產52個「微季節」。對於熱門商品，品牌公司會突然訂購兩倍的產品。產品的高周轉率，加上不確定的訂單數量，造就了當前的行業模式。工廠則利用靈活的工作合同、生產波動週期間的失業率、以及降低工資水平的方法，將買家採購行為的不確定性轉移到工人身上。
   my_factory_doesn_t_give_me_a_pay_slip: >
@@ -366,8 +362,8 @@ zh_hk:
   workers_have_little_to_no_power_to_fight: >
     工人幾乎沒有任何權力去爭取更高的工資。結社自由（Freedom of Association，FOA)承受著巨大壓力；而在許多成衣生產國中，那些為爭取更高工資的工會遭受打擊是絕非罕見的。在過去幾年中，用來代替工會而成立的工人委員會的數量有顯著的增加。這給人一種錯誤的印象，好像現在的工人既有組織又有力量。品牌公司經常聲稱工人委員會和工會在本質上是一樣的，但這可能僅在少數情況下是正確的。
   trucks_are_constantly_leaving: >
-   「貨車不斷開走，所有產品都賣掉了；我們的工作量很大，但他們一直說沒有錢。我的合同每三個月延長一次。我沒有安全保障。」
-   
+    「貨車不斷開走，所有產品都賣掉了；我們的工作量很大，但他們一直說沒有錢。我的合同每三個月延長一次。我沒有安全保障。」
+
   a_worker_in_croatia: "來自克羅地亞的工人"
   instead_of_promoting_fair_worker_representation: >
     工人委員會的成立，與其說是為了促進公平的工人代表，不如說是為了取悅品牌公司、供應商和地方政府，讓他們支持一個可以大大降低工人權力的替代結構。工廠管理層往往參與到工人委員會中，削弱了製衣工人的組織權，無法擺脫其政府或顧主的干預。此外，在某些國家，例如孟加拉，法律列明，工人委員會不可以就工資進行討價還價。而工會則是會這樣做的。這意味著，品牌公司支付的生產價格最終受到了保護。
@@ -382,7 +378,7 @@ zh_hk:
     「他們可以玩弄婦女，讓她們像木偶一樣跳舞，但他們不能以相同的方式來虐待男人。如果我們有什麼要求，工廠老闆不會理我們的；但如果是男工提出的話，他們就必須做出考慮。所以他們不請男工。」
   a_worker_from_bangladesh: "來自孟加拉的工人"
   gbv_in_bangladesh: "《孟加拉國基於性別的暴力行為》"
-  about_fashion_checker: "關於時裝核查（Fashion Checker）" 
+  about_fashion_checker: "關於時裝核查（Fashion Checker）"
   about_the_campaign: "關於此運動"
   a_living_wage_for_garment_workers: >
     製衣工人的生活工資和高透明度的供應鏈
@@ -390,10 +386,10 @@ zh_hk:
   about: "關於"
   brands_in_the_fashion_industry_put_millions: >
     時裝界的品牌公司投放數以百萬的廣告費，宣傳他們是道德的和可持續發展的公司；他們多次聲稱有支付他們的工人生活工資。時裝核查（Fashion Checker） 展示了這與實際情況相差有多遠，讓消費者和製衣工人可以看到世界大品牌公司的供應鏈的真實數據。
-    
+
   power_in_the_garment_industry: "製衣行業的權力問題"
   we_believe_all_workers_in_a_supply: >
-   我們相信供應鏈的所有工人都有獲得合理工資的權利。自該行業誕生以來，為服裝和運動服市場生產服飾的工人一直在賺取
+    我們相信供應鏈的所有工人都有獲得合理工資的權利。自該行業誕生以來，為服裝和運動服市場生產服飾的工人一直在賺取
   poverty_wages: "貧困工資"
   since_the_birth_of_the_industry_our_research_shows: "。我們的研究表明，"
   no_major_clothing_brand: "沒有一個大的服裝品牌公司"
@@ -405,7 +401,7 @@ zh_hk:
   earning_a_living_wage: "賺取生活工資"
   demanding_a_wage_you_can_live_on: >
     要求一份可以維持生計的工資，應該是很合理的。我們在2015年就已經提出要求：
-    
+
   living_wage_now: "「現在就要生活工資」"
   in_2015_it_s_five_years_later: >
     。五年過去了，但還是沒有進展。現在是時候要進行改變了。現在是解決服裝和鞋類行業中造成貧困工資的系統性原因的時候了，也是迫使品牌公司承擔責任的時候了。
@@ -445,7 +441,7 @@ zh_hk:
     服裝和紡織品的製造一向依靠剝削勞動力。新冠肺炎疫情使這問題更顯而易見。品牌公司不必要地取消訂單、癱瘓工廠的運作、破壞工人的生計，使服裝業損失了
   billions_of_dollars: "數十億美元"
   by_canceling_orders_unnecessarily: >
-    。品牌公司拒絕向工人支付生活工資，任由那些為他們生產衣服的工人在疫情期間沒有任何維生方法。數百萬的工人正面臨無家可歸和飢餓的威脅，許多工廠正面臨經濟倒塌。品牌公司已經控制供應商控制得太久了。現在是時候要進行改變了。 
+    。品牌公司拒絕向工人支付生活工資，任由那些為他們生產衣服的工人在疫情期間沒有任何維生方法。數百萬的工人正面臨無家可歸和飢餓的威脅，許多工廠正面臨經濟倒塌。品牌公司已經控制供應商控制得太久了。現在是時候要進行改變了。
   to_do_so_we_need_transparency: >
     要做到這一點，我們需要透明度。我們想知道供應鏈中的權力在哪裡：哪裡的工人薪水最低？工人是否有工會？工會在哪裡？婦女和移民工在哪裡？現在是時候運用現有數據來突顯時裝業裡的人權侵犯狀況，並為整個供應鏈爭取具體的、有意義的、可衡量的工資增長。工人應該得到更好的待遇。消費者應該得到更多的資訊。是時候來重新分配權力和財富了。
   what_do_we_want: "我們想做些什麼？"
@@ -635,6 +631,7 @@ zh_hk:
   fashioncheckervid_gbv: "Gender based violence in the garment industry - Ratify ILO 190"
   out_of_the_shadows: "Out of the Shadows: A spotlight on exploitation in the fashion industry"
   position_pager_transparency: "Position Paper on Transparency"
+  fashioning_justice: "Fashioning Justice: A call for mandatory and comprehensive human rights due diligence in the garment industry"
   clean_clothes_campaign: "Clean Clothes Campaign"
   fashion_s_next_trend: "Fashion’s Next Trend: Accelerating Supply Chain Transparency in the Garment and Footwear Industry"
   go_transparent: "#GoTransparent"
