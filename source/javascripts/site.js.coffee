@@ -8,7 +8,7 @@ API_HOST = "https://wikirate.org"
 METRIC_URL = "#{API_HOST}/:commons_supplier_of"
 BRAND_LIST_URL = "#{API_HOST}/company.json?view=brands_select2"
 
-EMPTY_RESULT = "<div class='alert alert-info'>no result</div>"
+# EMPTY_RESULT = "<div class='alert alert-info'>no result</div>"
 
 $(document).ready ->
   $("._brand-search").select2

@@ -36,7 +36,7 @@ class window.BrandInfo
     $template.removeClass("template")
 
     $template.find("._wikirate-link").attr("href", wikirateUrl(data.id))
-    
+
     for index, name of FIELDS
       $template.find("._#{name}").text(data[name])
 
@@ -48,8 +48,6 @@ class window.BrandInfo
 
     $template.find("._commitment-total-score").text(data.scores.commitment.total)
     $template.find("._factory-count").text(data.suppliers.length)
-    # $template.find("._living_wage_score-text").text(data.scores.living_wage_text)
-    # $template.find("._transparency_score-text").text(data.scores.transparency_text)
 
     tweetTheBrand $template.find("._tweet-the-brand"), data.twitter_handle
     showScoreDesc($template, "living_wage", data.scores.living_wage_key)
