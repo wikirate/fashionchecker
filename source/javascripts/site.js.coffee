@@ -8,12 +8,12 @@ BRANDS_ANSWERS_URL = "content/brand_answers.json"
 window.FC = {}
 
 $(document).ready ->
-  $("._brand-search").select2
-    placeholder: "search for brand"
-    allowClear: true
-    ajax:
-      url: BRAND_LIST_URL
-      dataType: "json"
+  $.ajax(url: BRAND_LIST_URL, dataType: "json").done (data) ->
+    $("._brand-search").select2(
+      placeholder: "search for brand"
+      allowClear: true
+      data: data["results"]
+    ).val(null).trigger('change')
 
   $("body").on "change", "._brand-search", ->
     selected = $("._brand-search").select2("data")
