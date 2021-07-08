@@ -5,6 +5,8 @@ METRIC_URL = "#{API_HOST}/:commons_supplier_of"
 BRAND_LIST_URL = "#{API_HOST}/company.json?view=brands_select2"
 BRANDS_ANSWERS_URL = "content/brand_answers.json"
 
+window.FC = {}
+
 $(document).ready ->
   $("._brand-search").select2
     placeholder: "search for brand"
@@ -42,10 +44,9 @@ $(document).ready ->
   loadBrandsTable()
 
 loadBrandsTable = () ->
-  return unless ($output = $("#brands-table"))
   $.ajax(url: BRANDS_ANSWERS_URL, dataType: "json").done((data) ->
-    new BrandsTable(data).render($output)
-    $output.DataTable();
+    table = new FC.BrandsTable data,"#brands-table"
+    table.render()
   )
 
 redirectBrandSearch = (company_id) ->
