@@ -5,15 +5,19 @@ METRIC_URL = "#{API_HOST}/:commons_supplier_of"
 BRAND_LIST_URL = "#{API_HOST}/company.json?view=brands_select2"
 BRANDS_ANSWERS_URL = "content/brand_answers.json"
 
+BRANDS_METRIC_MAP = {
+  location: 5456201,
+  transparency_score: 5780639,
+  living_wages_score: 5990097,
+  action_plan: 5768881,
+  policy_promise_score: 5780757,
+  isolating_labor: 5768917
+}
+
 window.FC = {}
 
 $(document).ready ->
-  $.ajax(url: BRAND_LIST_URL, dataType: "json").done (data) ->
-    $("._brand-search").select2(
-      placeholder: "search for brand"
-      allowClear: true
-      data: data["results"]
-    ).val(null).trigger('change')
+  loadSearchOptions()
 
   $("body").on "change", "._brand-search", ->
     selected = $("._brand-search").select2("data")
@@ -24,29 +28,27 @@ $(document).ready ->
       else
         loadBrandInfo company_id
 
-  $("body").on 'shown.bs.collapse', ".collapse", ->
-    updateSuppliersTable($(this))
-
   $("body").on "click", ".flip-card", ->
     $(this).toggleClass("flipped")
 
   params = new URLSearchParams(window.location.search)
-
-  unless params.get('embed-info') == "show"
-    $("._embed-info").hide()
-
-  if params.has('background')
-    $('body').css("background", params.get("background"))
 
   if params.has('q')
     loadBrandInfo params.get("q")
 
   loadBrandsTable()
 
+loadSearchOptions = () ->
+  $.ajax(url: BRAND_LIST_URL, dataType: "json").done (data) ->
+    $("._brand-search").select2(
+      placeholder: "search for brand"
+      allowClear: true
+      data: data["results"]
+    ).val(null).trigger('change')
+
 loadBrandsTable = () ->
   $.ajax(url: BRANDS_ANSWERS_URL, dataType: "json").done((data) ->
-    table = new FC.BrandsTable data,"#brands-table"
-    table.render()
+    FC.CompanyTable data,"#brands-table", BRANDS_METRIC_MAP
   )
 
 redirectBrandSearch = (company_id) ->
@@ -69,20 +71,3 @@ loadBrandInfo = (company_id) ->
 brandInfoURL = (company_id) ->
   "#{API_HOST}/~#{company_id}.json?view=transparency_info"
 
-updateSuppliersTable = ($collapse) ->
-  loadOnlyOnce $collapse, ($collapse) ->
-    $.ajax(url: suppliedCompaniesSearchURL($collapse), dataType: "json").done((data) ->
-      tbody = $collapse.find("tbody")
-      tbody.find("tr.loading").remove()
-      for company, year of data
-        addRow tbody, company, year
-    )
-
-loadOnlyOnce = ($target, load) ->
-  return if $target.hasClass("_loaded")
-  $target.addClass("_loaded")
-  load($target)
-
-suppliedCompaniesSearchURL = (elem) ->
-  factory = elem.data("company-url-key")
-  "#{METRIC_URL}+#{factory}.json?view=related_companies_with_year"

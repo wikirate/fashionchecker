@@ -1,17 +1,5 @@
-BRANDS_METRIC_IDS = {
-  location: 5456201,
-  transparency_score: 5780639,
-  living_wages_score: 5990097,
-  action_plan: 5768881,
-  policy_promise_score: 5780757,
-  isolating_labor: 5768917
-}
-
-# twitter: 6140253,
-
-
 # @return [{ name: name, metric_id1: val, metric_id2: val ...}]
-FC.Companies = (data) ->
+Companies = (data) ->
   companies = {}
 
   $.each data.companies, (id, name) ->
@@ -22,9 +10,11 @@ FC.Companies = (data) ->
 
   companies
 
-FC.BrandsTable = (data, tableSelector) ->
+
+FC.CompanyTable = (data, tableSelector, metricMap) ->
   @data = data
   @table = $(tableSelector)
+  @metricMap = metricMap
 
   @render = () ->
     return unless @table[0]
@@ -35,13 +25,13 @@ FC.BrandsTable = (data, tableSelector) ->
 
   @addRows = () ->
     t = this
-    $.each FC.Companies(@data), (_id, companyHash) ->
+    $.each Companies(@data), (_id, companyHash) ->
       t.addRow companyHash
 
   @addRow = (hash) ->
     t = this
     cells = [@td hash["name"]]
-    $.each BRANDS_METRIC_IDS, (_key, id) ->
+    $.each @metricMap, (_key, id) ->
       cells.push t.td(hash[id])
 
     @tbody.append "<tr>" + cells.join() + "</tr>"
@@ -49,4 +39,4 @@ FC.BrandsTable = (data, tableSelector) ->
   @td = (cell_content)->
     "<td>" + cell_content + "</td>"
 
-  this
+  @render()
