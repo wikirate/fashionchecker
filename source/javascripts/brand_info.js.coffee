@@ -47,7 +47,6 @@ class window.BrandInfo
     commitmentScore($template, "isolating-labour-cost", data.scores.commitment.isolating_labour_cost)
 
     $template.find("._commitment-total-score").text(data.scores.commitment.total)
-    $template.find("._factory-count").text(data.suppliers.length)
 
     tweetTheBrand $template.find("._tweet-the-brand"), data.twitter_handle
     showScoreDesc($template, "living_wage", data.scores.living_wage_key)
@@ -57,8 +56,6 @@ class window.BrandInfo
 
     for index, brand of data.brands
       addBrand brand, $template
-    for index, supplier of data.suppliers
-      addSupplier supplier, $template
     $output.append $template
 
   showScoreDesc = ($template, score_name, score_key) ->
@@ -91,45 +88,11 @@ class window.BrandInfo
     ext ||= "png"
     $el.attr("src", "/images/#{folder}/#{score}.#{ext}")
 
-  replaceNull = (content) ->
-    if (content == null) then "-" else content
 
   addBrand = (brand, $container) ->
     $container.find("#brands").append $("<li>#{brand}</li>")
 
-  addSupplier = (supplier, $output) ->
-    tbody = $output.find("tbody")
-    addRow(tbody, supplier)
 
-  addRow = (tbody, supplier) ->
-    row = "<tr"
-    row += ' class="no-data"' unless supplier["num_values"] > 0
-    row += ">"
-    row += newCell companyLink(supplier.name, supplier.link_name), "medium-blue-bg text-left"
-    row += newCell supplier.country_name, "medium-blue-bg"
-    row += newCell(
-      [ supplier.workers_by_gender.female,
-        supplier.workers_by_gender.male,
-        supplier.workers_by_gender.other ].map(replaceNull).join(" / "))
-    row += newCell(
-      [ supplier.workers_by_contract.permanent,
-        supplier.workers_by_contract.temporary ].map(replaceNull).join(" / "))
-    row += newCell supplier["average_net_wage"], "lighter-blue-bg"
-    row += newCell supplier["wage_gap"], "lighter-blue-bg"
-    for index, property of ["workers_have_cba",
-                            "workers_know_brand",
-                            "workers_get_pregnancy_leave"]
-      row += newCell supplier[property]
-    row += "</tr>"
-    tbody.append $(row)
-
-  newCell = (content, css_class) ->
-    if (content == null)
-      content = "-"
-    css_class ||= "sky-blue-bg"
-    css_class = " class=\"#{css_class}\""
-    # css_class = if css_class? then " class='#{css_class}'" else ""
-    "<td#{css_class}>#{content}</td>"
 
   tweetTheBrand = (link, handle) ->
     if handle
@@ -140,8 +103,7 @@ class window.BrandInfo
     else
       link.hide()
 
-  companyLink = (company, link_name) ->
-    "<a class='red' target='_wikirate' href=\"#{LINK_TARGET_HOST}/#{link_name}\">#{company}</a>"
+
 
   wikirateUrl = (company_id) ->
     "#{LINK_TARGET_HOST}/~#{company_id}?contrib=N" +

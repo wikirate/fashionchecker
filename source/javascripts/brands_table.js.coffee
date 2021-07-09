@@ -1,5 +1,5 @@
 # @return [{ name: name, metric_id1: val, metric_id2: val ...}]
-Companies = (data) ->
+companies = (data) ->
   companies = {}
 
   $.each data.companies, (id, name) ->
@@ -10,8 +10,11 @@ Companies = (data) ->
 
   companies
 
+companyLink = (name, id) ->
+  "<a class='red' target='_wikirate' href=\"#{LINK_TARGET_HOST}/~#{id}\">#{name}</a>"
 
-FC.CompanyTable = (data, tableSelector, metricMap) ->
+
+FC.companyTable = (data, tableSelector, metricMap) ->
   @data = data
   @table = $(tableSelector)
   @metricMap = metricMap
@@ -25,7 +28,7 @@ FC.CompanyTable = (data, tableSelector, metricMap) ->
 
   @addRows = () ->
     t = this
-    $.each Companies(@data), (_id, companyHash) ->
+    $.each companies(@data), (_id, companyHash) ->
       t.addRow companyHash
 
   @addRow = (hash) ->
@@ -34,7 +37,7 @@ FC.CompanyTable = (data, tableSelector, metricMap) ->
     $.each @metricMap, (_key, id) ->
       cells.push t.td(hash[id])
 
-    @tbody.append "<tr>" + cells.join() + "</tr>"
+    @tbody.append "<tr>#{cells.join()}</tr>"
 
   @td = (cell_content)->
     "<td>" + cell_content + "</td>"

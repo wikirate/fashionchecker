@@ -1,6 +1,15 @@
 $.fn.select2.defaults.set("theme", "bootstrap4")
 
-API_HOST = "https://wikirate.org"
+API_HOST = "https://dev.wikirate.org"
+API_HOST = "https://dev.wikirate.org"
+WIKIRATE_AUTH = null
+
+if WIKIRATE_AUTH
+  $.ajaxSetup(
+    beforeSend: (xhr) ->
+      xhr.setRequestHeader "Authorization", "Basic " + btoa(WIKIRATE_AUTH)
+  )
+
 BRAND_LIST_URL = "#{API_HOST}/company.json?view=brands_select2"
 BRANDS_ANSWERS_URL = "content/brand_answers.json"
 
@@ -16,26 +25,26 @@ BRANDS_METRIC_MAP = {
 window.FC = {}
 
 $(document).ready ->
-  loadSearchOptions()
-
-  $("body").on "change", "._brand-search", ->
-    selected = $("._brand-search").select2("data")
-    if (selected.length > 0)
-      company_id = selected[0].id
-      if $(this).data("redirect")?
-        redirectBrandSearch company_id
-      else
-        loadBrandInfo company_id
-
-  $("body").on "click", ".flip-card", ->
-    $(this).toggleClass("flipped")
+  prepareSearch()
+  prepareFlipCards()
 
   params = new URLSearchParams(window.location.search)
+  if params.has "q"
+    loadBrandInfo params.get "q"
+  else
+    loadBrandsTable()
 
-  if params.has('q')
-    loadBrandInfo params.get("q")
+#~~~~~~~~ FLIP CARDS ~~~~~~~~~~
 
-  loadBrandsTable()
+prepareFlipCards = () ->
+  $("body").on "click", ".flip-card", ->
+  $(this).toggleClass("flipped")
+
+#~~~~~~~~ SEARCH ~~~~~~~~~~
+
+prepareSearch = () ->
+  loadSearchOptions()
+  activateSearch()
 
 loadSearchOptions = () ->
   $.ajax(url: BRAND_LIST_URL, dataType: "json").done (data) ->
@@ -45,12 +54,17 @@ loadSearchOptions = () ->
       data: data["results"]
     ).val(null).trigger('change')
 
-loadBrandsTable = () ->
-  $.ajax(url: BRANDS_ANSWERS_URL, dataType: "json").done((data) ->
-    FC.CompanyTable data,"#brands-table", BRANDS_METRIC_MAP
-  )
+activateSearch = () ->
+  $("body").on "change", "._brand-search", ->
+    selected = $("._brand-search").select2("data")
+    if (selected.length > 0)
+      company_id = selected[0].id
+      if $(this).data("redirect")?
+        redirectSearch company_id
+      else
+        loadBrandInfo company_id
 
-redirectBrandSearch = (company_id) ->
+redirectSearch = (company_id) ->
   href = "/brand-profile.html?q=#{company_id}"
   current = window.location.href
   if /(\/$|html)/.test current
@@ -58,6 +72,13 @@ redirectBrandSearch = (company_id) ->
   else
     prefix = current
   window.location.href = prefix + href
+
+#~~~~~~~~ BRANDS ~~~~~~~~~~
+
+loadBrandsTable = () ->
+  $.ajax(url: BRANDS_ANSWERS_URL, dataType: "json").done((data) ->
+    FC.companyTable data,"#brands-table", BRANDS_METRIC_MAP
+  )
 
 loadBrandInfo = (company_id) ->
   $.ajax(url: brandInfoURL(company_id), dataType: "json").done((data) ->
