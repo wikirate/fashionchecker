@@ -1,7 +1,6 @@
 $.fn.select2.defaults.set("theme", "bootstrap4")
 
 API_HOST = "https://wikirate.org"
-METRIC_URL = "#{API_HOST}/:commons_supplier_of"
 BRAND_LIST_URL = "#{API_HOST}/company.json?view=brands_select2"
 BRANDS_ANSWERS_URL = "content/brand_answers.json"
 
@@ -71,3 +70,6 @@ loadBrandInfo = (company_id) ->
 brandInfoURL = (company_id) ->
   "#{API_HOST}/~#{company_id}.json?view=transparency_info"
 
+# filter: {
+#   relationship: { subject_company: (brand), metric: :commons_supplier_of },
+#   project_metric: projec
