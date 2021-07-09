@@ -21,7 +21,7 @@ FC.CompanyTable = (data, tableSelector, metricMap) ->
 
     @tbody = @table.children "tbody"
     @addRows()
-    @table.DataTable()
+    @table.DataTable autoWidth: false
 
   @addRows = () ->
     t = this
