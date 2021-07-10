@@ -7,7 +7,7 @@
     %span.float-right.text-muted
 
     .table-responsive
-      %table.suppliers-table.table.table-sm.light-blue-bg.medium-grey
+      %table#suppliers-table.table.table-sm.light-blue-bg.medium-grey
         %thead
           %tr.white-bg.table-borderless.text-center.border-bottom-0
             %th.border-bottom-0.text-left.text-uppercase.navy-bg.lighter-blue{colspan: 2}
@@ -22,11 +22,13 @@
             %th.border-bottom-0.text-uppercase{colspan: 2}= t('suppliers_table.wage')
             %th.border-bottom-0.text-uppercase{colspan: 3}= t('suppliers_table.workers')
           %tr.light-blue-bg.border-top-0.border-bottom-2
-            %td.medium-blue-bg.border-0.text-left.text-uppercase= t('suppliers_table.company')
-            %td.medium-blue-bg.border-0= t('country')
-            %td
-              = t('suppliers_table.female_male_other')
-            %td= t('suppliers_table.permanent_temporary')
+            %th.medium-blue-bg.border-0.text-left.text-uppercase= t('suppliers_table.company')
+            %th.medium-blue-bg.border-0= t('country')
+            %th.medium-blue-bg.border-0 Female
+            %th.medium-blue-bg.border-0 Male
+            %th.medium-blue-bg.border-0 Other
+            %th.medium-blue-bg.border-0 Permanent
+            %th.medium-blue-bg.border-0 Temporary
             %td.other-blue-bg= supplier_table_header :average
             %td.other-blue-bg= supplier_table_header :gap
             %td= supplier_table_header :have_cba

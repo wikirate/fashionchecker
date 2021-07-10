@@ -10,8 +10,8 @@ companies = (data) ->
 
   companies
 
-companyLink = (name, id) ->
-  "<a class='red' target='_wikirate' href=\"#{LINK_TARGET_HOST}/~#{id}\">#{name}</a>"
+#companyLink = (name, id) ->
+#  "<a class='red' target='_wikirate' href=\"#{LINK_TARGET_HOST}/~#{id}\">#{name}</a>"
 
 
 FC.companyTable = (data, tableSelector, metricMap) ->
@@ -35,7 +35,8 @@ FC.companyTable = (data, tableSelector, metricMap) ->
     t = this
     cells = [@td hash["name"]]
     $.each @metricMap, (_key, id) ->
-      cells.push t.td(hash[id])
+      val = hash[id] || "-"
+      cells.push t.td(val)
 
     @tbody.append "<tr>#{cells.join()}</tr>"
 

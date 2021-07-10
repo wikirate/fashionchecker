@@ -576,7 +576,7 @@ main {
     .paginate_button {
       background: $medium-grey;
       &.disabled {
-        color: $white !important
+        color: $sky-blue !important
       }
       &:active, &:hover, &.current, &.current:hover, &.current:active {
         background: $light-blue;

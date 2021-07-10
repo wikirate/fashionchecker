@@ -1,8 +1,10 @@
 $.fn.select2.defaults.set("theme", "bootstrap4")
 
 API_HOST = "https://dev.wikirate.org"
-API_HOST = "https://dev.wikirate.org"
+# API_HOST = "https://wikirate.org"
 WIKIRATE_AUTH = null
+SUPPLIER_METRIC_ID = 2929009 # Commons+Supplied By
+SUPPLIER_PROJECT_ID = 7611147
 
 if WIKIRATE_AUTH
   $.ajaxSetup(
@@ -21,6 +23,21 @@ BRANDS_METRIC_MAP = {
   policy_promise_score: 5780757,
   isolating_labor: 5768917
 }
+
+SUPPLIERS_METRIC_MAP = {
+  location: 5456201,
+  female: 3233894,
+  male: 3233883,
+  other: 6019448,
+  permanent: 6019621,
+  temporary: 6019632,
+  average: 6019687,
+  gap: 7347357,
+  cba: 6020927,
+  know_brand: 6019511,
+  pregnancy: 6019786
+}
+
 
 window.FC = {}
 
@@ -84,13 +101,32 @@ loadBrandInfo = (company_id) ->
   $.ajax(url: brandInfoURL(company_id), dataType: "json").done((data) ->
     $output = $("#result")
     $output.empty()
+
     new BrandInfo(data).render($output)
     $('[data-toggle="popover"]').popover()
+
+    $.ajax(url: supplierURL(company_id), dataType: "json").done((data) ->
+      FC.companyTable data,"#suppliers-table", SUPPLIERS_METRIC_MAP
+    )
   )
+
+supplierURL = (company_id) ->
+  query = $.param(
+    limit: 0,
+    filter: {
+      relationship: {
+        company_id: company_id,
+        metric_id: SUPPLIER_METRIC_ID
+      },
+      project_metric: "~#{SUPPLIER_PROJECT_ID}"
+    }
+  )
+  "#{API_HOST}/Answer/compact.json?#{query}"
+
 
 brandInfoURL = (company_id) ->
   "#{API_HOST}/~#{company_id}.json?view=transparency_info"
 
 # filter: {
-#   relationship: { subject_company: (brand), metric: :commons_supplier_of },
+#   relationship: { company_id: (brand), metric_id: (commons_supplier_of) },
 #   project_metric: projec
