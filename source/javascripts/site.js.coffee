@@ -2,7 +2,7 @@ $.fn.select2.defaults.set("theme", "bootstrap4")
 
 API_HOST = "https://dev.wikirate.org"
 # API_HOST = "https://wikirate.org"
-WIKIRATE_AUTH = null
+WIKIRATE_AUTH = "wikirate:wikirat"
 SUPPLIER_METRIC_ID = 2929009 # Commons+Supplied By
 SUPPLIER_PROJECT_ID = 7611147
 
