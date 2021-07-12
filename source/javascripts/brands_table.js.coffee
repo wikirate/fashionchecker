@@ -1,5 +1,5 @@
 # @return [{ name: name, metric_id1: val, metric_id2: val ...}]
-companies = (data) ->
+FC.companies = (data) ->
   companies = {}
 
   $.each data.companies, (id, name) ->
@@ -28,7 +28,7 @@ FC.companyTable = (data, tableSelector, metricMap) ->
 
   @addRows = () ->
     t = this
-    $.each companies(@data), (_id, companyHash) ->
+    $.each FC.companies(@data), (_id, companyHash) ->
       t.addRow companyHash
 
   @addRow = (hash) ->

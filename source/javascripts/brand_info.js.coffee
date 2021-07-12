@@ -1,32 +1,73 @@
-LINK_TARGET_HOST = "https://wikirate.org"
 
-FIELDS = ["name", "country_name", "revenue", "location", "owned_by", "profit",
-  "number_of_workers", "top_production_countries"]
 
-SCORE_MAP = {
-  living_wage_score: {
-    "E": 1
-    "D": 2
-    "C": 3
-    "B": 4
-    "A": 5
+FIELDS = ["headquarters", "revenue", "location", "profit", "top_3_production_countries"]
+
+
+FC.templater = (id) ->
+  @container = $("##{id}")
+
+  @result = () ->
+    @container.children(".result")
+
+  @template = () ->
+    @container.children(".template")
+
+  @publish = () ->
+    @container.find('[data-toggle="popover"]').popover()
+    @result().append @current
+
+  @fill = (field, value) ->
+    @current.find("._#{field}").text(value)
+
+  @result().empty()
+  @current = @template().clone()
+  @current.removeClass "template"
+  this
+
+
+FC.brandBox = (company_id) ->
+  @company_id = company_id
+
+  @query = {
+    filter: { project: "~#{FC.brand_project_id}" }
   }
-  transparency_score: {
-    "0.0": 1
-    "2.5": 2
-    "5.0": 3
-    "7.5": 4
-    "10.0": 5
-  }
-  commitment_score: {
-    "No": 1,
-    "Partial": 2,
-    "Yes": 3,
-    "Yes, Other": 3,
-    "Yes, ACT": 3,
-    "Yes, Fair Wear Foundation": 3,
-  }
-}
+
+  @url = ()->
+    "#{FC.wikirate_api_host}/~#{@company_id}+Answer/compact.json?#{$.param @query}"
+
+  @template = FC.templater "brandBox"
+
+  @build = () ->
+    @fillName()
+    @fillSimple()
+    @template.publish()
+
+  @fillName = () ->
+    @template.fill "brand_name", @data["name"]
+
+  @fillSimple = () ->
+    for _index, fld of FIELDS
+      @template.fill fld, @value(fld)
+
+  @value = (fld) ->
+    @data[FC.brands_metric_map[fld]]
+
+  @interpret = (data) ->
+    @data = FC.companies(data)[@company_id]
+
+  box = this
+
+  $.ajax(url: @url(), dataType: "json").done (data) ->
+    box.data = box.interpret data
+    box.build()
+
+
+
+
+
+
+
+
 class window.BrandInfo
   constructor: (@data) ->
 
@@ -65,7 +106,7 @@ class window.BrandInfo
   #  "_score-#{SCORE_MAP[score_name][score_value]}"
 
   transparencyScore = ($template, score) ->
-    return unless (stars = SCORE_MAP["transparency_score"][score])
+    return unless (stars = FC.score_map["transparency_score"][score])
     current = 1
     while (current <= stars)
       starImg = $template.find "._transparency-stars ._star-#{current}"
@@ -74,7 +115,7 @@ class window.BrandInfo
 
   commitmentScore = ($el, name, value) ->
     $el.find("._#{name}").text(value)
-    $el.find("._#{name}-help").attr("data-target", "##{name}-score-#{SCORE_MAP.commitment_score[value]}")
+    $el.find("._#{name}-help").attr("data-target", "##{name}-score-#{FC.score_map.commitment_score[value]}")
     value = "Yes" if value.includes("Yes")
     selectImage($el.find("._#{name}-smiley"), "smiley", value, "svg")
 
@@ -88,11 +129,8 @@ class window.BrandInfo
     ext ||= "png"
     $el.attr("src", "/images/#{folder}/#{score}.#{ext}")
 
-
   addBrand = (brand, $container) ->
     $container.find("#brands").append $("<li>#{brand}</li>")
-
-
 
   tweetTheBrand = (link, handle) ->
     if handle
@@ -103,8 +141,6 @@ class window.BrandInfo
     else
       link.hide()
 
-
-
   wikirateUrl = (company_id) ->
-    "#{LINK_TARGET_HOST}/~#{company_id}?contrib=N" +
+    "#{FC.wikirate_link_target}/~#{company_id}?contrib=N" +
       "&filter%5Bwikirate_topic%5D%5B%5D=Filling%20the%20Gap"

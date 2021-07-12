@@ -1,6 +1,6 @@
 set :application, 'fashionchecker.org'
 set :repo_url, 'https://github.com/wikirate/transparency-tool.git'
-set :branch, 'master'
+set :branch, "main"
 
 set :deploy_to, '/srv/fashionchecker'
 
@@ -18,5 +18,3 @@ set :deploy_to, '/srv/fashionchecker'
 
 # set :default_env, { path: "/opt/ruby/bin:$PATH" }
 # set :keep_releases, 5
-
-

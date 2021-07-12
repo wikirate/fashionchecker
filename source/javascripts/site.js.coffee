@@ -1,45 +1,83 @@
 $.fn.select2.defaults.set("theme", "bootstrap4")
 
-API_HOST = "https://dev.wikirate.org"
-# API_HOST = "https://wikirate.org"
-WIKIRATE_AUTH = "wikirate:wikirat"
-SUPPLIER_METRIC_ID = 2929009 # Commons+Supplied By
-SUPPLIER_PROJECT_ID = 7611147
+window.FC = {
+  wikirate_api_host: "https://dev.wikirate.org"
+  wikirate_link_target: "https://wikirate.org"
+  wikirate_auth: "wikirate:wikirat"
 
-if WIKIRATE_AUTH
+  supplier_metric_id: 2929009 # Commons+Supplied By
+  supplier_project_id: 7611147
+  brand_project_id: 7611143
+
+  brands_metric_map: {
+    headquarters: 5456201,
+    transparency_score: 5780639,
+    living_wages_score: 5990097,
+    action_plan: 5768881,
+    policy_promise_score: 5780757,
+    isolating_labor: 5768917,
+    revenue: 5780267,
+    profit: 5780278,
+    top_3_production_countries: 5768935
+  }
+
+  brands_table_fields: [
+    "headquarters", "transparency_score", "living_wages_score", "action_plan",
+    "policy_promise_score", "isolating_labor"
+  ]
+
+  suppliers_metric_map: {
+    headquarters: 5456201,
+    female: 3233894,
+    male: 3233883,
+    other: 6019448,
+    permanent: 6019621,
+    temporary: 6019632,
+    average: 6019687,
+    gap: 7347357,
+    cba: 6020927,
+    know_brand: 6019511,
+    pregnancy: 6019786
+  }
+
+  score: {
+    living_wage_score: {
+      "E": 1
+      "D": 2
+      "C": 3
+      "B": 4
+      "A": 5
+    }
+    transparency_score: {
+      "0.0": 1
+      "2.5": 2
+      "5.0": 3
+      "7.5": 4
+      "10.0": 5
+    }
+    commitment_score: {
+      "No": 1,
+      "Partial": 2,
+      "Yes": 3,
+      "Yes, Other": 3,
+      "Yes, ACT": 3,
+      "Yes, Fair Wear Foundation": 3,
+    }
+  }
+
+}
+
+FC.brand_list_url = "#{FC.wikirate_api_host}/company.json?view=brands_select2"
+FC.brands_answers_url = "content/brand_answers.json"
+
+
+# pass basic authentication on WikiRate dev/staging servers
+if FC.wikirate_auth
   $.ajaxSetup(
     beforeSend: (xhr) ->
-      xhr.setRequestHeader "Authorization", "Basic " + btoa(WIKIRATE_AUTH)
+      xhr.setRequestHeader "Authorization", "Basic " + btoa(FC.wikirate_auth)
   )
 
-BRAND_LIST_URL = "#{API_HOST}/company.json?view=brands_select2"
-BRANDS_ANSWERS_URL = "content/brand_answers.json"
-
-BRANDS_METRIC_MAP = {
-  location: 5456201,
-  transparency_score: 5780639,
-  living_wages_score: 5990097,
-  action_plan: 5768881,
-  policy_promise_score: 5780757,
-  isolating_labor: 5768917
-}
-
-SUPPLIERS_METRIC_MAP = {
-  location: 5456201,
-  female: 3233894,
-  male: 3233883,
-  other: 6019448,
-  permanent: 6019621,
-  temporary: 6019632,
-  average: 6019687,
-  gap: 7347357,
-  cba: 6020927,
-  know_brand: 6019511,
-  pregnancy: 6019786
-}
-
-
-window.FC = {}
 
 $(document).ready ->
   prepareSearch()
@@ -47,7 +85,7 @@ $(document).ready ->
 
   params = new URLSearchParams(window.location.search)
   if params.has "q"
-    loadBrandInfo params.get "q"
+    FC.brandBox params.get "q"
   else
     loadBrandsTable()
 
@@ -64,7 +102,7 @@ prepareSearch = () ->
   activateSearch()
 
 loadSearchOptions = () ->
-  $.ajax(url: BRAND_LIST_URL, dataType: "json").done (data) ->
+  $.ajax(url: FC.brand_list_url, dataType: "json").done (data) ->
     $("._brand-search").select2(
       placeholder: "search for brand"
       allowClear: true
@@ -79,7 +117,7 @@ activateSearch = () ->
       if $(this).data("redirect")?
         redirectSearch company_id
       else
-        loadBrandInfo company_id
+        FC.brandBox company_id
 
 redirectSearch = (company_id) ->
   href = "/brand-profile.html?q=#{company_id}"
@@ -92,23 +130,23 @@ redirectSearch = (company_id) ->
 
 #~~~~~~~~ BRANDS ~~~~~~~~~~
 
+brandsTableMap = ()->
+  map = {}
+  $.each FC.brands_table_fields, (_i, fld) ->
+    map[fld] = FC.brands_metric_map[fld]
+  map
+
 loadBrandsTable = () ->
-  $.ajax(url: BRANDS_ANSWERS_URL, dataType: "json").done((data) ->
-    FC.companyTable data,"#brands-table", BRANDS_METRIC_MAP
+  $.ajax(url: FC.brands_answers_url, dataType: "json").done((data) ->
+    FC.companyTable data,"#brands-table", brandsTableMap()
   )
 
-loadBrandInfo = (company_id) ->
-  $.ajax(url: brandInfoURL(company_id), dataType: "json").done((data) ->
-    $output = $("#result")
-    $output.empty()
+#  $.ajax(url: supplierURL(company_id), dataType: "json").done((data) ->
+#    FC.companyTable data,"#suppliers-table", FC.suppliers_metric_map
+#  )
 
-    new BrandInfo(data).render($output)
-    $('[data-toggle="popover"]').popover()
 
-    $.ajax(url: supplierURL(company_id), dataType: "json").done((data) ->
-      FC.companyTable data,"#suppliers-table", SUPPLIERS_METRIC_MAP
-    )
-  )
+
 
 supplierURL = (company_id) ->
   query = $.param(
@@ -116,17 +154,9 @@ supplierURL = (company_id) ->
     filter: {
       relationship: {
         company_id: company_id,
-        metric_id: SUPPLIER_METRIC_ID
+        metric_id: FC.supplier_metric_id
       },
-      project_metric: "~#{SUPPLIER_PROJECT_ID}"
+      project_metric: "~#{FC.supplier_project_id}"
     }
   )
-  "#{API_HOST}/Answer/compact.json?#{query}"
-
-
-brandInfoURL = (company_id) ->
-  "#{API_HOST}/~#{company_id}.json?view=transparency_info"
-
-# filter: {
-#   relationship: { company_id: (brand), metric_id: (commons_supplier_of) },
-#   project_metric: projec
+  "#{FC.wikirate_api_host}/Answer/compact.json?#{query}"

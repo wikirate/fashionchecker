@@ -18,9 +18,9 @@ module Partials
      transp_pledge_machinereadable
   ].freeze
 
-  def property title, name, prefix=nil
+  def property key, prefix=nil
     partial "partials/brand_profile/property",
-            locals: { title: title, name: name, prefix: prefix }
+            locals: { key: key, prefix: prefix }
   end
 
   def brand_profile_partial template, args={}
