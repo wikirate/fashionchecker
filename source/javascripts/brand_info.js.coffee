@@ -9,11 +9,14 @@ FC.templater = (id) ->
     @container.children(".template")
 
   @publish = () ->
-    @container.find('[data-toggle="popover"]').popover()
+    @find('[data-toggle="popover"]').popover()
     @result().append @current
 
   @fill = (field, value) ->
-    @current.find("._#{field}").text(value)
+    @find("._#{field}").text(value)
+
+  @find = (selector) ->
+    @current.find selector
 
   @result().empty()
   @current = @template().clone()
@@ -41,7 +44,7 @@ FC.wikirateUrl = (company_id) ->
 
 FC.brandBox = (company_id) ->
   @company_id = company_id
-  @template = FC.templater "brandBox"
+  @template = new FC.templater "brandBox"
 
   @build = () ->
     @fillName()
@@ -67,7 +70,7 @@ FC.brandBox = (company_id) ->
 
   @fillSimple = () ->
     fields =
-      ["headquarters", "revenue", "location", "profit", "top_3_production_countries"]
+      ["country", "revenue", "profit", "top_3_production_countries"]
     for _i, fld of fields
       @template.fill fld, @value(fld)
 
@@ -115,10 +118,10 @@ FC.brandBox = (company_id) ->
     box.data = box.interpret data
     box.build()
 
-class window.BrandInfo
-  render: ($output) ->
-    for index, brand of data.brands
-      addBrand brand, $template
-
-  addBrand = (brand, $container) ->
-    $container.find("#brands").append $("<li>#{brand}</li>")
+#class window.BrandInfo
+#  render: ($output) ->
+#    for index, brand of data.brands
+#      addBrand brand, $template
+#
+#  addBrand = (brand, $container) ->
+#    $container.find("#brands").append $("<li>#{brand}</li>")

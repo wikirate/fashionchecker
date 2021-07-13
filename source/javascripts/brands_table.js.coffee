@@ -14,9 +14,9 @@ FC.companies = (data) ->
 #  "<a class='red' target='_wikirate' href=\"#{LINK_TARGET_HOST}/~#{id}\">#{name}</a>"
 
 
-FC.companyTable = (data, tableSelector, metricMap) ->
+FC.companyTable = (data, table, metricMap) ->
   @data = data
-  @table = $(tableSelector)
+  @table = table
   @metricMap = metricMap
 
   @render = () ->

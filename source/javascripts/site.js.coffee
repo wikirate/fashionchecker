@@ -10,7 +10,7 @@ window.FC = {
   brand_project_id: 7611143
 
   brands_metric_map: {
-    headquarters: 5456201
+    country: 6126450
     twitter_handle: 6140253
 
     transparency_score: 5780639
@@ -28,12 +28,12 @@ window.FC = {
   }
 
   brands_table_fields: [
-    "headquarters", "transparency_score", "living_wages_score",
+    "country", "transparency_score", "living_wages_score",
     "action_plan", "public_commitment", "isolating_labor"
   ]
 
   suppliers_metric_map: {
-    headquarters: 5456201
+    country: 6126450
     female: 3233894
     male: 3233883
     other: 6019448
@@ -62,20 +62,23 @@ window.FC = {
       "10.0": 5
     }
     commitment: {
-      "No": 1,
-      "Partial": 2,
-      "Yes": 3,
-      "Yes, Other": 3,
-      "Yes, ACT": 3,
-      "Yes, Fair Wear Foundation": 3,
+      "No": 1
+      "Partial": 2
+      "Yes": 3
+      "Yes, Other": 3
+      "Yes, ACT": 3
+      "Yes, Fair Wear Foundation": 3
     }
   }
-
 }
 
-FC.brand_list_url = "#{FC.wikirate_api_host}/company.json?view=brands_select2"
-FC.brands_answers_url = "content/brand_answers.json"
+FC.apiUrl = (path, query) ->
+  "#{FC.wikirate_api_host}/#{path}.json?" + $.param(query)
 
+FC.brands_url = FC.apiUrl ":filling_the_gap_group+Company", item: "nucleus"
+FC.subbrands_url = FC.apiUrl ":commons_has_brands+Relationship_Answer",
+  filter: { company_group: ":filling_the_gap_group", year: "latest" }, limit: 500
+FC.brands_answers_url = "content/brand_answers.json"
 
 # pass basic authentication on WikiRate dev/staging servers
 if FC.wikirate_auth
@@ -91,7 +94,7 @@ $(document).ready ->
 
   params = new URLSearchParams(window.location.search)
   if params.has "q"
-    FC.brandBox params.get "q"
+    loadBrand params.get "q"
   else
     loadBrandsTable()
 
@@ -108,12 +111,25 @@ prepareSearch = () ->
   activateSearch()
 
 loadSearchOptions = () ->
-  $.ajax(url: FC.brand_list_url, dataType: "json").done (data) ->
+  $.when(
+    $.ajax(url: FC.brands_url, dataType: "json"),
+    $.ajax(url: FC.subbrands_url, dataType: "json")
+  ).done (main, owned) ->
     $("._brand-search").select2(
       placeholder: "search for brand"
       allowClear: true
-      data: data["results"]
+      data: searchOptions(main, owned)
     ).val(null).trigger('change')
+
+searchOptions = (main, owned) ->
+  opts = []
+  lookup = {}
+  $.each main[0].items, (_i, brand) ->
+    opts.push { id: brand.id, text: brand.name }
+    lookup[brand.name] = brand.id
+  $.each owned[0].items, (_i, brand) ->
+    opts.push { id: lookup[brand.subject_company], text: brand.object_company }
+  opts
 
 activateSearch = () ->
   $("body").on "change", "._brand-search", ->
@@ -123,7 +139,7 @@ activateSearch = () ->
       if $(this).data("redirect")?
         redirectSearch company_id
       else
-        FC.brandBox company_id
+        loadBrand company_id
 
 redirectSearch = (company_id) ->
   href = "/brand-profile.html?q=#{company_id}"
@@ -142,20 +158,25 @@ brandsTableMap = ()->
     map[fld] = FC.brands_metric_map[fld]
   map
 
+loadBrand = (company_id) ->
+  FC.brandBox company_id
+  loadSuppliersTable company_id
+
 loadBrandsTable = () ->
   $.ajax(url: FC.brands_answers_url, dataType: "json").done((data) ->
-    FC.companyTable data,"#brands-table", brandsTableMap()
+    FC.companyTable data, $("#brands-table"), brandsTableMap()
   )
 
-#  $.ajax(url: supplierURL(company_id), dataType: "json").done((data) ->
-#    FC.companyTable data,"#suppliers-table", FC.suppliers_metric_map
-#  )
-
-
-
+loadSuppliersTable = (company_id) ->
+  $.ajax(url: supplierURL(company_id), dataType: "json").done((data) ->
+    template = new FC.templater "suppliers"
+    table = template.current.find "#suppliersTable"
+    FC.companyTable data, table, FC.suppliers_metric_map
+    template.publish()
+  )
 
 supplierURL = (company_id) ->
-  query = $.param(
+  FC.apiUrl "Answer/compact",
     limit: 0,
     filter: {
       relationship: {
@@ -164,5 +185,3 @@ supplierURL = (company_id) ->
       },
       project_metric: "~#{FC.supplier_project_id}"
     }
-  )
-  "#{FC.wikirate_api_host}/Answer/compact.json?#{query}"
