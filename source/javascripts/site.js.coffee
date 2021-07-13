@@ -10,52 +10,58 @@ window.FC = {
   brand_project_id: 7611143
 
   brands_metric_map: {
-    headquarters: 5456201,
-    transparency_score: 5780639,
-    living_wages_score: 5990097,
-    action_plan: 5768881,
-    policy_promise_score: 5780757,
-    isolating_labor: 5768917,
-    revenue: 5780267,
-    profit: 5780278,
+    headquarters: 5456201
+    twitter_handle: 6140253
+
+    transparency_score: 5780639
+    transparency_key: 6261816
+    living_wages_score: 5990097
+    living_wages_key: 6261809
+
+    public_commitment: 5780757
+    action_plan: 5768881
+    isolating_labor: 5768917
+
+    revenue: 5780267
+    profit: 5780278
     top_3_production_countries: 5768935
   }
 
   brands_table_fields: [
-    "headquarters", "transparency_score", "living_wages_score", "action_plan",
-    "policy_promise_score", "isolating_labor"
+    "headquarters", "transparency_score", "living_wages_score",
+    "action_plan", "public_commitment", "isolating_labor"
   ]
 
   suppliers_metric_map: {
-    headquarters: 5456201,
-    female: 3233894,
-    male: 3233883,
-    other: 6019448,
-    permanent: 6019621,
-    temporary: 6019632,
-    average: 6019687,
-    gap: 7347357,
-    cba: 6020927,
-    know_brand: 6019511,
+    headquarters: 5456201
+    female: 3233894
+    male: 3233883
+    other: 6019448
+    permanent: 6019621
+    temporary: 6019632
+    average: 6019687
+    gap: 7347357
+    cba: 6020927
+    know_brand: 6019511
     pregnancy: 6019786
   }
 
   score: {
-    living_wage_score: {
+    living_wage: {
       "E": 1
       "D": 2
       "C": 3
       "B": 4
       "A": 5
     }
-    transparency_score: {
+    transparency: {
       "0.0": 1
       "2.5": 2
       "5.0": 3
       "7.5": 4
       "10.0": 5
     }
-    commitment_score: {
+    commitment: {
       "No": 1,
       "Partial": 2,
       "Yes": 3,
