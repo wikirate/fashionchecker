@@ -7,10 +7,9 @@ window.FC = {
 
   supplier_metric_id: 2929009 # Commons+Supplied By
   supplier_project_id: 7611147
-  brand_project_id: 7611143
 
   brands_metric_map: {
-    country: 6126450
+    headquarters: 6126450
     twitter_handle: 6140253
 
     transparency_score: 5780639
@@ -28,22 +27,23 @@ window.FC = {
   }
 
   brands_table_fields: [
-    "country", "transparency_score", "living_wages_score",
+    "headquarters", "transparency_score", "living_wages_score",
     "action_plan", "public_commitment", "isolating_labor"
   ]
 
   suppliers_metric_map: {
-    country: 6126450
+    headquarters: 6126450
     female: 3233894
     male: 3233883
     other: 6019448
+    num_workers: 4780588
     permanent: 6019621
     temporary: 6019632
     average: 6019687
     gap: 7347357
-    cba: 6020927
-    know_brand: 6019511
-    pregnancy: 6019786
+    #    cba: 6020927
+    #    know_brand: 6019511
+    #    pregnancy: 6019786
   }
 
   score: {
@@ -70,28 +70,39 @@ window.FC = {
       "Yes, Fair Wear Foundation": 3
     }
   }
+
+  metricIds: (map) ->
+    $.map map, (metricId) ->
+      metricId
 }
 
 FC.apiUrl = (path, query) ->
   "#{FC.wikirate_api_host}/#{path}.json?" + $.param(query)
 
 $.extend FC,
-  brandsUrl: FC.apiUrl(":filling_the_gap_group+Company", item: "nucleus")
 
-  subBrandsUrl: FC.apiUrl(":commons_has_brands+Relationship_Answer",
-    filter: { company_group: ":filling_the_gap_group", year: "latest" }, limit: 500
-  )
+  # STATIC URLS
+  brandsUrl: "content/brands.json"
+  subBrandsUrl: "content/sub_brands.json"
+  brandAnswersUrl: "content/brand_answers.json"
 
-  brandAnswersUrl: FC.apiUrl("Answer/compact",
-    limit: 0,
-    # filter: { project: "Fashion Checker Brand Profile Metrics" }
-    filter: {
-      company_group: ":filling_the_gap_group",
-      metric_id: $.map(FC.brands_table_fields, (fld, _i) ->
-        FC.brands_metric_map[fld]
-      )
-    }
-  )
+  # LIVE URLS
+  #  brandsUrl: FC.apiUrl(":filling_the_gap_group+Company", item: "nucleus")
+  #
+  #  subBrandsUrl: FC.apiUrl(":commons_has_brands+Relationship_Answer",
+  #    limit: 500
+  #    filter: { company_group: ":filling_the_gap_group", year: "latest" }
+  #  )
+  #
+  #  brandAnswersUrl: FC.apiUrl("Answer/compact",
+  #    limit: 0
+  #    # filter: { project: "Fashion Checker Brand Profile Metrics" }
+  #    filter:
+  #      company_group: ":filling_the_gap_group",
+  #      metric_id: $.map(FC.brands_table_fields, (fld, _i) ->
+  #        FC.brands_metric_map[fld]
+  #      )
+  #  )
 
 # pass basic authentication on WikiRate dev/staging servers
 if FC.wikirate_auth
@@ -171,7 +182,7 @@ brandsColumnMap = {
   name: (val, companyId) ->
     "<a href='#{profileLink companyId}'>#{val}</a>"
 
-  country: 1
+  headquarters: 1
   transparency_score: 1
   living_wages_score: 1
   action_plan: (val) ->
@@ -196,11 +207,33 @@ loadBrandsTable = () ->
     FC.companyTable data, $("#brands-table"), brandsColumnMap, FC.brands_metric_map
   )
 
+suppliersColumnMap = {
+  name: (val, companyId) ->
+    "<a href='#{FC.wikirateUrl companyId}'>#{val}</a>"
+
+  headquarters: 1
+
+  average: 1
+
+  gap: 1
+
+  num_workers: 1
+
+  female: (val, _id, companyHash) ->
+    male = companyHash[FC.suppliers_metric_map['male']] || "-"
+    other = companyHash[FC.suppliers_metric_map['other']] || "-"
+    "#{val}/#{male}/#{other}"
+
+  permanent: (val, _id, companyHash) ->
+    temporary = companyHash[FC.suppliers_metric_map['temporary']] || "-"
+    "#{val}/#{temporary}"
+}
+
 loadSuppliersTable = (companyId) ->
   $.ajax(url: supplierURL(companyId), dataType: "json").done((data) ->
     template = new FC.templater "suppliers"
     table = template.current.find "#suppliersTable"
-    FC.companyTable data, table, FC.suppliers_metric_map
+    FC.companyTable data, table, suppliersColumnMap, FC.suppliers_metric_map
     template.publish()
   )
 

@@ -73,7 +73,7 @@ FC.brandBox = (company_id) ->
 
   @fillSimple = () ->
     fields =
-      ["country", "revenue", "profit", "top_3_production_countries"]
+      ["headquarters", "revenue", "profit", "top_3_production_countries"]
     for _i, fld of fields
       @template.fill fld, @value(fld)
 
@@ -115,7 +115,10 @@ FC.brandBox = (company_id) ->
 
   box = this
   url = FC.apiUrl "~#{@company_id}+Answer/compact",
-    filter: { project: "~#{FC.brand_project_id}", year: "latest" }
+    filter:
+      metric_id: $.map(FC.brands_metric_map, (metric_id) ->
+        metric_id)
+      year: "latest"
 
   $.ajax(url: url, dataType: "json").done (data) ->
     box.data = box.interpret data

@@ -29,17 +29,17 @@ FC.companyTable = (data, table, columnMap, metricMap) ->
 
   @addRows = () ->
     t = this
-    $.each FC.companies(@data), (_id, companyHash) ->
-      t.addRow companyHash
+    $.each FC.companies(@data), (companyId, companyHash) ->
+      t.addRow companyId, companyHash
 
-  @addRow = (hash) ->
+  @addRow = (companyId, companyHash) ->
     t = this
     cells = []
     $.each @columnMap, (key, fn) ->
       key = t.metricMap[key] unless key == "name"
-      val = hash[key] || "-"
+      val = companyHash[key] || "-"
       unless fn == 1 || val == "-"
-        val = fn val, hash["id"]
+        val = fn val, companyId, companyHash
       cells.push t.td(val)
 
     @tbody.append "<tr>#{cells.join()}</tr>"

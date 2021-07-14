@@ -37,9 +37,7 @@
                   = t('menu_resources')
 
           .col-sm-4
-            %a{:href => "brand-profile.html"}
-              %h4
-                = t('menu_explore_the_data')
+            =brand_profile_partial :search, locals: { redirect: true }
             .pt-4
               %a{:href => "take_action.html"}
                 %h4
