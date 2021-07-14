@@ -83,8 +83,15 @@ $.extend FC,
   )
 
   brandAnswersUrl: FC.apiUrl("Answer/compact",
-    filter: { project: "Fashion Checker Brand Profile Metrics" }, limit: 0)
-#    filter: { company_group: ":filling_the_gap_group", metrics: }
+    limit: 0,
+    # filter: { project: "Fashion Checker Brand Profile Metrics" }
+    filter: {
+      company_group: ":filling_the_gap_group",
+      metric_id: $.map(FC.brands_table_fields, (fld, _i) ->
+        FC.brands_metric_map[fld]
+      )
+    }
+  )
 
 # pass basic authentication on WikiRate dev/staging servers
 if FC.wikirate_auth
@@ -92,7 +99,6 @@ if FC.wikirate_auth
     beforeSend: (xhr) ->
       xhr.setRequestHeader "Authorization", "Basic " + btoa(FC.wikirate_auth)
   )
-
 
 $(document).ready ->
   prepareSearch()
@@ -158,11 +164,25 @@ redirectSearch = (company_id) ->
 
 #~~~~~~~~ BRANDS ~~~~~~~~~~
 
-brandsTableMap = ()->
-  map = {}
-  $.each FC.brands_table_fields, (_i, fld) ->
-    map[fld] = FC.brands_metric_map[fld]
-  map
+brandsColumnMap = {
+  name: (val) ->
+    val
+
+  country: 1
+  transparency_score: 1
+  living_wages_score: 1
+  action_plan: (val) ->
+    simpleCommitment val
+  public_commitment: (val) ->
+    simpleCommitment val
+  isolating_labor: (val) ->
+    simpleCommitment val
+}
+
+simpleCommitment = (val) ->
+  el = $('<img class="littleSmiley"/>')
+  FC.commitmentImage(el, val)
+  el.prop "outerHTML"
 
 loadBrand = (company_id) ->
   FC.brandBox company_id
@@ -170,7 +190,7 @@ loadBrand = (company_id) ->
 
 loadBrandsTable = () ->
   $.ajax(url: FC.brandAnswersUrl, dataType: "json").done((data) ->
-    FC.companyTable data, $("#brands-table"), brandsTableMap()
+    FC.companyTable data, $("#brands-table"), brandsColumnMap, FC.brands_metric_map
   )
 
 loadSuppliersTable = (companyId) ->

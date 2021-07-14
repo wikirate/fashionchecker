@@ -14,9 +14,10 @@ FC.companies = (data) ->
 #  "<a class='red' target='_wikirate' href=\"#{LINK_TARGET_HOST}/~#{id}\">#{name}</a>"
 
 
-FC.companyTable = (data, table, metricMap) ->
+FC.companyTable = (data, table, columnMap, metricMap) ->
   @data = data
   @table = table
+  @columnMap = columnMap
   @metricMap = metricMap
 
   @render = () ->
@@ -33,9 +34,12 @@ FC.companyTable = (data, table, metricMap) ->
 
   @addRow = (hash) ->
     t = this
-    cells = [@td hash["name"]]
-    $.each @metricMap, (_key, id) ->
-      val = hash[id] || "-"
+    cells = []
+    $.each @columnMap, (key, fn) ->
+      key = t.metricMap[key] unless key == "name"
+      val = hash[key] || "-"
+      unless fn == 1 || val == "-"
+        val = fn val
       cells.push t.td(val)
 
     @tbody.append "<tr>#{cells.join()}</tr>"

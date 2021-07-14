@@ -23,13 +23,17 @@ FC.templater = (id) ->
   @current.removeClass "template"
   this
 
+FC.commitmentImage = (el, value) ->
+  value = "Yes" if value.includes "Yes"
+  FC.selectImage el, "smiley", value, "svg"
+
 FC.commitmentScore = (el, name, value) ->
   el.find("._#{name}").text(value)
   letterGrade = FC.score.commitment[value]
 
   el.find("._#{name}-help").attr("data-target", "##{name}-score-#{letterGrade}")
-  value = "Yes" if value.includes("Yes")
-  FC.selectImage(el.find("._#{name}-smiley"), "smiley", value, "svg")
+  FC.commitmentImage el.find("._#{name}-smiley"), value
+
 
 FC.selectImage = ($el, folder, score, ext) ->
   ext ||= "png"
@@ -111,10 +115,10 @@ FC.brandBox = (company_id) ->
       current++
 
   box = this
-  query = { filter: { project: "~#{FC.brand_project_id}" } }
-  api_url = "#{FC.wikirate_api_host}/~#{@company_id}+Answer/compact.json?#{$.param query}"
+  url = FC.apiUrl "~#{@company_id}+Answer/compact",
+    filter: { project: "~#{FC.brand_project_id}", year: "latest" }
 
-  $.ajax(url: api_url, dataType: "json").done (data) ->
+  $.ajax(url: url, dataType: "json").done (data) ->
     box.data = box.interpret data
     box.build()
 
