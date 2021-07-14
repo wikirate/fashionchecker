@@ -34,7 +34,6 @@ FC.commitmentScore = (el, name, value) ->
   el.find("._#{name}-help").attr("data-target", "##{name}-score-#{letterGrade}")
   FC.commitmentImage el.find("._#{name}-smiley"), value
 
-
 FC.selectImage = ($el, folder, score, ext) ->
   ext ||= "png"
   $el.attr("src", "/images/#{folder}/#{score}.#{ext}")

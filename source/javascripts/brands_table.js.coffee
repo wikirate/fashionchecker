@@ -39,7 +39,7 @@ FC.companyTable = (data, table, columnMap, metricMap) ->
       key = t.metricMap[key] unless key == "name"
       val = hash[key] || "-"
       unless fn == 1 || val == "-"
-        val = fn val
+        val = fn val, hash["id"]
       cells.push t.td(val)
 
     @tbody.append "<tr>#{cells.join()}</tr>"

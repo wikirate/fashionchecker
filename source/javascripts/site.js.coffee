@@ -153,8 +153,11 @@ activateSearch = () ->
       else
         loadBrand company_id
 
-redirectSearch = (company_id) ->
-  href = "/brand-profile.html?q=#{company_id}"
+profileLink = (companyId) ->
+  "/brand-profile.html?q=#{companyId}"
+
+redirectSearch = (companyId) ->
+  href = profileLink companyId
   current = window.location.href
   if /(\/$|html)/.test current
     prefix = "."
@@ -165,8 +168,8 @@ redirectSearch = (company_id) ->
 #~~~~~~~~ BRANDS ~~~~~~~~~~
 
 brandsColumnMap = {
-  name: (val) ->
-    val
+  name: (val, companyId) ->
+    "<a href='#{profileLink companyId}'>#{val}</a>"
 
   country: 1
   transparency_score: 1
