@@ -9,9 +9,7 @@
               = t('header_question_1')
             .yellow
               = t('header_question_2')
-          %p.pt-3.white.lead
-            = t('find_out')
-          = brand_profile_partial :search,  locals: { redirect: true }
+          -#= brand_profile_partial :search,  locals: { redirect: true }
         .d-none.d-md-block.col-md-6
           %img.float-right{src: "/images/logo/SVG/CCC_FashionChecker_RGB_vertical_spot.svg",
                height: "300px", width: "auto"}
@@ -34,8 +32,37 @@
 
     .bottom-extender.pink-bg.extra-extender
 
-    .fuchsia-bg.skew-right
+    .yellow-bg.skew-right
       .container-fluid.skew-left
+        .container.py-5#brandsTableContainer
+          .display-3.fuchsia
+            Brands Surveyed
+          %p.pt-3.red.lead
+            = t('find_out')
+
+          %table#brandsTable.w-100.table.table-sm
+            %thead
+              %tr
+                %th Brand
+                %th Headquarters
+                %th
+                  %i.fa.fa-search-location
+                %th
+                  %i.fa.fa-piggy-bank
+                %th
+                  %i.fa.fa-clipboard-list
+                %th
+                  %i.fa.fa-comment
+                %th
+                  %i.fa.fa-user-tag
+            %tbody
+
+          ._transparencyTemplate.d-none
+            = partial "partials/brand_profile/score/transparency_stars.html"
+    .bottom-extender.yellow-bg.extra-extender
+
+    .fuchsia-bg.skew-left
+      .container-fluid.skew-right
         .container.py-5.result-container
           .row
             .col-sm-6
@@ -56,25 +83,6 @@
 
     .high-z
       = banner "/images/homepage/textile_scene.png"
-
-    = section :blue do
-      %table#brands-table.w-100.table.table-sm.light-blue-bg.medium-grey
-        %thead
-          %tr
-            %th Name
-            %th Headquarters
-            %th
-              %i.fa.fa-search-location
-            %th
-              %i.fa.fa-piggy-bank
-            %th
-              %i.fa.fa-clipboard-list
-            %th
-              %i.fa.fa-comment
-            %th
-              %i.fa.fa-user-tag
-        %tbody
-
 
     = section :yellow do
       .row

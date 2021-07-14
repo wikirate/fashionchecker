@@ -38,9 +38,11 @@ FC.companyTable = (data, table, columnMap, metricMap) ->
     $.each @columnMap, (key, fn) ->
       key = t.metricMap[key] unless key == "name"
       val = companyHash[key] || "-"
-      unless fn == 1 || val == "-"
+      if fn == 1 || val == "-"
+        val = t.td val
+      else
         val = fn val, companyId, companyHash
-      cells.push t.td(val)
+      cells.push val
 
     @tbody.append "<tr>#{cells.join()}</tr>"
 

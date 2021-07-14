@@ -27,12 +27,13 @@ FC.commitmentImage = (el, value) ->
   value = "Yes" if value.includes "Yes"
   FC.selectImage el, "smiley", value, "svg"
 
-FC.commitmentScore = (el, name, value) ->
-  el.find("._#{name}").text(value)
-  letterGrade = FC.score.commitment[value]
-
-  el.find("._#{name}-help").attr("data-target", "##{name}-score-#{letterGrade}")
-  FC.commitmentImage el.find("._#{name}-smiley"), value
+FC.transparencyImage = (el, val) ->
+  return unless (stars = FC.score.transparency[val])
+  current = 1
+  while (current <= stars)
+    img = el.find "._star-#{current}"
+    FC.selectImage img, "transparency_score", "star_solid", "svg"
+    current++
 
 FC.selectImage = ($el, folder, score, ext) ->
   ext ||= "png"
@@ -55,7 +56,7 @@ FC.brandBox = (company_id) ->
     @fillCommitments()
     @fillTranslations()
     @livingWageImage()
-    @transparencyImage()
+    @transparency()
     @wikiRateLinks()
     @tweetTheBrand()
     @template.publish()
@@ -65,7 +66,14 @@ FC.brandBox = (company_id) ->
 
   @fillCommitments = () ->
     for _i, fld of ["action_plan", "public_commitment", "isolating_labor"]
-      FC.commitmentScore @template.current, fld, @value(fld)
+      @commitmentScore @template.current, fld, @value(fld)
+
+  @commitmentScore = (el, name, value) ->
+    el.find("._#{name}").text(value)
+    letterGrade = FC.score.commitment[value]
+
+    el.find("._#{name}-help").attr("data-target", "##{name}-score-#{letterGrade}")
+    FC.commitmentImage el.find("._#{name}-smiley"), value
 
   @fillTranslations = () ->
     for _i, fld of ["transparency_key", "living_wages_key"]
@@ -90,6 +98,9 @@ FC.brandBox = (company_id) ->
     fld = "living_wages_score"
     FC.selectImage @find("._#{fld}"), "wage_score", @value(fld)
 
+  @transparency = () ->
+    FC.transparencyImage @find("._transparency-stars"), @value("transparency_score")
+
   @wikiRateLinks = () ->
     @find("._wikirate-link").attr "href", FC.wikirateUrl(@company_id)
 
@@ -101,23 +112,10 @@ FC.brandBox = (company_id) ->
     link.attr "href", link.attr("href") + $.param({ text: tweetText })
     link.removeClass("d-none")
 
-  @transparencyStars = () ->
-    numericScore = @value "transparency_score"
-    FC.score.transparency[numericScore]
-
-  @transparencyImage = () ->
-    return unless (stars = @transparencyStars())
-    current = 1
-    while (current <= stars)
-      starImg = @find "._transparency-stars ._star-#{current}"
-      FC.selectImage starImg, "transparency_score", "star_solid", "svg"
-      current++
-
   box = this
   url = FC.apiUrl "~#{@company_id}+Answer/compact",
     filter:
-      metric_id: $.map(FC.brands_metric_map, (metric_id) ->
-        metric_id)
+      metric_id: Object.values(FC.brands_metric_map)
       year: "latest"
 
   $.ajax(url: url, dataType: "json").done (data) ->

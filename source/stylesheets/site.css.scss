@@ -564,30 +564,7 @@ main {
   }
 }
 
-.dataTables_wrapper {
-  .dataTables_filter, .dataTables_info, .dataTables_processing, .dataTables_paginate,
-  .dataTables_length {
-    color: $white;
-    select, input {
-      background: $medium-grey;
-    }
-  }
-  .dataTables_paginate {
-    .paginate_button {
-      background: $medium-grey;
-      &.disabled {
-        color: $sky-blue !important
-      }
-      &:active, &:hover, &.current, &.current:hover, &.current:active {
-        background: $light-blue;
-        color: $white !important;
-        border-color: $lighter-blue;
-      }
-    }
-  }
-}
-
-.dataTable {
+#suppliersTable {
   font-size: 0.7rem;
   td {
     background-color: $lighter-blue;
@@ -604,7 +581,7 @@ main {
   //}
 }
 
-.suppliers-table tbody td {
+.suppliersTable tbody td {
   white-space: nowrap;
   &:first-child {
     white-space: break-spaces;
@@ -642,13 +619,75 @@ main {
   }
 }
 
-.table th i.fa {
-  font-size: 1.7em;
-}
-tbody td:first-child {
-  width: 50%;
+
+
+#brandsTableContainer {
+  .dataTables_wrapper {
+    margin-bottom: 3em;
+  }
+  .dataTables_filter, .dataTables_info, .dataTables_processing, .dataTables_paginate,
+  .dataTables_length {
+    color: $navy;
+    select, input {
+      background: $pink;
+    }
+  }
+
+  .dataTables_paginate {
+    .paginate_button {
+      background: $pink;
+      &.disabled {
+        background: $yellow !important
+      }
+      &:active, &:hover, &.current, &.current:hover, &.current:active {
+        background: $fuchsia;
+        color: $white !important;
+        border-color: $pink;
+      }
+    }
+  }
 }
 
-.littleSmiley {
-  max-width: 20px;
+.table th i.fa {
+  font-size: 1.5em;
+}
+#brandsTable {
+  td {
+    background: $navy;
+    border-top: 1px solid $medium-blue;
+    text-align: center;
+    &:first-child {
+      text-align: left;
+      width: 50%;
+      a {
+        text-decoration: underline;
+      }
+    }
+  }
+  th {
+    background-color: $dark-blue;
+    border-top: 1px solid $yellow;
+
+  }
+  .littleSmiley {
+    max-width: 20px;
+  }
+  .transparency-stars {
+    min-width: 80px;
+    img {
+      width: 15px;
+      padding: 0;
+    }
+  }
+}
+
+.dataTables_wrapper {
+  .dataTables_filter, .dataTables_info, .dataTables_processing, .dataTables_paginate,
+  .dataTables_length {
+    color: $white;
+    select, input {
+      background: $medium-grey;
+    }
+  }
+
 }

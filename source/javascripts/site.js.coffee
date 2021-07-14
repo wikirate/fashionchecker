@@ -6,7 +6,6 @@ window.FC = {
   wikirate_auth: "wikirate:wikirat"
 
   supplier_metric_id: 2929009 # Commons+Supplied By
-  supplier_project_id: 7611147
 
   brands_metric_map: {
     headquarters: 6126450
@@ -70,10 +69,6 @@ window.FC = {
       "Yes, Fair Wear Foundation": 3
     }
   }
-
-  metricIds: (map) ->
-    $.map map, (metricId) ->
-      metricId
 }
 
 FC.apiUrl = (path, query) ->
@@ -178,25 +173,26 @@ redirectSearch = (companyId) ->
 
 #~~~~~~~~ BRANDS ~~~~~~~~~~
 
-brandsColumnMap = {
-  name: (val, companyId) ->
-    "<a href='#{profileLink companyId}'>#{val}</a>"
-
-  headquarters: 1
-  transparency_score: 1
-  living_wages_score: 1
-  action_plan: (val) ->
-    simpleCommitment val
-  public_commitment: (val) ->
-    simpleCommitment val
-  isolating_labor: (val) ->
-    simpleCommitment val
-}
-
 simpleCommitment = (val) ->
   el = $('<img class="littleSmiley"/>')
   FC.commitmentImage(el, val)
-  el.prop "outerHTML"
+  "<td data-sort='#{val}' title='#{val}'>#{el.prop 'outerHTML'}</td>"
+
+transparencyStars = (val) ->
+  el = $("._transparencyTemplate").clone()
+  FC.transparencyImage(el, val)
+  "<td data-sort='#{val}' title='#{val}'>#{el.html()}</td>"
+
+brandsColumnMap = {
+  name: (val, companyId) ->
+    "<td><a href='#{profileLink companyId}'>#{val}</a></td>"
+  headquarters: 1
+  transparency_score: transparencyStars
+  living_wages_score: 1
+  action_plan: simpleCommitment
+  public_commitment: simpleCommitment
+  isolating_labor: simpleCommitment
+}
 
 loadBrand = (company_id) ->
   FC.brandBox company_id
@@ -204,29 +200,26 @@ loadBrand = (company_id) ->
 
 loadBrandsTable = () ->
   $.ajax(url: FC.brandAnswersUrl, dataType: "json").done((data) ->
-    FC.companyTable data, $("#brands-table"), brandsColumnMap, FC.brands_metric_map
+    FC.companyTable data, $("#brandsTable"), brandsColumnMap, FC.brands_metric_map
   )
 
 suppliersColumnMap = {
   name: (val, companyId) ->
-    "<a href='#{FC.wikirateUrl companyId}'>#{val}</a>"
+    "<td><a href='#{FC.wikirateUrl companyId}'>#{val}</a></td>"
 
   headquarters: 1
-
   average: 1
-
   gap: 1
-
   num_workers: 1
 
   female: (val, _id, companyHash) ->
     male = companyHash[FC.suppliers_metric_map['male']] || "-"
     other = companyHash[FC.suppliers_metric_map['other']] || "-"
-    "#{val}/#{male}/#{other}"
+    "<td>#{val}/#{male}/#{other}</td>"
 
   permanent: (val, _id, companyHash) ->
     temporary = companyHash[FC.suppliers_metric_map['temporary']] || "-"
-    "#{val}/#{temporary}"
+    "<td>#{val}/#{temporary}</td>"
 }
 
 loadSuppliersTable = (companyId) ->
@@ -239,11 +232,9 @@ loadSuppliersTable = (companyId) ->
 
 supplierURL = (company_id) ->
   FC.apiUrl "Answer/compact",
-    limit: 0,
-    filter: {
-      relationship: {
-        company_id: company_id,
+    limit: 0
+    filter:
+      relationship:
+        company_id: company_id
         metric_id: FC.supplier_metric_id
-      },
-      project_metric: "~#{FC.supplier_project_id}"
-    }
+      metric_id: Object.values(FC.suppliers_metric_map)
