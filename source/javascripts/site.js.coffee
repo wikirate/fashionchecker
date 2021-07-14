@@ -75,10 +75,16 @@ window.FC = {
 FC.apiUrl = (path, query) ->
   "#{FC.wikirate_api_host}/#{path}.json?" + $.param(query)
 
-FC.brands_url = FC.apiUrl ":filling_the_gap_group+Company", item: "nucleus"
-FC.subbrands_url = FC.apiUrl ":commons_has_brands+Relationship_Answer",
-  filter: { company_group: ":filling_the_gap_group", year: "latest" }, limit: 500
-FC.brands_answers_url = "content/brand_answers.json"
+$.extend FC,
+  brandsUrl: FC.apiUrl(":filling_the_gap_group+Company", item: "nucleus")
+
+  subBrandsUrl: FC.apiUrl(":commons_has_brands+Relationship_Answer",
+    filter: { company_group: ":filling_the_gap_group", year: "latest" }, limit: 500
+  )
+
+  brandAnswersUrl: FC.apiUrl("Answer/compact",
+    filter: { project: "Fashion Checker Brand Profile Metrics" }, limit: 0)
+#    filter: { company_group: ":filling_the_gap_group", metrics: }
 
 # pass basic authentication on WikiRate dev/staging servers
 if FC.wikirate_auth
@@ -112,8 +118,8 @@ prepareSearch = () ->
 
 loadSearchOptions = () ->
   $.when(
-    $.ajax(url: FC.brands_url, dataType: "json"),
-    $.ajax(url: FC.subbrands_url, dataType: "json")
+    $.ajax(url: FC.brandsUrl, dataType: "json"),
+    $.ajax(url: FC.subBrandsUrl, dataType: "json")
   ).done (main, owned) ->
     $("._brand-search").select2(
       placeholder: "search for brand"
@@ -163,12 +169,12 @@ loadBrand = (company_id) ->
   loadSuppliersTable company_id
 
 loadBrandsTable = () ->
-  $.ajax(url: FC.brands_answers_url, dataType: "json").done((data) ->
+  $.ajax(url: FC.brandAnswersUrl, dataType: "json").done((data) ->
     FC.companyTable data, $("#brands-table"), brandsTableMap()
   )
 
-loadSuppliersTable = (company_id) ->
-  $.ajax(url: supplierURL(company_id), dataType: "json").done((data) ->
+loadSuppliersTable = (companyId) ->
+  $.ajax(url: supplierURL(companyId), dataType: "json").done((data) ->
     template = new FC.templater "suppliers"
     table = template.current.find "#suppliersTable"
     FC.companyTable data, table, FC.suppliers_metric_map
