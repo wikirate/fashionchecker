@@ -1,6 +1,6 @@
 window.brandBox = (company_id) ->
   @company_id = company_id
-  @template = new FC.util.templater "brandBox"
+  @template = new FC.util.templater "#brandBox"
 
   @build = () ->
     @fillName()

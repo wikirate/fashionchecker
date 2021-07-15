@@ -44,4 +44,5 @@ window.brandsTable = () ->
     $.ajax url: brandAnswersUrl, dataType: "json"
     FC.loadSubBrands
   ).done (brands, _owned) ->
-    FC.company.table brands[0], $("#brandsTable"), brandsColumnMap, FC.metrics.brandsMap
+    companies = FC.company.hash brands[0]
+    FC.company.table companies, $("#brandsTable"), brandsColumnMap, FC.metrics.brandsMap

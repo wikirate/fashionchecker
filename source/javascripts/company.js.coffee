@@ -27,7 +27,7 @@ FC.company.table = (data, tag, columnMap, metricMap) ->
 
   @addRows = () ->
     t = this
-    $.each FC.company.hash(@data), (companyId, companyHash) ->
+    $.each @data, (companyId, companyHash) ->
       t.addRow companyId, companyHash
 
   @addRow = (companyId, companyHash) ->

@@ -95,7 +95,7 @@ subBrandsUrl = FC.apiSwitch "content/sub_brands.json",
 $.extend FC,
   loadBrand: (companyId) ->
     brandBox companyId
-    suppliersTable companyId
+    suppliersInfo companyId
 
   loadSubBrands: $.ajax(url: subBrandsUrl, dataType: "json").done (owned) ->
     $.each owned.items, (_i, brand) ->
