@@ -55,6 +55,7 @@ FC.brandBox = (company_id) ->
     @fillSimple()
     @fillCommitments()
     @fillTranslations()
+    @fillSubBrands()
     @livingWageImage()
     @transparency()
     @wikiRateLinks()
@@ -78,6 +79,14 @@ FC.brandBox = (company_id) ->
   @fillTranslations = () ->
     for _i, fld of ["transparency_key", "living_wages_key"]
       @template.fill fld, scoreTranslation[@value(fld)]
+
+  @fillSubBrands = () ->
+    subs = FC.subBrands[@data["name"]]
+    return unless subs
+
+    list = @find "._sub_brand_list"
+    for _i, brand of subs
+      list.append $("<li>#{brand}</li>")
 
   @fillSimple = () ->
     fields =
@@ -118,14 +127,9 @@ FC.brandBox = (company_id) ->
       metric_id: Object.values(FC.brands_metric_map)
       year: "latest"
 
-  $.ajax(url: url, dataType: "json").done (data) ->
-    box.data = box.interpret data
+  $.when(
+    $.ajax url: url, dataType: "json"
+    FC.loadSubBrands
+  ).done (data) ->
+    box.data = box.interpret data[0]
     box.build()
-
-#class window.BrandInfo
-#  render: ($output) ->
-#    for index, brand of data.brands
-#      addBrand brand, $template
-#
-#  addBrand = (brand, $container) ->
-#    $container.find("#brands").append $("<li>#{brand}</li>")

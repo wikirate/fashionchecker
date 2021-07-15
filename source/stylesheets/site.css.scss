@@ -652,6 +652,9 @@ main {
   font-size: 1.5em;
 }
 #brandsTable {
+  tr.even td {
+    background-color: $black;
+  }
   td {
     background: $navy;
     border-top: 1px solid $medium-blue;
@@ -659,15 +662,30 @@ main {
     &:first-child {
       text-align: left;
       width: 50%;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-width: 260px;
+      white-space: nowrap;
       a {
         text-decoration: underline;
       }
+      .subBrandsList {
+        font-size: 0.8em;
+      }
+    }
+    // headquarters
+    &:nth-child(2) {
+      color: $medium-grey;
+      font-size: 0.8rem;
     }
   }
   th {
     background-color: $dark-blue;
     border-top: 1px solid $yellow;
-
+    text-align: center;
+    &:first-child {
+      text-align: left;
+    }
   }
   .littleSmiley {
     max-width: 20px;
@@ -681,13 +699,49 @@ main {
   }
 }
 
-.dataTables_wrapper {
-  .dataTables_filter, .dataTables_info, .dataTables_processing, .dataTables_paginate,
-  .dataTables_length {
-    color: $white;
-    select, input {
-      background: $medium-grey;
+#suppliersTableContainer {
+  .dataTables_wrapper {
+    .dataTables_filter, .dataTables_info, .dataTables_processing, .dataTables_paginate,
+    .dataTables_length {
+      color: $white;
+      select, input {
+        background: $medium-grey;
+      }
+    }
+    .dataTables_paginate {
+      .paginate_button {
+        background: $medium-grey;
+        &.disabled, &.disabled:hover {
+          background: transparent !important;
+          color: $white !important;
+          border: 0 !important;
+        }
+        &:active, &:hover, &.current, &.current:hover, &.current:active {
+          background: $light-blue;
+          color: $white !important;
+          border-color: $lighter-blue;
+        }
+      }
     }
   }
-
 }
+
+#suppliersTable {
+  thead {
+    th {
+      text-transform: uppercase;
+      border: 0 !important;
+      &:first-child {
+        text-align: left;
+      }
+    }
+  }
+  tbody {
+    td:first-child, td:nth-child(2) {
+      text-align: left;
+      background: $medium-blue;
+    }
+  }
+}
+
+

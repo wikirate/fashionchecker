@@ -128,10 +128,19 @@ prepareSearch = () ->
   loadSearchOptions()
   activateSearch()
 
+FC.subBrands = {}
+
+FC.loadSubBrands = $.ajax(url: FC.subBrandsUrl, dataType: "json").done (owned) ->
+  $.each owned.items, (_i, brand) ->
+    key = brand.subject_company
+    FC.subBrands[key] ||= []
+    FC.subBrands[key].push brand.object_company
+    FC.subBrands[key].sort()
+
 loadSearchOptions = () ->
   $.when(
     $.ajax(url: FC.brandsUrl, dataType: "json"),
-    $.ajax(url: FC.subBrandsUrl, dataType: "json")
+    FC.loadSubBrands
   ).done (main, owned) ->
     $("._brand-search").select2(
       placeholder: "search for brand"
@@ -183,9 +192,15 @@ transparencyStars = (val) ->
   FC.transparencyImage(el, val)
   "<td data-sort='#{val}' title='#{val}'>#{el.html()}</td>"
 
+subBrandsList = (brand) ->
+  subs = FC.subBrands[brand]
+  return "" unless subs
+  subs = subs.join ', '
+  "<span class='subBrandsList' title='#{subs}'>(#{subs})</span>"
+
 brandsColumnMap = {
   name: (val, companyId) ->
-    "<td><a href='#{profileLink companyId}'>#{val}</a></td>"
+    "<td><a href='#{profileLink companyId}'>#{val}</a> #{subBrandsList val}</td>"
   headquarters: 1
   transparency_score: transparencyStars
   living_wages_score: 1
@@ -199,6 +214,10 @@ loadBrand = (company_id) ->
   loadSuppliersTable company_id
 
 loadBrandsTable = () ->
+  $.when(
+    $.ajax(url: FC.brandAnswersUrl, dataType: "json"),
+    FC.loadSubBrands
+  ).done (brands, owned) ->
   $.ajax(url: FC.brandAnswersUrl, dataType: "json").done((data) ->
     FC.companyTable data, $("#brandsTable"), brandsColumnMap, FC.brands_metric_map
   )

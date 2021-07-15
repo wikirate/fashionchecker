@@ -10,9 +10,6 @@ FC.companies = (data) ->
 
   companies
 
-#companyLink = (name, id) ->
-#  "<a class='red' target='_wikirate' href=\"#{LINK_TARGET_HOST}/~#{id}\">#{name}</a>"
-
 
 FC.companyTable = (data, table, columnMap, metricMap) ->
   @data = data
