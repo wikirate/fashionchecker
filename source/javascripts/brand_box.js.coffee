@@ -1,54 +1,6 @@
-
-FC.templater = (id) ->
-  @container = $("##{id}")
-
-  @result = () ->
-    @container.children(".result")
-
-  @template = () ->
-    @container.children(".template")
-
-  @publish = () ->
-    @find('[data-toggle="popover"]').popover()
-    @result().append @current
-
-  @fill = (field, value) ->
-    @find("._#{field}").text(value)
-
-  @find = (selector) ->
-    @current.find selector
-
-  @result().empty()
-  @current = @template().clone()
-  @current.removeClass "template"
-  this
-
-FC.commitmentImage = (el, value) ->
-  value = "Yes" if value.includes "Yes"
-  FC.selectImage el, "smiley", value, "svg"
-
-FC.transparencyImage = (el, val) ->
-  return unless (stars = FC.score.transparency[val])
-  current = 1
-  while (current <= stars)
-    img = el.find "._star-#{current}"
-    FC.selectImage img, "transparency_score", "star_solid", "svg"
-    current++
-
-FC.selectImage = ($el, folder, score, ext) ->
-  ext ||= "png"
-  $el.attr("src", "/images/#{folder}/#{score}.#{ext}")
-
-FC.wikirateUrl = (company_id) ->
-  "#{FC.wikirate_link_target}/~#{company_id}?" +
-    $.param(
-      contrib: "N"
-      filter: { wikirate_topic: "Filling the Gap" }
-    )
-
-FC.brandBox = (company_id) ->
+window.brandBox = (company_id) ->
   @company_id = company_id
-  @template = new FC.templater "brandBox"
+  @template = new FC.util.templater "brandBox"
 
   @build = () ->
     @fillName()
@@ -74,7 +26,7 @@ FC.brandBox = (company_id) ->
     letterGrade = FC.score.commitment[value]
 
     el.find("._#{name}-help").attr("data-target", "##{name}-score-#{letterGrade}")
-    FC.commitmentImage el.find("._#{name}-smiley"), value
+    FC.util.image.commitment el.find("._#{name}-smiley"), value
 
   @fillTranslations = () ->
     for _i, fld of ["transparency_key", "living_wages_key"]
@@ -95,20 +47,20 @@ FC.brandBox = (company_id) ->
       @template.fill fld, @value(fld)
 
   @value = (fld) ->
-    @data[FC.brands_metric_map[fld]]
+    @data[FC.metrics.brandsMap[fld]]
 
   @interpret = (data) ->
-    @data = FC.companies(data)[@company_id]
+    @data = FC.company.hash(data)[@company_id]
 
   @find = (key) ->
     @template.current.find key
 
   @livingWageImage = () ->
     fld = "living_wages_score"
-    FC.selectImage @find("._#{fld}"), "wage_score", @value(fld)
+    FC.util.image.select @find("._#{fld}"), "wage_score", @value(fld)
 
   @transparency = () ->
-    FC.transparencyImage @find("._transparency-stars"), @value("transparency_score")
+    FC.util.image.transparency @find("._transparency-stars"), @value("transparency_score")
 
   @wikiRateLinks = () ->
     @find("._wikirate-link").attr "href", FC.wikirateUrl(@company_id)
@@ -124,7 +76,7 @@ FC.brandBox = (company_id) ->
   box = this
   url = FC.apiUrl "~#{@company_id}+Answer/compact",
     filter:
-      metric_id: Object.values(FC.brands_metric_map)
+      metric_id: Object.values(FC.metrics.brandsMap)
       year: "latest"
 
   $.when(

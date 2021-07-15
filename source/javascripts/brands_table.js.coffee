@@ -1,49 +1,47 @@
-# @return [{ name: name, metric_id1: val, metric_id2: val ...}]
-FC.companies = (data) ->
-  companies = {}
+commitment = (val) ->
+  el = $('<img class="littleSmiley"/>')
+  FC.util.image.commitment(el, val)
+  "<td data-sort='#{val}' title='#{val}'>#{el.prop 'outerHTML'}</td>"
 
-  $.each data.companies, (id, name) ->
-    companies[id] = { name: name }
+transparencyStars = (val) ->
+  el = $("._transparencyTemplate").clone()
+  FC.util.image.transparency(el, val)
+  "<td data-sort='#{val}' title='#{val}'>#{el.html()}</td>"
 
-  $.each data.answers, (_id, hash) ->
-    companies[hash["company"]][hash["metric"]] = hash["value"]
+subBrandsList = (brand) ->
+  subs = FC.subBrands[brand]
+  return "" unless subs
+  subs = subs.join ', '
+  "<span class='subBrandsList' title='#{subs}'>(#{subs})</span>"
 
-  companies
+brandLink = (val, companyId) ->
+  "<td><a href='#{FC.profilePath companyId}'>#{val}</a> #{subBrandsList val}</td>"
 
+livingWageLetter = (val) ->
+  "<td class='livingWageLetter livingWage-#{val}'>#{val}</td>"
 
-FC.companyTable = (data, table, columnMap, metricMap) ->
-  @data = data
-  @table = table
-  @columnMap = columnMap
-  @metricMap = metricMap
+brandsColumnMap =
+  name: brandLink
+  headquarters: 1
+  transparency_score: transparencyStars
+  living_wages_score: livingWageLetter
+  action_plan: commitment
+  public_commitment: commitment
+  isolating_labor: commitment
 
-  @render = () ->
-    return unless @table[0]
+brandAnswersUrl = FC.apiSwitch "content/brand_answers.json",
+  FC.apiUrl "Answer/compact",
+    limit: 0
+    filter:
+      company_group: FC.companyGroup,
+      metric_id: $.map(Object.keys(brandsColumnMap), (fld, _i) ->
+        FC.metrics.brandsMap[fld]
+      )
+      year: "latest"
 
-    @tbody = @table.children "tbody"
-    @addRows()
-    @table.DataTable autoWidth: false
-
-  @addRows = () ->
-    t = this
-    $.each FC.companies(@data), (companyId, companyHash) ->
-      t.addRow companyId, companyHash
-
-  @addRow = (companyId, companyHash) ->
-    t = this
-    cells = []
-    $.each @columnMap, (key, fn) ->
-      key = t.metricMap[key] unless key == "name"
-      val = companyHash[key] || "-"
-      if fn == 1 || val == "-"
-        val = t.td val
-      else
-        val = fn val, companyId, companyHash
-      cells.push val
-
-    @tbody.append "<tr>#{cells.join()}</tr>"
-
-  @td = (cell_content)->
-    "<td>" + cell_content + "</td>"
-
-  @render()
+window.brandsTable = () ->
+  $.when(
+    $.ajax url: brandAnswersUrl, dataType: "json"
+    FC.loadSubBrands
+  ).done (brands, _owned) ->
+    FC.company.table brands[0], $("#brandsTable"), brandsColumnMap, FC.metrics.brandsMap
