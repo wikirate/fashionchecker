@@ -14,8 +14,8 @@ RubyGems package manager. If you don't have that you can follow these [instructi
  
 ### installation 
 ```
-git clone https://github.com/wikirate/transparency-tool
-cd transparency-tool
+git clone https://github.com/wikirate/fashionchecker
+cd fashionchecker
 bundle install
 ```
 
