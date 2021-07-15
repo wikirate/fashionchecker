@@ -6,7 +6,7 @@ commitment = (val) ->
 transparencyStars = (val) ->
   el = $("._transparencyTemplate").clone()
   FC.util.image.transparency(el, val)
-  "<td data-sort='#{val}' title='#{val}'>#{el.html()}</td>"
+  "<td data-sort='#{val}' title='#{FC.score.transparency[val]}'>#{el.html()}</td>"
 
 subBrandsList = (brand) ->
   subs = FC.subBrands[brand]

@@ -8,10 +8,9 @@ wikirateLinkTarget = "https://wikirate.org"
 
 # pass basic authentication on WikiRate dev/staging servers
 if wikirateApiAuth
-  $.ajaxSetup(
+  $.ajaxSetup
     beforeSend: (xhr) ->
       xhr.setRequestHeader "Authorization", "Basic " + btoa(wikirateApiAuth)
-  )
 
 window.FC = {
   companyGroup: ":filling_the_gap_group"
@@ -51,12 +50,6 @@ window.FC = {
       #    pregnancy: 6019786
 
   score:
-#    living_wage:
-#      "E": 1
-#      "D": 2
-#      "C": 3
-#      "B": 4
-#      "A": 5
     transparency:
       "0.0": 1
       "2.5": 2
