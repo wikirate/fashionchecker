@@ -169,7 +169,7 @@
           "size": {"scale": "size", "field": "companies"},
           "strokeWidth": {"value": 1.5},
           "tooltip": {
-            "signal": "datum.country + ': ' + datum.companies + ' suppliers'"
+            "signal": "datum.value + ': ' + datum.companies + ' suppliers'"
           }
         },
         "update": {
