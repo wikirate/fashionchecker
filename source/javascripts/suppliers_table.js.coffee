@@ -21,28 +21,54 @@ suppliersColumnMap =
     temporary = companyHash[metricsMap['temporary']] || "-"
     "<td>#{val}/#{temporary}</td>"
 
-supplierURL = (companyId, view) ->
+supplierURL = (companyId, metricId, view) ->
   FC.apiUrl "Answer/#{view}",
     limit: 0
     filter:
-      metric_id: Object.values(metricsMap)
+      metric_id: metricId
       relationship:
         company_id: companyId
         metric_id: FC.metrics.supplierId
 
 suppliersTable = (companyId) ->
-  $.ajax(url: supplierURL(companyId, "compact"), dataType: "json").done (data) ->
+  url = supplierURL companyId, Object.values(metricsMap), "compact"
+  $.ajax(url: url, dataType: "json").done (data) ->
     companies = suppliersWithWageData data
     template = new FC.util.templater "#suppliers"
     table = template.current.find "#suppliersTable"
     FC.company.table companies, table, suppliersColumnMap, metricsMap
     template.publish()
 
+headquartersMetricId = FC.metrics.suppliersMap["headquarters"]
+
+buildViz = (spec) ->
+  view = new vega.View vega.parse(spec),
+    renderer: 'svg'
+    container: '#supplierViz',
+    hover: true
+
+  view.runAsync();
+
 suppliersViz = (companyId) ->
-  url = supplierURL companyId, "answer_list"
-  $.ajax(url: url, dataType: "json").done (data) ->
-    FC.vizUrl = url
-    FC.vizData = data
+  dataUrl = supplierURL companyId, headquartersMetricId, "answer_list"
+
+#  .done (spec) ->
+#    spec["data"][0]["url"] = dataUrl
+#
+
+
+  $.when(
+    $.ajax(url: "content/dorling.json", dataType: "json")
+    $.ajax(url: dataUrl, dataType: "json")
+  ).done (spec, answers) ->
+    spec = spec[0]
+    data = spec["data"][0]
+    delete data["url"]
+    data["values"] = answers[0]
+    buildViz(spec)
+
+
+
 
 
 suppliersWithWageData = (data) ->
@@ -53,5 +79,5 @@ suppliersWithWageData = (data) ->
   withWage
 
 window.suppliersInfo = (companyId) ->
-    # suppliersViz companyId
+    suppliersViz companyId
     suppliersTable companyId

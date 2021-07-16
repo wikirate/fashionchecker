@@ -7,7 +7,7 @@ brandsUrl = FC.apiSwitch "content/brands.json",
 
 loadSearchOptions = () ->
   $.when(
-    $.ajax(url: brandsUrl, dataType: "json"),
+    $.ajax url: brandsUrl, dataType: "json"
     FC.loadSubBrands
   ).done (main, owned) ->
     $("._brand-search").select2(

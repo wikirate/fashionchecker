@@ -1,10 +1,9 @@
 {
   "$schema": "https://vega.github.io/schema/vega/v5.json",
-  "description": "A Dorling cartogram depicting U.S. state obesity rates.",
+  "description": "A Dorling cartogram showing the geographic distribution of a brand's suppliers.",
   "width": 900,
-  "height": 520,
+  "height": 480,
   "autosize": "none",
-
   "config": {
     "legend": {
       "gradientDirection": "horizontal",
@@ -12,33 +11,38 @@
       "gradientThickness": 10
     }
   },
-
+  "signals": [
+    {"name": "type", "value": "equalEarth"},
+    {"name": "scale", "value": 175},
+    {"name": "rotate0", "value": -30},
+    {"name": "rotate1", "value": 0},
+    {"name": "rotate2", "value": 0},
+    {"name": "center0", "value": 0},
+    {"name": "center1", "value": 0},
+    {"name": "translate0", "update": "width / 2"},
+    {"name": "translate1", "update": "height / 2"},
+    {"name": "graticuleDash", "value": 3},
+    {"name": "borderWidth", "value": 1},
+    {"name": "background", "value": "#1d1d2f"},
+    {"name": "graticuleColor", "value": "#1B2E6F"},
+    {"name": "landColor", "value": "#1B2E6F"}
+  ],
   "data": [
-    {
-      "name": "country_codes",
-      "_comment": "from https://github.com/lukes/ISO-3166-Countries-with-Regional-Codes (slim2)",
-      "url": "http://localhost:4567/content/country_codes.json"
-    },
     {
       "name": "answers",
       "url": "http://localhost:4567/content/jack_suppliers.json"
     },
     {
-      "name": "companies",
-      "source": "answers",
+      "name": "country_codes",
+      "url": "http://localhost:4567/content/country_codes.json"
+    },
+    {
+      "name": "wikirate_countries",
+      "url": "http://localhost:4567/content/wikirate_countries.json?A",
       "transform": [
-        {
-          "type": "filter",
-          "expr": "datum.metric == 6126450"
-        },
-        {
-          "type": "formula",
-          "expr": "datum.value == 'Vietnam' ? 'Viet Nam' : datum.value",
-          "as": "country"
-        }
+        {"type": "formula", "as": "upper-alpha", "expr": "upper(datum.code)"}
       ]
     },
-
     {
       "name": "topo",
       "url": "https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json",
@@ -46,19 +50,28 @@
     },
     {
       "name": "company_counts",
-      "source": "companies",
+      "source": "answers",
       "transform": [
         {
           "type": "aggregate",
-          "groupby": ["country"],
+          "groupby": ["value"],
           "fields": ["company"],
-          "ops": ["count"]
+          "ops": ["count"],
+          "as": ["companies"]
+        },
+        {
+          "type": "lookup",
+          "from": "wikirate_countries",
+          "key": "name",
+          "fields": ["value"],
+          "values": ["upper-alpha"],
+          "as": ["alpha-code"]
         },
         {
           "type": "lookup",
           "from": "country_codes",
-          "key": "name",
-          "fields": ["country"],
+          "key": "alpha-2",
+          "fields": ["alpha-code"],
           "values": ["country-code"]
         },
         {
@@ -68,66 +81,112 @@
           "fields": ["country-code"],
           "as": ["geo"]
         },
+        {"type": "filter", "expr": "datum.geo"},
         {
-          "type": "filter",
-          "expr": "datum.geo"
-        },
-        {
-          "type": "formula", "as": "centroid",
+          "type": "formula",
+          "as": "centroid",
           "expr": "geoCentroid('projection', datum.geo)"
         }
       ]
-    }
+    },
+    {"name": "graticule", "transform": [{"type": "graticule"}]}
   ],
-
   "projections": [
     {
       "name": "projection",
-      "type": "equirectangular",
-      "translate": [{"signal": "width / 2"}, {"signal": "height / 2"}]
+      "type": {"signal": "type"},
+      "scale": {"signal": "scale"},
+      "rotate": [
+        {"signal": "rotate0"},
+        {"signal": "rotate1"},
+        {"signal": "rotate2"}
+      ],
+      "center": [{"signal": "center0"}, {"signal": "center1"}],
+      "translate": [{"signal": "translate0"}, {"signal": "translate1"}]
     }
   ],
-
   "scales": [
     {
       "name": "size",
-      "domain": {"data": "company_counts", "field": "company_count"},
+      "domain": {"data": "company_counts", "field": "companies"},
       "zero": false,
-      "range": [1000, 5000]
+      "range": [500, 3000]
     },
     {
       "name": "color",
       "type": "linear",
       "nice": true,
-      "domain": {"data": "company_counts", "field": "company_count"},
-      "range": "ramp"
+      "domain": {"data": "company_counts", "field": "companies"},
+      "range": ["#fcc9fd", "#ed40d9"]
     }
   ],
-
-
-
+  "legends": [
+    {
+      "title": "Number of Suppliers",
+      "orient": "bottom-right",
+      "type": "symbol",
+      "size": "size",
+      "fill": "color",
+      "clipHeight": 16,
+      "labelColor": "white",
+      "titleColor": "white"
+    }
+  ],
   "marks": [
+    {
+      "type": "shape",
+      "from": {"data": "graticule"},
+      "encode": {
+        "update": {
+          "strokeWidth": {"value": 1},
+          "strokeDash": {"signal": "[+graticuleDash, +graticuleDash]"},
+          "stroke": {"signal": "graticuleColor"},
+          "fill": {"value": null}
+        }
+      },
+      "transform": [{"type": "geoshape", "projection": "projection"}]
+    },
+    {
+      "type": "shape",
+      "from": {"data": "topo"},
+      "encode": {
+        "update": {
+          "strokeWidth": {"signal": "+borderWidth"},
+          "fill": {"signal": "landColor"},
+          "zindex": {"value": 0}
+        }
+      },
+      "transform": [{"type": "geoshape", "projection": "projection"}]
+    },
     {
       "name": "circles",
       "type": "symbol",
       "from": {"data": "company_counts"},
       "encode": {
         "enter": {
-          "size": {"scale": "size", "field": "company_count"},
-          "fill": {"scale": "color", "field": "company_count"},
-          "stroke": {"value": "green"},
-          "strokeWidth": {"value": 1.5},
           "x": {"field": "centroid[0]"},
           "y": {"field": "centroid[1]"},
-          "tooltip": {"signal": "'Obesity Rate: ' + format(datum.company_count, '.1%')"}
-        }
+          "size": {"scale": "size", "field": "companies"},
+          "strokeWidth": {"value": 1.5},
+          "tooltip": {
+            "signal": "datum.country + ': ' + datum.companies + ' suppliers'"
+          }
+        },
+        "update": {
+          "fill": {"scale": "color", "field": "companies"},
+          "stroke": {"value": "#32437d"}
+        },
+        "hover": {"fill": {"value": "#f9fe9c"}, "stroke": {"value": "#7c8dc4"}}
       },
       "transform": [
         {
           "type": "force",
           "static": true,
           "forces": [
-            {"force": "collide", "radius": {"expr": "1 + sqrt(datum.size) / 2"}},
+            {
+              "force": "collide",
+              "radius": {"expr": "1 + sqrt(datum.size) / 2"}
+            },
             {"force": "x", "x": "datum.centroid[0]"},
             {"force": "y", "y": "datum.centroid[1]"}
           ]
@@ -139,14 +198,12 @@
       "interactive": false,
       "from": {"data": "circles"},
       "encode": {
-        "enter": {
+        "update": {
           "align": {"value": "center"},
           "baseline": {"value": "middle"},
-          "fontSize": {"value": 13},
+          "fontSize": {"value": 10},
           "fontWeight": {"value": "bold"},
-          "text": {"field": "datum.country"}
-        },
-        "update": {
+          "text": {"field": "datum.alpha-code"},
           "x": {"field": "x"},
           "y": {"field": "y"}
         }
