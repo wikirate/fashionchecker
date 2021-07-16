@@ -16,7 +16,7 @@
   "data": [
     {
       "name": "answers",
-      "url": "http://localhost:4567/content/jack_suppliers.json?ab"
+      "url": "http://localhost:4567/content/jack_suppliers.json?"
     },
     {
       "name": "companies",
@@ -25,6 +25,11 @@
         {
           "type": "filter",
           "expr": "datum.metric == 6126450"
+        },
+        {
+          "type": "formula",
+          "expr": "datum.value",
+          "as": "country"
         }
       ]
     },
@@ -33,8 +38,10 @@
       "source": "companies",
       "transform": [
         {
-          "type": "filter",
-          "expr": "datum.metric == 6126450"
+          "type": "aggregate",
+          "groupby": ["country"],
+          "fields": ["company"],
+          "ops": ["count"]
         }
       ]
     },
