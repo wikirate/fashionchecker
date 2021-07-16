@@ -1,0 +1,786 @@
+[
+  {
+    "company": 3241748,
+    "metric": 4780588,
+    "year": 2020,
+    "value": "3742",
+    "id": 7402298,
+    "comment": null
+  },
+  {
+    "company": 6235880,
+    "metric": 6126450,
+    "year": 2019,
+    "value": "Vietnam",
+    "id": "V1367239",
+    "comment": null
+  },
+  {
+    "company": 4807397,
+    "metric": 6126450,
+    "year": 2019,
+    "value": "China",
+    "id": "V1338674",
+    "comment": null
+  },
+  {
+    "company": 3434983,
+    "metric": 6126450,
+    "year": 2019,
+    "value": "Cambodia",
+    "id": "V1368497",
+    "comment": null
+  },
+  {
+    "company": 6235790,
+    "metric": 6126450,
+    "year": 2019,
+    "value": "Germany",
+    "id": "V1371839",
+    "comment": null
+  },
+  {
+    "company": 6235964,
+    "metric": 6126450,
+    "year": 2019,
+    "value": "China",
+    "id": "V1396213",
+    "comment": null
+  },
+  {
+    "company": 6149534,
+    "metric": 6126450,
+    "year": 2019,
+    "value": "Myanmar",
+    "id": "V1373087",
+    "comment": null
+  },
+  {
+    "company": 5100859,
+    "metric": 6126450,
+    "year": 2019,
+    "value": "Vietnam",
+    "id": "V1349595",
+    "comment": null
+  },
+  {
+    "company": 6236165,
+    "metric": 6126450,
+    "year": 2019,
+    "value": "China",
+    "id": "V1396247",
+    "comment": null
+  },
+  {
+    "company": 6235748,
+    "metric": 6126450,
+    "year": 2019,
+    "value": "Slovenia",
+    "id": "V1396181",
+    "comment": null
+  },
+  {
+    "company": 3629275,
+    "metric": 7347357,
+    "year": 2019,
+    "value": "77.48616725595696",
+    "id": "V1467246",
+    "comment": null
+  },
+  {
+    "company": 6236056,
+    "metric": 6126450,
+    "year": 2019,
+    "value": "Indonesia",
+    "id": "V1372217",
+    "comment": null
+  },
+  {
+    "company": 6236129,
+    "metric": 6126450,
+    "year": 2019,
+    "value": "Vietnam",
+    "id": "V1396241",
+    "comment": null
+  },
+  {
+    "company": 6235948,
+    "metric": 6126450,
+    "year": 2019,
+    "value": "Vietnam",
+    "id": "V1396209",
+    "comment": null
+  },
+  {
+    "company": 6236090,
+    "metric": 6126450,
+    "year": 2019,
+    "value": "China",
+    "id": "V1396235",
+    "comment": null
+  },
+  {
+    "company": 3245411,
+    "metric": 6126450,
+    "year": 2019,
+    "value": "Vietnam",
+    "id": "V1324088",
+    "comment": null
+  },
+  {
+    "company": 3243204,
+    "metric": 6126450,
+    "year": 2019,
+    "value": "Italy",
+    "id": "V1323827",
+    "comment": null
+  },
+  {
+    "company": 6236032,
+    "metric": 6126450,
+    "year": 2019,
+    "value": "Vietnam",
+    "id": "V1396227",
+    "comment": null
+  },
+  {
+    "company": 6235834,
+    "metric": 6126450,
+    "year": 2019,
+    "value": "China",
+    "id": "V1396189",
+    "comment": null
+  },
+  {
+    "company": 3241734,
+    "metric": 6126450,
+    "year": 2019,
+    "value": "Cambodia",
+    "id": "V1313863",
+    "comment": null
+  },
+  {
+    "company": 6236005,
+    "metric": 6126450,
+    "year": 2019,
+    "value": "Myanmar",
+    "id": "V1396221",
+    "comment": null
+  },
+  {
+    "company": 6235726,
+    "metric": 6126450,
+    "year": 2019,
+    "value": "Vietnam",
+    "id": "V1396177",
+    "comment": null
+  },
+  {
+    "company": 6235921,
+    "metric": 6126450,
+    "year": 2019,
+    "value": "Vietnam",
+    "id": "V1396203",
+    "comment": null
+  },
+  {
+    "company": 6210003,
+    "metric": 6126450,
+    "year": 2019,
+    "value": "Vietnam",
+    "id": "V1375143",
+    "comment": null
+  },
+  {
+    "company": 6235888,
+    "metric": 6126450,
+    "year": 2019,
+    "value": "Vietnam",
+    "id": "V1396199",
+    "comment": null
+  },
+  {
+    "company": 3473496,
+    "metric": 6126450,
+    "year": 2019,
+    "value": "Indonesia",
+    "id": "V1372283",
+    "comment": null
+  },
+  {
+    "company": 6235804,
+    "metric": 6126450,
+    "year": 2019,
+    "value": "China",
+    "id": "V1396185",
+    "comment": null
+  },
+  {
+    "company": 6235975,
+    "metric": 6126450,
+    "year": 2019,
+    "value": "China",
+    "id": "V1396215",
+    "comment": null
+  },
+  {
+    "company": 6235762,
+    "metric": 6126450,
+    "year": 2019,
+    "value": "Vietnam",
+    "id": "V1370185",
+    "comment": null
+  },
+  {
+    "company": 5100879,
+    "metric": 6126450,
+    "year": 2019,
+    "value": "Vietnam",
+    "id": "V1349597",
+    "comment": null
+  },
+  {
+    "company": 6235864,
+    "metric": 6126450,
+    "year": 2019,
+    "value": "Vietnam",
+    "id": "V1396195",
+    "comment": null
+  },
+  {
+    "company": 3629296,
+    "metric": 6126450,
+    "year": 2019,
+    "value": "Indonesia",
+    "id": "V1372327",
+    "comment": null
+  },
+  {
+    "company": 6236149,
+    "metric": 6126450,
+    "year": 2019,
+    "value": "China",
+    "id": "V1396243",
+    "comment": null
+  },
+  {
+    "company": 3253105,
+    "metric": 6126450,
+    "year": 2019,
+    "value": "China",
+    "id": "V1325145",
+    "comment": null
+  },
+  {
+    "company": 4998767,
+    "metric": 6126450,
+    "year": 2019,
+    "value": "Vietnam",
+    "id": "V1341303",
+    "comment": null
+  },
+  {
+    "company": 3243734,
+    "metric": 6126450,
+    "year": 2019,
+    "value": "Taiwan, Province of China",
+    "id": "V1319991",
+    "comment": null
+  },
+  {
+    "company": 6236040,
+    "metric": 6126450,
+    "year": 2019,
+    "value": "Turkey",
+    "id": "V1396229",
+    "comment": null
+  },
+  {
+    "company": 6235956,
+    "metric": 6126450,
+    "year": 2019,
+    "value": "China",
+    "id": "V1396211",
+    "comment": null
+  },
+  {
+    "company": 6236113,
+    "metric": 6126450,
+    "year": 2019,
+    "value": "China",
+    "id": "V1396237",
+    "comment": null
+  },
+  {
+    "company": 3629275,
+    "metric": 6126450,
+    "year": 2019,
+    "value": "Indonesia",
+    "id": "V1372281",
+    "comment": null
+  },
+  {
+    "company": 6236082,
+    "metric": 6126450,
+    "year": 2019,
+    "value": "Indonesia",
+    "id": "V1396233",
+    "comment": null
+  },
+  {
+    "company": 6235848,
+    "metric": 6126450,
+    "year": 2019,
+    "value": "Bangladesh",
+    "id": "V1396191",
+    "comment": null
+  },
+  {
+    "company": 3241748,
+    "metric": 6126450,
+    "year": 2019,
+    "value": "Cambodia",
+    "id": "V1313869",
+    "comment": null
+  },
+  {
+    "company": 6236016,
+    "metric": 6126450,
+    "year": 2019,
+    "value": "China",
+    "id": "V1396223",
+    "comment": null
+  },
+  {
+    "company": 6235929,
+    "metric": 6126450,
+    "year": 2019,
+    "value": "Cambodia",
+    "id": "V1396205",
+    "comment": null
+  },
+  {
+    "company": 6235983,
+    "metric": 6126450,
+    "year": 2019,
+    "value": "Bangladesh",
+    "id": "V1396217",
+    "comment": null
+  },
+  {
+    "company": 6213214,
+    "metric": 6126450,
+    "year": 2019,
+    "value": "Vietnam",
+    "id": "V1395833",
+    "comment": null
+  },
+  {
+    "company": 6235896,
+    "metric": 6126450,
+    "year": 2019,
+    "value": "Vietnam",
+    "id": "V1367561",
+    "comment": null
+  },
+  {
+    "company": 6235812,
+    "metric": 6126450,
+    "year": 2019,
+    "value": "Slovenia",
+    "id": "V1372725",
+    "comment": null
+  },
+  {
+    "company": 4805505,
+    "metric": 6126450,
+    "year": 2019,
+    "value": "Bangladesh",
+    "id": "V1338374",
+    "comment": null
+  },
+  {
+    "company": 3254180,
+    "metric": 6126450,
+    "year": 2019,
+    "value": "Vietnam",
+    "id": "V1325278",
+    "comment": null
+  },
+  {
+    "company": 6235782,
+    "metric": 6126450,
+    "year": 2019,
+    "value": "Vietnam",
+    "id": "V1396183",
+    "comment": null
+  },
+  {
+    "company": 6121786,
+    "metric": 6126450,
+    "year": 2019,
+    "value": "China",
+    "id": "V1369191",
+    "comment": null
+  },
+  {
+    "company": 6235872,
+    "metric": 6126450,
+    "year": 2019,
+    "value": "China",
+    "id": "V1396197",
+    "comment": null
+  },
+  {
+    "company": 5100465,
+    "metric": 6126450,
+    "year": 2019,
+    "value": "China",
+    "id": "V1349564",
+    "comment": null
+  },
+  {
+    "company": 6236157,
+    "metric": 6126450,
+    "year": 2019,
+    "value": "Vietnam",
+    "id": "V1396245",
+    "comment": null
+  },
+  {
+    "company": 3253182,
+    "metric": 6126450,
+    "year": 2019,
+    "value": "Vietnam",
+    "id": "V1395527",
+    "comment": null
+  },
+  {
+    "company": 6235740,
+    "metric": 6126450,
+    "year": 2019,
+    "value": "Italy",
+    "id": "V1396179",
+    "comment": null
+  },
+  {
+    "company": 3244374,
+    "metric": 6126450,
+    "year": 2019,
+    "value": "Vietnam",
+    "id": "V1373581",
+    "comment": null
+  },
+  {
+    "company": 6236048,
+    "metric": 6126450,
+    "year": 2019,
+    "value": "Indonesia",
+    "id": "V1396231",
+    "comment": null
+  },
+  {
+    "company": 6236121,
+    "metric": 6126450,
+    "year": 2019,
+    "value": "China",
+    "id": "V1396239",
+    "comment": null
+  },
+  {
+    "company": 6235937,
+    "metric": 6126450,
+    "year": 2019,
+    "value": "Bangladesh",
+    "id": "V1396207",
+    "comment": null
+  },
+  {
+    "company": 3629275,
+    "metric": 6019687,
+    "year": 2019,
+    "value": "302.4285108",
+    "id": 6516807,
+    "comment": "Data collected through worker surveys by WageIndicator.org[http://WageIndicator.org] (see source) and aggregated Clean Clothes Campaign[https://wikirate.org/Clean_Clothes_Campaign].....2020-12-18 11:51:29 UTC Data collected through worker surveys by WageIndicator.org[http://WageIndicator.org] (see source) and aggregated Clean Clothes Campaign[https://wikirate.org/Clean_Clothes_Campaign].....2021-03-02 14:15:40 UTC"
+  },
+  {
+    "company": 6235856,
+    "metric": 6126450,
+    "year": 2019,
+    "value": "Vietnam",
+    "id": "V1396193",
+    "comment": null
+  },
+  {
+    "company": 6236024,
+    "metric": 6126450,
+    "year": 2019,
+    "value": "Korea, Republic of",
+    "id": "V1396225",
+    "comment": null
+  },
+  {
+    "company": 6235826,
+    "metric": 6126450,
+    "year": 2019,
+    "value": "Vietnam",
+    "id": "V1396187",
+    "comment": null
+  },
+  {
+    "company": 3227317,
+    "metric": 6126450,
+    "year": 2019,
+    "value": "Vietnam",
+    "id": "V1322704",
+    "comment": null
+  },
+  {
+    "company": 6235997,
+    "metric": 6126450,
+    "year": 2019,
+    "value": "Bangladesh",
+    "id": "V1396219",
+    "comment": null
+  },
+  {
+    "company": 6235716,
+    "metric": 6126450,
+    "year": 2019,
+    "value": "Vietnam",
+    "id": "V1396175",
+    "comment": null
+  },
+  {
+    "company": 6235904,
+    "metric": 6126450,
+    "year": 2019,
+    "value": "Myanmar",
+    "id": "V1396201",
+    "comment": null
+  },
+  {
+    "company": 3629296,
+    "metric": 4780588,
+    "year": 2018,
+    "value": "2211",
+    "id": 4799410,
+    "comment": null
+  },
+  {
+    "company": 3254180,
+    "metric": 3233894,
+    "year": 2018,
+    "value": "80",
+    "id": 4780333,
+    "comment": null
+  },
+  {
+    "company": 3253105,
+    "metric": 4780588,
+    "year": 2018,
+    "value": "1362",
+    "id": 4795895,
+    "comment": null
+  },
+  {
+    "company": 3629275,
+    "metric": 4780588,
+    "year": 2018,
+    "value": "1163",
+    "id": 4799295,
+    "comment": null
+  },
+  {
+    "company": 6236082,
+    "metric": 6019687,
+    "year": 2018,
+    "value": "410.89",
+    "id": 6516500,
+    "comment": "Data collected through worker surveys by WageIndicator.org[http://WageIndicator.org] (see source) and aggregated Clean Clothes Campaign[https://wikirate.org/Clean_Clothes_Campaign].....2020-12-18 11:51:11 UTC Data collected through worker surveys by WageIndicator.org[http://WageIndicator.org] (see source) and aggregated Clean Clothes Campaign[https://wikirate.org/Clean_Clothes_Campaign].....2021-03-02 14:15:24 UTC"
+  },
+  {
+    "company": 3254180,
+    "metric": 3233883,
+    "year": 2018,
+    "value": "20",
+    "id": 4780338,
+    "comment": null
+  },
+  {
+    "company": 3629296,
+    "metric": 3233894,
+    "year": 2018,
+    "value": "84.0",
+    "id": 4799400,
+    "comment": null
+  },
+  {
+    "company": 3253105,
+    "metric": 3233894,
+    "year": 2018,
+    "value": "86.0",
+    "id": 4795885,
+    "comment": null
+  },
+  {
+    "company": 3629275,
+    "metric": 6019687,
+    "year": 2018,
+    "value": "272.86",
+    "id": 6516470,
+    "comment": "Data collected through worker surveys by WageIndicator.org[http://WageIndicator.org] (see source) and aggregated Clean Clothes Campaign[https://wikirate.org/Clean_Clothes_Campaign].....2020-12-18 11:51:10 UTC Data collected through worker surveys by WageIndicator.org[http://WageIndicator.org] (see source) and aggregated Clean Clothes Campaign[https://wikirate.org/Clean_Clothes_Campaign].....2021-03-02 14:15:22 UTC"
+  },
+  {
+    "company": 3629275,
+    "metric": 3233894,
+    "year": 2018,
+    "value": "90.0",
+    "id": 4799285,
+    "comment": null
+  },
+  {
+    "company": 3254180,
+    "metric": 4780588,
+    "year": 2018,
+    "value": "1360",
+    "id": 4789368,
+    "comment": null
+  },
+  {
+    "company": 3629296,
+    "metric": 3233883,
+    "year": 2018,
+    "value": "16.0",
+    "id": 4799405,
+    "comment": null
+  },
+  {
+    "company": 3629275,
+    "metric": 7347357,
+    "year": 2018,
+    "value": "69.91032539072508",
+    "id": "V1467117",
+    "comment": null
+  },
+  {
+    "company": 3253105,
+    "metric": 3233883,
+    "year": 2018,
+    "value": "14.0",
+    "id": 4795890,
+    "comment": null
+  },
+  {
+    "company": 6236082,
+    "metric": 7347357,
+    "year": 2018,
+    "value": "105.27542915705868",
+    "id": "V1467142",
+    "comment": null
+  },
+  {
+    "company": 3629275,
+    "metric": 3233883,
+    "year": 2018,
+    "value": "10.0",
+    "id": 4799290,
+    "comment": null
+  },
+  {
+    "company": 3245411,
+    "metric": 3233894,
+    "year": 2017,
+    "value": "93.0",
+    "id": 4998704,
+    "comment": null
+  },
+  {
+    "company": 3254180,
+    "metric": 3233883,
+    "year": 2017,
+    "value": "25.0",
+    "id": 4998966,
+    "comment": null
+  },
+  {
+    "company": 3244374,
+    "metric": 3233883,
+    "year": 2017,
+    "value": "13.0",
+    "id": 4998915,
+    "comment": null
+  },
+  {
+    "company": 4998767,
+    "metric": 4780588,
+    "year": 2017,
+    "value": "2100",
+    "id": 4998793,
+    "comment": null
+  },
+  {
+    "company": 4998767,
+    "metric": 3233894,
+    "year": 2017,
+    "value": "90.0",
+    "id": 4998783,
+    "comment": null
+  },
+  {
+    "company": 3254180,
+    "metric": 4780588,
+    "year": 2017,
+    "value": "1965",
+    "id": 4998969,
+    "comment": null
+  },
+  {
+    "company": 3244374,
+    "metric": 4780588,
+    "year": 2017,
+    "value": "3600",
+    "id": 4998920,
+    "comment": null
+  },
+  {
+    "company": 3245411,
+    "metric": 3233883,
+    "year": 2017,
+    "value": "7.0",
+    "id": 4998709,
+    "comment": null
+  },
+  {
+    "company": 4998767,
+    "metric": 3233883,
+    "year": 2017,
+    "value": "10.0",
+    "id": 4998788,
+    "comment": null
+  },
+  {
+    "company": 3254180,
+    "metric": 3233894,
+    "year": 2017,
+    "value": "75.0",
+    "id": 4998963,
+    "comment": null
+  },
+  {
+    "company": 3244374,
+    "metric": 3233894,
+    "year": 2017,
+    "value": "87.0",
+    "id": 4998910,
+    "comment": null
+  },
+  {
+    "company": 3245411,
+    "metric": 4780588,
+    "year": 2017,
+    "value": "2700",
+    "id": 4998714,
+    "comment": null
+  }
+]

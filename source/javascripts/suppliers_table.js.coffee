@@ -21,34 +21,37 @@ suppliersColumnMap =
     temporary = companyHash[metricsMap['temporary']] || "-"
     "<td>#{val}/#{temporary}</td>"
 
-supplierURL = (companyId) ->
-  FC.apiUrl "Answer/compact",
+supplierURL = (companyId, view) ->
+  FC.apiUrl "Answer/#{view}",
     limit: 0
     filter:
+      metric_id: Object.values(metricsMap)
       relationship:
         company_id: companyId
         metric_id: FC.metrics.supplierId
-      metric_id: Object.values(metricsMap)
 
-suppliersTable = (companies) ->
-  template = new FC.util.templater "#suppliers"
-  table = template.current.find "#suppliersTable"
-  FC.company.table companies, table, suppliersColumnMap, metricsMap
-  template.publish()
+suppliersTable = (companyId) ->
+  $.ajax(url: supplierURL(companyId, "compact"), dataType: "json").done (data) ->
+    companies = suppliersWithWageData data
+    template = new FC.util.templater "#suppliers"
+    table = template.current.find "#suppliersTable"
+    FC.company.table companies, table, suppliersColumnMap, metricsMap
+    template.publish()
 
-suppliersViz = (companies) ->
-  "hi"
+suppliersViz = (companyId) ->
+  url = supplierURL companyId, "answer_list"
+  $.ajax(url: url, dataType: "json").done (data) ->
+    FC.vizUrl = url
+    FC.vizData = data
 
 
-suppliersWithWageData = (companies) ->
+suppliersWithWageData = (data) ->
   withWage = []
-  $.each companies, (_i, supplier) ->
+  $.each FC.company.hash(data), (_i, supplier) ->
     if supplier[metricsMap["average"]] || supplier[metricsMap["gap"]]
       withWage.push supplier
   withWage
 
 window.suppliersInfo = (companyId) ->
-  $.ajax(url: supplierURL(companyId), dataType: "json").done (data) ->
-    companies = FC.company.hash data
-    suppliersViz companies
-    suppliersTable suppliersWithWageData(companies)
+    suppliersViz companyId
+    suppliersTable companyId

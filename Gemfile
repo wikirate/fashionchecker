@@ -7,6 +7,7 @@ gem 'tzinfo-data', platforms: [:mswin, :mingw, :jruby]
 gem 'wdm', '>= 0.1', platforms: [:mswin, :mingw]
 gem 'ed25519', '>= 1.2'
 gem 'bcrypt_pbkdf', '>= 1'
+gem "rack-cors"
 
 group :development do
   gem 'rake', '>= 10.4'

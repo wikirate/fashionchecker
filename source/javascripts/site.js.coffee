@@ -12,7 +12,7 @@ if wikirateApiAuth
     beforeSend: (xhr) ->
       xhr.setRequestHeader "Authorization", "Basic " + btoa(wikirateApiAuth)
 
-window.FC = {
+window.FC =
   companyGroup: ":filling_the_gap_group"
 
   metrics:
@@ -65,7 +65,6 @@ window.FC = {
       "Yes, Fair Wear Foundation": 3
 
   subBrands: {}
-}
 
 $.extend FC,
   apiSwitch: (cached, live) ->
@@ -82,15 +81,17 @@ $.extend FC,
 
   wikirateUrl: (companyId) ->
     "#{wikirateLinkTarget}/~#{companyId}?" +
-      $.param(
+      $.param
         contrib: "N"
-        filter: { wikirate_topic: "Filling the Gap" }
-      )
+        filter:
+          wikirate_topic: "Filling the Gap"
 
 subBrandsUrl = FC.apiSwitch "content/sub_brands.json",
   FC.apiUrl "~#{FC.metrics.supplierId}+Relationship_Answer",
     limit: 500
-    filter: { company_group: FC.companyGroup, year: "latest" }
+    filter:
+      company_group: FC.companyGroup
+      year: "latest"
 
 $.extend FC,
   loadBrand: (companyId) ->
