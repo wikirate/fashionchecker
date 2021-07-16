@@ -15,8 +15,13 @@
 
   "data": [
     {
+      "name": "country_codes",
+      "_comment": "from https://github.com/lukes/ISO-3166-Countries-with-Regional-Codes (slim2)",
+      "url": "http://localhost:4567/content/country_codes.json"
+    },
+    {
       "name": "answers",
-      "url": "http://localhost:4567/content/jack_suppliers.json?"
+      "url": "http://localhost:4567/content/jack_suppliers.json"
     },
     {
       "name": "companies",
@@ -28,13 +33,19 @@
         },
         {
           "type": "formula",
-          "expr": "datum.value",
+          "expr": "datum.value == 'Vietnam' ? 'Viet Nam' : datum.value",
           "as": "country"
         }
       ]
     },
+
     {
-      "name": "countries",
+      "name": "topo",
+      "url": "https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json",
+      "format": {"type": "topojson", "feature": "countries"}
+    },
+    {
+      "name": "company_counts",
       "source": "companies",
       "transform": [
         {
@@ -42,22 +53,20 @@
           "groupby": ["country"],
           "fields": ["company"],
           "ops": ["count"]
-        }
-      ]
-    },
-    {
-      "name": "states",
-      "url": "data/us-10m.json",
-      "format": {"type": "topojson", "feature": "states"}
-    },
-    {
-      "name": "obesity",
-      "url": "data/obesity.json",
-      "transform": [
+        },
         {
           "type": "lookup",
-          "from": "states", "key": "id",
-          "fields": ["id"], "as": ["geo"]
+          "from": "country_codes",
+          "key": "name",
+          "fields": ["country"],
+          "values": ["country-code"]
+        },
+        {
+          "type": "lookup",
+          "from": "topo",
+          "key": "id",
+          "fields": ["country-code"],
+          "as": ["geo"]
         },
         {
           "type": "filter",
@@ -74,8 +83,7 @@
   "projections": [
     {
       "name": "projection",
-      "type": "albersUsa",
-      "scale": 1100,
+      "type": "equirectangular",
       "translate": [{"signal": "width / 2"}, {"signal": "height / 2"}]
     }
   ],
@@ -83,7 +91,7 @@
   "scales": [
     {
       "name": "size",
-      "domain": {"data": "obesity", "field": "rate"},
+      "domain": {"data": "company_counts", "field": "company_count"},
       "zero": false,
       "range": [1000, 5000]
     },
@@ -91,37 +99,27 @@
       "name": "color",
       "type": "linear",
       "nice": true,
-      "domain": {"data": "obesity", "field": "rate"},
+      "domain": {"data": "company_counts", "field": "company_count"},
       "range": "ramp"
     }
   ],
 
-  "legends": [
-    {
-      "title": "% of Obese Adults",
-      "orient": "bottom-right",
-      "type": "symbol",
-      "size": "size",
-      "fill": "color",
-      "format": ".1%",
-      "clipHeight": 16
-    }
-  ],
+
 
   "marks": [
     {
       "name": "circles",
       "type": "symbol",
-      "from": {"data": "obesity"},
+      "from": {"data": "company_counts"},
       "encode": {
         "enter": {
-          "size": {"scale": "size", "field": "rate"},
-          "fill": {"scale": "color", "field": "rate"},
-          "stroke": {"value": "white"},
+          "size": {"scale": "size", "field": "company_count"},
+          "fill": {"scale": "color", "field": "company_count"},
+          "stroke": {"value": "green"},
           "strokeWidth": {"value": 1.5},
           "x": {"field": "centroid[0]"},
           "y": {"field": "centroid[1]"},
-          "tooltip": {"signal": "'Obesity Rate: ' + format(datum.rate, '.1%')"}
+          "tooltip": {"signal": "'Obesity Rate: ' + format(datum.company_count, '.1%')"}
         }
       },
       "transform": [
@@ -146,7 +144,7 @@
           "baseline": {"value": "middle"},
           "fontSize": {"value": 13},
           "fontWeight": {"value": "bold"},
-          "text": {"field": "datum.state"}
+          "text": {"field": "datum.country"}
         },
         "update": {
           "x": {"field": "x"},

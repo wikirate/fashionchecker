@@ -1,5 +1,7 @@
 FC.util =
+  # image functions (extended below)
   image:
+    # find score image and assign src attribute
     select: (el, folder, score, ext) ->
       ext ||= "svg"
       el.attr("src", "/images/#{folder}/#{score}.#{ext}")
@@ -37,6 +39,7 @@ $.extend FC.util.image,
     FC.util.image.select el, "smiley", value
 
   # transparency score to stars images
+  # (loops through five outline images and makes some of them solid.)
   transparency: (el, val) ->
     return unless (stars = FC.score.transparency[val])
     current = 1

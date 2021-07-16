@@ -60,7 +60,7 @@ window.brandBox = (company_id) ->
 
   @livingWageImage = () ->
     fld = "living_wages_score"
-    FC.util.image.select @find("._#{fld}"), "wage_score", @value(fld)
+    FC.util.image.select @find("._#{fld}"), "wage_score", @value(fld), "png"
 
   @transparency = () ->
     FC.util.image.transparency @find("._transparency-stars"), @value("transparency_score")

@@ -53,5 +53,5 @@ suppliersWithWageData = (data) ->
   withWage
 
 window.suppliersInfo = (companyId) ->
-    suppliersViz companyId
+    # suppliersViz companyId
     suppliersTable companyId
