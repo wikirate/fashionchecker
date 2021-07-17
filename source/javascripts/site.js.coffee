@@ -45,9 +45,9 @@ window.FC =
       temporary: 6019632
       average: 6019687
       gap: 7347357
-      #    cba: 6020927
-      #    know_brand: 6019511
-      #    pregnancy: 6019786
+      # cba: 6020927
+      # know_brand: 6019511
+      # pregnancy: 6019786
 
   score:
     transparency:

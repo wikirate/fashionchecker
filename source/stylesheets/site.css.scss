@@ -564,22 +564,6 @@ main {
   }
 }
 
-#suppliersTable {
-  font-size: 0.7rem;
-  td {
-    background-color: $lighter-blue;
-  }
-  //th {
-  //  white-space: nowrap;
-  //  height: 140px;
-  //  label {
-  //    transform: /* Magic Numbers */
-  //      translate(25px, 51px) /* 45 is really 360 - 45 */
-  //      rotate(315deg);
-  //    transform-origin: top left;
-  //  }
-  //}
-}
 
 .suppliersTable tbody td {
   white-space: nowrap;
@@ -738,6 +722,10 @@ main {
     }
   }
   tbody {
+    font-size: 0.8rem;
+    td {
+      background-color: $sky-blue;
+    }
     td:first-child, td:nth-child(2) {
       text-align: left;
       background: $medium-blue;
@@ -747,4 +735,8 @@ main {
 
 .livingWageLetter {
   font-weight: bold;
+}
+
+#supplierViz svg {
+  max-width: 100%;
 }

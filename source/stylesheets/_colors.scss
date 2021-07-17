@@ -128,7 +128,7 @@ $body-bg: $blue;
 }
 
 .lighter-blue-bg {
-  background-color: $lighter-blue;
+  background-color: $lighter-blue !important;
   color: $table-color;
 }
 

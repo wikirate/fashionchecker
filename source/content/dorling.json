@@ -1,9 +1,8 @@
 {
   "$schema": "https://vega.github.io/schema/vega/v5.json",
   "description": "A Dorling cartogram showing the geographic distribution of a brand's suppliers.",
-  "width": 900,
-  "height": 480,
-  "autosize": "none",
+  "width": 800,
+  "height": 420,
   "config": {
     "legend": {
       "gradientDirection": "horizontal",
@@ -13,7 +12,7 @@
   },
   "signals": [
     {"name": "type", "value": "equalEarth"},
-    {"name": "scale", "value": 175},
+    {"name": "scale", "value": 150},
     {"name": "rotate0", "value": -30},
     {"name": "rotate1", "value": 0},
     {"name": "rotate2", "value": 0},
@@ -23,9 +22,13 @@
     {"name": "translate1", "update": "height / 2"},
     {"name": "graticuleDash", "value": 3},
     {"name": "borderWidth", "value": 1},
-    {"name": "background", "value": "#1d1d2f"},
-    {"name": "graticuleColor", "value": "#1B2E6F"},
-    {"name": "landColor", "value": "#1B2E6F"}
+
+    {"name": "navy", "value": "#1d1d2f" },
+    {"name": "darkBlue", "value": "#1B2E6F" },
+
+    {"name": "background", "init": "navy" },
+    {"name": "graticuleColor", "init": "darkBlue"},
+    {"name": "landColor", "init": "darkBlue"}
   ],
   "data": [
     {
@@ -203,6 +206,7 @@
           "baseline": {"value": "middle"},
           "fontSize": {"value": 10},
           "fontWeight": {"value": "bold"},
+          "fill": {"signal": "darkBlue"},
           "text": {"field": "datum.alpha-code"},
           "x": {"field": "x"},
           "y": {"field": "y"}

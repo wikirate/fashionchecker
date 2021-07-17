@@ -26,8 +26,34 @@
         .container.py-5.result-container
           = brand_profile_partial :result
           &nbsp;
-
     .bottom-extender.blue-bg
+
+    .yellow-bg.skew-right
+      .container-fluid.skew-left
+        .container.py-5
+          .display-3
+            .red
+              Supplier Map
+
+          #supplierViz.py-4
+            .result
+            .template
+              .supplierMap
+
+    .bottom-extender.yellow-bg.extra-extender
+
+    .fuchsia-bg.skew-left
+      .container-fluid.skew-right
+        .container.py-5
+          .display-3.text-right
+            .pink
+              Supplier Wages
+
+          #suppliers
+            .result
+            = brand_profile_partial :suppliers_table
+
+    .bottom-extender.fuchsia-bg
 
     = commitment_modals "Public commitment", %w[No Partial Yes]
     = commitment_modals "Action plan", %w[No Partial Yes]

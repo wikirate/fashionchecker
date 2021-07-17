@@ -1,7 +1,12 @@
 metricsMap = FC.metrics.suppliersMap
+headquartersMetricId = metricsMap["headquarters"]
+wageMetricId = metricsMap["average"]
 
 euros = (num) ->
-  "<td>€#{parseFloat(num, 10).toFixed 2}</td>"
+  "<td class='lighter-blue-bg'>€#{parseFloat(num, 10).toFixed 2}</td>"
+
+percent = (num) ->
+  "<td class='lighter-blue-bg'>#{parseFloat(num).toFixed 1}%</td>"
 
 suppliersColumnMap =
   name: (val, companyId) ->
@@ -9,7 +14,7 @@ suppliersColumnMap =
 
   headquarters: 1
   average: euros
-  gap: euros
+  gap: percent
   num_workers: 1
 
   female: (val, _id, companyHash) ->
@@ -21,55 +26,56 @@ suppliersColumnMap =
     temporary = companyHash[metricsMap['temporary']] || "-"
     "<td>#{val}/#{temporary}</td>"
 
-supplierURL = (companyId, metricId, view) ->
-  FC.apiUrl "Answer/#{view}",
-    limit: 0
-    filter:
-      metric_id: metricId
-      relationship:
-        company_id: companyId
-        metric_id: FC.metrics.supplierId
+supplierURL = (companyId, metricId, view, answer) ->
+  filter =
+    metric_id: metricId
+    relationship:
+      company_id: companyId
+      metric_id: FC.metrics.supplierId
+  filter["answer"] = answer if answer
+
+  FC.apiUrl "Answer/#{view}", limit: 0, filter: filter
 
 suppliersTable = (companyId) ->
-  url = supplierURL companyId, Object.values(metricsMap), "compact"
+  template = new FC.util.templater "#suppliers"
+  answer_filter = metric_id: wageMetricId
+  url = supplierURL companyId, Object.values(metricsMap), "compact", answer_filter
   $.ajax(url: url, dataType: "json").done (data) ->
     companies = suppliersWithWageData data
-    template = new FC.util.templater "#suppliers"
     table = template.current.find "#suppliersTable"
     FC.company.table companies, table, suppliersColumnMap, metricsMap
     template.publish()
 
-headquartersMetricId = FC.metrics.suppliersMap["headquarters"]
 
 buildViz = (spec) ->
-  view = new vega.View vega.parse(spec),
-    renderer: 'svg'
-    container: '#supplierViz',
+  vegaEmbed ".result .supplierMap", spec,
+    renderer: "svg"
     hover: true
 
-  view.runAsync();
 
 suppliersViz = (companyId) ->
   dataUrl = supplierURL companyId, headquartersMetricId, "answer_list"
 
-#  .done (spec) ->
-#    spec["data"][0]["url"] = dataUrl
-#
+  # the simpler approach is to add the answer_list url to the vega spec,
+  # but that wasn't working on dev.wikirate.org, because of a problem with
+  # basic auth (or CORS or something)
 
+  #  $.ajax(url: "content/dorling.json", dataType: "json").done (spec) ->
+  #    spec["data"][0]["url"] = dataUrl
+
+  template = new FC.util.templater "#supplierViz"
+  template.publish()
 
   $.when(
-    $.ajax(url: "content/dorling.json", dataType: "json")
-    $.ajax(url: dataUrl, dataType: "json")
+    $.ajax url: "content/dorling.json", dataType: "json"
+    $.ajax url: dataUrl, dataType: "json"
   ).done (spec, answers) ->
     spec = spec[0]
     data = spec["data"][0]
     delete data["url"]
     data["values"] = answers[0]
-    buildViz(spec)
 
-
-
-
+    buildViz spec
 
 suppliersWithWageData = (data) ->
   withWage = []

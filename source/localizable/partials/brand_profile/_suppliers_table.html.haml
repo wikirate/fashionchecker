@@ -1,10 +1,6 @@
 .row.mt-5.template
   .col-sm-12.text-center
-    %h4
-      = t('suppliers_table.explore_supply_chain')
-    %p
-      &nbsp;
-    %span.float-right.text-muted
+
 
     #suppliersTableContainer.table-responsive
       %table#suppliersTable.table.table-sm.light-blue-bg.medium-grey
@@ -17,9 +13,9 @@
           %tr.secondHeader.light-blue-bg.border-top-0.border-bottom-2
             %th.medium-blue-bg= t('suppliers_table.company')
             %th.medium-blue-bg= t('country')
-            %th
+            %th.other-blue-bg
               %i.fa.fa-coins
-            %th
+            %th.other-blue-bg
               %i.fa.fa-adjust
             %th
               %i.fa.fa-users
