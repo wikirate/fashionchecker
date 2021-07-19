@@ -33,15 +33,15 @@
   "data": [
     {
       "name": "answers",
-      "url": "http://localhost:4567/content/jack_suppliers.json"
+      "url": "/content/jack_suppliers.json"
     },
     {
       "name": "country_codes",
-      "url": "http://localhost:4567/content/country_codes.json"
+      "url": "/content/country_codes.json"
     },
     {
       "name": "wikirate_countries",
-      "url": "http://localhost:4567/content/wikirate_countries.json?A",
+      "url": "/content/wikirate_countries.json?A",
       "transform": [
         {"type": "formula", "as": "upper-alpha", "expr": "upper(datum.code)"}
       ]
