@@ -5,15 +5,14 @@
   %main.brand{:role => "main"}
     = section :red do
       .row
-        .col-sm-12.d-flex.justify-content-center
-          .narrow.d-flex.flex-wrap.justify-content-center
-            .text-center
-              .span.display-3.yellow
-                = t('explore')
-              .span.display-3.pink
-                = t('the_data')
-              %p.lead.pt-3.font-weight-bolder
-                = t('are_the_people_who_make_your_clothes_paid_enough_t')
+        .col-sm-12.d-flex
+          .d-flex.flex-wrap
+            %span.display-3.yellow.pr-3
+              = t('explore')
+            %span.display-3.pink
+              = t('the_data')
+            %p.lead.pt-3.font-weight-bolder.mb-0
+              = t('are_the_people_who_make_your_clothes_paid_enough_t')
             -#  %p.lead.font-weight-lighter
             -#    = t('find_out_which_apparel_and_footwear_brands_pay_the')
             -# =brand_profile_partial :search, locals: { redirect: true }
@@ -24,6 +23,8 @@
     .blue-bg.skew-left
       .container-fluid.skew-right
         .container.py-5.result-container
+          .display-3.yellow.text-right.pb-4
+            Brand Overview
           = brand_profile_partial :result
           &nbsp;
     .bottom-extender.blue-bg
@@ -31,9 +32,10 @@
     .yellow-bg.skew-right
       .container-fluid.skew-left
         .container.py-5
-          .display-3
-            .red
-              Supplier Map
+          .display-3.red
+            Supplier Map
+          %p.lead.navy.pt-3
+            Where are the brand's disclosed suppliers?
 
           #supplierViz.py-4
             .result
@@ -45,10 +47,19 @@
     .fuchsia-bg.skew-left
       .container-fluid.skew-right
         .container.py-5
-          .display-3.text-right
-            .pink
-              Supplier Wages
-
+          .row.align-items-end
+            .col-6
+              .display-3.yellow
+                Supplier Wages
+              %p.lead.white.pt-3
+                Are surveyed suppliers paying a living wage?
+            .col-6.text-right.d-flex.justify-content-end
+              %table.legendTable.text-left.mb-3
+                = legend_row "coins", "suppliers_table.average"
+                = legend_row "adjust", "suppliers_table.gap"
+                = legend_row "users", "suppliers_table.number_of_workers"
+                = legend_row "female", "suppliers_table.gender"
+                = legend_row "file-contract", "suppliers_table.contract"
           #suppliers
             .result
             = brand_profile_partial :suppliers_table

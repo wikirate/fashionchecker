@@ -1,6 +1,5 @@
-.row.mt-5.template
+.row.mt-3.template
   .col-sm-12.text-center
-
 
     #suppliersTableContainer.table-responsive
       %table#suppliersTable.table.table-sm.light-blue-bg.medium-grey
@@ -13,14 +12,9 @@
           %tr.secondHeader.light-blue-bg.border-top-0.border-bottom-2
             %th.medium-blue-bg= t('suppliers_table.company')
             %th.medium-blue-bg= t('country')
-            %th.other-blue-bg
-              %i.fa.fa-coins
-            %th.other-blue-bg
-              %i.fa.fa-adjust
-            %th
-              %i.fa.fa-users
-            %th
-              %i.fa.fa-female
-            %th
-              %i.fa.fa-file-contract
+            = th_icon "coins", "suppliers_table.average"
+            = th_icon "adjust", "suppliers_table.gap"
+            = th_icon "users", "suppliers_table.number_of_workers"
+            = th_icon "female", "suppliers_table.gender"
+            = th_icon "file-contract", "suppliers_table.contract"
         %tbody

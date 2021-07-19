@@ -98,6 +98,16 @@ module Partials
             locals: { url: url, quote: quote, citation: citation }
   end
 
+  def legend_row icon, title_key
+    partial "partials/shared/legend_row",
+            locals: { icon: icon, title_key: title_key }
+  end
+
+  def th_icon icon, title_key
+    partial "partials/shared/th_icon",
+            locals: { icon: icon, title_key: title_key }
+  end
+
   def supplier_table_header key
     brand_profile_partial :suppliers_table_header, locals: { key: key }
   end

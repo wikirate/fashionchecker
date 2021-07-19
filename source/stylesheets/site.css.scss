@@ -658,7 +658,6 @@ main {
         font-size: 0.8em;
       }
     }
-    // headquarters
     &:nth-child(2) {
       color: $medium-grey;
       font-size: 0.8rem;
@@ -670,6 +669,9 @@ main {
     text-align: center;
     &:first-child {
       text-align: left;
+    }
+    &:hover {
+      background-color: $light-blue;
     }
   }
   .littleSmiley {
@@ -719,6 +721,17 @@ main {
       &:first-child {
         text-align: left;
       }
+      &:nth-child(3-4) {
+        background-color: $other-blue;
+      }
+    }
+    .secondHeader th {
+      &:hover {
+        background-color: $navy !important;
+      }
+      &:nth-child(3), &:nth-child(4){
+        background-color: $other-blue;
+      }
     }
   }
   tbody {
@@ -739,4 +752,24 @@ main {
 
 #supplierViz svg {
   max-width: 100%;
+  height: auto;
+}
+
+.legendTable {
+  background: $dark-blue;
+  color: $white;
+  border: 4px solid $navy;
+  padding: 2px;
+  font-size: 1rem;
+
+  td {
+    padding: 4px 12px;
+    &:first-child {
+      font-size: 1.2rem;
+    }
+  }
+  tr:hover td {
+    background: $light-blue;
+    cursor: pointer;
+  }
 }

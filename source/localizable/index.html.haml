@@ -35,26 +35,33 @@
     .yellow-bg.skew-right
       .container-fluid.skew-left
         .container.py-5#brandsTableContainer.table-responsive
-          .display-3.fuchsia
-            Brands Surveyed
-          %p.pt-3.navy.lead
-            = t('find_out')
+          .row.align-items-end
+            .col-6
+              .display-3.fuchsia
+                Brands
+              .display-3.fuchsia
+                Surveyed
+              %p.pt-3.navy.lead
+                = t('find_out')
+            .col-6.text-right.d-flex.justify-content-end
+              %table.legendTable.text-left.mb-3
+                = legend_row "search-location", "transparency_score.title"
+                = legend_row "piggy-bank", "living_wage_score.title"
+                = legend_row "clipboard-list", "commitment_score.action_plan"
+                = legend_row "comment", "commitment_score.public_commitment"
+                = legend_row "user-tag", "commitment_score.separate_labor_costs"
 
           %table#brandsTable.w-100.table.table-sm
             %thead
               %tr
                 %th Brand (brands owned)
                 %th Headquarters
-                %th
-                  %i.fa.fa-search-location
-                %th
-                  %i.fa.fa-piggy-bank
-                %th
-                  %i.fa.fa-clipboard-list
-                %th
-                  %i.fa.fa-comment
-                %th
-                  %i.fa.fa-user-tag
+                = th_icon "search-location", "transparency_score.title"
+                = th_icon "piggy-bank", "living_wage_score.title"
+                = th_icon "clipboard-list", "commitment_score.action_plan"
+                = th_icon "comment", "commitment_score.public_commitment"
+                = th_icon "user-tag", "commitment_score.separate_labor_costs"
+
             %tbody
 
           ._transparencyTemplate.d-none

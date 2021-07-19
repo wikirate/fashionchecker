@@ -52,7 +52,7 @@ en:
 
   commitment_score:
     title: "Commitment Score"
-    public_commitment: "public commitment?"
+    public_commitment: "Public Commitment?"
     public_commitment_score_1: >
       No evidence was found that this brand has made a commitment to working towards a living wage for all workers in its supply chain.
     public_commitment_score_2: >
@@ -61,7 +61,7 @@ en:
       e.g. it is not enough to cover the worker’s family.
     public_commitment_score_3: >
       This brand has made a public commitment to working towards a living wage for all workers in its supply chain.
-    action_plan: "action plan?"
+    action_plan: "Action Plan?"
     action_plan_score_1: >
       No evidence was found that this brand has a public time-bound action plan to improve the low wages in its supply chain.
     action_plan_score_2: >
@@ -80,7 +80,7 @@ en:
       Brands need to ensure that labour costs are properly covered by using an established method to calculate them,
       separating these costs from others.
 
-    separate_labor_costs: "separate labour costs?"
+    separate_labor_costs: "Separate Labour Costs?"
     desc:
       score_1: "This brand isn't doing enough to move towards Living Wages in its supply chain."
       score_2: "Text for score 2"
@@ -133,17 +133,17 @@ en:
     explore_supply_chain: "Explore supply chain"
     sourcing_from_factories: "Sourcing from factories"
     found: "found"
-    number_of_workers: "number of workers"
+    number_of_workers: "Number of Workers"
     wage: "wage"
     workers: "workers"
     company: "company"
-    female_male_other: "Female/Male/Other"
-    permanent_temporary: "Permanent/ Temporary"
-    average: "Average"
+    gender: "Gender (female/male/other)"
+    contract: "Contract (permanent/temporary)"
+    average: "Average Wage"
     average_info:
       The monthly average net salary (in EUR equivalent of the local currency) as listed
       on surveyed workers' payslips
-    gap: "Gap"
+    gap: "Wage Gap"
     gap_info:
       The monthly average difference between minimum and actual wages (in EUR) for
       surveyed workers at the company/facility
