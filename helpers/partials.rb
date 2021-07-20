@@ -60,7 +60,7 @@ module Partials
   end
 
   def modal_id title, index
-    "#{title.downcase.gsub(" ", "-")}-score-#{index}"
+    "#{title.downcase.gsub(" ", "_")}-score-#{index}"
   end
 
   def resource title, url, args={}
