@@ -32,9 +32,15 @@ contractPieChart = (val, companyId, companyHash) ->
     temporary: (companyHash[metricsMap['temporary']] || "0")
 
 gapPieChart = (val, companyId) ->
+  not_paid =
+    if val > 100
+      0
+    else
+      100 - val
+
   pieChart "gap", companyId, ["#f9fe9c", "#000000"],
     paid: val,
-    "not paid" : (100 - val)
+    "not paid" : not_paid
 
 supplierWikirateLink = (val, companyId) ->
   "<td><a href='#{FC.wikirateUrl companyId}'>#{val}</a></td>"
