@@ -3,28 +3,51 @@ headquartersMetricId = metricsMap["headquarters"]
 wageMetricId = metricsMap["average"]
 
 euros = (num) ->
-  "<td class='lighter-blue-bg'>€#{parseFloat(num, 10).toFixed 2}</td>"
+  "<td>€#{parseFloat(num, 10).toFixed 2}</td>"
 
-percent = (num) ->
-  "<td class='lighter-blue-bg'>#{parseFloat(num).toFixed 1}%</td>"
+
+formatPercent = (num) ->
+  parseFloat(num).toFixed 0
+
+pieChart = (name, companyId, colors, values) ->
+  tagId = "#{name}Pie-#{companyId}"
+  $.ajax(url: "content/pie.json", dataType: "json",).done (spec) ->
+    v = []
+    $.each values, (key, val) ->
+      v.push { name: key, value: formatPercent(val) }
+    spec["data"][0]["values"] = v
+    spec["scales"][0]["range"] = colors
+    buildViz "##{tagId}", spec
+  "<td><div id='#{tagId}'></div></td>"
+
+genderPieChart = (val, companyId, companyHash) ->
+  pieChart "gender", companyId, ["#fb4922", "#970000", "#FFB000"],
+    female: val,
+    male: (companyHash[metricsMap['male']] || "0"),
+    other: (companyHash[metricsMap['other']] || "0")
+
+contractPieChart = (val, companyId, companyHash) ->
+  pieChart "contract", companyId, ["#ed40d9", "#fcc9fd"],
+    permanent: val,
+    temporary: (companyHash[metricsMap['temporary']] || "0")
+
+gapPieChart = (val, companyId) ->
+  pieChart "gap", companyId, ["#f9fe9c", "#000000"],
+    paid: val,
+    "not paid" : (100 - val)
+
+supplierWikirateLink = (val, companyId) ->
+  "<td><a href='#{FC.wikirateUrl companyId}'>#{val}</a></td>"
 
 suppliersColumnMap =
-  name: (val, companyId) ->
-    "<td><a href='#{FC.wikirateUrl companyId}'>#{val}</a></td>"
-
+  name: supplierWikirateLink
   headquarters: 1
   average: euros
-  gap: percent
+  gap: gapPieChart
   num_workers: 1
 
-  female: (val, _id, companyHash) ->
-    male = companyHash[metricsMap['male']] || "-"
-    other = companyHash[metricsMap['other']] || "-"
-    "<td>#{val}/#{male}/#{other}</td>"
-
-  permanent: (val, _id, companyHash) ->
-    temporary = companyHash[metricsMap['temporary']] || "-"
-    "<td>#{val}/#{temporary}</td>"
+  female: genderPieChart
+  permanent: contractPieChart
 
 supplierURL = (companyId, metricId, view, answer) ->
   filter =
@@ -47,10 +70,12 @@ suppliersTable = (companyId) ->
     template.publish()
 
 
-buildViz = (spec) ->
-  vegaEmbed ".result .supplierMap", spec,
+buildViz = (el, spec, actions) ->
+  actions ||= false
+  vegaEmbed el, spec,
     renderer: "svg"
     hover: true
+    actions: actions
 
 
 suppliersViz = (companyId) ->
@@ -75,7 +100,7 @@ suppliersViz = (companyId) ->
     delete data["url"]
     data["values"] = answers[0]
 
-    buildViz spec
+    buildViz ".result .supplierMap", spec, true
 
 suppliersWithWageData = (data) ->
   withWage = []

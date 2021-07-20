@@ -13,6 +13,7 @@ $lighter-blue: #7c8dc4;
 $other-blue: #4a588c;
 $medium-blue: #112053;
 $sky-blue: #5a6fb7;
+$green: #62ac5b;
 
 .food {
   fill: #fdbf41;
@@ -63,10 +64,10 @@ $sky-blue: #5a6fb7;
 }
 
 .savings {
-  fill: #62ac5b;
-  color: #62ac5b;
+  fill: $green;
+  color: $green;
   .card-face:hover {
-    border: 1px solid #62ac5b;
+    border: 1px solid $green;
   }
 }
 

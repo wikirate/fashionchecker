@@ -91,13 +91,13 @@ h6 {
 }
 
 .brand {
-  font-size: 0.7rem;
+  font-size: 0.9rem;
   .modal-body {
     font-size: 1rem;
   }
   color: $medium-grey;
   h6 {
-    font-size: 0.8rem;
+    font-size: 1.1rem;
     text-transform: uppercase;
   }
 
@@ -564,14 +564,6 @@ main {
   }
 }
 
-
-.suppliersTable tbody td {
-  white-space: nowrap;
-  &:first-child {
-    white-space: break-spaces;
-  }
-}
-
 .citation {
   font-size: 0.75em;
   text-transform: uppercase;
@@ -735,13 +727,19 @@ main {
     }
   }
   tbody {
-    font-size: 0.8rem;
     td {
+      white-space: nowrap;
       background-color: $sky-blue;
-    }
-    td:first-child, td:nth-child(2) {
-      text-align: left;
-      background: $medium-blue;
+      &:first-child {
+        white-space: break-spaces;
+      }
+      &:first-child, &:nth-child(2) {
+        text-align: left;
+        background: $medium-blue;
+      }
+      &:nth-child(3), &:nth-child(4) {
+        background: $lighter-blue;
+      }
     }
   }
 }
@@ -772,4 +770,8 @@ main {
     background: $light-blue;
     cursor: pointer;
   }
+}
+.colorLegend {
+  font-style: italic;
+  font-size: 0.8em;
 }

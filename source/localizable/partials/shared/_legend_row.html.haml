@@ -1,5 +1,13 @@
-%tr{ data: { toggle: "popover", trigger: "hover", content: "aw yeah" } }
+%tr
   %td
     %i.fa{ class: "fa-#{icon}" }
   %td
-    = t title_key
+    %a.white{ data: { toggle: "popover",
+                      trigger: "hover focus",
+                      content: t("#{lscope}.#{title_key}_info") } }
+
+      = t "#{lscope}.#{title_key}"
+      - colors.each do |color_key, color_val|
+        %span.colorLegend
+          %i.pl-2.fas.fa-square{ style: "color: #{color_val}" }
+          = t "#{lscope}.#{color_key}"

@@ -48,18 +48,21 @@
       .container-fluid.skew-right
         .container.py-5
           .row.align-items-end
-            .col-6
+            .col-sm-6
               .display-3.yellow
                 Supplier Wages
               %p.lead.white.pt-3
                 Are surveyed suppliers paying a living wage?
-            .col-6.text-right.d-flex.justify-content-end
+            .col-sm-6.text-right.d-flex.justify-content-end
               %table.legendTable.text-left.mb-3
-                = legend_row "coins", "suppliers_table.average"
-                = legend_row "adjust", "suppliers_table.gap"
-                = legend_row "users", "suppliers_table.number_of_workers"
-                = legend_row "female", "suppliers_table.gender"
-                = legend_row "file-contract", "suppliers_table.contract"
+                = legend_row "coins", "suppliers_table", "average"
+                = legend_row "adjust", "suppliers_table", "gap",
+                             paid: "#f9fe9c", not_paid: "#000000"
+                = legend_row "users", "suppliers_table", "number_of_workers"
+                = legend_row "female", "suppliers_table", "gender",
+                             female: "#fb4922", male: "#970000", other: "#FFB000"
+                = legend_row "file-contract", "suppliers_table", "contract",
+                              permanent: "#ed40d9", temporary: "#fcc9fd"
           #suppliers
             .result
             = brand_profile_partial :suppliers_table

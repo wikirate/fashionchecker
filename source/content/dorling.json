@@ -41,7 +41,7 @@
     },
     {
       "name": "wikirate_countries",
-      "url": "/content/wikirate_countries.json?A",
+      "url": "/content/wikirate_countries.json",
       "transform": [
         {"type": "formula", "as": "upper-alpha", "expr": "upper(datum.code)"}
       ]

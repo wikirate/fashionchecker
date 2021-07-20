@@ -98,14 +98,14 @@ module Partials
             locals: { url: url, quote: quote, citation: citation }
   end
 
-  def legend_row icon, title_key
+  def legend_row icon, scope, title_key, colors={}
     partial "partials/shared/legend_row",
-            locals: { icon: icon, title_key: title_key }
+            locals: { icon: icon, lscope: scope, title_key: title_key, colors: colors }
   end
 
-  def th_icon icon, title_key
+  def th_icon icon, scope, title_key
     partial "partials/shared/th_icon",
-            locals: { icon: icon, title_key: title_key }
+            locals: { icon: icon, lscope: scope, title_key: title_key }
   end
 
   def supplier_table_header key

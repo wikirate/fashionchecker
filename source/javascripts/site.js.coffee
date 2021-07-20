@@ -105,6 +105,9 @@ $.extend FC,
       FC.subBrands[key].push brand.object_company
       FC.subBrands[key].sort()
 
+preparePopovers = () ->
+  $('[data-toggle="popover"]').popover()
+
 prepareFlipCards = () ->
   $("body").on "click", ".flip-card", ->
     $(this).toggleClass("flipped")
@@ -112,6 +115,7 @@ prepareFlipCards = () ->
 $(document).ready ->
   searchBox()
   prepareFlipCards()
+  preparePopovers()
 
   params = new URLSearchParams(window.location.search)
   if params.has "q"
