@@ -59,16 +59,22 @@ supplierURL = (companyId, metricId, view, answer) ->
 
   FC.apiUrl "Answer/#{view}", limit: 0, filter: filter
 
+generateSuppliersTable = (template, data) ->
+  companies = suppliersWithWageData data
+  table = template.current.find "#suppliersTable"
+  FC.company.table companies, table, suppliersColumnMap, metricsMap
+  template.publish()
+
+suppliersTableUrl = (companyId) ->
+  supplierURL companyId, Object.values(metricsMap), "compact", metric_id: wageMetricId
+
 suppliersTable = (companyId) ->
   template = new FC.util.templater "#suppliers"
-  answer_filter = metric_id: wageMetricId
-  url = supplierURL companyId, Object.values(metricsMap), "compact", answer_filter
-  $.ajax(url: url, dataType: "json").done (data) ->
-    companies = suppliersWithWageData data
-    table = template.current.find "#suppliersTable"
-    FC.company.table companies, table, suppliersColumnMap, metricsMap
-    template.publish()
-
+  $.ajax(url: suppliersTableUrl(companyId), dataType: "json").done (data) ->
+    if Object.keys(data.answers).length == 0
+      template.noResult()
+    else
+      generateSuppliersTable template, data
 
 buildViz = (el, spec, actions) ->
   actions ||= false
@@ -77,6 +83,12 @@ buildViz = (el, spec, actions) ->
     hover: true
     actions: actions
 
+suppliersVizSpec = (spec, values) ->
+  spec = spec[0]
+  data = spec["data"][0]
+  delete data["url"]
+  data["values"] = values
+  spec
 
 suppliersViz = (companyId) ->
   dataUrl = supplierURL companyId, headquartersMetricId, "answer_list"
@@ -95,12 +107,11 @@ suppliersViz = (companyId) ->
     $.ajax url: "content/dorling.json", dataType: "json"
     $.ajax url: dataUrl, dataType: "json"
   ).done (spec, answers) ->
-    spec = spec[0]
-    data = spec["data"][0]
-    delete data["url"]
-    data["values"] = answers[0]
-
-    buildViz ".result .supplierMap", spec, true
+    values = answers[0]
+    if values.length == 0
+      template.noResult()
+    else
+      buildViz ".result .supplierMap", suppliersVizSpec(spec, values), true
 
 suppliersWithWageData = (data) ->
   withWage = []

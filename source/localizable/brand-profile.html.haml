@@ -39,6 +39,10 @@
 
           #supplierViz.py-4
             .result
+            .noResult
+              .navy-bg.p-3.lead
+                %img.pr-2{ src: "/images/smiley/No.png" }
+                No suppliers disclosed.
             .template
               .supplierMap
 
@@ -65,6 +69,10 @@
                               permanent: "#ed40d9", temporary: "#fcc9fd"
           #suppliers
             .result
+            .noResult
+              .navy-bg.p-3.lead
+                %img.pr-2{ src: "/images/smiley/No.png" }
+                No supplier responses.
             = brand_profile_partial :suppliers_table
 
     .bottom-extender.fuchsia-bg

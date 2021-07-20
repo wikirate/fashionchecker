@@ -12,10 +12,10 @@ FC.util =
     @container = $(selector)
 
     @result = () ->
-      @container.children(".result")
+      @container.children ".result"
 
     @template = () ->
-      @container.children(".template")
+      @container.children ".template"
 
     @publish = () ->
       @find('[data-toggle="popover"]').popover()
@@ -26,6 +26,9 @@ FC.util =
 
     @find = (selector) ->
       @current.find selector
+
+    @noResult = () ->
+      @container.children(".noResult").show()
 
     @result().empty()
     @current = @template().clone()

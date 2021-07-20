@@ -78,7 +78,7 @@ h2,
 }
 
 .tiny {
-  font-size: 0.6rem;
+  font-size: 0.75rem;
 }
 
 .container {
@@ -774,4 +774,7 @@ main {
 .colorLegend {
   font-style: italic;
   font-size: 0.8em;
+}
+.noResult {
+  display: none
 }

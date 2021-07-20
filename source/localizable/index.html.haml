@@ -22,12 +22,12 @@
       .container-fluid.skew-right
         .container.py-5#brandsTableContainer.table-responsive
           .row.align-items-end
-            .col-6
+            .col-sm-6
               .display-3.fuchsia.pt-4
                 Brands Surveyed
               %p.pt-3.navy.lead
                 = t('find_out')
-            .col-6.text-right.d-flex.justify-content-end
+            .col-sm-6.text-right.d-flex.justify-content-end
               %table.legendTable.text-left.mb-3
                 = legend_row "search-location", "transparency_score", "title"
                 = legend_row "piggy-bank", "living_wage_score", "title"
