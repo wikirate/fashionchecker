@@ -40,7 +40,7 @@ redirectSearch = (companyId) ->
   href = FC.profilePath companyId
   current = window.location.href
   if /(\/$|html)/.test current
-    prefix = "."
+    prefix = "./"
   else
     prefix = current
   window.location.href = prefix + href

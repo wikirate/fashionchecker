@@ -5,7 +5,6 @@ wageMetricId = metricsMap["average"]
 euros = (num) ->
   "<td>€#{parseFloat(num, 10).toFixed 2}</td>"
 
-
 formatPercent = (num) ->
   parseFloat(num).toFixed 0
 

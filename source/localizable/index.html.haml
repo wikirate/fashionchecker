@@ -20,7 +20,7 @@
 
     .yellow-bg.skew-left
       .container-fluid.skew-right
-        .container.py-5#brandsTableContainer.table-responsive
+        .container.py-5
           .row.align-items-end
             .col-sm-6
               .display-3.fuchsia.pt-4
@@ -34,19 +34,19 @@
                 = legend_row "clipboard-list", "commitment_score", "action_plan"
                 = legend_row "comment", "commitment_score", "public_commitment"
                 = legend_row "user-tag", "commitment_score", "separate_labor_costs"
+          #brandsTableContainer.table-responsive
+            %table#brandsTable.w-100.table.table-sm
+              %thead
+                %tr
+                  %th= t('brand_brands_owned')
+                  %th= t('headquarters')
+                  = th_icon "search-location", "transparency_score", "title"
+                  = th_icon "piggy-bank", "living_wage_score", "title"
+                  = th_icon "clipboard-list", "commitment_score", "action_plan"
+                  = th_icon "comment", "commitment_score", "public_commitment"
+                  = th_icon "user-tag", "commitment_score", "separate_labor_costs"
 
-          %table#brandsTable.w-100.table.table-sm
-            %thead
-              %tr
-                %th= t('brand_brands_owned')
-                %th= t('headquarters')
-                = th_icon "search-location", "transparency_score", "title"
-                = th_icon "piggy-bank", "living_wage_score", "title"
-                = th_icon "clipboard-list", "commitment_score", "action_plan"
-                = th_icon "comment", "commitment_score", "public_commitment"
-                = th_icon "user-tag", "commitment_score", "separate_labor_costs"
-
-            %tbody
+              %tbody
 
           ._transparencyTemplate.d-none
             = partial "partials/brand_profile/score/transparency_stars.html"

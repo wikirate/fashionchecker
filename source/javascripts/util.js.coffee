@@ -18,7 +18,7 @@ FC.util =
       @container.children ".template"
 
     @publish = () ->
-      @find('[data-toggle="popover"]').popover()
+      # @find('[data-toggle="popover"]').popover()
       @result().append @current
 
     @fill = (field, value) ->

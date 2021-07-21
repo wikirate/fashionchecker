@@ -3,8 +3,8 @@
     %i.fa{ class: "fa-#{icon}" }
   %td
     %a.white{ data: { toggle: "popover",
-                      trigger: "hover focus",
-                      content: t("#{lscope}.#{title_key}_info") } }
+                      trigger: "focus",
+                      content: t("#{lscope}.#{title_key}_info") }, tabindex: 0 }
 
       = t "#{lscope}.#{title_key}"
       - colors.each do |color_key, color_val|
