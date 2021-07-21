@@ -11,7 +11,7 @@ formatPercent = (num) ->
 
 pieChart = (name, companyId, colors, values) ->
   tagId = "#{name}Pie-#{companyId}"
-  $.ajax(url: "content/pie.json", dataType: "json",).done (spec) ->
+  $.ajax(url: "/content/pie.json", dataType: "json",).done (spec) ->
     v = []
     $.each values, (key, val) ->
       v.push { name: key, value: formatPercent(val) }
@@ -110,7 +110,7 @@ suppliersViz = (companyId) ->
   template.publish()
 
   $.when(
-    $.ajax url: "content/dorling.json", dataType: "json"
+    $.ajax url: "/content/dorling.json", dataType: "json"
     $.ajax url: dataUrl, dataType: "json"
   ).done (spec, answers) ->
     values = answers[0]
