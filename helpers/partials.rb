@@ -107,8 +107,4 @@ module Partials
     partial "partials/shared/th_icon",
             locals: { icon: icon, lscope: scope, title_key: title_key }
   end
-
-  def supplier_table_header key
-    brand_profile_partial :suppliers_table_header, locals: { key: key }
-  end
 end

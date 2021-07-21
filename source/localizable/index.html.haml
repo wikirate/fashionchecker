@@ -1,4 +1,5 @@
 %body
+  = partial "partials/shared/table_lang"
   = partial "partials/header"
   %main{:role => "main"}
     = section :red do
@@ -17,14 +18,13 @@
     .top-extender.red-bg
       &nbsp;
 
-
     .yellow-bg.skew-left
       .container-fluid.skew-right
         .container.py-5#brandsTableContainer.table-responsive
           .row.align-items-end
             .col-sm-6
               .display-3.fuchsia.pt-4
-                Brands Surveyed
+                = t('brands_surveyed')
               %p.pt-3.navy.lead
                 = t('find_out')
             .col-sm-6.text-right.d-flex.justify-content-end
@@ -38,8 +38,8 @@
           %table#brandsTable.w-100.table.table-sm
             %thead
               %tr
-                %th Brand (brands owned)
-                %th Headquarters
+                %th= t('brand_brands_owned')
+                %th= t('headquarters')
                 = th_icon "search-location", "transparency_score", "title"
                 = th_icon "piggy-bank", "living_wage_score", "title"
                 = th_icon "clipboard-list", "commitment_score", "action_plan"

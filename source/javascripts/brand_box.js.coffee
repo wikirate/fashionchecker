@@ -45,9 +45,9 @@ window.brandBox = (company_id) ->
     for _i, fld of ["headquarters", "top_3_production_countries"]
       @template.fill fld, @value(fld)
 
-   @fillEuro = () ->
-     for _i, fld of ["revenue", "profit"]
-       @template.fill fld, @value(fld).replace(/(\d)(?=(\d{3})+$)/g, "$1,")
+  @fillEuro = () ->
+    for _i, fld of ["revenue", "profit"]
+      @template.fill fld, @value(fld).replace(/(\d)(?=(\d{3})+$)/g, "$1,")
 
   @value = (fld) ->
     @data[FC.metrics.brandsMap[fld]]

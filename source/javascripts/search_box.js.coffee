@@ -2,7 +2,7 @@ window.searchBox = () ->
   loadSearchOptions()
   activateSearch()
 
-brandsUrl = FC.apiSwitch "content/brands.json",
+brandsUrl = FC.apiSwitch "/content/brands.json",
   FC.apiUrl "#{FC.companyGroup}+Company", item: "nucleus"
 
 loadSearchOptions = () ->

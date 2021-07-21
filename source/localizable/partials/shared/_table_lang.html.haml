@@ -1,0 +1,6 @@
+%script
+  FC.lang = {
+  - %i[search lengthMenu info].each do |key|
+    - value = t "dataTables.#{key}"
+    = "#{key}: '#{value}',"
+  }

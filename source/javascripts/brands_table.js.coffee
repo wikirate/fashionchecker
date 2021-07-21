@@ -29,7 +29,7 @@ brandsColumnMap =
   public_commitment: commitment
   isolating_labor: commitment
 
-brandAnswersUrl = FC.apiSwitch "content/brand_answers.json",
+brandAnswersUrl = FC.apiSwitch "/content/brand_answers.json",
   FC.apiUrl "Answer/compact",
     limit: 0
     filter:

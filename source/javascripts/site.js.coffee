@@ -86,7 +86,7 @@ $.extend FC,
         filter:
           wikirate_topic: "Filling the Gap"
 
-subBrandsUrl = FC.apiSwitch "content/sub_brands.json",
+subBrandsUrl = FC.apiSwitch "/content/sub_brands.json",
   FC.apiUrl "~#{FC.metrics.supplierId}+Relationship_Answer",
     limit: 500
     filter:

@@ -23,7 +23,7 @@ FC.company.table = (data, tag, columnMap, metricMap) ->
 
     @tbody = @tag.children "tbody"
     @addRows()
-    @tag.DataTable autoWidth: false, pagingType: "numbers"
+    @tag.DataTable autoWidth: false, pagingType: "numbers", language: FC.lang
 
   @addRows = () ->
     t = this

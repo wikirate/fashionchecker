@@ -1,4 +1,5 @@
 %body
+  = partial "partials/shared/table_lang"
   %script
     = score_translation_script
   = partial "partials/header"
@@ -13,9 +14,6 @@
               = t('the_data')
             %p.lead.pt-3.font-weight-bolder.mb-0
               = t('are_the_people_who_make_your_clothes_paid_enough_t')
-            -#  %p.lead.font-weight-lighter
-            -#    = t('find_out_which_apparel_and_footwear_brands_pay_the')
-            -# =brand_profile_partial :search, locals: { redirect: true }
 
     .top-extender.red-bg
       &nbsp;
@@ -24,7 +22,7 @@
       .container-fluid.skew-right
         .container.py-5.result-container
           .display-3.yellow.text-right.pb-4
-            Brand Overview
+            = t('brand_overview')
           = brand_profile_partial :result
           &nbsp;
     .bottom-extender.blue-bg
@@ -33,16 +31,16 @@
       .container-fluid.skew-left
         .container.py-5
           .display-3.red
-            Supplier Map
+            = t('supplier_map')
           %p.lead.navy.pt-3
-            Where are the brand's disclosed suppliers?
+            = t('where_are_suppliers')
 
           #supplierViz.py-4
             .result
             .noResult
               .navy-bg.p-3.lead
                 %img.pr-2{ src: "/images/smiley/No.png" }
-                No suppliers disclosed.
+                = t('no_suppliers_disclosed')
             .template
               .supplierMap
 
@@ -54,9 +52,9 @@
           .row.align-items-end
             .col-sm-6
               .display-3.yellow
-                Supplier Wages
+                = t('supplier_wages')
               %p.lead.white.pt-3
-                Are surveyed suppliers paying a living wage?
+                = t('are_surveyed_suppliers_paying')
             .col-sm-6.text-right.d-flex.justify-content-end
               %table.legendTable.text-left.mb-3
                 = legend_row "coins", "suppliers_table", "average"
@@ -72,7 +70,7 @@
             .noResult
               .navy-bg.p-3.lead
                 %img.pr-2{ src: "/images/smiley/No.png" }
-                No supplier responses.
+                = t('no_supplier_responses')
             = brand_profile_partial :suppliers_table
 
     .bottom-extender.fuchsia-bg
