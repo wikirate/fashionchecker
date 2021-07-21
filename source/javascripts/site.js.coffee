@@ -77,7 +77,7 @@ $.extend FC,
     "#{wikirateApiHost}/#{path}.json?" + $.param(query)
 
   profilePath: (companyId) ->
-    "/brand-profile.html?q=#{companyId}"
+    "brand-profile.html?q=#{companyId}"
 
   wikirateUrl: (companyId) ->
     "#{wikirateLinkTarget}/~#{companyId}?" +
