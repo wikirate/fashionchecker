@@ -16,7 +16,8 @@ window.FC =
   companyGroup: ":filling_the_gap_group"
 
   metrics:
-    supplierId: 2929009 # Commons+Supplied By
+    suppliedBy: 2929009
+    supplierOf: 2929015
 
     brandsMap:
       headquarters: 6126450
@@ -87,7 +88,7 @@ $.extend FC,
           wikirate_topic: "Filling the Gap"
 
 subBrandsUrl = FC.apiSwitch "/content/sub_brands.json",
-  FC.apiUrl "~#{FC.metrics.supplierId}+Relationship_Answer",
+  FC.apiUrl "~#{FC.metrics.suppliedBy}+Relationship_Answer",
     limit: 500
     filter:
       company_group: FC.companyGroup

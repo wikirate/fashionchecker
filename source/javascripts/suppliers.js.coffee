@@ -10,7 +10,7 @@ formatPercent = (num) ->
 
 pieChart = (name, companyId, colors, values) ->
   tagId = "#{name}Pie-#{companyId}"
-  $.ajax(url: "/content/pie.json", dataType: "json",).done (spec) ->
+  $.ajax(url: "/content/pie.json", dataType: "json").done (spec) ->
     v = []
     $.each values, (key, val) ->
       v.push { name: key, value: formatPercent(val) }
@@ -59,7 +59,7 @@ supplierURL = (companyId, metricId, view, answer) ->
     metric_id: metricId
     relationship:
       company_id: companyId
-      metric_id: FC.metrics.supplierId
+      metric_id: FC.metrics.supplierOf
   filter["answer"] = answer if answer
 
   FC.apiUrl "Answer/#{view}", limit: 0, filter: filter
