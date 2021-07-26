@@ -17,7 +17,8 @@ pieChart = (name, companyId, colors, values) ->
     spec["data"][0]["values"] = v
     spec["scales"][0]["range"] = colors
     buildViz "##{tagId}", spec
-  "<td><div id='#{tagId}'></div></td>"
+  sortVal = values[Object.keys(values)[0]]
+  "<td data-sort='#{sortVal}'><div id='#{tagId}'></div></td>"
 
 genderPieChart = (val, companyId, companyHash) ->
   pieChart "gender", companyId, ["#fb4922", "#970000", "#FFB000"],
@@ -119,10 +120,10 @@ suppliersViz = (companyId) ->
       buildViz ".result .supplierMap", suppliersVizSpec(spec, values), true
 
 suppliersWithWageData = (data) ->
-  withWage = []
-  $.each FC.company.hash(data), (_i, supplier) ->
+  withWage = {}
+  $.each FC.company.hash(data), (companyId, supplier) ->
     if supplier[metricsMap["average"]] || supplier[metricsMap["gap"]]
-      withWage.push supplier
+      withWage[companyId] = supplier
   withWage
 
 window.suppliersInfo = (companyId) ->
