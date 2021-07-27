@@ -13,7 +13,7 @@
   "signals": [
     {"name": "type", "value": "equalEarth"},
     {"name": "scale", "value": 150},
-    {"name": "rotate0", "value": -30},
+    {"name": "rotate0", "value": -15},
     {"name": "rotate1", "value": 0},
     {"name": "rotate2", "value": 0},
     {"name": "center0", "value": 0},
