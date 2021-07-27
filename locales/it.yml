@@ -131,6 +131,29 @@ it:
     have_cba: "Hanno cba"
     know_brand: "Brand conosciuto"
     pregnancy_leave: "maternità"
+    paid: "actual wage"
+    not_paid: "wage gap"
+    permanent: permanent
+    temporary: temporary
+    male: male
+    female: female
+    other: other
+    gender: "Gender"
+    gender_info: Percentage of workers by gender.
+    contract: "Contract"
+    contract_info: Percentage of workers by contract status.
+    average_info:
+      The monthly average net salary (in EUR equivalent of the local currency) as listed
+      on surveyed workers' payslips
+    gap_info: Monthly average salary as a percentage of living wage
+    have_cba_info: The percentage of surveyed workers covered by a collective bargaining agreement
+    know_brand_info:
+      The percentage of surveyed workers who know which brands their factory makes
+      products for
+    pregnancy_leave_info:
+      The percentage of surveyed workers, who had been pregnant, who were given
+      pregnancy leave
+
   latest: "Ultimi"
   news: "Aggiornamenti"
   footer_info: "è una campagna della Clean Clothes Campaign, finanziata dall'Unione Europea"
@@ -683,3 +706,17 @@ it:
   social_media_description: "See how brands perform on paying their workers and how open they are about where their products are made."
   social_media_image: "https://fashionchecker.org/images/CCC_FC_web_preview.jpg"
   a_worker_from_china: "Una lavoratrice dal China"
+  brands_surveyed: "Brands Surveyed"
+  brand_brands_owned: "Brand (brands owned)"
+
+  dataTables:
+    search: "Search:"
+    lengthMenu: "Show _MENU_ entries"
+    info: "Showing _START_ to _END_ of _TOTAL_ entries"
+  brand_overview: "Brand Overview"
+  supplier_map: "Supplier Map"
+  where_are_suppliers: "Where are the brand's disclosed suppliers?"
+  no_suppliers_disclosed: "No suppliers disclosed."
+  supplier_wages: "Supplier Wages"
+  are_surveyed_suppliers_paying: "Are surveyed suppliers paying a living wage?"
+  no_supplier_responses: "No supplier responses."

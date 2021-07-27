@@ -144,6 +144,18 @@ id:
     pregnancy_leave_info:
       Persentase buruh yang disurvei, yang pernah hamil, yang diberi
       cuti hamil
+    paid: "actual wage"
+    not_paid: "wage gap"
+    permanent: permanent
+    temporary: temporary
+    male: male
+    female: female
+    other: other
+    gender: "Gender"
+    gender_info: Percentage of workers by gender.
+    contract: "Contract"
+    contract_info: Percentage of workers by contract status.
+
   latest: "Berita"
   news: "Terbaru"
   footer_info: "adalah sebuah kampanye oleh Clean Clothes Campaign, yang didanai oleh Uni Eropa"
@@ -702,3 +714,17 @@ id:
   social_media_description: "Lihat bagaimana brand membayarkan upah buruhnya dan seterbuka apa mereka tentang di mana produk mereka dibuat."
   social_media_image: "https://fashionchecker.org/images/CCC_FC_web_preview.jpg"
   a_worker_from_china: "Seorang buruh dari Cina"
+  brands_surveyed: "Brands Surveyed"
+  brand_brands_owned: "Brand (brands owned)"
+
+  dataTables:
+    search: "Search:"
+    lengthMenu: "Show _MENU_ entries"
+    info: "Showing _START_ to _END_ of _TOTAL_ entries"
+  brand_overview: "Brand Overview"
+  supplier_map: "Supplier Map"
+  where_are_suppliers: "Where are the brand's disclosed suppliers?"
+  no_suppliers_disclosed: "No suppliers disclosed."
+  supplier_wages: "Supplier Wages"
+  are_surveyed_suppliers_paying: "Are surveyed suppliers paying a living wage?"
+  no_supplier_responses: "No supplier responses."
