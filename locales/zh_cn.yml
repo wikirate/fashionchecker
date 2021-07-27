@@ -63,7 +63,7 @@ zh_cn:
     action_plan: "行动计划？"
     action_plan_score_1: >
       沒有证据显示,该品牌公司有公开提出一个设定时限的行动计划,来改善其供应链中的低工资情况。
-    action_plan_score_2: > 
+    action_plan_score_2: >
       该品牌公司可能有一个沒有设定时限的行动计划，但只跟它的一级工厂有关,
       或者沒有公布细节（不是SMART)。
     action_plan_score_3: >
@@ -136,19 +136,27 @@ zh_cn:
     female_male_other: "女性/男性/其他"
     permanent_temporary: "长工/短工"
     average: "平均数"
-    average_info:
-      受访工人的工资单上列出的每月平均净工资（当地货币转换为等值欧元）
+    average_info: 受访工人的工资单上列出的每月平均净工资（当地货币转换为等值欧元）
     gap: "差额"
-    gap_info:
-      受访工人的实际工资和法定最低工资之间的每月平均差额（以欧元为单位）
+    gap_info: 受访工人的实际工资和法定最低工资之间的每月平均差额（以欧元为单位）
     have_cba: "有CBA"
     have_cba_info: 有集体劳资谈判协议的受访工人百分比
     know_brand: "知道品牌"
-    know_brand_info:
-      知道他们的工厂为哪些品牌生产产品的受访工人百分比
+    know_brand_info: 知道他们的工厂为哪些品牌生产产品的受访工人百分比
     pregnancy_leave: "产假"
-    pregnancy_leave_info:
-      受访工人中，曾怀孕、而工厂有给予产假的百分比
+    pregnancy_leave_info: 受访工人中，曾怀孕、而工厂有给予产假的百分比
+    paid: "actual wage"
+    not_paid: "wage gap"
+    permanent: permanent
+    temporary: temporary
+    male: male
+    female: female
+    other: other
+    gender: "Gender"
+    gender_info: Percentage of workers by gender.
+    contract: "Contract"
+    contract_info: Percentage of workers by contract status.
+
   latest: "最新"
   news: "消息"
   footer_info: "是全球联盟组织“清洁成衣运动（Clean Clothes Campaign)”发起的一项运动，由欧盟资助。"
@@ -233,7 +241,7 @@ zh_cn:
   transparency_in_production_supply_chains: >
     生产供应链中的透明度是改善工作条件的第一步，但这并不是解决方案。有披露其供应链工厂数据的品牌公司并没有比那些没有披露的公司好，也不代表他们所支付的薪水或工作条件就会比较好。它只是让我们稍微容易确定公司对侵犯劳工权利存在的责任。知道一间工厂为哪些品牌公司生产服饰，有助于品牌公司互相合作，解决劳工权益问题。
   transparency_needs_to_be_the_cornerstone: >
-   “品牌公司如果要认真建立一个免于侵犯人权的供应链的话，透明度是必要的基石。”
+    “品牌公司如果要认真建立一个免于侵犯人权的供应链的话，透明度是必要的基石。”
   aruna_kashyap: >
     人权观察组织 妇女权利高级顾问 Aruna Kashyap
   menu_transparency: "透明度"
@@ -316,7 +324,7 @@ zh_cn:
     品牌公司不仅拒绝为那些已经在生产中的订单付款，有些甚至已经运送到商店中的订单也被拒付款；而这些品牌的商店还一直在进行促销活动，为消费者提供折扣等；但那些处于供应链底部的工人就一无所有。很多工人都上街抗议，声讨他们自三月份以来的欠薪，或者抗议他们在工厂没有采取任何适当的安全措施下被迫重新开工。但，由于他们没有钱，所以别无选择。非正式工人受到的影响则更大。国际劳工组织（International Labour Organization, ILO）估计，由于很多业务因新冠肺炎疫情的限制而被摧毁，非正规经济领域内有约16亿的工人的生计受到
   massive_damage: "严重损害。"
   to_their_livelihood: >
-    
+
   trade_unions_worry: >
     “工会担心，由于制衣工人转向其他行业，包括性工作，之后制衣行业内的童工、抵债劳工和人口贩卖情况会激增。”
   the_emperor_has_no_clothes: >
@@ -354,7 +362,7 @@ zh_cn:
     供应商被迫估算每件产品的最低生产成本，以便与品牌公司议价和争取生产合同。这个价格应该是足以应付工厂的经营成本的，包括了租金、电费、水费、维修费、材料成本、运输费、工厂的利润，以及支付所有的人工成本。为了与其他一级公司竞争，供应商会根据法定最低工资，而不是生活工资，来预算劳工成本；工作时间则以一天十个小时（包括两小时的加班时间），而不是八个小时来预算的。
   my_job_is_exhausting: >
     “我的工作很累。我每天需要做18个小时。很多工人因为无法完成工厂定下的生产目标而被解雇了。”
-    
+
   current_purchasing_practices_reflect_the_rise_of_f: >
     目前市场上的购买行为反映了“速食时装”的兴起。在时装界，以前都是一年四个风格季节，但Zara品牌则带领起每月更换款式的做法。现在，大部分的高街品牌每年都会生产52个“微季节”。对于热门商品，品牌公司会突然订购两倍的产品。产品的高周转率，加上不确定的订单数量，造就了当前的行业模式。工厂则利用灵活的工作合同、生产波动周期间的失业率、以及降低工资水平的方法，将买家采购行为的不确定性转移到工人身上。
   my_factory_doesn_t_give_me_a_pay_slip: >
@@ -366,8 +374,8 @@ zh_cn:
   workers_have_little_to_no_power_to_fight: >
     工人几乎没有任何权力去争取更高的工资。结社自由（Freedom of Association，FOA)承受着巨大压力；而在许多成衣生产国中，那些为争取更高工资的工会遭受打击是绝非罕见的。在过去几年中，用来代替工会而成立的工人委员会的数量有显著的增加。这给人一种错误的印象，好像现在的工人既有组织又有力量。品牌公司经常声称工人委员会和工会在本质上是一样的，但这可能仅在少数情况下是正确的。
   trucks_are_constantly_leaving: >
-   “货车不断开走，所有产品都卖掉了；我们的工作量很大，但他们一直说没有钱。我的合同每三个月延长一次。我没有安全保障。”
-   
+    “货车不断开走，所有产品都卖掉了；我们的工作量很大，但他们一直说没有钱。我的合同每三个月延长一次。我没有安全保障。”
+
   a_worker_in_croatia: "来自克罗地亚的工人"
   instead_of_promoting_fair_worker_representation: >
     工人委员会的成立，与其说是为了促进公平的工人代表，不如说是为了取悦品牌公司、供应商和地方政府，让他们支持一个可以大大降低工人权力的替代结构。工厂管理层往往参与到工人委员会中，削弱了制衣工人的组织权，无法摆脱其政府或顾主的干预。此外，在某些国家，例如孟加拉，法律列明，工人委员会不可以就工资进行讨价还价。而工会则是会这样做的。这意味着，品牌公司支付的生产价格最终受到了保护。
@@ -382,7 +390,7 @@ zh_cn:
     “他们可以玩弄妇女，让她们像木偶一样跳舞，但他们不能以相同的方式来虐待男人。如果我们有什么要求，工厂老板不会理我们的；但如果是男工提出的话，他们就必须做出考虑。所以他们不请男工。”
   a_worker_from_bangladesh: "来自孟加拉的工人"
   gbv_in_bangladesh: "《孟加拉国基于性别的暴力行为》"
-  about_fashion_checker: "关于时装核查（Fashion Checker）" 
+  about_fashion_checker: "关于时装核查（Fashion Checker）"
   about_the_campaign: "关于此运动"
   a_living_wage_for_garment_workers: >
     制衣工人的生活工资和高透明度的供应链
@@ -390,10 +398,10 @@ zh_cn:
   about: "关于"
   brands_in_the_fashion_industry_put_millions: >
     时装界的品牌公司投放数以百万的广告费，宣传他们是道德的和可持续发展的公司；他们多次声称有支付他们的工人生活工资。时装核查（Fashion Checker） 展示了这与实际情况相差有多远，让消费者和制衣工人可以看到世界大品牌公司的供应链的真实数据。
-    
+
   power_in_the_garment_industry: "制衣行业的权力问题"
   we_believe_all_workers_in_a_supply: >
-   我们相信供应链的所有工人都有获得合理工资的权利。自该行业诞生以来，为服装和运动服市场生产服饰的工人一直在赚取
+    我们相信供应链的所有工人都有获得合理工资的权利。自该行业诞生以来，为服装和运动服市场生产服饰的工人一直在赚取
   poverty_wages: "贫困工资"
   since_the_birth_of_the_industry_our_research_shows: "。我们的研究表明，"
   no_major_clothing_brand: "没有一个大的服装品牌公司"
@@ -405,7 +413,7 @@ zh_cn:
   earning_a_living_wage: "赚取生活工资"
   demanding_a_wage_you_can_live_on: >
     要求一份可以维持生计的工资，应该是很合理的。我们在2015年就已经提出要求：
-    
+
   living_wage_now: "“现在就要生活工资”"
   in_2015_it_s_five_years_later: >
     。五年过去了，但还是没有进展。现在是时候要进行改变了。现在是解决服装和鞋类行业中造成贫困工资的系统性原因的时候了，也是迫使品牌公司承担责任的时候了。
@@ -445,7 +453,7 @@ zh_cn:
     服装和纺织品的制造一向依靠剥削劳动力。新冠肺炎疫情使这问题更显而易见。品牌公司不必要地取消订单、瘫痪工厂的运作、破坏工人的生计，使服装业损失了
   billions_of_dollars: "数十亿美元"
   by_canceling_orders_unnecessarily: >
-    。品牌公司拒绝向工人支付生活工资，任由那些为他们生产衣服的工人在疫情期间没有任何维生方法。数百万的工人正面临无家可归和饥饿的威胁，许多工厂正面临经济倒塌。品牌公司已经控制供应商控制得太久了。现在是时候要进行改变了。 
+    。品牌公司拒绝向工人支付生活工资，任由那些为他们生产衣服的工人在疫情期间没有任何维生方法。数百万的工人正面临无家可归和饥饿的威胁，许多工厂正面临经济倒塌。品牌公司已经控制供应商控制得太久了。现在是时候要进行改变了。
   to_do_so_we_need_transparency: >
     要做到这一点，我们需要透明度。我们想知道供应链中的权力在哪里：哪里的工人薪水最低？工人是否有工会？工会在哪里？妇女和移民工在哪里？现在是时候运用现有数据来突显时装业里的人权侵犯状况，并为整个供应链争取具体的、有意义的、可衡量的工资增长。工人应该得到更好的待遇。消费者应该得到更多的资讯。是时候来重新分配权力和财富了。
   what_do_we_want: "我们想做些什么？"
@@ -719,3 +727,17 @@ zh_cn:
   social_media_description: "了解品牌公司支付工人工资方面的表现，以及他们对产品制造地的公开程度。"
   social_media_image: "https://fashionchecker.org/images/CCC_FC_web_preview.jpg"
   a_worker_from_china: "来自中国的工人"
+  brands_surveyed: "Brands Surveyed"
+  brand_brands_owned: "Brand (brands owned)"
+
+  dataTables:
+    search: "Search:"
+    lengthMenu: "Show _MENU_ entries"
+    info: "Showing _START_ to _END_ of _TOTAL_ entries"
+  brand_overview: "Brand Overview"
+  supplier_map: "Supplier Map"
+  where_are_suppliers: "Where are the brand's disclosed suppliers?"
+  no_suppliers_disclosed: "No suppliers disclosed."
+  supplier_wages: "Supplier Wages"
+  are_surveyed_suppliers_paying: "Are surveyed suppliers paying a living wage?"
+  no_supplier_responses: "No supplier responses."

@@ -39,8 +39,8 @@ gapPieChart = (val, companyId) ->
       100 - val
 
   pieChart "gap", companyId, ["#f9fe9c", "#000000"],
-    paid: val,
-    "not paid" : not_paid
+    "actual wage" : val,
+    "wage gap" : not_paid
 
 supplierWikirateLink = (val, companyId) ->
   "<td><a href='#{FC.wikirateUrl companyId}'>#{val}</a></td>"

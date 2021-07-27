@@ -145,6 +145,29 @@ pl:
     have_cba: "Mają układ zbiorowy"
     know_brand: "Znają markę"
     pregnancy_leave: "Urlop macierzyński"
+    paid: "actual wage"
+    not_paid: "wage gap"
+    permanent: permanent
+    temporary: temporary
+    male: male
+    female: female
+    other: other
+    gender: "Gender"
+    gender_info: Percentage of workers by gender.
+    contract: "Contract"
+    contract_info: Percentage of workers by contract status.
+    average_info:
+      The monthly average net salary (in EUR equivalent of the local currency) as listed
+      on surveyed workers' payslips
+    gap_info: Monthly average salary as a percentage of living wage
+    have_cba_info: The percentage of surveyed workers covered by a collective bargaining agreement
+    know_brand_info:
+      The percentage of surveyed workers who know which brands their factory makes
+      products for
+    pregnancy_leave_info:
+      The percentage of surveyed workers, who had been pregnant, who were given
+      pregnancy leave
+
   latest: "Najnowsze"
   news: "informacje"
   footer_info: "to kampania prowadzona przez Clean Clothes Campaign, finansowana ze środków Unii Europejskiej."
@@ -705,3 +728,17 @@ pl:
   social_media_description: "Sprawdź, czy marki zapewniają pracownikom godną płacę i na ile otwarcie podają, gdzie szyte są ich produkty."
   social_media_image: "https://fashionchecker.org/images/CCC_FC_web_preview.jpg"
   a_worker_from_china: "Pracowniczka w Chinach"
+  brands_surveyed: "Brands Surveyed"
+  brand_brands_owned: "Brand (brands owned)"
+
+  dataTables:
+    search: "Search:"
+    lengthMenu: "Show _MENU_ entries"
+    info: "Showing _START_ to _END_ of _TOTAL_ entries"
+  brand_overview: "Brand Overview"
+  supplier_map: "Supplier Map"
+  where_are_suppliers: "Where are the brand's disclosed suppliers?"
+  no_suppliers_disclosed: "No suppliers disclosed."
+  supplier_wages: "Supplier Wages"
+  are_surveyed_suppliers_paying: "Are surveyed suppliers paying a living wage?"
+  no_supplier_responses: "No supplier responses."
