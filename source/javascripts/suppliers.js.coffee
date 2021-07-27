@@ -13,7 +13,7 @@ pieChart = (name, companyId, colors, values) ->
   $.ajax(url: "/content/pie.json", dataType: "json").done (spec) ->
     v = []
     $.each values, (key, val) ->
-      v.push { name: key, value: formatPercent(val) }
+      v.push { name: FC.lang.suppliers_table[key], value: formatPercent(val) }
     spec["data"][0]["values"] = v
     spec["scales"][0]["range"] = colors
     buildViz "##{tagId}", spec
@@ -39,8 +39,8 @@ gapPieChart = (val, companyId) ->
       100 - val
 
   pieChart "gap", companyId, ["#f9fe9c", "#000000"],
-    "actual wage" : val,
-    "wage gap" : not_paid
+    paid: val,
+    not_paid: not_paid
 
 supplierWikirateLink = (val, companyId) ->
   "<td><a href='#{FC.wikirateUrl companyId}'>#{val}</a></td>"
@@ -91,9 +91,18 @@ buildViz = (el, spec, actions) ->
 
 suppliersVizSpec = (spec, values) ->
   spec = spec[0]
-  data = spec["data"][0]
-  delete data["url"]
-  data["values"] = values
+
+  # the answers data comprise the first data row in the dorling spec
+  # this replaces their values
+  data = spec.data[0]
+  delete data.url
+  data.values = values
+
+  # add localization for supplier map legend title and tooltip text
+  lang = FC.lang.supplier_map_viz
+  spec.legends[0].title = lang.legend_title
+  spec.marks[2].encode.enter.tooltip.signal += " + ' #{lang.tooltip_suppliers}'"
+
   spec
 
 suppliersViz = (companyId) ->

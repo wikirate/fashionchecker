@@ -721,3 +721,7 @@ it:
   supplier_wages: "Supplier Wages"
   are_surveyed_suppliers_paying: "Are surveyed suppliers paying a living wage?"
   no_supplier_responses: "No supplier responses."
+
+  supplier_map_viz:
+    legend_title: Number of Suppliers
+    tooltip_suppliers: suppliers
