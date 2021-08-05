@@ -1,7 +1,10 @@
 $.fn.select2.defaults.set("theme", "bootstrap4")
 
-wikirateApiHost = "https://dev.wikirate.org"
-wikirateApiAuth = "wikirate:wikirat"
+wikirateApiHost = "https://wikirate.org"
+wikirateApiAuth = null
+
+# wikirateApiHost = "https://dev.wikirate.org"
+# wikirateApiAuth = "wikirate:wikirat"
 wikirateApiMode = "cached" # anything but "cached" means live
 
 wikirateLinkTarget = "https://wikirate.org"
