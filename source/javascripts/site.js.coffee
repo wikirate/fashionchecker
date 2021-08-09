@@ -31,7 +31,7 @@ window.FC =
       living_wages_score: 5990097
       living_wages_key: 6261809
 
-      public_commitment: 5780757
+      public_commitment: 7616258
       action_plan: 5768881
       isolating_labor: 5768917
 
@@ -80,10 +80,15 @@ $.extend FC,
   apiUrl: (path, query) ->
     "#{wikirateApiHost}/#{path}.json?" + $.param(query)
 
-  profilePath: (companyId) ->
-    "brand-profile.html?q=#{companyId}"
+  profilePath: (companyId, year) ->
+    p = "brand-profile.html?q=#{companyId}"
+    p += "&year=#{year}" if year
+    p
 
-  wikirateUrl: (companyId) ->
+  metricUrl: (metricId) ->
+    "#{wikirateLinkTarget}/~#{metricId}"
+
+  companyUrl: (companyId) ->
     "#{wikirateLinkTarget}/~#{companyId}?" +
       $.param
         contrib: "N"
@@ -98,8 +103,8 @@ subBrandsUrl = FC.apiSwitch "/content/sub_brands.json",
       year: "latest"
 
 $.extend FC,
-  loadBrand: (companyId) ->
-    brandBox companyId
+  loadBrand: (companyId, year) ->
+    brandBox companyId, year
     suppliersInfo companyId
 
   loadSubBrands: $.ajax(url: subBrandsUrl, dataType: "json").done (owned) ->
@@ -123,6 +128,6 @@ $(document).ready ->
 
   params = new URLSearchParams(window.location.search)
   if params.has "q"
-    FC.loadBrand params.get "q"
+    FC.loadBrand params.get("q"), params.get("year")
   else
     brandsTable()

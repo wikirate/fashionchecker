@@ -69,17 +69,17 @@ zh_cn:
     action_plan_score_3: >
       该品牌公司已定出一个公开、可用的行动计划,致力于为其供应链的所有工人争取生活工资,
       包括在特定时间范围内的具体步骤。
-    separate_labor_costs_score_1: >
+    isolating_labor_score_1: >
       沒有证据显示,该品牌公司有通过使用一个既定方法来计算劳工成本,并将这些成本与其他成本分开,
       从而确保公司有适当地顾及劳工成本。
       所有品牌公司都应向供应商支付足够的价钱，以支付其供应链中所有工人的生活工资和社会保障费用。
-    separate_labor_costs_score_2: >
+    isolating_labor_score_2: >
       部分
-    separate_labor_costs_score_3: >
+    isolating_labor_score_3: >
       品牌公司需要使用一个既定方法来计算劳工成本,并将这些成本与其他成本分开,
       从而确保公司有适当地顾及劳工成本。
 
-    separate_labor_costs: "分开计算劳工成本？"
+    isolating_labor: "分开计算劳工成本？"
     desc:
       score_1: "该品牌公司在致力促进其供应链工厂支付生活工资方面的工作做得还不够。"
       score_2: "得分 2 的文本"
@@ -746,3 +746,5 @@ zh_cn:
   supplier_map_viz:
     legend_title: Number of Suppliers
     tooltip_suppliers: suppliers
+
+  no_data: No Data

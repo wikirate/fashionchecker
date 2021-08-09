@@ -43,7 +43,7 @@ gapPieChart = (val, companyId) ->
     not_paid: not_paid
 
 supplierWikirateLink = (val, companyId) ->
-  "<td><a href='#{FC.wikirateUrl companyId}'>#{val}</a></td>"
+  "<td><a href='#{FC.companyUrl companyId}'>#{val}</a></td>"
 
 suppliersColumnMap =
   name: supplierWikirateLink

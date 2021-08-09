@@ -68,17 +68,17 @@ hr:
     action_plan_score_3: >
       Brend je javno obećao da će nastojati ostvariti isplatu dostojanstvenih
       plaća za sve radnike u svom dobavnom lancu.
-    separate_labor_costs_score_1: >
+    isolating_labor_score_1: >
       Svi brendovi dobavljačima plaćaju iznose koji pokrivaju proizvodnju, slanje robe i trošak rada.
       Ovaj brend ne ulaže napor u osiguranje adekvatne isplate za troškove rada.
-    separate_labor_costs_score_2: >
+    isolating_labor_score_2: >
       Djelomično
-    separate_labor_costs_score_3: >
+    isolating_labor_score_3: >
       Svi brendovi plaćaju dobavljačima iznose koji pokrivaju proizvodnju, slanje robe i trošak rada.
       Brendovi moraju osigurati da trošak rada bude adekvatno plaćen primjenom utvrđene metode izračuna,
       razdvajajući ove troškove od ostalih.
 
-    separate_labor_costs: "Razdvajanje troška rada?"
+    isolating_labor: "Razdvajanje troška rada?"
     desc:
       score_1: "This brand isn't doing enough to move towards Living Wages in its supply chain."
       score_2: "Text for score 2"
@@ -745,3 +745,5 @@ hr:
   supplier_map_viz:
     legend_title: Number of Suppliers
     tooltip_suppliers: suppliers
+
+  no_data: No Data

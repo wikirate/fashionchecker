@@ -1,0 +1,54 @@
+
+
+// %script{ async: true, charset: "utf-8",
+//          src: "https://platform.twitter.com/widgets.js" }
+
+
+#brandBox
+  .result
+
+  .template._brand-item.brand-profile
+    = section :navy do
+      .row.brand.mx-0
+        .col-sm-6
+          %a._wikirate-link.h2.white{href: "replaced_by_js", target: "_wikirate" }
+            %span._brand_name
+
+          .year-buttons._year-buttons
+            - [2020, 2019].each do |year|
+              %a.btn{ data: { year: year } }
+                = year
+
+          //.pt-4.logo-box
+          //   %img._logo.logo{ src: "replace" }
+
+        .col-sm-6.pl-1
+          .row.mx-0.py-2
+            // .col-sm-4.pl-0= t('owned_by')
+            // .col-sm-8.pr-0
+            // %span._owned_by
+          = property :headquarters
+          .row.border-top.mx-0.py-2
+            .col-sm-4.pl-0
+              = t('brands_owned_by')
+              %span._brand_name
+              = ":"
+            .col-sm-8.pr-0._sub_brand_list.list-unstyled
+          = property :revenue
+          = property :profit
+          = property :top_3_production_countries
+
+
+      .row.brand.mx-0.mt-3
+        = brand_profile_partial "score/living_wage"
+      .row.brand.mx-0.mt-3
+        .col-sm-6.pl-0
+          = brand_profile_partial "score/transparency"
+        .col-sm-6.pr-0.pl-1
+          = brand_profile_partial "score/commitment"
+
+    .text-center
+      %p
+        &nbsp;
+      %a.btn.btn-primary{href: "https://cleanclothes.org/campaigns/filling-the-gap/fashion-checker-profiles"}
+        = t('see_full_profiles')

@@ -70,17 +70,17 @@ pl:
     action_plan_score_3: >
       Marka ma dostępny publicznie plan zapewnienia godnej płacy wszystkim pracownikom
       w swoim łańcuchu dostaw, obejmujący konkretne kroki w określonych ramach czasowych.
-    separate_labor_costs_score_1: >
+    isolating_labor_score_1: >
       Brak dowodów, że ta marka gwarantuje, że oferowane przez nią ceny pokrywają koszty pracy, posługując się uznaną metodą ich obliczania,
       przez oddzielanie ich od innych kosztów.
       Wszystkie marki powinny płacić dostawcom ceny wystarczające do pokrycia kosztów godnej płacy i składek na zabezpieczenia społeczne dla wszystkich pracowników w swoim łańcuchu dostaw.
-    separate_labor_costs_score_2: >
+    isolating_labor_score_2: >
       Częściowo
-    separate_labor_costs_score_3: >
+    isolating_labor_score_3: >
       Marki muszą zapewnić, że płacą ceny wystarczające na pokrycie kosztów pracy, używając uznanej metody ich obliczania,
       przez oddzielanie ich od innych kosztów.
 
-    separate_labor_costs: "wyszczególnione koszty pracy?"
+    isolating_labor: "wyszczególnione koszty pracy?"
     desc:
       score_1: "This brand isn't doing enough to move towards Living Wages
         in its supply chain."
@@ -747,3 +747,5 @@ pl:
   supplier_map_viz:
     legend_title: Number of Suppliers
     tooltip_suppliers: suppliers
+
+  no_data: No Data
