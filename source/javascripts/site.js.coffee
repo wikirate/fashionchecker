@@ -5,7 +5,8 @@ wikirateApiAuth = null
 
 # wikirateApiHost = "https://dev.wikirate.org"
 # wikirateApiAuth = "wikirate:wikirat"
-wikirateApiMode = "cached" # anything but "cached" means live
+wikirateApiMode = "cached"
+# wikirateApiMode = "live" # anything but "cached" means live
 
 wikirateLinkTarget = "https://wikirate.org"
 
