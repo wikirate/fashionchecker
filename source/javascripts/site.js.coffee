@@ -39,8 +39,8 @@ window.FC =
       living_wages_score: 5990097
 
       public_commitment: 7616258
-      action_plan: 5768881
-      isolating_labor: 5768917
+      action_plan: 7624093
+      isolating_labor: 7616271
 
     suppliersMap:
       headquarters: 6126450

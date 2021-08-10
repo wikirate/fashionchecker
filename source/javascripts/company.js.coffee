@@ -35,7 +35,8 @@ FC.company.table = (data, tag, columnMap, metricMap) ->
     cells = []
     $.each @columnMap, (key, fn) ->
       key = t.metricMap[key] unless key == "name"
-      val = companyHash[key][0] || "-"
+      val = companyHash[key]
+      val = val && val[0] || "-"
       if fn == 1 || val == "-"
         val = t.td val
       else
