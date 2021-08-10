@@ -23,22 +23,24 @@ window.FC =
     suppliedBy: 2929009
     supplierOf: 2929015
 
-    brandsMap:
+    brandsLatestMap:
       headquarters: 6126450
       twitter_handle: 6140253
-
-      transparency_score: 5780639
-      transparency_key: 6261816
-      living_wages_score: 5990097
-      living_wages_key: 6261809
-
-      public_commitment: 7616258
-      action_plan: 5768881
-      isolating_labor: 5768917
 
       revenue: 5780267
       profit: 5780278
       top_3_production_countries: 5768935
+
+      transparency_key: 6261816
+      living_wages_key: 6261809
+
+    brandsAnnualMap:
+      transparency_score: 5780639
+      living_wages_score: 5990097
+
+      public_commitment: 7616258
+      action_plan: 5768881
+      isolating_labor: 5768917
 
     suppliersMap:
       headquarters: 6126450
@@ -70,6 +72,9 @@ window.FC =
       "Yes, Fair Wear Foundation": 3
 
   subBrands: {}
+
+FC.metrics.brandsMap =
+  Object.assign FC.metrics.brandsLatestMap, FC.metrics.brandsAnnualMap
 
 $.extend FC,
   apiSwitch: (cached, live) ->

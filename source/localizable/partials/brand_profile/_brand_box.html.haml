@@ -15,7 +15,7 @@
             %span._brand_name
 
           .year-buttons._year-buttons
-            - [2020, 2019].each do |year|
+            - [2021, 2020, 2019].each do |year|
               %a.btn{ data: { year: year } }
                 = year
           //.pt-4.logo-box
@@ -25,11 +25,11 @@
           .row.mx-0.py-2
           = property :headquarters
           .row.border-top.mx-0.py-2
-            .col-sm-4.pl-0
+            .col-sm-5.pl-0
               = t('brands_owned_by')
               %span._brand_name
               = ":"
-            .col-sm-8.pr-0._sub_brand_list.list-unstyled
+            .col-sm-7.pr-0._sub_brand_list.list-unstyled
           = property :revenue
           = property :profit
           = property :top_3_production_countries

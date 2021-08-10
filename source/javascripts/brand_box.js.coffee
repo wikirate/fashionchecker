@@ -1,6 +1,6 @@
 window.brandBox = (company_id, year) ->
   @company_id = company_id
-  @year = year || 2020
+  @year = year || 2021
   @template = new FC.util.templater "#brandBox"
 
   @build = () ->
@@ -44,7 +44,7 @@ window.brandBox = (company_id, year) ->
       el.find("._help").attr("data-target", "##{fld}-score-#{letterGrade}")
       FC.util.image.commitment el.find("._smiley"), value
 
-  # TODO: move to FC.lang
+  # TODO: move to FC.lang?
   @fillTranslations = () ->
     for _i, fld of ["transparency_key", "living_wages_key"]
       @template.fill fld, scoreTranslation[@value(fld)]
@@ -63,12 +63,19 @@ window.brandBox = (company_id, year) ->
 
   @fillEuro = () ->
     for _i, fld of ["revenue", "profit"]
+      year = @valueYear fld
       handleNoData fld, @value(fld), (val) ->
         num = val.replace /(\d)(?=(\d{3})+$)/g, "$1,"
         @template.fill fld, "EUR #{num}"
+        @template.fill "#{fld}-year", "(#{year})"
 
   @value = (fld) ->
-    @data[@metricId(fld)] || FC.lang.noData
+    val = @data[@metricId(fld)]
+    val && val[0] || FC.lang.noData
+
+  @valueYear = (fld) ->
+    val = @data[@metricId(fld)]
+    val && val[1]
 
   @metricId = (fld) ->
     FC.metrics.brandsMap[fld]
@@ -103,19 +110,24 @@ window.brandBox = (company_id, year) ->
   @handleNoData = (fld, val, fn) ->
     if val == FC.lang.noData
       @template.fill fld, FC.lang.noData
-      # @find("_#{fld}").addClass "noImage"
     else
       fn(val)
 
   box = this
-  url = FC.apiUrl "~#{@company_id}+Answer/compact",
-    filter:
-      metric_id: Object.values(FC.metrics.brandsMap)
-      year: year
+  path = "~#{@company_id}+Answer/compact"
+
+  annualUrl = FC.apiUrl path, filter:
+    metric_id: Object.values(FC.metrics.brandsAnnualMap)
+    year: @year
+
+  latestUrl = FC.apiUrl path, filter:
+    metric_id: Object.values(FC.metrics.brandsLatestMap)
+    year: "latest"
 
   $.when(
-    $.ajax url: url, dataType: "json"
+    $.ajax url: annualUrl, dataType: "json"
+    $.ajax url: latestUrl, dataType: "json"
     FC.loadSubBrands
-  ).done (data) ->
-    box.data = box.interpret data[0]
+  ).done (annual, latest) ->
+    box.data = Object.assign box.interpret(annual[0]), box.interpret(latest[0])
     box.build()

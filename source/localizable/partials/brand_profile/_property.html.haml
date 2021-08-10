@@ -1,6 +1,7 @@
 .row.border-top.mx-0.py-2
-  .col-sm-4.pl-0
+  .col-sm-5.pl-0
     = t key
-  .col-sm-8.pr-0
+    %span{ class: "_#{key}-year" }
+  .col-sm-7.pr-0
     = prefix
-    %span{class: "_#{key}"}
+    %span{ class: "_#{key}" }
