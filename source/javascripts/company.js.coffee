@@ -1,13 +1,13 @@
-# @return [{ name: name, metric_id1: val, metric_id2: val ...}]
+# @return [{ name: [name], metric_id1: [val, year], metric_id2: [val, year] ...}]
 FC.company = {
   hash: (data) ->
     companies = {}
 
     $.each data.companies, (id, name) ->
-      companies[id] = {name: name}
+      companies[id] = {name: [name]}
 
     $.each data.answers, (_id, hash) ->
-      companies[hash["company"]][hash["metric"]] = hash["value"]
+      companies[hash["company"]][hash["metric"]] = [hash["value"], hash["year"]]
 
     companies
 }
@@ -35,7 +35,8 @@ FC.company.table = (data, tag, columnMap, metricMap) ->
     cells = []
     $.each @columnMap, (key, fn) ->
       key = t.metricMap[key] unless key == "name"
-      val = companyHash[key] || "-"
+      val = companyHash[key]
+      val = val && val[0] || "-"
       if fn == 1 || val == "-"
         val = t.td val
       else

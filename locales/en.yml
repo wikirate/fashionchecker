@@ -72,18 +72,18 @@ en:
     action_plan_score_3: >
       This brand has a publicly available plan for achieving a living wage for all workers i
       n their supply chain, including concrete steps within a specific time frame.
-    separate_labor_costs_info: Does this brand use an established method to calculate labour costs and separate them from other production costs to ensure suppliers can pay workers?
-    separate_labor_costs_score_1: >
+    isolating_labor_info: Does this brand use an established method to calculate labour costs and separate them from other production costs to ensure suppliers can pay workers?
+    isolating_labor_score_1: >
       No evidence was found that this brand ensures labour costs are properly covered by using an established method to calculate them,
       separating these costs from others.
       All brands should pay prices to suppliers sufficient to cover a living wage and social protection contribution for all workers in their supply chain.
-    separate_labor_costs_score_2: >
+    isolating_labor_score_2: >
       Partial
-    separate_labor_costs_score_3: >
+    isolating_labor_score_3: >
       Brands need to ensure that labour costs are properly covered by using an established method to calculate them,
       separating these costs from others.
 
-    separate_labor_costs: "Separate Labour Costs?"
+    isolating_labor: "Separate Labour Costs?"
     desc:
       score_1: "This brand isn't doing enough to move towards Living Wages in its supply chain."
       score_2: "Text for score 2"
@@ -753,3 +753,5 @@ en:
   supplier_map_viz:
     legend_title: Number of Suppliers
     tooltip_suppliers: suppliers
+
+  no_data: No Data

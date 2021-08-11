@@ -5,7 +5,8 @@ wikirateApiAuth = null
 
 # wikirateApiHost = "https://dev.wikirate.org"
 # wikirateApiAuth = "wikirate:wikirat"
-wikirateApiMode = "cached" # anything but "cached" means live
+wikirateApiMode = "cached"
+# wikirateApiMode = "live" # anything but "cached" means live
 
 wikirateLinkTarget = "https://wikirate.org"
 
@@ -22,22 +23,24 @@ window.FC =
     suppliedBy: 2929009
     supplierOf: 2929015
 
-    brandsMap:
+    brandsLatestMap:
       headquarters: 6126450
       twitter_handle: 6140253
-
-      transparency_score: 5780639
-      transparency_key: 6261816
-      living_wages_score: 5990097
-      living_wages_key: 6261809
-
-      public_commitment: 5780757
-      action_plan: 5768881
-      isolating_labor: 5768917
 
       revenue: 5780267
       profit: 5780278
       top_3_production_countries: 5768935
+
+      transparency_key: 6261816
+      living_wages_key: 6261809
+
+    brandsAnnualMap:
+      transparency_score: 5780639
+      living_wages_score: 5990097
+
+      public_commitment: 7616258
+      action_plan: 7624093
+      isolating_labor: 7616271
 
     suppliersMap:
       headquarters: 6126450
@@ -70,6 +73,9 @@ window.FC =
 
   subBrands: {}
 
+FC.metrics.brandsMap =
+  Object.assign FC.metrics.brandsLatestMap, FC.metrics.brandsAnnualMap
+
 $.extend FC,
   apiSwitch: (cached, live) ->
     if wikirateApiMode == "cached"
@@ -80,10 +86,15 @@ $.extend FC,
   apiUrl: (path, query) ->
     "#{wikirateApiHost}/#{path}.json?" + $.param(query)
 
-  profilePath: (companyId) ->
-    "brand-profile.html?q=#{companyId}"
+  profilePath: (companyId, year) ->
+    p = "brand-profile.html?q=#{companyId}"
+    p += "&year=#{year}" if year
+    p
 
-  wikirateUrl: (companyId) ->
+  metricUrl: (metricId) ->
+    "#{wikirateLinkTarget}/~#{metricId}"
+
+  companyUrl: (companyId) ->
     "#{wikirateLinkTarget}/~#{companyId}?" +
       $.param
         contrib: "N"
@@ -98,8 +109,8 @@ subBrandsUrl = FC.apiSwitch "/content/sub_brands.json",
       year: "latest"
 
 $.extend FC,
-  loadBrand: (companyId) ->
-    brandBox companyId
+  loadBrand: (companyId, year) ->
+    brandBox companyId, year
     suppliersInfo companyId
 
   loadSubBrands: $.ajax(url: subBrandsUrl, dataType: "json").done (owned) ->
@@ -123,6 +134,6 @@ $(document).ready ->
 
   params = new URLSearchParams(window.location.search)
   if params.has "q"
-    FC.loadBrand params.get "q"
+    FC.loadBrand params.get("q"), params.get("year")
   else
     brandsTable()

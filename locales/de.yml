@@ -67,14 +67,14 @@ de:
       Dieses Unternehmen hat zwar einen „Plan“, diesem fehlen aber wichtige Punkte, z.B. ist dieser nicht öffentlich und /oder es wird darin nicht festgelegt, in welchem Zeitraum Lohnerhöhungen angestrebt werden und/oder der Plan bezieht sich nur auf wenige Fabriken und/oder ist an anderen Stellen zu vage (nicht SMART).
     action_plan_score_3: >
       Dieses Unternehmen verfügt über einen öffentlich zugänglichen Plan zur Erzielung eines existenzsichernden Lohns für alle Arbeiter*innen in seiner Lieferkette, einschließlich konkreter Schritte innerhalb eines bestimmten Zeitrahmens.
-    separate_labor_costs_score_1: >
+    isolating_labor_score_1: >
       Unternehmen handeln mit den Fabriken Preise für die bestellte Kleidung aus, die alle Produktionskosten decken müssen. Die Unternehmen müssen bei diesen Verhandlungen mit Zulieferern jedoch sicherstellen, dass die Arbeitskosten ordnungsgemäß gedeckt werden, also Zulieferer nicht aufgrund zu niedriger Preise an den Löhnen sparen. Unternehmen sollten dafür eine etablierte Methode zur Berechnung und getrennten Berücksichtigung der Lohnkosten anwenden. Dieses Unternehmen wendet eine solche Berechnungsmethode an.
-    separate_labor_costs_score_2: >
+    isolating_labor_score_2: >
       teilweise
-    separate_labor_costs_score_3: >
+    isolating_labor_score_3: >
       Unternehmen handeln mit den Fabriken Preise für die bestellte Kleidung aus, die alle Produktionskosten decken müssen. Die Unternehmen müssen bei diesen Verhandlungen mit Zulieferern jedoch sicherstellen, dass die Arbeitskosten ordnungsgemäß gedeckt werden, also Zulieferer nicht aufgrund zu niedriger Preise an den Löhnen sparen. Dieses Unternehmen unternimmt keine Anstrengungen, um sicherzustellen, dass die Arbeitskosten angemessen gedeckt sind.
 
-    separate_labor_costs: "Separiert Arbeitskosten?"
+    isolating_labor: "Separiert Arbeitskosten?"
     desc:
       score_1: "This brand isn't doing enough to move towards Living Wages in its supply chain."
       score_2: "Text for score 2"
@@ -736,3 +736,4 @@ de:
     tooltip_suppliers: suppliers
 
   minimum_wage: "Minimum Wage"
+  no_data: No Data

@@ -3,16 +3,17 @@
             href: "https://wikirate.org/Clean_Clothes_Campaign+Living_Wages_Paid_Score" }
     %h6.text-uppercase
       = t('living_wage_score.title')
-      %span.showcase-details
-    %img._living_wages_score{src: "/images/wage_score/E.png", width: "200px"}
+      // %span.showcase-details
+    ._living_wages_score
+      %img{src: "/images/wage_score/E.png", width: "200px"}
 .col-sm-6.section.pr-0.pl-1.d-flex.flex-column.justify-content-between
   %div
     %p._living_wages_key.lead
   // = score_desc("living_wage_score.desc_1", 5)
   .showcase-details
-    .text-right.p-2
-      %a.btn.btn-primary.btn-sm._tweet-the-brand.d-none{ href: "https://twitter.com/intent/tweet?",
-                                                         target: "_twitter" }
+    .text-right.p-2.tweet-the-brand-holder
+      %a.btn.btn-primary._tweet-the-brand.d-none{ href: "https://twitter.com/intent/tweet?",
+                                                  target: "_twitter" }
         %span><
           = t('take_action')
         \:

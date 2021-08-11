@@ -64,15 +64,15 @@ it:
       Questo brand ha un piano ma non è circostanziato, copre solo il primo livello di fornitura, e/o non è chiaro né dettagliato.
     action_plan_score_3: >
       Questo brand ha pubblicato il proprio piano per il salario vivibile lungo l’intera filiera, con l’indicazione di sviluppi e tempistiche.
-    separate_labor_costs_score_1: >
+    isolating_labor_score_1: >
       Non è stata trovata alcuna prova che questo brand garantisca che i costi del lavoro siano adeguatamente coperti utilizzando un metodo consolidato per calcolarli, separandoli dagli altri costi.
       Tutti i marchi dovrebbero pagare ai fornitori prezzi che consentano di coprire un salario vivibile e i contributi di protezione sociale per tutti i lavoratori della sua catena di fornitura.
-    separate_labor_costs_score_2: >
+    isolating_labor_score_2: >
       Parziale
-    separate_labor_costs_score_3: >
+    isolating_labor_score_3: >
       I marchi devono garantire che i costi del lavoro siano coperti adeguatamente utilizzando un metodo consolidato per il calcolo e separandoli dagli altri costi.
 
-    separate_labor_costs: "scorporo dei costi del lavoro?"
+    isolating_labor: "scorporo dei costi del lavoro?"
     desc:
       score_1: "Questo brand non fa abbastanza per il salario vivibile lungo la propria filiera."
       score_2: "Testo per il punteggio 2"
@@ -725,3 +725,5 @@ it:
   supplier_map_viz:
     legend_title: Number of Suppliers
     tooltip_suppliers: suppliers
+
+  no_data: No Data
