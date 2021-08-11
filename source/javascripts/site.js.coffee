@@ -31,9 +31,6 @@ window.FC =
       profit: 5780278
       top_3_production_countries: 5768935
 
-      transparency_key: 6261816
-      living_wages_key: 6261809
-
     brandsAnnualMap:
       transparency_score: 5780639
       living_wages_score: 5990097
@@ -41,6 +38,9 @@ window.FC =
       public_commitment: 7616258
       action_plan: 7624093
       isolating_labor: 7616271
+
+      transparency_key: 6261816
+      living_wages_key: 6261809
 
     suppliersMap:
       headquarters: 6126450
