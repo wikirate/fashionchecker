@@ -172,6 +172,11 @@ h6 {
   line-height: 1;
   font-family: "ptf_nordic_stdnormal";
 }
+@media (max-width: 600px) {
+  .display-3 {
+    font-size: 2rem;
+  }
+}
 
 #circle {
   width: 150px;
@@ -588,16 +593,18 @@ main {
   }
 }
 
-
-
 #brandsTableContainer {
   .dataTables_wrapper {
     margin-bottom: 3em;
   }
-  .dataTables_filter, .dataTables_info, .dataTables_processing, .dataTables_paginate,
+  .dataTables_filter,
+  .dataTables_info,
+  .dataTables_processing,
+  .dataTables_paginate,
   .dataTables_length {
     color: $navy;
-    select, input {
+    select,
+    input {
       background: $pink;
     }
   }
@@ -606,9 +613,13 @@ main {
     .paginate_button {
       background: $pink;
       &.disabled {
-        background: $yellow !important
+        background: $yellow !important;
       }
-      &:active, &:hover, &.current, &.current:hover, &.current:active {
+      &:active,
+      &:hover,
+      &.current,
+      &.current:hover,
+      &.current:active {
         background: $fuchsia;
         color: $white !important;
         border-color: $pink;
@@ -673,22 +684,31 @@ main {
 
 #suppliersTableContainer {
   .dataTables_wrapper {
-    .dataTables_filter, .dataTables_info, .dataTables_processing, .dataTables_paginate,
+    .dataTables_filter,
+    .dataTables_info,
+    .dataTables_processing,
+    .dataTables_paginate,
     .dataTables_length {
       color: $white;
-      select, input {
+      select,
+      input {
         background: $medium-grey;
       }
     }
     .dataTables_paginate {
       .paginate_button {
         background: $medium-grey;
-        &.disabled, &.disabled:hover {
+        &.disabled,
+        &.disabled:hover {
           background: transparent !important;
           color: $white !important;
           border: 0 !important;
         }
-        &:active, &:hover, &.current, &.current:hover, &.current:active {
+        &:active,
+        &:hover,
+        &.current,
+        &.current:hover,
+        &.current:active {
           background: $light-blue;
           color: $white !important;
           border-color: $lighter-blue;
@@ -714,7 +734,8 @@ main {
       &:hover {
         background-color: $navy !important;
       }
-      &:nth-child(3), &:nth-child(4){
+      &:nth-child(3),
+      &:nth-child(4) {
         background-color: $other-blue;
       }
     }
@@ -726,11 +747,13 @@ main {
       &:first-child {
         white-space: break-spaces;
       }
-      &:first-child, &:nth-child(2) {
+      &:first-child,
+      &:nth-child(2) {
         text-align: left;
         background: $medium-blue;
       }
-      &:nth-child(3), &:nth-child(4) {
+      &:nth-child(3),
+      &:nth-child(4) {
         background: $lighter-blue;
       }
     }
@@ -769,7 +792,7 @@ main {
   font-size: 0.8em;
 }
 .noResult {
-  display: none
+  display: none;
 }
 
 .year-buttons a {

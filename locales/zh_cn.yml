@@ -157,7 +157,6 @@ zh_cn:
     contract: "Contract"
     contract_info: Percentage of workers by contract status.
 
-    pregnancy_leave_info: 受访工人中，曾怀孕、而工厂有给予产假的百分比
   latest: "最新"
   news: "消息"
   footer_info: "是全球联盟组织“清洁成衣运动（Clean Clothes Campaign)”发起的一项运动，由欧盟资助。"
@@ -748,3 +747,7 @@ zh_cn:
     tooltip_suppliers: suppliers
 
   no_data: No Data
+
+  covid_note_1: "The COVID-19 pandemic forced us to shift our short term demands to brands: workers have been paid poverty wages for decades but most are currently not even paid their pre-pandemic wages. Living wages remain our goal, but we now"
+  covid_link: "call upon brands to ensure "
+  covid_note_2: "workers are being paid their pre-pandemic wages and owed severance. We have therefore decided to survey brands this year only on their progress on Transparency, and not on Living Wages. Brands could let us know if they had made any progress on living wage nonetheless."
