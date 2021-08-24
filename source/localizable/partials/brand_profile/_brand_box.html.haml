@@ -42,8 +42,9 @@
         .col-sm-6.pr-0.pl-1
           = brand_profile_partial "score/commitment"
 
-    .text-right
+    .pt-4
       %p
-        &nbsp;
-      %a.btn.btn-primary{href: "https://cleanclothes.org/campaigns/filling-the-gap/fashion-checker-profiles"}
-        = t('see_full_profiles')
+        =t('covid_note_1')
+        %a{ href: "https://payyourworkers.org" }
+          = t('covid_link')
+        = t('covid_note_2')
