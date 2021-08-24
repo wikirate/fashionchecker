@@ -74,7 +74,7 @@ window.FC =
   subBrands: {}
 
 FC.metrics.brandsMap =
-  Object.assign FC.metrics.brandsLatestMap, FC.metrics.brandsAnnualMap
+  Object.assign {}, FC.metrics.brandsLatestMap, FC.metrics.brandsAnnualMap
 
 $.extend FC,
   apiSwitch: (cached, live) ->

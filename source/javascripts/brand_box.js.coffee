@@ -129,5 +129,5 @@ window.brandBox = (company_id, year) ->
     $.ajax url: latestUrl, dataType: "json"
     FC.loadSubBrands
   ).done (annual, latest) ->
-    box.data = Object.assign box.interpret(annual[0]), box.interpret(latest[0])
+    box.data = Object.assign {}, box.interpret(annual[0]), box.interpret(latest[0])
     box.build()
