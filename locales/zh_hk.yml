@@ -136,16 +136,13 @@ zh_hk:
     female_male_other: "女性/男性/其他"
     permanent_temporary: "長工/短工"
     average: "平均數"
-    average_info:
-      受訪工人的工資單上列出的每月平均淨工資（當地貨幣轉換為等值歐元）
+    average_info: 受訪工人的工資單上列出的每月平均淨工資（當地貨幣轉換為等值歐元）
     gap: "差額"
-    gap_info:
-      受訪工人的實際工資和法定最低工資之間的每月平均差額（以歐元為單位）
+    gap_info: 受訪工人的實際工資和法定最低工資之間的每月平均差額（以歐元為單位）
     have_cba: "有CBA"
     have_cba_info: 有集體勞資談判協議的受訪工人百分比
     know_brand: "知道品牌"
-    know_brand_info:
-      知道他們的工廠為哪些品牌生產產品的受訪工人百分比
+    know_brand_info: 知道他們的工廠為哪些品牌生產產品的受訪工人百分比
     pregnancy_leave: "產假"
     pregnancy_leave_info: 受訪工人中，曾懷孕、而工廠有給予產假的百分比
     paid: "actual wage"
@@ -244,7 +241,7 @@ zh_hk:
   transparency_in_production_supply_chains: >
     生產供應鏈中的透明度是改善工作條件的第一步，但這並不是解決方案。有披露其供應鏈工廠數據的品牌公司並沒有比那些沒有披露的公司好，不代表他們所支付的薪水或工作條件就會比較好。它只是讓我們稍微容易確定公司對侵犯勞工權利存在的責任。知道一間工廠為哪些品牌公司生產服飾，有助於品牌公司互相合作，解決勞工權益問題。
   transparency_needs_to_be_the_cornerstone: >
-   「品牌公司如果要認真建立一個免於侵犯人權的供應鏈的話，透明度是必要的基石。」
+    「品牌公司如果要認真建立一個免於侵犯人權的供應鏈的話，透明度是必要的基石。」
   aruna_kashyap: >
     人權觀察組織 婦女權利高級顧問 Aruna Kashyap
   menu_transparency: "透明度"
@@ -377,7 +374,7 @@ zh_hk:
   workers_have_little_to_no_power_to_fight: >
     工人幾乎沒有任何權力去爭取更高的工資。結社自由（Freedom of Association，FOA)承受著巨大壓力；而在許多成衣生產國中，那些為爭取更高工資的工會遭受打擊是絕非罕見的。在過去幾年中，用來代替工會而成立的工人委員會的數量有顯著的增加。這給人一種錯誤的印象，好像現在的工人既有組織又有力量。品牌公司經常聲稱工人委員會和工會在本質上是一樣的，但這可能僅在少數情況下是正確的。
   trucks_are_constantly_leaving: >
-   「貨車不斷開走，所有產品都賣掉了；我們的工作量很大，但他們一直說沒有錢。我的合同每三個月延長一次。我沒有安全保障。」
+    「貨車不斷開走，所有產品都賣掉了；我們的工作量很大，但他們一直說沒有錢。我的合同每三個月延長一次。我沒有安全保障。」
 
   a_worker_in_croatia: "來自克羅地亞的工人"
   instead_of_promoting_fair_worker_representation: >
@@ -404,7 +401,7 @@ zh_hk:
 
   power_in_the_garment_industry: "製衣行業的權力問題"
   we_believe_all_workers_in_a_supply: >
-   我們相信供應鏈的所有工人都有獲得合理工資的權利。自該行業誕生以來，為服裝和運動服市場生產服飾的工人一直在賺取
+    我們相信供應鏈的所有工人都有獲得合理工資的權利。自該行業誕生以來，為服裝和運動服市場生產服飾的工人一直在賺取
   poverty_wages: "貧困工資"
   since_the_birth_of_the_industry_our_research_shows: "。我們的研究表明，"
   no_major_clothing_brand: "沒有一個大的服裝品牌公司"
@@ -750,3 +747,7 @@ zh_hk:
     tooltip_suppliers: suppliers
 
   no_data: No Data
+
+  covid_note_1: "The COVID-19 pandemic forced us to shift our short term demands to brands: workers have been paid poverty wages for decades but most are currently not even paid their pre-pandemic wages. Living wages remain our goal, but we now"
+  covid_link: "call upon brands to ensure "
+  covid_note_2: "workers are being paid their pre-pandemic wages and owed severance. We have therefore decided to survey brands this year only on their progress on Transparency, and not on Living Wages. Brands could let us know if they had made any progress on living wage nonetheless."
