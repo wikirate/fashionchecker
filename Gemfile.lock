@@ -225,6 +225,7 @@ DEPENDENCIES
   ed25519 (>= 1.2)
   middleman (>= 4.2)
   middleman-autoprefixer (>= 3)
+  middleman-cli
   middleman-livereload
   rack-cors
   rake (>= 10.4)
