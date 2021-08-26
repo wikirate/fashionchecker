@@ -145,28 +145,26 @@ pl:
     have_cba: "Mają układ zbiorowy"
     know_brand: "Znają markę"
     pregnancy_leave: "Urlop macierzyński"
-    paid: "actual wage"
-    not_paid: "wage gap"
-    permanent: permanent
-    temporary: temporary
-    male: male
-    female: female
-    other: other
-    gender: "Gender"
-    gender_info: Percentage of workers by gender.
-    contract: "Contract"
-    contract_info: Percentage of workers by contract status.
-    average_info:
-      The monthly average net salary (in EUR equivalent of the local currency) as listed
-      on surveyed workers' payslips
-    gap_info: Monthly average salary as a percentage of living wage
-    have_cba_info: The percentage of surveyed workers covered by a collective bargaining agreement
-    know_brand_info:
-      The percentage of surveyed workers who know which brands their factory makes
-      products for
-    pregnancy_leave_info:
-      The percentage of surveyed workers, who had been pregnant, who were given
-      pregnancy leave
+    paid: "rzeczywista płaca"
+    not_paid: "luka płacowa"
+    permanent: "stały"
+    temporary: "tymczasowy"
+    male: "mężczyzna"
+    female: "kobieta"
+    other: "inne"
+    gender: "płeć"
+    gender_info: "Odsetek pracowników wg płci"
+    contract: "Kontrakt"
+    contract_info: "Odsetek pracowników wg rodzaju kontraktu"
+    average_info: >
+      Średnia pensja miesięczna netto (w ekwiwalencie euro lokalnej waluty) wg pasków wypłat ankietowanych pracownic/-ków
+    gap_info: "Średnia pensja miesięczna jako procent godnej płacy"
+    have_cba_info: "Odsetek ankietowanych pracownic/-ków objętych układem zbiorowym"
+    know_brand_info: Odsetek ankietowanych pracownic/-ków, którzy wiedzą, dla jakich marek produkuje ich fabryka
+
+    pregnancy_leave_info: >
+      Odsetek ankietowanych pracownic, które były w ciąży i przyznano im
+      urlop z tego tytułu
 
   latest: "Najnowsze"
   news: "informacje"
@@ -729,27 +727,29 @@ pl:
   social_media_description: "Sprawdź, czy marki zapewniają pracownikom godną płacę i na ile otwarcie podają, gdzie szyte są ich produkty."
   social_media_image: "https://fashionchecker.org/images/CCC_FC_web_preview.jpg"
   a_worker_from_china: "Pracowniczka w Chinach"
-  brands_surveyed: "Brands Surveyed"
-  brand_brands_owned: "Brand (brands owned)"
+  brands_surveyed: "Ankietowane marki"
+  brand_brands_owned: "Marka (marki będące jej własnością)"
 
   dataTables:
-    search: "Search:"
-    lengthMenu: "Show _MENU_ entries"
-    info: "Showing _START_ to _END_ of _TOTAL_ entries"
-  brand_overview: "Brand Overview"
-  supplier_map: "Supplier Map"
-  where_are_suppliers: "Where are the brand's disclosed suppliers?"
-  no_suppliers_disclosed: "No suppliers disclosed."
-  supplier_wages: "Supplier Wages"
-  are_surveyed_suppliers_paying: "Are surveyed suppliers paying a living wage?"
-  no_supplier_responses: "No supplier responses."
+    search: "Szukaj:"
+    lengthMenu: "Pokaż pozycje_MENU_"
+    info: "Pokazuje _START_ do _END_ z _TOTAL_ pozycji"
+  brand_overview: "Informacje o marce"
+  supplier_map: "Mapa dostawców"
+  where_are_suppliers: "Gdzie znajdują się ujawnieni dostawcy marki?"
+  no_suppliers_disclosed: "Brak ujawnionych dostawców."
+  supplier_wages: "Płace u dostawców"
+  are_surveyed_suppliers_paying: "Czy ankietowani dostawcy zapewniają godną płacę?"
+  no_supplier_responses: "Brak odpowiedzi dostawców."
 
   supplier_map_viz:
-    legend_title: Number of Suppliers
-    tooltip_suppliers: suppliers
+    legend_title: "Liczba dostawców"
+    tooltip_suppliers: "dostawcy"
 
-  no_data: No Data
+  no_data: "Brak danych"
 
-  covid_note_1: "The COVID-19 pandemic forced us to shift our short term demands to brands: workers have been paid poverty wages for decades but most are currently not even paid their pre-pandemic wages. Living wages remain our goal, but we now"
-  covid_link: "call upon brands to ensure "
-  covid_note_2: "workers are being paid their pre-pandemic wages and owed severance. We have therefore decided to survey brands this year only on their progress on Transparency, and not on Living Wages. Brands could let us know if they had made any progress on living wage nonetheless."
+  covid_note_1: >
+    "Pandemia COVID-19 zmusiła nas do zmiany naszych krótkoterminowych postulatów wobec marek: zarobki pracowników od dekad są głodowe, ale obecnie większość nie dostaje nawet płac sprzed pandemii. Godne płace pozostają naszym celem, ale teraz"
+  covid_link: "apelujemy do marek o zapewnienie"
+  covid_note_2: >
+    "pracownikom wypłat płac sprzed pandemii i zaległych odpraw. Dlatego zdecydowaliśmy, że w tym roku zbadamy marki tylko pod kątem ich postępów w zakresie transparentności, a nie godnych płac. Marki mogą jednak nas powiadomić, czy dokonały postępów w zakresie godnych płac."

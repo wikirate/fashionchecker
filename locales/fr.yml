@@ -139,22 +139,22 @@ fr:
     have_cba: "convention collective"
     know_brand: "connaître la marque"
     pregnancy_leave: "congés de maternité"
-    paid: "actual wage"
-    not_paid: "wage gap"
-    permanent: permanent
-    temporary: temporary
-    male: male
-    female: female
-    other: other
-    gender: "Gender"
-    gender_info: Percentage of workers by gender.
-    contract: "Contract"
-    contract_info: Percentage of workers by contract status.
+    paid: "salaire actuel"
+    not_paid: "écart salarial"
+    permanent: "permanent"
+    temporary: "temporaire"
+    male: "homme"
+    female: "femme"
+    other: "autre"
+    gender: "Sexe"
+    gender_info: "Pourcentage de travailleur·euses par sexe."
+    contract: "Contrat"
+    contract_info: "Pourcentage de travailleur·euses par statut contractuel."
     average_info:
       The monthly average net salary (in EUR equivalent of the local currency) as listed
       on surveyed workers' payslips
-    gap_info: Monthly average salary as a percentage of living wage
-    have_cba_info: The percentage of surveyed workers covered by a collective bargaining agreement
+    gap_info: "Salaire mensuel moyen en pourcentage du salaire vital"
+    have_cba_info: "Pourcetage des travailleur·euses intérrogé·es couvert·es par un accord de négociation collective"
     know_brand_info:
       The percentage of surveyed workers who know which brands their factory makes
       products for
@@ -620,7 +620,6 @@ fr:
   who_we_are: "Qui nous sommes"
   methodology: "Notre méthodologie"
   see_full_profiles: "Voir le profil complet de la marque"
-  minimum_wage: "Salaire minimum légal"
   food: "Nourriture"
   housing: "Logement"
   health_care: "Soins de santé"
@@ -735,27 +734,30 @@ fr:
   social_media_description: "See how brands perform on paying their workers and how open they are about where their products are made."
   social_media_image: "https://fashionchecker.org/images/CCC_FC_web_preview.jpg"
   a_worker_from_china: "Une travailleuse de Chine"
-  brands_surveyed: "Brands Surveyed"
-  brand_brands_owned: "Brand (brands owned)"
+  brands_surveyed: "Marques couvertes par l'enquête"
+  brand_brands_owned: "Marque (Autres marques détenues par le groupe)"
 
   dataTables:
-    search: "Search:"
+    search: "Rechercher:"
     lengthMenu: "Show _MENU_ entries"
     info: "Showing _START_ to _END_ of _TOTAL_ entries"
-  brand_overview: "Brand Overview"
-  supplier_map: "Supplier Map"
-  where_are_suppliers: "Where are the brand's disclosed suppliers?"
-  no_suppliers_disclosed: "No suppliers disclosed."
-  supplier_wages: "Supplier Wages"
-  are_surveyed_suppliers_paying: "Are surveyed suppliers paying a living wage?"
-  no_supplier_responses: "No supplier responses."
+  brand_overview: "Aperçu de la marque"
+  supplier_map: "Cartographie des fournisseurs"
+  where_are_suppliers: "Où sont localisés les fournisseurs divulgués par la marque?"
+  no_suppliers_disclosed: "Aucun fournisseur divulgué."
+  supplier_wages: "Salaires des fournisseurs"
+  are_surveyed_suppliers_paying: "Les fournisseurs couverts par l'enquêtes paient-ils un salaire vital?"
+  no_supplier_responses: "Aucune réponse du fournisseur."
 
   supplier_map_viz:
-    legend_title: Number of Suppliers
-    tooltip_suppliers: suppliers
+    legend_title: "Nombre de fournisseurs"
+    tooltip_suppliers: "fournisseurs"
 
-  no_data: No Data
+  minimum_wage: "Salaire minimum"
+  no_data: "Aucune donnée"
 
-  covid_note_1: "The COVID-19 pandemic forced us to shift our short term demands to brands: workers have been paid poverty wages for decades but most are currently not even paid their pre-pandemic wages. Living wages remain our goal, but we now"
-  covid_link: "call upon brands to ensure "
-  covid_note_2: "workers are being paid their pre-pandemic wages and owed severance. We have therefore decided to survey brands this year only on their progress on Transparency, and not on Living Wages. Brands could let us know if they had made any progress on living wage nonetheless."
+  covid_note_1: >
+    "La pandémie de COVID-19 nous a contraint d'adapter nos revendications à court terme à destination des marques : les travailleur·euses ont reçu des salaires de misère pendant des décennies, mais la plupart ne reçoivent actuellement même pas le salaire perçu avant la pandémie."
+  covid_link: "Interpellez les marques pour qu'elles"
+  covid_note_2: >
+    "les travailleur·euses reçoivent le salaire perçu avant la pandémie et les indemnités de licenciement qui leurs sont dues. Nous avons donc décidé d'interroger les marques cette année uniquement sur leurs progrès en matière de transparence, et non sur leurs pratiques en matière de salaire vital. Les marques pouvaient nous faire savoir si elles ont néanmoins fait des progrès en matière de salaire vital."
