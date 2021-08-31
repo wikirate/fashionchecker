@@ -18,12 +18,9 @@
     "Asics Corporation",
     "Asos",
     "BALR. BV",
-    "Bel-Confect",
     "Benetton Group Spa",
     "Bestseller AS",
-    "Bierbaum-Proenen GmbH & Co KG",
     "Boohoo.com",
-    "Brands Fashion",
     "Buissonnière SA",
     "C&A",
     "Calzedonia",
@@ -31,7 +28,6 @@
     "Cassis / Paprika S.A.",
     "Celio International",
     "Decathlon Group",
-    "Engelbert Strauss",
     "Esprit Holdings Limited",
     "Expresso",
     "Falc SpA",
@@ -82,15 +78,12 @@
     "Retail Concepts SA",
     "S.Oliver",
     "Sainsbury's",
-    "Schijvens",
     "Scotch and Soda",
     "Sogesma SA",
     "SOK S Group",
-    "Stanley and Stella SA",
     "Stockmann Oyj Abp",
     "Tchibo GmbH",
     "Tesco PLC",
-    "The Cotton Group SA",
     "The Sting B.V.",
     "Tokmanni",
     "Tom Tailor",
@@ -101,8 +94,7 @@
     "Wehkamp Holding BV",
     "Wibra Supermarkt B.V.",
     "Zalando SE",
-    "Zeeman",
-    "Van Heurck"
+    "Zeeman"
   ],
   "items": [
     {
@@ -154,12 +146,6 @@
       "url": "https://wikirate.org/BALR_BV.json"
     },
     {
-      "id": 5411607,
-      "name": "Bel-Confect",
-      "type": "Company",
-      "url": "https://wikirate.org/Bel_Confect.json"
-    },
-    {
       "id": 8749,
       "name": "Benetton Group Spa",
       "type": "Company",
@@ -172,22 +158,10 @@
       "url": "https://wikirate.org/Bestseller_AS.json"
     },
     {
-      "id": 3278092,
-      "name": "Bierbaum-Proenen GmbH & Co KG",
-      "type": "Company",
-      "url": "https://wikirate.org/Bierbaum_Proenen_GmbH_Co_KG.json"
-    },
-    {
       "id": 3624440,
       "name": "Boohoo.com",
       "type": "Company",
       "url": "https://wikirate.org/Boohoo_com.json"
-    },
-    {
-      "id": 3096445,
-      "name": "Brands Fashion",
-      "type": "Company",
-      "url": "https://wikirate.org/Brands_Fashion.json"
     },
     {
       "id": 5772832,
@@ -230,12 +204,6 @@
       "name": "Decathlon Group",
       "type": "Company",
       "url": "https://wikirate.org/Decathlon_Group.json"
-    },
-    {
-      "id": 5411639,
-      "name": "Engelbert Strauss",
-      "type": "Company",
-      "url": "https://wikirate.org/Engelbert_Strauss.json"
     },
     {
       "id": 9127,
@@ -538,12 +506,6 @@
       "url": "https://wikirate.org/Sainsbury_s.json"
     },
     {
-      "id": 5411392,
-      "name": "Schijvens",
-      "type": "Company",
-      "url": "https://wikirate.org/Schijvens.json"
-    },
-    {
       "id": 5449632,
       "name": "Scotch and Soda",
       "type": "Company",
@@ -562,12 +524,6 @@
       "url": "https://wikirate.org/SOK_S_Group.json"
     },
     {
-      "id": 5407268,
-      "name": "Stanley and Stella SA",
-      "type": "Company",
-      "url": "https://wikirate.org/Stanley_and_Stella_SA.json"
-    },
-    {
       "id": 170611,
       "name": "Stockmann Oyj Abp",
       "type": "Company",
@@ -584,12 +540,6 @@
       "name": "Tesco PLC",
       "type": "Company",
       "url": "https://wikirate.org/Tesco_PLC.json"
-    },
-    {
-      "id": 5769393,
-      "name": "The Cotton Group SA",
-      "type": "Company",
-      "url": "https://wikirate.org/The_Cotton_Group_SA.json"
     },
     {
       "id": 3096050,
@@ -656,12 +606,6 @@
       "name": "Zeeman",
       "type": "Company",
       "url": "https://wikirate.org/Zeeman.json"
-    },
-    {
-      "id": 5772848,
-      "name": "Van Heurck",
-      "type": "Company",
-      "url": "https://wikirate.org/Van_Heurck.json"
     }
   ],
   "links": [
@@ -685,6 +629,6 @@
   ],
   "html_url": "https://wikirate.org/Filling_the_Gap_Company_Group+Company",
   "created_at": "2020-06-17 09:49:58 UTC",
-  "updated_at": "2021-03-17 15:45:12 UTC",
-  "requested_at": "2021-08-10 18:44:16 +0200"
+  "updated_at": "2021-08-11 09:44:55 UTC",
+  "requested_at": "2021-08-31 18:08:53 +0200"
 }
