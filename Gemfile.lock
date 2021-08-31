@@ -213,7 +213,7 @@ GEM
     zeitwerk (2.4.2)
 
 PLATFORMS
-  x86_64-darwin-20
+  ruby
 
 DEPENDENCIES
   bcrypt_pbkdf (>= 1)
@@ -225,6 +225,7 @@ DEPENDENCIES
   ed25519 (>= 1.2)
   middleman (>= 4.2)
   middleman-autoprefixer (>= 3)
+  middleman-cli
   middleman-livereload
   rack-cors
   rake (>= 10.4)
@@ -233,5 +234,3 @@ DEPENDENCIES
   tzinfo-data
   wdm (>= 0.1)
 
-BUNDLED WITH
-   2.2.15

@@ -33,7 +33,7 @@ brandAnswersUrl = FC.apiSwitch "/content/brand_answers.json",
   FC.apiUrl "Answer/compact",
     limit: 0
     filter:
-      company_group: FC.companyGroup,
+      company_group: "~#{FC.companyGroup}",
       metric_id: $.map(Object.keys(brandsColumnMap), (fld, _i) ->
         FC.metrics.brandsMap[fld]
       )
