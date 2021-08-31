@@ -17,7 +17,7 @@ if wikirateApiAuth
       xhr.setRequestHeader "Authorization", "Basic " + btoa(wikirateApiAuth)
 
 window.FC =
-  companyGroup: ":filling_the_gap_group"
+  companyGroup: 7887730
 
   metrics:
     suppliedBy: 2929009
@@ -105,7 +105,7 @@ subBrandsUrl = FC.apiSwitch "/content/sub_brands.json",
   FC.apiUrl "~#{FC.metrics.suppliedBy}+Relationship_Answer",
     limit: 500
     filter:
-      company_group: FC.companyGroup
+      company_group: "~#{FC.companyGroup}"
       year: "latest"
 
 $.extend FC,
