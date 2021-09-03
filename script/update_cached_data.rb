@@ -13,6 +13,6 @@ urls = {
 }
 
 urls.each do |name, url|
-  path = File.expand_path "../source/content/#{name}.json", __dir__
+  path = File.expand_path "../build/content/#{name}.json", __dir__
   File.write path, URI.open(url).read
 end
