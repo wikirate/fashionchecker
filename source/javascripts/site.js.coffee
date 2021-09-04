@@ -20,7 +20,7 @@ window.FC =
   companyGroup: 7887730
 
   metrics:
-    suppliedBy: 2929009
+    hasBrands: 5768810
     supplierOf: 2929015
 
     brandsLatestMap:
@@ -102,8 +102,7 @@ $.extend FC,
           wikirate_topic: "Filling the Gap"
 
 subBrandsUrl = FC.apiSwitch "/content/sub_brands.json",
-  FC.apiUrl "~#{FC.metrics.suppliedBy}+Relationship_Answer",
-    limit: 500
+  FC.apiUrl "~#{FC.metrics.hasBrands}+Relationship_Answer",
     filter:
       company_group: "~#{FC.companyGroup}"
       year: "latest"

@@ -170,9 +170,7 @@
     "Eddie Bauer",
     "River Island",
     "Mammut Sports Group AG",
-    "Uniqlo Co.",
     "Matalan",
-    "Zara",
     "LL Bean",
     "Saint Laurent",
     "Takko Holding GmbH",
@@ -181,7 +179,6 @@
     "C&J Clark International",
     "Desigual",
     "Pimkie",
-    "Calvin Klein Inc.",
     "Carhartt Inc",
     "Dressmann",
     "F&F",
@@ -201,10 +198,8 @@
     "Kmart Australia",
     "Mr Price",
     "Muji",
-    "Reserved",
     "Topshop",
     "UGG",
-    "Vero Moda",
     "Victoria's Secret",
     "Wrangler",
     "ALDO",
@@ -269,7 +264,17 @@
     "Shein",
     "Splash",
     "LC Waikiki",
-    "Deichmann SE"
+    "Deichmann SE",
+    "Bio-Racer nv",
+    "Cortina Group",
+    "Essentiel Antwerp",
+    "Fabrimode NV",
+    "G-skin",
+    "PP Retail Group",
+    "Van de Velde",
+    "Vermarc Sport nv",
+    "Cetex Sud NV",
+    "JBC NV"
   ],
   "items": [
     {
@@ -1233,22 +1238,10 @@
       "url": "https://wikirate.org/Mammut_Sports_Group_AG.json"
     },
     {
-      "id": 9141,
-      "name": "Uniqlo Co.",
-      "type": "Company",
-      "url": "https://wikirate.org/Uniqlo_Co.json"
-    },
-    {
       "id": 3096086,
       "name": "Matalan",
       "type": "Company",
       "url": "https://wikirate.org/Matalan.json"
-    },
-    {
-      "id": 18215,
-      "name": "Zara",
-      "type": "Company",
-      "url": "https://wikirate.org/Zara.json"
     },
     {
       "id": 3304258,
@@ -1297,12 +1290,6 @@
       "name": "Pimkie",
       "type": "Company",
       "url": "https://wikirate.org/Pimkie.json"
-    },
-    {
-      "id": 5451021,
-      "name": "Calvin Klein Inc.",
-      "type": "Company",
-      "url": "https://wikirate.org/Calvin_Klein_Inc.json"
     },
     {
       "id": 2608837,
@@ -1419,12 +1406,6 @@
       "url": "https://wikirate.org/Muji.json"
     },
     {
-      "id": 5769202,
-      "name": "Reserved",
-      "type": "Company",
-      "url": "https://wikirate.org/Reserved.json"
-    },
-    {
       "id": 4580341,
       "name": "Topshop",
       "type": "Company",
@@ -1435,12 +1416,6 @@
       "name": "UGG",
       "type": "Company",
       "url": "https://wikirate.org/UGG.json"
-    },
-    {
-      "id": 5451009,
-      "name": "Vero Moda",
-      "type": "Company",
-      "url": "https://wikirate.org/Vero_Moda.json"
     },
     {
       "id": 5451022,
@@ -1831,6 +1806,66 @@
       "name": "Deichmann SE",
       "type": "Company",
       "url": "https://wikirate.org/Deichmann_SE.json"
+    },
+    {
+      "id": 5772787,
+      "name": "Bio-Racer nv",
+      "type": "Company",
+      "url": "https://wikirate.org/Bio_Racer_nv.json"
+    },
+    {
+      "id": 5769159,
+      "name": "Cortina Group",
+      "type": "Company",
+      "url": "https://wikirate.org/Cortina_Group.json"
+    },
+    {
+      "id": 5772794,
+      "name": "Essentiel Antwerp",
+      "type": "Company",
+      "url": "https://wikirate.org/Essentiel_Antwerp.json"
+    },
+    {
+      "id": 5769111,
+      "name": "Fabrimode NV",
+      "type": "Company",
+      "url": "https://wikirate.org/Fabrimode_NV.json"
+    },
+    {
+      "id": 5773107,
+      "name": "G-skin",
+      "type": "Company",
+      "url": "https://wikirate.org/G_skin.json"
+    },
+    {
+      "id": 5772199,
+      "name": "PP Retail Group",
+      "type": "Company",
+      "url": "https://wikirate.org/PP_Retail_Group.json"
+    },
+    {
+      "id": 3624517,
+      "name": "Van de Velde",
+      "type": "Company",
+      "url": "https://wikirate.org/Van_de_Velde.json"
+    },
+    {
+      "id": 5772809,
+      "name": "Vermarc Sport nv",
+      "type": "Company",
+      "url": "https://wikirate.org/Vermarc_Sport_nv.json"
+    },
+    {
+      "id": 5772349,
+      "name": "Cetex Sud NV",
+      "type": "Company",
+      "url": "https://wikirate.org/Cetex_Sud_NV.json"
+    },
+    {
+      "id": 3095202,
+      "name": "JBC NV",
+      "type": "Company",
+      "url": "https://wikirate.org/JBC_NV.json"
     }
   ],
   "links": [
@@ -1853,6 +1888,6 @@
   ],
   "html_url": "https://wikirate.org/FashionChecker_Companies_2021+Company",
   "created_at": "2021-08-24 16:55:00 UTC",
-  "updated_at": "2021-08-30 07:50:10 UTC",
-  "requested_at": "2021-08-31 18:37:51 +0200"
+  "updated_at": "2021-09-03 13:12:31 UTC",
+  "requested_at": "2021-09-04 16:54:28 +0200"
 }
