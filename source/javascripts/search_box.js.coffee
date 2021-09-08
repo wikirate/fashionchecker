@@ -3,7 +3,7 @@ window.searchBox = () ->
   activateSearch()
 
 brandsUrl = FC.apiSwitch "/content/brands.json",
-  FC.apiUrl "#{FC.companyGroup}+Company", item: "nucleus"
+  FC.apiUrl "~#{FC.companyGroup}+Company", item: "nucleus"
 
 loadSearchOptions = () ->
   $.when(

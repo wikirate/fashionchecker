@@ -1,5 +1,5 @@
 set :application, 'fashionchecker.org'
-set :repo_url, 'https://github.com/wikirate/transparency-tool.git'
+set :repo_url, 'https://github.com/wikirate/fashionchecker.git'
 set :branch, "main"
 
 set :deploy_to, '/srv/fashionchecker'

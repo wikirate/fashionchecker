@@ -4,6 +4,8 @@ namespace :deploy do
     on roles(:app) do
       within release_path do
         execute :bundle, "exec middleman build"
+        execute :ruby, "./script/update_cached_data.rb"
+        execute :chmod, '-R g+w build/content'
       end
     end
   end

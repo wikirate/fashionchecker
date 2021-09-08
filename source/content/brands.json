@@ -1,6 +1,6 @@
 {
-  "id": 6140364,
-  "name": "Filling the Gap Company Group+Company",
+  "id": 7887732,
+  "name": "FashionChecker Companies 2021+Company",
   "type": {
     "id": 47,
     "name": "Pointer",
@@ -8,204 +8,292 @@
     "url": "https://wikirate.org/Pointer.json",
     "codename": "pointer"
   },
-  "url": "https://wikirate.org/:filling_the_gap_group+Company.json?item=nucleus",
+  "url": "https://wikirate.org/~7887730+Company.json?item=nucleus",
   "content": [
-    "Adidas AG",
-    "Aldi Nord",
-    "Aldi Sud",
-    "Amazon.com, Inc.",
-    "Arcadia Group",
-    "Asics Corporation",
-    "Asos",
-    "BALR. BV",
-    "Bel-Confect",
-    "Benetton Group Spa",
-    "Bestseller AS",
-    "Bierbaum-Proenen GmbH & Co KG",
-    "Boohoo.com",
-    "Brands Fashion",
-    "Buissonnière SA",
-    "C&A",
-    "Calzedonia",
+    "Puma",
+    "H&M",
+    "Gap inc.",
     "Carrefour S.A.",
-    "Cassis / Paprika S.A.",
-    "Celio International",
-    "Decathlon Group",
-    "Engelbert Strauss",
+    "Marks and Spencer Group plc",
+    "Asos",
+    "Nike Inc.",
+    "Aldi Nord",
+    "Adidas AG",
+    "Inditex",
+    "Zalando SE",
+    "Hugo Boss AG",
+    "Lidl Stiftung & Co. KG",
+    "Under Armour",
     "Esprit Holdings Limited",
+    "Asics Corporation",
+    "Amazon.com, Inc.",
+    "PVH",
+    "Boohoo.com",
+    "Fast Retailing",
+    "Next",
+    "Levi Strauss & Co.",
+    "Walmart",
+    "C&A",
+    "Otto Group",
+    "Tesco PLC",
+    "Lindex",
+    "SOK S Group",
+    "Tchibo GmbH",
+    "Decathlon Group",
+    "Primark",
+    "Sainsbury's",
+    "New Look Retail Group",
+    "Geox SpA",
+    "Aldi Sud",
+    "G-star RAW",
+    "Zeeman",
+    "KiK Textilien und Non-Food GmbH",
+    "Calzedonia",
+    "OVS SpA",
+    "Gucci",
+    "S.Oliver",
+    "Tom Tailor",
+    "Hema",
+    "Celio International",
+    "Fruit of the Loom",
+    "Kesko Corporation",
+    "Marimekko",
+    "Monsoon Accessorize Ltd",
+    "Stockmann Oyj Abp",
+    "Vaude",
+    "Tokmanni",
+    "Bestseller AS",
+    "Benetton Group Spa",
+    "Arcadia Group",
+    "Missguided Limited",
+    "Pentland Brands Ltd",
+    "We Europe BV",
+    "OLYMP Bezner KG",
+    "Kings Of Indigo",
+    "Jack Wolfskin",
+    "Mayerline",
+    "Scotch and Soda",
+    "Kuyichi",
+    "Oberalp SpA",
+    "NP Fashion",
+    "J&Joy SA",
+    "The Sting B.V.",
+    "Retail Concepts SA",
+    "Wehkamp Holding BV",
+    "Sogesma SA",
+    "Wibra Supermarkt B.V.",
+    "Peek & Cloppenburg",
     "Expresso",
     "Falc SpA",
-    "Fast Retailing",
-    "Fruit of the Loom",
-    "G-star RAW",
-    "Gap inc.",
-    "Geox SpA",
-    "Gucci",
-    "H&M",
-    "Hema",
-    "Hugo Boss AG",
-    "Inditex",
-    "J&Joy SA",
-    "Jack Wolfskin",
     "Javanne SA",
-    "Kesko Corporation",
-    "KiK Textilien und Non-Food GmbH",
-    "Kings Of Indigo",
-    "Kuyichi",
-    "LaDress",
-    "Levi Strauss & Co.",
-    "Lidl Stiftung & Co. KG",
-    "Lindex",
+    "BALR. BV",
     "Livera B.V.",
-    "LPP",
-    "Luhta Sportswear Company",
-    "Marimekko",
-    "Marks and Spencer Group plc",
-    "Mayerline",
-    "Missguided Limited",
-    "Monsoon Accessorize Ltd",
-    "New Look Retail Group",
-    "Next",
-    "Nike Inc.",
-    "NP Fashion",
-    "Oberalp SpA",
-    "OLYMP Bezner KG",
-    "Otto Group",
-    "OVS SpA",
-    "Peek & Cloppenburg",
-    "Pentland Brands Ltd",
+    "Buissonnière SA",
+    "Cassis / Paprika S.A.",
     "Prenatal Moeder en Kind B.V.",
-    "Primark",
-    "Puma",
-    "PVH",
+    "LPP",
     "Reima",
-    "Retail Concepts SA",
-    "S.Oliver",
-    "Sainsbury's",
-    "Schijvens",
-    "Scotch and Soda",
-    "Sogesma SA",
-    "SOK S Group",
-    "Stanley and Stella SA",
-    "Stockmann Oyj Abp",
-    "Tchibo GmbH",
-    "Tesco PLC",
-    "The Cotton Group SA",
-    "The Sting B.V.",
-    "Tokmanni",
-    "Tom Tailor",
-    "Under Armour",
-    "Vaude",
-    "Walmart",
-    "We Europe BV",
-    "Wehkamp Holding BV",
-    "Wibra Supermarkt B.V.",
-    "Zalando SE",
-    "Zeeman",
-    "Van Heurck"
+    "LaDress",
+    "Luhta Sportswear Company",
+    "El Corte Ingles S.A.",
+    "Louis Vuitton Malletier SA (LVMH)",
+    "Burberry Group plc",
+    "Guess? Inc",
+    "Nordstrom",
+    "Fossil Group, Inc.",
+    "American Eagle Outfitters",
+    "Urban Outfitters",
+    "Skechers USA Inc",
+    "Prada",
+    "Ralph Lauren Corporation",
+    "Columbia Sportswear",
+    "Abercrombie & Fitch",
+    "Foot Locker Inc.",
+    "Macy's",
+    "DSW Inc.",
+    "Moncler",
+    "Woolworths Holdings Limited",
+    "Ross Stores",
+    "Chico's FAS Inc",
+    "Gildan Activewear Inc.",
+    "Anta Sports Products",
+    "Gerry Weber",
+    "Brunello Cucinelli",
+    "Salvatore Ferragamo SpA",
+    "Express Inc",
+    "Hermes International",
+    "Hudson's Bay Company",
+    "Bosideng International Holdings Limited",
+    "Target",
+    "Metersbonwe",
+    "Canada Goose",
+    "United Arrows",
+    "Dick's Sporting Goods",
+    "Michael Kors Holdings Limited",
+    "Buckle Inc",
+    "TOD'S",
+    "Dillard's, Inc.",
+    "Li-Ning",
+    "Children's Place Inc",
+    "Steve Madden",
+    "lululemon athletica",
+    "Ted Baker",
+    "Burlington Stores Inc",
+    "JD Sports Fashion plc",
+    "Superdry plc",
+    "Sports Direct",
+    "Semir",
+    "Carter's Inc",
+    "The Walt Disney Company",
+    "Patagonia Inc.",
+    "Costco Wholesale",
+    "Quiksilver Inc",
+    "Lands' End, Inc.",
+    "Mango Group",
+    "Aeropostale Inc.",
+    "Claire's Stores, Inc.",
+    "The Very Group",
+    "New Balance Athletic Shoe, Inc.",
+    "Brooks Sports, Inc",
+    "Kohl's",
+    "Chanel SA",
+    "Mizuno Corporation",
+    "Gianni Versace S.r.l.",
+    "Airwair International Ltd (Dr Martens)",
+    "Lidl Limited",
+    "Kathmandu Holdings Ltd",
+    "Warehouse Group",
+    "Cotton on Group",
+    "Lacoste",
+    "The North Face Inc.",
+    "John Lewis",
+    "Eddie Bauer",
+    "River Island",
+    "Mammut Sports Group AG",
+    "Matalan",
+    "LL Bean",
+    "Saint Laurent",
+    "Takko Holding GmbH",
+    "Falabella",
+    "Giorgio Armani SpA",
+    "C&J Clark International",
+    "Desigual",
+    "Pimkie",
+    "Carhartt Inc",
+    "Dressmann",
+    "F&F",
+    "Helly Hansen AS",
+    "New Yorker",
+    "Speedo International Limited",
+    "FILA",
+    "Monoprix",
+    "REI",
+    "Target Australia",
+    "Aritzia",
+    "Belle International Holdings",
+    "George (brand)",
+    "Max Mara",
+    "Diesel SpA",
+    "Joe Fresh",
+    "Kmart Australia",
+    "Mr Price",
+    "Muji",
+    "Topshop",
+    "UGG",
+    "Victoria's Secret",
+    "Wrangler",
+    "ALDO",
+    "Beanpole",
+    "Bonprix",
+    "Caroll",
+    "Ito Yokado",
+    "Kmart Corporation",
+    "Marni",
+    "Merrell",
+    "Nutmeg at Morrisons",
+    "Sandro",
+    "BCBGMAXAZRIA",
+    "Big Bazaar",
+    "Bottega Veneta",
+    "Carolina Herrera",
+    "Coach Stores Limited",
+    "Dolce & Gabbana",
+    "Ermenegildo Zegna",
+    "Fjallraven",
+    "Jockey International Inc",
+    "Mexx",
+    "Nine West",
+    "Pepe Jeans",
+    "Reliance Trends",
+    "REVOLVE",
+    "TJ Maxx",
+    "Triumph International",
+    "Valentino SpA",
+    "Balenciaga",
+    "JustFab",
+    "Tommy Bahama",
+    "Fanatics",
+    "Youngor",
+    "Bally",
+    "Chloé",
+    "Cortefiel SA",
+    "Fendi",
+    "Hanes",
+    "Jil Sander",
+    "United Colors of Benetton",
+    "Cole Haan",
+    "DKNY",
+    "Elie Tahari",
+    "Famous Footwear",
+    "Fashion Nova",
+    "Foschini",
+    "Furla",
+    "Heilan Home",
+    "Jessica Simpson",
+    "K-Way",
+    "Kaufland",
+    "Koovs",
+    "La Redoute",
+    "Longchamp",
+    "Tom Ford International LLC",
+    "Topvalu",
+    "Tory Burch LLC",
+    "Truworths",
+    "Kiabi",
+    "Paris (Almacenes Paris)",
+    "Shein",
+    "Splash",
+    "LC Waikiki",
+    "Deichmann SE",
+    "Bio-Racer nv",
+    "Cortina Group",
+    "Essentiel Antwerp",
+    "Fabrimode NV",
+    "G-skin",
+    "PP Retail Group",
+    "Van de Velde",
+    "Vermarc Sport nv",
+    "Cetex Sud NV",
+    "JBC NV"
   ],
   "items": [
     {
-      "id": 7217,
-      "name": "Adidas AG",
+      "id": 18109,
+      "name": "Puma",
       "type": "Company",
-      "url": "https://wikirate.org/Adidas_AG.json"
+      "url": "https://wikirate.org/Puma.json"
     },
     {
-      "id": 48256,
-      "name": "Aldi Nord",
+      "id": 5590,
+      "name": "H&M",
       "type": "Company",
-      "url": "https://wikirate.org/Aldi_Nord.json"
+      "url": "https://wikirate.org/H_M.json"
     },
     {
-      "id": 5208,
-      "name": "Aldi Sud",
+      "id": 5505,
+      "name": "Gap inc.",
       "type": "Company",
-      "url": "https://wikirate.org/Aldi_Sud.json"
-    },
-    {
-      "id": 11708,
-      "name": "Amazon.com, Inc.",
-      "type": "Company",
-      "url": "https://wikirate.org/Amazon_com_Inc.json"
-    },
-    {
-      "id": 3096469,
-      "name": "Arcadia Group",
-      "type": "Company",
-      "url": "https://wikirate.org/Arcadia_Group.json"
-    },
-    {
-      "id": 170564,
-      "name": "Asics Corporation",
-      "type": "Company",
-      "url": "https://wikirate.org/Asics_Corporation.json"
-    },
-    {
-      "id": 1829050,
-      "name": "Asos",
-      "type": "Company",
-      "url": "https://wikirate.org/Asos.json"
-    },
-    {
-      "id": 5772816,
-      "name": "BALR. BV",
-      "type": "Company",
-      "url": "https://wikirate.org/BALR_BV.json"
-    },
-    {
-      "id": 5411607,
-      "name": "Bel-Confect",
-      "type": "Company",
-      "url": "https://wikirate.org/Bel_Confect.json"
-    },
-    {
-      "id": 8749,
-      "name": "Benetton Group Spa",
-      "type": "Company",
-      "url": "https://wikirate.org/Benetton_Group_Spa.json"
-    },
-    {
-      "id": 3081181,
-      "name": "Bestseller AS",
-      "type": "Company",
-      "url": "https://wikirate.org/Bestseller_AS.json"
-    },
-    {
-      "id": 3278092,
-      "name": "Bierbaum-Proenen GmbH & Co KG",
-      "type": "Company",
-      "url": "https://wikirate.org/Bierbaum_Proenen_GmbH_Co_KG.json"
-    },
-    {
-      "id": 3624440,
-      "name": "Boohoo.com",
-      "type": "Company",
-      "url": "https://wikirate.org/Boohoo_com.json"
-    },
-    {
-      "id": 3096445,
-      "name": "Brands Fashion",
-      "type": "Company",
-      "url": "https://wikirate.org/Brands_Fashion.json"
-    },
-    {
-      "id": 5772832,
-      "name": "Buissonnière SA",
-      "type": "Company",
-      "url": "https://wikirate.org/Buissonnière_SA.json"
-    },
-    {
-      "id": 8853,
-      "name": "C&A",
-      "type": "Company",
-      "url": "https://wikirate.org/C_A.json"
-    },
-    {
-      "id": 5434590,
-      "name": "Calzedonia",
-      "type": "Company",
-      "url": "https://wikirate.org/Calzedonia.json"
+      "url": "https://wikirate.org/Gap_inc.json"
     },
     {
       "id": 17024,
@@ -214,16 +302,154 @@
       "url": "https://wikirate.org/Carrefour_S_A.json"
     },
     {
-      "id": 5418579,
-      "name": "Cassis / Paprika S.A.",
+      "id": 9269,
+      "name": "Marks and Spencer Group plc",
       "type": "Company",
-      "url": "https://wikirate.org/Cassis_Paprika_S_A.json"
+      "url": "https://wikirate.org/Marks_and_Spencer_Group_plc.json"
     },
     {
-      "id": 5772840,
-      "name": "Celio International",
+      "id": 1829050,
+      "name": "Asos",
       "type": "Company",
-      "url": "https://wikirate.org/Celio_International.json"
+      "url": "https://wikirate.org/Asos.json"
+    },
+    {
+      "id": 5800,
+      "name": "Nike Inc.",
+      "type": "Company",
+      "url": "https://wikirate.org/Nike_Inc.json"
+    },
+    {
+      "id": 48256,
+      "name": "Aldi Nord",
+      "type": "Company",
+      "url": "https://wikirate.org/Aldi_Nord.json"
+    },
+    {
+      "id": 7217,
+      "name": "Adidas AG",
+      "type": "Company",
+      "url": "https://wikirate.org/Adidas_AG.json"
+    },
+    {
+      "id": 5301,
+      "name": "Inditex",
+      "type": "Company",
+      "url": "https://wikirate.org/Inditex.json"
+    },
+    {
+      "id": 2608717,
+      "name": "Zalando SE",
+      "type": "Company",
+      "url": "https://wikirate.org/Zalando_SE.json"
+    },
+    {
+      "id": 42714,
+      "name": "Hugo Boss AG",
+      "type": "Company",
+      "url": "https://wikirate.org/Hugo_Boss_AG.json"
+    },
+    {
+      "id": 11071,
+      "name": "Lidl Stiftung & Co. KG",
+      "type": "Company",
+      "url": "https://wikirate.org/Lidl_Stiftung_Co_KG.json"
+    },
+    {
+      "id": 116498,
+      "name": "Under Armour",
+      "type": "Company",
+      "url": "https://wikirate.org/Under_Armour.json"
+    },
+    {
+      "id": 9127,
+      "name": "Esprit Holdings Limited",
+      "type": "Company",
+      "url": "https://wikirate.org/Esprit_Holdings_Limited.json"
+    },
+    {
+      "id": 170564,
+      "name": "Asics Corporation",
+      "type": "Company",
+      "url": "https://wikirate.org/Asics_Corporation.json"
+    },
+    {
+      "id": 11708,
+      "name": "Amazon.com, Inc.",
+      "type": "Company",
+      "url": "https://wikirate.org/Amazon_com_Inc.json"
+    },
+    {
+      "id": 61050,
+      "name": "PVH",
+      "type": "Company",
+      "url": "https://wikirate.org/PVH.json"
+    },
+    {
+      "id": 3624440,
+      "name": "Boohoo.com",
+      "type": "Company",
+      "url": "https://wikirate.org/Boohoo_com.json"
+    },
+    {
+      "id": 56584,
+      "name": "Fast Retailing",
+      "type": "Company",
+      "url": "https://wikirate.org/Fast_Retailing.json"
+    },
+    {
+      "id": 49209,
+      "name": "Next",
+      "type": "Company",
+      "url": "https://wikirate.org/Next.json"
+    },
+    {
+      "id": 5587,
+      "name": "Levi Strauss & Co.",
+      "type": "Company",
+      "url": "https://wikirate.org/Levi_Strauss_Co.json"
+    },
+    {
+      "id": 42628,
+      "name": "Walmart",
+      "type": "Company",
+      "url": "https://wikirate.org/Walmart.json"
+    },
+    {
+      "id": 8853,
+      "name": "C&A",
+      "type": "Company",
+      "url": "https://wikirate.org/C_A.json"
+    },
+    {
+      "id": 945117,
+      "name": "Otto Group",
+      "type": "Company",
+      "url": "https://wikirate.org/Otto_Group.json"
+    },
+    {
+      "id": 5210,
+      "name": "Tesco PLC",
+      "type": "Company",
+      "url": "https://wikirate.org/Tesco_PLC.json"
+    },
+    {
+      "id": 945113,
+      "name": "Lindex",
+      "type": "Company",
+      "url": "https://wikirate.org/Lindex.json"
+    },
+    {
+      "id": 1625351,
+      "name": "SOK S Group",
+      "type": "Company",
+      "url": "https://wikirate.org/SOK_S_Group.json"
+    },
+    {
+      "id": 2618013,
+      "name": "Tchibo GmbH",
+      "type": "Company",
+      "url": "https://wikirate.org/Tchibo_GmbH.json"
     },
     {
       "id": 3098192,
@@ -232,16 +458,262 @@
       "url": "https://wikirate.org/Decathlon_Group.json"
     },
     {
-      "id": 5411639,
-      "name": "Engelbert Strauss",
+      "id": 5420,
+      "name": "Primark",
       "type": "Company",
-      "url": "https://wikirate.org/Engelbert_Strauss.json"
+      "url": "https://wikirate.org/Primark.json"
     },
     {
-      "id": 9127,
-      "name": "Esprit Holdings Limited",
+      "id": 57199,
+      "name": "Sainsbury's",
       "type": "Company",
-      "url": "https://wikirate.org/Esprit_Holdings_Limited.json"
+      "url": "https://wikirate.org/Sainsbury_s.json"
+    },
+    {
+      "id": 1833443,
+      "name": "New Look Retail Group",
+      "type": "Company",
+      "url": "https://wikirate.org/New_Look_Retail_Group.json"
+    },
+    {
+      "id": 2624117,
+      "name": "Geox SpA",
+      "type": "Company",
+      "url": "https://wikirate.org/Geox_SpA.json"
+    },
+    {
+      "id": 5208,
+      "name": "Aldi Sud",
+      "type": "Company",
+      "url": "https://wikirate.org/Aldi_Sud.json"
+    },
+    {
+      "id": 1173483,
+      "name": "G-star RAW",
+      "type": "Company",
+      "url": "https://wikirate.org/G_star_RAW.json"
+    },
+    {
+      "id": 3096058,
+      "name": "Zeeman",
+      "type": "Company",
+      "url": "https://wikirate.org/Zeeman.json"
+    },
+    {
+      "id": 14787,
+      "name": "KiK Textilien und Non-Food GmbH",
+      "type": "Company",
+      "url": "https://wikirate.org/KiK_Textilien_und_Non_Food_GmbH.json"
+    },
+    {
+      "id": 5434590,
+      "name": "Calzedonia",
+      "type": "Company",
+      "url": "https://wikirate.org/Calzedonia.json"
+    },
+    {
+      "id": 5769312,
+      "name": "OVS SpA",
+      "type": "Company",
+      "url": "https://wikirate.org/OVS_SpA.json"
+    },
+    {
+      "id": 18104,
+      "name": "Gucci",
+      "type": "Company",
+      "url": "https://wikirate.org/Gucci.json"
+    },
+    {
+      "id": 3096453,
+      "name": "S.Oliver",
+      "type": "Company",
+      "url": "https://wikirate.org/S_Oliver.json"
+    },
+    {
+      "id": 5448719,
+      "name": "Tom Tailor",
+      "type": "Company",
+      "url": "https://wikirate.org/Tom_Tailor.json"
+    },
+    {
+      "id": 3095582,
+      "name": "Hema",
+      "type": "Company",
+      "url": "https://wikirate.org/Hema.json"
+    },
+    {
+      "id": 5772840,
+      "name": "Celio International",
+      "type": "Company",
+      "url": "https://wikirate.org/Celio_International.json"
+    },
+    {
+      "id": 116106,
+      "name": "Fruit of the Loom",
+      "type": "Company",
+      "url": "https://wikirate.org/Fruit_of_the_Loom.json"
+    },
+    {
+      "id": 51051,
+      "name": "Kesko Corporation",
+      "type": "Company",
+      "url": "https://wikirate.org/Kesko_Corporation.json"
+    },
+    {
+      "id": 2605028,
+      "name": "Marimekko",
+      "type": "Company",
+      "url": "https://wikirate.org/Marimekko.json"
+    },
+    {
+      "id": 3081307,
+      "name": "Monsoon Accessorize Ltd",
+      "type": "Company",
+      "url": "https://wikirate.org/Monsoon_Accessorize_Ltd.json"
+    },
+    {
+      "id": 170611,
+      "name": "Stockmann Oyj Abp",
+      "type": "Company",
+      "url": "https://wikirate.org/Stockmann_Oyj_Abp.json"
+    },
+    {
+      "id": 44397,
+      "name": "Vaude",
+      "type": "Company",
+      "url": "https://wikirate.org/Vaude.json"
+    },
+    {
+      "id": 5759320,
+      "name": "Tokmanni",
+      "type": "Company",
+      "url": "https://wikirate.org/Tokmanni.json"
+    },
+    {
+      "id": 3081181,
+      "name": "Bestseller AS",
+      "type": "Company",
+      "url": "https://wikirate.org/Bestseller_AS.json"
+    },
+    {
+      "id": 8749,
+      "name": "Benetton Group Spa",
+      "type": "Company",
+      "url": "https://wikirate.org/Benetton_Group_Spa.json"
+    },
+    {
+      "id": 3096469,
+      "name": "Arcadia Group",
+      "type": "Company",
+      "url": "https://wikirate.org/Arcadia_Group.json"
+    },
+    {
+      "id": 3081306,
+      "name": "Missguided Limited",
+      "type": "Company",
+      "url": "https://wikirate.org/Missguided_Limited.json"
+    },
+    {
+      "id": 3152081,
+      "name": "Pentland Brands Ltd",
+      "type": "Company",
+      "url": "https://wikirate.org/Pentland_Brands_Ltd.json"
+    },
+    {
+      "id": 3096055,
+      "name": "We Europe BV",
+      "type": "Company",
+      "url": "https://wikirate.org/We_Europe_BV.json"
+    },
+    {
+      "id": 3095557,
+      "name": "OLYMP Bezner KG",
+      "type": "Company",
+      "url": "https://wikirate.org/OLYMP_Bezner_KG.json"
+    },
+    {
+      "id": 5411668,
+      "name": "Kings Of Indigo",
+      "type": "Company",
+      "url": "https://wikirate.org/Kings_Of_Indigo.json"
+    },
+    {
+      "id": 5411208,
+      "name": "Jack Wolfskin",
+      "type": "Company",
+      "url": "https://wikirate.org/Jack_Wolfskin.json"
+    },
+    {
+      "id": 5411520,
+      "name": "Mayerline",
+      "type": "Company",
+      "url": "https://wikirate.org/Mayerline.json"
+    },
+    {
+      "id": 5449632,
+      "name": "Scotch and Soda",
+      "type": "Company",
+      "url": "https://wikirate.org/Scotch_and_Soda.json"
+    },
+    {
+      "id": 5448749,
+      "name": "Kuyichi",
+      "type": "Company",
+      "url": "https://wikirate.org/Kuyichi.json"
+    },
+    {
+      "id": 5769122,
+      "name": "Oberalp SpA",
+      "type": "Company",
+      "url": "https://wikirate.org/Oberalp_SpA.json"
+    },
+    {
+      "id": 5769257,
+      "name": "NP Fashion",
+      "type": "Company",
+      "url": "https://wikirate.org/NP_Fashion.json"
+    },
+    {
+      "id": 5773142,
+      "name": "J&Joy SA",
+      "type": "Company",
+      "url": "https://wikirate.org/J_Joy_SA.json"
+    },
+    {
+      "id": 3096050,
+      "name": "The Sting B.V.",
+      "type": "Company",
+      "url": "https://wikirate.org/The_Sting_B_V.json"
+    },
+    {
+      "id": 5772203,
+      "name": "Retail Concepts SA",
+      "type": "Company",
+      "url": "https://wikirate.org/Retail_Concepts_SA.json"
+    },
+    {
+      "id": 5772376,
+      "name": "Wehkamp Holding BV",
+      "type": "Company",
+      "url": "https://wikirate.org/Wehkamp_Holding_BV.json"
+    },
+    {
+      "id": 5772362,
+      "name": "Sogesma SA",
+      "type": "Company",
+      "url": "https://wikirate.org/Sogesma_SA.json"
+    },
+    {
+      "id": 3096056,
+      "name": "Wibra Supermarkt B.V.",
+      "type": "Company",
+      "url": "https://wikirate.org/Wibra_Supermarkt_B_V.json"
+    },
+    {
+      "id": 5450234,
+      "name": "Peek & Cloppenburg",
+      "type": "Company",
+      "url": "https://wikirate.org/Peek_Cloppenburg.json"
     },
     {
       "id": 5411096,
@@ -256,130 +728,16 @@
       "url": "https://wikirate.org/Falc_SpA.json"
     },
     {
-      "id": 56584,
-      "name": "Fast Retailing",
-      "type": "Company",
-      "url": "https://wikirate.org/Fast_Retailing.json"
-    },
-    {
-      "id": 116106,
-      "name": "Fruit of the Loom",
-      "type": "Company",
-      "url": "https://wikirate.org/Fruit_of_the_Loom.json"
-    },
-    {
-      "id": 1173483,
-      "name": "G-star RAW",
-      "type": "Company",
-      "url": "https://wikirate.org/G_star_RAW.json"
-    },
-    {
-      "id": 5505,
-      "name": "Gap inc.",
-      "type": "Company",
-      "url": "https://wikirate.org/Gap_inc.json"
-    },
-    {
-      "id": 2624117,
-      "name": "Geox SpA",
-      "type": "Company",
-      "url": "https://wikirate.org/Geox_SpA.json"
-    },
-    {
-      "id": 18104,
-      "name": "Gucci",
-      "type": "Company",
-      "url": "https://wikirate.org/Gucci.json"
-    },
-    {
-      "id": 5590,
-      "name": "H&M",
-      "type": "Company",
-      "url": "https://wikirate.org/H_M.json"
-    },
-    {
-      "id": 3095582,
-      "name": "Hema",
-      "type": "Company",
-      "url": "https://wikirate.org/Hema.json"
-    },
-    {
-      "id": 42714,
-      "name": "Hugo Boss AG",
-      "type": "Company",
-      "url": "https://wikirate.org/Hugo_Boss_AG.json"
-    },
-    {
-      "id": 5301,
-      "name": "Inditex",
-      "type": "Company",
-      "url": "https://wikirate.org/Inditex.json"
-    },
-    {
-      "id": 5773142,
-      "name": "J&Joy SA",
-      "type": "Company",
-      "url": "https://wikirate.org/J_Joy_SA.json"
-    },
-    {
-      "id": 5411208,
-      "name": "Jack Wolfskin",
-      "type": "Company",
-      "url": "https://wikirate.org/Jack_Wolfskin.json"
-    },
-    {
       "id": 5772251,
       "name": "Javanne SA",
       "type": "Company",
       "url": "https://wikirate.org/Javanne_SA.json"
     },
     {
-      "id": 51051,
-      "name": "Kesko Corporation",
+      "id": 5772816,
+      "name": "BALR. BV",
       "type": "Company",
-      "url": "https://wikirate.org/Kesko_Corporation.json"
-    },
-    {
-      "id": 14787,
-      "name": "KiK Textilien und Non-Food GmbH",
-      "type": "Company",
-      "url": "https://wikirate.org/KiK_Textilien_und_Non_Food_GmbH.json"
-    },
-    {
-      "id": 5411668,
-      "name": "Kings Of Indigo",
-      "type": "Company",
-      "url": "https://wikirate.org/Kings_Of_Indigo.json"
-    },
-    {
-      "id": 5448749,
-      "name": "Kuyichi",
-      "type": "Company",
-      "url": "https://wikirate.org/Kuyichi.json"
-    },
-    {
-      "id": 5411248,
-      "name": "LaDress",
-      "type": "Company",
-      "url": "https://wikirate.org/LaDress.json"
-    },
-    {
-      "id": 5587,
-      "name": "Levi Strauss & Co.",
-      "type": "Company",
-      "url": "https://wikirate.org/Levi_Strauss_Co.json"
-    },
-    {
-      "id": 11071,
-      "name": "Lidl Stiftung & Co. KG",
-      "type": "Company",
-      "url": "https://wikirate.org/Lidl_Stiftung_Co_KG.json"
-    },
-    {
-      "id": 945113,
-      "name": "Lindex",
-      "type": "Company",
-      "url": "https://wikirate.org/Lindex.json"
+      "url": "https://wikirate.org/BALR_BV.json"
     },
     {
       "id": 5772824,
@@ -388,106 +746,16 @@
       "url": "https://wikirate.org/Livera_B_V.json"
     },
     {
-      "id": 3096060,
-      "name": "LPP",
+      "id": 5772832,
+      "name": "Buissonnière SA",
       "type": "Company",
-      "url": "https://wikirate.org/LPP.json"
+      "url": "https://wikirate.org/Buissonnière_SA.json"
     },
     {
-      "id": 5772264,
-      "name": "Luhta Sportswear Company",
+      "id": 5418579,
+      "name": "Cassis / Paprika S.A.",
       "type": "Company",
-      "url": "https://wikirate.org/Luhta_Sportswear_Company.json"
-    },
-    {
-      "id": 2605028,
-      "name": "Marimekko",
-      "type": "Company",
-      "url": "https://wikirate.org/Marimekko.json"
-    },
-    {
-      "id": 9269,
-      "name": "Marks and Spencer Group plc",
-      "type": "Company",
-      "url": "https://wikirate.org/Marks_and_Spencer_Group_plc.json"
-    },
-    {
-      "id": 5411520,
-      "name": "Mayerline",
-      "type": "Company",
-      "url": "https://wikirate.org/Mayerline.json"
-    },
-    {
-      "id": 3081306,
-      "name": "Missguided Limited",
-      "type": "Company",
-      "url": "https://wikirate.org/Missguided_Limited.json"
-    },
-    {
-      "id": 3081307,
-      "name": "Monsoon Accessorize Ltd",
-      "type": "Company",
-      "url": "https://wikirate.org/Monsoon_Accessorize_Ltd.json"
-    },
-    {
-      "id": 1833443,
-      "name": "New Look Retail Group",
-      "type": "Company",
-      "url": "https://wikirate.org/New_Look_Retail_Group.json"
-    },
-    {
-      "id": 49209,
-      "name": "Next",
-      "type": "Company",
-      "url": "https://wikirate.org/Next.json"
-    },
-    {
-      "id": 5800,
-      "name": "Nike Inc.",
-      "type": "Company",
-      "url": "https://wikirate.org/Nike_Inc.json"
-    },
-    {
-      "id": 5769257,
-      "name": "NP Fashion",
-      "type": "Company",
-      "url": "https://wikirate.org/NP_Fashion.json"
-    },
-    {
-      "id": 5769122,
-      "name": "Oberalp SpA",
-      "type": "Company",
-      "url": "https://wikirate.org/Oberalp_SpA.json"
-    },
-    {
-      "id": 3095557,
-      "name": "OLYMP Bezner KG",
-      "type": "Company",
-      "url": "https://wikirate.org/OLYMP_Bezner_KG.json"
-    },
-    {
-      "id": 945117,
-      "name": "Otto Group",
-      "type": "Company",
-      "url": "https://wikirate.org/Otto_Group.json"
-    },
-    {
-      "id": 5769312,
-      "name": "OVS SpA",
-      "type": "Company",
-      "url": "https://wikirate.org/OVS_SpA.json"
-    },
-    {
-      "id": 5450234,
-      "name": "Peek & Cloppenburg",
-      "type": "Company",
-      "url": "https://wikirate.org/Peek_Cloppenburg.json"
-    },
-    {
-      "id": 3152081,
-      "name": "Pentland Brands Ltd",
-      "type": "Company",
-      "url": "https://wikirate.org/Pentland_Brands_Ltd.json"
+      "url": "https://wikirate.org/Cassis_Paprika_S_A.json"
     },
     {
       "id": 6097626,
@@ -496,22 +764,10 @@
       "url": "https://wikirate.org/Prenatal_Moeder_en_Kind_B_V.json"
     },
     {
-      "id": 5420,
-      "name": "Primark",
+      "id": 3096060,
+      "name": "LPP",
       "type": "Company",
-      "url": "https://wikirate.org/Primark.json"
-    },
-    {
-      "id": 18109,
-      "name": "Puma",
-      "type": "Company",
-      "url": "https://wikirate.org/Puma.json"
-    },
-    {
-      "id": 61050,
-      "name": "PVH",
-      "type": "Company",
-      "url": "https://wikirate.org/PVH.json"
+      "url": "https://wikirate.org/LPP.json"
     },
     {
       "id": 3095211,
@@ -520,148 +776,1096 @@
       "url": "https://wikirate.org/Reima.json"
     },
     {
-      "id": 5772203,
-      "name": "Retail Concepts SA",
+      "id": 5411248,
+      "name": "LaDress",
       "type": "Company",
-      "url": "https://wikirate.org/Retail_Concepts_SA.json"
+      "url": "https://wikirate.org/LaDress.json"
     },
     {
-      "id": 3096453,
-      "name": "S.Oliver",
+      "id": 5772264,
+      "name": "Luhta Sportswear Company",
       "type": "Company",
-      "url": "https://wikirate.org/S_Oliver.json"
+      "url": "https://wikirate.org/Luhta_Sportswear_Company.json"
     },
     {
-      "id": 57199,
-      "name": "Sainsbury's",
+      "id": 2796893,
+      "name": "El Corte Ingles S.A.",
       "type": "Company",
-      "url": "https://wikirate.org/Sainsbury_s.json"
+      "url": "https://wikirate.org/El_Corte_Ingles_S_A.json"
     },
     {
-      "id": 5411392,
-      "name": "Schijvens",
+      "id": 8979,
+      "name": "Louis Vuitton Malletier SA (LVMH)",
       "type": "Company",
-      "url": "https://wikirate.org/Schijvens.json"
+      "url": "https://wikirate.org/Louis_Vuitton_Malletier_SA_LVMH.json"
     },
     {
-      "id": 5449632,
-      "name": "Scotch and Soda",
+      "id": 9139,
+      "name": "Burberry Group plc",
       "type": "Company",
-      "url": "https://wikirate.org/Scotch_and_Soda.json"
+      "url": "https://wikirate.org/Burberry_Group_plc.json"
     },
     {
-      "id": 5772362,
-      "name": "Sogesma SA",
+      "id": 866194,
+      "name": "Guess? Inc",
       "type": "Company",
-      "url": "https://wikirate.org/Sogesma_SA.json"
+      "url": "https://wikirate.org/Guess_Inc.json"
     },
     {
-      "id": 1625351,
-      "name": "SOK S Group",
+      "id": 56618,
+      "name": "Nordstrom",
       "type": "Company",
-      "url": "https://wikirate.org/SOK_S_Group.json"
+      "url": "https://wikirate.org/Nordstrom.json"
     },
     {
-      "id": 5407268,
-      "name": "Stanley and Stella SA",
+      "id": 858415,
+      "name": "Fossil Group, Inc.",
       "type": "Company",
-      "url": "https://wikirate.org/Stanley_and_Stella_SA.json"
+      "url": "https://wikirate.org/Fossil_Group_Inc.json"
     },
     {
-      "id": 170611,
-      "name": "Stockmann Oyj Abp",
+      "id": 862441,
+      "name": "American Eagle Outfitters",
       "type": "Company",
-      "url": "https://wikirate.org/Stockmann_Oyj_Abp.json"
+      "url": "https://wikirate.org/American_Eagle_Outfitters.json"
     },
     {
-      "id": 2618013,
-      "name": "Tchibo GmbH",
+      "id": 859389,
+      "name": "Urban Outfitters",
       "type": "Company",
-      "url": "https://wikirate.org/Tchibo_GmbH.json"
+      "url": "https://wikirate.org/Urban_Outfitters.json"
     },
     {
-      "id": 5210,
-      "name": "Tesco PLC",
+      "id": 866417,
+      "name": "Skechers USA Inc",
       "type": "Company",
-      "url": "https://wikirate.org/Tesco_PLC.json"
+      "url": "https://wikirate.org/Skechers_USA_Inc.json"
     },
     {
-      "id": 5769393,
-      "name": "The Cotton Group SA",
+      "id": 61065,
+      "name": "Prada",
       "type": "Company",
-      "url": "https://wikirate.org/The_Cotton_Group_SA.json"
+      "url": "https://wikirate.org/Prada.json"
     },
     {
-      "id": 3096050,
-      "name": "The Sting B.V.",
+      "id": 2265395,
+      "name": "Ralph Lauren Corporation",
       "type": "Company",
-      "url": "https://wikirate.org/The_Sting_B_V.json"
+      "url": "https://wikirate.org/Ralph_Lauren_Corporation.json"
     },
     {
-      "id": 5759320,
-      "name": "Tokmanni",
+      "id": 861862,
+      "name": "Columbia Sportswear",
       "type": "Company",
-      "url": "https://wikirate.org/Tokmanni.json"
+      "url": "https://wikirate.org/Columbia_Sportswear.json"
     },
     {
-      "id": 5448719,
-      "name": "Tom Tailor",
+      "id": 60914,
+      "name": "Abercrombie & Fitch",
       "type": "Company",
-      "url": "https://wikirate.org/Tom_Tailor.json"
+      "url": "https://wikirate.org/Abercrombie_Fitch.json"
     },
     {
-      "id": 116498,
-      "name": "Under Armour",
+      "id": 58500,
+      "name": "Foot Locker Inc.",
       "type": "Company",
-      "url": "https://wikirate.org/Under_Armour.json"
+      "url": "https://wikirate.org/Foot_Locker_Inc.json"
     },
     {
-      "id": 44397,
-      "name": "Vaude",
+      "id": 61176,
+      "name": "Macy's",
       "type": "Company",
-      "url": "https://wikirate.org/Vaude.json"
+      "url": "https://wikirate.org/Macy_s.json"
     },
     {
-      "id": 42628,
-      "name": "Walmart",
+      "id": 2241782,
+      "name": "DSW Inc.",
       "type": "Company",
-      "url": "https://wikirate.org/Walmart.json"
+      "url": "https://wikirate.org/DSW_Inc.json"
     },
     {
-      "id": 3096055,
-      "name": "We Europe BV",
+      "id": 792992,
+      "name": "Moncler",
       "type": "Company",
-      "url": "https://wikirate.org/We_Europe_BV.json"
+      "url": "https://wikirate.org/Moncler.json"
     },
     {
-      "id": 5772376,
-      "name": "Wehkamp Holding BV",
+      "id": 56864,
+      "name": "Woolworths Holdings Limited",
       "type": "Company",
-      "url": "https://wikirate.org/Wehkamp_Holding_BV.json"
+      "url": "https://wikirate.org/Woolworths_Holdings_Limited.json"
     },
     {
-      "id": 3096056,
-      "name": "Wibra Supermarkt B.V.",
+      "id": 57653,
+      "name": "Ross Stores",
       "type": "Company",
-      "url": "https://wikirate.org/Wibra_Supermarkt_B_V.json"
+      "url": "https://wikirate.org/Ross_Stores.json"
     },
     {
-      "id": 2608717,
-      "name": "Zalando SE",
+      "id": 2632311,
+      "name": "Chico's FAS Inc",
       "type": "Company",
-      "url": "https://wikirate.org/Zalando_SE.json"
+      "url": "https://wikirate.org/Chico_s_FAS_Inc.json"
     },
     {
-      "id": 3096058,
-      "name": "Zeeman",
+      "id": 116138,
+      "name": "Gildan Activewear Inc.",
       "type": "Company",
-      "url": "https://wikirate.org/Zeeman.json"
+      "url": "https://wikirate.org/Gildan_Activewear_Inc.json"
     },
     {
-      "id": 5772848,
-      "name": "Van Heurck",
+      "id": 5424735,
+      "name": "Anta Sports Products",
       "type": "Company",
-      "url": "https://wikirate.org/Van_Heurck.json"
+      "url": "https://wikirate.org/Anta_Sports_Products.json"
+    },
+    {
+      "id": 3624718,
+      "name": "Gerry Weber",
+      "type": "Company",
+      "url": "https://wikirate.org/Gerry_Weber.json"
+    },
+    {
+      "id": 3624475,
+      "name": "Brunello Cucinelli",
+      "type": "Company",
+      "url": "https://wikirate.org/Brunello_Cucinelli.json"
+    },
+    {
+      "id": 2608722,
+      "name": "Salvatore Ferragamo SpA",
+      "type": "Company",
+      "url": "https://wikirate.org/Salvatore_Ferragamo_SpA.json"
+    },
+    {
+      "id": 2632164,
+      "name": "Express Inc",
+      "type": "Company",
+      "url": "https://wikirate.org/Express_Inc.json"
+    },
+    {
+      "id": 48284,
+      "name": "Hermes International",
+      "type": "Company",
+      "url": "https://wikirate.org/Hermes_International.json"
+    },
+    {
+      "id": 3098198,
+      "name": "Hudson's Bay Company",
+      "type": "Company",
+      "url": "https://wikirate.org/Hudson_s_Bay_Company.json"
+    },
+    {
+      "id": 5294189,
+      "name": "Bosideng International Holdings Limited",
+      "type": "Company",
+      "url": "https://wikirate.org/Bosideng_International_Holdings_Limited.json"
+    },
+    {
+      "id": 42625,
+      "name": "Target",
+      "type": "Company",
+      "url": "https://wikirate.org/Target.json"
+    },
+    {
+      "id": 3624503,
+      "name": "Metersbonwe",
+      "type": "Company",
+      "url": "https://wikirate.org/Metersbonwe.json"
+    },
+    {
+      "id": 5408890,
+      "name": "Canada Goose",
+      "type": "Company",
+      "url": "https://wikirate.org/Canada_Goose.json"
+    },
+    {
+      "id": 3624496,
+      "name": "United Arrows",
+      "type": "Company",
+      "url": "https://wikirate.org/United_Arrows.json"
+    },
+    {
+      "id": 50638,
+      "name": "Dick's Sporting Goods",
+      "type": "Company",
+      "url": "https://wikirate.org/Dick_s_Sporting_Goods.json"
+    },
+    {
+      "id": 3152073,
+      "name": "Michael Kors Holdings Limited",
+      "type": "Company",
+      "url": "https://wikirate.org/Michael_Kors_Holdings_Limited.json"
+    },
+    {
+      "id": 2980808,
+      "name": "Buckle Inc",
+      "type": "Company",
+      "url": "https://wikirate.org/Buckle_Inc.json"
+    },
+    {
+      "id": 3624461,
+      "name": "TOD'S",
+      "type": "Company",
+      "url": "https://wikirate.org/TOD_S.json"
+    },
+    {
+      "id": 776665,
+      "name": "Dillard's, Inc.",
+      "type": "Company",
+      "url": "https://wikirate.org/Dillard_s_Inc.json"
+    },
+    {
+      "id": 1173485,
+      "name": "Li-Ning",
+      "type": "Company",
+      "url": "https://wikirate.org/Li_Ning.json"
+    },
+    {
+      "id": 2632436,
+      "name": "Children's Place Inc",
+      "type": "Company",
+      "url": "https://wikirate.org/Children_s_Place_Inc.json"
+    },
+    {
+      "id": 3624447,
+      "name": "Steve Madden",
+      "type": "Company",
+      "url": "https://wikirate.org/Steve_Madden.json"
+    },
+    {
+      "id": 1825510,
+      "name": "lululemon athletica",
+      "type": "Company",
+      "url": "https://wikirate.org/lululemon_athletica.json"
+    },
+    {
+      "id": 3151635,
+      "name": "Ted Baker",
+      "type": "Company",
+      "url": "https://wikirate.org/Ted_Baker.json"
+    },
+    {
+      "id": 2632287,
+      "name": "Burlington Stores Inc",
+      "type": "Company",
+      "url": "https://wikirate.org/Burlington_Stores_Inc.json"
+    },
+    {
+      "id": 3624592,
+      "name": "JD Sports Fashion plc",
+      "type": "Company",
+      "url": "https://wikirate.org/JD_Sports_Fashion_plc.json"
+    },
+    {
+      "id": 3624482,
+      "name": "Superdry plc",
+      "type": "Company",
+      "url": "https://wikirate.org/Superdry_plc.json"
+    },
+    {
+      "id": 44618,
+      "name": "Sports Direct",
+      "type": "Company",
+      "url": "https://wikirate.org/Sports_Direct.json"
+    },
+    {
+      "id": 3624425,
+      "name": "Semir",
+      "type": "Company",
+      "url": "https://wikirate.org/Semir.json"
+    },
+    {
+      "id": 2605005,
+      "name": "Carter's Inc",
+      "type": "Company",
+      "url": "https://wikirate.org/Carter_s_Inc.json"
+    },
+    {
+      "id": 9413,
+      "name": "The Walt Disney Company",
+      "type": "Company",
+      "url": "https://wikirate.org/The_Walt_Disney_Company.json"
+    },
+    {
+      "id": 9410,
+      "name": "Patagonia Inc.",
+      "type": "Company",
+      "url": "https://wikirate.org/Patagonia_Inc.json"
+    },
+    {
+      "id": 47675,
+      "name": "Costco Wholesale",
+      "type": "Company",
+      "url": "https://wikirate.org/Costco_Wholesale.json"
+    },
+    {
+      "id": 866379,
+      "name": "Quiksilver Inc",
+      "type": "Company",
+      "url": "https://wikirate.org/Quiksilver_Inc.json"
+    },
+    {
+      "id": 875409,
+      "name": "Lands' End, Inc.",
+      "type": "Company",
+      "url": "https://wikirate.org/Lands_End_Inc.json"
+    },
+    {
+      "id": 945116,
+      "name": "Mango Group",
+      "type": "Company",
+      "url": "https://wikirate.org/Mango_Group.json"
+    },
+    {
+      "id": 2612145,
+      "name": "Aeropostale Inc.",
+      "type": "Company",
+      "url": "https://wikirate.org/Aeropostale_Inc.json"
+    },
+    {
+      "id": 2975722,
+      "name": "Claire's Stores, Inc.",
+      "type": "Company",
+      "url": "https://wikirate.org/Claire_s_Stores_Inc.json"
+    },
+    {
+      "id": 2612077,
+      "name": "The Very Group",
+      "type": "Company",
+      "url": "https://wikirate.org/The_Very_Group.json"
+    },
+    {
+      "id": 56013,
+      "name": "New Balance Athletic Shoe, Inc.",
+      "type": "Company",
+      "url": "https://wikirate.org/New_Balance_Athletic_Shoe_Inc.json"
+    },
+    {
+      "id": 1826117,
+      "name": "Brooks Sports, Inc",
+      "type": "Company",
+      "url": "https://wikirate.org/Brooks_Sports_Inc.json"
+    },
+    {
+      "id": 57356,
+      "name": "Kohl's",
+      "type": "Company",
+      "url": "https://wikirate.org/Kohl_s.json"
+    },
+    {
+      "id": 2612054,
+      "name": "Chanel SA",
+      "type": "Company",
+      "url": "https://wikirate.org/Chanel_SA.json"
+    },
+    {
+      "id": 2608766,
+      "name": "Mizuno Corporation",
+      "type": "Company",
+      "url": "https://wikirate.org/Mizuno_Corporation.json"
+    },
+    {
+      "id": 4817668,
+      "name": "Gianni Versace S.r.l.",
+      "type": "Company",
+      "url": "https://wikirate.org/Gianni_Versace_S_r_l.json"
+    },
+    {
+      "id": 1830731,
+      "name": "Airwair International Ltd (Dr Martens)",
+      "type": "Company",
+      "url": "https://wikirate.org/Airwair_International_Ltd_Dr_Martens.json"
+    },
+    {
+      "id": 3152069,
+      "name": "Lidl Limited",
+      "type": "Company",
+      "url": "https://wikirate.org/Lidl_Limited.json"
+    },
+    {
+      "id": 170683,
+      "name": "Kathmandu Holdings Ltd",
+      "type": "Company",
+      "url": "https://wikirate.org/Kathmandu_Holdings_Ltd.json"
+    },
+    {
+      "id": 130172,
+      "name": "Warehouse Group",
+      "type": "Company",
+      "url": "https://wikirate.org/Warehouse_Group.json"
+    },
+    {
+      "id": 3096434,
+      "name": "Cotton on Group",
+      "type": "Company",
+      "url": "https://wikirate.org/Cotton_on_Group.json"
+    },
+    {
+      "id": 2602256,
+      "name": "Lacoste",
+      "type": "Company",
+      "url": "https://wikirate.org/Lacoste.json"
+    },
+    {
+      "id": 37353,
+      "name": "The North Face Inc.",
+      "type": "Company",
+      "url": "https://wikirate.org/The_North_Face_Inc.json"
+    },
+    {
+      "id": 3096473,
+      "name": "John Lewis",
+      "type": "Company",
+      "url": "https://wikirate.org/John_Lewis.json"
+    },
+    {
+      "id": 5362659,
+      "name": "Eddie Bauer",
+      "type": "Company",
+      "url": "https://wikirate.org/Eddie_Bauer.json"
+    },
+    {
+      "id": 3095636,
+      "name": "River Island",
+      "type": "Company",
+      "url": "https://wikirate.org/River_Island.json"
+    },
+    {
+      "id": 2624219,
+      "name": "Mammut Sports Group AG",
+      "type": "Company",
+      "url": "https://wikirate.org/Mammut_Sports_Group_AG.json"
+    },
+    {
+      "id": 3096086,
+      "name": "Matalan",
+      "type": "Company",
+      "url": "https://wikirate.org/Matalan.json"
+    },
+    {
+      "id": 3304258,
+      "name": "LL Bean",
+      "type": "Company",
+      "url": "https://wikirate.org/LL_Bean.json"
+    },
+    {
+      "id": 3666090,
+      "name": "Saint Laurent",
+      "type": "Company",
+      "url": "https://wikirate.org/Saint_Laurent.json"
+    },
+    {
+      "id": 3095563,
+      "name": "Takko Holding GmbH",
+      "type": "Company",
+      "url": "https://wikirate.org/Takko_Holding_GmbH.json"
+    },
+    {
+      "id": 48433,
+      "name": "Falabella",
+      "type": "Company",
+      "url": "https://wikirate.org/Falabella.json"
+    },
+    {
+      "id": 798621,
+      "name": "Giorgio Armani SpA",
+      "type": "Company",
+      "url": "https://wikirate.org/Giorgio_Armani_SpA.json"
+    },
+    {
+      "id": 3097707,
+      "name": "C&J Clark International",
+      "type": "Company",
+      "url": "https://wikirate.org/C_J_Clark_International.json"
+    },
+    {
+      "id": 3098194,
+      "name": "Desigual",
+      "type": "Company",
+      "url": "https://wikirate.org/Desigual.json"
+    },
+    {
+      "id": 5449637,
+      "name": "Pimkie",
+      "type": "Company",
+      "url": "https://wikirate.org/Pimkie.json"
+    },
+    {
+      "id": 2608837,
+      "name": "Carhartt Inc",
+      "type": "Company",
+      "url": "https://wikirate.org/Carhartt_Inc.json"
+    },
+    {
+      "id": 5787297,
+      "name": "Dressmann",
+      "type": "Company",
+      "url": "https://wikirate.org/Dressmann.json"
+    },
+    {
+      "id": 5785972,
+      "name": "F&F",
+      "type": "Company",
+      "url": "https://wikirate.org/F_F.json"
+    },
+    {
+      "id": 2608708,
+      "name": "Helly Hansen AS",
+      "type": "Company",
+      "url": "https://wikirate.org/Helly_Hansen_AS.json"
+    },
+    {
+      "id": 5434572,
+      "name": "New Yorker",
+      "type": "Company",
+      "url": "https://wikirate.org/New_Yorker.json"
+    },
+    {
+      "id": 5451007,
+      "name": "Speedo International Limited",
+      "type": "Company",
+      "url": "https://wikirate.org/Speedo_International_Limited.json"
+    },
+    {
+      "id": 5624414,
+      "name": "FILA",
+      "type": "Company",
+      "url": "https://wikirate.org/FILA.json"
+    },
+    {
+      "id": 3095215,
+      "name": "Monoprix",
+      "type": "Company",
+      "url": "https://wikirate.org/Monoprix.json"
+    },
+    {
+      "id": 1830414,
+      "name": "REI",
+      "type": "Company",
+      "url": "https://wikirate.org/REI.json"
+    },
+    {
+      "id": 3095632,
+      "name": "Target Australia",
+      "type": "Company",
+      "url": "https://wikirate.org/Target_Australia.json"
+    },
+    {
+      "id": 5414341,
+      "name": "Aritzia",
+      "type": "Company",
+      "url": "https://wikirate.org/Aritzia.json"
+    },
+    {
+      "id": 49737,
+      "name": "Belle International Holdings",
+      "type": "Company",
+      "url": "https://wikirate.org/Belle_International_Holdings.json"
+    },
+    {
+      "id": 5772433,
+      "name": "George (brand)",
+      "type": "Company",
+      "url": "https://wikirate.org/George_brand.json"
+    },
+    {
+      "id": 5434593,
+      "name": "Max Mara",
+      "type": "Company",
+      "url": "https://wikirate.org/Max_Mara.json"
+    },
+    {
+      "id": 2618141,
+      "name": "Diesel SpA",
+      "type": "Company",
+      "url": "https://wikirate.org/Diesel_SpA.json"
+    },
+    {
+      "id": 44824,
+      "name": "Joe Fresh",
+      "type": "Company",
+      "url": "https://wikirate.org/Joe_Fresh.json"
+    },
+    {
+      "id": 3098195,
+      "name": "Kmart Australia",
+      "type": "Company",
+      "url": "https://wikirate.org/Kmart_Australia.json"
+    },
+    {
+      "id": 5404685,
+      "name": "Mr Price",
+      "type": "Company",
+      "url": "https://wikirate.org/Mr_Price.json"
+    },
+    {
+      "id": 5455751,
+      "name": "Muji",
+      "type": "Company",
+      "url": "https://wikirate.org/Muji.json"
+    },
+    {
+      "id": 4580341,
+      "name": "Topshop",
+      "type": "Company",
+      "url": "https://wikirate.org/Topshop.json"
+    },
+    {
+      "id": 5786660,
+      "name": "UGG",
+      "type": "Company",
+      "url": "https://wikirate.org/UGG.json"
+    },
+    {
+      "id": 5451022,
+      "name": "Victoria's Secret",
+      "type": "Company",
+      "url": "https://wikirate.org/Victoria_s_Secret.json"
+    },
+    {
+      "id": 5407364,
+      "name": "Wrangler",
+      "type": "Company",
+      "url": "https://wikirate.org/Wrangler.json"
+    },
+    {
+      "id": 5793646,
+      "name": "ALDO",
+      "type": "Company",
+      "url": "https://wikirate.org/ALDO.json"
+    },
+    {
+      "id": 5786959,
+      "name": "Beanpole",
+      "type": "Company",
+      "url": "https://wikirate.org/Beanpole.json"
+    },
+    {
+      "id": 5771133,
+      "name": "Bonprix",
+      "type": "Company",
+      "url": "https://wikirate.org/Bonprix.json"
+    },
+    {
+      "id": 5786255,
+      "name": "Caroll",
+      "type": "Company",
+      "url": "https://wikirate.org/Caroll.json"
+    },
+    {
+      "id": 5788667,
+      "name": "Ito Yokado",
+      "type": "Company",
+      "url": "https://wikirate.org/Ito_Yokado.json"
+    },
+    {
+      "id": 5767139,
+      "name": "Kmart Corporation",
+      "type": "Company",
+      "url": "https://wikirate.org/Kmart_Corporation.json"
+    },
+    {
+      "id": 5786878,
+      "name": "Marni",
+      "type": "Company",
+      "url": "https://wikirate.org/Marni.json"
+    },
+    {
+      "id": 5788773,
+      "name": "Merrell",
+      "type": "Company",
+      "url": "https://wikirate.org/Merrell.json"
+    },
+    {
+      "id": 5788828,
+      "name": "Nutmeg at Morrisons",
+      "type": "Company",
+      "url": "https://wikirate.org/Nutmeg_at_Morrisons.json"
+    },
+    {
+      "id": 5788986,
+      "name": "Sandro",
+      "type": "Company",
+      "url": "https://wikirate.org/Sandro.json"
+    },
+    {
+      "id": 5796122,
+      "name": "BCBGMAXAZRIA",
+      "type": "Company",
+      "url": "https://wikirate.org/BCBGMAXAZRIA.json"
+    },
+    {
+      "id": 5786653,
+      "name": "Big Bazaar",
+      "type": "Company",
+      "url": "https://wikirate.org/Big_Bazaar.json"
+    },
+    {
+      "id": 3666091,
+      "name": "Bottega Veneta",
+      "type": "Company",
+      "url": "https://wikirate.org/Bottega_Veneta.json"
+    },
+    {
+      "id": 5791067,
+      "name": "Carolina Herrera",
+      "type": "Company",
+      "url": "https://wikirate.org/Carolina_Herrera.json"
+    },
+    {
+      "id": 5399412,
+      "name": "Coach Stores Limited",
+      "type": "Company",
+      "url": "https://wikirate.org/Coach_Stores_Limited.json"
+    },
+    {
+      "id": 4580228,
+      "name": "Dolce & Gabbana",
+      "type": "Company",
+      "url": "https://wikirate.org/Dolce_Gabbana.json"
+    },
+    {
+      "id": 5448716,
+      "name": "Ermenegildo Zegna",
+      "type": "Company",
+      "url": "https://wikirate.org/Ermenegildo_Zegna.json"
+    },
+    {
+      "id": 5788552,
+      "name": "Fjallraven",
+      "type": "Company",
+      "url": "https://wikirate.org/Fjallraven.json"
+    },
+    {
+      "id": 2608807,
+      "name": "Jockey International Inc",
+      "type": "Company",
+      "url": "https://wikirate.org/Jockey_International_Inc.json"
+    },
+    {
+      "id": 5809520,
+      "name": "Mexx",
+      "type": "Company",
+      "url": "https://wikirate.org/Mexx.json"
+    },
+    {
+      "id": 5809440,
+      "name": "Nine West",
+      "type": "Company",
+      "url": "https://wikirate.org/Nine_West.json"
+    },
+    {
+      "id": 5813281,
+      "name": "Pepe Jeans",
+      "type": "Company",
+      "url": "https://wikirate.org/Pepe_Jeans.json"
+    },
+    {
+      "id": 5802813,
+      "name": "Reliance Trends",
+      "type": "Company",
+      "url": "https://wikirate.org/Reliance_Trends.json"
+    },
+    {
+      "id": 5816400,
+      "name": "REVOLVE",
+      "type": "Company",
+      "url": "https://wikirate.org/REVOLVE.json"
+    },
+    {
+      "id": 5787366,
+      "name": "TJ Maxx",
+      "type": "Company",
+      "url": "https://wikirate.org/TJ_Maxx.json"
+    },
+    {
+      "id": 2624201,
+      "name": "Triumph International",
+      "type": "Company",
+      "url": "https://wikirate.org/Triumph_International.json"
+    },
+    {
+      "id": 8977,
+      "name": "Valentino SpA",
+      "type": "Company",
+      "url": "https://wikirate.org/Valentino_SpA.json"
+    },
+    {
+      "id": 3666092,
+      "name": "Balenciaga",
+      "type": "Company",
+      "url": "https://wikirate.org/Balenciaga.json"
+    },
+    {
+      "id": 5809473,
+      "name": "JustFab",
+      "type": "Company",
+      "url": "https://wikirate.org/JustFab.json"
+    },
+    {
+      "id": 5791831,
+      "name": "Tommy Bahama",
+      "type": "Company",
+      "url": "https://wikirate.org/Tommy_Bahama.json"
+    },
+    {
+      "id": 5793129,
+      "name": "Fanatics",
+      "type": "Company",
+      "url": "https://wikirate.org/Fanatics.json"
+    },
+    {
+      "id": 5785348,
+      "name": "Youngor",
+      "type": "Company",
+      "url": "https://wikirate.org/Youngor.json"
+    },
+    {
+      "id": 5786423,
+      "name": "Bally",
+      "type": "Company",
+      "url": "https://wikirate.org/Bally.json"
+    },
+    {
+      "id": 3663884,
+      "name": "Chloé",
+      "type": "Company",
+      "url": "https://wikirate.org/Chloé.json"
+    },
+    {
+      "id": 2612137,
+      "name": "Cortefiel SA",
+      "type": "Company",
+      "url": "https://wikirate.org/Cortefiel_SA.json"
+    },
+    {
+      "id": 2602233,
+      "name": "Fendi",
+      "type": "Company",
+      "url": "https://wikirate.org/Fendi.json"
+    },
+    {
+      "id": 3624573,
+      "name": "Hanes",
+      "type": "Company",
+      "url": "https://wikirate.org/Hanes.json"
+    },
+    {
+      "id": 5788689,
+      "name": "Jil Sander",
+      "type": "Company",
+      "url": "https://wikirate.org/Jil_Sander.json"
+    },
+    {
+      "id": 5769662,
+      "name": "United Colors of Benetton",
+      "type": "Company",
+      "url": "https://wikirate.org/United_Colors_of_Benetton.json"
+    },
+    {
+      "id": 5791283,
+      "name": "Cole Haan",
+      "type": "Company",
+      "url": "https://wikirate.org/Cole_Haan.json"
+    },
+    {
+      "id": 1810808,
+      "name": "DKNY",
+      "type": "Company",
+      "url": "https://wikirate.org/DKNY.json"
+    },
+    {
+      "id": 5792753,
+      "name": "Elie Tahari",
+      "type": "Company",
+      "url": "https://wikirate.org/Elie_Tahari.json"
+    },
+    {
+      "id": 5792958,
+      "name": "Famous Footwear",
+      "type": "Company",
+      "url": "https://wikirate.org/Famous_Footwear.json"
+    },
+    {
+      "id": 5793191,
+      "name": "Fashion Nova",
+      "type": "Company",
+      "url": "https://wikirate.org/Fashion_Nova.json"
+    },
+    {
+      "id": 5786795,
+      "name": "Foschini",
+      "type": "Company",
+      "url": "https://wikirate.org/Foschini.json"
+    },
+    {
+      "id": 5793038,
+      "name": "Furla",
+      "type": "Company",
+      "url": "https://wikirate.org/Furla.json"
+    },
+    {
+      "id": 2631045,
+      "name": "Heilan Home",
+      "type": "Company",
+      "url": "https://wikirate.org/Heilan_Home.json"
+    },
+    {
+      "id": 5786329,
+      "name": "Jessica Simpson",
+      "type": "Company",
+      "url": "https://wikirate.org/Jessica_Simpson.json"
+    },
+    {
+      "id": 5809557,
+      "name": "K-Way",
+      "type": "Company",
+      "url": "https://wikirate.org/K_Way.json"
+    },
+    {
+      "id": 793194,
+      "name": "Kaufland",
+      "type": "Company",
+      "url": "https://wikirate.org/Kaufland.json"
+    },
+    {
+      "id": 5809578,
+      "name": "Koovs",
+      "type": "Company",
+      "url": "https://wikirate.org/Koovs.json"
+    },
+    {
+      "id": 5815194,
+      "name": "La Redoute",
+      "type": "Company",
+      "url": "https://wikirate.org/La_Redoute.json"
+    },
+    {
+      "id": 5815178,
+      "name": "Longchamp",
+      "type": "Company",
+      "url": "https://wikirate.org/Longchamp.json"
+    },
+    {
+      "id": 2608809,
+      "name": "Tom Ford International LLC",
+      "type": "Company",
+      "url": "https://wikirate.org/Tom_Ford_International_LLC.json"
+    },
+    {
+      "id": 5789105,
+      "name": "Topvalu",
+      "type": "Company",
+      "url": "https://wikirate.org/Topvalu.json"
+    },
+    {
+      "id": 5791802,
+      "name": "Tory Burch LLC",
+      "type": "Company",
+      "url": "https://wikirate.org/Tory_Burch_LLC.json"
+    },
+    {
+      "id": 788367,
+      "name": "Truworths",
+      "type": "Company",
+      "url": "https://wikirate.org/Truworths.json"
+    },
+    {
+      "id": 5449646,
+      "name": "Kiabi",
+      "type": "Company",
+      "url": "https://wikirate.org/Kiabi.json"
+    },
+    {
+      "id": 7453038,
+      "name": "Paris (Almacenes Paris)",
+      "type": "Company",
+      "url": "https://wikirate.org/Paris_Almacenes_Paris.json"
+    },
+    {
+      "id": 7452173,
+      "name": "Shein",
+      "type": "Company",
+      "url": "https://wikirate.org/Shein.json"
+    },
+    {
+      "id": 7608200,
+      "name": "Splash",
+      "type": "Company",
+      "url": "https://wikirate.org/Splash.json"
+    },
+    {
+      "id": 3096079,
+      "name": "LC Waikiki",
+      "type": "Company",
+      "url": "https://wikirate.org/LC_Waikiki.json"
+    },
+    {
+      "id": 6215068,
+      "name": "Deichmann SE",
+      "type": "Company",
+      "url": "https://wikirate.org/Deichmann_SE.json"
+    },
+    {
+      "id": 5772787,
+      "name": "Bio-Racer nv",
+      "type": "Company",
+      "url": "https://wikirate.org/Bio_Racer_nv.json"
+    },
+    {
+      "id": 5769159,
+      "name": "Cortina Group",
+      "type": "Company",
+      "url": "https://wikirate.org/Cortina_Group.json"
+    },
+    {
+      "id": 5772794,
+      "name": "Essentiel Antwerp",
+      "type": "Company",
+      "url": "https://wikirate.org/Essentiel_Antwerp.json"
+    },
+    {
+      "id": 5769111,
+      "name": "Fabrimode NV",
+      "type": "Company",
+      "url": "https://wikirate.org/Fabrimode_NV.json"
+    },
+    {
+      "id": 5773107,
+      "name": "G-skin",
+      "type": "Company",
+      "url": "https://wikirate.org/G_skin.json"
+    },
+    {
+      "id": 5772199,
+      "name": "PP Retail Group",
+      "type": "Company",
+      "url": "https://wikirate.org/PP_Retail_Group.json"
+    },
+    {
+      "id": 3624517,
+      "name": "Van de Velde",
+      "type": "Company",
+      "url": "https://wikirate.org/Van_de_Velde.json"
+    },
+    {
+      "id": 5772809,
+      "name": "Vermarc Sport nv",
+      "type": "Company",
+      "url": "https://wikirate.org/Vermarc_Sport_nv.json"
+    },
+    {
+      "id": 5772349,
+      "name": "Cetex Sud NV",
+      "type": "Company",
+      "url": "https://wikirate.org/Cetex_Sud_NV.json"
+    },
+    {
+      "id": 3095202,
+      "name": "JBC NV",
+      "type": "Company",
+      "url": "https://wikirate.org/JBC_NV.json"
     }
   ],
   "links": [
@@ -669,11 +1873,10 @@
   ],
   "ancestors": [
     {
-      "id": 6140362,
-      "name": "Filling the Gap Company Group",
+      "id": 7887730,
+      "name": "FashionChecker Companies 2021",
       "type": "Company Group",
-      "url": "https://wikirate.org/Filling_the_Gap_Company_Group.json",
-      "codename": "filling_the_gap_group"
+      "url": "https://wikirate.org/FashionChecker_Companies_2021.json"
     },
     {
       "id": 651,
@@ -683,8 +1886,8 @@
       "codename": "wikirate_company"
     }
   ],
-  "html_url": "https://wikirate.org/Filling_the_Gap_Company_Group+Company",
-  "created_at": "2020-06-17 09:49:58 UTC",
-  "updated_at": "2021-03-17 15:45:12 UTC",
-  "requested_at": "2021-08-10 18:44:16 +0200"
+  "html_url": "https://wikirate.org/FashionChecker_Companies_2021+Company",
+  "created_at": "2021-08-24 16:55:00 UTC",
+  "updated_at": "2021-09-03 13:12:31 UTC",
+  "requested_at": "2021-09-04 17:22:48 +0200"
 }
