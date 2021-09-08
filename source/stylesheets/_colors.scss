@@ -13,6 +13,7 @@ $lighter-blue: #7c8dc4;
 $other-blue: #4a588c;
 $medium-blue: #112053;
 $sky-blue: #5a6fb7;
+$green: #62ac5b;
 
 .food {
   fill: #fdbf41;
@@ -63,10 +64,10 @@ $sky-blue: #5a6fb7;
 }
 
 .savings {
-  fill: #62ac5b;
-  color: #62ac5b;
+  fill: $green;
+  color: $green;
   .card-face:hover {
-    border: 1px solid #62ac5b;
+    border: 1px solid $green;
   }
 }
 
@@ -128,7 +129,7 @@ $body-bg: $blue;
 }
 
 .lighter-blue-bg {
-  background-color: $lighter-blue;
+  background-color: $lighter-blue !important;
   color: $table-color;
 }
 
@@ -169,6 +170,10 @@ $body-bg: $blue;
   color: $pink;
 }
 
+.navy {
+  color: $navy !important;
+}
+
 .pink-bg {
   background-color: $pink;
 }
@@ -194,3 +199,9 @@ $body-bg: $blue;
 .lighter-blue {
   color: $lighter-blue;
 }
+
+.livingWage-A { color: #119DFF; }
+.livingWage-B { color: #FFB000; }
+.livingWage-C { color: #FF763D; }
+.livingWage-D { color: #FE0F00; }
+.livingWage-E { color: #970000; }

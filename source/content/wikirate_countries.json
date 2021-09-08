@@ -1,0 +1,1252 @@
+[
+  {
+    "code": "AD",
+    "name": "Andorra",
+    "card_id": 2917786
+  },
+  {
+    "code": "AE",
+    "name": "United Arab Emirates",
+    "card_id": 169529
+  },
+  {
+    "code": "AF",
+    "name": "Afghanistan",
+    "card_id": 2917789
+  },
+  {
+    "code": "AG",
+    "name": "Antigua and Barbuda",
+    "card_id": 2917790
+  },
+  {
+    "code": "AI",
+    "name": "Anguilla",
+    "card_id": 2917791
+  },
+  {
+    "code": "AL",
+    "name": "Albania",
+    "card_id": 2917792
+  },
+  {
+    "code": "AM",
+    "name": "Armenia",
+    "card_id": 2917793
+  },
+  {
+    "code": "AO",
+    "name": "Angola",
+    "card_id": 2917794
+  },
+  {
+    "code": "AQ",
+    "name": "Antarctica",
+    "card_id": 2917795
+  },
+  {
+    "code": "AR",
+    "name": "Argentina",
+    "card_id": 14400
+  },
+  {
+    "code": "AS",
+    "name": "American Samoa",
+    "card_id": 2917796
+  },
+  {
+    "code": "AT",
+    "name": "Austria",
+    "card_id": 17233
+  },
+  {
+    "code": "AU",
+    "name": "Australia",
+    "card_id": 14405
+  },
+  {
+    "code": "AW",
+    "name": "Aruba",
+    "card_id": 2917797
+  },
+  {
+    "code": "AX",
+    "name": "Åland Islands",
+    "card_id": 2917798
+  },
+  {
+    "code": "AZ",
+    "name": "Azerbaijan",
+    "card_id": 2917799
+  },
+  {
+    "code": "BA",
+    "name": "Bosnia and Herzegovina",
+    "card_id": 2917800
+  },
+  {
+    "code": "BB",
+    "name": "Barbados",
+    "card_id": 2917801
+  },
+  {
+    "code": "BD",
+    "name": "Bangladesh",
+    "card_id": 14386
+  },
+  {
+    "code": "BE",
+    "name": "Belgium",
+    "card_id": 19867
+  },
+  {
+    "code": "BF",
+    "name": "Burkina Faso",
+    "card_id": 14408
+  },
+  {
+    "code": "BG",
+    "name": "Bulgaria",
+    "card_id": 13973
+  },
+  {
+    "code": "BH",
+    "name": "Bahrain",
+    "card_id": 2917802
+  },
+  {
+    "code": "BI",
+    "name": "Burundi",
+    "card_id": 2917803
+  },
+  {
+    "code": "BJ",
+    "name": "Benin",
+    "card_id": 2917804
+  },
+  {
+    "code": "BL",
+    "name": "Saint Barthélemy",
+    "card_id": 2917805
+  },
+  {
+    "code": "BM",
+    "name": "Bermuda",
+    "card_id": 2917806
+  },
+  {
+    "code": "BN",
+    "name": "Brunei Darussalam",
+    "card_id": 2917807
+  },
+  {
+    "code": "BO",
+    "name": "Bolivia",
+    "card_id": 2917808
+  },
+  {
+    "code": "BQ",
+    "name": "Bonaire, Sint Eustatius and Saba",
+    "card_id": 2917809
+  },
+  {
+    "code": "BR",
+    "name": "Brazil",
+    "card_id": 12379
+  },
+  {
+    "code": "BS",
+    "name": "Bahamas",
+    "card_id": 2917810
+  },
+  {
+    "code": "BT",
+    "name": "Bhutan",
+    "card_id": 2917811
+  },
+  {
+    "code": "BV",
+    "name": "Bouvet Island",
+    "card_id": 2917812
+  },
+  {
+    "code": "BW",
+    "name": "Botswana",
+    "card_id": 2917813
+  },
+  {
+    "code": "BY",
+    "name": "Belarus",
+    "card_id": 2917814
+  },
+  {
+    "code": "BZ",
+    "name": "Belize",
+    "card_id": 2917815
+  },
+  {
+    "code": "CA",
+    "name": "Canada",
+    "card_id": 14965
+  },
+  {
+    "code": "CC",
+    "name": "Cocos (Keeling) Islands",
+    "card_id": 2917828
+  },
+  {
+    "code": "CD",
+    "name": "Democratic Republic of the Congo",
+    "card_id": 2917829
+  },
+  {
+    "code": "CF",
+    "name": "Central African Republic",
+    "card_id": 2917830
+  },
+  {
+    "code": "CG",
+    "name": "Congo",
+    "card_id": 38190
+  },
+  {
+    "code": "CH",
+    "name": "Switzerland",
+    "card_id": 15220
+  },
+  {
+    "code": "CI",
+    "name": "Côte d'Ivoire",
+    "card_id": 2917831
+  },
+  {
+    "code": "CK",
+    "name": "Cook Islands",
+    "card_id": 2917832
+  },
+  {
+    "code": "CL",
+    "name": "Chile",
+    "card_id": 14404
+  },
+  {
+    "code": "CM",
+    "name": "Cameroon",
+    "card_id": 2917833
+  },
+  {
+    "code": "CN",
+    "name": "China",
+    "card_id": 12378
+  },
+  {
+    "code": "CO",
+    "name": "Colombia",
+    "card_id": 12320
+  },
+  {
+    "code": "CR",
+    "name": "Costa Rica",
+    "card_id": 2917834
+  },
+  {
+    "code": "CU",
+    "name": "Cuba",
+    "card_id": 19542
+  },
+  {
+    "code": "CV",
+    "name": "Cape Verde",
+    "card_id": 2917835
+  },
+  {
+    "code": "CW",
+    "name": "Curaçao",
+    "card_id": 2917836
+  },
+  {
+    "code": "CX",
+    "name": "Christmas Island",
+    "card_id": 2917837
+  },
+  {
+    "code": "CY",
+    "name": "Cyprus",
+    "card_id": 2917838
+  },
+  {
+    "code": "CZ",
+    "name": "Czech Republic",
+    "card_id": 45425
+  },
+  {
+    "code": "DE",
+    "name": "Germany",
+    "card_id": 15272
+  },
+  {
+    "code": "DJ",
+    "name": "Djibouti",
+    "card_id": 2917839
+  },
+  {
+    "code": "DK",
+    "name": "Denmark",
+    "card_id": 21425
+  },
+  {
+    "code": "DM",
+    "name": "Dominica",
+    "card_id": 2917840
+  },
+  {
+    "code": "DO",
+    "name": "Dominican Republic",
+    "card_id": 18543
+  },
+  {
+    "code": "DZ",
+    "name": "Algeria",
+    "card_id": 2917841
+  },
+  {
+    "code": "EC",
+    "name": "Ecuador",
+    "card_id": 2917842
+  },
+  {
+    "code": "EE",
+    "name": "Estonia",
+    "card_id": 2917843
+  },
+  {
+    "code": "EG",
+    "name": "Egypt",
+    "card_id": 2917844
+  },
+  {
+    "code": "EH",
+    "name": "Western Sahara",
+    "card_id": 2917845
+  },
+  {
+    "code": "ER",
+    "name": "Eritrea",
+    "card_id": 2917846
+  },
+  {
+    "code": "ES",
+    "name": "Spain",
+    "card_id": 12333
+  },
+  {
+    "code": "ET",
+    "name": "Ethiopia",
+    "card_id": 14424
+  },
+  {
+    "code": "FI",
+    "name": "Finland",
+    "card_id": 2917847
+  },
+  {
+    "code": "FJ",
+    "name": "Fiji",
+    "card_id": 2917848
+  },
+  {
+    "code": "FK",
+    "name": "Falkland Islands (Malvinas)",
+    "card_id": 2917849
+  },
+  {
+    "code": "FM",
+    "name": "Micronesia, Federated States of",
+    "card_id": 2917850
+  },
+  {
+    "code": "FO",
+    "name": "Faroe Islands",
+    "card_id": 2917851
+  },
+  {
+    "code": "FR",
+    "name": "France",
+    "card_id": 19365
+  },
+  {
+    "code": "GA",
+    "name": "Gabon",
+    "card_id": 2917852
+  },
+  {
+    "code": "GB",
+    "name": "United Kingdom",
+    "card_id": 14908
+  },
+  {
+    "code": "GD",
+    "name": "Grenada",
+    "card_id": 2917853
+  },
+  {
+    "code": "GE",
+    "name": "Georgia",
+    "card_id": 2917854
+  },
+  {
+    "code": "GF",
+    "name": "French Guiana",
+    "card_id": 2917855
+  },
+  {
+    "code": "GG",
+    "name": "Guernsey",
+    "card_id": 2917856
+  },
+  {
+    "code": "GH",
+    "name": "Ghana",
+    "card_id": 18541
+  },
+  {
+    "code": "GI",
+    "name": "Gibraltar",
+    "card_id": 2917857
+  },
+  {
+    "code": "GL",
+    "name": "Greenland",
+    "card_id": 2917858
+  },
+  {
+    "code": "GM",
+    "name": "Gambia",
+    "card_id": 2917859
+  },
+  {
+    "code": "GN",
+    "name": "Guinea",
+    "card_id": 2917860
+  },
+  {
+    "code": "GP",
+    "name": "Guadeloupe",
+    "card_id": 2917861
+  },
+  {
+    "code": "GQ",
+    "name": "Equatorial Guinea",
+    "card_id": 2917862
+  },
+  {
+    "code": "GR",
+    "name": "Greece",
+    "card_id": 34142
+  },
+  {
+    "code": "GS",
+    "name": "South Georgia and the South Sandwich Islands",
+    "card_id": 2917863
+  },
+  {
+    "code": "GT",
+    "name": "Guatemala",
+    "card_id": 2917864
+  },
+  {
+    "code": "GU",
+    "name": "Guam",
+    "card_id": 2917865
+  },
+  {
+    "code": "GW",
+    "name": "Guinea-Bissau",
+    "card_id": 2917866
+  },
+  {
+    "code": "GY",
+    "name": "Guyana",
+    "card_id": 2917867
+  },
+  {
+    "code": "HK",
+    "name": "Hong Kong",
+    "card_id": 2917868
+  },
+  {
+    "code": "HM",
+    "name": "Heard Island and McDonald Islands",
+    "card_id": 2917869
+  },
+  {
+    "code": "HN",
+    "name": "Honduras",
+    "card_id": 18094
+  },
+  {
+    "code": "HR",
+    "name": "Croatia",
+    "card_id": 2917870
+  },
+  {
+    "code": "HT",
+    "name": "Haiti",
+    "card_id": 2917871
+  },
+  {
+    "code": "HU",
+    "name": "Hungary",
+    "card_id": 45424
+  },
+  {
+    "code": "ID",
+    "name": "Indonesia",
+    "card_id": 14371
+  },
+  {
+    "code": "IE",
+    "name": "Ireland",
+    "card_id": 14394
+  },
+  {
+    "code": "IL",
+    "name": "Israel",
+    "card_id": 14701
+  },
+  {
+    "code": "IM",
+    "name": "Isle of Man",
+    "card_id": 2917872
+  },
+  {
+    "code": "IN",
+    "name": "India",
+    "card_id": 14389
+  },
+  {
+    "code": "IO",
+    "name": "British Indian Ocean Territory",
+    "card_id": 2917873
+  },
+  {
+    "code": "IQ",
+    "name": "Iraq",
+    "card_id": 3913
+  },
+  {
+    "code": "IR",
+    "name": "Iran",
+    "card_id": 2917874
+  },
+  {
+    "code": "IS",
+    "name": "Iceland",
+    "card_id": 2917875
+  },
+  {
+    "code": "IT",
+    "name": "Italy",
+    "card_id": 16175
+  },
+  {
+    "code": "JE",
+    "name": "Jersey",
+    "card_id": 2917876
+  },
+  {
+    "code": "JM",
+    "name": "Jamaica",
+    "card_id": 2917877
+  },
+  {
+    "code": "JO",
+    "name": "Jordan",
+    "card_id": 1812107
+  },
+  {
+    "code": "JP",
+    "name": "Japan",
+    "card_id": 14387
+  },
+  {
+    "code": "KE",
+    "name": "Kenya",
+    "card_id": 21392
+  },
+  {
+    "code": "KG",
+    "name": "Kyrgyzstan",
+    "card_id": 2917878
+  },
+  {
+    "code": "KH",
+    "name": "Cambodia",
+    "card_id": 13908
+  },
+  {
+    "code": "KI",
+    "name": "Kiribati",
+    "card_id": 2917879
+  },
+  {
+    "code": "KM",
+    "name": "Comoros",
+    "card_id": 2917880
+  },
+  {
+    "code": "KN",
+    "name": "Saint Kitts and Nevis",
+    "card_id": 2917881
+  },
+  {
+    "code": "KP",
+    "name": "Korea, Democratic People's Republic of",
+    "card_id": 2917882
+  },
+  {
+    "code": "KR",
+    "name": "Korea, Republic of",
+    "card_id": 2917883
+  },
+  {
+    "code": "KW",
+    "name": "Kuwait",
+    "card_id": 2917884
+  },
+  {
+    "code": "KY",
+    "name": "Cayman Islands",
+    "card_id": 2917885
+  },
+  {
+    "code": "KZ",
+    "name": "Kazakhstan",
+    "card_id": 2917886
+  },
+  {
+    "code": "LA",
+    "name": "Laos",
+    "card_id": 2917887
+  },
+  {
+    "code": "LB",
+    "name": "Lebanon",
+    "card_id": 2917888
+  },
+  {
+    "code": "LC",
+    "name": "Saint Lucia",
+    "card_id": 2917889
+  },
+  {
+    "code": "LI",
+    "name": "Liechtenstein",
+    "card_id": 2917890
+  },
+  {
+    "code": "LK",
+    "name": "Sri Lanka",
+    "card_id": 2917891
+  },
+  {
+    "code": "LR",
+    "name": "Liberia",
+    "card_id": 2917892
+  },
+  {
+    "code": "LS",
+    "name": "Lesotho",
+    "card_id": 2917893
+  },
+  {
+    "code": "LT",
+    "name": "Lithuania",
+    "card_id": 2917894
+  },
+  {
+    "code": "LU",
+    "name": "Luxembourg",
+    "card_id": 20766
+  },
+  {
+    "code": "LV",
+    "name": "Latvia",
+    "card_id": 2917895
+  },
+  {
+    "code": "LY",
+    "name": "Libya",
+    "card_id": 2917896
+  },
+  {
+    "code": "MA",
+    "name": "Morocco",
+    "card_id": 14426
+  },
+  {
+    "code": "MC",
+    "name": "Monaco",
+    "card_id": 2917897
+  },
+  {
+    "code": "MD",
+    "name": "Moldova",
+    "card_id": 2917898
+  },
+  {
+    "code": "ME",
+    "name": "Montenegro",
+    "card_id": 2917899
+  },
+  {
+    "code": "MF",
+    "name": "Saint Martin (French part)",
+    "card_id": 2917900
+  },
+  {
+    "code": "MG",
+    "name": "Madagascar",
+    "card_id": 40709
+  },
+  {
+    "code": "MH",
+    "name": "Marshall Islands",
+    "card_id": 2917901
+  },
+  {
+    "code": "MK",
+    "name": "North Macedonia",
+    "card_id": 2917902
+  },
+  {
+    "code": "ML",
+    "name": "Mali",
+    "card_id": 20033
+  },
+  {
+    "code": "MM",
+    "name": "Myanmar",
+    "card_id": 2917903
+  },
+  {
+    "code": "MN",
+    "name": "Mongolia",
+    "card_id": 2917904
+  },
+  {
+    "code": "MO",
+    "name": "Macao",
+    "card_id": 2917905
+  },
+  {
+    "code": "MP",
+    "name": "Northern Mariana Islands",
+    "card_id": 2917906
+  },
+  {
+    "code": "MQ",
+    "name": "Martinique",
+    "card_id": 2917907
+  },
+  {
+    "code": "MR",
+    "name": "Mauritania",
+    "card_id": 2917908
+  },
+  {
+    "code": "MS",
+    "name": "Montserrat",
+    "card_id": 2917909
+  },
+  {
+    "code": "MT",
+    "name": "Malta",
+    "card_id": 2917910
+  },
+  {
+    "code": "MU",
+    "name": "Mauritius",
+    "card_id": 2917911
+  },
+  {
+    "code": "MV",
+    "name": "Maldives",
+    "card_id": 2917912
+  },
+  {
+    "code": "MW",
+    "name": "Malawi",
+    "card_id": 14410
+  },
+  {
+    "code": "MX",
+    "name": "Mexico",
+    "card_id": 14403
+  },
+  {
+    "code": "MY",
+    "name": "Malaysia",
+    "card_id": 16948
+  },
+  {
+    "code": "MZ",
+    "name": "Mozambique",
+    "card_id": 2917913
+  },
+  {
+    "code": "NA",
+    "name": "Namibia",
+    "card_id": 2917914
+  },
+  {
+    "code": "NC",
+    "name": "New Caledonia",
+    "card_id": 2917915
+  },
+  {
+    "code": "NE",
+    "name": "Niger",
+    "card_id": 2917916
+  },
+  {
+    "code": "NF",
+    "name": "Norfolk Island",
+    "card_id": 2917917
+  },
+  {
+    "code": "NG",
+    "name": "Nigeria",
+    "card_id": 14384
+  },
+  {
+    "code": "NI",
+    "name": "Nicaragua",
+    "card_id": 2917918
+  },
+  {
+    "code": "NL",
+    "name": "Netherlands",
+    "card_id": 2917919
+  },
+  {
+    "code": "NO",
+    "name": "Norway",
+    "card_id": 2917920
+  },
+  {
+    "code": "NP",
+    "name": "Nepal",
+    "card_id": 45091
+  },
+  {
+    "code": "NR",
+    "name": "Nauru",
+    "card_id": 2917921
+  },
+  {
+    "code": "NU",
+    "name": "Niue",
+    "card_id": 2917922
+  },
+  {
+    "code": "NZ",
+    "name": "New Zealand",
+    "card_id": 2917923
+  },
+  {
+    "code": "OM",
+    "name": "Oman",
+    "card_id": 2917924
+  },
+  {
+    "code": "PA",
+    "name": "Panama",
+    "card_id": 2917925
+  },
+  {
+    "code": "PE",
+    "name": "Peru",
+    "card_id": 16184
+  },
+  {
+    "code": "PF",
+    "name": "French Polynesia",
+    "card_id": 2917926
+  },
+  {
+    "code": "PG",
+    "name": "Papua New Guinea",
+    "card_id": 16949
+  },
+  {
+    "code": "PH",
+    "name": "Philippines",
+    "card_id": 37238
+  },
+  {
+    "code": "PK",
+    "name": "Pakistan",
+    "card_id": 36162
+  },
+  {
+    "code": "PL",
+    "name": "Poland",
+    "card_id": 37189
+  },
+  {
+    "code": "PM",
+    "name": "Saint Pierre and Miquelon",
+    "card_id": 2917927
+  },
+  {
+    "code": "PN",
+    "name": "Pitcairn",
+    "card_id": 2917928
+  },
+  {
+    "code": "PR",
+    "name": "Puerto Rico",
+    "card_id": 2917929
+  },
+  {
+    "code": "PS",
+    "name": "Palestinian Territory",
+    "card_id": 2917930
+  },
+  {
+    "code": "PT",
+    "name": "Portugal",
+    "card_id": 2917931
+  },
+  {
+    "code": "PW",
+    "name": "Palau",
+    "card_id": 2917932
+  },
+  {
+    "code": "PY",
+    "name": "Paraguay",
+    "card_id": 2917933
+  },
+  {
+    "code": "QA",
+    "name": "Qatar",
+    "card_id": 168817
+  },
+  {
+    "code": "RE",
+    "name": "Réunion",
+    "card_id": 2917934
+  },
+  {
+    "code": "RO",
+    "name": "Romania",
+    "card_id": 13974
+  },
+  {
+    "code": "RS",
+    "name": "Serbia",
+    "card_id": 2917935
+  },
+  {
+    "code": "RU",
+    "name": "Russia",
+    "card_id": 35176
+  },
+  {
+    "code": "RW",
+    "name": "Rwanda",
+    "card_id": 2917936
+  },
+  {
+    "code": "SA",
+    "name": "Saudi Arabia",
+    "card_id": 43202
+  },
+  {
+    "code": "SB",
+    "name": "Solomon Islands",
+    "card_id": 2917937
+  },
+  {
+    "code": "SC",
+    "name": "Seychelles",
+    "card_id": 2917938
+  },
+  {
+    "code": "SD",
+    "name": "Sudan",
+    "card_id": 14149
+  },
+  {
+    "code": "SE",
+    "name": "Sweden",
+    "card_id": 43201
+  },
+  {
+    "code": "SG",
+    "name": "Singapore",
+    "card_id": 2917939
+  },
+  {
+    "code": "SH",
+    "name": "Saint Helena, Ascension and Tristan da Cunha",
+    "card_id": 2917940
+  },
+  {
+    "code": "SI",
+    "name": "Slovenia",
+    "card_id": 20157
+  },
+  {
+    "code": "SJ",
+    "name": "Svalbard and Jan Mayen",
+    "card_id": 2917941
+  },
+  {
+    "code": "SK",
+    "name": "Slovakia",
+    "card_id": 2917942
+  },
+  {
+    "code": "SL",
+    "name": "Sierra Leone",
+    "card_id": 2917943
+  },
+  {
+    "code": "SM",
+    "name": "San Marino",
+    "card_id": 2917944
+  },
+  {
+    "code": "SN",
+    "name": "Senegal",
+    "card_id": 15492
+  },
+  {
+    "code": "SO",
+    "name": "Somalia",
+    "card_id": 2917945
+  },
+  {
+    "code": "SR",
+    "name": "Suriname",
+    "card_id": 2917946
+  },
+  {
+    "code": "SS",
+    "name": "South Sudan",
+    "card_id": 2917947
+  },
+  {
+    "code": "ST",
+    "name": "Sao Tome and Principe",
+    "card_id": 2917948
+  },
+  {
+    "code": "SV",
+    "name": "El Salvador",
+    "card_id": 33639
+  },
+  {
+    "code": "SX",
+    "name": "Sint Maarten (Dutch part)",
+    "card_id": 2917949
+  },
+  {
+    "code": "SY",
+    "name": "Syrian Arab Republic",
+    "card_id": 2917950
+  },
+  {
+    "code": "SZ",
+    "name": "Swaziland",
+    "card_id": 2917951
+  },
+  {
+    "code": "TC",
+    "name": "Turks and Caicos Islands",
+    "card_id": 2917952
+  },
+  {
+    "code": "TD",
+    "name": "Chad",
+    "card_id": 2917953
+  },
+  {
+    "code": "TF",
+    "name": "French Southern Territories",
+    "card_id": 2917954
+  },
+  {
+    "code": "TG",
+    "name": "Togo",
+    "card_id": 2917955
+  },
+  {
+    "code": "TH",
+    "name": "Thailand",
+    "card_id": 14214
+  },
+  {
+    "code": "TJ",
+    "name": "Tajikistan",
+    "card_id": 2917956
+  },
+  {
+    "code": "TK",
+    "name": "Tokelau",
+    "card_id": 2917957
+  },
+  {
+    "code": "TL",
+    "name": "Timor-Leste",
+    "card_id": 2917958
+  },
+  {
+    "code": "TM",
+    "name": "Turkmenistan",
+    "card_id": 2917959
+  },
+  {
+    "code": "TN",
+    "name": "Tunisia",
+    "card_id": 2917960
+  },
+  {
+    "code": "TO",
+    "name": "Tonga",
+    "card_id": 2917961
+  },
+  {
+    "code": "TR",
+    "name": "Turkey",
+    "card_id": 13972
+  },
+  {
+    "code": "TT",
+    "name": "Trinidad and Tobago",
+    "card_id": 2917962
+  },
+  {
+    "code": "TV",
+    "name": "Tuvalu",
+    "card_id": 2917963
+  },
+  {
+    "code": "TW",
+    "name": "Taiwan, Province of China",
+    "card_id": 2917964
+  },
+  {
+    "code": "TZ",
+    "name": "Tanzania",
+    "card_id": 16808
+  },
+  {
+    "code": "UA",
+    "name": "Ukraine",
+    "card_id": 2917965
+  },
+  {
+    "code": "UG",
+    "name": "Uganda",
+    "card_id": 40396
+  },
+  {
+    "code": "UM",
+    "name": "United States Minor Outlying Islands",
+    "card_id": 2917966
+  },
+  {
+    "code": "US",
+    "name": "United States",
+    "card_id": 14551
+  },
+  {
+    "code": "UY",
+    "name": "Uruguay",
+    "card_id": 2918018
+  },
+  {
+    "code": "UZ",
+    "name": "Uzbekistan",
+    "card_id": 14412
+  },
+  {
+    "code": "VA",
+    "name": "Holy See (Vatican City State)",
+    "card_id": 2918019
+  },
+  {
+    "code": "VC",
+    "name": "Saint Vincent and the Grenadines",
+    "card_id": 2918020
+  },
+  {
+    "code": "VE",
+    "name": "Venezuela",
+    "card_id": 2918021
+  },
+  {
+    "code": "VG",
+    "name": "British Virgin Islands",
+    "card_id": 2918022
+  },
+  {
+    "code": "VI",
+    "name": "U.S. Virgin Islands",
+    "card_id": 2918023
+  },
+  {
+    "code": "VN",
+    "name": "Vietnam",
+    "card_id": 2918024
+  },
+  {
+    "code": "VU",
+    "name": "Vanuatu",
+    "card_id": 2918025
+  },
+  {
+    "code": "WF",
+    "name": "Wallis and Futuna",
+    "card_id": 2918026
+  },
+  {
+    "code": "WS",
+    "name": "Samoa",
+    "card_id": 2918027
+  },
+  {
+    "code": "XK",
+    "name": "Kosovo",
+    "card_id": 2918028
+  },
+  {
+    "code": "YE",
+    "name": "Yemen",
+    "card_id": 2918029
+  },
+  {
+    "code": "YT",
+    "name": "Mayotte",
+    "card_id": 2918030
+  },
+  {
+    "code": "ZA",
+    "name": "South Africa",
+    "card_id": 14938
+  },
+  {
+    "code": "ZM",
+    "name": "Zambia",
+    "card_id": 2918031
+  },
+  {
+    "code": "ZW",
+    "name": "Zimbabwe",
+    "card_id": 2918032
+  }
+]

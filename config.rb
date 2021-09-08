@@ -21,6 +21,19 @@ page '/*.xml', layout: false
 page '/*.json', layout: false
 page '/*.txt', layout: false
 
+Haml::TempleEngine.disable_option_validator! # gets rid of error message
+
+require 'rack/cors'
+
+use ::Rack::Cors do
+  allow do
+    origins '*'
+    resource '*',
+             headers: :any,
+             methods: [:get, :options]
+  end
+end
+
 # With alternative layout
 # page '/path/to/file.html', layout: 'other_layout'
 

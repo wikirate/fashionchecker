@@ -1,4 +1,5 @@
 %body
+  = partial "partials/shared/table_lang"
   = partial "partials/header"
   %main{:role => "main"}
     = section :red do
@@ -9,9 +10,7 @@
               = t('header_question_1')
             .yellow
               = t('header_question_2')
-          %p.pt-3.white.lead
-            = t('find_out')
-          = brand_profile_partial :search,  locals: { redirect: true }
+          -#= brand_profile_partial :search,  locals: { redirect: true }
         .d-none.d-md-block.col-md-6
           %img.float-right{src: "/images/logo/SVG/CCC_FashionChecker_RGB_vertical_spot.svg",
                height: "300px", width: "auto"}
@@ -19,8 +18,42 @@
     .top-extender.red-bg
       &nbsp;
 
-    .pink-bg.skew-left
+    .yellow-bg.skew-left
       .container-fluid.skew-right
+        .container.py-5
+          .row.align-items-end
+            .col-sm-6
+              .display-3.fuchsia.pt-4
+                = t('brands_surveyed')
+              %p.pt-3.navy.lead
+                = t('find_out')
+            .col-sm-6.text-right.d-flex.justify-content-end
+              %table.legendTable.text-left.mb-3
+                = legend_row "search-location", "transparency_score", "title"
+                = legend_row "piggy-bank", "living_wage_score", "title"
+                = legend_row "clipboard-list", "commitment_score", "action_plan"
+                = legend_row "comment", "commitment_score", "public_commitment"
+                = legend_row "user-tag", "commitment_score", "isolating_labor"
+          #brandsTableContainer.table-responsive
+            %table#brandsTable.w-100.table.table-sm
+              %thead
+                %tr
+                  %th= t('brand_brands_owned')
+                  %th= t('headquarters')
+                  = th_icon "search-location", "transparency_score", "title"
+                  = th_icon "piggy-bank", "living_wage_score", "title"
+                  = th_icon "clipboard-list", "commitment_score", "action_plan"
+                  = th_icon "comment", "commitment_score", "public_commitment"
+                  = th_icon "user-tag", "commitment_score", "isolating_labor"
+
+              %tbody
+
+          ._transparencyTemplate.d-none
+            = partial "partials/brand_profile/score/transparency_stars.html"
+    .bottom-extender.yellow-bg.extra-extender
+
+    .pink-bg.skew-right
+      .container-fluid.skew-left
         .container.py-5.result-container
           .p-4
             .row
@@ -34,8 +67,8 @@
 
     .bottom-extender.pink-bg.extra-extender
 
-    .fuchsia-bg.skew-right
-      .container-fluid.skew-left
+    .fuchsia-bg.skew-left
+      .container-fluid.skew-right
         .container.py-5.result-container
           .row
             .col-sm-6
@@ -117,5 +150,3 @@
     = # partial "partials/homepage/news"
 
   = partial "partials/shared/footer"
-
-

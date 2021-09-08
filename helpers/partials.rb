@@ -18,9 +18,9 @@ module Partials
      transp_pledge_machinereadable
   ].freeze
 
-  def property title, name, prefix=nil
+  def property key, prefix=nil
     partial "partials/brand_profile/property",
-            locals: { title: title, name: name, prefix: prefix }
+            locals: { key: key, prefix: prefix }
   end
 
   def brand_profile_partial template, args={}
@@ -60,7 +60,7 @@ module Partials
   end
 
   def modal_id title, index
-    "#{title.downcase.gsub(" ", "-")}-score-#{index}"
+    "#{title.downcase.gsub(" ", "_")}-score-#{index}"
   end
 
   def resource title, url, args={}
@@ -98,7 +98,13 @@ module Partials
             locals: { url: url, quote: quote, citation: citation }
   end
 
-  def supplier_table_header key
-    brand_profile_partial :suppliers_table_header, locals: { key: key }
+  def legend_row icon, scope, title_key, colors={}
+    partial "partials/shared/legend_row",
+            locals: { icon: icon, lscope: scope, title_key: title_key, colors: colors }
+  end
+
+  def th_icon icon, scope, title_key
+    partial "partials/shared/th_icon",
+            locals: { icon: icon, lscope: scope, title_key: title_key }
   end
 end

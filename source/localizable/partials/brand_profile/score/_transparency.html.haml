@@ -1,14 +1,9 @@
 %a.white{ target: "_wikirate",
           href: "https://wikirate.org/Clean_Clothes_Campaign+Supply_Chain_Transparency_Score"}
   %h6.section.card-title.text-uppercase= t('transparency_score.title')
-  .transparency-stars._transparency-stars
-    %img._star-1{ src: "/images/transparency_score/star_outline.svg" }
-    %img._star-2{ src: "/images/transparency_score/star_outline.svg" }
-    %img._star-3{ src: "/images/transparency_score/star_outline.svg" }
-    %img._star-4{ src: "/images/transparency_score/star_outline.svg" }
-    %img._star-5{ src: "/images/transparency_score/star_outline.svg" }
+  = partial "partials/brand_profile/score/transparency_stars.html"
 %p._transparency_score-templates
-  %p._transparency_score-text
+  %p._transparency_key
   // %span._name
   // = score_desc "transparency_score.desc", 5
 %p.tiny

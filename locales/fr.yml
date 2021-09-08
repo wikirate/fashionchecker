@@ -67,15 +67,15 @@ fr:
       Cette marque a mis en place un plan mais ce dernier n'est soit pas public, soit pas limité dans le temps, soit il concerne uniquement sur les usines de leurs fournisseurs de niveau 1, ou qui n'est pas clair sur les détails de mise-en-oeuvre (pas SMART).
     action_plan_score_3: >
       Cette marque dispose d'un plan accessible au public afin d’atteindre un salaire vital pour tou·te·s les travailleur·euse·s de sa filière d'approvisionnement, y compris des étapes concrètes dans un délai précis.
-    separate_labor_costs_score_1: >
+    isolating_labor_score_1: >
       Les marques doivent s'assurer que les coûts du travail suffisent à payer un salaire vital en utilisant une méthode établie pour les calculer, en séparant ces coûts des autres coûts de fabrication.
-    separate_labor_costs_score_2: >
+    isolating_labor_score_2: >
       Partiel
-    separate_labor_costs_score_3: >
+    isolating_labor_score_3: >
       Aucune preuve n'a été trouvée indiquant que cette marque s'assure que les coûts du travail suffisent à payer un salaire vital en utilisant une méthode établie pour les calculer, en séparant ces coûts des autres coûts de fabrication.
       Toutes les marques devraient payer des prix aux fournisseurs suffisent pour payer un salaire vital et une participation à la couverture sociale à tous les travailleur·euses des chaînes d'approvisionnement.
 
-    separate_labor_costs: "Séparer les coûts du travail?"
+    isolating_labor: "Séparer les coûts du travail?"
     desc:
       score_1: "This brand isn't doing enough to move towards Living Wages in its supply chain."
       score_2: "Text for score 2"
@@ -139,6 +139,29 @@ fr:
     have_cba: "convention collective"
     know_brand: "connaître la marque"
     pregnancy_leave: "congés de maternité"
+    paid: "actual wage"
+    not_paid: "wage gap"
+    permanent: permanent
+    temporary: temporary
+    male: male
+    female: female
+    other: other
+    gender: "Gender"
+    gender_info: Percentage of workers by gender.
+    contract: "Contract"
+    contract_info: Percentage of workers by contract status.
+    average_info:
+      The monthly average net salary (in EUR equivalent of the local currency) as listed
+      on surveyed workers' payslips
+    gap_info: Monthly average salary as a percentage of living wage
+    have_cba_info: The percentage of surveyed workers covered by a collective bargaining agreement
+    know_brand_info:
+      The percentage of surveyed workers who know which brands their factory makes
+      products for
+    pregnancy_leave_info:
+      The percentage of surveyed workers, who had been pregnant, who were given
+      pregnancy leave
+
   latest: "Dernières"
   news: "Actualités"
   footer_info: "est une campagne lancée par la Clean Clothes Campaign et financée par l'Union Européenne."
@@ -712,3 +735,27 @@ fr:
   social_media_description: "See how brands perform on paying their workers and how open they are about where their products are made."
   social_media_image: "https://fashionchecker.org/images/CCC_FC_web_preview.jpg"
   a_worker_from_china: "Une travailleuse de Chine"
+  brands_surveyed: "Brands Surveyed"
+  brand_brands_owned: "Brand (brands owned)"
+
+  dataTables:
+    search: "Search:"
+    lengthMenu: "Show _MENU_ entries"
+    info: "Showing _START_ to _END_ of _TOTAL_ entries"
+  brand_overview: "Brand Overview"
+  supplier_map: "Supplier Map"
+  where_are_suppliers: "Where are the brand's disclosed suppliers?"
+  no_suppliers_disclosed: "No suppliers disclosed."
+  supplier_wages: "Supplier Wages"
+  are_surveyed_suppliers_paying: "Are surveyed suppliers paying a living wage?"
+  no_supplier_responses: "No supplier responses."
+
+  supplier_map_viz:
+    legend_title: Number of Suppliers
+    tooltip_suppliers: suppliers
+
+  no_data: No Data
+
+  covid_note_1: "The COVID-19 pandemic forced us to shift our short term demands to brands: workers have been paid poverty wages for decades but most are currently not even paid their pre-pandemic wages. Living wages remain our goal, but we now"
+  covid_link: "call upon brands to ensure "
+  covid_note_2: "workers are being paid their pre-pandemic wages and owed severance. We have therefore decided to survey brands this year only on their progress on Transparency, and not on Living Wages. Brands could let us know if they had made any progress on living wage nonetheless."

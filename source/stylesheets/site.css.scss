@@ -78,7 +78,7 @@ h2,
 }
 
 .tiny {
-  font-size: 0.6rem;
+  font-size: 0.75rem;
 }
 
 .container {
@@ -91,13 +91,13 @@ h6 {
 }
 
 .brand {
-  font-size: 0.7rem;
+  font-size: 0.9rem;
   .modal-body {
     font-size: 1rem;
   }
   color: $medium-grey;
   h6 {
-    font-size: 0.8rem;
+    font-size: 1.1rem;
     text-transform: uppercase;
   }
 
@@ -171,6 +171,11 @@ h6 {
   font-weight: 100;
   line-height: 1;
   font-family: "ptf_nordic_stdnormal";
+}
+@media (max-width: 600px) {
+  .display-3 {
+    font-size: 2rem;
+  }
 }
 
 #circle {
@@ -438,13 +443,6 @@ main {
   line-height: 1.5em;
 }
 
-.commitment-scores {
-  margin-left: 0;
-  margin-right: 0;
-  .value {
-    margin-right: 10px;
-  }
-}
 .transparency-stars img {
   max-width: 12%;
   padding: 3px;
@@ -564,13 +562,6 @@ main {
   }
 }
 
-.suppliers-table tbody td {
-  white-space: nowrap;
-  &:first-child {
-    white-space: break-spaces;
-  }
-}
-
 .citation {
   font-size: 0.75em;
   text-transform: uppercase;
@@ -601,3 +592,248 @@ main {
     top: -100px;
   }
 }
+
+#brandsTableContainer {
+  .dataTables_wrapper {
+    margin-bottom: 3em;
+  }
+  .dataTables_filter,
+  .dataTables_info,
+  .dataTables_processing,
+  .dataTables_paginate,
+  .dataTables_length {
+    color: $navy;
+    select,
+    input {
+      background: $pink;
+    }
+  }
+
+  .dataTables_paginate {
+    .paginate_button {
+      background: $pink;
+      &.disabled {
+        background: $yellow !important;
+      }
+      &:active,
+      &:hover,
+      &.current,
+      &.current:hover,
+      &.current:active {
+        background: $fuchsia;
+        color: $white !important;
+        border-color: $pink;
+      }
+    }
+  }
+}
+
+.table th i.fa {
+  font-size: 1.5em;
+}
+#brandsTable {
+  tr.even td {
+    background-color: $black;
+  }
+  td {
+    background: $navy;
+    border-top: 1px solid $medium-blue;
+    text-align: center;
+    &:first-child {
+      text-align: left;
+      width: 50%;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      max-width: 260px;
+      white-space: nowrap;
+      a {
+        text-decoration: underline;
+        font-weight: bold;
+      }
+      .subBrandsList {
+        font-size: 0.8em;
+      }
+    }
+    &:nth-child(2) {
+      color: $medium-grey;
+      font-size: 0.8rem;
+    }
+  }
+  th {
+    background-color: $dark-blue;
+    border-top: 1px solid $yellow;
+    text-align: center;
+    &:first-child {
+      text-align: left;
+    }
+    &:hover {
+      background-color: $light-blue;
+    }
+  }
+  .littleSmiley {
+    max-width: 20px;
+  }
+  .transparency-stars {
+    min-width: 80px;
+    img {
+      width: 15px;
+      padding: 0;
+    }
+  }
+}
+
+#suppliersTableContainer {
+  .dataTables_wrapper {
+    .dataTables_filter,
+    .dataTables_info,
+    .dataTables_processing,
+    .dataTables_paginate,
+    .dataTables_length {
+      color: $white;
+      select,
+      input {
+        background: $medium-grey;
+      }
+    }
+    .dataTables_paginate {
+      .paginate_button {
+        background: $medium-grey;
+        &.disabled,
+        &.disabled:hover {
+          background: transparent !important;
+          color: $white !important;
+          border: 0 !important;
+        }
+        &:active,
+        &:hover,
+        &.current,
+        &.current:hover,
+        &.current:active {
+          background: $light-blue;
+          color: $white !important;
+          border-color: $lighter-blue;
+        }
+      }
+    }
+  }
+}
+
+#suppliersTable {
+  thead {
+    th {
+      text-transform: uppercase;
+      border: 0 !important;
+      &:first-child {
+        text-align: left;
+      }
+      &:nth-child(3-4) {
+        background-color: $other-blue;
+      }
+    }
+    .secondHeader th {
+      &:hover {
+        background-color: $navy !important;
+      }
+      &:nth-child(3),
+      &:nth-child(4) {
+        background-color: $other-blue;
+      }
+    }
+  }
+  tbody {
+    td {
+      white-space: nowrap;
+      background-color: $sky-blue;
+      &:first-child {
+        white-space: break-spaces;
+      }
+      &:first-child,
+      &:nth-child(2) {
+        text-align: left;
+        background: $medium-blue;
+      }
+      &:nth-child(3),
+      &:nth-child(4) {
+        background: $lighter-blue;
+      }
+    }
+  }
+}
+
+.livingWageLetter {
+  font-weight: bold;
+}
+
+#supplierViz svg {
+  max-width: 100%;
+  height: auto;
+}
+
+.legendTable {
+  background: $dark-blue;
+  color: $white;
+  border: 4px solid $navy;
+  padding: 2px;
+  font-size: 1rem;
+
+  td {
+    padding: 4px 12px;
+    &:first-child {
+      font-size: 1.2rem;
+    }
+  }
+  tr:hover td {
+    background: $light-blue;
+    cursor: pointer;
+  }
+}
+.colorLegend {
+  font-style: italic;
+  font-size: 0.8em;
+}
+.noResult {
+  display: none;
+}
+
+.year-buttons a {
+  color: $white;
+  border: 2px solid $white;
+  border-radius: 15px;
+  margin: 1rem 1rem 0 0;
+  font-weight: bold;
+  &.current, &:hover {
+    background-color: $white;
+    color: $navy;
+  }
+}
+
+.commitmentScores {
+  .row {
+    border-top: 1px solid $light-grey;
+    padding: 0.5rem 0;
+    margin-left: 0;
+    margin-right: 0;
+    .value {
+      margin-right: 10px;
+    }
+    .left-col {
+      padding-left: 0;
+      text-transform: uppercase;
+      a {
+        color: $white;
+      }
+    }
+    img.smiley {
+      height: 30px
+    }
+  }
+}
+
+.tweet-the-brand-holder a {
+  font-size: 1rem;
+}
+
+
+//.noImage img {
+//  display: none;
+//}

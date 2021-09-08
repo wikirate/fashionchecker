@@ -69,17 +69,17 @@ zh_hk:
     action_plan_score_3: >
       該品牌公司已定出一個公開、可用的行動計劃，致力於為其供應鏈的所有工人爭取生活工資，
       包括在特定時間範圍內的具體步驟。
-    separate_labor_costs_score_1: >
+    isolating_labor_score_1: >
       沒有證據顯示，該品牌公司有通過使用一個既定方法來計算勞工成本，並將這些成本與其他成本分開，
       從而確保公司有適當地顧及勞工成本。
       所有品牌公司都應向供應商支付足夠的價錢，以支付其供應鏈中所有工人的生活工資和社會保障費用。
-    separate_labor_costs_score_2: >
+    isolating_labor_score_2: >
       部份
-    separate_labor_costs_score_3: >
+    isolating_labor_score_3: >
       品牌公司需要通過使用一個既定方法來計算勞工成本，並將這些成本與其他成本分開，
       從而確保公司有適當地顧及勞工成本。
 
-    separate_labor_costs: "分開計算勞工成本？"
+    isolating_labor: "分開計算勞工成本？"
     desc:
       score_1: "該品牌公司在致力促進其供應鏈工廠支付生活工資方面的工作做得還不夠。"
       score_2: "得分 2 的文本"
@@ -145,6 +145,18 @@ zh_hk:
     know_brand_info: 知道他們的工廠為哪些品牌生產產品的受訪工人百分比
     pregnancy_leave: "產假"
     pregnancy_leave_info: 受訪工人中，曾懷孕、而工廠有給予產假的百分比
+    paid: "actual wage"
+    not_paid: "wage gap"
+    permanent: permanent
+    temporary: temporary
+    male: male
+    female: female
+    other: other
+    gender: "Gender"
+    gender_info: Percentage of workers by gender.
+    contract: "Contract"
+    contract_info: Percentage of workers by contract status.
+
   latest: "最新"
   news: "消息"
   footer_info: "是全球聯盟組織「清潔成衣運動（Clean Clothes Campaign)」發起的一項運動，由歐盟資助。"
@@ -631,7 +643,6 @@ zh_hk:
   fashioncheckervid_gbv: "Gender based violence in the garment industry - Ratify ILO 190"
   out_of_the_shadows: "Out of the Shadows: A spotlight on exploitation in the fashion industry"
   position_pager_transparency: "Position Paper on Transparency"
-  fashioning_justice: "Fashioning Justice: A call for mandatory and comprehensive human rights due diligence in the garment industry"
   clean_clothes_campaign: "Clean Clothes Campaign"
   fashion_s_next_trend: "Fashion’s Next Trend: Accelerating Supply Chain Transparency in the Garment and Footwear Industry"
   go_transparent: "#GoTransparent"
@@ -716,3 +727,27 @@ zh_hk:
   social_media_description: "了解品牌公司支付工人工資方面的表現，以及他們對產品製造地的公開程度。"
   social_media_image: "https://fashionchecker.org/images/CCC_FC_web_preview.jpg"
   a_worker_from_china: "來自中國的工人"
+  brands_surveyed: "Brands Surveyed"
+  brand_brands_owned: "Brand (brands owned)"
+
+  dataTables:
+    search: "Search:"
+    lengthMenu: "Show _MENU_ entries"
+    info: "Showing _START_ to _END_ of _TOTAL_ entries"
+  brand_overview: "Brand Overview"
+  supplier_map: "Supplier Map"
+  where_are_suppliers: "Where are the brand's disclosed suppliers?"
+  no_suppliers_disclosed: "No suppliers disclosed."
+  supplier_wages: "Supplier Wages"
+  are_surveyed_suppliers_paying: "Are surveyed suppliers paying a living wage?"
+  no_supplier_responses: "No supplier responses."
+
+  supplier_map_viz:
+    legend_title: Number of Suppliers
+    tooltip_suppliers: suppliers
+
+  no_data: No Data
+
+  covid_note_1: "The COVID-19 pandemic forced us to shift our short term demands to brands: workers have been paid poverty wages for decades but most are currently not even paid their pre-pandemic wages. Living wages remain our goal, but we now"
+  covid_link: "call upon brands to ensure "
+  covid_note_2: "workers are being paid their pre-pandemic wages and owed severance. We have therefore decided to survey brands this year only on their progress on Transparency, and not on Living Wages. Brands could let us know if they had made any progress on living wage nonetheless."

@@ -70,17 +70,17 @@ hu:
     action_plan_score_3: >
       Ez a cég nyilvános ígéretet tett arra, hogy minden,
       a beszállítói láncához köthető munkásnak kifizeti a tisztességes megélhetést biztosító bért.
-    separate_labor_costs_score_1: >
+    isolating_labor_score_1: >
       E ruhacég esetében nem találtunk arra vonatkozó bizonyítékot, hogy a cég biztosítaná azt, hogy a bérköltségeket maradéktalanul fedezzék, egységes bérkalkuláció alapján,
       a bérköltségeket elkülönítve más költségektől.
       Minden ruhaóriás olyan mértékben kell, hogy megfizesse beszállítóit, hogy azok a tisztességes megélhetést biztosító bért ki tudják fizetni a munkásaiknak, és a munkások társadalombiztosításához is képesek legyenek hozzájárulni.
-    separate_labor_costs_score_2: >
+    isolating_labor_score_2: >
       Részben
-    separate_labor_costs_score_3: >
+    isolating_labor_score_3: >
       A ruhacégeknek biztosítaniuk kell a bérköltségek maradéktalan fedezését: ennek módja az egységes bérkalkuláció,
       illetve, a bérköltségek elkülönítése más költségektől.
 
-    separate_labor_costs: "A bérköltségek elkülönítése ?"
+    isolating_labor: "A bérköltségek elkülönítése ?"
     desc:
       score_1: "A ruhaóriások által a beszállítóknak fizetett összegből a gyártási költségeket, a szállítást, és a bérköltségeket kell kifizetni. Ez a ruhacég nem tesz semmit azért,
       hogy a bérköltségeket a gyárak maradéktalanul fedezzék.."
@@ -147,6 +147,29 @@ hu:
     have_cba: "van kollektív szerződés"
     know_brand: "A munkások tudják, melyik világmárkának dolgoznak"
     pregnancy_leave: "Szülési szabadság"
+    paid: "actual wage"
+    not_paid: "wage gap"
+    permanent: permanent
+    temporary: temporary
+    male: male
+    female: female
+    other: other
+    gender: "Gender"
+    gender_info: Percentage of workers by gender.
+    contract: "Contract"
+    contract_info: Percentage of workers by contract status.
+    average_info:
+      The monthly average net salary (in EUR equivalent of the local currency) as listed
+      on surveyed workers' payslips
+    gap_info: Monthly average salary as a percentage of living wage
+    have_cba_info: The percentage of surveyed workers covered by a collective bargaining agreement
+    know_brand_info:
+      The percentage of surveyed workers who know which brands their factory makes
+      products for
+    pregnancy_leave_info:
+      The percentage of surveyed workers, who had been pregnant, who were given
+      pregnancy leave
+
   latest: "Aktuális"
   news: "Hírek"
   footer_info: "a Fashion Checker a Clean Clothes Campaign kampánya; a projektet az Európai Unió finanszírozza"
@@ -711,3 +734,27 @@ hu:
   social_media_description: "Nézz utána, hogy a divatmárkák megfizetik-e munkásaikat, és, hogy elárulják-e, hol készültek termékeik!"
   social_media_image: "https://fashionchecker.org/images/CCC_FC_web_preview.jpg"
   a_worker_from_china: "Ruhagyári dolgozó Kínából"
+  brands_surveyed: "Brands Surveyed"
+  brand_brands_owned: "Brand (brands owned)"
+
+  dataTables:
+    search: "Search:"
+    lengthMenu: "Show _MENU_ entries"
+    info: "Showing _START_ to _END_ of _TOTAL_ entries"
+  brand_overview: "Brand Overview"
+  supplier_map: "Supplier Map"
+  where_are_suppliers: "Where are the brand's disclosed suppliers?"
+  no_suppliers_disclosed: "No suppliers disclosed."
+  supplier_wages: "Supplier Wages"
+  are_surveyed_suppliers_paying: "Are surveyed suppliers paying a living wage?"
+  no_supplier_responses: "No supplier responses."
+
+  supplier_map_viz:
+    legend_title: Number of Suppliers
+    tooltip_suppliers: suppliers
+
+  no_data: No Data
+
+  covid_note_1: "The COVID-19 pandemic forced us to shift our short term demands to brands: workers have been paid poverty wages for decades but most are currently not even paid their pre-pandemic wages. Living wages remain our goal, but we now"
+  covid_link: "call upon brands to ensure "
+  covid_note_2: "workers are being paid their pre-pandemic wages and owed severance. We have therefore decided to survey brands this year only on their progress on Transparency, and not on Living Wages. Brands could let us know if they had made any progress on living wage nonetheless."

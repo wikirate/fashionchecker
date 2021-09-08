@@ -65,15 +65,15 @@ id:
       atau tidak jelas tentang hal-hal yang spesifik (bukan SMART).
     action_plan_score_3: >
       Brand ini sudah memiliki rencana yang tersedia secara publik untuk membayarkan upah layak bagi seluruh buruh di rantai pasoknya, termasuk langkah-langkah konkrit dalam jangka waktu yang jelas.
-    separate_labor_costs_score_1: >
+    isolating_labor_score_1: >
       Tidak ada bukti yang ditemukan bahwa brand ini memastikan biaya tenaga kerja dihitung dengan benar dengan menggunakan metode yang jelas yang memisahkan biaya ini dari biaya yang lain.
       Semua brand harus membayar pemasok dengan harga mencukupi untuk membuat pemasok bisa membayarkan upah layak dan iuran perlindungan sosial.
-    separate_labor_costs_score_2: >
+    isolating_labor_score_2: >
       Partial
-    separate_labor_costs_score_3: >
+    isolating_labor_score_3: >
       Brand perlu memastikan bahwa upah buruh dihitung dengan benar dengan menggunakan metode yang jelas  untuk menghitungnya, memisahkan biaya ini dari biaya yang lain.
 
-    separate_labor_costs: "memisahkan biaya tenaga kerja?"
+    isolating_labor: "memisahkan biaya tenaga kerja?"
     desc:
       score_1: "Brand ini tidak melakukan apa-apa untuk mewujudkan upah layak dalam rantai pasoknya.."
       score_2: "Teks untuk skor 2"
@@ -144,6 +144,18 @@ id:
     pregnancy_leave_info:
       Persentase buruh yang disurvei, yang pernah hamil, yang diberi
       cuti hamil
+    paid: "actual wage"
+    not_paid: "wage gap"
+    permanent: permanent
+    temporary: temporary
+    male: male
+    female: female
+    other: other
+    gender: "Gender"
+    gender_info: Percentage of workers by gender.
+    contract: "Contract"
+    contract_info: Percentage of workers by contract status.
+
   latest: "Berita"
   news: "Terbaru"
   footer_info: "adalah sebuah kampanye oleh Clean Clothes Campaign, yang didanai oleh Uni Eropa"
@@ -703,3 +715,27 @@ id:
   social_media_description: "Lihat bagaimana brand membayarkan upah buruhnya dan seterbuka apa mereka tentang di mana produk mereka dibuat."
   social_media_image: "https://fashionchecker.org/images/CCC_FC_web_preview.jpg"
   a_worker_from_china: "Seorang buruh dari Cina"
+  brands_surveyed: "Brands Surveyed"
+  brand_brands_owned: "Brand (brands owned)"
+
+  dataTables:
+    search: "Search:"
+    lengthMenu: "Show _MENU_ entries"
+    info: "Showing _START_ to _END_ of _TOTAL_ entries"
+  brand_overview: "Brand Overview"
+  supplier_map: "Supplier Map"
+  where_are_suppliers: "Where are the brand's disclosed suppliers?"
+  no_suppliers_disclosed: "No suppliers disclosed."
+  supplier_wages: "Supplier Wages"
+  are_surveyed_suppliers_paying: "Are surveyed suppliers paying a living wage?"
+  no_supplier_responses: "No supplier responses."
+
+  supplier_map_viz:
+    legend_title: Number of Suppliers
+    tooltip_suppliers: suppliers
+
+  no_data: No Data
+
+  covid_note_1: "The COVID-19 pandemic forced us to shift our short term demands to brands: workers have been paid poverty wages for decades but most are currently not even paid their pre-pandemic wages. Living wages remain our goal, but we now"
+  covid_link: "call upon brands to ensure "
+  covid_note_2: "workers are being paid their pre-pandemic wages and owed severance. We have therefore decided to survey brands this year only on their progress on Transparency, and not on Living Wages. Brands could let us know if they had made any progress on living wage nonetheless."

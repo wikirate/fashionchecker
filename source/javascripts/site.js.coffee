@@ -1,83 +1,139 @@
 $.fn.select2.defaults.set("theme", "bootstrap4")
 
-API_HOST = "https://wikirate.org"
-# API_HOST = "https://staging.wikirate.org"
-# API_HOST = "https://dev.wikirate.org"
-# API_HOST = "http://localhost:3000"
+wikirateApiHost = "https://wikirate.org"
+wikirateApiAuth = null
 
-METRIC_URL = "#{API_HOST}/:commons_supplier_of"
-BRAND_LIST_URL = "#{API_HOST}/company.json?view=brands_select2"
+# wikirateApiHost = "https://dev.wikirate.org"
+# wikirateApiAuth = "wikirate:wikirat"
+wikirateApiMode = "cached"
+# wikirateApiMode = "live" # anything but "cached" means live
 
-EMPTY_RESULT = "<div class='alert alert-info'>no result</div>"
+wikirateLinkTarget = "https://wikirate.org"
 
-$(document).ready ->
-  $("._brand-search").select2
-    placeholder: "search for brand"
-    allowClear: true
-    ajax:
-      url: BRAND_LIST_URL
-      dataType: "json"
+# pass basic authentication on WikiRate dev/staging servers
+if wikirateApiAuth
+  $.ajaxSetup
+    beforeSend: (xhr) ->
+      xhr.setRequestHeader "Authorization", "Basic " + btoa(wikirateApiAuth)
 
-  $("body").on "change", "._brand-search", ->
-    selected = $("._brand-search").select2("data")
-    if (selected.length > 0)
-      company_id = selected[0].id
-      if $(this).data("redirect")?
-        redirectBrandSearch company_id
-      else
-        loadBrandInfo company_id
+window.FC =
+  companyGroup: 7887730
 
-  $("body").on 'shown.bs.collapse', ".collapse", ->
-    updateSuppliersTable($(this))
+  metrics:
+    suppliedBy: 2929009
+    supplierOf: 2929015
 
+    brandsLatestMap:
+      headquarters: 6126450
+      twitter_handle: 6140253
+
+      revenue: 5780267
+      profit: 5780278
+      top_3_production_countries: 5768935
+
+    brandsAnnualMap:
+      transparency_score: 5780639
+      living_wages_score: 5990097
+
+      public_commitment: 7616258
+      action_plan: 7624093
+      isolating_labor: 7616271
+
+      transparency_key: 6261816
+      living_wages_key: 6261809
+
+    suppliersMap:
+      headquarters: 6126450
+      female: 3233894
+      male: 3233883
+      other: 6019448
+      num_workers: 4780588
+      permanent: 6019621
+      temporary: 6019632
+      average: 6019687
+      gap: 7347357
+      # cba: 6020927
+      # know_brand: 6019511
+      # pregnancy: 6019786
+
+  score:
+    transparency:
+      "0.0": 1
+      "2.5": 2
+      "5.0": 3
+      "7.5": 4
+      "10.0": 5
+    commitment:
+      "No": 1
+      "Partial": 2
+      "Yes": 3
+      "Yes, Other": 3
+      "Yes, ACT": 3
+      "Yes, Fair Wear Foundation": 3
+
+  subBrands: {}
+
+FC.metrics.brandsMap =
+  Object.assign {}, FC.metrics.brandsLatestMap, FC.metrics.brandsAnnualMap
+
+$.extend FC,
+  apiSwitch: (cached, live) ->
+    if wikirateApiMode == "cached"
+      cached
+    else
+      live
+
+  apiUrl: (path, query) ->
+    "#{wikirateApiHost}/#{path}.json?" + $.param(query)
+
+  profilePath: (companyId, year) ->
+    p = "brand-profile.html?q=#{companyId}"
+    p += "&year=#{year}" if year
+    p
+
+  metricUrl: (metricId) ->
+    "#{wikirateLinkTarget}/~#{metricId}"
+
+  companyUrl: (companyId) ->
+    "#{wikirateLinkTarget}/~#{companyId}?" +
+      $.param
+        contrib: "N"
+        filter:
+          wikirate_topic: "Filling the Gap"
+
+subBrandsUrl = FC.apiSwitch "/content/sub_brands.json",
+  FC.apiUrl "~#{FC.metrics.suppliedBy}+Relationship_Answer",
+    limit: 500
+    filter:
+      company_group: "~#{FC.companyGroup}"
+      year: "latest"
+
+$.extend FC,
+  loadBrand: (companyId, year) ->
+    brandBox companyId, year
+    suppliersInfo companyId
+
+  loadSubBrands: $.ajax(url: subBrandsUrl, dataType: "json").done (owned) ->
+    $.each owned.items, (_i, brand) ->
+      key = brand.subject_company
+      FC.subBrands[key] ||= []
+      FC.subBrands[key].push brand.object_company
+      FC.subBrands[key].sort()
+
+preparePopovers = () ->
+  $('[data-toggle="popover"]').popover()
+
+prepareFlipCards = () ->
   $("body").on "click", ".flip-card", ->
     $(this).toggleClass("flipped")
 
+$(document).ready ->
+  searchBox()
+  prepareFlipCards()
+  preparePopovers()
+
   params = new URLSearchParams(window.location.search)
-
-  redirectBrandSearch = (company_id) ->
-    href = "/brand-profile.html?q=#{company_id}"
-    current = window.location.href
-    if /(\/$|html)/.test current
-      prefix = "."
-    else
-      prefix = current
-    window.location.href = prefix + href
-
-  unless params.get('embed-info') == "show"
-    $("._embed-info").hide()
-
-  if params.has('background')
-    $('body').css("background", params.get("background"))
-
-  if params.has('q')
-    loadBrandInfo params.get("q")
-
-loadBrandInfo = (company_id) ->
-  $.ajax(url: brandInfoURL(company_id), dataType: "json").done((data) ->
-    $output = $("#result")
-    $output.empty()
-    new BrandInfo(data).render($output)
-    $('[data-toggle="popover"]').popover()
-  )
-
-brandInfoURL = (company_id) ->
-  "#{API_HOST}/~#{company_id}.json?view=transparency_info"
-
-updateSuppliersTable = ($collapse) ->
-  loadOnlyOnce $collapse, ($collapse) ->
-    $.ajax(url: suppliedCompaniesSearchURL($collapse), dataType: "json").done((data) ->
-      tbody = $collapse.find("tbody")
-      tbody.find("tr.loading").remove()
-      for company, year of data
-        addRow tbody, company, year
-    )
-
-loadOnlyOnce = ($target, load) ->
-  return if $target.hasClass("_loaded")
-  $target.addClass("_loaded")
-  load($target)
-
-suppliedCompaniesSearchURL = (elem) ->
-  factory = elem.data("company-url-key")
-  "#{METRIC_URL}+#{factory}.json?view=related_companies_with_year"
+  if params.has "q"
+    FC.loadBrand params.get("q"), params.get("year")
+  else
+    brandsTable()

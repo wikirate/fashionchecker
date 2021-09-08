@@ -1,3 +1,4 @@
+
 # FashionChecker transparency tool
 
 ## embedding
@@ -38,4 +39,8 @@ the site in the browser.
 bundle exec cap production deploy
 ```
 
+### update source/content/wikirate_countries.json
 
+This should only be necessary if countries are added or renamed on WikiRate.org
+
+Just copy result of https://wikirate.org/:region/countries.json

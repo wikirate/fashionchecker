@@ -68,17 +68,17 @@ hr:
     action_plan_score_3: >
       Brend je javno obećao da će nastojati ostvariti isplatu dostojanstvenih
       plaća za sve radnike u svom dobavnom lancu.
-    separate_labor_costs_score_1: >
+    isolating_labor_score_1: >
       Svi brendovi dobavljačima plaćaju iznose koji pokrivaju proizvodnju, slanje robe i trošak rada.
       Ovaj brend ne ulaže napor u osiguranje adekvatne isplate za troškove rada.
-    separate_labor_costs_score_2: >
+    isolating_labor_score_2: >
       Djelomično
-    separate_labor_costs_score_3: >
+    isolating_labor_score_3: >
       Svi brendovi plaćaju dobavljačima iznose koji pokrivaju proizvodnju, slanje robe i trošak rada.
       Brendovi moraju osigurati da trošak rada bude adekvatno plaćen primjenom utvrđene metode izračuna,
       razdvajajući ove troškove od ostalih.
 
-    separate_labor_costs: "Razdvajanje troška rada?"
+    isolating_labor: "Razdvajanje troška rada?"
     desc:
       score_1: "This brand isn't doing enough to move towards Living Wages in its supply chain."
       score_2: "Text for score 2"
@@ -141,6 +141,29 @@ hr:
     have_cba: "Imati CBA"
     know_brand: "Znajte marku"
     pregnancy_leave: "dopust za trudnoću"
+    paid: "actual wage"
+    not_paid: "wage gap"
+    permanent: permanent
+    temporary: temporary
+    male: male
+    female: female
+    other: other
+    gender: "Gender"
+    gender_info: Percentage of workers by gender.
+    contract: "Contract"
+    contract_info: Percentage of workers by contract status.
+    average_info:
+      The monthly average net salary (in EUR equivalent of the local currency) as listed
+      on surveyed workers' payslips
+    gap_info: Monthly average salary as a percentage of living wage
+    have_cba_info: The percentage of surveyed workers covered by a collective bargaining agreement
+    know_brand_info:
+      The percentage of surveyed workers who know which brands their factory makes
+      products for
+    pregnancy_leave_info:
+      The percentage of surveyed workers, who had been pregnant, who were given
+      pregnancy leave
+
   latest: "najnoviji"
   news: "vijesti"
   footer_info: "je kampanja koju je pokrenula Clean Clothes Campaign, financirana iz sredstava Europske unije"
@@ -704,3 +727,27 @@ hr:
   social_media_description: "Pogledaj kakve plaće brendovi isplaćuju svojim radnicima i koliko su pristupačni u pružanju informacija o mjestima gdje se proizvodi roba za njih."
   social_media_image: "https://fashionchecker.org/images/CCC_FC_web_preview.jpg"
   a_worker_from_china: "Radnica iz Kine"
+  brands_surveyed: "Brands Surveyed"
+  brand_brands_owned: "Brand (brands owned)"
+
+  dataTables:
+    search: "Search:"
+    lengthMenu: "Show _MENU_ entries"
+    info: "Showing _START_ to _END_ of _TOTAL_ entries"
+  brand_overview: "Brand Overview"
+  supplier_map: "Supplier Map"
+  where_are_suppliers: "Where are the brand's disclosed suppliers?"
+  no_suppliers_disclosed: "No suppliers disclosed."
+  supplier_wages: "Supplier Wages"
+  are_surveyed_suppliers_paying: "Are surveyed suppliers paying a living wage?"
+  no_supplier_responses: "No supplier responses."
+
+  supplier_map_viz:
+    legend_title: Number of Suppliers
+    tooltip_suppliers: suppliers
+
+  no_data: No Data
+
+  covid_note_1: "The COVID-19 pandemic forced us to shift our short term demands to brands: workers have been paid poverty wages for decades but most are currently not even paid their pre-pandemic wages. Living wages remain our goal, but we now"
+  covid_link: "call upon brands to ensure "
+  covid_note_2: "workers are being paid their pre-pandemic wages and owed severance. We have therefore decided to survey brands only on their progress on Transparency, and not on Living Wages. Brands could let us know if they had made any progress on living wage nonetheless."

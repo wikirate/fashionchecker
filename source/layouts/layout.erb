@@ -31,6 +31,7 @@
   })();
 </script>
 <!-- End Matomo Code -->
+
     <meta property="og:title" content="<%= t('social_media_title') %>">
     <meta property="og:description" content="<%= t('social_media_description') %>">
     <meta property="og:image" content="<%= t('social_media_image') %>">
@@ -40,17 +41,33 @@
     <meta name="twitter:description" content="<%= t('social_media_description') %>">
     <meta name="twitter:image" content="<%= t('social_media_image') %>">
 
-    <%= stylesheet_link_tag "font-awesome.min" %>
+    <%= stylesheet_link_tag "//cdn.datatables.net/1.10.25/css/jquery.dataTables.min.css" %>
+    <%= stylesheet_link_tag "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" %>
     <%= stylesheet_link_tag "select2.min" %>
     <%- #stylesheet_link_tag "select2-bootstrap4.min" %>
     <%= stylesheet_link_tag "site" %>
+
+
     <%= javascript_include_tag "jquery.min" %>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
+    <%= javascript_include_tag "https://cdn.jsdelivr.net/npm/vega@5" %>
+    <%= javascript_include_tag "https://cdn.jsdelivr.net/npm/vega-embed@6" %>
+
     <%= javascript_include_tag "bootstrap.min" %>
+    <%= javascript_include_tag "//cdn.datatables.net/1.10.25/js/jquery.dataTables.min.js" %>
 
     <%= javascript_include_tag "select2.full.min" %>
-    <%= javascript_include_tag "brand_info" %>
+
     <%= javascript_include_tag "site" %>
+    <%= javascript_include_tag "company" %>
+    <%= javascript_include_tag "util" %>
+
+    <%= javascript_include_tag "search_box" %>
+    <%= javascript_include_tag "brands_table" %>
+    <%= javascript_include_tag "brand_box" %>
+    <%= javascript_include_tag "suppliers" %>
+
   </head>
   <body>
     <%= yield %>

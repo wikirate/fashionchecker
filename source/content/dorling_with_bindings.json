@@ -1,0 +1,267 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "description": "A Dorling cartogram depicting U.S. state obesity rates.",
+  "width": 900,
+  "height": 480,
+  "autosize": "none",
+
+  "config": {
+    "legend": {
+      "gradientDirection": "horizontal",
+      "gradientLength": 120,
+      "gradientThickness": 10
+    }
+  },
+
+  "signals": [
+    {
+      "name": "type",
+      "value": "equalEarth",
+      "bind": {
+        "input": "select",
+        "options": [
+          "albers",
+          "albersUsa",
+          "azimuthalEqualArea",
+          "azimuthalEquidistant",
+          "conicConformal",
+          "conicEqualArea",
+          "conicEquidistant",
+          "equalEarth",
+          "equirectangular",
+          "gnomonic",
+          "mercator",
+          "naturalEarth1",
+          "orthographic",
+          "stereographic",
+          "transverseMercator"
+        ]
+      }
+    },
+    { "name": "scale", "value": 175,
+      "bind": {"input": "range", "min": 50, "max": 2000, "step": 1} },
+    { "name": "rotate0", "value": -30,
+      "bind": {"input": "range", "min": -180, "max": 180, "step": 1} },
+    { "name": "rotate1", "value": 0,
+      "bind": {"input": "range", "min": -90, "max": 90, "step": 1} },
+    { "name": "rotate2", "value": 0,
+      "bind": {"input": "range", "min": -180, "max": 180, "step": 1} },
+    { "name": "center0", "value": 0,
+      "bind": {"input": "range", "min": -180, "max": 180, "step": 1} },
+    { "name": "center1", "value": 0,
+      "bind": {"input": "range", "min": -90, "max": 90, "step": 1} },
+    { "name": "translate0", "update": "width / 2" },
+    { "name": "translate1", "update": "height / 2" },
+
+    { "name": "graticuleDash", "value": 3,
+      "bind": {"input": "radio", "options": [0, 3, 5, 10]} },
+    { "name": "borderWidth", "value": 1,
+      "bind": {"input": "text"} },
+    { "name": "background", "value": "#1d1d2f",
+      "bind": {"input": "color"} },
+    {"name": "graticuleColor", "value": "#1B2E6F",
+      "bind": {"input": "color"} },
+    {"name": "landColor", "value": "#1B2E6F",
+      "bind": {"input": "color"} }
+  ],
+
+  "data": [
+    {
+      "name": "country_codes",
+      "url": "http://localhost:4567/content/country_codes.json"
+    },
+    {
+      "name": "answers",
+      "url": "http://localhost:4567/content/jack_suppliers.json"
+    },
+    {
+      "name": "companies",
+      "source": "answers",
+      "transform": [
+        {
+          "type": "filter",
+          "expr": "datum.metric == 6126450"
+        },
+        {
+          "type": "formula",
+          "expr": "datum.value == 'Vietnam' ? 'Viet Nam' : datum.value",
+          "as": "country"
+        }
+      ]
+    },
+
+    {
+      "name": "topo",
+      "url": "https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json",
+      "format": {"type": "topojson", "feature": "countries"}
+    },
+    {
+      "name": "company_counts",
+      "source": "companies",
+      "transform": [
+        {
+          "type": "aggregate",
+          "groupby": ["country"],
+          "fields": ["company"],
+          "ops": ["count"],
+          "as": ["companies"]
+        },
+        {
+          "type": "lookup",
+          "from": "country_codes",
+          "key": "name",
+          "fields": ["country"],
+          "values": ["country-code", "alpha-2"]
+        },
+        {
+          "type": "lookup",
+          "from": "topo",
+          "key": "id",
+          "fields": ["country-code"],
+          "as": ["geo"]
+        },
+        {
+          "type": "filter",
+          "expr": "datum.geo"
+        },
+        {
+          "type": "formula", "as": "centroid",
+          "expr": "geoCentroid('projection', datum.geo)"
+        }
+      ]
+    },
+    {
+      "name": "graticule",
+      "transform": [
+        { "type": "graticule" }
+      ]
+    }
+  ],
+
+  "projections": [
+    {
+      "name": "projection",
+      "type": {"signal": "type"},
+      "scale": {"signal": "scale"},
+      "rotate": [
+        {"signal": "rotate0"},
+        {"signal": "rotate1"},
+        {"signal": "rotate2"}
+      ],
+      "center": [
+        {"signal": "center0"},
+        {"signal": "center1"}
+      ],
+      "translate": [
+        {"signal": "translate0"},
+        {"signal": "translate1"}
+      ]
+    }
+  ],
+
+  "scales": [
+    {
+      "name": "size",
+      "domain": {"data": "company_counts", "field": "companies"},
+      "zero": false,
+      "range": [500, 4000]
+    },
+    {
+      "name": "color",
+      "type": "linear",
+      "nice": true,
+      "domain": {"data": "company_counts", "field": "companies"},
+      "range": ["#fcc9fd", "#ed40d9"]
+    }
+  ],
+
+  "legends": [
+    {
+      "title": "Number of Suppliers",
+      "orient": "bottom-right",
+      "type": "symbol",
+      "size": "size",
+      "fill": "color",
+      "clipHeight": 16,
+      "labelColor": "white",
+      "titleColor": "white"
+    }
+  ],
+
+  "marks": [
+    {
+      "type": "shape",
+      "from": {"data": "graticule"},
+      "encode": {
+        "update": {
+          "strokeWidth": {"value": 1},
+          "strokeDash": {"signal": "[+graticuleDash, +graticuleDash]"},
+          "stroke": {"signal": "graticuleColor"},
+          "fill": {"value": null}
+        }
+      },
+      "transform": [
+        { "type": "geoshape", "projection": "projection" }
+      ]
+    },
+    {
+      "type": "shape",
+      "from": {"data": "topo"},
+      "encode": {
+        "update": {
+          "strokeWidth": {"signal": "+borderWidth"},
+
+          "fill": { "signal": "landColor" },
+          "zindex": {"value": 0}
+        }
+      },
+      "transform": [
+        { "type": "geoshape", "projection": "projection" }
+      ]
+    },
+    {
+      "name": "circles",
+      "type": "symbol",
+      "from": {"data": "company_counts"},
+      "encode": {
+        "update": {
+          "size": {"scale": "size", "field": "companies"},
+          "fill": {"scale": "color", "field": "companies"},
+          "stroke": {"value": "#32437d"},
+          "strokeWidth": {"value": 1.5},
+          "x": {"field": "centroid[0]"},
+          "y": {"field": "centroid[1]"},
+          "tooltip": {"signal": "datum.country + ': ' + datum.companies + ' suppliers'"}
+        }
+      },
+      "transform": [
+        {
+          "type": "force",
+          "static": true,
+          "restart": false,
+          "forces": [
+            {"force": "collide", "radius": {"expr": "1 + sqrt(datum.size) / 2"}},
+            {"force": "x", "x": "datum.centroid[0]"},
+            {"force": "y", "y": "datum.centroid[1]"}
+          ]
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "interactive": false,
+      "from": {"data": "circles"},
+      "encode": {
+        "update": {
+          "align": {"value": "center"},
+          "baseline": {"value": "middle"},
+          "fontSize": {"value": 10},
+          "fontWeight": {"value": "bold"},
+          "text": {"field": "datum.alpha-2"},
+          "x": {"field": "x"},
+          "y": {"field": "y"}
+        }
+      }
+    }
+  ]
+}
