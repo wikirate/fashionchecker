@@ -138,28 +138,22 @@ de:
     have_cba: "Tarifvertrag"
     know_brand: "Kennen die Marke"
     pregnancy_leave: "Schwangerschaftsurlaub"
-    paid: "actual wage"
-    not_paid: "wage gap"
-    permanent: permanent
-    temporary: temporary
-    male: male
-    female: female
-    other: other
+    paid: "tatsächlicher Lohn"
+    not_paid: "Lohnlücke"
+    permanent: "festangestellt"
+    temporary: "temporär"
+    male: "männlich"
+    female: "weiblich"
+    other: "sonstiges"
     gender: "Gender"
-    gender_info: Percentage of workers by gender.
-    contract: "Contract"
-    contract_info: Percentage of workers by contract status.
-    average_info:
-      The monthly average net salary (in EUR equivalent of the local currency) as listed
-      on surveyed workers' payslips
-    gap_info: Monthly average salary as a percentage of living wage
-    have_cba_info: The percentage of surveyed workers covered by a collective bargaining agreement
-    know_brand_info:
-      The percentage of surveyed workers who know which brands their factory makes
-      products for
-    pregnancy_leave_info:
-      The percentage of surveyed workers, who had been pregnant, who were given
-      pregnancy leave
+    gender_info: "Geschlecht der Arbeiter*innen in %"
+    contract: "Vertrag"
+    contract_info: "Verträge der Arbeiter*innen in %"
+    average_info: "Monatlicher Durchschnittslohn in EUR entsprechend Gehaltsabrechnung befragter Arbeiter*innen"
+    gap_info: "Monatlicher Durchschnittslohn im Verhätnis zum Existenzlohn in %"
+    have_cba_info: "Prozentsatz der Arbeiter*innen mit Tarifvertrag"
+    know_brand_info: "Prozentsatz befragter Arbeiter*innen, die wussten, für welche Unternehmen sie produzieren."
+    pregnancy_leave_info: "Prozentsatz schwangerer Arbeiter*innen, denen Schwangerschaftsurlaub gewährt wurde."
 
   latest: "aktuellste"
   news: "Neuigkeiten"
@@ -716,28 +710,28 @@ de:
   social_media_description: "See how brands perform on paying their workers and how open they are about where their products are made."
   social_media_image: "https://fashionchecker.org/images/CCC_FC_web_preview.jpg"
   a_worker_from_china: "Eine Arbeiterin aus China"
-  brands_surveyed: "Brands Surveyed"
-  brand_brands_owned: "Brand (brands owned)"
+  brands_surveyed: "befragte Unternehmen"
+  brand_brands_owned: "Marken des Unternehmens"
 
   dataTables:
-    search: "Search:"
-    lengthMenu: "Show _MENU_ entries"
-    info: "Showing _START_ to _END_ of _TOTAL_ entries"
-  brand_overview: "Brand Overview"
-  supplier_map: "Supplier Map"
-  where_are_suppliers: "Where are the brand's disclosed suppliers?"
-  no_suppliers_disclosed: "No suppliers disclosed."
-  supplier_wages: "Supplier Wages"
-  are_surveyed_suppliers_paying: "Are surveyed suppliers paying a living wage?"
-  no_supplier_responses: "No supplier responses."
+    search: "Suche:"
+    lengthMenu: "Zeige _MENU_ Einträge"
+    info: "Zeigt _START_ bis _END_ von _TOTAL_ Einträgen"
+  brand_overview: "Steckbrief"
+  supplier_map: "Karte der Zulieferfabriken"
+  where_are_suppliers: "Wo sind die Zulieferfabriken des Unternehmens?"
+  no_suppliers_disclosed: "Unternehmen hat keine Daten zu Fabriken veröffentlicht"
+  supplier_wages: "Löhne in den Fabriken"
+  are_surveyed_suppliers_paying: "Zahlen die befragten Fabriken einen Existenzlohn?"
+  no_supplier_responses: "Keine Daten zu den Fabriken"
 
   supplier_map_viz:
-    legend_title: Number of Suppliers
-    tooltip_suppliers: suppliers
+    legend_title: "Anzahl der Zulieferer"
+    tooltip_suppliers: "Zulieferer"
 
-  minimum_wage: "Minimum Wage"
-  no_data: No Data
+  minimum_wage: "Mindestlohn"
+  no_data: "Keine Daten"
 
-  covid_note_1: "The COVID-19 pandemic forced us to shift our short term demands to brands: workers have been paid poverty wages for decades but most are currently not even paid their pre-pandemic wages. Living wages remain our goal, but we now"
-  covid_link: "call upon brands to ensure "
-  covid_note_2: "workers are being paid their pre-pandemic wages and owed severance. We have therefore decided to survey brands this year only on their progress on Transparency, and not on Living Wages. Brands could let us know if they had made any progress on living wage nonetheless."
+  covid_note_1: "Die COVID-19-Pandemie hat uns gezwungen, unsere kurzfristigen Forderungen an Modeuntenehmen zu ändern: Den Arbeiter*innen werden seit Jahrzehnten Armutslöhne gezahlt, aber die meisten erhalten derzeit nicht einmal die Löhne von vor der Pandemie. Existenzsichernde Löhne bleiben unser Ziel, aber wir"
+  covid_link: "fordern jetzt die Marken auf"
+  covid_note_2: "sicherzustellen, dass die Arbeiter*innen die ihnen zustehenden Löhne und Abfindungen erhalten. Daher haben wir uns entschieden, Unternehmen in diesem Jahr nur nach ihren Fortschritten bei der Transparenz und nicht bezüglich existenzsichernder Löhne zu befragen. Marken könnten uns mitteilen, wenn sie dennoch Fortschritte bei existenzsichernden Löhnen gemacht haben."
