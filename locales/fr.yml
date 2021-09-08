@@ -739,8 +739,8 @@ fr:
 
   dataTables:
     search: "Rechercher:"
-    lengthMenu: "Show _MENU_ entries"
-    info: "Showing _START_ to _END_ of _TOTAL_ entries"
+    lengthMenu: "Afficher _MENU_ entrées"
+    info: "Affichage de _START_ à _END_ sur _TOTAL_ entrées"
   brand_overview: "Aperçu de la marque"
   supplier_map: "Cartographie des fournisseurs"
   where_are_suppliers: "Où sont localisés les fournisseurs divulgués par la marque?"
