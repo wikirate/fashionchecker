@@ -723,9 +723,9 @@ it:
     legend_title: "Numero di fornitori"
     tooltip_suppliers: "Fornitori"
 
-  no_data: "Nessun dato"
+  no_data: "Nessun dato disponibile"
 
-  covid_note_1: "La pandemia COVID-19 ci ha obbligato a modificare le nostre richieste a breve termine ai marchi: le lavoratrici hanno ricevuto salari di povertà per decenni ma molte di loro adesso non ricevono nemmeno i salari fissati prima della crisi. Salari vivibili restano il nostro obiettivo, ma per adesso"
+  covid_note_1: "La pandemia COVID-19 ci (Clean Clothes Campaign) ha obbligato a modificare le nostre richieste a breve termine ai marchi: le lavoratrici hanno ricevuto salari di povertà per decenni ma molte di loro adesso non ricevono nemmeno i salari fissati prima della crisi. Salari vivibili restano il nostro obiettivo, ma per adesso"
 
   covid_link: "chiedi ai marchi di assicurare"
 
