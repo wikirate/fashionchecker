@@ -52,6 +52,7 @@ fr:
   commitment_score:
     title: "Engagement de la marque"
     public_commitment: "engagement public?"
+    public_commitment_info: Has this brand made a public commitment to pay all workers in its supply chain a living wage sufficient to support themselves and their dependents?
     public_commitment_score_1: >
       Aucune preuve n'a été trouvée indiquant que cette marque s'est engagée à œuvrer pour un salaire vital pour tou·te·s les travailleur·euse·s de sa filière d'approvisionnement.
     public_commitment_score_2: >
@@ -61,12 +62,14 @@ fr:
     public_commitment_score_3: >
       Cette marque s'est engagée publiquement à œuvrer pour un salaire vital pour tou·te·s les travailleur·euse·s de sa filière d'approvisionnement.
     action_plan: "plan d'action?"
+    action_plan_info: Does this brand have a publicly available plan for achieving a living wage for all workers in their supply chain, including concrete steps within a specific time frame?
     action_plan_score_1: >
       Aucune preuve n'a été trouvée indiquant que cette marque possède un plan d'action limité dans le temps visant à améliorer les bas salaires dans sa filière d'approvisionnement.
     action_plan_score_2: >
       Cette marque a mis en place un plan mais ce dernier n'est soit pas public, soit pas limité dans le temps, soit il concerne uniquement sur les usines de leurs fournisseurs de niveau 1, ou qui n'est pas clair sur les détails de mise-en-oeuvre (pas SMART).
     action_plan_score_3: >
       Cette marque dispose d'un plan accessible au public afin d’atteindre un salaire vital pour tou·te·s les travailleur·euse·s de sa filière d'approvisionnement, y compris des étapes concrètes dans un délai précis.
+    isolating_labor_info: Does this brand use an established method to calculate labour costs and separate them from other production costs to ensure suppliers can pay workers?
     isolating_labor_score_1: >
       Les marques doivent s'assurer que les coûts du travail suffisent à payer un salaire vital en utilisant une méthode établie pour les calculer, en séparant ces coûts des autres coûts de fabrication.
     isolating_labor_score_2: >
@@ -83,6 +86,7 @@ fr:
 
   living_wage_score:
     title: "Paiement d'un salaire vital?"
+    title_info: Does this brand use an established method to set a living wage and does it monitor if workers are paid that?
     desc_1:
       score_5: >
         La marque affirme que 100% des usines des fournisseurs de sa filière d'approvisionnement versent aux travailleur·euse·s un salaire
@@ -113,6 +117,7 @@ fr:
 
   transparency_score:
     title: "Transparence de la marque sur sa filière d'approvisionnement?"
+    title_info: Does this brand provide abundant, practically structured information on the factories and garment workers in its supply chain as required by the transparency pledge?
     read_more: "Lire : "
     about_why_transparency_is_important: "pourquoi la transparence est importante?"
     about_how_this_score_was_calculated: "comment les résultats ont-ils été obtenus?"

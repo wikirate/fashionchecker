@@ -91,7 +91,7 @@ en:
 
   living_wage_score:
     title: "Living Wage Paid"
-    title_info: Does this brand use an established method to calculate labour costs and separate them from other production costs to ensure suppliers can pay workers?
+    title_info: Does this brand use an established method to set a living wage and does it monitor if workers are paid that?
     desc_1:
       score_5: >
         100% of factories in the brand’s supply chain pay workers a living wage.

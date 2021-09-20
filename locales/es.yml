@@ -40,6 +40,7 @@ es:
   commitment_score:
     title: "Puntuación del compromiso"
     public_commitment: "¿compromiso público?"
+    public_commitment_info: Has this brand made a public commitment to pay all workers in its supply chain a living wage sufficient to support themselves and their dependents?
     public_commitment_score_1: >
       Esta marca no se ha comprometido a trabajar para lograr un salario digno para todas las trabajadoras/es de su cadena de suministro.
     public_commitment_score_2: >
@@ -48,6 +49,7 @@ es:
     public_commitment_score_3: >
       Esta marca se ha comprometido públicamente a trabajar por un salario digno para todas las trabajadoras/es de su cadena de suministro
     action_plan: "action plan?"
+    action_plan_info: Does this brand have a publicly available plan for achieving a living wage for all workers in their supply chain, including concrete steps within a specific time frame?
     action_plan_score_1: >
       Esta marca no tiene planes de mejorar los bajos salarios en su cadena de suministro.
     action_plan_score_2: >
@@ -56,6 +58,7 @@ es:
     action_plan_score_3: >
       Esta marca tiene un plan disponible y publicado sobre la forma de lograr un salario digno para todas las trabajadoras/es
       de su cadena de suministro, incluyendo pasos concretos en un marco de tiempo específico.
+    isolating_labor_info: Does this brand use an established method to calculate labour costs and separate them from other production costs to ensure suppliers can pay workers?
     isolating_labor_score_1: >
       All brands pay prices to suppliers which cover production,
       shipping and labour costs. This brand makes no effort to ensure labour costs are properly covered.
@@ -75,6 +78,7 @@ es:
 
   living_wage_score:
     title: "Living Wage Score"
+    title_info: Does this brand use an established method to set a living wage and does it monitor if workers are paid that?
     desc_1:
       score_5: >
         El 100% de las fábricas en la cadena de suministro de la marca, paga a las trabajadoras/es un salario digno. Esta información es pública.
@@ -100,6 +104,7 @@ es:
 
   transparency_score:
     title: "Transparency Score"
+    title_info: Does this brand provide abundant, practically structured information on the factories and garment workers in its supply chain as required by the transparency pledge?
     read_more: "Lee mas"
     about_why_transparency_is_important: "Sobre el por qué es tan importante la transparencia"
     about_how_this_score_was_calculated: "Sobre cómo se calculó esta puntuación"

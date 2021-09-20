@@ -52,6 +52,7 @@ zh_cn:
   commitment_score:
     title: "承诺方面的得分"
     public_commitment: "公众承诺？"
+    public_commitment_info: Has this brand made a public commitment to pay all workers in its supply chain a living wage sufficient to support themselves and their dependents?
     public_commitment_score_1: >
       沒有证据显示，该品牌公司有做出承诺，致力于为其供应链的所有工人争取生活工资。
     public_commitment_score_2: >
@@ -61,6 +62,7 @@ zh_cn:
     public_commitment_score_3: >
       该品牌公司已做出公开承诺，致力于为其供应链的所有工人争取生活工资。
     action_plan: "行动计划？"
+    action_plan_info: Does this brand have a publicly available plan for achieving a living wage for all workers in their supply chain, including concrete steps within a specific time frame?
     action_plan_score_1: >
       沒有证据显示,该品牌公司有公开提出一个设定时限的行动计划,来改善其供应链中的低工资情况。
     action_plan_score_2: >
@@ -73,6 +75,7 @@ zh_cn:
       沒有证据显示,该品牌公司有通过使用一个既定方法来计算劳工成本,并将这些成本与其他成本分开,
       从而确保公司有适当地顾及劳工成本。
       所有品牌公司都应向供应商支付足够的价钱，以支付其供应链中所有工人的生活工资和社会保障费用。
+    isolating_labor_info: Does this brand use an established method to calculate labour costs and separate them from other production costs to ensure suppliers can pay workers?
     isolating_labor_score_2: >
       部分
     isolating_labor_score_3: >
@@ -87,6 +90,7 @@ zh_cn:
 
   living_wage_score:
     title: "支付生活工资"
+    title_info: Does this brand use an established method to set a living wage and does it monitor if workers are paid that?
     desc_1:
       score_5: >
         该品牌公司的供应链中,100%的工厂有向工人支付生活工资。
@@ -114,6 +118,7 @@ zh_cn:
 
   transparency_score:
     title: "供应链资料的透明度"
+    title_info: Does this brand provide abundant, practically structured information on the factories and garment workers in its supply chain as required by the transparency pledge?
     read_more: "阅读更多资料"
     about_why_transparency_is_important: "透明度的重要性"
     about_how_this_score_was_calculated: "计算此分数的方法"

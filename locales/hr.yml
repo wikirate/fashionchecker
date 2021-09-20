@@ -51,6 +51,7 @@ hr:
   commitment_score:
     title: "Rezultat predanosti"
     public_commitment: "Javno obećanje?"
+    public_commitment_info: Has this brand made a public commitment to pay all workers in its supply chain a living wage sufficient to support themselves and their dependents?
     public_commitment_score_1: >
       Brend nije obećao da će nastojati ostvariti isplatu dostojanstvenih plaća za sve radnike u svom dobavnom lancu.
     public_commitment_score_2: >
@@ -60,6 +61,7 @@ hr:
     public_commitment_score_3: >
       Brend je javno obećao da će nastojati ostvariti isplatu dostojanstvenih plaća za sve radnike u svom dobavnom lancu.
     action_plan: "Akcijski plan?"
+    action_plan_info: Does this brand have a publicly available plan for achieving a living wage for all workers in their supply chain, including concrete steps within a specific time frame?
     action_plan_score_1: >
       Brend nema plan kako poboljšati niske plaće u svom dobavnom lancu.
     action_plan_score_2: >
@@ -68,6 +70,7 @@ hr:
     action_plan_score_3: >
       Brend je javno obećao da će nastojati ostvariti isplatu dostojanstvenih
       plaća za sve radnike u svom dobavnom lancu.
+    isolating_labor_info: Does this brand use an established method to calculate labour costs and separate them from other production costs to ensure suppliers can pay workers?
     isolating_labor_score_1: >
       Svi brendovi dobavljačima plaćaju iznose koji pokrivaju proizvodnju, slanje robe i trošak rada.
       Ovaj brend ne ulaže napor u osiguranje adekvatne isplate za troškove rada.
@@ -86,6 +89,7 @@ hr:
 
   living_wage_score:
     title: "Rezultat plaće za život"
+    title_info: Does this brand use an established method to set a living wage and does it monitor if workers are paid that?
     desc_1:
       score_5: >
         100 posto tvornica u dobavnom lancu brenda može isplatiti dostojanstvenu plaću radnicima.
@@ -115,6 +119,7 @@ hr:
 
   transparency_score:
     title: "Ocjena transparentnosti"
+    title_info: Does this brand provide abundant, practically structured information on the factories and garment workers in its supply chain as required by the transparency pledge?
     read_more: "Čitaj više"
     about_why_transparency_is_important: "o tome zašto je transparentnost važna"
     about_how_this_score_was_calculated: "o tome kako je izračunat ovaj rezultat"
