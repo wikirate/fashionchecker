@@ -131,28 +131,24 @@ it:
     have_cba: "Hanno cba"
     know_brand: "Brand conosciuto"
     pregnancy_leave: "maternità"
-    paid: "actual wage"
-    not_paid: "wage gap"
-    permanent: permanent
-    temporary: temporary
-    male: male
-    female: female
-    other: other
-    gender: "Gender"
-    gender_info: Percentage of workers by gender.
-    contract: "Contract"
-    contract_info: Percentage of workers by contract status.
-    average_info:
-      The monthly average net salary (in EUR equivalent of the local currency) as listed
-      on surveyed workers' payslips
-    gap_info: Monthly average salary as a percentage of living wage
-    have_cba_info: The percentage of surveyed workers covered by a collective bargaining agreement
-    know_brand_info:
-      The percentage of surveyed workers who know which brands their factory makes
-      products for
-    pregnancy_leave_info:
-      The percentage of surveyed workers, who had been pregnant, who were given
-      pregnancy leave
+    paid: "salario attuale"
+    not_paid: "divario retributivo"
+    permanent: "permanente"
+    temporary: "temporaneo"
+    male: "maschio"
+    female: "femmina"
+    other: "altro"
+    gender: "genere"
+    gender_info: "percentuale dei lavoratori per genere."
+    contract: "Contratto"
+    contract_info: "percentuale dei lavoratori per condizione contrattuale."
+    average_info: >
+      Il salario medio mensile netto (valore in EUR equivalente della valuta locale) come indicato nelle buste paga dei lavoratori intervistati
+    gap_info: "Salario medio mensile come percentuale del salario dignitoso"
+    have_cba_info: "La percentuali dei lavoratori intervistati coperti da un contratto collettivo"
+    know_brand_info: >
+      La percentuale di lavoratori intervistati che conosce per quali marchi lavora la sua azienda
+    pregnancy_leave_info: La percentuale di lavoratrici intervistate che ha goduto del congedo per maternità.
 
   latest: "Ultimi"
   news: "Aggiornamenti"
@@ -707,27 +703,30 @@ it:
   social_media_description: "See how brands perform on paying their workers and how open they are about where their products are made."
   social_media_image: "https://fashionchecker.org/images/CCC_FC_web_preview.jpg"
   a_worker_from_china: "Una lavoratrice dal China"
-  brands_surveyed: "Brands Surveyed"
-  brand_brands_owned: "Brand (brands owned)"
+  brands_surveyed: "Marchi intervistati"
+  brand_brands_owned: "Marchio (marchi di proprietà)"
 
   dataTables:
-    search: "Search:"
-    lengthMenu: "Show _MENU_ entries"
-    info: "Showing _START_ to _END_ of _TOTAL_ entries"
-  brand_overview: "Brand Overview"
-  supplier_map: "Supplier Map"
-  where_are_suppliers: "Where are the brand's disclosed suppliers?"
-  no_suppliers_disclosed: "No suppliers disclosed."
-  supplier_wages: "Supplier Wages"
-  are_surveyed_suppliers_paying: "Are surveyed suppliers paying a living wage?"
-  no_supplier_responses: "No supplier responses."
+    search: "Cerca:"
+    lengthMenu: "Mostra _MENU_ voci"
+    info: "Mostra_START_ a _END_ di _TOTAL_ voci"
+
+  brand_overview: "Panoramica del marchio"
+  supplier_map: "Mappa dei fornitori"
+  where_are_suppliers: "Dove sono i fornitori resi noti dal marchio?"
+  no_suppliers_disclosed: "I fornitori non sono resi noti"
+  supplier_wages: "Salari del fornitore"
+  are_surveyed_suppliers_paying: "I fornitori analizzati stanno pagando un salario dignitoso?"
+  no_supplier_responses: "Nessuna risposta del fornitore."
 
   supplier_map_viz:
-    legend_title: Number of Suppliers
-    tooltip_suppliers: suppliers
+    legend_title: "Numero di fornitori"
+    tooltip_suppliers: "Fornitori"
 
-  no_data: No Data
+  no_data: "Nessun dato disponibile"
 
-  covid_note_1: "The COVID-19 pandemic forced us to shift our short term demands to brands: workers have been paid poverty wages for decades but most are currently not even paid their pre-pandemic wages. Living wages remain our goal, but we now"
-  covid_link: "call upon brands to ensure "
-  covid_note_2: "workers are being paid their pre-pandemic wages and owed severance. We have therefore decided to survey brands this year only on their progress on Transparency, and not on Living Wages. Brands could let us know if they had made any progress on living wage nonetheless."
+  covid_note_1: "La pandemia COVID-19 ci (Clean Clothes Campaign) ha obbligato a modificare le nostre richieste a breve termine ai marchi: le lavoratrici hanno ricevuto salari di povertà per decenni ma molte di loro adesso non ricevono nemmeno i salari fissati prima della crisi. Salari vivibili restano il nostro obiettivo, ma per adesso"
+
+  covid_link: "chiedi ai marchi di assicurare"
+
+  covid_note_2: "che i lavoratori ricevano i salari pre-crisi e le indennità spettanti. Quest'anno abbiamo pertanto deciso di intervistare i marchi solo sui loro progressi in merito alla Trasparenza e non su quelli salariali. I marchi potevano comunque informarci in caso di avanzamenti sul salario dignitoso."

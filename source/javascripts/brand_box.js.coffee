@@ -103,8 +103,9 @@ window.brandBox = (company_id, year) ->
     return unless (handle = @value "twitter_handle")
 
     link = @find "._tweet-the-brand"
-    tweetText = "#{handle}\n#{window.location.href} #LivingWageNow"
-    link.attr "href", link.attr("href") + $.param({ text: tweetText })
+#    tweetText = "#{handle}\n#{window.location.href} #LivingWageNow"
+#    link.attr "href", link.attr("href") + $.param({ text: tweetText })
+    link.attr "href", link.attr("href")
     link.removeClass("d-none")
 
   @handleNoData = (fld, val, fn) ->
