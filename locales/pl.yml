@@ -53,7 +53,7 @@ pl:
   commitment_score:
     title: "Zobowiązanie dot. godnej płacy"
     public_commitment: "Publiczne zobowiązanie?"
-    public_commitment_info: Has this brand made a public commitment to pay all workers in its supply chain a living wage sufficient to support themselves and their dependents?
+    public_commitment_info: Czy marka zobowiązała się publicznie do zapewnienia wszystkim pracownikom w swoim łańcuchu dostaw godnej płacy, wystarczającej na życie im i osobom na ich utrzymaniu?
     public_commitment_score_1: >
       Brak dowodów, że marka ma publicznie dostępny, ujęty w konkretnych ramach czasowych plan działania, by podnieść niskie płace w swoim łańcuchu dostaw.
     public_commitment_score_2: >
@@ -63,7 +63,7 @@ pl:
     public_commitment_score_3: >
       Marka zobowiązała się publicznie do dążenia do zapewnienia godnej płacy wszystkim pracownikom w swoim łańcuchu dostaw.
     action_plan: "Plan działania?"
-    action_plan_info: Does this brand have a publicly available plan for achieving a living wage for all workers in their supply chain, including concrete steps within a specific time frame?
+    action_plan_info: Czy marka ma dostępny publicznie plan osiągnięcia godnej płacy dla wszystkich pracowników w swoim łańcuchu dostaw, z konkretnymi krokami w określonych ramach czasowych?
     action_plan_score_1: >
       Brak dowodów, że marka ma publicznie dostępny, ujęty w konkretnych ramach czasowych plan działania, by podnieść niskie płace w swoim łańcuchu dostaw.
     action_plan_score_2: >
@@ -72,7 +72,7 @@ pl:
     action_plan_score_3: >
       Marka ma dostępny publicznie plan zapewnienia godnej płacy wszystkim pracownikom
       w swoim łańcuchu dostaw, obejmujący konkretne kroki w określonych ramach czasowych.
-    isolating_labor_info: Does this brand use an established method to calculate labour costs and separate them from other production costs to ensure suppliers can pay workers?
+    isolating_labor_info: Czy marka stosuje sprawdzoną metodę obliczania kosztów pracy i oddzielania ich od innych kosztów produkcji, by zapewnić, że dostawcy będą w stanie opłacić pracowników?
     isolating_labor_score_1: >
       Brak dowodów, że ta marka gwarantuje, że oferowane przez nią ceny pokrywają koszty pracy, posługując się uznaną metodą ich obliczania,
       przez oddzielanie ich od innych kosztów.
@@ -92,7 +92,7 @@ pl:
 
   living_wage_score:
     title: "Zapewniona godna płaca"
-    title_info: Does this brand use an established method to set a living wage and does it monitor if workers are paid that?
+    title_info: Czy marka stosuje sprawdzoną metodę ustalania wysokości godnej płacy i monitoruje, czy pracownicy taką płacę otrzymują?
     desc_1:
       score_5: >
         100% fabryk w łańcuchu dostaw marki płaci pracownikom godną płacę.
@@ -123,7 +123,7 @@ pl:
 
   transparency_score:
     title: "Transparentny łańcuch dostaw"
-    title_info: Does this brand provide abundant, practically structured information on the factories and garment workers in its supply chain as required by the transparency pledge?
+    title_info: Czy marka przedstawia odpowiednią ilość praktycznie uporządkowanych informacji o fabrykach i pracownikach w swoim łańcuchu dostaw, wg wymogów zobowiązania do transparentności?
     read_more: "Przeczytaj więcej"
     about_why_transparency_is_important: "dlaczego transparentność jest istotna"
     about_how_this_score_was_calculated: "o tym, jak przyznano tę ocenę."
