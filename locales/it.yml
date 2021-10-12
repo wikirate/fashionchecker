@@ -51,6 +51,7 @@ it:
   commitment_score:
     title: "Livello di impegno"
     public_commitment: "impegno pubblico?"
+    public_commitment_info: Has this brand made a public commitment to pay all workers in its supply chain a living wage sufficient to support themselves and their dependents?
     public_commitment_score_1: >
       Non è stata trovata alcuna prova dell'impegno di questo brand a lavorare per il pagamento di un salario vivibile per tutti i lavoratori della sua catena di fornitura.
     public_commitment_score_2: >
@@ -58,12 +59,14 @@ it:
     public_commitment_score_3: >
       Questo marchio si è impegnato pubblicamente a lavorare per il pagamento di un salario vivibile per tutti i lavoratori della sua catena di fornitura.
     action_plan: "strategia?"
+    action_plan_info: Does this brand have a publicly available plan for achieving a living wage for all workers in their supply chain, including concrete steps within a specific time frame?
     action_plan_score_1: >
       Non è stata trovata alcuna prova che questo marchio abbia una strategia pubblica per migliorare i bassi salari nella sua catena di fornitura in un arco di tempo definito e ragionevole.
     action_plan_score_2: >
       Questo brand ha un piano ma non è circostanziato, copre solo il primo livello di fornitura, e/o non è chiaro né dettagliato.
     action_plan_score_3: >
       Questo brand ha pubblicato il proprio piano per il salario vivibile lungo l’intera filiera, con l’indicazione di sviluppi e tempistiche.
+    isolating_labor_info: Does this brand use an established method to calculate labour costs and separate them from other production costs to ensure suppliers can pay workers?
     isolating_labor_score_1: >
       Non è stata trovata alcuna prova che questo brand garantisca che i costi del lavoro siano adeguatamente coperti utilizzando un metodo consolidato per calcolarli, separandoli dagli altri costi.
       Tutti i marchi dovrebbero pagare ai fornitori prezzi che consentano di coprire un salario vivibile e i contributi di protezione sociale per tutti i lavoratori della sua catena di fornitura.
@@ -80,6 +83,7 @@ it:
 
   living_wage_score:
     title: "Punteggio sul salario vivibile"
+    title_info: Does this brand use an established method to set a living wage and does it monitor if workers are paid that?
     desc_1:
       score_5: >
         Tutti fornitori della filiera del brand pagano salari vivibili ai lavoratori. Questa informazione è pubblicamente disponibile.
@@ -105,6 +109,7 @@ it:
 
   transparency_score:
     title: "Punteggio sulla trasparenza"
+    title_info: Does this brand provide abundant, practically structured information on the factories and garment workers in its supply chain as required by the transparency pledge?
     read_more: "Scopri di più"
     about_why_transparency_is_important: "perché la trasparenza è importante"
     about_how_this_score_was_calculated: "come sono stati calcolati questi punteggi"
