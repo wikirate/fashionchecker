@@ -52,6 +52,7 @@ zh_hk:
   commitment_score:
     title: "承諾方面的得分"
     public_commitment: "公眾承諾？"
+    public_commitment_info: Has this brand made a public commitment to pay all workers in its supply chain a living wage sufficient to support themselves and their dependents?
     public_commitment_score_1: >
       沒有證據顯示，該品牌公司有做出承諾，致力於為其供應鏈的所有工人爭取生活工資。
     public_commitment_score_2: >
@@ -61,6 +62,7 @@ zh_hk:
     public_commitment_score_3: >
       該品牌公司已做出公開承諾，致力於為其供應鏈的所有工人爭取生活工資。
     action_plan: "行動計劃？"
+    action_plan_info: Does this brand have a publicly available plan for achieving a living wage for all workers in their supply chain, including concrete steps within a specific time frame?
     action_plan_score_1: >
       沒有證據顯示，該品牌公司有公開提出一個設定時限的行動計劃，來改善其供應鏈中的低工資情況。
     action_plan_score_2: >
@@ -69,6 +71,7 @@ zh_hk:
     action_plan_score_3: >
       該品牌公司已定出一個公開、可用的行動計劃，致力於為其供應鏈的所有工人爭取生活工資，
       包括在特定時間範圍內的具體步驟。
+    isolating_labor_info: Does this brand use an established method to calculate labour costs and separate them from other production costs to ensure suppliers can pay workers?
     isolating_labor_score_1: >
       沒有證據顯示，該品牌公司有通過使用一個既定方法來計算勞工成本，並將這些成本與其他成本分開，
       從而確保公司有適當地顧及勞工成本。
@@ -87,6 +90,7 @@ zh_hk:
 
   living_wage_score:
     title: "支付生活工資"
+    title_info: Does this brand use an established method to set a living wage and does it monitor if workers are paid that?
     desc_1:
       score_5: >
         該品牌公司的供應鏈中，100%的工廠有向工人支付生活工資。
@@ -114,6 +118,7 @@ zh_hk:
 
   transparency_score:
     title: "供應鏈資料的透明度"
+    title_info: Does this brand provide abundant, practically structured information on the factories and garment workers in its supply chain as required by the transparency pledge?
     read_more: "閱讀更多資料"
     about_why_transparency_is_important: "透明度的重要性"
     about_how_this_score_was_calculated: "計算此分數的方法"

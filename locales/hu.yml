@@ -53,6 +53,7 @@ hu:
   commitment_score:
     title: "Nyilvános elköteleződés:"
     public_commitment: "Nyilvános elköteleződés:?"
+    public_commitment_info: Has this brand made a public commitment to pay all workers in its supply chain a living wage sufficient to support themselves and their dependents?
     public_commitment_score_1: >
       Ez a cég nem tett nyilvános ígéretet arra, hogy minden, a beszállítói láncához köthető munkásnak kifizeti a tisztességes megélhetést biztosító bért.
     public_commitment_score_2: >
@@ -62,6 +63,7 @@ hu:
     public_commitment_score_3: >
       Ez a cég nyilvános ígéretet tett arra, hogy minden, a beszállítói láncához köthető munkásnak kifizeti a tisztességes megélhetést biztosító bért.
     action_plan: "Akcióterv?"
+    action_plan_info: Does this brand have a publicly available plan for achieving a living wage for all workers in their supply chain, including concrete steps within a specific time frame?
     action_plan_score_1: >
       Ennek a cégnek semmiféle terve nincs arra nézve, hogy a beszállítói láncában bérnövelést irányozzon elő.
     action_plan_score_2: >
@@ -70,6 +72,7 @@ hu:
     action_plan_score_3: >
       Ez a cég nyilvános ígéretet tett arra, hogy minden,
       a beszállítói láncához köthető munkásnak kifizeti a tisztességes megélhetést biztosító bért.
+    isolating_labor_info: Does this brand use an established method to calculate labour costs and separate them from other production costs to ensure suppliers can pay workers?
     isolating_labor_score_1: >
       E ruhacég esetében nem találtunk arra vonatkozó bizonyítékot, hogy a cég biztosítaná azt, hogy a bérköltségeket maradéktalanul fedezzék, egységes bérkalkuláció alapján,
       a bérköltségeket elkülönítve más költségektől.
@@ -90,6 +93,7 @@ hu:
 
   living_wage_score:
     title: "A SZEGÉNYSÉGI KÜSZÖB ALATTI BÉREK"
+    title_info: Does this brand use an established method to set a living wage and does it monitor if workers are paid that?
     desc_1:
       score_5: >
         A ruhacéghez köthető beszállítói lánc MINDEN gyára kifizeti dolgozóinak a tisztességes megélhetést biztosító bért,
@@ -121,6 +125,7 @@ hu:
 
   transparency_score:
     title: "Mennyire teszi átláthatóvá a ruhacég a beszállítói láncát?"
+    title_info: Does this brand provide abundant, practically structured information on the factories and garment workers in its supply chain as required by the transparency pledge?
     read_more: "Olvass tovább"
     about_why_transparency_is_important: "Az átláthatóság fontosságáról"
     about_how_this_score_was_calculated: "A besorolás mögötti számítások "

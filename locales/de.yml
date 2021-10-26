@@ -54,6 +54,7 @@ de:
   commitment_score:
     title: "Auf dem Weg?"
     public_commitment: "Bekenntnis zum Existenzlohn?"
+    public_commitment_info: Hat dieses Unternehmen sich öffentlich verpflichtet, seinen Arbeiter*innen einen Existenzlohn zu zahlen, der ausreicht, um ihre Familien zu ernähren?
     public_commitment_score_1: >
       Dieses Unternehmen hat sich nicht öffentlich zur Zahlung existenzsichernder Löhne bekannt.
     public_commitment_score_2: >
@@ -61,12 +62,14 @@ de:
     public_commitment_score_3: >
       Dieses Unternehmen hat sich öffentlich zur Zahlung existenzsichernder Löhne bekannt.
     action_plan: "Aktionsplan?"
+    action_plan_info: Hat dieses Unternehmen einen konkreten Plan mit Zeitzielen veröffentlicht, wie es seinen Arbeiter*innen einen Existenzlohn zahlen will?
     action_plan_score_1: >
       Dieses Unternehmen hat keinen Plan, um die Niedriglöhne in seiner Lieferkette zu verbessern.
     action_plan_score_2: >
       Dieses Unternehmen hat zwar einen „Plan“, diesem fehlen aber wichtige Punkte, z.B. ist dieser nicht öffentlich und /oder es wird darin nicht festgelegt, in welchem Zeitraum Lohnerhöhungen angestrebt werden und/oder der Plan bezieht sich nur auf wenige Fabriken und/oder ist an anderen Stellen zu vage (nicht SMART).
     action_plan_score_3: >
       Dieses Unternehmen verfügt über einen öffentlich zugänglichen Plan zur Erzielung eines existenzsichernden Lohns für alle Arbeiter*innen in seiner Lieferkette, einschließlich konkreter Schritte innerhalb eines bestimmten Zeitrahmens.
+    isolating_labor_info: Nutzt dieses Unternehmen eine etablierte Methode, die Lohnkosten zu berechnen und diese von Preisverhandlungen auszunehmen, damit die Fabriken die Arbeiter*innen bezahlen können?
     isolating_labor_score_1: >
       Unternehmen handeln mit den Fabriken Preise für die bestellte Kleidung aus, die alle Produktionskosten decken müssen. Die Unternehmen müssen bei diesen Verhandlungen mit Zulieferern jedoch sicherstellen, dass die Arbeitskosten ordnungsgemäß gedeckt werden, also Zulieferer nicht aufgrund zu niedriger Preise an den Löhnen sparen. Unternehmen sollten dafür eine etablierte Methode zur Berechnung und getrennten Berücksichtigung der Lohnkosten anwenden. Dieses Unternehmen wendet eine solche Berechnungsmethode an.
     isolating_labor_score_2: >
@@ -82,6 +85,7 @@ de:
 
   living_wage_score:
     title: "Living Wage Paid"
+    title_info: Nutzt dieses Unternehmen eine anerkannte Methode zur Festlegung eines Existenzlohnes und überprüft, ob Arbeiter*innen diesen erhalten?
     desc_1:
       score_5: >
         100% of factories in the brand’s supply chain pay workers a living wage.
@@ -112,6 +116,7 @@ de:
 
   transparency_score:
     title: "Transparenz"
+    title_info: Stellt dieses Unternehmen ausreichende und strukturierte Informationen über die Arbeiter*innen und Fabriken in seiner Lieferkette bereit, wie im Transparency Pledge gefordert?
     read_more: "Mehr Informationen"
     about_why_transparency_is_important: "Warum Transparenz wichtig ist"
     about_how_this_score_was_calculated: "Wie diese Bewertung zustande gekommen ist"
