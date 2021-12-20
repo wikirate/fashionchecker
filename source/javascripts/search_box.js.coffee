@@ -24,7 +24,8 @@ searchOptions = (main, owned) ->
     lookup[brand.name] = brand.id
   $.each owned[0].items, (_i, brand) ->
     opts.push { id: lookup[brand.subject_company], text: brand.object_company }
-  opts
+  opts.sort (a, b) ->
+    (a.text.toUpperCase() > b.text.toUpperCase() && 1) || -1
 
 activateSearch = () ->
   $("body").on "change", "._brand-search", ->

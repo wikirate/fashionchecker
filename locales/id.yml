@@ -49,6 +49,7 @@ id:
   commitment_score:
     title: "Skor komitmen"
     public_commitment: "komitmen publik?"
+    public_commitment_info: Has this brand made a public commitment to pay all workers in its supply chain a living wage sufficient to support themselves and their dependents?
     public_commitment_score_1: >
       Tidak ada bukti yang ditemukan bahwa brand ini telah membuat komitmen untuk mengupayakan upah layak bagi semua buruh di rantai pasoknya.
     public_commitment_score_2: >
@@ -58,6 +59,7 @@ id:
     public_commitment_score_3: >
       Brand ini telah membuat komitmen publik untuk mengupayakan upah layak bagi semua buruh di rantai pasoknya.
     action_plan: "rencana aksi?"
+    action_plan_info: Does this brand have a publicly available plan for achieving a living wage for all workers in their supply chain, including concrete steps within a specific time frame?
     action_plan_score_1: >
       Tidak ada bukti yang ditemukan bahwa brand ini memiliki rencana aksi dalam kurun waktu tertentu yang bersifat publik untuk meningkatkan upah murah di sepanjang rantai pasoknya.
     action_plan_score_2: >
@@ -68,6 +70,7 @@ id:
     isolating_labor_score_1: >
       Tidak ada bukti yang ditemukan bahwa brand ini memastikan biaya tenaga kerja dihitung dengan benar dengan menggunakan metode yang jelas yang memisahkan biaya ini dari biaya yang lain.
       Semua brand harus membayar pemasok dengan harga mencukupi untuk membuat pemasok bisa membayarkan upah layak dan iuran perlindungan sosial.
+    isolating_labor_info: Does this brand use an established method to calculate labour costs and separate them from other production costs to ensure suppliers can pay workers?
     isolating_labor_score_2: >
       Partial
     isolating_labor_score_3: >
@@ -81,6 +84,7 @@ id:
 
   living_wage_score:
     title: "Upah Layak Dibayarkan"
+    title_info: Does this brand use an established method to set a living wage and does it monitor if workers are paid that?
     desc_1:
       score_5: >
         100% pabrik di dalam rantai pasok brand membayar buruhnya dengan upah layak.
@@ -111,6 +115,7 @@ id:
 
   transparency_score:
     title: "Transparansi Rantai Pasok"
+    title_info: Does this brand provide abundant, practically structured information on the factories and garment workers in its supply chain as required by the transparency pledge?
     read_more: "Baca lebih lanjut"
     about_why_transparency_is_important: "tentang mengapa transparansi itu penting"
     about_how_this_score_was_calculated: "tentang bagaimana skor ini dihitung"

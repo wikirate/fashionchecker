@@ -103,7 +103,7 @@ $.extend FC,
 
 subBrandsUrl = FC.apiSwitch "/content/sub_brands.json",
   FC.apiUrl "~#{FC.metrics.hasBrands}+Relationship_Answer",
-    limit: 2000
+    limit: 999
     filter:
       company_group: "~#{FC.companyGroup}"
       year: "latest"
