@@ -833,6 +833,12 @@ main {
   font-size: 1rem;
 }
 
+.section-header {
+  > div {
+    display: none;
+  }
+}
+
 
 //.noImage img {
 //  display: none;
