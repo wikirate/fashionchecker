@@ -19,19 +19,22 @@
 .blue-bg.skew-left
   .container-fluid.skew-right
     .container.py-5.result-container
-      .display-3.yellow.text-right.pb-4
-        = t('brand_overview')
+      .section-header
+        .display-3.yellow.text-right.pb-4
+          = t('brand_overview')
       = brand_profile_partial :brand_box
       &nbsp;
 .bottom-extender.blue-bg
 
 .yellow-bg.skew-right
   .container-fluid.skew-left
-    .container.py-5
-      .display-3.red
-        = t('supplier_map')
-      %p.lead.navy.pt-3
-        = t('where_are_suppliers')
+    .container.py-5.result-container
+      .section-header
+        .display-3.red
+          = t('supplier_map')
+        .lead.navy.pt-3
+          %p
+            = t('where_are_suppliers')
 
       #supplierViz.py-4
         .result
@@ -46,23 +49,24 @@
 
 .fuchsia-bg.skew-left
   .container-fluid.skew-right
-    .container.py-5
-      .row.align-items-end
-        .col-sm-6
-          .display-3.yellow
-            = t('supplier_wages')
-          %p.lead.white.pt-3
-            = t('are_surveyed_suppliers_paying')
-        .col-sm-6.text-right.d-flex.justify-content-end
-          %table.legendTable.text-left.mb-3
-            = legend_row "coins", "suppliers_table", "average"
-            = legend_row "adjust", "suppliers_table", "gap",
-                         paid: "#f9fe9c", not_paid: "#000000"
-            = legend_row "users", "suppliers_table", "number_of_workers"
-            = legend_row "female", "suppliers_table", "gender",
-                         female: "#fb4922", male: "#970000", other: "#FFB000"
-            = legend_row "file-contract", "suppliers_table", "contract",
-                          permanent: "#ed40d9", temporary: "#fcc9fd"
+    .container.py-5.result-container
+      .section-header
+        .row.align-items-end
+          .col-sm-6
+            .display-3.yellow
+              = t('supplier_wages')
+            %p.lead.white.pt-3
+              = t('are_surveyed_suppliers_paying')
+          .col-sm-6.text-right.d-flex.justify-content-end
+            %table.legendTable.text-left.mb-3
+              = legend_row "coins", "suppliers_table", "average"
+              = legend_row "adjust", "suppliers_table", "gap",
+                           paid: "#f9fe9c", not_paid: "#000000"
+              = legend_row "users", "suppliers_table", "number_of_workers"
+              = legend_row "female", "suppliers_table", "gender",
+                           female: "#fb4922", male: "#970000", other: "#FFB000"
+              = legend_row "file-contract", "suppliers_table", "contract",
+                            permanent: "#ed40d9", temporary: "#fcc9fd"
       #suppliers
         .result
         .noResult

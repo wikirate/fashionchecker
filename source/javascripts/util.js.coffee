@@ -18,8 +18,11 @@ FC.util =
       @container.children ".template"
 
     @publish = () ->
-      # @find('[data-toggle="popover"]').popover()
-      @result().append @current
+      @showHeaders()
+      @container.children(".result").show()
+
+    @showHeaders = () ->
+      @container.parent().find(".section-header > div").show()
 
     @fill = (field, value) ->
       @find("._#{field}").text(value)
@@ -28,11 +31,15 @@ FC.util =
       @current.find selector
 
     @noResult = () ->
+      @showHeaders()
       @container.children(".noResult").show()
 
     @result().empty()
+    @container.children(".noResult").hide()
     @current = @template().clone()
     @current.removeClass "template"
+    @result().append @current
+
     this
 
 $.extend FC.util.image,
