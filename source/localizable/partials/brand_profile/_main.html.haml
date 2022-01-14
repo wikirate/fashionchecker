@@ -1,0 +1,78 @@
+= section :red do
+  .row
+    .col-sm-12.d-flex
+      .d-flex.flex-wrap
+        %span.display-3.yellow.pr-3
+          = t('explore')
+        %span.display-3.pink
+          = t('the_data')
+        %p.lead.pt-3.font-weight-bolder.mb-0
+          = t('are_the_people_who_make_your_clothes_paid_enough_t')
+  - if search
+    .pt-5
+      = brand_profile_partial :search, locals: { redirect: false }
+
+
+.top-extender.red-bg
+  &nbsp;
+
+.blue-bg.skew-left
+  .container-fluid.skew-right
+    .container.py-5.result-container
+      .display-3.yellow.text-right.pb-4
+        = t('brand_overview')
+      = brand_profile_partial :brand_box
+      &nbsp;
+.bottom-extender.blue-bg
+
+.yellow-bg.skew-right
+  .container-fluid.skew-left
+    .container.py-5
+      .display-3.red
+        = t('supplier_map')
+      %p.lead.navy.pt-3
+        = t('where_are_suppliers')
+
+      #supplierViz.py-4
+        .result
+        .noResult
+          .navy-bg.p-3.lead
+            %img.pr-2{ src: "/images/smiley/No.png" }
+            = t('no_data')
+        .template
+          .supplierMap
+
+.bottom-extender.yellow-bg.extra-extender
+
+.fuchsia-bg.skew-left
+  .container-fluid.skew-right
+    .container.py-5
+      .row.align-items-end
+        .col-sm-6
+          .display-3.yellow
+            = t('supplier_wages')
+          %p.lead.white.pt-3
+            = t('are_surveyed_suppliers_paying')
+        .col-sm-6.text-right.d-flex.justify-content-end
+          %table.legendTable.text-left.mb-3
+            = legend_row "coins", "suppliers_table", "average"
+            = legend_row "adjust", "suppliers_table", "gap",
+                         paid: "#f9fe9c", not_paid: "#000000"
+            = legend_row "users", "suppliers_table", "number_of_workers"
+            = legend_row "female", "suppliers_table", "gender",
+                         female: "#fb4922", male: "#970000", other: "#FFB000"
+            = legend_row "file-contract", "suppliers_table", "contract",
+                          permanent: "#ed40d9", temporary: "#fcc9fd"
+      #suppliers
+        .result
+        .noResult
+          .navy-bg.p-3.lead
+            %img.pr-2{ src: "/images/smiley/No.png" }
+            = t('no_supplier_responses')
+        = brand_profile_partial :suppliers_table
+
+.bottom-extender.fuchsia-bg
+
+= commitment_modals "Public commitment", %w[No Partial Yes]
+= commitment_modals "Action plan", %w[No Partial Yes]
+= commitment_modals "Separate labor costs", %w[No Partial Yes], "isolating_labor"

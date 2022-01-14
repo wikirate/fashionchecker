@@ -1,29 +1,8 @@
 %body
+  = partial "partials/shared/table_lang"
   %script
     = score_translation_script
   %main.embed-main.brand{:role => "main"}
-    = section :red do
-      .row
-        .col-sm-12.d-flex.justify-content-center
-          .narrow.d-flex.flex-wrap.justify-content-center
-            .text-center
-              %p.lead.pt-3.font-weight-bolder
-                = t('are_the_people_who_make_your_clothes_paid_enough_t')
-              %p.lead.font-weight-lighter
-                = t('find_out_which_apparel_and_footwear_brands_pay_the')
-            =brand_profile_partial :search, locals: { redirect: false }
-
-    .top-extender.red-bg
+    = brand_profile_partial :main, locals: { search: true }
+    = section :fuchsia do
       &nbsp;
-
-    .blue-bg.skew-left
-      .container-fluid.skew-right
-        .container.py-5.result-container
-          = brand_profile_partial :brand_box
-          &nbsp;
-
-    .bottom-extender.blue-bg
-
-    = commitment_modals "Public commitment", %w[No Partial Yes]
-    = commitment_modals "Action plan", %w[No Partial Yes]
-    = commitment_modals "Separate labor costs", %w[No Partial Yes], "isolating_labor"
