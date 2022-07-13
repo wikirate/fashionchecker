@@ -12,14 +12,16 @@
           = t('living_wage')
 
         .pb-4
+          = resource :fair_livingwage_italy_2022,
+                     "https://cleanclothes.org/file-repository/fair_living-wage_2022_report_eng.pdf/view",
+                     year: 2022,
+                     new: true
           = resource :europe_floor_wage_benchmark,
                      "https://cleanclothes.org/file-repository/cleanclothescampaign_europefloorwage_report_web.pdf/view",
-                     year: 2020,
-                     new: true
+                     year: 2020
           = resource :exploitation_made_in_europe,
                      "https://cleanclothes.org/file-repository/exploitation-made.pdf/view",
-                     year: 2020,
-                     new: true
+                     year: 2020
           = resource :tailored_wages,
                      "https://cleanclothes.org/file-repository/tailoredwages-fp.pdf/view",
                      year: 2019
@@ -86,7 +88,6 @@
           = resource :wages_gbv_2020,
                      "https://cleanclothes.org/file-repository/wages_and_gbv_femnet_position_paper.pdf/view",
                      desc: :femnet,
-                     new: true,
                      year: 2020
           = resource :global_wage_report_2018_19,
                      "https://www.ilo.org/wcmsp5/groups/public/---dgreports/---dcomm/---publ/documents/publication/wcms_650553.pdf",
