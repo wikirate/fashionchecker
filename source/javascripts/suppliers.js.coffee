@@ -57,6 +57,7 @@ suppliersColumnMap =
 
 supplierURL = (companyId, metricId, view, answer) ->
   filter =
+    year: "latest"
     metric_id: metricId
     relationship:
       company_id: companyId
@@ -116,7 +117,6 @@ suppliersViz = (companyId) ->
   #    spec["data"][0]["url"] = dataUrl
 
   template = new FC.util.templater "#supplierViz"
-  template.publish()
 
   $.when(
     $.ajax url: "/content/dorling.json", dataType: "json"
@@ -127,6 +127,7 @@ suppliersViz = (companyId) ->
       template.noResult()
     else
       buildViz ".result .supplierMap", suppliersVizSpec(spec, values), true
+      template.publish()
 
 suppliersWithWageData = (data) ->
   withWage = {}

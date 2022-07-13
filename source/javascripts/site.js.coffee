@@ -110,6 +110,7 @@ subBrandsUrl = FC.apiSwitch "/content/sub_brands.json",
 
 $.extend FC,
   loadBrand: (companyId, year) ->
+    $(".section-header > div, .result, .noResult").hide()
     brandBox companyId, year
     suppliersInfo companyId
 
