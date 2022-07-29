@@ -57,6 +57,7 @@ suppliersColumnMap =
 
 supplierURL = (companyId, metricId, view, answer) ->
   filter =
+    year: "latest"
     metric_id: metricId
     relationship:
       company_id: companyId
