@@ -16,7 +16,7 @@ group :development do
   gem 'capybara', '>= 2.5'
   gem 'cucumber'
   gem 'capistrano'
-  gem 'capistrano-rvm'
+  # gem 'capistrano-rvm'
   gem "capistrano-bundler"
   gem "selenium-webdriver", "3.8.0"
 end
