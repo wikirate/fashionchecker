@@ -1,11 +1,17 @@
+$(document).ready ->
+  $("body").on "change", "._year-select", ->
+    companyId = $(this).data "company_id"
+    year = $(this).val()
+    window.location = FC.profilePath companyId, year
+
 window.brandBox = (company_id, year) ->
   @company_id = company_id
-  @year = year || 2021
+  @year = year || 2022
   @template = new FC.util.templater "#brandBox"
 
   @build = () ->
     @fillName()
-    @readyYearLinks()
+    @readyYearSelect()
     @fillSimple()
     @fillEuro()
     @fillCommitments()
@@ -20,14 +26,10 @@ window.brandBox = (company_id, year) ->
   @fillName = () ->
     @template.fill "brand_name", @data["name"]
 
-  @readyYearLinks = () ->
-    companyId = @company_id
-    year = @year.toString()
-    @find("._year-buttons a").each ()->
-      el = $(this)
-      buttonYear = el.data("year").toString()
-      el.attr "href", FC.profilePath(companyId, buttonYear)
-      el.addClass "current" if buttonYear == year
+  @readyYearSelect = () ->
+    select = @find "._year-select"
+    select.data "company_id", @company_id
+    select.find("option[value='#{@year}']").prop "selected", true
 
   @fillCommitments = () ->
     for _i, fld of ["action_plan", "public_commitment", "isolating_labor"]

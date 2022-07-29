@@ -795,16 +795,13 @@ main {
   display: none;
 }
 
-.year-buttons a {
-  color: $white;
+.year-select {
   border: 2px solid $white;
   border-radius: 15px;
   margin: 1rem 1rem 0 0;
   font-weight: bold;
-  &.current, &:hover {
-    background-color: $white;
-    color: $navy;
-  }
+  background-color: $white;
+  color: $navy;
 }
 
 .commitmentScores {
