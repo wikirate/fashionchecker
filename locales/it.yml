@@ -130,7 +130,7 @@ it:
     workers: "lavoratori e lavoratrici"
     company: "società"
     female_male_other: "Donna/Uomo/Altro"
-    permanent_temporary: "A tempo indeterminato / A tempo determinato"
+    #    permanent_temporary: "A tempo indeterminato / A tempo determinato"
     average: "Media"
     gap: "Differenza"
     have_cba: "Hanno cba"
@@ -138,8 +138,10 @@ it:
     pregnancy_leave: "maternità"
     paid: "salario attuale"
     not_paid: "divario retributivo"
-    permanent: "permanente"
-    temporary: "temporaneo"
+    #    permanent: "permanente"
+    #    temporary: "temporaneo"
+    migrant: migrant
+    nonmigrant: nonmigrant
     male: "maschio"
     female: "femmina"
     other: "altro"

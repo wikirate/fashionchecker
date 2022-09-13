@@ -166,8 +166,10 @@ en:
 
     paid: "actual wage"
     not_paid: "wage gap"
-    permanent: permanent
-    temporary: temporary
+    #    permanent: permanent
+    #    temporary: temporary
+    migrant: migrant
+    nonmigrant: nonmigrant
     male: male
     female: female
     other: other

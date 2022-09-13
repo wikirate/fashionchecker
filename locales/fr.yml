@@ -138,7 +138,7 @@ fr:
     workers: "les travailleur·euses ont accès à"
     company: "entreprise"
     female_male_other: "Femme/homme/autre"
-    permanent_temporary: "Permanent/ Temporaire"
+    # permanent_temporary: "Permanent/ Temporaire"
     average: "En moyenne"
     gap: "Écart"
     have_cba: "convention collective"
@@ -146,8 +146,10 @@ fr:
     pregnancy_leave: "congés de maternité"
     paid: "salaire actuel"
     not_paid: "écart salarial"
-    permanent: "permanent"
-    temporary: "temporaire"
+    #    permanent: "permanent"
+    #    temporary: "temporaire"
+    migrant: migrant
+    nonmigrant: nonmigrant
     male: "homme"
     female: "femme"
     other: "autre"

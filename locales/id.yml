@@ -136,7 +136,7 @@ id:
     workers: "buruh"
     company: "perusahaan"
     female_male_other: "Perempuan/Laki-laki/lainnya"
-    permanent_temporary: "Tetap/Kontrak"
+    #    permanent_temporary: "Tetap/Kontrak"
     average: "Rata-rata"
     average_info: Upah bersih rata-rata bulanan (dalam EUR yang setara dengan mata uang lokal) seperti yang tertera pada slip gaji buruh yang disurvei
     gap: "Selisih"
@@ -151,8 +151,10 @@ id:
       cuti hamil
     paid: "actual wage"
     not_paid: "wage gap"
-    permanent: permanent
-    temporary: temporary
+    #    permanent: permanent
+    #    temporary: temporary
+    migrant: migrant
+    nonmigrant: nonmigrant
     male: male
     female: female
     other: other

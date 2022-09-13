@@ -139,7 +139,7 @@ zh_cn:
     workers: "工人"
     company: "公司"
     female_male_other: "女性/男性/其他"
-    permanent_temporary: "长工/短工"
+    #    permanent_temporary: "长工/短工"
     average: "平均数"
     average_info: 受访工人的工资单上列出的每月平均净工资（当地货币转换为等值欧元）
     gap: "差额"
@@ -152,8 +152,10 @@ zh_cn:
     pregnancy_leave_info: 受访工人中，曾怀孕、而工厂有给予产假的百分比
     paid: "actual wage"
     not_paid: "wage gap"
-    permanent: permanent
-    temporary: temporary
+    #    permanent: permanent
+    #    temporary: temporary
+    migrant: migrant
+    nonmigrant: nonmigrant
     male: male
     female: female
     other: other

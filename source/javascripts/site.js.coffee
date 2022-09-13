@@ -17,7 +17,7 @@ if wikirateApiAuth
       xhr.setRequestHeader "Authorization", "Basic " + btoa(wikirateApiAuth)
 
 window.FC =
-  companyGroup: 7887730
+  companyGroup: 13479530
 
   metrics:
     hasBrands: 5768810
@@ -48,8 +48,9 @@ window.FC =
       male: 3233883
       other: 6019448
       num_workers: 4780588
-      permanent: 6019621
-      temporary: 6019632
+      migrant: 4781556
+#      permanent: 6019621
+#      temporary: 6019632
       average: 6019687
       gap: 7347357
       # cba: 6020927

@@ -139,7 +139,7 @@ zh_hk:
     workers: "工人"
     company: "公司"
     female_male_other: "女性/男性/其他"
-    permanent_temporary: "長工/短工"
+    #    permanent_temporary: "長工/短工"
     average: "平均數"
     average_info: 受訪工人的工資單上列出的每月平均淨工資（當地貨幣轉換為等值歐元）
     gap: "差額"
@@ -152,8 +152,10 @@ zh_hk:
     pregnancy_leave_info: 受訪工人中，曾懷孕、而工廠有給予產假的百分比
     paid: "actual wage"
     not_paid: "wage gap"
-    permanent: permanent
-    temporary: temporary
+    #    permanent: permanent
+    #    temporary: temporary
+    migrant: migrant
+    nonmigrant: nonmigrant
     male: male
     female: female
     other: other

@@ -140,7 +140,7 @@ hr:
     workers: "radnici"
     company: "društvo"
     female_male_other: "žena/muški/drugo"
-    permanent_temporary: "trajan/privremen"
+    #    permanent_temporary: "trajan/privremen"
     average: "Prosječan"
     gap: "praznina"
     have_cba: "Imati CBA"
@@ -148,8 +148,10 @@ hr:
     pregnancy_leave: "dopust za trudnoću"
     paid: "actual wage"
     not_paid: "wage gap"
-    permanent: permanent
-    temporary: temporary
+    #    permanent: permanent
+    #    temporary: temporary
+    migrant: migrant
+    nonmigrant: nonmigrant
     male: male
     female: female
     other: other

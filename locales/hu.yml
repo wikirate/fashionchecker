@@ -146,7 +146,7 @@ hu:
     workers: "dolgozók"
     company: "cég"
     female_male_other: "Nő/Férfi/Egyéb"
-    permanent_temporary: "Állandó/ Ideiglenes"
+    #    permanent_temporary: "Állandó/ Ideiglenes"
     average: "átlag"
     gap: "bérszakadék"
     have_cba: "van kollektív szerződés"
@@ -154,8 +154,10 @@ hu:
     pregnancy_leave: "Szülési szabadság"
     paid: "actual wage"
     not_paid: "wage gap"
-    permanent: permanent
-    temporary: temporary
+    #    permanent: permanent
+    #    temporary: temporary
+    migrant: migrant
+    nonmigrant: nonmigrant
     male: male
     female: female
     other: other

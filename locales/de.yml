@@ -137,7 +137,7 @@ de:
     workers: "Arbeiter*innen"
     company: "Unternehmen"
     female_male_other: "weiblich/männlich/divers"
-    permanent_temporary: "fester Vertrag/befristet"
+    # permanent_temporary: "fester Vertrag/befristet"
     average: "Durchschnitt"
     gap: "Gefälle"
     have_cba: "Tarifvertrag"
@@ -145,8 +145,10 @@ de:
     pregnancy_leave: "Schwangerschaftsurlaub"
     paid: "tatsächlicher Lohn"
     not_paid: "Lohnlücke"
-    permanent: "festangestellt"
-    temporary: "temporär"
+    # permanent: "festangestellt"
+    # temporary: "temporär"
+    migrant: migrant
+    nonmigrant: nonmigrant
     male: "männlich"
     female: "weiblich"
     other: "sonstiges"

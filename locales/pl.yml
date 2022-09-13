@@ -144,7 +144,7 @@ pl:
     workers: "pracownicy"
     company: "firma"
     female_male_other: "Kobiety/Mężczyźni/Inni"
-    permanent_temporary: "Stali/Tymczasowi"
+    #    permanent_temporary: "Stali/Tymczasowi"
     average: "Średnia"
     gap: "Luka"
     have_cba: "Mają układ zbiorowy"
@@ -152,8 +152,10 @@ pl:
     pregnancy_leave: "Urlop macierzyński"
     paid: "rzeczywista płaca"
     not_paid: "luka płacowa"
-    permanent: "stały"
-    temporary: "tymczasowy"
+    #    permanent: "stały"
+    #    temporary: "tymczasowy"
+    migrant: migrant
+    nonmigrant: nonmigrant
     male: "mężczyzna"
     female: "kobieta"
     other: "inne"

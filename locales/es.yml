@@ -125,7 +125,7 @@ es:
     workers: "trabajadoras/es"
     company: "empresa"
     female_male_other: "Mujer/Hombre/Otro"
-    permanent_temporary: "Permanente/ Temporal"
+    # permanent_temporary: "Permanente/ Temporal"
     average: "Promedio"
     gap: "Brecha"
     have_cba: "Con pacto colectivo"
@@ -133,8 +133,10 @@ es:
     pregnancy_leave: "Licencia por embarazo"
     paid: "actual wage"
     not_paid: "wage gap"
-    permanent: permanent
-    temporary: temporary
+    #    permanent: permanent
+    #    temporary: temporary
+    migrant: migrant
+    nonmigrant: nonmigrant
     male: male
     female: female
     other: other
