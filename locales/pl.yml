@@ -755,6 +755,10 @@ pl:
 
   no_data: "Brak dostępnych danych"
 
-  covid_note_1: "Pandemia COVID-19 zmusiła nas (Clean Clothes Campaign) do zmiany naszych krótkoterminowych postulatów wobec marek: zarobki pracowników od dekad są głodowe, ale obecnie większość nie dostaje nawet płac sprzed pandemii. Godne płace pozostają naszym celem, ale teraz"
-  covid_link: "apelujemy do marek o zapewnienie"
-  covid_note_2: "pracownikom wypłat płac sprzed pandemii i zaległych odpraw. Dlatego zdecydowaliśmy, że w tym roku zbadamy marki tylko pod kątem ich postępów w zakresie transparentności, a nie godnych płac. Marki mogą jednak nas powiadomić, czy dokonały postępów w zakresie godnych płac."
+  covid_note_1: "Garment workers have been paid poverty wage for decades and most do not have access to social protection. During the pandemic these low wages were cut further and severance compensation wasn't paid in full, if at all. Now brands are thriving again but for workers the crisis is still not over. Living wages will remain a priority for the Clean Clothes Campaign but we now"
+  covid_link: "call upon brands to ensure "
+  covid_note_2: "workers are being paid their due wages and owed severance."
+
+  menu_facilitychecker: "Facility checker"
+  facilitychecker_text1: "You can search for facilities on our "
+  facilitychecker_text2: ""

@@ -763,6 +763,10 @@ fr:
   minimum_wage: "Salaire minimum"
   no_data: "Aucune donnée disponible"
 
-  covid_note_1: "La pandémie de COVID-19 nous (Clean Clothes Campaign) a contraint d'adapter nos revendications à court terme à destination des marques : les travailleur·euses ont reçu des salaires de misère pendant des décennies, mais la plupart ne reçoivent actuellement même pas le salaire perçu avant la pandémie."
-  covid_link: "Interpellez les marques pour qu'elles"
-  covid_note_2: "les travailleur·euses reçoivent le salaire perçu avant la pandémie et les indemnités de licenciement qui leurs sont dues. Nous avons donc décidé d'interroger les marques cette année uniquement sur leurs progrès en matière de transparence, et non sur leurs pratiques en matière de salaire vital. Les marques pouvaient nous faire savoir si elles ont néanmoins fait des progrès en matière de salaire vital."
+  covid_note_1: "Les travailleuses et travailleurs de l'industrie de l'habillement perçoivent un salaire de misère depuis des décennies et la plupart n'ont pas accès à une véritable protection sociale. Pendant la pandémie, ces bas salaires ont encore été réduits et les indemnités de licenciement n'ont pas été versées dans leur intégralité, voire pas du tout. Aujourd'hui, les marques et enseignes de mode prospèrent à nouveau, mais pour les travailleur·euses, la crise n'est toujours pas terminée. Le salaire vital restera une priorité pour la Clean Clothes Campaign, mais nous"
+  covid_link: "demandons maintenant aux marques de s'assurer"
+  covid_note_2: "que les travailleur·euses reçoivent leurs salaires et les indemnités de licenciement qui leur sont dus."
+
+  menu_facilitychecker: "Facility checker"
+  facilitychecker_text1: "You can search for facilities on our "
+  facilitychecker_text2: ""
