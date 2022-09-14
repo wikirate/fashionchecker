@@ -69,7 +69,7 @@ supplierURL = (companyId, metricId, view, answer) ->
 generateSuppliersTable = (template, data) ->
   companies = suppliersWithWageData data
   table = template.current.find "#suppliersTable"
-  FC.company.table companies, table, suppliersColumnMap, metricsMap
+  FC.company.table companies, table, suppliersColumnMap, metricsMap, false
   template.publish()
 
 suppliersTableUrl = (companyId) ->
