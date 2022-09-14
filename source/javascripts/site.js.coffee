@@ -17,6 +17,7 @@ if wikirateApiAuth
       xhr.setRequestHeader "Authorization", "Basic " + btoa(wikirateApiAuth)
 
 window.FC =
+  # note: remember to update urls in update_cached_data.rb when updating company group
   companyGroup: 13479530
 
   metrics:
