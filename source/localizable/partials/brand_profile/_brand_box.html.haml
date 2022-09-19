@@ -14,10 +14,12 @@
           %a._wikirate-link.h2.white{href: "replaced_by_js", target: "_wikirate" }
             %span._brand_name
 
-          .year-buttons._year-buttons
-            - [2021, 2020, 2019].each do |year|
-              %a.btn{ data: { year: year } }
-                = year
+          .my-4
+            %select.year-select._year-select.btn
+              - %w[2022 2021 2020 2019].each do |year|
+                %option{ value: year, selected: (year == "2022") }
+                  = year
+
           //.pt-4.logo-box
           //   %img._logo.logo{ src: "replace" }
 

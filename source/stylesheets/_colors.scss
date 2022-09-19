@@ -185,6 +185,9 @@ $body-bg: $blue;
 .yellow-bg {
   background-color: $yellow !important;
   color: $orange !important;
+  .lead.navy a {
+    color: $light-blue;
+  }
 }
 
 .grey-bg {

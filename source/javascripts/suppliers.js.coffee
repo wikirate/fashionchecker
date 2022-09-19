@@ -23,24 +23,24 @@ pieChart = (name, companyId, colors, values) ->
 genderPieChart = (val, companyId, companyHash) ->
   pieChart "gender", companyId, ["#fb4922", "#970000", "#FFB000"],
     female: val,
-    male: (companyHash[metricsMap['male']] || "0"),
+    male: (companyHash[metricsMap['male']] || (remainder(val))),
     other: (companyHash[metricsMap['other']] || "0")
 
-contractPieChart = (val, companyId, companyHash) ->
+contractPieChart = (val, companyId) ->
   pieChart "contract", companyId, ["#ed40d9", "#fcc9fd"],
-    permanent: val,
-    temporary: (companyHash[metricsMap['temporary']] || "0")
+    migrant: val,
+    nonmigrant: remainder(val)
+
+remainder = (percent) ->
+  if percent > 100
+    0
+  else
+    100 - percent
 
 gapPieChart = (val, companyId) ->
-  not_paid =
-    if val > 100
-      0
-    else
-      100 - val
-
   pieChart "gap", companyId, ["#f9fe9c", "#000000"],
     paid: val,
-    not_paid: not_paid
+    not_paid: remainder(val)
 
 supplierWikirateLink = (val, companyId) ->
   "<td><a href='#{FC.companyUrl companyId}'>#{val}</a></td>"
@@ -53,7 +53,7 @@ suppliersColumnMap =
   num_workers: 1
 
   female: genderPieChart
-  permanent: contractPieChart
+  migrant: contractPieChart
 
 supplierURL = (companyId, metricId, view, answer) ->
   filter =
@@ -69,7 +69,7 @@ supplierURL = (companyId, metricId, view, answer) ->
 generateSuppliersTable = (template, data) ->
   companies = suppliersWithWageData data
   table = template.current.find "#suppliersTable"
-  FC.company.table companies, table, suppliersColumnMap, metricsMap
+  FC.company.table companies, table, suppliersColumnMap, metricsMap, false
   template.publish()
 
 suppliersTableUrl = (companyId) ->

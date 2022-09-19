@@ -12,7 +12,7 @@ FC.company = {
     companies
 }
 
-FC.company.table = (data, tag, columnMap, metricMap) ->
+FC.company.table = (data, tag, columnMap, metricMap, paging=true) ->
   @data = data
   @tag = tag
   @columnMap = columnMap
@@ -23,7 +23,7 @@ FC.company.table = (data, tag, columnMap, metricMap) ->
 
     @tbody = @tag.children "tbody"
     @addRows()
-    @tag.DataTable autoWidth: false, pagingType: "numbers", language: FC.lang.dataTables
+    @tag.DataTable autoWidth: false, paging: paging, pagingType: "numbers", language: FC.lang.dataTables
 
   @addRows = () ->
     t = this

@@ -1,7 +1,7 @@
 %script
   - toTranslate = { dataTables: %i[search lengthMenu info],
                     supplier_map_viz: %i[legend_title tooltip_suppliers],
-                    suppliers_table: %i[female male other permanent temporary paid not_paid] }
+                    suppliers_table: %i[female male other migrant nonmigrant paid not_paid] }
   FC.lang = {
   - toTranslate.each do |group, fields|
     = "'#{group}': {"

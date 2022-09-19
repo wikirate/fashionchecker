@@ -137,7 +137,7 @@ de:
     workers: "Arbeiter*innen"
     company: "Unternehmen"
     female_male_other: "weiblich/männlich/divers"
-    permanent_temporary: "fester Vertrag/befristet"
+    # permanent_temporary: "fester Vertrag/befristet"
     average: "Durchschnitt"
     gap: "Gefälle"
     have_cba: "Tarifvertrag"
@@ -145,8 +145,10 @@ de:
     pregnancy_leave: "Schwangerschaftsurlaub"
     paid: "tatsächlicher Lohn"
     not_paid: "Lohnlücke"
-    permanent: "festangestellt"
-    temporary: "temporär"
+    # permanent: "festangestellt"
+    # temporary: "temporär"
+    migrant: migrant
+    nonmigrant: nonmigrant
     male: "männlich"
     female: "weiblich"
     other: "sonstiges"
@@ -739,6 +741,10 @@ de:
   minimum_wage: "Mindestlohn"
   no_data: "Keine Daten verfügbar"
 
-  covid_note_1: "Die COVID-19-Pandemie hat uns (Clean Clothes Campaign) gezwungen, unsere kurzfristigen Forderungen an Modeuntenehmen zu ändern: Den Arbeiter*innen werden seit Jahrzehnten Armutslöhne gezahlt, aber die meisten erhalten derzeit nicht einmal die Löhne von vor der Pandemie. Existenzsichernde Löhne bleiben unser Ziel, aber wir"
-  covid_link: "fordern jetzt die Marken auf"
-  covid_note_2: "sicherzustellen, dass die Arbeiter*innen die ihnen zustehenden Löhne und Abfindungen erhalten. Daher haben wir uns entschieden, Unternehmen in diesem Jahr nur nach ihren Fortschritten bei der Transparenz und nicht bezüglich existenzsichernder Löhne zu befragen. Marken könnten uns mitteilen, wenn sie dennoch Fortschritte bei existenzsichernden Löhnen gemacht haben."
+  covid_note_1: "Garment workers have been paid poverty wage for decades and most do not have access to social protection. During the pandemic these low wages were cut further and severance compensation wasn't paid in full, if at all. Now brands are thriving again but for workers the crisis is still not over. Living wages will remain a priority for the Clean Clothes Campaign but we now"
+  covid_link: "call upon brands to ensure "
+  covid_note_2: "workers are being paid their due wages and owed severance."
+
+  menu_facilitychecker: "Facility checker"
+  facilitychecker_text1: "You can search for facilities on our "
+  facilitychecker_text2: ""

@@ -39,6 +39,13 @@ the site in the browser.
 bundle exec cap production deploy
 ```
 
+### update cached data
+To improve performance, responses to default requests are stored in a local file, and
+the file is updated daily via a cron job.
+
+The script to update cached data is in script/update_cached_data.
+
+
 ### update source/content/wikirate_countries.json
 
 This should only be necessary if countries are added or renamed on WikiRate.org

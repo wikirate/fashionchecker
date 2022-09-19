@@ -139,7 +139,7 @@ zh_cn:
     workers: "工人"
     company: "公司"
     female_male_other: "女性/男性/其他"
-    permanent_temporary: "长工/短工"
+    #    permanent_temporary: "长工/短工"
     average: "平均数"
     average_info: 受访工人的工资单上列出的每月平均净工资（当地货币转换为等值欧元）
     gap: "差额"
@@ -152,8 +152,10 @@ zh_cn:
     pregnancy_leave_info: 受访工人中，曾怀孕、而工厂有给予产假的百分比
     paid: "actual wage"
     not_paid: "wage gap"
-    permanent: permanent
-    temporary: temporary
+    #    permanent: permanent
+    #    temporary: temporary
+    migrant: migrant
+    nonmigrant: nonmigrant
     male: male
     female: female
     other: other
@@ -755,6 +757,10 @@ zh_cn:
 
   no_data: No data available
 
-  covid_note_1: "The COVID-19 pandemic forced us (Clean Clothes Campaign) to shift our short term demands to brands: workers have been paid poverty wages for decades but most are currently not even paid their pre-pandemic wages. Living wages remain our goal, but we now"
+  covid_note_1: "Garment workers have been paid poverty wage for decades and most do not have access to social protection. During the pandemic these low wages were cut further and severance compensation wasn't paid in full, if at all. Now brands are thriving again but for workers the crisis is still not over. Living wages will remain a priority for the Clean Clothes Campaign but we now"
   covid_link: "call upon brands to ensure "
-  covid_note_2: "workers are being paid their pre-pandemic wages and owed severance. We have therefore decided to survey brands this year only on their progress on Transparency, and not on Living Wages. Brands could let us know if they had made any progress on living wage nonetheless."
+  covid_note_2: "workers are being paid their due wages and owed severance."
+
+  menu_facilitychecker: "Facility checker"
+  facilitychecker_text1: "You can search for facilities on our "
+  facilitychecker_text2: ""
