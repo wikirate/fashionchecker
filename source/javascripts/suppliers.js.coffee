@@ -62,7 +62,7 @@ supplierURL = (companyId, metricId, view, answer) ->
     relationship:
       company_id: companyId
       metric_id: FC.metrics.supplierOf
-  filter["answer"] = answer if answer
+  filter["company_answer"] = answer if answer
 
   FC.apiUrl "Answer/#{view}", limit: 0, filter: filter
 
