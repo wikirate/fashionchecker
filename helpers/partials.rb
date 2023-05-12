@@ -49,20 +49,17 @@ module Partials
                                                  living_wage_icons: living_wage_icons }
   end
 
-  def commitment_modals title, values, id=nil
+  def commitment_modals title, values, key=nil
+    key ||= title.downcase.gsub " ", "_"
     values.map.with_index do |value, index|
-      text = t "commitment_score.#{title.downcase.gsub(" ", "_")}_score_#{index + 1}"
+      text = t "commitment_score.#{key}_score_#{index + 1}"
       partial "partials/brand_profile/modal",
               locals: { title: "#{title}: #{value}",
-                        id: modal_id(id || title, index + 1),
+                        id: "#{key}-score-#{index + 1}",
                         text: text }
     end.join
   end
-
-  def modal_id title, index
-    "#{title.downcase.gsub(" ", "_")}-score-#{index}"
-  end
-
+  
   def resource title, url, args={}
     partial "partials/resources/resource", locals: { title: title,
                                                      url: url,
