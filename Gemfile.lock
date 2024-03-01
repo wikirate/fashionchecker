@@ -208,16 +208,18 @@ GEM
 
 PLATFORMS
   x86_64-darwin-20
+  x86_64-darwin-22
   x86_64-linux
 
 DEPENDENCIES
+  activesupport (~> 6.1)
   bcrypt_pbkdf (>= 1)
   capistrano
   capistrano-bundler
   capybara (>= 2.5)
   cucumber
   ed25519 (>= 1.2)
-  middleman (>= 4.2)
+  middleman (= 4.4.2)
   middleman-autoprefixer (>= 3)
   middleman-cli
   middleman-livereload
