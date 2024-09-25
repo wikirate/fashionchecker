@@ -100,8 +100,8 @@ $.extend FC,
     "#{wikirateLinkTarget}/~#{companyId}?" +
       $.param
         contrib: "N"
+        tab: "metric_answer"
         filter:
-          tab: "metric_answer"
           topic: "Filling the Gap"
 
 subBrandsUrl = FC.apiSwitch "/content/sub_brands.json",
