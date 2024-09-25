@@ -101,6 +101,7 @@ $.extend FC,
       $.param
         contrib: "N"
         filter:
+          tab: "metric_answer"
           topic: "Filling the Gap"
 
 subBrandsUrl = FC.apiSwitch "/content/sub_brands.json",
