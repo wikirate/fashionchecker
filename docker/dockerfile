@@ -1,5 +1,5 @@
-# Step 1: Use latest Ruby image since Middleman is Ruby-based
-FROM ruby:latest
+# Step 1: Use a Ruby base image since Middleman is Ruby-based
+FROM ruby:3.1
 
 # Step 2: Set a working directory in the container
 WORKDIR /fashionchecker
