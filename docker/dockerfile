@@ -1,0 +1,29 @@
+# Step 1: Use a Ruby base image since Middleman is Ruby-based
+FROM ruby:3.1
+
+# Step 2: Set a working directory in the container
+WORKDIR /fashionchecker
+
+# Step 3: Copy the Gemfile and Gemfile.lock into the container
+COPY Gemfile* ./
+
+# Step 4: Install bundler and then the project's dependencies
+RUN gem install bundler && bundle install
+
+# Step 5: Copy the rest of your Middleman application into the container
+COPY . .
+
+# Step 6: Build the Middleman static site
+RUN bundle exec middleman build
+
+# Step 7: Use a lightweight web server like nginx to serve the built site
+FROM nginx:latest
+
+# Step 8: Copy the Middleman build output to the nginx html folder
+COPY --from=0 /fashionchecker/build /usr/share/nginx/html
+
+# Expose port 80 to access the site
+EXPOSE 80
+
+# Start nginx
+CMD ["nginx", "-g", "daemon off;"]
