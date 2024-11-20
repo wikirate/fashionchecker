@@ -5,8 +5,8 @@ wikirateApiAuth = null
 
 # wikirateApiHost = "https://dev.wikirate.org"
 # wikirateApiAuth = "wikirate:wikirat"
-wikirateApiMode = "cached"
-# wikirateApiMode = "live" # anything but "cached" means live
+# wikirateApiMode = "cached"
+wikirateApiMode = "live" # anything but "cached" means live
 
 wikirateLinkTarget = "https://wikirate.org"
 
@@ -100,8 +100,8 @@ $.extend FC,
     "#{wikirateLinkTarget}/~#{companyId}?" +
       $.param
         contrib: "N"
+        tab: "metric_answer"
         filter:
-          tab: "metric_answer"
           topic: "Filling the Gap"
 
 subBrandsUrl = FC.apiSwitch "/content/sub_brands.json",
