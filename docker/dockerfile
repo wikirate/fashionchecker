@@ -25,11 +25,29 @@ RUN bundle exec middleman build
 # Step 8: Use a lightweight web server like nginx to serve the built site
 FROM nginx:latest
 
+# Install Ruby and other dependencies in the production image
+RUN apt-get update && apt-get install -y \
+    ruby-full \
+    curl
+
+# Install supercronic in nginx image
+RUN curl -L -o /usr/local/bin/supercronic https://github.com/aptible/supercronic/releases/download/v0.2.33/supercronic-linux-amd64 && \
+    chmod +x /usr/local/bin/supercronic
+
 # Step 9: Copy the Middleman build output to the nginx html folder
 COPY --from=0 /fashionchecker/build /usr/share/nginx/html
+
+# Copy the update_cached_data.rb script
+COPY --from=0 /fashionchecker/script/update_cached_data.rb /fashionchecker/script/update_cached_data.rb
+
+# Add cron file for the scheduled job
+COPY cronfile /fashionchecker/cronfile
+
+# Copy the startup script to the container
+COPY docker/start.sh /fashionchecker/start.sh
 
 # Expose port 80 to access the site
 EXPOSE 80
 
-# Start nginx
-CMD ["nginx", "-g", "daemon off;"]
+# Use the startup script as the main command
+CMD ["/fashionchecker/start.sh"]
