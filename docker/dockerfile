@@ -46,6 +46,9 @@ COPY cronfile /fashionchecker/cronfile
 # Copy the startup script to the container
 COPY docker/start.sh /fashionchecker/start.sh
 
+# Make the start.sh script executable
+RUN chmod +x /fashionchecker/start.sh
+
 # Expose port 80 to access the site
 EXPOSE 80
 
