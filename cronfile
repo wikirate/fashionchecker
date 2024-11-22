@@ -1,1 +1,2 @@
-*/1 * * * * ruby /fashionchecker/script/update_cached_data.rb
+# Run the Ruby script every ten minutes
+*/10 * * * * ruby /fashionchecker/script/update_cached_data.rb
