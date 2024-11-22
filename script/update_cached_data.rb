@@ -14,6 +14,6 @@ urls = {
 
 urls.each do |name, url|
   dir = ENV["OUTPUT_DIR"] || "build"
-  path = File.expand_path "../#{dir}/content/#{name}.json", __dir__
+  path = File.expand_path "/usr/share/nginx/html/content/#{name}.json", __dir__
   File.write path, URI.open(url).read
 end

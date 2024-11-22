@@ -1,0 +1,1 @@
+*/1 * * * * ruby /fashionchecker/script/update_cached_data.rb
