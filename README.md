@@ -48,6 +48,6 @@ The script to update cached data is in script/update_cached_data.
 
 ### update source/content/wikirate_countries.json
 
-This should only be necessary if countries are added or renamed on WikiRate.org
+This should only be necessary if countries are added or renamed on wikirate.org
 
 Just copy result of https://wikirate.org/:region/countries.json

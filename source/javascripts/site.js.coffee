@@ -10,7 +10,7 @@ wikirateApiMode = "cached"
 
 wikirateLinkTarget = "https://wikirate.org"
 
-# pass basic authentication on WikiRate dev/staging servers
+# pass basic authentication on Wikirate dev/staging servers
 if wikirateApiAuth
   $.ajaxSetup
     beforeSend: (xhr) ->
