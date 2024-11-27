@@ -71,18 +71,18 @@ zh_hk:
     action_plan_score_3: >
       該品牌公司已定出一個公開、可用的行動計劃，致力於為其供應鏈的所有工人爭取生活工資，
       包括在特定時間範圍內的具體步驟。
-    isolating_labor_info: Does this brand use an established method to calculate labour costs and separate them from other production costs to ensure suppliers can pay workers?
-    isolating_labor_score_1: >
+    freedom_of_association_n_bargaining_info: Does this brand use an established method to calculate labour costs and separate them from other production costs to ensure suppliers can pay workers?
+    freedom_of_association_n_bargaining_score_1: >
       沒有證據顯示，該品牌公司有通過使用一個既定方法來計算勞工成本，並將這些成本與其他成本分開，
       從而確保公司有適當地顧及勞工成本。
       所有品牌公司都應向供應商支付足夠的價錢，以支付其供應鏈中所有工人的生活工資和社會保障費用。
-    isolating_labor_score_2: >
+    freedom_of_association_n_bargaining_score_2: >
       部份
-    isolating_labor_score_3: >
+    freedom_of_association_n_bargaining_score_3: >
       品牌公司需要通過使用一個既定方法來計算勞工成本，並將這些成本與其他成本分開，
       從而確保公司有適當地顧及勞工成本。
 
-    isolating_labor: "分開計算勞工成本？"
+    freedom_of_association_n_bargaining: "分開計算勞工成本？"
     desc:
       score_1: "該品牌公司在致力促進其供應鏈工廠支付生活工資方面的工作做得還不夠。"
       score_2: "得分 2 的文本"

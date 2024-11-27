@@ -70,18 +70,18 @@ hr:
     action_plan_score_3: >
       Brend je javno obećao da će nastojati ostvariti isplatu dostojanstvenih
       plaća za sve radnike u svom dobavnom lancu.
-    isolating_labor_info: Does this brand use an established method to calculate labour costs and separate them from other production costs to ensure suppliers can pay workers?
-    isolating_labor_score_1: >
+    freedom_of_association_n_bargaining_info: Does this brand use an established method to calculate labour costs and separate them from other production costs to ensure suppliers can pay workers?
+    freedom_of_association_n_bargaining_score_1: >
       Svi brendovi dobavljačima plaćaju iznose koji pokrivaju proizvodnju, slanje robe i trošak rada.
       Ovaj brend ne ulaže napor u osiguranje adekvatne isplate za troškove rada.
-    isolating_labor_score_2: >
+    freedom_of_association_n_bargaining_score_2: >
       Djelomično
-    isolating_labor_score_3: >
+    freedom_of_association_n_bargaining_score_3: >
       Svi brendovi plaćaju dobavljačima iznose koji pokrivaju proizvodnju, slanje robe i trošak rada.
       Brendovi moraju osigurati da trošak rada bude adekvatno plaćen primjenom utvrđene metode izračuna,
       razdvajajući ove troškove od ostalih.
 
-    isolating_labor: "Razdvajanje troška rada?"
+    freedom_of_association_n_bargaining: "Razdvajanje troška rada?"
     desc:
       score_1: "This brand isn't doing enough to move towards Living Wages in its supply chain."
       score_2: "Text for score 2"

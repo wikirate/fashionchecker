@@ -72,18 +72,18 @@ hu:
     action_plan_score_3: >
       Ez a cég nyilvános ígéretet tett arra, hogy minden,
       a beszállítói láncához köthető munkásnak kifizeti a tisztességes megélhetést biztosító bért.
-    isolating_labor_info: Does this brand use an established method to calculate labour costs and separate them from other production costs to ensure suppliers can pay workers?
-    isolating_labor_score_1: >
+    freedom_of_association_n_bargaining_info: Does this brand use an established method to calculate labour costs and separate them from other production costs to ensure suppliers can pay workers?
+    freedom_of_association_n_bargaining_score_1: >
       E ruhacég esetében nem találtunk arra vonatkozó bizonyítékot, hogy a cég biztosítaná azt, hogy a bérköltségeket maradéktalanul fedezzék, egységes bérkalkuláció alapján,
       a bérköltségeket elkülönítve más költségektől.
       Minden ruhaóriás olyan mértékben kell, hogy megfizesse beszállítóit, hogy azok a tisztességes megélhetést biztosító bért ki tudják fizetni a munkásaiknak, és a munkások társadalombiztosításához is képesek legyenek hozzájárulni.
-    isolating_labor_score_2: >
+    freedom_of_association_n_bargaining_score_2: >
       Részben
-    isolating_labor_score_3: >
+    freedom_of_association_n_bargaining_score_3: >
       A ruhacégeknek biztosítaniuk kell a bérköltségek maradéktalan fedezését: ennek módja az egységes bérkalkuláció,
       illetve, a bérköltségek elkülönítése más költségektől.
 
-    isolating_labor: "A bérköltségek elkülönítése ?"
+    freedom_of_association_n_bargaining: "A bérköltségek elkülönítése ?"
     desc:
       score_1: "A ruhaóriások által a beszállítóknak fizetett összegből a gyártási költségeket, a szállítást, és a bérköltségeket kell kifizetni. Ez a ruhacég nem tesz semmit azért,
       hogy a bérköltségeket a gyárak maradéktalanul fedezzék.."
