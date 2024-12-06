@@ -1,0 +1,58 @@
+# Step 1: Use a Ruby base image since Middleman is Ruby-based
+FROM ruby:3.1
+
+# Step 2: Set a working directory in the container
+WORKDIR /fashionchecker
+
+# Step 3: Install dependencies required
+RUN apt-get update && apt-get install -y \
+    build-essential \
+    nodejs \
+    && rm -rf /var/lib/apt/lists/*
+
+# Step 4: Copy the Gemfile and Gemfile.lock into the container
+COPY Gemfile* ./
+
+# Step 5: Install bundler and then the project's dependencies
+RUN gem install bundler && bundle install
+
+# Step 6: Copy the rest of your Middleman application into the container
+COPY . .
+
+# Step 7: Build the Middleman static site
+RUN bundle exec middleman build
+
+# Step 8: Use a lightweight web server like nginx to serve the built site
+FROM nginx:latest
+
+# Install Ruby and other dependencies in the production image
+RUN apt-get update && apt-get install -y \
+    curl
+
+# Install supercronic in nginx image
+RUN curl -L -o /usr/local/bin/supercronic https://github.com/aptible/supercronic/releases/download/v0.2.33/supercronic-linux-amd64 && \
+    chmod +x /usr/local/bin/supercronic
+
+# Step 9: Copy the Middleman build output to the nginx html folder
+COPY --from=0 /fashionchecker/build /usr/share/nginx/html
+
+# Copy the update_cached_data.rb script
+COPY --from=0 /fashionchecker/script/update_cached_data.sh /fashionchecker/script/update_cached_data.sh
+
+# Make the update_cached_data.sh script executable
+RUN chmod +x /fashionchecker/script/update_cached_data.sh
+
+# Add cron file for the scheduled job
+COPY cronfile /fashionchecker/cronfile
+
+# Copy the startup script to the container
+COPY docker/start.sh /fashionchecker/start.sh
+
+# Make the start.sh script executable
+RUN chmod +x /fashionchecker/start.sh
+
+# Expose port 80 to access the site
+EXPOSE 80
+
+# Use the startup script as the main command
+CMD ["/fashionchecker/start.sh"]
