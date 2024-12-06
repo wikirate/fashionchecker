@@ -6,7 +6,7 @@ $(document).ready ->
 
 window.brandBox = (company_id, year) ->
   @company_id = company_id
-  @year = year || 2024
+  @year = year || 2023
   @template = new FC.util.templater "#brandBox"
 
   @build = () ->
