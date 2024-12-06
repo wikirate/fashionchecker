@@ -66,16 +66,16 @@ it:
       Questo brand ha un piano ma non è circostanziato, copre solo il primo livello di fornitura, e/o non è chiaro né dettagliato.
     action_plan_score_3: >
       Questo brand ha pubblicato il proprio piano per il salario vivibile lungo l’intera filiera, con l’indicazione di sviluppi e tempistiche.
-    isolating_labor_info: Does this brand use an established method to calculate labour costs and separate them from other production costs to ensure suppliers can pay workers?
-    isolating_labor_score_1: >
+    freedom_of_association_n_bargaining_info: Does this brand use an established method to calculate labour costs and separate them from other production costs to ensure suppliers can pay workers?
+    freedom_of_association_n_bargaining_score_1: >
       Non è stata trovata alcuna prova che questo brand garantisca che i costi del lavoro siano adeguatamente coperti utilizzando un metodo consolidato per calcolarli, separandoli dagli altri costi.
       Tutti i marchi dovrebbero pagare ai fornitori prezzi che consentano di coprire un salario vivibile e i contributi di protezione sociale per tutti i lavoratori della sua catena di fornitura.
-    isolating_labor_score_2: >
+    freedom_of_association_n_bargaining_score_2: >
       Parziale
-    isolating_labor_score_3: >
+    freedom_of_association_n_bargaining_score_3: >
       I marchi devono garantire che i costi del lavoro siano coperti adeguatamente utilizzando un metodo consolidato per il calcolo e separandoli dagli altri costi.
 
-    isolating_labor: "scorporo dei costi del lavoro?"
+    freedom_of_association_n_bargaining: "scorporo dei costi del lavoro?"
     desc:
       score_1: "Questo brand non fa abbastanza per il salario vivibile lungo la propria filiera."
       score_2: "Testo per il punteggio 2"

@@ -27,7 +27,7 @@ brandsColumnMap =
   living_wages_score: livingWageLetter
   action_plan: commitment
   public_commitment: commitment
-  isolating_labor: commitment
+  freedom_of_association_n_bargaining: commitment
 
 brandAnswersUrl = FC.apiSwitch "/content/brand_answers.json",
   FC.apiUrl "Answer/compact",

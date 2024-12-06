@@ -10,7 +10,7 @@ wikirateApiMode = "cached"
 
 wikirateLinkTarget = "https://wikirate.org"
 
-# pass basic authentication on WikiRate dev/staging servers
+# pass basic authentication on Wikirate dev/staging servers
 if wikirateApiAuth
   $.ajaxSetup
     beforeSend: (xhr) ->
@@ -38,7 +38,7 @@ window.FC =
 
       public_commitment: 7616258
       action_plan: 7624093
-      isolating_labor: 7616271
+      freedom_of_association_n_bargaining: 19884143
 
       transparency_key: 6261816
       living_wages_key: 6261809
