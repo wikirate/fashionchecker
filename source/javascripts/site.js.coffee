@@ -105,7 +105,7 @@ $.extend FC,
           topic: "Filling the Gap"
 
 subBrandsUrl = FC.apiSwitch "/content/sub_brands.json",
-  FC.apiUrl "~#{FC.metrics.hasBrands}+Relationship_Answer",
+  FC.apiUrl "~#{FC.metrics.hasBrands}+Relationship",
     limit: 999
     filter:
       company_group: "~#{FC.companyGroup}"
