@@ -17,6 +17,7 @@ if wikirateApiAuth
       xhr.setRequestHeader "Authorization", "Basic " + btoa(wikirateApiAuth)
 
 window.FC =
+  # @template = new FC.util.templater "main"
   # note: remember to update urls in update_cached_data.rb when updating company group
   companyGroup: 13479530
 
@@ -111,6 +112,36 @@ subBrandsUrl = FC.apiSwitch "/content/sub_brands.json",
       company_group: "~#{FC.companyGroup}"
       year: "latest"
 
+livingWageUrl = FC.apiUrl "~#{FC.metrics.brandsAnnualMap.living_wages_score}+Answer",
+    limit: 0
+    filter:
+      company_group: "~#{FC.companyGroup}"
+      year: "latest"
+
+countryListUrl = FC.apiUrl "/FashionChecker_Country_List",
+    limit: 10
+
+livingWageGapDonut = (country) ->
+    "<div class='col-sm-6 col-md-4 col-lg-3'><div class='row d-flex justify-content-center'><div class='row col-12 justify-content-center p-4'><div class='chart-wrapper vega-embed' id='#{country.toLowerCase()}-donut-chart'></div></div><div class='col-12 display-4 text-uppercase text-center pt-4'>#{country}</div></div></div>"
+
+buildDonutViz = (el, spec, actions) ->
+  actions ||= false
+  vegaEmbed el, spec,
+    renderer: "svg"
+    hover: true
+    actions: actions
+
+donutChart = (country, colors, values, domain) ->
+  tagId = "#{country}-donut-chart"
+  $.ajax(url: "/content/donut.json", dataType: "json").done (spec) ->
+    spec["data"][0]["url"] = FC.apiUrl "~#{FC.metrics.suppliersMap.gap}+Answer",
+                                    limit: 0
+                                    filter:
+                                      country: country
+                                      year: "latest"
+    spec["scales"][0]["domain"] = domain
+    buildDonutViz "##{tagId}", spec
+
 $.extend FC,
   loadBrand: (companyId, year) ->
     $(".section-header > div, .result, .noResult").hide()
@@ -123,6 +154,23 @@ $.extend FC,
       FC.subBrands[key] ||= []
       FC.subBrands[key].push brand.object_company
       FC.subBrands[key].sort()
+
+  formatPercent = (num) ->
+    parseFloat(num).toFixed 0
+
+  loadCountries: () -> $.ajax(url: countryListUrl, dataType: "json").done (countries) ->
+    countries = countries.content
+    countries.forEach (country) -> 
+      $('#wage_gap_per_country').append(livingWageGapDonut(country))
+      donutChart(country.toLowerCase(), ["#e5e5ea", "#ed40d9"])
+
+
+  loadLivingWage: () -> $.ajax(url: livingWageUrl, dataType: "json").done (scores) ->
+    totalItems = scores.items.length
+    eItems = (scores.items.filter (item) -> item.value is 'E').length
+
+    percentage = parseFloat((eItems / totalItems) * 100).toFixed(1);
+    document.getElementById("living-wage-percentage").textContent = percentage + "%"
 
 preparePopovers = () ->
   $('[data-toggle="popover"]').popover()
@@ -141,3 +189,7 @@ $(document).ready ->
     FC.loadBrand params.get("q"), params.get("year")
   else
     brandsTable()
+
+  # Load the living wage percentage
+  FC.loadLivingWage();
+  FC.loadCountries();

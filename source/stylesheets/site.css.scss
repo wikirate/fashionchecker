@@ -836,6 +836,22 @@ main {
   }
 }
 
+.chart-wrapper svg {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.vg-tooltip{
+  font-family: 'karmilla';
+}
+
+.vg-tooltip h2 {
+  color: #000;  /* Change this to your desired title color */
+  font-weight: bold;  /* Make the title bold */
+  font-family: 'karmilla';
+  font-size: 14px;    /* Change the font size if needed */
+}
 
 //.noImage img {
 //  display: none;

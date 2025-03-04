@@ -40,11 +40,9 @@
                   = t('menu_resources')
 
           .col-sm-4
-            =brand_profile_partial :search, locals: { redirect: true }
-            .pt-4
-              %a{:href => "take_action.html"}
-                %h4
-                  = t('menu_take_action')
+            %a{:href => "take_action.html"}
+              %h4
+                = t('menu_take_action')
 
 
   .navbar.navbar-dark.red-bg.shadow-sm

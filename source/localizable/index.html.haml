@@ -11,12 +11,40 @@
             .yellow
               = t('header_question_2')
           -#= brand_profile_partial :search,  locals: { redirect: true }
+          %p.pt-3.white.lead
+            = t('find_out')
+          =brand_profile_partial :search, locals: { redirect: true }
         .d-none.d-md-block.col-md-6
           %img.float-right{src: "/images/logo/SVG/CCC_FashionChecker_RGB_vertical_spot.svg",
                height: "300px", width: "auto"}
 
     .top-extender.red-bg
       &nbsp;
+
+    .pink-bg.skew-left
+      .container-fluid.skew-right
+        .container.py-5.result-container
+          .p-4
+            .row
+              .col-sm-4
+                %img.w-100{ src: "/images/homepage/pie_graph.svg" }
+              .col-sm-8
+                .display-3.red
+                  %span#living-wage-percentage
+                .display-3.black
+                  = t('of_surveyed_brands_aren_t_paying_garment_workers')
+
+    .bottom-extender.pink-bg.extra-extender
+
+    .navy-bg.skew-right
+      .container-fluid.skew-left
+        .p-5.result-container
+          .row.pt-5
+            .display-3.pt-4
+              .text-white
+                = t("reported_wage_gap")
+          .row#wage_gap_per_country.pt-4.pb-5.justify-content-center
+    .bottom-extender.navy-bg.extra-extender
 
     .yellow-bg.skew-left
       .container-fluid.skew-right
@@ -51,21 +79,6 @@
           ._transparencyTemplate.d-none
             = partial "partials/brand_profile/score/transparency_stars.html"
     .bottom-extender.yellow-bg.extra-extender
-
-    .pink-bg.skew-right
-      .container-fluid.skew-left
-        .container.py-5.result-container
-          .p-4
-            .row
-              .col-sm-4
-                %img.w-100{ src: "/images/homepage/pie_graph.svg" }
-              .col-sm-8
-                .display-3.red
-                  93%
-                .display-3.black
-                  = t('of_surveyed_brands_aren_t_paying_garment_workers')
-
-    .bottom-extender.pink-bg.extra-extender
 
     .fuchsia-bg.skew-left
       .container-fluid.skew-right

@@ -1,0 +1,116 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "description": "A basic donut chart example.",
+  "width": 250,
+  "height": 250,
+  "padding": 10,
+  "signals": [
+     {
+      "name": "avg_living_wage_gap",
+      "update": "data('rawData')[0].avg_living_wage_gap"
+    },
+    {
+      "name": "hoverValue",
+      "value": null,
+      "on": [
+        {
+          "events": "arc:mouseover, @legendLabel:mouseover, @legendSymbol:mouseover",
+          "update": "datum.value"
+        },
+        {
+          "events": "arc:mouseout, @legendLabel:mouseout, @legendSymbol:mouseout",
+          "update": "null"
+        }
+      ]
+    },
+    {"name": "hoverOpacity", "update": "if(hoverValue, 0.5, 1)", "value": 1},
+    {
+      "name": "click",
+      "value": null,
+      "on": [{"events": "arc:click", "update": "datum.URL"}]
+    }
+  ],
+  "data": [
+      {
+        "name": "rawData",
+        "url": "https://wikirate.org/Clean_Clothes_Campaign+Living_Wage_Gap_Actual_Wages_as_of_Living_Wage_Benchmark+Answers.json?filter[country]=Pakistan&limit=1000",
+        "format": {"type": "json", "property":"items"},
+        "transform": [
+          {
+            "type": "aggregate",
+            "fields": ["value"],
+            "ops": ["average"],
+            "as": ["avg_living_wage_gap"]
+        }
+      ]        
+      },
+      {
+        "name": "table",
+        "source": "rawData",
+        "transform": [
+          {
+            "type": "formula",
+            "as": "percent",
+            "expr": "datum.avg_living_wage_gap"
+          },
+          {
+            "type": "formula",
+            "as": "gap",
+            "expr": "100 - datum.avg_living_wage_gap"
+          },
+          {
+            "type": "fold",
+            "fields": ["percent", "gap"],
+            "as": ["key", "percent"]
+          },
+          {
+            "type": "formula",
+            "as": "id",
+            "expr": "datum.key === 'percent' ? 1 : 2"
+          },
+          {
+            "type": "pie",
+            "field": "percent",
+            "sort": false
+          }
+        ]
+    }
+      
+    ],
+  "scales": [
+    {"name": "color", "type": "ordinal", "range": ["#ed40d9", "#fafafa"]}
+  ],
+  "marks": [
+    {
+      "type": "arc",
+      "from": {"data": "table"},
+      "encode": {
+        "enter": {
+          "fill": {"scale": "color", "field": "id"},
+          "x": {"signal": "width / 2"},
+          "y": {"signal": "height / 2"},
+          "startAngle": {"signal": "datum.startAngle"},
+          "endAngle": {"signal": "datum.endAngle"},
+          "padAngle": {"value": 0},
+          "innerRadius": {"value": 80},
+          "outerRadius": {"signal": "width / 2"},
+          "cornerRadius": {"value": 0}
+        },
+        "update": {"cursor": {"value": "pointer"}},
+        "hover": {
+          "tooltip": {
+            "signal": "{title: datum.id == 1 ? 'Average Worker Wage as percentage of the Living Wage Benchmark' : 'Average Wage Gap from the Living Wage Benchmark', 'Percentage': format(avg_living_wage_gap, '.0f') + '%'}"
+          }
+        }
+      }
+    }
+  ],
+  "title": {
+    "text": {"signal": "format(avg_living_wage_gap, '.0f') + '%'"},
+    "font": "Karmilla",
+    "color":"#fff",
+    "fontSize": 60,
+    "fontWeight": "700",
+    "dy": {"signal": "width/1.55"}
+  }
+}
