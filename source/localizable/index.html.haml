@@ -25,8 +25,8 @@
       .container-fluid.skew-right
         .container.py-5.result-container
           .p-4
-            .row
-              .col-sm-4
+            .row.align-items-center.justify-content-center.pt-5.pb-5
+              .col-sm-3
                 %img.w-100{ src: "/images/homepage/pie_graph.svg" }
               .col-sm-8
                 .display-3.red
@@ -38,8 +38,8 @@
 
     .navy-bg.skew-right
       .container-fluid.skew-left
-        .p-5.result-container
-          .row.pt-5
+        .container.py-5.result-container
+          .row.pt-5.pb-5
             .display-3.pt-4
               .text-white
                 = t("reported_wage_gap")
@@ -81,22 +81,23 @@
     .bottom-extender.yellow-bg.extra-extender
 
     .fuchsia-bg.skew-left
-      .container-fluid.skew-right
+      .container-fluid.skew-right.pt-5
         .container.py-5.result-container
-          .row
-            .col-sm-6
+          .row.align-items-center.pt-5.pb-5
+            .col-sm-4
               .w-50
                 .span.display-3.yellow
                   = t('living_wages')
                 .span.display-3.white
                   = t('not_poverty_wages')
-            .col-sm-6
+            .col-sm-8
               .lead.white
                 = t('living_wages_info')
               .py-3
                 %a.btn.btn-primary.navy-btn{ href: "living_wage.html" }
                   = t('read_more_living_wages')
-          = partial "partials/shared/living_wage_table"
+          %div.row.justify-content-center
+            = partial "partials/shared/living_wage_table"
 
     .bottom-extender.fuchsia-bg
 
@@ -104,28 +105,28 @@
       = banner "/images/homepage/textile_scene.png"
 
     = section :yellow do
-      .row
-        .col-sm-6
+      .row.mt-5.mb-5
+        .col-sm-4
           .w-50
             .span.display-3.red
               = t('end')
             .span.display-3.fuchsia
               = t('gendered_pay')
-        .col-sm-6
+        .col-sm-8
           %p.red.lead
             = t('gendered_pay_info')
           %a.btn.btn-primary{href: "gender.html"}
             = t('gender')
 
     = section :red do
-      .row
-        .col-sm-6
+      .row.mt-5.mb-5
+        .col-sm-4
           .w-75
             .span.display-3.white
               = t('resilience')
             .span.display-3.yellow
               = t('in_the_face_of_a_crisis')
-        .col-sm-6.white
+        .col-sm-8.white
           %p.lead
             = t('resilience_info')
           %a.btn.btn-primary.navy-btn{ href: "our_demands.html" }
