@@ -122,7 +122,7 @@ countryListUrl = FC.apiUrl "/FashionChecker_Country_List",
     limit: 10
 
 livingWageGapDonut = (country) ->
-    "<div class='col-sm-6 col-md-4 col-lg-3'><div class='row d-flex justify-content-center'><div class='row col-12 justify-content-center p-4'><div class='chart-wrapper vega-embed' id='#{country.toLowerCase()}-donut-chart'></div></div><div class='col-12 display-4 text-uppercase text-center pt-4'>#{country}</div></div></div>"
+    "<div class='col-sm-6 col-md-4 col-lg-3'><div class='row d-flex justify-content-center'><div class='row col-12 justify-content-center p-4'><div class='chart-wrapper vega-embed' id='#{country.toLowerCase()}-donut-chart'></div></div><div class='col-12 display-5 text-uppercase text-center'>#{country}</div></div></div>"
 
 buildDonutViz = (el, spec, actions) ->
   actions ||= false

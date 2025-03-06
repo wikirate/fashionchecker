@@ -81,9 +81,9 @@ h2,
   font-size: 0.75rem;
 }
 
-.container {
-  max-width: 800px;
-}
+// .container {
+//   max-width: 800px;
+// }
 
 h6 {
   font-size: 0.8rem;
@@ -127,6 +127,10 @@ h6 {
   //  display: none;
 }
 
+.brand-profile-content{
+  max-width: 800px;
+}
+
 .btn-primary,
 .btn-outline-primary {
   border-color: $fuchsia;
@@ -161,6 +165,13 @@ h6 {
   text-transform: uppercase;
   font-size: 2rem;
   font-weight: 100;
+  line-height: 1;
+  font-family: "ptf_nordic_stdnormal";
+}
+
+.display-5 {
+  text-transform: uppercase;
+  font-size: 1.5rem;
   line-height: 1;
   font-family: "ptf_nordic_stdnormal";
 }
@@ -494,6 +505,7 @@ main {
 }
 .living-wage-table {
   position: relative;
+  max-width: 800px;
 }
 .living-wage-header {
   position: sticky;
