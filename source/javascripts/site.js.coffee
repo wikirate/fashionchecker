@@ -20,6 +20,7 @@ window.FC =
   # @template = new FC.util.templater "main"
   # note: remember to update urls in update_cached_data.rb when updating company group
   companyGroup: 13479530
+  countryList: 20354046
 
   metrics:
     hasBrands: 5768810
@@ -112,14 +113,24 @@ subBrandsUrl = FC.apiSwitch "/content/sub_brands.json",
       company_group: "~#{FC.companyGroup}"
       year: "latest"
 
-livingWageUrl = FC.apiUrl "~#{FC.metrics.brandsAnnualMap.living_wages_score}+Answer",
-    limit: 0
-    filter:
-      company_group: "~#{FC.companyGroup}"
-      year: "latest"
+livingWageUrl =  FC.apiSwitch "/content/living_wage_scores.json",
+  FC.apiUrl "~#{FC.metrics.brandsAnnualMap.living_wages_score}+Answer",
+      limit: 2000
+      filter:
+        company_group: "~#{FC.companyGroup}"
+        year: "latest"
 
-countryListUrl = FC.apiUrl "/FashionChecker_Country_List",
-    limit: 10
+countryListUrl = FC.apiSwitch "/content/country_list.json",
+  FC.apiUrl "~#{FC.metrics.hasBrands}",
+      limit: 10
+
+gapAsPercentUrl = (country) -> 
+  FC.apiSwitch "/content/#{country}.json",
+    FC.apiUrl "~#{FC.metrics.gap_as_percent}+Answer",
+        limit: 0
+        filter:
+          country: country
+          year: "latest"
 
 livingWageGapDonut = (country) ->
     "<div class='col-sm-6 col-md-4 col-lg-3'><div class='row d-flex justify-content-center'><div class='row col-12 justify-content-center p-4'><div class='chart-wrapper vega-embed' id='#{country.toLowerCase()}-donut-chart'></div></div><div class='col-12 display-5 text-uppercase text-center'>#{country}</div></div></div>"
@@ -134,11 +145,7 @@ buildDonutViz = (el, spec, actions) ->
 donutChart = (country, colors, values, domain) ->
   tagId = "#{country}-donut-chart"
   $.ajax(url: "/content/donut.json", dataType: "json").done (spec) ->
-    spec["data"][0]["url"] = FC.apiUrl "~#{FC.metrics.suppliersMap.gap}+Answer",
-                                    limit: 0
-                                    filter:
-                                      country: country
-                                      year: "latest"
+    spec["data"][0]["url"] = gapAsPercentUrl country
     spec["scales"][0]["domain"] = domain
     buildDonutViz "##{tagId}", spec
 

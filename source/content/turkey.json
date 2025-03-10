@@ -1,0 +1,190 @@
+{
+  "id": null,
+  "name": "Clean Clothes Campaign+Living Wage Gap - Actual Wages as % of Living Wage Benchmark+Answers",
+  "type": {
+    "id": 30,
+    "name": "Search",
+    "type": "Cardtype",
+    "url": "https://wikirate.org/Search.json",
+    "codename": "search_type"
+  },
+  "url": "https://wikirate.org/~7347357+Answers.json?filter%5Bcountry%5D%5B%5D=Turkey&filter%5Byear%5D=latest&tab=answer&limit=999",
+  "items": [
+    {
+      "id": null,
+      "name": "Clean Clothes Campaign+Living Wage Gap - Actual Wages as % of Living Wage Benchmark+Ugur Konfeksiyon San. Ve Tic. A.S.+2021",
+      "type": "Answer",
+      "url": "https://wikirate.org/Clean_Clothes_Campaign+Living_Wage_Gap_Actual_Wages_as_of_Living_Wage_Benchmark+Ugur_Konfeksiyon_San_Ve_Tic_A_S+2021.json",
+      "content": "37.580275321563676",
+      "metric": "Clean Clothes Campaign+Living Wage Gap - Actual Wages as % of Living Wage Benchmark",
+      "company": "Ugur Konfeksiyon San. Ve Tic. A.S.",
+      "year": 2021,
+      "value": "37.580275321563676",
+      "comments": null,
+      "answer_url": "https://wikirate.org/Clean_Clothes_Campaign+Living_Wage_Gap_Actual_Wages_as_of_Living_Wage_Benchmark+Ugur_Konfeksiyon_San_Ve_Tic_A_S.json"
+    },
+    {
+      "id": null,
+      "name": "Clean Clothes Campaign+Living Wage Gap - Actual Wages as % of Living Wage Benchmark+Beyza Tekstil+2021",
+      "type": "Answer",
+      "url": "https://wikirate.org/Clean_Clothes_Campaign+Living_Wage_Gap_Actual_Wages_as_of_Living_Wage_Benchmark+Beyza_Tekstil+2021.json",
+      "content": "33.47803698612862",
+      "metric": "Clean Clothes Campaign+Living Wage Gap - Actual Wages as % of Living Wage Benchmark",
+      "company": "Beyza Tekstil",
+      "year": 2021,
+      "value": "33.47803698612862",
+      "comments": null,
+      "answer_url": "https://wikirate.org/Clean_Clothes_Campaign+Living_Wage_Gap_Actual_Wages_as_of_Living_Wage_Benchmark+Beyza_Tekstil.json"
+    },
+    {
+      "id": null,
+      "name": "Clean Clothes Campaign+Living Wage Gap - Actual Wages as % of Living Wage Benchmark+AKADEMI TEKSTIL-BEYLIKDUZ+2021",
+      "type": "Answer",
+      "url": "https://wikirate.org/Clean_Clothes_Campaign+Living_Wage_Gap_Actual_Wages_as_of_Living_Wage_Benchmark+AKADEMI_TEKSTIL_BEYLIKDUZ+2021.json",
+      "content": "34.530548549810845",
+      "metric": "Clean Clothes Campaign+Living Wage Gap - Actual Wages as % of Living Wage Benchmark",
+      "company": "AKADEMI TEKSTIL-BEYLIKDUZ",
+      "year": 2021,
+      "value": "34.530548549810845",
+      "comments": null,
+      "answer_url": "https://wikirate.org/Clean_Clothes_Campaign+Living_Wage_Gap_Actual_Wages_as_of_Living_Wage_Benchmark+AKADEMI_TEKSTIL_BEYLIKDUZ.json"
+    },
+    {
+      "id": null,
+      "name": "Clean Clothes Campaign+Living Wage Gap - Actual Wages as % of Living Wage Benchmark+HIRA TEKSTIL SAN VE DIS TIC LTD STI+2021",
+      "type": "Answer",
+      "url": "https://wikirate.org/Clean_Clothes_Campaign+Living_Wage_Gap_Actual_Wages_as_of_Living_Wage_Benchmark+HIRA_TEKSTIL_SAN_VE_DIS_TIC_LTD_STI+2021.json",
+      "content": "38.287557793190416",
+      "metric": "Clean Clothes Campaign+Living Wage Gap - Actual Wages as % of Living Wage Benchmark",
+      "company": "HIRA TEKSTIL SAN VE DIS TIC LTD STI",
+      "year": 2021,
+      "value": "38.287557793190416",
+      "comments": null,
+      "answer_url": "https://wikirate.org/Clean_Clothes_Campaign+Living_Wage_Gap_Actual_Wages_as_of_Living_Wage_Benchmark+HIRA_TEKSTIL_SAN_VE_DIS_TIC_LTD_STI.json"
+    },
+    {
+      "id": null,
+      "name": "Clean Clothes Campaign+Living Wage Gap - Actual Wages as % of Living Wage Benchmark+V&S Moda+2021",
+      "type": "Answer",
+      "url": "https://wikirate.org/Clean_Clothes_Campaign+Living_Wage_Gap_Actual_Wages_as_of_Living_Wage_Benchmark+V_S_Moda+2021.json",
+      "content": "35.666387528373264",
+      "metric": "Clean Clothes Campaign+Living Wage Gap - Actual Wages as % of Living Wage Benchmark",
+      "company": "V&S Moda",
+      "year": 2021,
+      "value": "35.666387528373264",
+      "comments": null,
+      "answer_url": "https://wikirate.org/Clean_Clothes_Campaign+Living_Wage_Gap_Actual_Wages_as_of_Living_Wage_Benchmark+V_S_Moda.json"
+    },
+    {
+      "id": null,
+      "name": "Clean Clothes Campaign+Living Wage Gap - Actual Wages as % of Living Wage Benchmark+Taha Tekstil+2021",
+      "type": "Answer",
+      "url": "https://wikirate.org/Clean_Clothes_Campaign+Living_Wage_Gap_Actual_Wages_as_of_Living_Wage_Benchmark+Taha_Tekstil+2021.json",
+      "content": "34.12637925598992",
+      "metric": "Clean Clothes Campaign+Living Wage Gap - Actual Wages as % of Living Wage Benchmark",
+      "company": "Taha Tekstil",
+      "year": 2021,
+      "value": "34.12637925598992",
+      "comments": null,
+      "answer_url": "https://wikirate.org/Clean_Clothes_Campaign+Living_Wage_Gap_Actual_Wages_as_of_Living_Wage_Benchmark+Taha_Tekstil.json"
+    },
+    {
+      "id": null,
+      "name": "Clean Clothes Campaign+Living Wage Gap - Actual Wages as % of Living Wage Benchmark+Final Triko+2021",
+      "type": "Answer",
+      "url": "https://wikirate.org/Clean_Clothes_Campaign+Living_Wage_Gap_Actual_Wages_as_of_Living_Wage_Benchmark+Final_Triko+2021.json",
+      "content": "34.530548549810845",
+      "metric": "Clean Clothes Campaign+Living Wage Gap - Actual Wages as % of Living Wage Benchmark",
+      "company": "Final Triko",
+      "year": 2021,
+      "value": "34.530548549810845",
+      "comments": null,
+      "answer_url": "https://wikirate.org/Clean_Clothes_Campaign+Living_Wage_Gap_Actual_Wages_as_of_Living_Wage_Benchmark+Final_Triko.json"
+    },
+    {
+      "id": null,
+      "name": "Clean Clothes Campaign+Living Wage Gap - Actual Wages as % of Living Wage Benchmark+Nar Tekstil+2021",
+      "type": "Answer",
+      "url": "https://wikirate.org/Clean_Clothes_Campaign+Living_Wage_Gap_Actual_Wages_as_of_Living_Wage_Benchmark+Nar_Tekstil+2021.json",
+      "content": "34.15163934426229",
+      "metric": "Clean Clothes Campaign+Living Wage Gap - Actual Wages as % of Living Wage Benchmark",
+      "company": "Nar Tekstil",
+      "year": 2021,
+      "value": "34.15163934426229",
+      "comments": null,
+      "answer_url": "https://wikirate.org/Clean_Clothes_Campaign+Living_Wage_Gap_Actual_Wages_as_of_Living_Wage_Benchmark+Nar_Tekstil.json"
+    },
+    {
+      "id": null,
+      "name": "Clean Clothes Campaign+Living Wage Gap - Actual Wages as % of Living Wage Benchmark+Feniksteks+2021",
+      "type": "Answer",
+      "url": "https://wikirate.org/Clean_Clothes_Campaign+Living_Wage_Gap_Actual_Wages_as_of_Living_Wage_Benchmark+Feniksteks+2021.json",
+      "content": "31.969167717528375",
+      "metric": "Clean Clothes Campaign+Living Wage Gap - Actual Wages as % of Living Wage Benchmark",
+      "company": "Feniksteks",
+      "year": 2021,
+      "value": "31.969167717528375",
+      "comments": null,
+      "answer_url": "https://wikirate.org/Clean_Clothes_Campaign+Living_Wage_Gap_Actual_Wages_as_of_Living_Wage_Benchmark+Feniksteks.json"
+    },
+    {
+      "id": null,
+      "name": "Clean Clothes Campaign+Living Wage Gap - Actual Wages as % of Living Wage Benchmark+EngHas Tekstil+2021",
+      "type": "Answer",
+      "url": "https://wikirate.org/Clean_Clothes_Campaign+Living_Wage_Gap_Actual_Wages_as_of_Living_Wage_Benchmark+EngHas_Tekstil+2021.json",
+      "content": "31.969167717528375",
+      "metric": "Clean Clothes Campaign+Living Wage Gap - Actual Wages as % of Living Wage Benchmark",
+      "company": "EngHas Tekstil",
+      "year": 2021,
+      "value": "31.969167717528375",
+      "comments": null,
+      "answer_url": "https://wikirate.org/Clean_Clothes_Campaign+Living_Wage_Gap_Actual_Wages_as_of_Living_Wage_Benchmark+EngHas_Tekstil.json"
+    },
+    {
+      "id": null,
+      "name": "Clean Clothes Campaign+Living Wage Gap - Actual Wages as % of Living Wage Benchmark+Hugo Boss Tekstil+2021",
+      "type": "Answer",
+      "url": "https://wikirate.org/Clean_Clothes_Campaign+Living_Wage_Gap_Actual_Wages_as_of_Living_Wage_Benchmark+Hugo_Boss_Tekstil+2021.json",
+      "content": "38.72230075662043",
+      "metric": "Clean Clothes Campaign+Living Wage Gap - Actual Wages as % of Living Wage Benchmark",
+      "company": "Hugo Boss Tekstil",
+      "year": 2021,
+      "value": "38.72230075662043",
+      "comments": null,
+      "answer_url": "https://wikirate.org/Clean_Clothes_Campaign+Living_Wage_Gap_Actual_Wages_as_of_Living_Wage_Benchmark+Hugo_Boss_Tekstil.json"
+    }
+  ],
+  "links": [],
+  "ancestors": [
+    {
+      "id": 13979,
+      "name": "Clean Clothes Campaign",
+      "type": "Company",
+      "url": "https://wikirate.org/Clean_Clothes_Campaign.json"
+    },
+    {
+      "id": 7347356,
+      "name": "Living Wage Gap - Actual Wages as % of Living Wage Benchmark",
+      "type": "Metric Title",
+      "url": "https://wikirate.org/Living_Wage_Gap_Actual_Wages_as_of_Living_Wage_Benchmark.json"
+    },
+    {
+      "id": 43678,
+      "name": "Answer",
+      "type": "Cardtype",
+      "url": "https://wikirate.org/Answer.json",
+      "codename": "answer"
+    },
+    {
+      "id": 7347357,
+      "name": "Clean Clothes Campaign+Living Wage Gap - Actual Wages as % of Living Wage Benchmark",
+      "type": "Metric",
+      "url": "https://wikirate.org/Clean_Clothes_Campaign+Living_Wage_Gap_Actual_Wages_as_of_Living_Wage_Benchmark.json"
+    }
+  ],
+  "html_url": "https://wikirate.org/Clean_Clothes_Campaign+Living_Wage_Gap_Actual_Wages_as_of_Living_Wage_Benchmark+Answers",
+  "created_at": null,
+  "updated_at": null,
+  "requested_at": "2025-03-10 13:04:17 UTC",
+  "license": "Wikirate.org, licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0). See https://wikirate.org/Attribution_Guide."
+}

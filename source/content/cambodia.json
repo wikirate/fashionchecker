@@ -1,0 +1,138 @@
+{
+  "id": null,
+  "name": "Clean Clothes Campaign+Living Wage Gap - Actual Wages as % of Living Wage Benchmark+Answers",
+  "type": {
+    "id": 30,
+    "name": "Search",
+    "type": "Cardtype",
+    "url": "https://wikirate.org/Search.json",
+    "codename": "search_type"
+  },
+  "url": "https://wikirate.org/~7347357+Answers.json?filter%5Bcountry%5D%5B%5D=Cambodia&filter%5Byear%5D=latest&tab=answer&limit=999",
+  "items": [
+    {
+      "id": null,
+      "name": "Clean Clothes Campaign+Living Wage Gap - Actual Wages as % of Living Wage Benchmark+APPLE APPAREL (CAMBODIA) CO., LTD+2023",
+      "type": "Answer",
+      "url": "https://wikirate.org/Clean_Clothes_Campaign+Living_Wage_Gap_Actual_Wages_as_of_Living_Wage_Benchmark+APPLE_APPAREL_CAMBODIA_CO_LTD+2023.json",
+      "content": "31.008000000000003",
+      "metric": "Clean Clothes Campaign+Living Wage Gap - Actual Wages as % of Living Wage Benchmark",
+      "company": "APPLE APPAREL (CAMBODIA) CO., LTD",
+      "year": 2023,
+      "value": "31.008000000000003",
+      "comments": null,
+      "answer_url": "https://wikirate.org/Clean_Clothes_Campaign+Living_Wage_Gap_Actual_Wages_as_of_Living_Wage_Benchmark+APPLE_APPAREL_CAMBODIA_CO_LTD.json"
+    },
+    {
+      "id": null,
+      "name": "Clean Clothes Campaign+Living Wage Gap - Actual Wages as % of Living Wage Benchmark+BERRY APPAREL (CAMBODIA) CO.,LTD+2023",
+      "type": "Answer",
+      "url": "https://wikirate.org/Clean_Clothes_Campaign+Living_Wage_Gap_Actual_Wages_as_of_Living_Wage_Benchmark+BERRY_APPAREL_CAMBODIA_CO_LTD+2023.json",
+      "content": "31.682983055999998",
+      "metric": "Clean Clothes Campaign+Living Wage Gap - Actual Wages as % of Living Wage Benchmark",
+      "company": "BERRY APPAREL (CAMBODIA) CO.,LTD",
+      "year": 2023,
+      "value": "31.682983055999998",
+      "comments": null,
+      "answer_url": "https://wikirate.org/Clean_Clothes_Campaign+Living_Wage_Gap_Actual_Wages_as_of_Living_Wage_Benchmark+BERRY_APPAREL_CAMBODIA_CO_LTD.json"
+    },
+    {
+      "id": null,
+      "name": "Clean Clothes Campaign+Living Wage Gap - Actual Wages as % of Living Wage Benchmark+Can Sports Shoes Co., Ltd.+2023",
+      "type": "Answer",
+      "url": "https://wikirate.org/Clean_Clothes_Campaign+Living_Wage_Gap_Actual_Wages_as_of_Living_Wage_Benchmark+Can_Sports_Shoes_Co_Ltd+2023.json",
+      "content": "30.4608",
+      "metric": "Clean Clothes Campaign+Living Wage Gap - Actual Wages as % of Living Wage Benchmark",
+      "company": "Can Sports Shoes Co., Ltd.",
+      "year": 2023,
+      "value": "30.4608",
+      "comments": null,
+      "answer_url": "https://wikirate.org/Clean_Clothes_Campaign+Living_Wage_Gap_Actual_Wages_as_of_Living_Wage_Benchmark+Can_Sports_Shoes_Co_Ltd.json"
+    },
+    {
+      "id": null,
+      "name": "Clean Clothes Campaign+Living Wage Gap - Actual Wages as % of Living Wage Benchmark+Meng Da Footwear Industrial Co., Ltd+2023",
+      "type": "Answer",
+      "url": "https://wikirate.org/Clean_Clothes_Campaign+Living_Wage_Gap_Actual_Wages_as_of_Living_Wage_Benchmark+Meng_Da_Footwear_Industrial_Co_Ltd+2023.json",
+      "content": "29.464615392",
+      "metric": "Clean Clothes Campaign+Living Wage Gap - Actual Wages as % of Living Wage Benchmark",
+      "company": "Meng Da Footwear Industrial Co., Ltd",
+      "year": 2023,
+      "value": "29.464615392",
+      "comments": null,
+      "answer_url": "https://wikirate.org/Clean_Clothes_Campaign+Living_Wage_Gap_Actual_Wages_as_of_Living_Wage_Benchmark+Meng_Da_Footwear_Industrial_Co_Ltd.json"
+    },
+    {
+      "id": null,
+      "name": "Clean Clothes Campaign+Living Wage Gap - Actual Wages as % of Living Wage Benchmark+Trax Apparel (Cambodia) Co., Ltd+2023",
+      "type": "Answer",
+      "url": "https://wikirate.org/Clean_Clothes_Campaign+Living_Wage_Gap_Actual_Wages_as_of_Living_Wage_Benchmark+Trax_Apparel_Cambodia_Co_Ltd+2023.json",
+      "content": "30.856",
+      "metric": "Clean Clothes Campaign+Living Wage Gap - Actual Wages as % of Living Wage Benchmark",
+      "company": "Trax Apparel (Cambodia) Co., Ltd",
+      "year": 2023,
+      "value": "30.856",
+      "comments": null,
+      "answer_url": "https://wikirate.org/Clean_Clothes_Campaign+Living_Wage_Gap_Actual_Wages_as_of_Living_Wage_Benchmark+Trax_Apparel_Cambodia_Co_Ltd.json"
+    },
+    {
+      "id": null,
+      "name": "Clean Clothes Campaign+Living Wage Gap - Actual Wages as % of Living Wage Benchmark+Joint Force Sporting Goods (Cambodia) Co., Ltd+2023",
+      "type": "Answer",
+      "url": "https://wikirate.org/Clean_Clothes_Campaign+Living_Wage_Gap_Actual_Wages_as_of_Living_Wage_Benchmark+Joint_Force_Sporting_Goods_Cambodia_Co_Ltd+2023.json",
+      "content": "33.516",
+      "metric": "Clean Clothes Campaign+Living Wage Gap - Actual Wages as % of Living Wage Benchmark",
+      "company": "Joint Force Sporting Goods (Cambodia) Co., Ltd",
+      "year": 2023,
+      "value": "33.516",
+      "comments": null,
+      "answer_url": "https://wikirate.org/Clean_Clothes_Campaign+Living_Wage_Gap_Actual_Wages_as_of_Living_Wage_Benchmark+Joint_Force_Sporting_Goods_Cambodia_Co_Ltd.json"
+    },
+    {
+      "id": null,
+      "name": "Clean Clothes Campaign+Living Wage Gap - Actual Wages as % of Living Wage Benchmark+Tien Sung Garment (Cambodia) Co. Ltd.+2021",
+      "type": "Answer",
+      "url": "https://wikirate.org/Clean_Clothes_Campaign+Living_Wage_Gap_Actual_Wages_as_of_Living_Wage_Benchmark+Tien_Sung_Garment_Cambodia_Co_Ltd+2021.json",
+      "content": "33.23577236397748",
+      "metric": "Clean Clothes Campaign+Living Wage Gap - Actual Wages as % of Living Wage Benchmark",
+      "company": "Tien Sung Garment (Cambodia) Co. Ltd.",
+      "year": 2021,
+      "value": "33.23577236397748",
+      "comments": null,
+      "answer_url": "https://wikirate.org/Clean_Clothes_Campaign+Living_Wage_Gap_Actual_Wages_as_of_Living_Wage_Benchmark+Tien_Sung_Garment_Cambodia_Co_Ltd.json"
+    }
+  ],
+  "links": [],
+  "ancestors": [
+    {
+      "id": 13979,
+      "name": "Clean Clothes Campaign",
+      "type": "Company",
+      "url": "https://wikirate.org/Clean_Clothes_Campaign.json"
+    },
+    {
+      "id": 7347356,
+      "name": "Living Wage Gap - Actual Wages as % of Living Wage Benchmark",
+      "type": "Metric Title",
+      "url": "https://wikirate.org/Living_Wage_Gap_Actual_Wages_as_of_Living_Wage_Benchmark.json"
+    },
+    {
+      "id": 43678,
+      "name": "Answer",
+      "type": "Cardtype",
+      "url": "https://wikirate.org/Answer.json",
+      "codename": "answer"
+    },
+    {
+      "id": 7347357,
+      "name": "Clean Clothes Campaign+Living Wage Gap - Actual Wages as % of Living Wage Benchmark",
+      "type": "Metric",
+      "url": "https://wikirate.org/Clean_Clothes_Campaign+Living_Wage_Gap_Actual_Wages_as_of_Living_Wage_Benchmark.json"
+    }
+  ],
+  "html_url": "https://wikirate.org/Clean_Clothes_Campaign+Living_Wage_Gap_Actual_Wages_as_of_Living_Wage_Benchmark+Answers",
+  "created_at": null,
+  "updated_at": null,
+  "requested_at": "2025-03-10 13:08:11 UTC",
+  "license": "Wikirate.org, licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0). See https://wikirate.org/Attribution_Guide."
+}

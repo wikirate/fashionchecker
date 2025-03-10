@@ -99,7 +99,7 @@
         "update": {"cursor": {"value": "pointer"}},
         "hover": {
           "tooltip": {
-            "signal": "{title: datum.id == 1 ? 'Average Worker Wage as percentage of the Living Wage Benchmark' : 'Average Wage Gap from the Living Wage Benchmark', 'Percentage': format(avg_living_wage_gap, '.0f') + '%'}"
+            "signal": "{title: datum.id == 1 ? 'Average Worker Wage as percentage of the Living Wage Benchmark' : 'Average Wage Gap from the Living Wage Benchmark', 'Percentage': datum.id == 1 ? format(avg_living_wage_gap, '.0f') + '%' : 100 - format(avg_living_wage_gap, '.0f') + '%'}"
           }
         }
       }
