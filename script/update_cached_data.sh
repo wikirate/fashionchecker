@@ -11,7 +11,7 @@ curl "https://wikirate.org/~20354046.json" -o "$CONTENT_DIR/country_list.json"
 curl "https://wikirate.org/~5990097+Answers.json?limit=999&filter%5Bcompany_group%5D=~13479530&filter%5Byear%5D=latest" -o "$CONTENT_DIR/living_wage_scores.json"
 
 # Extract country names from the content attribute of country_list.json
-country_names=$(jq -r '.content[]' "$CONTENT_DIR/country_list.json")
+country_names=$(grep '"content":' "$CONTENT_DIR/country_list.json" | sed -E 's/.*"content":\[(.*)\].*/\1/' | tr -d '[]" ' | tr ',' '\n')
 
 # Loop through each country name to make additional requests
 for country_name in $country_names; do
