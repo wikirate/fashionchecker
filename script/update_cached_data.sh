@@ -11,9 +11,11 @@ curl "https://wikirate.org/~20354046.json" -o "$CONTENT_DIR/country_list.json"
 curl "https://wikirate.org/~5990097+Answers.json?limit=999&filter%5Bcompany_group%5D=~13479530&filter%5Byear%5D=latest" -o "$CONTENT_DIR/living_wage_scores.json"
 
 # Extract country names from the content attribute of country_list.json
-country_names=$(grep '"content":' "$CONTENT_DIR/country_list.json" | sed -E 's/.*"content":\[(.*)\].*/\1/' | tr -d '[]" ' | tr ',' '\n')
+country_names=$(jq -r '.content[]' "$CONTENT_DIR/country_list.json")
 
 # Loop through each country name to make additional requests
 for country_name in $country_names; do
-    curl "https://wikirate.org/~7347357+Answers.json?limit=999&filter%5Bcountry%5D%5B%5D=$country_name&filter%5Byear%5D=latest" -o "$CONTENT_DIR/$country_name.json"
+    # Convert country name to lowercase
+    lower_country_name=$(echo "$country_name" | tr '[:upper:]' '[:lower:]')
+    curl "https://wikirate.org/~7347357+Answers.json?limit=999&filter%5Bcountry%5D%5B%5D=$country_name&filter%5Byear%5D=latest" -o "$CONTENT_DIR/$lower_country_name.json"
 done

@@ -25,9 +25,10 @@ RUN bundle exec middleman build
 # Step 8: Use a lightweight web server like nginx to serve the built site
 FROM nginx:latest
 
-# Install Ruby and other dependencies in the production image
+# Install curl and jq
 RUN apt-get update && apt-get install -y \
-    curl
+    curl \
+    jq
 
 # Install supercronic in nginx image
 RUN curl -L -o /usr/local/bin/supercronic https://github.com/aptible/supercronic/releases/download/v0.2.33/supercronic-linux-amd64 && \
