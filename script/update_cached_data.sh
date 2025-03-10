@@ -16,3 +16,4 @@ country_names=$(jq -r '.content[]' "$CONTENT_DIR/country_list.json")
 # Loop through each country name to make additional requests
 for country_name in $country_names; do
     curl "https://wikirate.org/~7347357+Answers.json?limit=999&filter%5Bcountry%5D%5B%5D=$country_name&filter%5Byear%5D=latest" -o "$CONTENT_DIR/$country_name.json"
+done
