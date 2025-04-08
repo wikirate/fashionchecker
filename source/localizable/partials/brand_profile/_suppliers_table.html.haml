@@ -7,11 +7,12 @@
           %tr.white-bg.table-borderless.text-center
             %th.navy-bg.lighter-blue{colspan: 2}
               = t('suppliers_table.sourcing_from_factories')
-            %th{colspan: 2}= t('suppliers_table.wage')
+            %th{colspan: 3}= t('suppliers_table.wage')
             %th{colspan: 3}= t('suppliers_table.workers')
           %tr.secondHeader.light-blue-bg.border-top-0.border-bottom-2
             %th.medium-blue-bg= t('suppliers_table.company')
             %th.medium-blue-bg= t('country')
+            = th_icon "clock", "suppliers_table", "year"
             = th_icon "coins", "suppliers_table", "average"
             = th_icon "adjust", "suppliers_table", "gap"
             = th_icon "users", "suppliers_table", "number_of_workers"

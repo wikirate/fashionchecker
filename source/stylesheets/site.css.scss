@@ -738,7 +738,7 @@ main {
       &:first-child {
         text-align: left;
       }
-      &:nth-child(3-4) {
+      &:nth-child(3-5) {
         background-color: $other-blue;
       }
     }
@@ -747,7 +747,8 @@ main {
         background-color: $navy !important;
       }
       &:nth-child(3),
-      &:nth-child(4) {
+      &:nth-child(4),
+      &:nth-child(5) {
         background-color: $other-blue;
       }
     }
@@ -765,7 +766,8 @@ main {
         background: $medium-blue;
       }
       &:nth-child(3),
-      &:nth-child(4) {
+      &:nth-child(4),
+      &:nth-child(5) {
         background: $lighter-blue;
       }
     }

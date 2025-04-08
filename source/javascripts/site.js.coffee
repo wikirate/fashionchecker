@@ -126,7 +126,7 @@ countryListUrl = FC.apiSwitch "/content/country_list.json",
 
 gapAsPercentUrl = (country) -> 
   FC.apiSwitch "/content/#{country}.json",
-    FC.apiUrl "~#{FC.metrics.gap_as_percent}+Answer",
+    FC.apiUrl "~#{FC.metrics.suppliersMap.gap}+Answer",
         limit: 0
         filter:
           country: country
@@ -195,8 +195,6 @@ $(document).ready ->
   if params.has "q"
     FC.loadBrand params.get("q"), params.get("year")
   else
+    FC.loadLivingWage() if $("#living-wage-percentage")[0];
+    FC.loadCountries() if $("#wage_gap_per_country")[0];
     brandsTable()
-
-  # Load the living wage percentage
-  FC.loadLivingWage();
-  FC.loadCountries();
