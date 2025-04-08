@@ -58,18 +58,18 @@ es:
     action_plan_score_3: >
       Esta marca tiene un plan disponible y publicado sobre la forma de lograr un salario digno para todas las trabajadoras/es
       de su cadena de suministro, incluyendo pasos concretos en un marco de tiempo específico.
-    isolating_labor_info: Does this brand use an established method to calculate labour costs and separate them from other production costs to ensure suppliers can pay workers?
-    isolating_labor_score_1: >
+    freedom_of_association_n_bargaining_info: Does this brand use an established method to calculate labour costs and separate them from other production costs to ensure suppliers can pay workers?
+    freedom_of_association_n_bargaining_score_1: >
       All brands pay prices to suppliers which cover production,
       shipping and labour costs. This brand makes no effort to ensure labour costs are properly covered.
-    isolating_labor_score_2: >
+    freedom_of_association_n_bargaining_score_2: >
       Parcialmente
-    isolating_labor_score_3: >
+    freedom_of_association_n_bargaining_score_3: >
       Todas las marcas pagan precios a los proveedores que cubren los costos de producción, envío y mano de obra.
       Las marcas deben asegurarse de que los costos de mano de obra estén cubiertos adecuadamente mediante
       el uso de un método establecido para calcularlos, separando estos costos de otros.
 
-    isolating_labor: "¿costos laborales separados?"
+    freedom_of_association_n_bargaining: "¿costos laborales separados?"
     desc:
       score_1: "This brand isn't doing enough to move towards Living Wages
         in its supply chain."

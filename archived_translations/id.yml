@@ -1,0 +1,759 @@
+id:
+  header_question_1: "Apakah orang yang membuat pakaianmu"
+  header_question_2: "dibayar cukup <br>untuk bertahan hidup?"
+  find_out: "Cari tahu brand pakaian dan alas kaki yang mana yang membayar buruhnya dengan upah layak."
+  living_wages: "Upah layak"
+  not_poverty_wages: "Bukan upah murah"
+  living_wages_info: >
+    Mayoritas buruh garmen tidak mampu memenuhi kebutuhan dasar hidupnya.
+    Upah yang adil untuk tenaga buruh adalah hak asasi manusia yang fundamental,
+    tetapi tidak ada brand fesyen besar yang membayar upah buruh garmen dengan upah yang dapat membuat mereka hidup dengan baik.
+  read_more_living_wages: "Baca lebih lanjut tentang upah layak"
+  difference_question: >
+    Apa bedanya mendapatkan upah layak dengan upah minimum?
+  end: "Akhir"
+  gendered_pay: "Upah berdasarkan gender"
+  gendered_pay_info: >
+    80% buruh garmen adalah perempuan. Mereka secara rutin dibayar lebih rendah dari  buruh laki-laki.
+    Ketimpangan berbasis gender berakar secara mendalam pada ketimpangan kekuasaan di dalam industri ini,
+    dan upah berdasarkan gender memiliki hubungan langsung dengan kekerasan verbal, fisik, dan seksual.
+  gender: "Baca lebih lanjut tentang Gender"
+  resilience: "Ketahanan"
+  in_the_face_of_a_crisis: "Dalam menghadapi krisis"
+  our_demands: "Tuntutan kami"
+  resilience_info: >
+    Para pemilik merk diuntungkan dari upah murah selama berpuluh tahun, membiarkan buruh garmen tanpa jaring pengaman melalui masa-masa sulit. Krisis COVID-19 menunjukkan ketimpangan sosial dan ekonomi industri garmen, terutama yang mempengaruhi jutaan orang yang terjebak dalam pekerjaan tanpa perlindungan hukum.
+  your_voice_has_power: "Suaramu memiliki kekuatan"
+  take_action: "Mari Bertindak"
+  your_voice_info_1: >
+    Dukunganmu membuat kami bisa melakukan pekerjaan kami.
+    Inilah waktunya Brand bertanggung jawab atas
+    kehidupan orang-orang yang membuat pakaian kita.
+    Sebagai konsumen, kita memiliki kekuatan. Ketika kita berbicara,
+    brand akan mendengarkan. Mintalah brand untuk membayar
+  your_voice_info_2: >
+    untuk memastikan bahwa pakaian yang kalian beli tidak dibuat dengan cara
+    mengeksploitasi.
+
+  revenue: "Pendapatan"
+  profit: "Profit"
+  top_3_production_countries: "3 negara produsen terbesar"
+  brands_owned_by: "Merek dimiliki oleh"
+  headquarters: "Kantor Pusat"
+  owned_by: "Dimiliki oleh:"
+  search_for_brand: "Cari Brand"
+  interested_in_more_information: "Tertarik dengan informasi lebih lanjut?"
+  check_out: "Cari tahu"
+  see_company_profile: "Lihat profil perusahaan"
+
+  commitment_score:
+    title: "Skor komitmen"
+    public_commitment: "komitmen publik?"
+    public_commitment_info: Has this brand made a public commitment to pay all workers in its supply chain a living wage sufficient to support themselves and their dependents?
+    public_commitment_score_1: >
+      Tidak ada bukti yang ditemukan bahwa brand ini telah membuat komitmen untuk mengupayakan upah layak bagi semua buruh di rantai pasoknya.
+    public_commitment_score_2: >
+      Brand ini telah membuat komitmen publik untuk membayar “upah layak”.
+      Namun, definisi brand tidak memenuhi semua kriteria,
+      misalnya upah yang diberikan tidak cukup untuk menghidupi keluarga buruh.
+    public_commitment_score_3: >
+      Brand ini telah membuat komitmen publik untuk mengupayakan upah layak bagi semua buruh di rantai pasoknya.
+    action_plan: "rencana aksi?"
+    action_plan_info: Does this brand have a publicly available plan for achieving a living wage for all workers in their supply chain, including concrete steps within a specific time frame?
+    action_plan_score_1: >
+      Tidak ada bukti yang ditemukan bahwa brand ini memiliki rencana aksi dalam kurun waktu tertentu yang bersifat publik untuk meningkatkan upah murah di sepanjang rantai pasoknya.
+    action_plan_score_2: >
+      Brand ini mungkin memiliki rencana yang tidak terikat waktu, hanya tentang pabrik di tier 1 saja,
+      atau tidak jelas tentang hal-hal yang spesifik (bukan SMART).
+    action_plan_score_3: >
+      Brand ini sudah memiliki rencana yang tersedia secara publik untuk membayarkan upah layak bagi seluruh buruh di rantai pasoknya, termasuk langkah-langkah konkrit dalam jangka waktu yang jelas.
+    freedom_of_association_n_bargaining_score_1: >
+      Tidak ada bukti yang ditemukan bahwa brand ini memastikan biaya tenaga kerja dihitung dengan benar dengan menggunakan metode yang jelas yang memisahkan biaya ini dari biaya yang lain.
+      Semua brand harus membayar pemasok dengan harga mencukupi untuk membuat pemasok bisa membayarkan upah layak dan iuran perlindungan sosial.
+    freedom_of_association_n_bargaining_info: Does this brand use an established method to calculate labour costs and separate them from other production costs to ensure suppliers can pay workers?
+    freedom_of_association_n_bargaining_score_2: >
+      Partial
+    freedom_of_association_n_bargaining_score_3: >
+      Brand perlu memastikan bahwa upah buruh dihitung dengan benar dengan menggunakan metode yang jelas  untuk menghitungnya, memisahkan biaya ini dari biaya yang lain.
+
+    freedom_of_association_n_bargaining: "memisahkan biaya tenaga kerja?"
+    desc:
+      score_1: "Brand ini tidak melakukan apa-apa untuk mewujudkan upah layak dalam rantai pasoknya.."
+      score_2: "Teks untuk skor 2"
+      score_3: "Teks untuk skor 3"
+
+  living_wage_score:
+    title: "Upah Layak Dibayarkan"
+    title_info: Does this brand use an established method to set a living wage and does it monitor if workers are paid that?
+    desc_1:
+      score_5: >
+        100% pabrik di dalam rantai pasok brand membayar buruhnya dengan upah layak.
+        Informasi ini bersifat publik.
+      score_4: >
+        Lebih dari 50% pabrik di dalam rantai pasokan brand membayar buruh dengan upah layak.
+        Informasi ini bersifat publik..
+      score_3: >
+        Antara 26% sampai 50% pabrik dalam rantai pasokan brand membayar buruh dengan upah layak.
+        Ini adalah informasi publik.
+      score_2: >
+        Perusahaan mengklaim bahwa mereka memulai berkontribusi terhadap upah layak dengan membayar harga yang lebih tinggi
+        kepada pabrik-pabrik di dalam rantai pasoknya tetapi harga yang dibayarkannya masih belum menutupi biaya tenaga kerja.
+      score_1: >
+        Perusahaan mengklaim bahwa mereka telah mulai berkontribusi
+        terhadap upah layak dengan membayar biaya lebih tinggi ke semua pabrik di dalam rantai pasoknya.
+    desc_2:
+      score_5: >
+        Buruh yang membuat pakaian mereka dibayar cukup untuk hidup.
+      score_4: >
+        Sebagian buruh yang membuat pakaian mereka tidak dibayar dengan cukup untuk hidup.
+      score_3: >
+        Sebagian besar buruh yang membuat pakaian tidak dibayar dengan cukup untuk hidup (setidaknya setengah)
+      score_2: >
+        Mayoritas buruh di dalam rantai pasok brand tidak dibayar dengan cukup untuk hidup.
+      score_1: >
+        Buruh yang membuat pakaian mereka tidak dibayar dengan cukup untuk hidup.
+
+  transparency_score:
+    title: "Transparansi Rantai Pasok"
+    title_info: Does this brand provide abundant, practically structured information on the factories and garment workers in its supply chain as required by the transparency pledge?
+    read_more: "Baca lebih lanjut"
+    about_why_transparency_is_important: "tentang mengapa transparansi itu penting"
+    about_how_this_score_was_calculated: "tentang bagaimana skor ini dihitung"
+    what_does_this_mean: "Apa artinya ini?"
+    desc:
+      score_1: "Brand ini tidak menyediakan informasi tentang pabrik dan buruh garmen di dalam rantai pasoknya yang disyaratkan oleh Janji transparansi"
+      score_2: "Brand ini menyediakan sedikit informasi, tetapi tidak mecukupi tentang pabrik dan buruh garmen di dalam rantai pasoknya, contohnya; nama-nama pabrik tetapi tidak ada alamatnya"
+      score_3: "Brand ini menyediakan informasi dasar seperti nama dan alamat pabrik, jenis produk, jumlah buruh, dan group pemasok, jika pabrik adalah bagian dari entitas yang lebih besar"
+      score_4: "Brand ini menyediakan informasi dasar dalam format yang praktis dan dapat dibaca oleh mesin seperti Excel spreadsheets yang membuat datanya bisa digunakan oleh pihak lain."
+      score_5: "Brand ini menyediakan informasi yang melampaui informasi dasar dalam format yang praktis dan dapat dibaca oleh mesin seperti Excel spreadsheet yang membuat datanya dapat digunakan oleh pihak lain."
+
+  suppliers_table:
+    explore_supply_chain: "Jelajahi rantai pasokan"
+    sourcing_from_factories: "Membeli dari berbagai pabrik"
+    found: "temukan"
+    number_of_workers: "jumlah buruh"
+    wage: "upah"
+    workers: "buruh"
+    company: "perusahaan"
+    female_male_other: "Perempuan/Laki-laki/lainnya"
+    #    permanent_temporary: "Tetap/Kontrak"
+    average: "Rata-rata"
+    average_info: Upah bersih rata-rata bulanan (dalam EUR yang setara dengan mata uang lokal) seperti yang tertera pada slip gaji buruh yang disurvei
+    gap: "Selisih"
+    gap_info: Perbedaan rata-rata setiap bulan antara upah minimum dan upah aktual yang dibayarkan (dalam EUR) untuk buruh yang disurvei di perusahaan / fasilitas
+    have_cba: "Memiliki PKB"
+    have_cba_info: Persentase buruh yang disurvei yang dicakup oleh PKB
+    know_brand: "Mengetahui brand"
+    know_brand_info: Persentase buruh yang disurvei yang mengetahui untuk brand apa produk yang dibuat di pabrik tempat mereka bekerja.
+    pregnancy_leave: "Cuti hamil"
+    pregnancy_leave_info:
+      Persentase buruh yang disurvei, yang pernah hamil, yang diberi
+      cuti hamil
+    paid: "actual wage"
+    not_paid: "wage gap"
+    #    permanent: permanent
+    #    temporary: temporary
+    migrant: migrant
+    nonmigrant: nonmigrant
+    male: male
+    female: female
+    other: other
+    gender: "Gender"
+    gender_info: Percentage of workers by gender.
+    contract: "Contract"
+    contract_info: Percentage of workers by contract status.
+
+  latest: "Berita"
+  news: "Terbaru"
+  footer_info: "adalah sebuah kampanye oleh Clean Clothes Campaign, yang didanai oleh Uni Eropa"
+  methodology_title: "Metodologi Penelitian Kami"
+  methodology_paragraph_1: >
+    Kami mengirimkan kuesioner kepada lebih dari 90 brand untuk memberikan kesempatan kepada mereka untuk menunjukkan usaha yang mereka lakukan untuk membayar upah layak kepada semua buruh dalam rantai pasok mereka dan untuk mengungkap lokasi produksi mereka (jika mereka belum melakukannya melalui Tranparency Pledge). Tekanan kami adalah pada mengekspresikan usaha brand-brand untuk membayar upah layak melalui data SMART yang dikumpulkan melalui penelitian dalam format yang transparan dan komprehensif kepada konsumen, buruh garmen dan pembuat kebijakan. Diharapkan, dalam jangka panjang, representasi brand di Fashion Checker akan menjadi komponen dalam proses uji kelayakan (due diligence) dan proses validasi CSR sebuah brand.
+
+  methodology_paragraph_2: >
+    Karena konteks yang menantang, termasuk keengganan buruh untuk berbicara dengan peneliti karena takut akan tindakan balasan, penelitian lapangan di tempat kerja pada awalnya hanya dilakukan di lima negara di mana akses ke buruh garmen mudah didapat; Indonesia, China, Kroasia, India dan Ukraina. Kami mengumpulkan slip gaji buruh, melakukan wawancara untuk menginterpretasikan informasi yang tertera di slip gaji, dipilah berdasarkan gender (misalnya tentang kesenjangan upah berdasarkan gender, tanggung jawab kerja, jam kerja, bonus, lembur). Kami kemudian mencocokkan upah ini dengan respon yang diberikan oleh brand tentang patokan upah layak mereka dan persentase pemasok yang dibayar menurut patokan ini. Kami akan menambahkan data dari lebih banyak negara seiring dengan berjalannya proyek ini.
+
+  methodology_paragraph_3A: "Kami bekerja dengan,"
+  methodology_paragraph_3B: >
+    seorang pakar data terbuka (open data), dalam pengumpulan dan konsolidasi informasi rantai pasok yang dirilis oleh brand. Kami juga menggunakan data yang dikumpulkan oleh
+  methodology_paragraph_3C: "dan"
+  methodology_paragraph_3D: >
+    antara lain. Database ini, beserta data dari mitra-mitra terpercaya yang memiliki pengalaman panjang memungkinkan berbagai bukti ini bisa tersedia untuk umum dan mudah digunakan. Kami menguji berbagai metode penyajian data dengan bantuan para ahli terutama tentang bagaimana kemungkinan data ini bisa digunakan.
+
+  gender_header_1: "Gender di dalam Industri Garmen"
+  gender_lead: >
+    Perempuan yang merupakan mayoritas di industri garmen inilah yang menunjukkan sifat industri ini yang sebenarnya.
+  gender_influences: >
+    Gender memengaruhi praktik-praktik ketenagakerjaan dalam berbagai cara: gagasan tentang pekerjaan yang dapat dilakukan oleh perempuan, bagaimana mereka harus melakukannya, upah mereka, hubungan mereka dengan pemberi kerja dan dengan hukum. Semua hal, mulai dari berapa upahnya dan seberapa cepat seorang buruh dibayar, sampai dengan persyaratan kerja, seperti tidak adanya kontrak kerja, tidak ada cuti sakit atau melahirkan, tidak ada hak untuk berorganisasi, atau tidak ada pensiun, sampai dengan cara seorang supervisor berbicara dengan atau menyentuh seorang buruh, sebagian diterangi oleh berbagai gagasan yang berbasis gender tentang apa yang bisa diterima dan tidak di masyarakat. Profil pabrik yang detail memperlihatkan bahwa di tingkat pabrik, buruh perempuan terkonsentrasi pada peran-peran bawahan, seperti operator mesin dan checker. Perempuan secara terus menerus dipekerjakan pada peran-peran dengan tingkat keterampilan yang rendah dan jarang mencapai posisi kepemimpinan di pabrik atau serikat mereka.
+  croatian_gender_quote: >
+    " Setiap pulang kerja, aku tidak bisa istirahat duduk barang sejenak sampai sore. Aku harus  memasak, mencuci pakaian, membantu anak-anak mengerjakan pekerjaan rumah ... Di malam hari aku sangat lelah. Aku selalu berusaha untuk tidak jatuh tersungkur sebelum waktunya tidur."
+  a_worker_from_croatia: "Seorang buruh dari Kroasia"
+  women_face_stress: >
+    Perempuan menghadapi stres yang disebabkan oleh ketiadaan jaminan atas pekerjaan, pelecehan verbal dan fisik, malnutrisi akibat upah rendah, kelelahan akibat kerja lembur paksa, dan ketidakberdayaan untuk berbuat sesuatu untuk mengubah praktik kerja dan lingkungan kerja yang berbahaya. Hak-hak perempuan juga dilanggar di luar tempat kerja. Hal itu tidak dapat diabaikan karena ia membentuk realitas tentang siapa itu buruh perempuan, baik di dalam ataupun di luar tempat kerja. Diskriminasi beban kerja ganda (produksi dan reproduksi), diskriminasi di masyarakat dan di rumah, diskriminasi di hadapan hukum (di dalam bentuk peraturan mengenai kepemilikan harta kekayaan, warisan, dll.), semua ini menjadi faktor penentu dalam menciptakan konteks di mana seorang perempuan hidup dan bekerja. Dia tidak melepaskan berbagai aspek realitasnya ini ketika memasuki tempat kerja. Semua ini menimbulkan efek yang pasti pada kesehatan perempuan dan anak-anaknya.
+  low_wages: "Upah rendah"
+  when_looking_at_the_garment_sector: >
+    Ketika melihat sektor garmen, pembagian kerjanya sangatlah berbasis gender: semakin jauh ke bawah rantai pasok, semakin prekariat pekerjaannya; semakin rendah upahnya,  semakin banyak buruh perempuannya. Pengusaha dapat mengambil keuntungan dari berbagai stereotipe budaya yang menggambarkan perempuan sebagai pasif, fleksibel, dan lebih kecil kemungkinan menentang manajemen. Perempuan biasanya dibayar lebih rendah dari pada laki-laki karena pendapatan mereka dipandang sebagai pelengkap bagi para pencari nafkah laki-laki. Namun kenyataannya, buruh perempuan sering kali adalah pencari nafkah tunggal bagi keluarganya. Bentuk ketidaksetaraan ini paling jelas terlihat pada perbedaan antara upah laki-laki dan perempuan, yang sering disebut sebagai 'kesenjangan upah berbasis gender'. Perempuan sering dibayar lebih rendah daripada laki-laki di industri pakaian, meskipun mereka melakukan pekerjaan yang sama.
+  since_women_are_mainly_employed: >
+    Karena perempuan lebih utama dipekerjakan pada berbagai posisi dengan upah yang dan daya yang lebih rendah, mereka lebih mungkin terpengaruh oleh kemiskinan. Kemiskinan pada akhirnya meningkatkan kemungkinan perempuan menjadi korban kekerasan dan pelecehan. Kekerasan dan pelecehan berbasis gender paling sering terjadi di industri-industri di mana perempuan diupah dengan rendah dan otoritas untuk mengambil keputusan yang rendah juga. Industri tekstil, dengan struktur rantai pasoknya, adalah salah satu industri yang secara struktural mendorong kekerasan dan pelecehan. Karena mayoritas buruhnya adalah perempuan, termasuk banyak perempuan muda dan migran, mayoritas buruh garmen juga tidak memiliki daya untuk memperbaiki situasi mereka. Mereka berada dalam relasi ketergantungan dengan atasan yang sebagian besar adalah laki-laki yang seringkali juga adalah pelaku pelecehan.
+
+  gender_based_violence: "Kekerasan berbasis gender"
+  gender_based_violence_is_both_a_cause: >
+    Kekerasan berbasis gender adalah penyebab sekaligus konsekuensi dari kemiskinan dan ketimpangan gender. KBG mencakup diskriminasi yang berbasis gender, seperti tiadanya akses terhadap cuti melahirkan dan perawatan anak, sampai pada kekerasan fisik seperti perkosaan atau pembunuhan. Sebuah laporan baru-baru ini tentang
+  found_that_76_of_all: >
+    menemukan bahwa 76% dari buruh yang diwawancarai pernah menghadapi suatu bentuk KGB di tempat kerja. Ketika melihat semua kasus KGB, pelecehan seksual merupakan bentuk kekerasan yang paling sering dialami buruh. Saat menganalisis kekerasan fisik, tamparan merupakan bentuk kekerasan fisik yang paling umum, dialami oleh 80% buruh. Buruh melaporkan bahwa ditampar oleh supervisor sangat umum terjadi ketika target produksi tinggi dan/atau tenggat waktunya mepet. Bentuk kekerasan paling umum lainnya adalah pemukulan (44%), menendang (42%) dan meninju (11%). Meskipun kekerasan dalam rumah tangga jelas merupakan salah satu bentuk kekerasan seksual yang paling umum yang dialami oleh perempuan, dari semua buruh yang diwawancarai ada 6% yang pernah mengalami pemerkosaan, dan yang cukup mengejukan adalah oleh atasan atau chief line mereka.
+  despite_its_prevalence_in_the_garment_sector: >
+    Terlepas dari betapa banyaknya kekerasan yang terjadi di sektor garmen, namun KGB tidak pernah muncul dalam audit pabrik karena format audit klasik tidak melibatkan buruh sampai tingkat yang memungkinkan mereka untuk berbicara tentang masalah sensitif seperti itu. Wawancara dengan buruh sering dilakukan di pabrik, kadang bahkan dengan kehadiran atasan laki-laki yang berpotensi menjadi pelaku KGB.
+  to_address_gender_based_violence_in_the_supply: >
+    Untuk mengatasi kekerasan berbasis gender dalam rantai pasok, brand perlu memahami dan mengakui peran mereka sendiri dalam dinamika yang mengarah pada kekerasan berbasis gender. Studi terbaru menunjukkan bahwa buyer semakin banyak menggunakan pengaruh mereka atas supplier untuk menuntut harga yang lebih rendah, tenggang waktu  yang lebih pendek untuk jumlah produksi yang lebih tinggi, dan perubahan pesanan yang tiba-tiba. Akibatnya, pemasok meningkatkan target produksi pekerja yang berujung pada peningkatan kekerasan dan pelecehan terhadap pekerja ketika target tidak terpenuhi.
+  this_is_confirmed_by_the_evidence: >
+    Hal ini dikonfirmasi dengan bukti dari Bangladesh: 64% responden dalam penelitian ini menyatakan bahwa mereka berada di bawah tekanan yang besar sekali untuk memproduksi produk garmen dan 35% dari mereka menyatakan bahwa mereka pernah mengalami kekerasan dari supervisor mereka karena alasan tersebut. Pemangku kepentingan lainnya di industri ini menemukan dinamika yang sama ketika menganalisis kekerasan dan pelecehan di pabrik garmen. Fair Wear Foundation menyatakan bahwa tekanan produksi - termasuk tekanan harga dan tekanan lead time - terkait dengan kekerasan dan pelecehan dalam beberapa cara: Contohnya, jam lembur malam hari dapat membuat buruh perempuan rentan terhadap serangan seksual, baik di dalam pabrik maupun dalam perjalanan pulang ke rumah. Supervisor yang ditekan oleh target produksi yang tinggi kemungkinan besar akan melakukan kekerasan terhadap buruh. Selain itu, jika bonus dikaitkan dengan output produksi, buruh akan lebih mudah ditekan untuk memberikan hadiah berbau seksual kepada supervisor sebagai imbalan untuk menyetujui target.
+  indian_gender_quote: >
+    "Kami dilecehkan secara verbal di tempat kerja. Seharusnya ada supervisor perempuan untuk buruh perempuan, dan kami membutuhkan upah yang lebih baik sehingga kami dapat mengurs anak-anak kami"
+  a_female_worker_from_india: "Seorang buruh di India"
+  when_you_are_living_pay_check_to_pay_check: >
+    Jika anda hidup bergantung pada upah semata, berhenti dari pekerjaan yang menghindarkan anda dari kelaparan bukanlah pilihan yang realistis. Terutama jika anda memiliki banyak anggota keluarga sehingg banyak mulut untuk diberi makan. Brand harus melakukan lebih banyak lagi untuk memastikan perempuan-perempuan di rantai pasoknya terlindung dari caci maki dan terus berusaha untuk mewujudkan upah layak bagi SEMUA buruh.
+
+  read_more_about: "Selanjutnya tentang"
+  who_are_we: "Siapa kita?"
+  menu_who_we_are: "Siapa kita"
+  menu_methodology: "Metodologi"
+  menu_gender: "Gender"
+  clean_clothes_campaign_is_a_global_network: >
+    Clean Clothes Campaign adalah jaringan global yang berdedikasi untuk memperbaiki kondisi buruh
+    dan membuat buruh di dalam industri garmen dan alas kaki global menjadi berdaya.
+
+  since_1989_ccc_has_worked_to_ensure: Sejak 1989, CCC bekerja untuk memastikan bahwa hak-hak dasar para pekerja dihormati. Kami memberi pendidikan kepada dan memobilisasi konsumen, melobi perusahaan dan pemerintah, dan menawarkan dukungan solidaritas langsung kepada para buruh saat mereka memperjuangkan hak-hak mereka dan menuntut kondisi kerja yang lebih baik.
+  as_a_grassroots_network_of_hundreds: >
+    Sebagai jaringan akar rumput yang terdiri dari ratusan organisasi dan serikat pekerja, baik di negara produsen garmen maupun di negara konsumen, kami dapat mengidentifikasi berbagai masalah dan mengembangkan berbagai strategi kampanye untuk mendukung para buruh dalam mencapai tujuan mereka. Kami juga bekerja sama dengan berbagai kelompok kampanye dan kelompok hak buruh.
+  all_workers_regardless_of_sex_age: >
+    Semua buruh, tanpa memandang jenis kelamin, usia, negara asal, status hukum, status atau lokasi pekerjaan, atau dasar lainnya, memiliki hak atas kondisi kerja yang baik dan aman, di mana mereka dapat menggunakan hak-hak dasar mereka untuk berserikat dan berunding secara bebas, dan diupah dengan layak, yang memungkinkan mereka untuk hidup bermartabat.
+  visit_site: "Kunjungi Laman"
+  transparency_header: "Transparansi"
+  knowing_where_your_clothes_are_made: >
+    Mengetahui di mana pakaiannya dibuat, dan siapa yang membuatnya, adalah langkah penting untuk memperbaiki kondisi kerja mereka.
+
+  transparency_in_production_supply_chains: >
+    Transparansi dalam rantai pasok produksi adalah langkah pertama menuju kondisi kerja yang lebih baik tetapi ia bukanlah solusi. Brand yang mengungkap data tentang pabrik-pabrik yang mereka gunakan tidaklah lebih baik dibandingkan dengan brand yang tidak melakukannya. Tidak berarti juga upah atau kondisi kerjanya lebih baik. Ini hanya membuat tanggung jawab atas pelanggaran hak-hak buruh sedikit lebih mudah untuk diketahui. Dengan mengetahui berbagai brand yang diproduksi di satu pabrik dapat membantu brand mau bekerja sama menemukan solusi bagi persoalaan hak-hak perburuhan.
+  transparency_needs_to_be_the_cornerstone: >
+    "Transparansi harus menjadi fondasi dari usaha brand untuk membangun rantai pasok yang bebas dari pelanggaran hak asasi manusia"
+  aruna_kashyap: >
+    Aruna Kashyap, Senior Women's Rights Counsel di Human Rights Watch
+  menu_transparency: "Transparansi"
+  in_2016_nine_labor_and_human: >
+    Pada tahun 2016, sembilan organisasi buruh dan hak asasi manusia membentuk sebuah
+  to_advocate_for_transparency: >
+    untuk mengadvokasi transparansi di dalam rantai pasok pakaian jadi dengan mengajak seluruh perusahaan produsen garmen dan alas kaki untuk menandatangani
+  coalition: "koalisi"
+  transparency_pledge: "Janji Transparansi"
+  the_pledge_is_based_on_existing: >
+    . Janji ini dibuat berdasarkan pada berbagai macam praktik industri yang positif yang sudah ada. Tujuannya adalah untuk membantu industri garmen mencapai suatu standar minimum yang disepakati bersama tentang pengungkapan rantai pasok dengan meminta perusahaan menerbitkan informasi yang terstandardisasi dan bermakna tentang seluruh pabrik di mana proses manufaktur di rantai pasoknya berada.
+  there_has_been_an: "Sudah ada suatu"
+  encouraging_increase: "peningkatan yang membanggakan"
+  in_how_transparent_fashion_brands_are_on: >
+    dalam hal seberapa transparannya brand fesyen mengungkap lokasi dan bagaimana pakaiannya diproduksi. Semakin banyak brand yang mengungkap lokasi produksi dan menandatangani
+  however_there_are_still_too_many_brands_that: "Namun, masih ada terlalu banyak brand yang"
+  refuse_to_do_so: "menolak melakukannya"
+  and_even_the_most_progressive_brands: >
+    , dan bahkan brand yang paling progresif pun masih tidak menunjukkan seluruh rantai pasoknya dan menyembunyikan kemandegan usaha mereka dalam meningkatkan upah di belakang janji-janji palsu alih-alih memberikan data yang bisa diverifikasi dan obyektif.
+  what_are_they_hiding: >
+    Mengapa mereka bersembunyi? Tidak satupun brand yang mempublikasikan informasi yang jelas tentang seberapa besar upah buruh, atau bahkan bagaimana (dan kapan!) mereka secara konkrit menjamin bahwa para pemasoknya bisa membayarkan upah layak. Ada banyak sekali ‘komitmen’  samar-samar, namun apa yang dibutuhkan buruh adalah langkah-langkah yang terikat waktu, dapat diukur, dapat dilaksanakan untuk memperbaiki situasi itu. Semakin ke bawah rantai pasok, semakin sedikit sampai tidak ada sam aseklai informasi tentang sub kontraktor, buruh rumahan, buruh yang memanen dan memmroses bahan mentah dan kainnya.
+  we_re_demanding_that_brands_do_better: >
+    Kami menuntut brand untuk melakukan yang lebih baik: untuk menunjukkan bahwa kalian betul-betul berusaha untuk mewujudkan upah layak, dan membuat informasi itu menjadi informasi publik. Kami juga menuntut para pembuat kebijakan untuk menciptakan lapangan bermain yang setara: setidaknya tingkat transparansi minimum haruslah menjadi kewajiban bagi semua brand, yang dengannya brand dapat mengembangkan lebih lanjut. Ini satu-satunya cara di mana perusahaan bisa melakukan uji tuntas (due diligence), dan dalam jangka panjang menjadi satu-satunya cara mereka bisa menjaga kepercayaan konsumen.
+  going_beyond_the_pledge: "Melampaui Janji"
+  since_the_birth_of_the_pledge: >
+    Sejak kelahiran Transparancy Pledge, transparansi rantai pasok di industri pakaian jadi  berkembang dengan pesat. Puluhan perusahaan sekarang mempublikasikan nama, alamat pabrik pemasok mereka dan detail lainnya. Tetapi ini hanyalah langkah awal. Brand-brand pakaian yang serius dengan rantai pasok etis dapat dan harus berbuat lebih banyk. Sejumlah kecil perusahaan sudah mulai mengungkap bagian dari rantai pasok mereka di luar tier-1 termasuk informasi tentang produksi bahan mentah. Tetapi Transparancy Pledge adalah batas bawah, bukan batas atas. Untuk mendorong kondisi yang dibutuhkan untuk perubahan di dalam industri garmen, brand harus mengumpulkan lebih banyak data tentang pabrik di rantai pasok mereka.
+  the_bottom_of_the_supply_chain: "Dasar paling bawah rantai pasok"
+  we_want_brands_to_ask_suppliers_where: >
+    Kami ingin brand bertanya kepada pemasok di mana perempuan dipekerjakan, di mana pekerja migrant, dan berapa upah paling rendah. Ini akan memberikan gambaran yang lebih jelas tentang ketimpangan kuasa di dalam rantai pasok mereka yang merupakan langkah pertama untuk membuat perbaikan.
+  worker_unions: "Serikat Buruh:"
+  we_want_brands_to_ask_suppliers_if: >
+    Kami ingin meminta brand untuk bertanya apakah pabrik-pabrik pemasoknya memiliki serikat atau komite pekerja. Seringkali kami tidak tahu sama sekali apakah orang-orang yang membuat pakaian kami memiliki suara. Kami ingin lebih banyak informasi tentang siapa yang memiliki kuasa di rantai pasok.
+  readable_data: "Data yang dapat dibaca"
+  we_want_brands_to_release_the_data: >
+    Kami ingin brand merilis data tentang rantai pasok mereka dalam format yang berguna dan dapat dibaca. Ini harus menjadi standard buntuk menyediakan informasi yang dapat dibaca oleh mesin di seluruh unit produksi dan fasilitas pemrosesan. Brand harus menyediakan data yang dapat diunduh.
+  transparency_for_the_consumer: "Transparansi bagi Konsumen"
+  we_want_governments_to_increase: >
+    Kami ingin pemerintah di berbagai negara meningkatan transparansi produk untuk membuat warga negaranya lebih berdaya untuk membuat pilihan belanjanya berdasarkan informasi yang mencukupi. Kami ingin meluaskan tipe informasi pada label produk-produk tekstil untuk memasukkan juga informasi pabrikan yang membuatnya. Kami juga ingin meningkatkan kriteria sosial dan keberlanjutan dari
+  eu_ecolabel: "Ecolabel UE"
+  to_reflect_wage_abuses: "untuk mefleksikan pencurian upah"
+  for_more_about_our: "Lebih banyak informasi tentang"
+  transparency_campaign: "kampanye transparansi kami"
+  csv_or_json_data: "Data CSV atau JSON"
+  learn_more: "Pelajari selanjutnya"
+  menu_living_wage: "Apa itu Upah Layak?"
+  what_is_a_living_wage: "Apa itu Upah Layak?"
+  a_living_wage_recognized_by_the_un_as_a_right: >
+    Upah layak, sebagaimana diakui oleh PBB adalah hak asasi manusia, adalah upah yang mencukupi untuk hidup dengan standar hidup yang layak bagi buruh dan keluarganya.
+  it_should_be_earned_in_a_standard_work_week: >
+    Upah layak harus didapatkan dengan bekerja selama satu minggu yang sesuai standar yang tidak lebih dari 48 jam, dan harus mencakup dan cukup untuk membeli makanan, air, perumahan, pendidikan, layanan kesehatan, transportasi, pakaian dan pendapatan yang bersifat diskresioner, termasuk tabungan dan simpanan untuk keperluan tak terduga.
+  why_the_minimum_wage_is_not_enough: "Mengapa upah minimum tidak mecukupi"
+  legal_minimum_wages_in_garment_producing: >
+    Upah minimum legal di negara-negara produsen garmen di seluruh dunia lebih rendah daripada upah layak, artinya buruh garmen tidak mampu bahkan memenuhi kebutuhan dasarnya sendir dan keluarga mereka. Jurang antara upah minimum legal dengan upah layak semakin besar. Di banyak negara, besaran upah minimum jauh di bawah upah layak. Di Asia, upah minimum berkisar dari 21% (Bangladesh) sampai 46% (Cina) dari upah layak (riset tahun 2019). Di negara-negara produsen di Eropa, kita melihat kadang-kadang jurang yang lebih lebar, dari 10% (Georgia) sampai 40% di Hungaria.
+  i_became_the_backbone: >
+    "Saya adalah tulang punggung keluarga, tetapi upah saya tidak cukup untuk memenuhi kebutuhan sehari-hari keluarga saya"
+  a_worker_from_indonesia: "seorang buruh dari Indonesia"
+  there_are_a_number_of_countries: >
+    Ada sejumlah negara yang tidak memiliki upah minimum sama sekali. Pemerintah negara-negara produsen tidak punya insentif untuk menaikkan upah minimum, takut bahwa upah minimum yang lebih tinggi akan membuat brand memindahkan order mereka ke negara-negara di mana upah buruhnya lebih rendah. Inilah realitas industri pakaian, yang berarti upah minimum tidak akan pernah naik ke level subsistensi (sejalan dengan kenaikan harga berbagai kebutuhan pokok). Selain itu: buruh seringkali tidak terwakili dengan adil atau bahkan tidak terwakili sama sekali dalam proses negosiasi upah minimum. Di banyak negara di mana garmen adalah penyumbang ekspor yang signifikan, upah minimum hanya naik secara bertahap untuk menyesuaikan salah satunya dengan inflasi. Berbagai kenaikan upah ini sudahlah terlambat dan tidak ada artinya: di Bangladesh, contohnya, buruh yang dibayar paling murah masih menerima upah hanya setengah dari apa yang mereka tuntut dan butuhkan.
+  living_wage_benchmarks: "Patokan Upah Layak"
+  calculating_a_living_wage_is_not_easy: >
+    Menghitung upah layak tidaklah mudah, meskipun bukan berarti tidak mungkin. Beberapa ahli, serikat, dan kelompok hak buruh telah mengembangkan patokan yang kredibel bagi satu atau berbagai negara atau wilayah. ible benchmarks for one or multiple countries or regions. Patokan upah layak yang kokoh haruslah:
+  transparent_in_method_and_conclusion: "Transparan dalam metode dan kesimpulan"
+  revised_on_a_regular_basis: >
+    Direvisi secara reguler untuk memastikan bahwa inflasi dan kenaikan harga kebutuhan pokok yang terus naik dimasukkan ke hitungan.
+  established_in_negotiation: >
+    Ditetapkan dalam negosiasi dengan serikat nasional ataupun regional agar tidak meningkatkan persaingan upah.
+  enough_to_cover_the_full_basic_needs: >
+    Cukup untuk memenuhi seluruh kebutuhan pokok keluarga, sebagai satu baseline, dan memungkinkan untuk menabung. Patokannya harus mencakup orang tua tunggal dan buruh yang tidak memiliki partner yang menghidupi dua orang keluarga lansia dengan satu upah.
+  a_living_wage_benchmark_should_put_a_floor: >
+    Patokan upah layak haruslah menjadi batas bawah dan bukan bukan batas atas upah. Patokan ini harus memfasilitasi perbaikan lebih dari menjamin pendapatan minimum bagi seluruh buruh.
+  savings_and_survival: "Tabungan dan Bertahan Hidup"
+  asia_floor_wage_alliance: >
+    Patokan upah layak Asia Floor Wage Alliance, Global Living Wage Coalition dan Wage Indicator Foundation adalah contoh patokan yang memenuhi kriteria ini.  Tangga Upah Fair Wear Foundation yang membandingkan beberapa patokan upah layak dengan upah minimum yang diatur undang-undang juga merupakan alat yang berguna.
+  sometimes_i_have_to_take_painkillers: >
+    "Kadang-kadang saya harus minum obat penghilang rasa sakit, dan saya harus memakai jel untuk nyeri otot dan sendi. Beberapa kali saya harus disuntik, karena otot kaku."
+  life_is_full_of_the_unexpected: >
+    Hidup penuh dengan hal-hal yang tidak kita duga. Mendapatkan upah seharusnya memberikan rasa aman bagi kita untuk megnhadapi hal-hal yang demikian. Fakta bahwa sebagian besar buruh di industri garmen dan pakaian olah raga tidak mendapatkan upah yang cukup untuk memenuhi kebutuhan hidup pokok berarti mereka tidak akan mampu bertahan hidup di masa-masa sulit. Covid-19 membuat semua ini menjadi semakin terlihat. Brand membatalkan order untuk menjaga arus kas mereka, membiarkan pabrik di rantai pasok mereka bukan hanya tak punya apa-apa untuk membayar upah buruh, namun juga tidak memiliki uang untuk menutup ongkos produksi lainnya. Banyak pabrik tutup, memecat ribuan buruh.
+  not_only_have_brands_been_refusing: >
+    Brand tidak hanya menolak membayar pesanan yang sudah mulai diproduksi, kadang-kadang bahkan pesanan yang sudah di toko, mereka juga menawari konsumen obral dan diskon, membuat siapapun yang berada di dasar rantai pasok tidak punya apa-apa. Kebanyakan buruh turun ke jalan melakukan protes atas upah yang tidak dibayarkan sejak Maret, atau mereka dipaksa untuk kembali bekerja tanpa upaya menjaga keselamatan. Karena mereka tidak punya uang mereka tidak punya pilihan. Buruh informal bahkan terdampak dengan lebih buruk. Organisasi Perburuhan Internasional (ILO) memperkirakan bahwa 1,6 milyar buruh di ekonomi informal menghadapi
+  massive_damage: "kerusakan yang masif"
+  to_their_livelihood: >
+    atas mata pencarian mereka setelah seluruh bisnisnya dihantam oleh berbagai larangan  yang berhubungan dengan Covid-19.
+  trade_unions_worry: >
+    "Serikat Buruh khawatir bahwa krisis Covid-19 akan mengarah pada lonjakan buruh anak, buruh terikat dan perdagangan manusia, dengan buruh garmen mulai berpindah ke pekerjaan lain termasuk pekerja seks."
+  the_emperor_has_no_clothes: >
+    Sang Kaisar tidak punya Pakaian: Rantai pasok garmen di masa pandemi oleh Asia Floor Wage Alliance.
+  all_actors_in_fashion_now_understand: >
+    Semua pelaku dunia fesyen sekarang memahami urgensi dan betapa pentingnya mengimajinasikan ulang industri dan model bisnisnya. Kita ingin upah layak berada di posisi paling depan dari percakapan ini. Inilah saatnya membangun kembali industri garmen dan pakaian olah raga untuk memastikan upah yang adil bagi buruh dan jaminan pekerjaan di sepanjang rantai pasok.
+  for_more_information_on: "Untuk informasi lebih lanjut tentang"
+  covid_19: "Covid-19"
+  brand_responsibility: "Tanggung Jawab Brand"
+  brands_put_forward_all_kinds_of_excuses: >
+    Brand mengedepankan berbagai jenis alasan untuk tidak berkomitmen pada upah layak: bahwa ini adalah tanggung jawab para pemasok atau pemerintah, bahwa tidak mungkin untuk membayarkannya karena akan membuat mereka rugi dan tidak mampu bersaing di pasar, bahwa konsumen tidak mau membayar lebih, bahwa tidak ada konsensus tentang bagaimana menghitungnya, dll. Tetapi meskipun produksi bisa dialihdayakan, tanggung jawab untuk menghormati hak asasi manusia dan membayar upah layak tetap berapa di tangan brand.
+  the: "Prinsip"
+  un_guiding_principles_on_business_and_human_rights: "Prinsip Panduan Bisnis dan Hak Asasi Manusia PBB"
+  un_guiding_principles_clearly_states: >
+    (Prinsip-prinsip Panduain PBB), jelas menyatakan peran dan tanggung jawab bisnis dan (pemerintah) negara-negara
+  the_un_guiding_principles_three_pillars: "Prinsip Panduan Bisnis dan Hak asasi Manusia PBB berdasarkan pada tiga pilar."
+  the_state_duty_to_protect_human_rights: "Tugas Negara untuk melindungi hak asasi manusia"
+  the_corporate_responsibility_to_respect_human_righ: "Tanggung Jawab korporat untuk menghormati hak asasi manusia"
+  access_to_remedy: "Akses terhadap perbaikan"
+  this_establishes_a_principle_of_shared_responsibil: >
+    Panduan ini menetapkan suatu prinsip tentang tanggung jawab bersama antara negara dengan bisnis, artinya pemerintah memiliki kewajiban untuk melindungi hak asasi manusia atas upah layak di tingkat subsistensi, dan bisnis harus menghormati hak asasi manusia untuk mendapatkan upah yang layak yang sesuai.
+  the_framework_also_clearly_states_that: >
+    Kerangka ini juga dengan jelas menyatakan bahwa tanggung jawab untuk menghormati hak asasi manusia “berada di luar kemampuan dan/atau kemauan negara untuk memenuhi kewajiban hak asasinya sendiri, dan tidak mengecilkan kewajiban itu. Dan kerangka ini berada di atas dan di luar kepatuhan pada hukum dan peraturan nasional yang melindungi hak asasi manusia.” Dengan kata lain, di kasus-kasus di mana pemerintah gagal melindungi hak asasi manusia – seperti ketika upah minimum gagal memenuhi tingkat subsitensi mininum (yaitu upah layak) – bisnis tetap memiliki kewajiban untuk menghormati hak asasi manusia atas upah layak dengan memperbaiki kegagalan negara.
+  the_workers_wages_have_been_regularly_delayed: >
+    "Upah buruh seringkali diundur selama sebulan atau dua bulan sejak awal 2019. Kita mengajukan komplain dan mereka membayar, tetatpi tidak bulan ini. Direktur pabrik mengatakan bahwa ini disebabkan oleh salah satu perusahaan yang tidak membayar. Tetapi kami sudah mengerjakan pekerjaan kami."
+  a_worker_from_ukraine: "seorang buruh dari Ukraina"
+  the_un_guiding_principles_establish: >
+    Prinsip-Panduan Bisnis dan HAM menetapkan berbagai tanggung jawab rantai pasok. Negara produsen manapun bertanggung jawab atas berbagai dampak hak asasi manusia di sepanjang rantai pasoknya, terlepas dari di mana pelanggaran hak asasi manusianya terjadi (yaitu di pabrik mereka sendiri, dengan pabrik subkontraktor, atau dengan pekerja rumahan). Maka meskipun produksi garmen dialihdayakan, tanggung jawab tetap berada di tangan setiap korporasi dan tidak boleh didelegasikan dan dialihdayakan ke entitas lain di rantai pasok.
+  why_do_we_talk_about_paying_factories_not_workers: "Mengapa kita membicarakan tentang membayar pabrik dan bukannya buruh?"
+  brands_do_not_pay_workers_directly: >
+    Brand tidak membayar buruh secara langsung. Mereka membayar para pemasoknya, yang kemudian membayar buruh garmen. Suatu rantai pasok biasanya terdiri dari tiga tier perusahaan pemasok. Perusahaan pemasok di tier 1 biasanya dibayar secara langsung oleh brand untuk suatu kontrak produksi. Para perusahaan di tier 1 ini akan mengalihdayakan pekerjaan kepada para pemasoknya.
+  on_their_current_wages_garment_workers: >
+    Dengan upah mereka saat ini, buruh garmen seringkali harus membuat keputusan sulit dalam hal layanan kesehatan dan pendidikan anak-anak mereka. Adalah hal yang biasa bagi buruh untuk jatuh pingsan karena kekurangan nutrisi karena mereka seringkali tidak mendapatkan penghasilan yang mencukupi bahkan untuk makan mereka sendiri dan untuk makan keluarganya. Hal yang menambah stress adalah tagihan listrik-air dan pinjaman dan kurang tidur yang dikarenakan oleh jam kerja panjang yang tidak manusiawi yang memiliki dampak jangka panjang terhadap kesehatan bagi jutaan buruh. Sebagian besar akan harus membuat pilihan antara makan atau pergi ke dokter.
+  suppliers_are_forced_to_estimate_the_lowest: >
+    Para pemasok dipaksa untuk menghitung biaya produksi per item terendah untuk bisa melakukan tawar menawar dengan brand agar bisa mendapatkan kontrak produksi. Harga ini seharusnya mencukupi untuk berbagai ongkos menjalankan pabrik, termasuk sewa, listrik, air dan pemeliharaan, biaya pembelian material, pengiriman dan keuntungan bagi pabrik dan membayar ongkos buruh. Untuk bersaing dengan sesama perusahaan di tier 1, para pemasok memproyeksikan ongkos buruhnya berdasarkan upah minimum, dan bukannya upah layak; dan sepuluh jam kerja sehari, termasuk dua jam lembur alih-alih delapan jam kerja.
+  my_job_is_exhausting: >
+    "Pekerjaan saya sangat melelahkan. Setiap hari saya harus bekerja selama 18 jam. Banyak buruh yang tidak mencapai target yang dibuat pabrik dipecat."
+
+  current_purchasing_practices_reflect_the_rise_of_f: >
+    Praktik pembeian yang ada sekarang ini mencerminkan kebangkitan “fast fashion”. Di mana dulunya biasanya brand mengeluarkan empat style setiap musim dalam satu tahun, Zara memulai perubahan menjadi satu style setiap bulan. Sebagian besar merk terkenal memproduksi 52 ‘musim pendek” setiap tahunnya. Merek juga tiba-tiba memesan dua kali lebih banyak untuk barang yang paling laku. Pergantian produk yang sering ini, bersamaan dengan jumlah pesanan yang tidak tentu menghasilkan model industri yang ada saat ini. Ketidakpastian yang disebabkan oleh praktik pembelian buyer ini kemudian ditimpakan kepada buruh melalui penggunaan buruh kontrak yang sangat fleksibel,  tidak ada pekerjaan selama fluktuasi produksi dan tekanan untuk menekan upah agar terus murah.
+  my_factory_doesn_t_give_me_a_pay_slip: >
+    “Pabrik tempat saya bekerja tidak memberi slip gaji. Kami bekerja keras membuat gaun ini. Kami bekerja paling sedikit 12 jam dan bisa terus sampai 24 jam selama musim-musim ramai.”
+  a_worker_from_india: "seorang buruh dari India"
+  brands_need_to_take_responsibility_to_modify: >
+    Brands harus mengambil tanggung jawab untuk memodifikasi praktik pembelian mereka untuk memastikan para pemasoknya bisa membayar upah buruhnya. Kami akan terus bekerja dengan berbagai organisasi dan serikat buruh untuk memastikan perubahan ini terjadi.
+  unions_and_worker_committees: "Serikat dan Komite Buruh"
+  workers_have_little_to_no_power_to_fight: >
+    Buruh tidak sama sekali atau hanya sedikit memiliki kekuatan untuk memperjuangkan upah yang lebih baik. Kebebasan Berserikat dan Berkumpul berada di bawah tekanan yang sangat besar dan memberangus serikat yang memperjuangkan kenaikan upah adalah hal yang biasa kita dengar di banyak negara produsen garmen. Memang sudah terjadi peningkatan yang luar biasa dalam hal jumlah komite buruh yang didirikan yang setingkat dengan serikat tingkat pabrik selama beberapa tahun terakhir. Hal ini menciptakan kesan palsu bahwa buruh sekarang ini sudah terorganisir dan kuat. Brand seringkali mengklaim bahwa komite buruh dan serikat buruh adalah hal yang pada dasarnya sama, mungkin saja benar tapi hanya persentase sangat kecil saja.
+  trucks_are_constantly_leaving: >
+    "Truk terus menerus keluar mengangkut produk, produknya sudah terjual, dan masih banyak pekerjaan, tapi mereka selalu bilang bahwa mereka tidak punya uang. Kontrak saya diperpanjang setiap tiga bulan. Saya tidak punya jaminan kerja."
+
+  a_worker_in_croatia: "Seorang buruh di Kroasia"
+  instead_of_promoting_fair_worker_representation: >
+    Alih-alih medorong perwakilan buruh yang adil di tingkat pabrik, seringkali lebih menarik bagi brand, perusahaan pemasok, dan pemerintah lokal untuk mendorong struktur alternatif yang memberikan buruh kekuatan yang teramat sangat lemah. Komite buruh seringkali melibatkan manajemen pabrik, yang menghancurkan hak-hak buruh garmen untuk berorganisasi dengan bebas tanpa campur tangan pemerintah maupun pemberi kerja. Selain itu, di beberapa negara, seperti Bangladesh, komite buruh tidak diperbolehkan – oleh hukum – menegosiasikan upah, sementara, serikat buruh diperbolehkan. Pada akhirnya, ini berarti bahwa harga yang harus dibayarkan oleh brand untuk produksinya terjamin.
+  we_are_never_allowed_to_go_home: >
+    "Kami tidak pernah boleh pulang sebelum targetnya tercapai."
+  we_want_brands_to_do_more_to_support: >
+    Kami ingin brand melakukan lebih banyak hal untuk mendukung buruh di rantai pasoknya. Mengumpulkan data tentang serikat dan komite buruh yang akan memberikan gambar yang lebih jelas tentang berbagai sebab dan akibat dari pelanggaran hak asasi manusia di produksi garmen dan pakaian olah raga.
+  foa: "Kebebasan Berserikat"
+  i_have_problems_with_my_stomach: >
+    "Ada masalah dengan perut saya. Saya harus dioperasi karena kurang gizi, dan sekarang saya harus menjaga pola makan saya. Tapi saya tidak mampu membeli makanan yang berkualitas. Roti pastri yang mereka berikan kepada kami dibuat dari tepung sisa."
+  women_can_be_made_to_dance: >
+    "Perempuan bisa disuruh melakukan apa saja, bahkan berdansa seperti boneka tetapi laki-laki tidak bisa diperlakukan dengan cara yang sama. Para pemilik tidak peduli ketika kami meminta sesuatu, tetapi tuntutan yang diajukan oleh laki-laki harus selalu diperhatikan. Oleh karena itu mereka tidak mempekerjakan laki-laki."
+  a_worker_from_bangladesh: "Seorang buruh dari Bangladesh"
+  gbv_in_bangladesh: "KGB di Bangladesh"
+  about_fashion_checker: "Tentang Fashion Checker"
+  about_the_campaign: "Tentang kampanye ini"
+  a_living_wage_for_garment_workers: >
+    Upah layak bagi buruh garmen dan rantai pasok yang transparan,
+  menu_about_fashion_checker: "About Fashion Checker"
+  about: "Tentang"
+  brands_in_the_fashion_industry_put_millions: >
+    Brand di industri fesyen membayar jutaan dolar untuk mengiklankan diri mereka sebagai perusahaan yang mematuhi etik dan berkelanjutan, membuat banyak klaim tentang mereka yang membayarkan upah layak. Fashion checker menunjukkan seberapa banyak kebenaran yang terkandung di dalamnya, memberikan konsumen dan buruh garmen akses terhadap data riil dari rantai pasok berbagai brand terbesar di dunia.
+
+  power_in_the_garment_industry: "Kekuatan di Industri Garmen"
+  we_believe_all_workers_in_a_supply: >
+    Kami percaya seluruh buruh di rantai pasok memiliki hak atas upah yang adil. Buruh yang membuat produk bagi pasar garmen dan pakaian olah raga selalu dibayar dengan
+  poverty_wages: "upah murah"
+  since_the_birth_of_the_industry_our_research_shows: "sejak lahirnya industri ini. Riset kami menunjukkan"
+  no_major_clothing_brand: "tidak satupun brand pakaian besar"
+  is_able_to_prove_that_workers_making_their_clothin: >
+    yang mampu membuktikan bahwa buruh yang membuat pakaian mereka di Asia, Afrika, Amerika Tengah ataupun Eropa Timur dibayar dengan cukup untuk bisa hidup.
+  an_estimated_60_million_workers: >
+    Diperkirakan 60 juta buruh menjalankan roda industri garmen, menciptakan milyaran dollar keuntungan. Sebagian besar bekerja sangat lama dan bahkan memiliki beberapa pekerjaan untuk bisa memenuhi kebutuhan sehari-hari. Sekitar 80% buruh adalah perempuan. Ini bukanlah kebetulan. Buruh yang menerima upah yang sangat rendah itu tidak memiliki kemampuan sama sekali untuk memperjuangkan hak-hak mereka dan oleh karena itulah mereka tetap mendapatkan upah yang sangat kecil dalam pekerjaan yang sangat eksplotiatif. Ini adalah ketimpangan kekuasaan yang sangat sistematis yang dipasang di industri ini.
+
+  earning_a_living_wage: "Mendapatkan Upah Layak"
+  demanding_a_wage_you_can_live_on: >
+    Menuntut upah yang bisa membuat kita hidup seharusnya bukanlah hal yang kontroversial. Kami meminta
+
+  living_wage_now: "wujudkan upah layak sekarang"
+  in_2015_it_s_five_years_later: >
+    pada tahun 2015. Sudah lima tahun sejak itu dan belum ada kemajuan sama sekali. Maka, inilah saatnya untuk menciptakan perubahan. Inilah waktunya mengatasi berbagai sebab sistemik dari upah murah di industri garmen dan alas kaki, dan memaksa brand untuk memberikan tanggung jawab mereka.
+  for_decades_brands_and_retailers_have_built: >
+    Selama beberapa dekade, brand dan para pedagang retail menumpuk keuntungan di atas harga murah yang mereka bayarkan. Kelebihan pasokan pakaian secara global yang diciptakan oleh fast fashion memberikan brand kekuatan untuk mendorong para pemasoknya untuk setuju untuk memproduksi pakaian dan alas kaki dengan harga semurah mungkin. Harga yang dibayarkan oleh brand kepada para pemasoknya seharusnya cukup untuk menutup biaya operasional pabrik, membeli material untuk produksi, mengirimkan produk, membayar upah buruh, dan keuntungan untuk pabrik. Upah buruh biasanya menjadi biaya yang paling mudah untuk dikurangi.
+  gender_in_the_garment_industry: "Gender di Industri Garmen"
+  a_lot_of_informal_work_is_done_by_women: >
+    Banyak pekerjaan informal dilakukan oleh perempuan, baik itu di usaha wiraswasta ataupun perusahaan sub kontrak. Upah mereka jauh lebih kecil. Kesenjangan upah berdasarkan gender adalah salah satu ketidakadilan sosial yang paling buruk saat ini. Kemajuan menuju upah yang setara mendapatkan momentum di seluruh perekonomian global, namun kita menyaksikan ketimpangan yang mengerikan di pabrik pakaian dan alas kaki.
+  inside_factories_women_are_mainly_employed: >
+    Di dalam pabrik perempuan dipekerjakan di posisi-posisi yang berupah rendah tanpa daya. Ketidakseimbangan daya berbasis gender di dalam pabrik berakar pada ketimpangan antara laki-laki dengan perempuan di sebagian besar negara-negara produsen garmen. Semakin jauh rantai pasok, semakin buruk kondisi kerjanya; upahnya semakin rendah, dan semakin besar jumlah buruh perempuannya.
+  transparency_in_fashion: "Transparansi dalam Fesyen"
+  there_has_been_an_encouraging_increase_in_how: >
+    Sudah ada peningkatan yang baik dalam hal bagaimana brand fesyen menjadi transparan tentang di mana dan bagaimana pakaian mereka dibuat. Semakin banyak brand yang mengungkap lokasi produksi dan menandatangani Transparency Pledge. Namun, masih ada banyak sekali brand yang menolak melakukannya, dan bahkan brand yang paling progresif pun tidak mengungkap seluruh rantai pasoknya dan menyembunyikan betapa lambatnya kemajuan dalam memperbaiki pengupahan di belakang janji palsu dan bukannya data yang bisa diverifikasi dan objektif.
+  putting_a_spotlight_on_the_supply_chain: "Menyoroti Rantai Pasok"
+  our_main_focus_is_wages_and_transparency: >
+    Fokus kami adalah upah dan transparansi. Mengecek upah buruh saat ini adalah satu-satunya cara yang paling bisa diandalkan untuk mengetahui apakah brand membayar pabrik-pabrik di rantai pasoknya dengan cukup untuk bisa menjalankan usaha dengan aman dan adil. Brand secara sistematis membayar produksi mereka terlalu rendah yang memaksa pabrik-pabrik itu membuat keputusan yang sulit. Jika suatu pabrik tidak dibayar dengan mencukupi maka ia akan memotong upah buruhnya untuk menutupi pengeluaran yang lain. Upah dan keselamatan buruh berada pada prioritas paling rendah karena akan selalu ada orang yang membutuhkan pekerjaan.
+  brands_are_obligated_by_the: "Brand diwajibkan oleh"
+  to_run_their_business_responsibly: >
+    untuk menjalankan bisnisnya dengan cara yang penuh tanggung jawab. Menerima upah yang dengannya kita bisa hidup dengan nyaman dengan bekerja selama 48 jam seminggu adalah hak asasi manusia yang fundamental. Ini berarti bahwa brand harus bisa membuktikan bahwa para pemasoknya dibayar dengan cukup agar bisa membayar upah buruhnya. Sebagaian besar brand bahkan tidak menghitung berapa buruh di rantai pasoknya harus dibayar untuk bisa hidup dengan layak. Pemerintah dengan sengaja menekan upah minimum untuk tetap rendah untuk mendorong brand-brand asing memproduksi di negara mereka. Dan para pemasok dengan sengaja mengalihdayakan produksi kepada buruh yang tidak formal untuk mengurangi biaya produksi sampai serendah-rendahnya.
+  what_are_they_hiding_no_brand: >
+    Apa yang mereka sembunyikan? Tak satupun brand yang mempublikasikan informasi yang jelas tentang berapa upah buruhnya, atau bahkan tentang bagaimana mereka bisa secara konkrit memastikan bahwa para pemasok mereka membayar buruhnya dengan upah yang layak. Semakin jauh di rantai pasok semakin sedikit bahkan tidak ada sama sekali informasi yang mencukupi. Para subkontraktor, buruh rumahan, buruh yang memanen dan memroses bahan mentah dan kain sama sekali berada dalam kegelapan.
+  poverty_pay_isn_t_sustainable: "Upah Murah tidak Berkelanjutan"
+  it_is_well_known_that_the_garment_industry: >
+    Sudah diketahui dengan lumrah bahwa industri garmen adalah salah satu penghasil polusi karbon terbesar di bumi, dan salah satu penghasil limbah terbesar, termasuk bahan kimia berbahaya yang mencemari lingkungan dan komunitas buruh. Fesyen hari ini berjanji untuk menjadi berkelanjutan, sadar, adil dan hijau, tetapi tanpa transparansi dan tanpa upah yang bisa menghidupi.
+  paying_poverty_wages_directly_affects: >
+    Membayarkan upah yang paling rendah secara langsung mempengaruhi keberlanjutan dan ketahanan perekonomian. Sepotong kaos yang dibuat oleh buruh yang diupah sangat rendah tidaklah berkelanjutan, dan harus dianggap demikian. Perubahan sistem dalam industri fesyen adalah keharusan yang tidak bisa dihindari, namun sistem ini utamanya harus menjamin keberlanjutan mata pencarian jutaaan orang buruh garmen yang paling terpengaruh olehnya.
+  economic_impact: "Dampak Ekonomi"
+  a_living_wage_for_all_workers_should_be: >
+    Upah layak bagi seluruh buruh harus menjadi perhatian brand sebagaimana ia menjadi perhatian para aktivis hak-hak buruh. Beberapa negara produsen garmen telah menyaksikan upah rendah dan ketimpangan yang berubah menjadi kerusuhan sosial, di mana buruh, terlepas dari berbagai ancaman represif dan kekerasan, mengambil alih jalanan dan melakukan protes dalam keputusasaan belaka, menyebabkan reaksi gugup terbata-bata dari brand yang melihat proses produksi mereka yang semula lancar, terganggu.
+  an_unequal_distribution_of_income_and_wealth: >
+    "Distribusi pendapatan dan kekayaan yang tidak merata tidak hanya menciptakan kondisi bagi terjadinya krisis tetapi merupakan sumber konflik politik dan sosial."
+
+  economic_sustainability_and_resilience: >
+    Keberlanjutan dan ketahanan ekonomi merupakan hal yang penting bagi setiap negara, namun demikian juga dengan sistem keluarga dan individu. Upah murah secara khusus memperburuk situasi perempuan, yang melakukan kerja-kerja perawatan dalam masyarakat dan pekerjaan yang tidak berbayar. Upah layak adalah satu-satunya solusi untuk mencapai kesempatan yang sama bagi perempuan dan laki-laki untuk mewujudkan dan menggunakan kapasitas mereka, satu prasyarat untuk mencapai kemanjuan yang inklusif dan berkelanjutan.
+  returning_the_power_after_covid_19: "Mengembalikan kekuatan setelah Covid-19"
+  clothing_and_textile_manufacturing_has_always: >
+    Manufaktur pakaian dan tekstil selalu berjalan di atas buruh yang tereksploitasi. Covid-19 membuatnya menjadi terlihat jelas. Brand membuat industri garmen merugi
+  billions_of_dollars: "milyaran dollar"
+  by_canceling_orders_unnecessarily: >
+    dengan membatalkan order mereka tiba-tiba, membuat pabrik lumpuh dan menyengsarakan buruh. Dengan menolak membayarkan upah buruh, yang dengan upah itu buruh bisa hidup, Brand sudah mengabaikan buruh yang membuat pakaian mereka dan meninggalkan mereka tanpa sarana apapun untuk menghidupi mereka sendiri. Jutaan buruh berada di bawah ancaman kehilangan tempat tinggal dan banyak pabrik menghadapi keruntuhan ekonomi. Brand memiliki kekuasaan yang terlalu besar atas para pemasoknya untuk waktu yang sangat lama. Sudah saatnya ini berubah.
+  to_do_so_we_need_transparency: >
+    Untuk melakukannya kita butuh transparansi. Kita ingin mengetahui di mana letak kekuasaan berada di sepanjang rantai pasok: di mana saja buruh yang dibayar paling rendah? Di mana saja buruh bisa berserikat? Di mana saja buruh perempuan dan migran bekerja? Sudah saatnya menggunakan data yang tersedia untuk menyoroti berbagai pelanggaran hak asasi manusia di industri fesyen, dan mendapatakan kenaikan upah yang konkrit, berarti, dan terukur di seluruh rantai pasok. Buruh berhak mendapatkan yang lebih baik. Konsumen juga berhak mendapatkan yang lebih baik. Sudah saatnya mendistribusikan kekuasaan dan kekayaan.
+  what_do_we_want: "Apa yang kita inginkan?"
+  what_can_you_do: "Apa yang bisa anda lakukan?"
+  we_re_demanding_that_brands_do: "Kami menuntut brand untuk melakukan yang lebih baik"
+  we_want_them_to_show_how_they_are_working: >
+    Kami ingin mereka menunjukkan bahwa mereka terus berusaha mewujudkan rantai pasok yang MEMUNGKINKAN buruh untuk bisa mendapatkan upah layak. Kami juga menuntut para pembuat kebijakan untuk menciptakan satu medan pertarungan yang setara bagi seluruh pihak yang terlibat. Ini adalah satu-satunya cara yang bisa dilakukan oleh brand untuk memenuhi uji tuntas hak asasi manusia mereka, dan dalam jangka panjang, satu-satunya cara mereka bisa menjaga kepercayaan konsumen mereka.
+  a_living_wage: "Upah <br>Layak"
+  for_all_workers: "Untuk semua buruh"
+  tell_brands_to_commit_to_paying_a_living_wage: "Katakan kepada brand untuk berkomitmen membayarkan upah layak di seluruh rantai pasok mereka."
+  we_are_asking_brands_to_pay_an_extra_contribution: >
+    Kami meminta brand untuk membayarkan kontribusi ekstra kepada ongkos tenaga kerja yang dikeluarkan saat memproduksi pakaian mereka. Uang ini akan dikumpulkan untuk secara langsung membayar upah buruh dan bukan ongkos produksi yang lain. Dengan demikian, brand bisa yakin bahwa buruh di sepanjang rantai pasoknya mendapatkan upah untuk bisa hidup. Kita juga meminta brand untuk melakukan langkah berarti untuk mengurangi ketimpangan upah berbasis gender di rantai pasoknya. Ini berarti mengumpulkan lebih banyak data tentang siapa saja yang membuat pakaian mereka dan bekerja dengan pabrik untuk mengurangi pemisahan peran produksi berbasis gender.
+  a_spotlight: "Sorotan"
+  on_the_bottom_of_the_supply_chain: "Di dasar <br>Rantai Pasok"
+  where_are_the_unions: >
+    Di mana serikat?  Di mana buruh migran? Berapakah upah yang terendah? Mintalah kepada brand untuk mengeluarkan data yang bisa dibaca tentang rantai pasok mereka secara keseluruhan, dari atas sampai bawah.
+  brands_never_release_data_about_the_bottom: >
+    Brand tidak pernah merilis data tentang dasar rantai pasok mereka. Upah yang diterima oleh buruh di kelompok dengan upah terendah sama sekali tidak kita ketahui. Bagaimana brand membuat janji-janji tentang membayar buruh dengan upah layak tanpa mengumpulkan informasi terlebih dahulu.
+  we_want_brands_to_ask_their_suppliers: >
+    Kita ingin brand bertanya kepada para pemasoknya apa peran buruh perempuan dan buruh migran di dalam produksi pakaian mereka di dalam dan di luar pabrik. Buruh migran, seperti halnya perempuan, tidak mampu untuk memperjuangkan hak asasi manusia mendasar mereka dan seringkali berada di dalam pekerjaan yang eksploitatif seperti perempuan.
+  we_want_to_know_if_the_workers_making: >
+    Kami ingin tahu apakah buruh yang membuat pakain kami memiliki suara. Serikat memungkinkan buruh untuk membela diri mereka sendiri dan menegosiasikan kondisi kerja yang lebih baik.
+  consumer: "Konsumen"
+  transparency: "Transparansi"
+  tell_brands_and_policy_makers: >
+    Katakan kepada brand dan para pembuat kebijakan bahwa anda ingin tahu bagaimana pakaian anda dibuat?
+  do_you_want_to_know_if_the_people_who_made: >
+    Apakah anda ingin tahu apakah orang-orang yang membuat pakaian anda bisa tidak masuk kerja karena sakit? Atau bisa menyekolahkan anak-anak mereka? Apakah anda ingin tahu apakah brand yang anda beli menggunakan pabrik yang mengizinkan buruhnya untuk berserikat? Katakan kepada pemerintah anda bahwa anda berharap ada lebih banyak informasi dari label yang ada di pakaian yang anda beli.
+
+  support_workers_through_the_devastating_effects: "Dukung buruh untuk bisa melalui dampak covid-19 yang menyengsarakan"
+  sign_the_petition_asking_brands_to_pay_for_orders: >
+    Tanda tangani petisi yang meminta brand untuk membayar seluruh order mereka. Industri garmen kehilangan milyaran dollar ketika brand membatalkan order setelah virus corona meluluhlantakkan masyarakat. Jutaan buruh dibayar tidak penuh selama berbulan-bulan, dan tanpa upah artinya tidak bisa makan.
+  donate_to_our_emergency_fund_to_help_us: >
+    Donasi ke dana darurat kami untuk membantu kami secara langsung memberikan dukungan kepada buruh di berbagai negara produsen, banyak dari mereka yang sudah menunggu upah yang tidak dibayarkan bahkan sejak sebelum wabah corona.
+  for_information_on_how_to_do_so_please: >
+    Untuk informasi tentang bagaimana melakukannya silahkan kunjungi laman kampanye covid-19 di website kami.
+  follow_our_live_blog_for_the_latest_information: >
+    Ikuti blog langsung kami untuk informasi mutakhir tentang covid-19 dan industri garmen.
+  find_out_more_about_our_demands: "Temukan lebih banyak tentang tuntutan kami"
+  donate_to_the_campaign: "Donasi untuk kampanye"
+  you_can_help_fund_this_campaign: "Anda bisa membantu mendanai kampanye ini dengan memberikan donasi."
+  every_little_bit_helps: >
+    Setiap donasi sekecil apapun akan membantu. Uang ini akan digunakan untuk memelihara website kami,
+  future_research_and_translations_of_our_data: "riset di masa datang dan penerjemahan data kami."
+  donate: "Donasi"
+  of_surveyed_brands_aren_t_paying_garment_workers: "dari berbagai brand yang tidak membayarkan buruh garmen<br> upah layak"
+  want_to_help_workers_fight_for: "Ingin membantu<br>buruh berjuang untuk"
+  better_working_conditions: "Kondisi kerja<br>yang lebih baik?"
+  twitter_storm: "Badai Twitter"
+  menu_take_action: "Beraksi"
+  visit_the_websites_of_our: >
+    Kunjungi website organisasi national untuk mengetahui bagaimana anda bisa mengirimkan surat elektronik ke brand untuk memberi tahu mereka tentang kampanye ini.
+
+  support_garment_workers_through_covid_19: "Dukung buruh garmen untuk bisa melalui Covid-19"
+  sign_the_petition: "Tanda tangani Petisi"
+  your_voice_matters_brands_are_highly: >
+    Suara anda penting. Berbagai brand sangat berfokus pada citra dan menganggap opini konsumen sebagai hal yang sangat penting. Kami ingin anda memberi tahu mereka bahwa buruh berhak atas kondisi yang lebih baik. Katakan pada brand yang produknya anda beli bahwa anda ingin pakaian yang anda beli dibuat tanpa eksploitasi.
+  donate_to_our_emergency_relief_fund: >
+    Donasi ke dana bantuan darurat untuk membantu kami secara langsung untuk mendukung buruh di negara-negara produsen, yang sebagian besar sudah menunggu upah sejak sebelum wabah corona. Berbagai organisasi di jaringan kami mengorganisir bantuan bahan makanan untuk membantu buruh garmen dan keluarga mereka di komunitas-komunitas lokal. Ikuti live blog kami untuk berita terbaru.
+  living_wage_table:
+    minimum_wage:
+      food: >
+        Tidak mudah untuk mendapatkan nutrisi atau kalori yang mencukupi. Seringkali saya makan bubur atau nasi yang sama setiap hari. Daging, ikan, dan buah terlalu mahal buat kami. Melewatkan makan hal yang biasa dan kekurangan makanan di akhir bulan.
+      housing: >
+        Anda berbagi kamar asrama yang penuh sesak. Tidak ada privasi, tidak ada pemanas atau AC dan ventilasinya buruk. Tidak ada furnitur yang mencukupi ataupun tempat tidur. Kualitas bahan bangunan rendah membuat hidup di dalamnya tidak aman dan berbahaya.
+      health_care: >
+        Anda bisa mendapatkan antibiotik tapi akses terbatas terhadap produk menstruasi dan sulit terhadap obat resep dokter atau layanan darurat. Kurang tidur, nutrisi dan sanitasi berdampak pada kesehatan. Anda terpaksa tidak makan untuk bisa ke dokter.
+      education: >
+        Anda tidak bisa memberikan pendidikan kepada diri anda sendiri atau anak-anak anda. Anda tidak punya kesempatan untuk memperbaiki situasi anda. Anak-anak anda kemungkinan akan tumbuh dewasa dan mendapatkan upah yang sama dengan anda sekarang.
+      clothing: >
+        Pakaian anda tidak cukup hangat selama musim dingin. Anda tidak mampu membeli alas kaki yang baik untuk bekerja sambil berdiri sepanjang hari.
+      transportation: >
+        Anda tidak memiliki sarana transportasi yang aman. Transportasi publik biasanya tidak tersedia di negara-negara produsen yang miskin. Anda bergantung pada truk penuh sesak yang disediakan oleh pabrik. Sebagai perempuan, anda beresiko mendapatkan pelecehan seksual.
+      savings: >
+        Anda kemungkinan besar memiliki hutang. Adalah perjuangan berat untuk bisa menyeimbangkan tagihan dan pinjaman dan anda hidup hanya dengan upah bulan itu yang hampir-hampir tidak cukup.
+    living_wage:
+      food: >
+        Anda mendapatkan upah yang cukup untuk memberi makan anda dan keluarga anda. Anda memiliki pola makan yang sehat, bervariasi dan makan setidaknya tiga kali sehari.
+      housing: >
+        Anda mampu membeli rumah untuk anda sendiri dan keluarga tanggungan anda di lingkungan yang aman. Anda memiliki jendela untuk ventilasi dan cahaya, privasi, furnitur yang cukup dan memiliki fasilitas kamar mandi sendiri.
+      health_care: >
+        Anda memiliki akses yang mudah kepada layanan kesehatan mendasar termasuk produk-produk menstruasi dan obat yang diresepkan dokter seperti insulin dan antibiotik. Anda bisa menabung untuk layanan kesehatan darurat.
+      education: >
+        Anda bisa memberikan pendidikan kepada diri anda sendiri dan keluarga tanggungan anda. Anda memiliki waktu dan kebebasan untuk meniti karir menuju posisi yang berupah lebih tinggi. Anda dan anak-anak anda memiliki pilihan untuk masa depan anda.
+      clothing: >
+        Anda memiliki pakaian yang sesuai dengan musim yang anda pilih sendiri. Anda mampu membeli sepatu dan pakaian yang mendukung anda dan ukuran yang tepat untuk anak-anak anda.
+      transportation: >
+        Anda memiliki upah yang cukup untuk memilih sarana transportasi sendiri atau pabrik tempat anda bekerja mampu menyediakan transportasi yang aman. Anda bisa menyimpan untuk membeli sarana transportasi sendiri. Yang paling penting anda memiliki pilihan.
+      savings: >
+        Anda bisa menyimpan sebagian dari upah anda untuk pengeluaran tidak terduga dan kebutuhan darurat, memberikan anda rasa aman dan ketahanan di masa krisis.
+
+  to_brands: "Kepada Brand"
+  brands_need_to_do_more_to_change_the_power: >
+    Brand harus melakukan lebih banyak lagi untuk mengubah dinamika kekuatan di industri garmen. Buruh tidak harus berjuang untuk mendapatkan hak-hak asasi manusia mendasar di tahun 2020. Inilah saatnya kita menuntut perubahan.
+  our_wage_demands: "Tuntutan upah kami"
+  pay_a_living_wage: "Bayarkan Upah Layak"
+  we_want_brands_to_pay_more_for_orders: >
+    Kami ingin brand membayarkan lebih untuk pesanannya. Para pemasok akan mampu membayarkan upah layak ketika mereka mampu menegosiasikan harga yang mencakup ongkos tenaga kerja.
+  menu_our_demands: "Tuntutan Kami"
+  brands_need_to_commit_to_paying_a: "Brand harus berkomitmen untuk membayarkan"
+  living_wage_contribution: "kontribusi terhadap upah layak"
+  on_every_order_they_place: "pada setiap order mereka, yang mencukupi untuk menutup selisih upah bagi seluruh buruh di sepanjang rantai pasok masing-masing paling lambat 31 Desember 2022."
+  using_living_wage_benchmarks: "Menggunakan Patokan Upah Layak"
+  if_brands_are_going_to_pay_living_wages: "Jika brand akan membayar upah layak kepada seluruh buruh di sepanjang rantai pasoknya mereka harus tahu berapa ongkos tenaga kerjanya. Ada banyak perangkat yang bisa dipakai untuk membantu brand melakukannya."
+  brands_need_to_commit_to_using: "Brand harus berkomitmen untuk menggunakan"
+  transparent_and_robust_living_wage_benchmarks: "patokan upah layak yang transparan dan kuat."
+  pay_the_women_who_make_our_clothes: "Bayarkan upah perempuan yang membuat pakaian kami"
+  brands_need_to_do_more_to_reduce_gender_inequality: "Brands harus melakukan lebih banyak lagi untuk mengurangi ketimpangan gender di rantai pasok garmen. Perempuan secara terus menerus dipekerjakan di posisi yang berupah lebih rendah dibandingkan dengan laki-laki yang memiliki akibat buruk terhadap kesehatan dan keselamatan mereka."
+  brands_need_to_commit_to: "Brand harus berkomitmen kepada"
+  reducing_the_gender_pay_gap: "pengurangan ketimpangan upah berbasis gender"
+  in_their_supply_chain_by_at_least_30: "di sepanjang rantai pasok mereka sebesar setidaknya 30% pada 31 Desember 2022."
+  covid_19_pay_up: "Covid-19 - Bayarkan!"
+  when_covid_19_shook_the_world_it_left_the_garment: "Ketika covid-19 mengguncang dunia, ia meninggalkan industri gamen dalam reruntuhan. Jutaan buruh tidak menerima upah penuh selama berbulan-bulan. Banyak yang sudah menunggu upah yang tidak dibayarkan bahkan sejak sebelum pandemi. Bagi sebagian besar buruh, menerima upah yang kurang dari yang biasa mereka terima berarti mereka tidak bisa membeli bahan makanan."
+  brands_need_to_publicly_commit_to_a: "Brand harus berkomitmen secara publik untuk"
+  wage_guarantee: "jaminan upah"
+  for_all_workers_in_their_supply_chain_ensure: "bagi seluruh buruhnya di sepanjang rantai pasok. Memastikan dan memungkinkan seluruh buruh yang dipekerjakan di awal krisis covid-19"
+  receive_their_full_salaries: "menerima upahnya dengan penuh"
+  or_in_the_case_of_factory_closure_receive: "atau, dalam kasus penutupan pabrik, menerima pesangon. Baca selanjutnya"
+
+  our_transparency_demands: "Tuntutan transparansi kami"
+  a_transparent_supply_chain: "Suatu rantai pasok yang transparan"
+  we_want_all_brands_to_commit_to_a_completely: "Kami ingin seluruh brand berkomitmen pada suatu rantai pasok yang betul-betul transparan dengan cara menandatangani Transparency Pledge. Janji Transparansi ini menetapkan batas bawah bagi informasi apa, paling tidak, yang harus diungkap oleh perusahaan-perusahaan garmen kepada dunia luar tentang pabrik-pabrik di mana produknya dibuat. Standard ini diluncurkan pada tahun 2017 oleh sebuah koalisi yang terdiri dari sembilan serikat buruh dan organisasi hak-hak buruh dan sejak itu sudah mengeluarkan dua laporan terperinci lebih jauh pada tahun 2017 dan 2019."
+  brands_that_haven_t_already_need_to_sign: "Brand yang belum menandatangani Tranparency Pledge harus menandatanganinya sesegera mungkin."
+  readable_data_on_women_migrants_and_unions: "Data yang bisa dibaca tentang perempuan, migran dan serikat"
+  not_only_do_brands_need_to_be_collecting_specific: "Brand tidak hanya harus mengumpulkan data spesifik tentang kondisi kejra di rantai pasoknya, tetapi mereka juga harus merilis data ini dalam format yang bisa digunakan oleh para aktivis dan serikat. Kami ingin tahu di mana perempuan dan migran bekerja di rantai pasok mereka dan apakah orang-orang yang membuat pakaian produk anda bisa membela diri mereka sendiri."
+  brands_must_disclose_data_using_machine_readable: "Brand harus mengungkap data menggunakan daftar pabrik pemasok yang bisa dibaca oleh mesin, termasuk rincian peran berbasis gender di setiap pabrik, jumlah buruh migran sebagai bagian dari tenaga kerja di setiap pabrik, dan adakah serikat atau komite buruh di setiap pabrik."
+  wages_at_the_bottom_of_the_supply_chain: "Upah di dasar rantai pasok"
+  we_want_to_know_what_the_lowest_earning_workers: "Kami ingin tahu berapakah upah paling rendah yang diterima oleh buruh di sepanjang rantai pasok untuk seminggu bekerja. Ini bukanlah sesuatu yang diungkap bahkan dicek oleh Brand. Dan ini harus berubah."
+  brands_must_disclose_data_on_the_lowest_wage_level: "Brand harus mengungkap data tentang upah terendah yang dibayarkan oleh setiap pemasok di setiap negara produsen, untuk seminggu bekerja, tidak termasuk kerja lembur, tunjangan atau bonus."
+  to_policymakers: "Kepada Para Pembuat Kebijakan"
+  it_s_not_just_brands_that_are_responsible: "Tidak hanya brand saja yang bertanggung jawab untuk memastikan buruh di industri garmen diperlakukan dengan adil dan setara. Pemerintah memainkan peran penting dalam menciptakan medan bermain yang setara bagi seluruh pihak yang terlibat."
+  we_call_for_minimum_wages_in_production_countries: "Kami meminta agar upah minimum di negara-negara produsen untuk diperbaiki agar sesuai dengan standard upah layak internasional dan patokan yang transparan dan kuat untuk dimasukkan ke dalam berbagai kebijakan dan perjanjian."
+  we_call_for_the_eu_to_ensure_that_minimum_wages: "Kami meminta kepada UE untuk memastikan bahwa upah minimum bagi buruh di EU adalah upah yang adil dan menjamin buruh hidup dengan layak, dan agar upah minimum ditetapkan sesuai dengan standar upah layak internasional yang bisa diandalkan, dan memungkinkan akses terhadap perlindungan sosial yang mencukupi terlepas dari hubungan kerja apapun dan mengurangi eksklusi sosial dan ketimpangan."
+  we_call_for_the_eu_to_require_supply_chain: "Kami menyerukan kepada UE untuk mensyaratkan pengungkapan rantai pasok dari, setidaknya, perusahaan-perusahaan di sektor-sektor yang berisiko tinggi di mana pelanggaran terjadi secara meluas. Daftar pemasok harus memasukkan informasi yang dapat dibaca oleh mesin di seluruh unit produksi dan fasilitas pemrosesan, begitu juga nama, alamat, perusahaan induk dari lokasi bisnis itu, tipe produk yang dibuat dan jumlah buruh di setiap tempat produksi."
+  we_call_for_mandatory_disclosure_of_data_on_lowest: "Kami menyerukan untuk pengungkapan data yang bersifat wajib tentang tingkat upah paling rendah yang dibayarkan oleh setiap pemasok di setiap negara produsen, tidak termasuk tunjangan dan bonus dan berdasarkan gender, buruh migran, dan status pekerjaan dengan kesadaran akan resiko dan hak di sepanjang rantai pasok."
+  we_call_to_advance_human_rights_due_diligence: "Kami menyerukan untuk mengedepankan undang-undang uji tuntas hak asasi manusia di tingkat UE untuk meletakkan kewajiban pada perusahaan-perusahaan untuk menghormati hak asasi manusia dalam operasi bisnisnya dan di rantai pasoknya, termasuk transparansi tentang proses uji tuntas, tentang rantai pasok dan tentang upah ya ng dibayarkan di sepanjang rantai pasok, dengan kesadaran akan resiko dan hak di sepanjang rantai pasok, dan sesuai dengan prinsip “tidak menginggalkan siapapun."
+  we_call_to_set_in_place_an_information_system_for: "Kami menyerukan untuk meletakkan suatu sistem informasi di perusahaan-perusahaan untuk melaporkan dan mengungkap informasi yang mencukupi dan transparan di tingkat pabrik dan tingkat produk. Akses terhadap sistem informasi ini haruslah gratis, tidak terbatas dan sesuai dengan standard Open Data yang sudah mapan."
+  we_call_for_increased_transparency_at_product: "Kami menyerukan untuk transparansi yang lebih baik di level produk untuk memberdayakan warga negara: memperluas tipe informasi tentang pelabelan tekstil termasuk informasi tentang proses manufaktur dan daur hidup."
+  see: "Lihat"
+  our_website: "website kami"
+  for_more_information_on_these_demands: "untuk informasi lebih lanjut tentang berbagai tuntutan ini."
+  fashion: "Fashion"
+  checker: "Checker"
+  coming_soon: "Segera"
+  explore: "Jelajahi"
+  the_data: "Data"
+  are_the_people_who_make_your_clothes_paid_enough_t: "Apakah orang yang membuat pakaian anda dibayar dengan cukup untuk bisa hidup dengan baik?"
+  find_out_which_apparel_and_footwear_brands_pay_the: "Temukan brand pakaian jadi dan alas kaki mana yang membayar buruhnya dengan Upah Layak."
+  country: "Negara"
+  eu_disclaimer: "Website ini dibuat dan dipelihara dengan dukungan dana dari Uni Eropa. Isi website ini adalah tanggung jawab sepenuhnya dari Clean Clothes Campaign dan tidak mencerminkan pandangan Uni Eropa."
+  tweet_the_brand: "Tweet Brand"
+  menu_resources: "Sumber Daya"
+  reports: "Laporan"
+  living_wage: "Upah Layak"
+  power_dynamics: "Dinamika Kekuasaan"
+  podcasts: "Podcasts"
+  videos: "Video"
+  who_we_are: "Siapa Kami"
+  methodology: "Metodologi"
+  see_full_profiles: "Lihat profil brand sepenuhnya"
+  minimum_wage: "Upah Minimum"
+  food: "Makanan"
+  housing: "Perumahan"
+  health_care: "Layanan Kesehatan"
+  education: "Pendidikan"
+  clothing: "Pakaian"
+  transportation: "Transportasi"
+  savings: "Tabungan"
+  website_powered_by: "Website diberdayakan oleh"
+  privacy_policy: "Kebijakan Privasi"
+  all_rights_reserved: "Hak Cipta"
+  design_by: "Dirancang oleh"
+  new: "baru"
+  europe_floor_wage_benchmark: "Patokan Upah Bawah Eropa"
+  exploitation_made_in_europe: "Eksploitasi: dibuat di Eropa"
+  tailored_wages: "Upah yang disesuaikan"
+  corporate_commitments_to_living_wages: "Komitmen Korporat terhadap Upah Layak di Industri Garmen"
+  turn_around_h_m: "Putar Balik H&M"
+  europe_s_sweatshops: "Sweatshop di Eropa"
+  presentation: "(presentasi)"
+  a_sewing_kit_for_a_living_wage: "Peralatan Menjahit untuk Upah Layak"
+  oxfam_australia: "Oxfam Australia"
+  fashion_focus_the_fundamental_right: "Fokus Fesyen: Hak Fundamental terhadap Upah Layak"
+  the_circle: "Lingkaran kami"
+  femnet: "Femnet e.V."
+  wages_gbv_2020: "Upah dan Kekerasan Berbasis-Gender"
+  ever_cheaper_ever_faster: "Ever Cheaper, Ever Faster"
+  updating_EFW_benchmark_2021: "The European Floor Wage: updating the benchmark to 2021"
+  an_intersectional_approach_2022: "An Intersectional Approach: Challenging discrimination in the garment industry"
+  croatia_struggle_2022: "Living Wage is Possible: Struggle for living wages in Croatia"
+  intersection_environment_social_2022: "The Intersections of Environmental and Social Impacts of the Garment Industry"
+  fair_livingwage_italy_2022: "A Living Wage Is A Human Right - a proposal for Italy, for the fashion industry and beyond"
+  fashioncheckervid_why_it_is_time: "Fashion Checker: Mengapa ini saatnya menciptakan perubahan bagi buruh garmen"
+  fashioncheckervid_gbv: "Kekerasan berbasis gender di industri garmen – Ratifikasi Konvensi ILO 190"
+  fashioncheckervid_fromthefuture: "Fashion Checker: a view from the future"
+  out_of_the_shadows: "Keluar dari Bayang-bayang: Suatu Sorotan tentang Eksploitasi di industri fesyen"
+  position_pager_transparency: "Kertas Posisi tentang Transparansi"
+  fashioning_justice: "Fashioning Justice: A call for mandatory and comprehensive human rights due diligence in the garment industry"
+  clean_clothes_campaign: "Clean Clothes Campaign"
+  fashion_s_next_trend: "Tren Fesyen Mendatang: Mengakselerasi Transparansi Rantai Pasok di Industri Garmen dan Alas Kaki"
+  go_transparent: "#GoTransparan"
+  surge_in_garment_industry_transparency: "Lonjakan Transparansi Industri Garmen: Hukum dibutuhkan untuk Memastikan Perusahaan mengadopsi Praktik-praktik Hak Asasi Manusia"
+  wrc: "WRC"
+  fig_leaf_for_fashion: "Daun Ara untuk Fesyen: Bagaimana Audit Sosial melindungi Brand dan mengecewakan buruh"
+  follow_the_thread: "Ikuti Benangnya. Kebutuhan akan Transparansi Rantai Pasok di Industri Garmen dan Alas Kaki"
+  the_transparency_pledge_the_apparel_and_footwear: "Janji Transparansi: Janji transparansi rantai pasok pakaian jadi dan alas kaki."
+  global_wage_report_2018_19: "Laporan Upah Global 2018/19 – Ada apa di belakang ketimpangan upah berbasis gender"
+  ilo: "ILO"
+  will_women_workers_benefit_from_living_wages: "Apakah keuntungan buruh perempuan dari upah layak?"
+  christa_luginbuhl: "Christa Luginbühl"
+  despite_progress_gender_based_violence: "Terlepas dari segala kemajuan yang ada, kekerasan dan pelecehan berbasis gender masih menimpa buruh garmen di seluruh dunia"
+  promoting_gender_equality_in_garment_industry: "Mendorong kesetaraan gender di industri garmen"
+  better_work: "Better Work"
+  gender_pay_gaps_in_the_garment_textile_footwear: "Kesenjangan upah berbasis gender di sektor garmen, tekstil dan alas kaki di negara-negara berkembang Asia"
+  garment_supply_chains_in_intensive_care: "Rantai Pasok Garmen dalam perawatan intensif"
+  ecchr: "ECCHR"
+  two_crises_one_flawed_supply_chain_model: "Dua Krisis, satu model rantai pasok yang cacat: Bagaimana ketimpangan kuasa dalam rantai pasok global merugikan buruh"
+  the_emperor_has_no_clothes_garment_supply_chains: "Sang Kaisar tidak punya pakaian: Rantai Pasok Garmen di masa pandemi."
+  asia_floorwage_alliance: "Asia floorwage Alliance"
+  global_capitalism_is_the_new_colonialism: "Kapitalisme Global adalah Kolonialisme Baru bagi Buruh, dan Mereka sedang melawan"
+  truth_out: "Truth Out"
+  fashion_critical_with_lucy_siegle_and_livia_firth: "Fashion Critical dengan Lucy Siegle dan Livia Firth"
+  episode_2_with_christie_medima_from_ccc_io: "Episode 2 dengan Christie Medima dari CCC IO"
+  the_problem_with_social_audits: "Persoalan dengan audit sosial"
+  esg_insider: "ESG Insider"
+  ethical_consumer_we_need_to_stop_buying: "Konsumer yang Etis: Kita harus berhenti membeli pakaian baru!"
+  with_bel_jacobs: "bersama Bel Jacobs, Fashion Editor dari Metro turned XR Boycott Fashion activist"
+  living_wage_now_documentary_trailor: "Cuplikan Dokumenter Upah Layak sekarang"
+  the_ugly_truth_of_fast_fashion: "Kebenaran yang Pahit dari Fast Fashion"
+  fast_fashion_is_disgusting: "Fast fashion menjijikkan"
+  haute_le_mode: "Haute le mode"
+  patriot_act_with_hasan_minhaj: "Aksi Patriot bersama Hasan Minhaj | Netflix"
+  the_importance_of_sustainability_ethics_in_fashion: "Pentingnya KEBERLANJUTAN DAN ETIK dalam Fesyen"
+  the_fashion_archive: "Arsip Fesyen"
+  ending_gender_based_violence: "Mengakhiri Kekerasan Berbasis Gender di Industri Garmen"
+  global_fund_for_women: "Dana Global untuk Perempuan"
+  five_business_practices: "5 Praktik Bisnis yang digunakan oleh Banyak Brand Pakaian Besar yang melukai buruh"
+  human_rights_watch: "Human rights watch"
+  menu_explore_the_data: "Jelajahi Data"
+  resources: "Sumber Daya"
+  lw_c_50_plausible_notpublic: >
+    Brand mengklaim bahwa 50% atau lebih dari para pemasoknya membayarkan upah layak kepada buruhnya, beberapa penjelasan yang masuk akal diberikan, tetapi buktinya tidak tersedia secara publik. Yang artinya banyak buruh yang membuat pakaian mereka tidak dibayar dengan cukup untuk bisa hidup dengan baik.
+  lw_d_25_public: >
+    Brand mengklaim bahwa antara 1 sampai 25% pabrik pemasoknya di sepanjang rantai pasok perusahaan itu membayar buruhnya dengan upah layak. Ini adalah informasi publik. Mayoritas buruh di rantai pasok brand itu tidak mendapatkan upah yang mencukupi untuk hidup dengan baik.
+  lw_d_started: >
+    Perusahaan mengklaim bahwa ia mulai berkontribusi terhadap upah layak dengan membayar pabrik-pabrik di rantai pasoknya tetapi yang dibayarkan tidak bisa menutupi ongkos tenaga kerja. Yang artinya mayoritas buruh yang membuat pakaian mereka tidak mendapatkan upah yang mencukupi untuk hidup dengan baik.
+  lw_e_noclaim_notpublic: >
+    Brand tidak memiliki klaim dan tidak bukti yang bersifat publik yang ditemukan bahwa para pemasoknya membayarkan upah layak. Yang artinya brand tidak bisa membuktikan bahwa buruh yang membuat pakaiannya mendapatkan upah yang cukup untuk bisa hidup dengan baik.
+  lw_e_noevidence: >
+    Tidak ada bukti apapun yang ditemukan tentang klaim brand bahwa perusahaan membayarkan upah layak dan tidak ada penjelasan yang masuk akal yang diberikan. Yang artinya brand tidak dapat membuktikan  bahwa buruh yang membuat pakaiannya mendapatkan upah yang cukup untuk hidup dengan baik.
+  transp_none: >
+    Brand ini tidak menyediakan informasi apapun tentang pabrik pemasoknya dan buruh garmen di sepanjang rantai pasoknya yang disyaratkan oleh Transparency Pledge.
+  transp_partial: >
+    Brand ini menyediakan beberapa informasi, tetapi tidak mencukupi tentang pabrik-pabrik pemasoknya dan buruh garmen di rantai pasoknya.
+  transp_partial_additional: >
+    Brand ini menyediakan sedikit informasi melebihi informasi dasar, tetapi kurang dari batas minimum yang dibutuhkan untuk Transparency Pledge.
+  transp_partial_additional_machinereadable: >
+    Brand ini menyediakan sedikit informasi melebihi informasi dasar, dalam format yang bisa dibaca oleh mesin dan praktis, tetapi kurang dari batas minimum yang dibutuhkan untuk Transparency Pledge.
+  transp_partial_machinereadable: >
+    Brand ini menyediakan beberapa informasi, tetapi tidak mencukupi tentang pabrik dan buruh garmen di rantai pasoknya – brand ini mempublikasikannya dalam format yang praktis dan dapat dibaca oleh mesin.
+  transp_pledge: >
+    Brand ini menyediakan informasi mendasar seperti nama pabrik dan alamat, jenis produk, jumlah buruh, dan group para pemasok, jika pabriknya adalah bagian dari entitas yang lebih besar.
+  transp_pledge_additional: >
+    Brand ini menyediakan informasi melebihi informasi dasar seperti komposisi tenaga kerja berbasis gender di tempat kerja, apakah ada serikat di pabrik atau apakah ada perjanjian kerja bersama yang ada.
+  transp_pledge_additional_machinereadable: >
+    Brand ini menyediakan informasi melebihi informasi dasar dalam format yang bisa dibaca oleh mesin dan praktis seperti spreadsheet Excel yang membuat datanya bisa digunakan oleh orang lain.
+  transp_pledge_machinereadable: >
+    Brand ini menyediakan informasi mendasar dalam format yang praktis dan dalam format yang bisa dibaca mesin seperti spreadsheet Excel yang membuat datanya bisa digunakan oleh pihak lain.
+
+  partners: "Partners"
+  we_never_saw_data_about_brands_payments_what_price: >
+    "Kami tidak pernah menemukan data tentang pembayaran yang dilakukan oleh brand, dan berapa harga yang mereka bayarkan. Direktur kami selalu mengatakan bahwa perusahaan sedang merugi. Menurutnya, kita harus bekerja lebih keras. Ia mengatakan kepada kami bahwa kami adalah pemalas, sekelompok orang bodoh."
+  click_to_read_more: "click<br/>to read<br/>more"
+  img_living_wage_circles: "/images/about_us/living_wage_circles.png"
+  img_smiling_curve: "/images/about_us/smiling_curve.png"
+  img_tee_shirt: "/images/about_us/tee_shirt.png"
+  img_25_percent: "/images/about_us/25_percent.png"
+  img_global_supply_chain: "/images/living_wage/global_supply_chain.png"
+  social_media_title: "FashionChecker: upah dan transparansi di industri garmen"
+  social_media_description: "Lihat bagaimana brand membayarkan upah buruhnya dan seterbuka apa mereka tentang di mana produk mereka dibuat."
+  social_media_image: "https://fashionchecker.org/images/CCC_FC_web_preview.jpg"
+  a_worker_from_china: "Seorang buruh dari Cina"
+  brands_surveyed: "Brands Surveyed"
+  brand_brands_owned: "Brand (brands owned)"
+
+  dataTables:
+    search: "Search:"
+    lengthMenu: "Show _MENU_ entries"
+    info: "Showing _START_ to _END_ of _TOTAL_ entries"
+  brand_overview: "Brand Overview"
+  supplier_map: "Supplier Map"
+  where_are_suppliers: "Where are the brand's disclosed suppliers?"
+  no_suppliers_disclosed: "No suppliers disclosed."
+  supplier_wages: "Supplier Wages"
+  are_surveyed_suppliers_paying: "Are surveyed suppliers paying a living wage?"
+  no_supplier_responses: "No supplier responses."
+
+  supplier_map_viz:
+    legend_title: Number of Suppliers
+    tooltip_suppliers: suppliers
+
+  no_data: No data available
+
+  covid_note_1: "The COVID-19 pandemic forced us (Clean Clothes Campaign) to shift our short term demands to brands: workers have been paid poverty wages for decades but most are currently not even paid their pre-pandemic wages. Living wages remain our goal, but we now"
+  covid_link: "call upon brands to ensure "
+  covid_note_2: "workers are being paid their pre-pandemic wages and owed severance. We have therefore decided to survey brands this year only on their progress on Transparency, and not on Living Wages. Brands could let us know if they had made any progress on living wage nonetheless."
+
+  menu_facilitychecker: "Facility checker"
+  facilitychecker_text1: "You can search for facilities on our "
+  facilitychecker_text2: ""

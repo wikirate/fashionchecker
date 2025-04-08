@@ -1,0 +1,190 @@
+{
+  "id": null,
+  "name": "Clean Clothes Campaign+Living Wage Gap - Actual Wages as % of Living Wage Benchmark+Answers",
+  "type": {
+    "id": 30,
+    "name": "Search",
+    "type": "Cardtype",
+    "url": "https://wikirate.org/Search.json",
+    "codename": "search_type"
+  },
+  "url": "https://wikirate.org/~7347357+Answers.json?filter%5Bcountry%5D%5B%5D=Pakistan&filter%5Byear%5D=latest&tab=answer&limit=999",
+  "items": [
+    {
+      "id": null,
+      "name": "Clean Clothes Campaign+Living Wage Gap - Actual Wages as % of Living Wage Benchmark+Siddiqsons Ltd+2023",
+      "type": "Answer",
+      "url": "https://wikirate.org/Clean_Clothes_Campaign+Living_Wage_Gap_Actual_Wages_as_of_Living_Wage_Benchmark+Siddiqsons_Ltd+2023.json",
+      "content": "26.65318080357143",
+      "metric": "Clean Clothes Campaign+Living Wage Gap - Actual Wages as % of Living Wage Benchmark",
+      "company": "Siddiqsons Ltd",
+      "year": 2023,
+      "value": "26.65318080357143",
+      "comments": null,
+      "answer_url": "https://wikirate.org/Clean_Clothes_Campaign+Living_Wage_Gap_Actual_Wages_as_of_Living_Wage_Benchmark+Siddiqsons_Ltd.json"
+    },
+    {
+      "id": null,
+      "name": "Clean Clothes Campaign+Living Wage Gap - Actual Wages as % of Living Wage Benchmark+Artistic Denim Mills Ltd+2023",
+      "type": "Answer",
+      "url": "https://wikirate.org/Clean_Clothes_Campaign+Living_Wage_Gap_Actual_Wages_as_of_Living_Wage_Benchmark+Artistic_Denim_Mills_Ltd+2023.json",
+      "content": "27.077609889574994",
+      "metric": "Clean Clothes Campaign+Living Wage Gap - Actual Wages as % of Living Wage Benchmark",
+      "company": "Artistic Denim Mills Ltd",
+      "year": 2023,
+      "value": "27.077609889574994",
+      "comments": null,
+      "answer_url": "https://wikirate.org/Clean_Clothes_Campaign+Living_Wage_Gap_Actual_Wages_as_of_Living_Wage_Benchmark+Artistic_Denim_Mills_Ltd.json"
+    },
+    {
+      "id": null,
+      "name": "Clean Clothes Campaign+Living Wage Gap - Actual Wages as % of Living Wage Benchmark+Rajby Industries - Unit 2+2023",
+      "type": "Answer",
+      "url": "https://wikirate.org/Clean_Clothes_Campaign+Living_Wage_Gap_Actual_Wages_as_of_Living_Wage_Benchmark+Rajby_Industries_Unit_2+2023.json",
+      "content": "27.09263392857143",
+      "metric": "Clean Clothes Campaign+Living Wage Gap - Actual Wages as % of Living Wage Benchmark",
+      "company": "Rajby Industries - Unit 2",
+      "year": 2023,
+      "value": "27.09263392857143",
+      "comments": null,
+      "answer_url": "https://wikirate.org/Clean_Clothes_Campaign+Living_Wage_Gap_Actual_Wages_as_of_Living_Wage_Benchmark+Rajby_Industries_Unit_2.json"
+    },
+    {
+      "id": null,
+      "name": "Clean Clothes Campaign+Living Wage Gap - Actual Wages as % of Living Wage Benchmark+MOUNT FUJI+2023",
+      "type": "Answer",
+      "url": "https://wikirate.org/Clean_Clothes_Campaign+Living_Wage_Gap_Actual_Wages_as_of_Living_Wage_Benchmark+MOUNT_FUJI+2023.json",
+      "content": "25.41294642857143",
+      "metric": "Clean Clothes Campaign+Living Wage Gap - Actual Wages as % of Living Wage Benchmark",
+      "company": "MOUNT FUJI",
+      "year": 2023,
+      "value": "25.41294642857143",
+      "comments": null,
+      "answer_url": "https://wikirate.org/Clean_Clothes_Campaign+Living_Wage_Gap_Actual_Wages_as_of_Living_Wage_Benchmark+MOUNT_FUJI.json"
+    },
+    {
+      "id": null,
+      "name": "Clean Clothes Campaign+Living Wage Gap - Actual Wages as % of Living Wage Benchmark+CROWN TEXTILE+2023",
+      "type": "Answer",
+      "url": "https://wikirate.org/Clean_Clothes_Campaign+Living_Wage_Gap_Actual_Wages_as_of_Living_Wage_Benchmark+CROWN_TEXTILE+2023.json",
+      "content": "27.790178571428577",
+      "metric": "Clean Clothes Campaign+Living Wage Gap - Actual Wages as % of Living Wage Benchmark",
+      "company": "CROWN TEXTILE",
+      "year": 2023,
+      "value": "27.790178571428577",
+      "comments": null,
+      "answer_url": "https://wikirate.org/Clean_Clothes_Campaign+Living_Wage_Gap_Actual_Wages_as_of_Living_Wage_Benchmark+CROWN_TEXTILE.json"
+    },
+    {
+      "id": null,
+      "name": "Clean Clothes Campaign+Living Wage Gap - Actual Wages as % of Living Wage Benchmark+Asco International (Pvt)+2023",
+      "type": "Answer",
+      "url": "https://wikirate.org/Clean_Clothes_Campaign+Living_Wage_Gap_Actual_Wages_as_of_Living_Wage_Benchmark+Asco_International_Pvt+2023.json",
+      "content": "20.693824404761905",
+      "metric": "Clean Clothes Campaign+Living Wage Gap - Actual Wages as % of Living Wage Benchmark",
+      "company": "Asco International (Pvt)",
+      "year": 2023,
+      "value": "20.693824404761905",
+      "comments": null,
+      "answer_url": "https://wikirate.org/Clean_Clothes_Campaign+Living_Wage_Gap_Actual_Wages_as_of_Living_Wage_Benchmark+Asco_International_Pvt.json"
+    },
+    {
+      "id": null,
+      "name": "Clean Clothes Campaign+Living Wage Gap - Actual Wages as % of Living Wage Benchmark+Artistic Fabric Mills PVT Ltd AFM 1 Fabric Division+2023",
+      "type": "Answer",
+      "url": "https://wikirate.org/Clean_Clothes_Campaign+Living_Wage_Gap_Actual_Wages_as_of_Living_Wage_Benchmark+Artistic_Fabric_Mills_PVT_Ltd_AFM_1_Fabric_Division+2023.json",
+      "content": "22.321428571428573",
+      "metric": "Clean Clothes Campaign+Living Wage Gap - Actual Wages as % of Living Wage Benchmark",
+      "company": "Artistic Fabric Mills PVT Ltd AFM 1 Fabric Division",
+      "year": 2023,
+      "value": "22.321428571428573",
+      "comments": null,
+      "answer_url": "https://wikirate.org/Clean_Clothes_Campaign+Living_Wage_Gap_Actual_Wages_as_of_Living_Wage_Benchmark+Artistic_Fabric_Mills_PVT_Ltd_AFM_1_Fabric_Division.json"
+    },
+    {
+      "id": null,
+      "name": "Clean Clothes Campaign+Living Wage Gap - Actual Wages as % of Living Wage Benchmark+Dalal Industries Pvt. Ltd. (Unit 2)+2023",
+      "type": "Answer",
+      "url": "https://wikirate.org/Clean_Clothes_Campaign+Living_Wage_Gap_Actual_Wages_as_of_Living_Wage_Benchmark+Dalal_Industries_Pvt_Ltd_Unit_2+2023.json",
+      "content": "31.66294642857143",
+      "metric": "Clean Clothes Campaign+Living Wage Gap - Actual Wages as % of Living Wage Benchmark",
+      "company": "Dalal Industries Pvt. Ltd. (Unit 2)",
+      "year": 2023,
+      "value": "31.66294642857143",
+      "comments": null,
+      "answer_url": "https://wikirate.org/Clean_Clothes_Campaign+Living_Wage_Gap_Actual_Wages_as_of_Living_Wage_Benchmark+Dalal_Industries_Pvt_Ltd_Unit_2.json"
+    },
+    {
+      "id": null,
+      "name": "Clean Clothes Campaign+Living Wage Gap - Actual Wages as % of Living Wage Benchmark+Liberty Mills Ltd. (Unit 1)+2023",
+      "type": "Answer",
+      "url": "https://wikirate.org/Clean_Clothes_Campaign+Living_Wage_Gap_Actual_Wages_as_of_Living_Wage_Benchmark+Liberty_Mills_Ltd_Unit_1+2023.json",
+      "content": "25.592912946428577",
+      "metric": "Clean Clothes Campaign+Living Wage Gap - Actual Wages as % of Living Wage Benchmark",
+      "company": "Liberty Mills Ltd. (Unit 1)",
+      "year": 2023,
+      "value": "25.592912946428577",
+      "comments": null,
+      "answer_url": "https://wikirate.org/Clean_Clothes_Campaign+Living_Wage_Gap_Actual_Wages_as_of_Living_Wage_Benchmark+Liberty_Mills_Ltd_Unit_1.json"
+    },
+    {
+      "id": null,
+      "name": "Clean Clothes Campaign+Living Wage Gap - Actual Wages as % of Living Wage Benchmark+M.Y. Bari Mills Pvt. Ltd+2023",
+      "type": "Answer",
+      "url": "https://wikirate.org/Clean_Clothes_Campaign+Living_Wage_Gap_Actual_Wages_as_of_Living_Wage_Benchmark+M_Y_Bari_Mills_Pvt_Ltd+2023.json",
+      "content": "26.406250000000004",
+      "metric": "Clean Clothes Campaign+Living Wage Gap - Actual Wages as % of Living Wage Benchmark",
+      "company": "M.Y. Bari Mills Pvt. Ltd",
+      "year": 2023,
+      "value": "26.406250000000004",
+      "comments": null,
+      "answer_url": "https://wikirate.org/Clean_Clothes_Campaign+Living_Wage_Gap_Actual_Wages_as_of_Living_Wage_Benchmark+M_Y_Bari_Mills_Pvt_Ltd.json"
+    },
+    {
+      "id": null,
+      "name": "Clean Clothes Campaign+Living Wage Gap - Actual Wages as % of Living Wage Benchmark+M.R. Industries+2023",
+      "type": "Answer",
+      "url": "https://wikirate.org/Clean_Clothes_Campaign+Living_Wage_Gap_Actual_Wages_as_of_Living_Wage_Benchmark+M_R_Industries+2023.json",
+      "content": "26.481331167250783",
+      "metric": "Clean Clothes Campaign+Living Wage Gap - Actual Wages as % of Living Wage Benchmark",
+      "company": "M.R. Industries",
+      "year": 2023,
+      "value": "26.481331167250783",
+      "comments": null,
+      "answer_url": "https://wikirate.org/Clean_Clothes_Campaign+Living_Wage_Gap_Actual_Wages_as_of_Living_Wage_Benchmark+M_R_Industries.json"
+    }
+  ],
+  "links": [],
+  "ancestors": [
+    {
+      "id": 13979,
+      "name": "Clean Clothes Campaign",
+      "type": "Company",
+      "url": "https://wikirate.org/Clean_Clothes_Campaign.json"
+    },
+    {
+      "id": 7347356,
+      "name": "Living Wage Gap - Actual Wages as % of Living Wage Benchmark",
+      "type": "Metric Title",
+      "url": "https://wikirate.org/Living_Wage_Gap_Actual_Wages_as_of_Living_Wage_Benchmark.json"
+    },
+    {
+      "id": 43678,
+      "name": "Answer",
+      "type": "Cardtype",
+      "url": "https://wikirate.org/Answer.json",
+      "codename": "answer"
+    },
+    {
+      "id": 7347357,
+      "name": "Clean Clothes Campaign+Living Wage Gap - Actual Wages as % of Living Wage Benchmark",
+      "type": "Metric",
+      "url": "https://wikirate.org/Clean_Clothes_Campaign+Living_Wage_Gap_Actual_Wages_as_of_Living_Wage_Benchmark.json"
+    }
+  ],
+  "html_url": "https://wikirate.org/Clean_Clothes_Campaign+Living_Wage_Gap_Actual_Wages_as_of_Living_Wage_Benchmark+Answers",
+  "created_at": null,
+  "updated_at": null,
+  "requested_at": "2025-03-10 13:03:41 UTC",
+  "license": "Wikirate.org, licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0). See https://wikirate.org/Attribution_Guide."
+}

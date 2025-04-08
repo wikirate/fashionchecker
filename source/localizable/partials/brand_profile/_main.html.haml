@@ -1,13 +1,13 @@
 = section :red do
   .row
-    .col-sm-12.d-flex
+    .col-sm-12
       .d-flex.flex-wrap
         %span.display-3.yellow.pr-3
           = t('explore')
         %span.display-3.pink
           = t('the_data')
-        %p.lead.pt-3.font-weight-bolder.mb-0
-          = t('are_the_people_who_make_your_clothes_paid_enough_t')
+      %p.lead.pt-1.font-weight-bolder.mb-0
+        = t('are_the_people_who_make_your_clothes_paid_enough_t')
   - if search
     .pt-5
       = brand_profile_partial :search, locals: { redirect: false }
@@ -29,7 +29,7 @@
 .yellow-bg.skew-right
   .container-fluid.skew-left
     .container.py-5.result-container
-      .section-header
+      .section-header.pt-5
         .display-3.red
           = t('supplier_map')
         .lead.navy.pt-3
@@ -57,23 +57,22 @@
 .fuchsia-bg.skew-left
   .container-fluid.skew-right
     .container.py-5.result-container
-      .section-header
-        .row.align-items-end
-          .col-sm-6
-            .display-3.yellow
-              = t('supplier_wages')
-            %p.lead.white.pt-3
-              = t('are_surveyed_suppliers_paying')
-          .col-sm-6.text-right.d-flex.justify-content-end
-            %table.legendTable.text-left.mb-3
-              = legend_row "coins", "suppliers_table", "average"
-              = legend_row "adjust", "suppliers_table", "gap",
-                           paid: "#f9fe9c", not_paid: "#000000"
-              = legend_row "users", "suppliers_table", "number_of_workers"
-              = legend_row "female", "suppliers_table", "gender",
-                           female: "#fb4922", male: "#970000", other: "#FFB000"
-              = legend_row "suitcase", "suppliers_table", "contract",
-                            migrant: "#ed40d9", nonmigrant: "#fcc9fd"
+      .row.align-items-end
+        .col-sm-6
+          .display-3.yellow
+            = t('supplier_wages')
+          %p.lead.white.pt-1
+            = t('are_surveyed_suppliers_paying')
+        .col-sm-6.text-right.d-flex.justify-content-end
+          %table.legendTable.text-left.mb-3
+            = legend_row "coins", "suppliers_table", "average"
+            = legend_row "adjust", "suppliers_table", "gap",
+                          paid: "#f9fe9c", not_paid: "#000000"
+            = legend_row "users", "suppliers_table", "number_of_workers"
+            = legend_row "female", "suppliers_table", "gender",
+                          female: "#fb4922", male: "#970000", other: "#FFB000"
+            = legend_row "suitcase", "suppliers_table", "contract",
+                          migrant: "#ed40d9", nonmigrant: "#fcc9fd"
       #suppliers
         .result
         .noResult
@@ -86,4 +85,4 @@
 
 = commitment_modals "Public commitment", %w[No Partial Yes]
 = commitment_modals "Action plan", %w[No Partial Yes]
-= commitment_modals "Separate labor costs", %w[No Partial Yes], "isolating_labor"
+= commitment_modals "Separate labor costs", %w[No Partial Yes], "freedom_of_association_n_bargaining"

@@ -9,54 +9,54 @@
 
   .template._brand-item.brand-profile
     = section :navy do
-      .row.brand.mx-0
-        .col-sm-6
-          %a._wikirate-link.h2.white{href: "replaced_by_js", target: "_wikirate" }
-            %span._brand_name
+      .row.justify-content-center
+        .brand-profile-content.col-12
+          .row.brand.mx-0
+            .col-sm-6
+              %a._wikirate-link.h2.white{href: "replaced_by_js", target: "_wikirate" }
+                %span._brand_name
 
-          .my-4
-            %select.year-select._year-select.btn
-              - %w[2023 2022 2021 2020 2019].each do |year|
-                %option{ value: year, selected: (year == "2023") }
-                  = year
+              .my-4
+                %select.year-select._year-select.btn
+                  - %w[2024 2023 2022 2021 2020 2019].each do |year|
+                    %option{ value: year, selected: (year == "2024") }
+                      = year
 
-          //.pt-4.logo-box
-          //   %img._logo.logo{ src: "replace" }
+              //.pt-4.logo-box
+              //   %img._logo.logo{ src: "replace" }
 
-        .col-sm-6.pl-1
-          .row.mx-0.py-2
-          = property :headquarters
-          .row.border-top.mx-0.py-2
-            .col-sm-5.pl-0
-              = t('brands_owned_by')
-              %span._brand_name
-              = ":"
-            .col-sm-7.pr-0._sub_brand_list.list-unstyled
-          //= property :revenue
-          //= property :profit
-          //= property :top_3_production_countries
-      .bar.lighter-blue-bg.pt-4
-        .bar-icon
-          %img{ src: "/images/fc-vertical.svg" }
-        %p
-          =t('covid_note_1')
-          %a{ href: "https://payyourworkers.org" }
-            = t('covid_link')
-          = t('covid_note_2')
-      .showcase-details
-        .text-right.p-2.tweet-the-brand-holder
-          %a.btn.btn-primary._tweet-the-brand.d-none{ href: "https://payyourworkers.org/action" }
-            %span><
-              = t('take_action')
-            \:
-            = t('sign_the_petition')
+            .col-sm-6.pl-1
+              .row.mx-0.py-2
+              = property :headquarters
+              .row.border-top.mx-0.py-2
+                .col-sm-5.pl-0
+                  = t('brands_owned_by')
+                  %span._brand_name
+                  = ":"
+                .col-sm-7.pr-0._sub_brand_list.list-unstyled
+              //= property :revenue
+              //= property :profit
+              //= property :top_3_production_countries
+          .bar.lighter-blue-bg.pt-4
+            .bar-icon
+              %img{ src: "/images/fc-vertical.svg" }
+            %p
+              =t('covid_note_1')
+              %a{ href: "https://payyourworkers.org" }
+                = t('covid_link')
+              = t('covid_note_2')
+          .showcase-details
+            .text-right.p-2.tweet-the-brand-holder
+              %a.btn.btn-primary._tweet-the-brand.d-none{ href: "https://payyourworkers.org/action" }
+                %span>
+                  = t('take_action')
+                \:
+                = t('sign_the_petition')
 
-      .row.brand.mx-0.mt-3
-        = brand_profile_partial "score/living_wage"
-      .row.brand.mx-0.mt-3
-        .col-sm-6.pl-0
-          = brand_profile_partial "score/transparency"
-        .col-sm-6.pr-0.pl-1
-          = brand_profile_partial "score/commitment"
-
-
+          .row.brand.mx-0.mt-3
+            = brand_profile_partial "score/living_wage"
+          .row.brand.mx-0.mt-3
+            .col-sm-6.pl-0
+              = brand_profile_partial "score/transparency"
+            .col-sm-6.pr-0.pl-1
+              = brand_profile_partial "score/commitment"

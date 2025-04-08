@@ -6,7 +6,7 @@ $(document).ready ->
 
 window.brandBox = (company_id, year) ->
   @company_id = company_id
-  @year = year || 2023
+  @year = year || 2024
   @template = new FC.util.templater "#brandBox"
 
   @build = () ->
@@ -32,7 +32,7 @@ window.brandBox = (company_id, year) ->
     select.find("option[value='#{@year}']").prop "selected", true
 
   @fillCommitments = () ->
-    for _i, fld of ["action_plan", "public_commitment", "isolating_labor"]
+    for _i, fld of ["action_plan", "public_commitment", "freedom_of_association_n_bargaining"]
       @commitmentScore fld, @value(fld)
 
   @commitmentScore = (fld, value) ->

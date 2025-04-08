@@ -2,8 +2,8 @@ metricsMap = FC.metrics.suppliersMap
 headquartersMetricId = metricsMap["headquarters"]
 wageMetricId = metricsMap["average"]
 
-euros = (num) ->
-  "<td>€#{parseFloat(num, 10).toFixed 2}</td>"
+euros = (val, companyId, companyHash) ->
+  "<td>#{parseInt(companyHash[metricsMap['average']][1])}</td><td>€#{parseFloat(val, 10).toFixed 2}</td>"
 
 formatPercent = (num) ->
   parseFloat(num).toFixed 0

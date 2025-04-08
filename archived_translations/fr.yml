@@ -69,16 +69,16 @@ fr:
       Cette marque a mis en place un plan mais ce dernier n'est soit pas public, soit pas limité dans le temps, soit il concerne uniquement sur les usines de leurs fournisseurs de niveau 1, ou qui n'est pas clair sur les détails de mise-en-oeuvre (pas SMART).
     action_plan_score_3: >
       Cette marque dispose d'un plan accessible au public afin d’atteindre un salaire vital pour tou·te·s les travailleur·euse·s de sa filière d'approvisionnement, y compris des étapes concrètes dans un délai précis.
-    isolating_labor_info: Cette marque utilise-t-elle une méthode établie pour calculer les coûts de main-d'œuvre et les séparer des autres coûts de production afin de garantir que les fournisseurs puissent payer les travailleur·euses ?
-    isolating_labor_score_1: >
+    freedom_of_association_n_bargaining_info: Cette marque utilise-t-elle une méthode établie pour calculer les coûts de main-d'œuvre et les séparer des autres coûts de production afin de garantir que les fournisseurs puissent payer les travailleur·euses ?
+    freedom_of_association_n_bargaining_score_1: >
       Les marques doivent s'assurer que les coûts du travail suffisent à payer un salaire vital en utilisant une méthode établie pour les calculer, en séparant ces coûts des autres coûts de fabrication.
-    isolating_labor_score_2: >
+    freedom_of_association_n_bargaining_score_2: >
       Partiel
-    isolating_labor_score_3: >
+    freedom_of_association_n_bargaining_score_3: >
       Aucune preuve n'a été trouvée indiquant que cette marque s'assure que les coûts du travail suffisent à payer un salaire vital en utilisant une méthode établie pour les calculer, en séparant ces coûts des autres coûts de fabrication.
       Toutes les marques devraient payer des prix aux fournisseurs suffisent pour payer un salaire vital et une participation à la couverture sociale à tous les travailleur·euses des chaînes d'approvisionnement.
 
-    isolating_labor: "Séparer les coûts du travail?"
+    freedom_of_association_n_bargaining: "Séparer les coûts du travail?"
     desc:
       score_1: "This brand isn't doing enough to move towards Living Wages in its supply chain."
       score_2: "Text for score 2"

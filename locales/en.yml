@@ -2,6 +2,7 @@ en:
   header_question_1: "Are the people<br>who make<br>your clothes"
   header_question_2: "paid enough<br>to live on?"
   find_out: "Find out which apparel and footwear brands pay their workers a Living Wage."
+  reported_wage_gap: "Wide living wage gaps leave workers unable to meet their basic needs"
   living_wages: "Living Wages"
   not_poverty_wages: "Not poverty wages"
   living_wages_info: >
@@ -51,8 +52,8 @@ en:
   see_company_profile: "See company profile"
 
   commitment_score:
-    title: "Commitment Score"
-    public_commitment: "Public Commitment?"
+    title: "Living Wage Drivers"
+    public_commitment: "Public Commitment on Living Wages"
     public_commitment_info: Has this brand made a public commitment to pay all workers in its supply chain a living wage sufficient to support themselves and their dependents?
     public_commitment_score_1: >
       No evidence was found that this brand has made a commitment to working towards a living wage for all workers in its supply chain.
@@ -62,7 +63,7 @@ en:
       e.g. it is not enough to cover the worker’s family.
     public_commitment_score_3: >
       This brand has made a public commitment to working towards a living wage for all workers in its supply chain.
-    action_plan: "Action Plan?"
+    action_plan: "Living Wage Action Plan"
     action_plan_info: Does this brand have a publicly available plan for achieving a living wage for all workers in their supply chain, including concrete steps within a specific time frame?
     action_plan_score_1: >
       No evidence was found that this brand has a public time-bound action plan to improve the low wages in its supply chain.
@@ -72,22 +73,19 @@ en:
     action_plan_score_3: >
       This brand has a publicly available plan for achieving a living wage for all workers i
       n their supply chain, including concrete steps within a specific time frame.
-    isolating_labor_info: Does this brand use an established method to calculate labour costs and separate them from other production costs to ensure suppliers can pay workers?
-    isolating_labor_score_1: >
-      No evidence was found that this brand ensures labour costs are properly covered by using an established method to calculate them,
-      separating these costs from others.
-      All brands should pay prices to suppliers sufficient to cover a living wage and social protection contribution for all workers in their supply chain.
-    isolating_labor_score_2: >
+    freedom_of_association_n_bargaining_info: Does this brand report publicly on the number or percentage of supplier facilities with democratically elected unions and that are covered by collective bargaining agreements?
+    freedom_of_association_n_bargaining_score_1: >
+      This brand does not disclose the number or percentage of their supplier facilities that are covered by collective bargaining agreements with democratically elected unions.
+    freedom_of_association_n_bargaining_score_2: >
       Partial
-    isolating_labor_score_3: >
-      Brands need to ensure that labour costs are properly covered by using an established method to calculate them,
-      separating these costs from others.
+    freedom_of_association_n_bargaining_score_3: >
+      This brand discloses the number or percentage of their supplier facilities that are covered by collective bargaining agreements with democratically elected unions.
 
-    isolating_labor: "Separate Labour Costs?"
+    freedom_of_association_n_bargaining: "Discloses Freedom of Association & Collective Bargaining Coverage"
     desc:
-      score_1: "This brand isn't doing enough to move towards Living Wages in its supply chain."
+      score_1: "This brand does not disclose the number or percentage of their supplier"
       score_2: "Text for score 2"
-      score_3: "Text for score 3"
+      score_3: "This brand discloses the number or percentage of their supplier facilities that are covered by collective bargaining agreements with democratically elected unions."
 
   living_wage_score:
     title: "Living Wage Paid"
@@ -145,9 +143,10 @@ en:
     company: "company"
     gender: "Gender"
     gender_info: Percentage of workers by gender.
-    contract: "Contract"
+    contract: "Migrant Workers"
     contract_info: Percentage of workers by contract status.
     average: "Average Wage"
+    year: "Year"
     average_info:
       The monthly average net salary (in EUR equivalent of the local currency) as listed
       on surveyed workers' payslips
@@ -400,7 +399,7 @@ en:
   a_worker_from_bangladesh: "A worker from Bangladesh"
   gbv_in_bangladesh: "GBV in Bangladesh"
   about_fashion_checker: "About Fashion Checker"
-  about_the_campaign: "About the campaign"
+  about_the_campaign: "About the project"
   a_living_wage_for_garment_workers: >
     A living wage for garment workers and a transparent supply chain.
   menu_about_fashion_checker: "About Fashion Checker"
@@ -632,7 +631,9 @@ en:
   savings: "Savings"
   website_powered_by: "Website powered by"
   privacy_policy: "Privacy Policy"
-  all_rights_reserved: "All rights reserved"
+  content_license: "All content is licensed under"
+  license_name: "CC-BY-4.0"
+  license_url: "https://creativecommons.org/licenses/by/4.0/" 
   design_by: "Design by"
   new: "new"
   europe_floor_wage_benchmark: "The European Floor Wage Benchmark"
