@@ -143,9 +143,10 @@ en:
     company: "company"
     gender: "Gender"
     gender_info: Percentage of workers by gender.
-    contract: "Contract"
+    contract: "Migrant Workers"
     contract_info: Percentage of workers by contract status.
     average: "Average Wage"
+    year: "Year"
     average_info:
       The monthly average net salary (in EUR equivalent of the local currency) as listed
       on surveyed workers' payslips
@@ -398,7 +399,7 @@ en:
   a_worker_from_bangladesh: "A worker from Bangladesh"
   gbv_in_bangladesh: "GBV in Bangladesh"
   about_fashion_checker: "About Fashion Checker"
-  about_the_campaign: "About the campaign"
+  about_the_campaign: "About the project"
   a_living_wage_for_garment_workers: >
     A living wage for garment workers and a transparent supply chain.
   menu_about_fashion_checker: "About Fashion Checker"
@@ -630,7 +631,9 @@ en:
   savings: "Savings"
   website_powered_by: "Website powered by"
   privacy_policy: "Privacy Policy"
-  all_rights_reserved: "All rights reserved"
+  content_license: "All content is licensed under"
+  license_name: "CC-BY-4.0"
+  license_url: "https://creativecommons.org/licenses/by/4.0/" 
   design_by: "Design by"
   new: "new"
   europe_floor_wage_benchmark: "The European Floor Wage Benchmark"
