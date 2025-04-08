@@ -195,8 +195,6 @@ $(document).ready ->
   if params.has "q"
     FC.loadBrand params.get("q"), params.get("year")
   else
+    FC.loadLivingWage() if $("#living-wage-percentage")[0];
+    FC.loadCountries() if $("#wage_gap_per_country")[0];
     brandsTable()
-
-  # Load the living wage percentage
-  FC.loadLivingWage();
-  FC.loadCountries();
