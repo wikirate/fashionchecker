@@ -404,8 +404,10 @@ en:
     A living wage for garment workers and a transparent supply chain.
   menu_about_fashion_checker: "About Fashion Checker"
   about: "About"
-  brands_in_the_fashion_industry_put_millions: >
-    Brands in the fashion industry put millions into advertising themselves as ethical and sustainable, making plenty of claims about paying their workers a living wage. Fashion Checker shows how far from the truth this actually is, giving consumers and garment workers access to real data from the supply chains of the worlds’ biggest brands.
+  brands_in_the_fashion_industry_put_millions_p1: >
+    Brands in the fashion industry put millions into advertising themselves as ethical and sustainable, making plenty of claims about paying their workers a living wage.
+  brands_in_the_fashion_industry_put_millions_p2: >
+    Fashion Checker shows how far from the truth this actually is, giving consumers and garment workers access to real data from the supply chains of the worlds' biggest brands.
 
   power_in_the_garment_industry: "Power in the Garment Industry"
   we_believe_all_workers_in_a_supply: >
@@ -474,6 +476,10 @@ en:
   tell_brands_to_commit_to_paying_a_living_wage: "Tell brands to commit to paying a living wage across their supply chain."
   we_are_asking_brands_to_pay_an_extra_contribution: >
     We are asking brands to pay an extra contribution to the labour costs incurred while producing their clothes. This money will be reserved to go directly to paying wages rather than any other production costs. This way, brands can be sure that the workers in their supply chain earn enough to live on. We also want brands to make a meaningful efforts to reduce the gender pay gap in their supply chain. This means collecting more data about the people who make their clothes and working with factories to reduce the segregation of production roles by gender.
+  the_majority_of_garment_workers_unable_to_afford_necessities: >
+    The majority of garment workers are unable to afford life's basic necessities. Fair pay for labour is a fundamental human right, but none of the biggest fashion brands pay garment workers a wage they can live on.
+  we_are_demanding_brands_to_pay_a_living_wage: >
+    We're demanding that brands pay a living wage contribution on every order they place, sufficient to close the wage gap for all workers in their supply chain.
   a_spotlight: "A Spotlight"
   on_the_bottom_of_the_supply_chain: "On the Bottom of the<br>Supply Chain"
   where_are_the_unions: >
@@ -484,6 +490,10 @@ en:
     We want brands to ask their suppliers what roles women and migrants have in the production of their clothes in and outside of factories. Migrants, like women, are less able to fight for their basic human rights and are often in the same exploitative jobs as women.
   we_want_to_know_if_the_workers_making: >
     We want to know if the workers making our clothes have a voice. Unions allow workers to stand up for themselves and negotiated for better working conditions.
+  knowing_where_your_clothes_are_made: >
+    Knowing where your clothes are made, and who made them, is a vital step in improving working conditions.
+  we_demand_detailed_supply_chain_data: >
+    We're demanding that brands disclose detailed supply chain data at facility-level including the lowest wage level paid by each supplier, for a full working week, excluding overtime, benefits and bonuses.
   consumer: "Consumer"
   transparency: "Transparency"
   tell_brands_and_policy_makers: >
@@ -771,5 +781,8 @@ en:
   covid_note_2: "workers are being paid their due wages and owed severance."
 
   menu_facilitychecker: "Facility checker"
+  menu_donate: "Donate"
+  menu_explore: "Explore"
+  find_out_more: "Find out more"
   facilitychecker_text1: "You can search for facilities on our "
   facilitychecker_text2: ""

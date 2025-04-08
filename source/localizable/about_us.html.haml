@@ -9,116 +9,11 @@
         .lead
           = t('a_living_wage_for_garment_workers')
         %p
-          = t('brands_in_the_fashion_industry_put_millions')
-        %h3
-          = t('power_in_the_garment_industry')
+          = t('brands_in_the_fashion_industry_put_millions_p1')
         %p
-          = t('we_believe_all_workers_in_a_supply')
-          %a{ href: "https://cleanclothes.org/living-wages" }
-            = t('poverty_wages')
-          = t('since_the_birth_of_the_industry_our_research_shows')
-          %a{ href: "https://cleanclothes.org/news/2019/major-brands-are-failing-on-living-wage-commitments" }
-            = t('no_major_clothing_brand')
-          = t('is_able_to_prove_that_workers_making_their_clothin')
-        %p
-          = t('an_estimated_60_million_workers')
+          = t('brands_in_the_fashion_industry_put_millions_p2')
 
-      %img.pb-5{ src: t('img_smiling_curve') }
-
-      .middle-text
-        %h3
-          = t('earning_a_living_wage')
-        %p
-          = t('demanding_a_wage_you_can_live_on')
-          %a{ href: "https://cleanclothes.org/file-repository/resources-publications-living-wage-now-magazine/view" }
-            = t('living_wage_now')
-          = t('in_2015_it_s_five_years_later')
-
-        %img.pb-5{ src:  t('img_living_wage_circles') }
-
-        %p
-          = t('for_decades_brands_and_retailers_have_built')
-
-      %img.pb-5{ src: t('img_tee_shirt') }
-
-
-      .middle-text
-        %h3
-          = t('putting_a_spotlight_on_the_supply_chain')
-        %p
-          = t('our_main_focus_is_wages_and_transparency')
-        %p
-          = t('brands_are_obligated_by_the')
-          %a{ href: "https://www.ohchr.org/Documents/Publications/GuidingPrinciplesBusinessHR_EN.pdf" }
-            = t('un_guiding_principles_on_business_and_human_rights')
-          = t('to_run_their_business_responsibly')
-
-        .text-center
-          %img.pb-5{ src: t('img_25_percent') }
-
-        %h3
-          = t('gender_in_the_garment_industry')
-        %p
-          = t('a_lot_of_informal_work_is_done_by_women')
-        %p
-          = t('inside_factories_women_are_mainly_employed')
-
-        = image_quote "/images/living_wage/stomach_problems_bg.png",
-                      t('croatian_gender_quote'), t('a_worker_from_croatia')
-
-        %h3
-          = t('transparency_in_fashion')
-        %p
-          = t('there_has_been_an_encouraging_increase_in_how')
-
-        .text-center
-          %img.w-50{ src: "/images/about_us/magnify.png" }
-        %p
-          = t('what_are_they_hiding_no_brand')
-
-        %h3
-          = t('poverty_pay_isn_t_sustainable')
-        %p
-          = t('it_is_well_known_that_the_garment_industry')
-        %p
-          = t('paying_poverty_wages_directly_affects')
-
-      %img.pt-2.pb-5{ src: "/images/about_us/brand_collage.png" }
-      .middle-text
-
-        %h3
-          = t('economic_impact')
-        %p
-          = t('a_living_wage_for_all_workers_should_be')
-        .red-quote
-          = t('an_unequal_distribution_of_income_and_wealth')
-          .citation
-            Christa Luginbühl
-        %p
-          = t('economic_sustainability_and_resilience')
-
-        %h3
-          = t('returning_the_power_after_covid_19')
-        %p
-          = t('clothing_and_textile_manufacturing_has_always')
-          %a{ href: "https://twitter.com/TRCdocumentary/status/1261593486312251392" }
-            = t('billions_of_dollars')
-          = t('by_canceling_orders_unnecessarily')
-        %p
-          = t('to_do_so_we_need_transparency')
-
-    = section :red do
-      .text-center.middle-text
-        .display-4.yellow
-          = t('what_do_we_want')
-        .display-4.pink
-          = t('what_can_you_do')
-        .lead.mt-4.text-white
-          .strong
-            = t('we_re_demanding_that_brands_do')
-          = t('we_want_them_to_show_how_they_are_working')
-
-    .top-extender.red-bg
+    .top-extender.white-bg
       &nbsp;
 
     .navy-bg.skew-right
@@ -135,70 +30,30 @@
                   .display-3.fuchsia
                     = t('for_all_workers')
                 .col-sm-6.black
-                  .lead.pb-3
-                    = t('tell_brands_to_commit_to_paying_a_living_wage')
-                  %p
-                    = t('we_are_asking_brands_to_pay_an_extra_contribution')
-                  %a.btn.btn-primary.navy-btn{href: "take_action.html"}
-                    = t('take_action')
-
-            .p-4.my-3.red-bg
-              .row
-                .col-sm-6
-                  .display-3.yellow
-                    = t('a_spotlight')
-                  .display-3.white
-                    = t('on_the_bottom_of_the_supply_chain')
-                .col-sm-6.white
-                  .lead.pb-3
-                    = t('where_are_the_unions')
-                  %p.my-3
-                    = t('brands_never_release_data_about_the_bottom')
-                  %p.my-3
-                    = t('we_want_brands_to_ask_their_suppliers')
-                  %p.my-3
-                    = t('we_want_to_know_if_the_workers_making')
-
-                  %a.btn.btn-primary.navy-btn{href: "take_action.html"}
-                    = t('take_action')
+                  .lead
+                    %p
+                      = t('the_majority_of_garment_workers_unable_to_afford_necessities')
+                    %p
+                      = t('we_are_demanding_brands_to_pay_a_living_wage')
+                    %a.btn.btn-primary.navy-btn{href: "https://cleanclothes.org/poverty-wages", target:"_blank"}
+                      = t('find_out_more')
 
             .p-4.my-3.pink-bg
               .row
                 .col-sm-6
                   .display-3.fuchsia
-                    = t('consumer')
+                    = t('a_spotlight')
                   .display-3.red
-                    = t('transparency')
+                    = t('on_the_bottom_of_the_supply_chain')
                 .col-sm-6.black
                   .lead.pb-3
-                    = t('tell_brands_and_policy_makers')
-                  %p.my-3
-                    = t('do_you_want_to_know_if_the_people_who_made')
+                    %p
+                      = t('knowing_where_your_clothes_are_made')
+                    %p
+                      = t('we_demand_detailed_supply_chain_data')
 
-                  %a.btn.btn-primary.navy-btn{href: "take_action.html"}
-                    = t('take_action')
-
-            .p-4.my-3.fuchsia-bg
-              .row
-                .col-sm-6
-                  .display-3.white
-                    = t('covid_19')
-                .col-sm-6.white
-                  .lead.pb-3
-                    = t('support_workers_through_the_devastating_effects')
-                  %p.my-3
-                    = t('sign_the_petition_asking_brands_to_pay_for_orders')
-                  %p.my-3
-                    = t('donate_to_our_emergency_fund_to_help_us')
-                  %p.my-3
-                    = t('for_information_on_how_to_do_so_please')
-                  %p.my-3
-                    = t('follow_our_live_blog_for_the_latest_information')
-                  %p.my-3
-                    = t('find_out_more_about_our_demands')
-
-                  %a.btn.btn-primary.navy-btn{href: "take_action.html"}
-                    = t('take_action')
+                    %a.btn.btn-primary.navy-btn{href: "https://cleanclothes.org/unclear-supply-chains", target: "_blank"}
+                      = t('find_out_more')
 
     .bottom-extender.navy-bg
 
@@ -212,9 +67,10 @@
             = t('you_can_help_fund_this_campaign')
           .py-2
             = t('every_little_bit_helps')
-          .py-2
+          .py-2.pb-4
             = t('future_research_and_translations_of_our_data')
 
-          = donate_button "MELX7VJAD7S5Q", "donate-fc-black.png"
+          %a.btn.btn-primary.navy-btn{href: "https://cleanclothes.org/donate", target: "_blank"}
+            = t('donate')
 
     = partial "partials/shared/footer"
