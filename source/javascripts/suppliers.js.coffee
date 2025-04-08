@@ -3,7 +3,6 @@ headquartersMetricId = metricsMap["headquarters"]
 wageMetricId = metricsMap["average"]
 
 euros = (val, companyId, companyHash) ->
-  console.log(val)
   "<td>#{parseInt(companyHash[metricsMap['average']][1])}</td><td>€#{parseFloat(val, 10).toFixed 2}</td>"
 
 formatPercent = (num) ->
