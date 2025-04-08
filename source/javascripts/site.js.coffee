@@ -126,7 +126,7 @@ countryListUrl = FC.apiSwitch "/content/country_list.json",
 
 gapAsPercentUrl = (country) -> 
   FC.apiSwitch "/content/#{country}.json",
-    FC.apiUrl "~#{FC.metrics.gap}+Answer",
+    FC.apiUrl "~#{FC.metrics.suppliersMap.gap}+Answer",
         limit: 0
         filter:
           country: country
