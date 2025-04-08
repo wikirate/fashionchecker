@@ -178,24 +178,18 @@ en:
   footer_info: "is a campaign by the Clean Clothes Campaign, funded by the European Union"
   methodology_title: "Our Research Methodology"
   methodology_paragraph_1: >
-    We sent more than 90 brands questionnaires to give them the opportunity to showcase the efforts they are making towards paying a living wage to all workers in their supply chain and to disclose their production locations (if they had not done so through the Transparency Pledge). Our emphasis is on expressing the brands’ efforts to pay a living wage through SMART data collected via this research in a transparent and comprehensive format for consumers, garment workers and policy makers. It is hoped that, in the long term, brands representation on Fashion Checker will become a component of a brand’s due diligence and CSR validation process.
-  methodology_paragraph_2: >
-    Because of the challenging context, including workers’ reluctance to speak with researchers for fear of reprisal, field research at workplace level has initially only been carried out in five countries where access to garment workers is guaranteed; Indonesia, China, Croatia, India and the Ukraine. We collected workers’ payslips,
-    conducted interviews to interpret the information the payslips provide, disaggregated
-    by gender (e.g. on gender pay gaps, work responsibilities, working hours,bonuses,
-    overtime). We then checked these wages against the response given by brands on their
-    living wage benchmarks and the percentage of suppliers paid according to this
-    benchmark. We will be adding data from more countries as this project progresses.
-  methodology_paragraph_3A: "We worked with"
-  methodology_paragraph_3B: >
-    , an open data expert, on the aggregation and consolidation of
-    the supply chain information released by brands. We also use the data gathered by the
-  methodology_paragraph_3C: "and"
-  methodology_paragraph_3D: >
-    among others. This database, as well as
-    datasets from trusted partners with long running experience makes this evidence
-    available to the public in a user-friendly way. We tested various methods of presenting
-    this data with the help of experts in usability,
+    The Fashion Checker incorporates data from publicly available sources as well as worker surveys conducted by a number of organisations.
+  methodology_paragraph_2A: >
+    The data contained in the brand scores is sourced from the Fashion Transparency Index. The Index, conducted on a yearly basis by
+  methodology_paragraph_2B: >
+    , ranks the world’s largest fashion brands and retailers according to what information they disclose about their social and environmental policies and impacts. Information about their methodology and data can be found 
+  methodology_paragraph_3A: "Aggregate facility wage data is collected by "
+  methodology_paragraph_3B: " network organisations and "
+  methodology_paragraph_3C: " through worker surveys. This data is compared to living wage benchmarks using estimates from the "
+  methodology_paragraph_3D: " and the "
+  methodology_paragraph_4A: "The facility and supply chain relationship data is sourced from "
+  methodology_paragraph_4B: " or extracted from brand supplier lists by "
+  methodology_paragraph_5: "All data is uploaded to the open data platform Wikirate.org along with the sources for the information and automatically pulled into the Fashion Checker."
   gender_header_1: "Gender in the Garment Industry"
   gender_lead: >
     It is the high majority of women in the garment industry that show its true nature.
@@ -236,11 +230,11 @@ en:
     Clean Clothes Campaign is a global network dedicated to improving working conditions
     and empowering workers in the global garment and sportswear industries.
   since_1989_ccc_has_worked_to_ensure: >
-    Since 1989, CCC has worked to ensure that the fundamental rights of workers are respected. We educate and mobilise consumers, lobby companies and governments, and offer direct solidarity support to workers as they fight for their rights and demand better working conditions.
+    Since 1989, Clean Clothes Campaign has worked to ensure that the fundamental rights of workers are respected. We educate and mobilise consumers, lobby companies and governments, and offer direct solidarity support to workers as they fight for their rights and demand better working conditions.
   as_a_grassroots_network_of_hundreds: >
     As a grassroots network of hundreds of organisations and unions, both in garment-producing and in consumer markets, we can identify local problems and develop campaign strategies to support workers in achieving their goals. We also cooperate extensively with similar labour rights campaigns and groups.
   all_workers_regardless_of_sex_age: >
-    All workers, regardless of sex, age, country of origin, legal status, employment status or location, or any other basis, have a right to good and safe working conditions, where they can exercise their fundamental rights to associate freely and bargain collectively, and earn a living wage, which allows them to live in dignity.
+    All workers, regardless of sex, age, country of origin, legal status, employment status or location, or any other basis, have a right to good and safe working conditions, where they can exercise their fundamental rights to associate freely and bargain collectively, and earn a living wage, which allows them to live in dignity
   visit_site: "Visit Site"
   transparency_header: "Transparency"
   knowing_where_your_clothes_are_made: >
