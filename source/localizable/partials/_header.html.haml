@@ -11,38 +11,27 @@
                 %a{:href => "about_us.html"}
                   = t('menu_about_fashion_checker')
               %li
-                %a{:href => "our_demands.html"}
-                  = t('menu_our_demands')
-              %li
                 %a{:href => "who_are_we.html"}
                   = t('menu_who_we_are')
               %li
                 %a{:href => "methodology.html"}
                   = t('menu_methodology')
-              %li
-                %a{:href => "https://facilitychecker.org"}
-                  = t('menu_facilitychecker')
           .col-sm-4
             %h4
-              = t('learn_more')
+              = t('explore')
             %ul.list-unstyled
               %li
-                %a{:href => "living_wage.html"}
-                  = t('menu_living_wage')
-              %li
-                %a{:href => "gender.html"}
-                  = t('menu_gender')
-              %li
-                %a{:href => "transparency.html"}
-                  = t('menu_transparency')
-              %li
-                %a{:href => "resources.html"}
-                  = t('menu_resources')
-
+                %a{:href => "https://facilitychecker.org", :target => "_blank"}
+                  = t('menu_facilitychecker')
+ 
           .col-sm-4
-            %a{:href => "take_action.html"}
-              %h4
-                = t('menu_take_action')
+            %h4
+              = t('take_action')
+            %ul.list-unstyled
+              %li
+                %a{:href => "https://cleanclothes.org/donate", :target => "_blank"}
+                  = t('menu_donate')
+
 
 
   .navbar.navbar-dark.red-bg.shadow-sm

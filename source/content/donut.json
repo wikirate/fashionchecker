@@ -51,12 +51,12 @@
           {
             "type": "formula",
             "as": "percent",
-            "expr": "100 - datum.avg_living_wage_gap"
+            "expr": "datum.avg_living_wage_gap"
           },
           {
             "type": "formula",
             "as": "gap",
-            "expr": "datum.avg_living_wage_gap"
+            "expr": "100 - datum.avg_living_wage_gap"
           },
           {
             "type": "fold",
@@ -66,7 +66,7 @@
           {
             "type": "formula",
             "as": "id",
-            "expr": "datum.key === 'percent' ? 2 : 1"
+            "expr": "datum.key === 'percent' ? 1 : 2"
           },
           {
             "type": "pie",
@@ -78,7 +78,7 @@
       
     ],
   "scales": [
-    {"name": "color", "type": "ordinal", "range": ["#ed40d9", "#fafafa"]}
+    {"name": "color", "type": "ordinal", "range": ["#fafafa", "#ed40d9"]}
   ],
   "marks": [
     {
