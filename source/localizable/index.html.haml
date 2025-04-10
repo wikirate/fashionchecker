@@ -79,7 +79,26 @@
           ._transparencyTemplate.d-none
             = partial "partials/brand_profile/score/transparency_stars.html"
     .bottom-extender.yellow-bg.extra-extender
-    
+
+    .fuchsia-bg.skew-left
+      .container-fluid.skew-right.pt-5
+        .container.py-5.result-container
+          .row.align-items-center.pt-5.pb-5
+            .col-sm-4
+              .w-50
+                .span.display-3.yellow
+                  = t('living_wages')
+                .span.display-3.white
+                  = t('not_poverty_wages')
+            .col-sm-8
+              .lead.white
+                = t('living_wages_info')
+              .py-3
+                %a.btn.btn-primary.navy-btn{ href: "living_wage.html" }
+                  = t('read_more_living_wages')
+
+    .bottom-extender.fuchsia-bg
+
     .high-z
       = banner "/images/homepage/textile_scene.png"
 
