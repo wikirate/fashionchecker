@@ -16,10 +16,10 @@ en:
   end: "End"
   gendered_pay: "Gendered Pay"
   gendered_pay_info: >
-    80% of garment workers are women. They are routinely paid less than their male
+    60% of garment workers are women. They are routinely paid less than their male
     counterparts. Gender inequality is deeply rooted in the industry's power imbalance,
     and gendered pay has a direct link to verbal, physical and sexual assault.
-  gender: "Read more about Gender"
+  gender: "Learn More"
   resilience: "Resilience"
   in_the_face_of_a_crisis: "In the face of a crisis"
   our_demands: "Our Demands"
@@ -182,7 +182,7 @@ en:
   methodology_paragraph_2A: >
     The data contained in the brand scores is sourced from the Fashion Transparency Index. The Index, conducted on a yearly basis by
   methodology_paragraph_2B: >
-    , ranks the world’s largest fashion brands and retailers according to what information they disclose about their social and environmental policies and impacts. Information about their methodology and data can be found 
+    , ranks the world’s largest fashion brands and retailers according to what information they disclose about their social and environmental policies and impacts. Information about their methodology and data can be found
   methodology_paragraph_3A: "Aggregate facility wage data is collected by "
   methodology_paragraph_3B: " network organisations and "
   methodology_paragraph_3C: " through worker surveys. This data is compared to living wage benchmarks using estimates from the "
@@ -637,7 +637,7 @@ en:
   privacy_policy: "Privacy Policy"
   content_license: "All content is licensed under"
   license_name: "CC-BY-4.0"
-  license_url: "https://creativecommons.org/licenses/by/4.0/" 
+  license_url: "https://creativecommons.org/licenses/by/4.0/"
   design_by: "Design by"
   new: "new"
   europe_floor_wage_benchmark: "The European Floor Wage Benchmark"
