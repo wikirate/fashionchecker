@@ -98,13 +98,13 @@ $.extend FC,
   metricUrl: (metricId) ->
     "#{wikirateLinkTarget}/~#{metricId}"
 
-  companyUrl: (companyId) ->
+  companyUrl: (companyId, dataset) ->
     "#{wikirateLinkTarget}/~#{companyId}?" +
       $.param
         contrib: "N"
         tab: "answer"
         filter:
-          topic: "Filling the Gap"
+          dataset: dataset
 
 subBrandsUrl = FC.apiSwitch "/content/sub_brands.json",
   FC.apiUrl "~#{FC.metrics.hasBrands}+Relationship",

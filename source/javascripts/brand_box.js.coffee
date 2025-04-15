@@ -99,7 +99,7 @@ window.brandBox = (company_id, year) ->
       FC.util.image.transparency @find("._#{fld}"), val
 
   @wikiRateLinks = () ->
-    @find("._wikirate-link").attr "href", FC.companyUrl(@company_id)
+    @find("._wikirate-link").attr "href", FC.companyUrl(@company_id, "Fashion Checker: Brand Data")
 
   @tweetTheBrand = () ->
     return unless (handle = @value "twitter_handle")
