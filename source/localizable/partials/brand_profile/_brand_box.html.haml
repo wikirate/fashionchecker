@@ -37,21 +37,10 @@
               //= property :revenue
               //= property :profit
               //= property :top_3_production_countries
-          .bar.lighter-blue-bg.pt-4
-            .bar-icon
+
               %img{ src: "/images/fc-vertical.svg" }
-            %p
-              =t('covid_note_1')
-              %a{ href: "https://payyourworkers.org" }
-                = t('covid_link')
-              = t('covid_note_2')
-          .showcase-details
-            .text-right.p-2.tweet-the-brand-holder
-              %a.btn.btn-primary._tweet-the-brand.d-none{ href: "https://payyourworkers.org/action" }
-                %span>
-                  = t('take_action')
-                \:
-                = t('sign_the_petition')
+
+
 
           .row.brand.mx-0.mt-3
             = brand_profile_partial "score/living_wage"

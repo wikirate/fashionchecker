@@ -93,9 +93,7 @@
             .col-sm-8
               .lead.white
                 = t('living_wages_info')
-              .py-3
-                %a.btn.btn-primary.navy-btn{ href: "living_wage.html" }
-                  = t('read_more_living_wages')
+
 
     .bottom-extender.fuchsia-bg
 
@@ -113,7 +111,7 @@
         .col-sm-8
           %p.red.lead
             = t('gendered_pay_info')
-          %a.btn.btn-primary{href: "gender.html"}
+          %a.btn.btn-primary{href: "https://cleanclothes.org/gender-discrimination", target:"_blank"}
             = t('gender')
 
     = section :red do
@@ -121,14 +119,15 @@
         .col-sm-4
           .w-75
             .span.display-3.white
-              = t('resilience')
-            .span.display-3.yellow
-              = t('in_the_face_of_a_crisis')
+              = t('your_voice_has_power')
         .col-sm-8.white
           %p.lead
-            = t('resilience_info')
-          %a.btn.btn-primary.navy-btn{ href: "our_demands.html" }
-            = t('our_demands')
+            = t('your_voice_info_1')
+            %span.yellow
+              \#LivingWageNow
+            = t('your_voice_info_2')
+          %a.btn.btn-primary.navy-btn{ href: "https://cleanclothes.org/action", target: "_blank" }
+            = t('take_action')
 
     .banner.trio-banner
       .banner-image
@@ -140,17 +139,7 @@
             = t('a_worker_from_india')
 
     = section :navy do
-      .row.pl-5
-        .col-sm-6.voice-has-power
-          %h3
-            = t('your_voice_has_power')
-          %p
-            = t('your_voice_info_1')
-            %span.fuchsia
-              \#LivingWageNow
-            = t('your_voice_info_2')
-          %a.btn.btn-primary{ href: "take_action.html" }
-            = t('take_action')
+
       .row.pt-5
         .col-4.p-4
           %img.w-100{ src: "/images/homepage/olympics.png" }
