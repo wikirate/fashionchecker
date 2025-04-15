@@ -37,6 +37,9 @@ RUN curl -L -o /usr/local/bin/supercronic https://github.com/aptible/supercronic
 # Step 9: Copy the Middleman build output to the nginx html folder
 COPY --from=0 /fashionchecker/build /usr/share/nginx/html
 
+# Override nginx default config
+COPY nginx.conf /etc/nginx/conf.d/default.conf
+
 # Copy the update_cached_data.rb script
 COPY --from=0 /fashionchecker/script/update_cached_data.sh /fashionchecker/script/update_cached_data.sh
 
