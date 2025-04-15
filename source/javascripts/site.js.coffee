@@ -102,7 +102,7 @@ $.extend FC,
     "#{wikirateLinkTarget}/~#{companyId}?" +
       $.param
         contrib: "N"
-        tab: "metric_answer"
+        tab: "answer"
         filter:
           topic: "Filling the Gap"
 
