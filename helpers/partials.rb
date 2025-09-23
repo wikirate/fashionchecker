@@ -2,6 +2,7 @@ module Partials
   require "json"
 
   SCORE_KEYS = %i[
+     lw_b
      lw_c_50_plausible_notpublic
      lw_d_25_public
      lw_d_started
