@@ -707,6 +707,8 @@ en:
   human_rights_watch: "Human rights watch"
   menu_explore_the_data: "Explore the Data"
   resources: "Resources"
+  lw_b: >
+    The brand publicly claims that they pay more than 50% of its supplier factories pay workers a living wage, states which living wage benchmark is used and discloses wage levels at a facility-level in their supply chain.
   lw_c_50_plausible_notpublic: >
     The brand claims that 50% or more of its supplier factories are paying a living wage to all their workers, some plausible explanation is given, but the evidence is not public. Which means many of the workers making their clothes do not earn enough to live on.
   lw_d_25_public: >
