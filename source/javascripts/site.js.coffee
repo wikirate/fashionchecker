@@ -156,10 +156,17 @@ $.extend FC,
     suppliersInfo companyId
 
   loadSubBrands: $.ajax(url: subBrandsUrl, dataType: "json").done (owned) ->
+    latest = {}
     $.each owned.items, (_i, brand) ->
       key = brand.subject_company
-      FC.subBrands[key] ||= []
-      FC.subBrands[key].push brand.object_company
+      y = parseInt(brand.year, 10)
+      entry = latest[key]
+      if not entry? or y > entry.year
+        latest[key] = year: y, brands: [brand.object_company]
+      else if y is entry.year
+        latest[key].brands.push brand.object_company unless brand.object_company in entry.brands
+
+      FC.subBrands[key] = latest[key].brands
       FC.subBrands[key].sort()
 
   formatPercent = (num) ->
