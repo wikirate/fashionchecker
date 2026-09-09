@@ -1,23 +1,24 @@
 source 'https://rubygems.org'
 
-gem 'middleman', '4.4.2'
-gem 'middleman-autoprefixer', '>= 3'
-gem 'middleman-livereload'
-gem 'middleman-cli'
+ruby '~> 3.4.0'
+
+gem 'middleman', '~> 4.6.3'
+gem 'middleman-autoprefixer', '~> 3.0'
+gem 'middleman-livereload', '~> 3.4'
+# The templates use the Haml 5 syntax supported by Middleman 4.
+gem 'haml', '~> 5.2'
 gem 'tzinfo-data', platforms: [:mswin, :mingw, :jruby]
 gem 'wdm', '>= 0.1', platforms: [:mswin, :mingw]
 gem 'ed25519', '>= 1.2'
 gem 'bcrypt_pbkdf', '>= 1'
-gem "rack-cors"
-gem "activesupport", "~>6.1"
+gem 'rack-cors'
 
 group :development do
-  gem 'rake', '>= 10.4'
-  gem 'rspec', '>= 3.4'
-  gem 'capybara', '>= 2.5'
-  gem 'cucumber'
+  gem 'rake', '~> 13.3'
+  gem 'rspec', '~> 3.13'
+  gem 'capybara', '~> 3.40'
+  gem 'cucumber', '~> 11.1'
   gem 'capistrano'
-  # gem 'capistrano-rvm'
   gem "capistrano-bundler"
-  gem "selenium-webdriver", "3.8.0"
+  gem 'selenium-webdriver', '~> 4.48'
 end
