@@ -5,7 +5,10 @@ activate :autoprefixer do |prefix|
   prefix.browsers = "last 2 versions"
 end
 
-activate :livereload
+configure :development do
+  set :watcher_force_polling, true
+  activate :livereload, host: '0.0.0.0', js_host: 'localhost'
+end
 activate :i18n, :mount_at_root => :en # Mount English at root
 
 configure :build do

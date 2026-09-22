@@ -1,0 +1,5 @@
+.grievance-card{ class: "_grievance-#{key}" }
+  .grievance-card-icon
+    %i.fa{ class: "fa-#{icon}" }
+  %h6.grievance-card-label= t("brand_profile_extended.grievance.items.#{key}")
+  %p.grievance-card-value{ class: "_grievance-value-#{key}", data: { online_action: t("brand_profile_extended.grievance.open_online") } }= t("no_data")

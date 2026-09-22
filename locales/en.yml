@@ -771,6 +771,93 @@ en:
     tooltip_suppliers: suppliers
 
   no_data: No data available
+  unknown: Unknown
+
+  brand_profile_loading:
+    brand_overview: "Loading brand data"
+    supplier_map: "Loading supplier map"
+    supplier_wages: "Loading supplier wage data"
+
+  brand_profile_navigation:
+    page_label: "Explore this brand"
+    overview_label: "Jump within brand overview"
+    overview: "Overview"
+    supplier_map: "Supplier map"
+    supplier_wages: "Supplier wages"
+    living_wage: "Living wage"
+    standards_commitments: "Participation & Regulation"
+    grievance_mechanism: "Grievance mechanism"
+
+  brand_profile_extended:
+    eyebrow: "Industry initiatives & due diligence"
+    title: "Participation & Regulation"
+    intro: "Brand participation in industry initiatives and agreements, and its coverage under due diligence legislation."
+    legend:
+      active: "Member / signed / in scope"
+      inactive: "Not reported / not in scope"
+    groups:
+      multistakeholder_initiatives:
+        title: "Multi-stakeholder initiatives"
+        description: "Voluntary industry initiative memberships."
+      binding_agreements:
+        title: "Binding agreements"
+        description: "Legally enforceable agreements signed by the brand."
+      non_binding_agreements:
+        title: "Non-binding agreements"
+        description: "Voluntary agreements signed by the brand."
+      mhrdd_coverage:
+        title: "Regulatory coverage"
+        description: "Mandatory human rights and environmental due diligence laws the brand falls under."
+    items:
+      fair_labor_association:
+        label: "Fair Labor Association"
+      fair_wear_foundation:
+        label: "Fair Wear Foundation"
+      ethical_trading_initiative:
+        label: "Ethical Trading Initiative"
+      better_cotton:
+        label: "Better Cotton"
+      cascale:
+        label: "Cascale"
+      international_accord:
+        label: "International Accord"
+        description: "Binding health and safety agreement."
+      bangladesh_accord:
+        label: "Bangladesh Accord"
+        description: "Factory safety in Bangladesh."
+      pakistan_accord:
+        label: "Pakistan Accord"
+        description: "Factory safety in Pakistan."
+      act_cambodia:
+        label: "ACT Cambodia"
+        description: "ACT's Cambodia agreement."
+      industriall_gfa:
+        label: "IndustriALL GFA"
+        description: "Global Framework Agreement."
+      act:
+        label: "ACT"
+        description: "Action, Collaboration, Transformation on living wages."
+      csrd:
+        label: "CSRD"
+        description: "EU Corporate Sustainability Reporting Directive."
+      csddd:
+        label: "CSDDD"
+        description: "EU Corporate Sustainability Due Diligence Directive (applies from 2029)."
+      norwegian_transparency_act:
+        label: "Norwegian Transparency Act"
+        description: "Norwegian due diligence law (Åpenhetsloven)."
+      duty_of_vigilance:
+        label: "Duty of Vigilance"
+        description: "French due diligence law (Loi de Vigilance)."
+    grievance:
+      eyebrow: "Worker voice"
+      title: "Company Grievance Mechanism"
+      intro: "Public channels for workers and communities to report concerns about the brand's supply chain."
+      open_online: "Open online reporting channel"
+      items:
+        email: "Email"
+        hotline: "Hotline"
+        online: "Online"
 
   covid_note_1: "Garment workers have been paid poverty wage for decades and most do not have access to social protection. During the pandemic these low wages were cut further and severance compensation wasn't paid in full, if at all. Now brands are thriving again but for workers the crisis is still not over. Living wages will remain a priority for the Clean Clothes Campaign but we now"
   covid_link: "call upon brands to ensure "

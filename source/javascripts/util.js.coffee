@@ -17,7 +17,11 @@ FC.util =
     @template = () ->
       @container.children ".template"
 
+    @loading = () ->
+      @container.children ".loading"
+
     @publish = () ->
+      @loading().hide()
       @showHeaders()
       @container.children(".result").show()
 
@@ -31,10 +35,12 @@ FC.util =
       @current.find selector
 
     @noResult = () ->
+      @loading().hide()
       @showHeaders()
       @container.children(".noResult").show()
 
     @result().empty()
+    @loading().show()
     @container.children(".noResult").hide()
     @current = @template().clone()
     @current.removeClass "template"

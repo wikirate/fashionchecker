@@ -6,8 +6,40 @@ $(document).ready ->
 
 window.brandBox = (company_id, year) ->
   @company_id = company_id
-  @year = year || 2025
+  @year = year || 2026
   @template = new FC.util.templater "#brandBox"
+  @statusGroups = [
+    key: "multistakeholder_initiatives"
+    items: [
+      { key: "fair_labor_association", normalize: (value) -> value is "Yes" }
+      { key: "fair_wear_foundation", normalize: (value) -> value is "Current Member" }
+      { key: "ethical_trading_initiative", normalize: (value) -> value.indexOf("Full") is 0 }
+      { key: "better_cotton", normalize: (value) -> value is "Yes" }
+      { key: "cascale", normalize: (value) -> true }
+    ]
+  ,
+    key: "binding_agreements"
+    items: [
+      { key: "international_accord", normalize: (value) -> value is "Yes" }
+      { key: "bangladesh_accord", normalize: (value) -> value is "Yes" }
+      { key: "pakistan_accord", normalize: (value) -> value is "Yes" }
+      { key: "act_cambodia", normalize: (value) -> value is "Yes" }
+    ]
+  ,
+    key: "non_binding_agreements"
+    items: [
+      { key: "industriall_gfa", normalize: (value) -> value is "Yes" }
+      { key: "act", normalize: (value) -> value is "Yes" }
+    ]
+  ,
+    key: "mhrdd_coverage"
+    items: [
+      { key: "csrd", normalize: (value) -> value is "Yes" }
+      { key: "csddd", normalize: (value) -> value is "Yes" }
+      { key: "norwegian_transparency_act", normalize: (value) -> value is "Yes" }
+      { key: "duty_of_vigilance", normalize: (value) -> value is "Yes" }
+    ]
+  ]
 
   @build = () ->
     @fillName()
@@ -19,9 +51,12 @@ window.brandBox = (company_id, year) ->
     @fillSubBrands()
     @livingWageImage()
     @transparency()
+    @fillStatusGroups()
+    @fillGrievanceMechanisms()
     @wikiRateLinks()
     @tweetTheBrand()
     @template.publish()
+    FC.brandProfileNavigation.refresh()
 
   @fillName = () ->
     @template.fill "brand_name", @data["name"]
@@ -37,9 +72,9 @@ window.brandBox = (company_id, year) ->
 
   @commitmentScore = (fld, value) ->
     el = @template.find "._#{fld}"
-    el.find("a").attr "href", FC.metricUrl(@metricId(fld))
+    # el.find("a").attr "href", FC.metricUrl(@metricId(fld))
 
-    handleNoData "#{fld} ._help", value, () ->
+    @handleNoData "#{fld} ._help", value, () ->
       el.find("._value").text(value)
       letterGrade = FC.score.commitment[value]
 
@@ -63,10 +98,78 @@ window.brandBox = (company_id, year) ->
     for _i, fld of ["headquarters", "top_3_production_countries"]
       @template.fill fld, @value(fld)
 
+  @fillStatusGroups = () ->
+    for _i, group of @statusGroups
+      activeCount = 0
+      for _j, item of group.items
+        isActive = @statusItemActive item
+        activeCount++ if isActive
+        statusItem = @find "._status-item-#{item.key}"
+        statusItem.toggleClass "is-active", isActive
+        statusItem.toggleClass "is-not-reported", not isActive
+
+      @template.fill "status-group-count-#{group.key}", "#{activeCount}/#{group.items.length}"
+
+  @statusItemActive = (item) ->
+    value = @value(item.key)
+    return false if value == FC.lang.noData
+    item.normalize(value)
+
+  @fillGrievanceMechanisms = () ->
+    grievanceMap =
+      email: "grievance_email"
+      hotline: "grievance_hotline"
+      online: "grievance_online"
+
+    $.each grievanceMap, (uiKey, metricKey) =>
+      value = @normalizeGrievanceValue uiKey, @value(metricKey)
+      valueElement = @find "._grievance-value-#{uiKey}"
+      @renderGrievanceValue uiKey, value, valueElement
+      @find("._grievance-#{uiKey}").toggleClass "is-empty", value == FC.lang.noData
+
+  @renderGrievanceValue = (uiKey, value, valueElement) ->
+    valueElement.empty()
+    return valueElement.text(value) if value == FC.lang.noData or value == FC.lang.unknown
+
+    value = $.trim(value)
+    value = "https://#{value}" if uiKey == "online" and /^www\./i.test(value)
+    if uiKey == "email" and /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value)
+      $("<a>", {
+        class: "grievance-card-link"
+        href: "mailto:#{encodeURIComponent(value)}"
+        text: value
+      }).appendTo valueElement
+    else if uiKey == "online" and /^https?:\/\/[^\s]+$/i.test(value)
+      linkAttributes =
+        href: value
+        rel: "noopener noreferrer"
+        target: "_blank"
+
+      $("<a>", $.extend({
+        class: "grievance-card-link"
+        text: valueElement.data("online-action")
+      }, linkAttributes)).appendTo valueElement
+
+      $("<a>", $.extend({
+        class: "grievance-card-destination"
+        text: @grievanceUrlLabel(value)
+        title: value
+      }, linkAttributes)).appendTo valueElement
+    else
+      valueElement.text value
+
+  @grievanceUrlLabel = (url) ->
+    url.replace(/^https?:\/\//i, "").replace(/\/$/, "")
+
+  @normalizeGrievanceValue = (uiKey, value) ->
+    return FC.lang.noData if value == FC.lang.noData
+    return FC.lang.unknown if uiKey == "hotline" and /^http/i.test(value)
+    value
+
   @fillEuro = () ->
     for _i, fld of ["revenue", "profit"]
       year = @valueYear fld
-      handleNoData fld, @value(fld), (val) ->
+      @handleNoData fld, @value(fld), (val) ->
         num = val.replace /(\d)(?=(\d{3})+$)/g, "$1,"
         @template.fill fld, "EUR #{num}"
         @template.fill "#{fld}-year", "(#{year})"
@@ -90,12 +193,12 @@ window.brandBox = (company_id, year) ->
 
   @livingWageImage = () ->
     fld = "living_wages_score"
-    handleNoData fld, @value(fld), (val) ->
+    @handleNoData fld, @value(fld), (val) ->
       FC.util.image.select @find("._#{fld} img"), "wage_score", val, "png"
 
   @transparency = () ->
     fld = "transparency-stars"
-    handleNoData fld, @value("transparency_score"), (val) ->
+    @handleNoData fld, @value("transparency_score"), (val) ->
       FC.util.image.transparency @find("._#{fld}"), val
 
   @wikiRateLinks = () ->

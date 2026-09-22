@@ -1,0 +1,14 @@
+- item_key = item[:key]
+- short = item[:short]
+.status-item{ class: "_status-item-#{item_key}" }
+  .status-item-marker
+    %span.status-indicator
+  .status-item-content
+    .status-item-title
+      = t("brand_profile_extended.items.#{item_key}.label")
+      - if short
+        %span.status-item-short
+          = "- #{short}"
+    - description_key = "brand_profile_extended.items.#{item_key}.description"
+    - if I18n.exists?(description_key)
+      %p.status-item-description= t(description_key)

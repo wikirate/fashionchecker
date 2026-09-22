@@ -9,8 +9,7 @@ Add the following code to your website to embed (adjusting width and height as n
 Note: supported languages can be embedded by adding the language prefix to the source url, eg `https://fashionchecker.org/de/embed.html`.
 
 ## developer setup
-The site is developed with [Middleman](https://middlemanapp.com). It depends on Ruby and the 
-RubyGems package manager. If you don't have that you can follow these [instructions](https://middlemanapp.com/basics/install/). 
+The site is developed with [Middleman](https://middlemanapp.com) and requires Ruby 3.4.10 (see `.ruby-version`) and the RubyGems package manager. If you don't have those, follow the [Middleman installation instructions](https://middlemanapp.com/basics/install/).
  
  
 ### installation 

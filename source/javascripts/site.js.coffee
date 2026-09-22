@@ -33,6 +33,24 @@ window.FC =
       revenue: 5780267
       profit: 5780278
       top_3_production_countries: 5768935
+      grievance_email: 23699574
+      grievance_hotline: 23699586
+      grievance_online: 23699597
+      fair_labor_association: 46944
+      fair_wear_foundation: 5410970
+      ethical_trading_initiative: 168322
+      better_cotton: 14208578
+      cascale: 22972497
+      international_accord: 22973169
+      bangladesh_accord: 3095017
+      pakistan_accord: 22973182
+      act_cambodia: 23207629
+      industriall_gfa: 22976023
+      act: 5412982
+      csrd: 23241954
+      csddd: 23698925
+      norwegian_transparency_act: 23241976
+      duty_of_vigilance: 23698938
 
     brandsAnnualMap:
       transparency_score: 5780639
@@ -81,6 +99,44 @@ FC.metrics.brandsMap =
   Object.assign {}, FC.metrics.brandsLatestMap, FC.metrics.brandsAnnualMap
 
 $.extend FC,
+  brandProfileNavigation:
+    initialized: false
+
+    init: () ->
+      return unless $("._brand-profile-page-nav")[0]
+      return if @initialized
+
+      @initialized = true
+      $(window).on "scroll.brandProfileNavigation resize.brandProfileNavigation", => @update()
+      $("body").on "click", "._brand-profile-page-nav a, ._brand-profile-local-nav a", (event) =>
+        targetId = $(event.currentTarget).attr "href"
+        target = $(targetId)
+        return unless target.length
+
+        event.preventDefault()
+        offset = target.offset().top - 140
+        $("html, body").stop(true).animate { scrollTop: offset }, 300
+        window.history.pushState null, "", targetId if window.history?.pushState
+
+      @update()
+
+    update: () ->
+      links = $("._brand-profile-page-nav-link")
+      return unless links.length
+
+      activeLink = links.first()
+      scrollPosition = $(window).scrollTop() + 160
+
+      links.each (_index, link) ->
+        section = $($(link).attr("href"))
+        activeLink = $(link) if section.length and section.offset().top <= scrollPosition
+
+      links.removeClass("is-active").removeAttr("aria-current")
+      activeLink.addClass("is-active").attr "aria-current", "page"
+
+    refresh: () ->
+      @update()
+
   apiSwitch: (cached, live) ->
     if wikirateApiMode == "cached"
       cached
@@ -151,7 +207,8 @@ donutChart = (country, colors, values, domain) ->
 
 $.extend FC,
   loadBrand: (companyId, year) ->
-    $(".section-header > div, .result, .noResult").hide()
+    $(".result, .noResult").hide()
+    $(".section-header > div, .loading").show()
     brandBox companyId, year
     suppliersInfo companyId
 
@@ -200,6 +257,7 @@ $(document).ready ->
 
   params = new URLSearchParams(window.location.search)
   if params.has "q"
+    FC.brandProfileNavigation.init()
     FC.loadBrand params.get("q"), params.get("year")
   else
     FC.loadLivingWage() if $("#living-wage-percentage")[0];

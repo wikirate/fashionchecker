@@ -48,6 +48,7 @@ $border-radius: 0;
 @import "bootstrap/spinners";
 @import "bootstrap/utilities";
 @import "bootstrap/print";
+
 body {
   font-family: "karmilla", sans-serif;
   font-size: 1rem;
@@ -129,6 +130,101 @@ h6 {
 
 .brand-profile-content{
   max-width: 800px;
+}
+
+.loading-placeholder {
+  align-items: center;
+  background: rgba($navy, 0.12);
+  border: 1px dashed currentColor;
+  display: flex;
+  gap: 0.75rem;
+  justify-content: center;
+  min-height: 12rem;
+  padding: 2rem;
+}
+
+.loading-placeholder-label {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+#brandBox .loading-placeholder,
+#suppliers .loading-placeholder {
+  color: $white;
+}
+
+#supplierViz .loading-placeholder {
+  color: $navy;
+}
+
+#brand-overview,
+#supplier-map,
+#supplier-wages,
+#living-wage,
+#standards-commitments,
+#grievance-mechanism {
+  scroll-margin-top: 140px;
+}
+
+.brand-profile-page-nav {
+  position: sticky;
+  top: 76px;
+  z-index: 14;
+}
+
+.brand-profile-nav-scroll {
+  align-items: center;
+  display: flex;
+  gap: 0.5rem;
+  min-height: 3.5rem;
+}
+
+.brand-profile-nav-title {
+  color: $medium-grey;
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
+  margin-right: 0.75rem;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.brand-profile-page-nav-link,
+.brand-profile-local-nav-link {
+  border: 1px solid transparent;
+  color: $white;
+  font-weight: bold;
+  padding: 0.75rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  text-decoration: none;
+  white-space: nowrap;
+
+  &:hover,
+  &:focus {
+    border-color: rgba($white, 0.4);
+    color: $yellow;
+    text-decoration: none;
+  }
+}
+
+.brand-profile-page-nav-link {
+  &.is-active {
+    background: $yellow;
+    border-color: $yellow;
+    color: $navy;
+  }
+}
+
+.brand-profile-local-nav {
+  border-bottom: 1px solid rgba($white, 0.12);
+  border-top: 1px solid rgba($white, 0.12);
+  margin-top: 1.5rem;
+}
+
+.brand-profile-local-nav-link {
+  color: $medium-grey;
+  font-size: 0.85rem;
+  padding-right: 1rem;
 }
 
 .btn-primary,
@@ -836,6 +932,266 @@ main {
     img.smiley {
       height: 30px
     }
+  }
+}
+
+.extended-brand-profile {
+  border-top-color: rgba($white, 0.12);
+}
+
+.section-eyebrow {
+  color: $fuchsia;
+  letter-spacing: 0.12em;
+  margin-bottom: 0.75rem;
+}
+
+.extended-brand-profile-intro,
+.status-group-copy {
+  color: $medium-grey;
+  line-height: 1.5;
+  max-width: 42rem;
+}
+
+.status-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  color: $medium-grey;
+  font-size: 0.85rem;
+  margin: 1.5rem 0 2rem;
+}
+
+.status-legend-item,
+.status-item {
+  display: flex;
+  align-items: flex-start;
+}
+
+.status-indicator {
+  width: 18px;
+  height: 18px;
+  border: 2px solid rgba($white, 0.25);
+  border-radius: 50%;
+  display: inline-block;
+  flex: 0 0 18px;
+  position: relative;
+
+  &:after {
+    background: rgba($white, 0.35);
+    content: "";
+    height: 2px;
+    left: 3px;
+    position: absolute;
+    top: 6px;
+    width: 8px;
+  }
+}
+
+.status-indicator.is-active,
+.status-item.is-active .status-indicator {
+  background: $status-blue;
+  border-color: $status-blue;
+
+  &:after {
+    background: transparent;
+    border-bottom: 2px solid $navy;
+    border-right: 2px solid $navy;
+    content: "";
+    height: 9px;
+    left: 5px;
+    position: absolute;
+    top: 1px;
+    transform: rotate(45deg);
+    width: 5px;
+  }
+}
+
+.status-group {
+  margin-top: 2rem;
+}
+
+.status-group-title {
+  color: $white;
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+}
+
+.status-group-index {
+  color: $medium-grey;
+  display: inline-block;
+  margin-right: 0.5rem;
+}
+
+.status-group-count {
+  color: $medium-grey;
+  font-family: "ptf_nordic_stdnormal";
+  font-size: 1.1rem;
+  margin-bottom: 0.75rem;
+}
+
+.status-item {
+  background: rgba($white, 0.03);
+  border: 1px dashed rgba($white, 0.18);
+  border-radius: 12px;
+  gap: 0.75rem;
+  height: 100%;
+  padding: 0.9rem 1rem;
+}
+
+.status-item.is-active {
+  background: rgba($status-blue, 0.18);
+  border-color: rgba($status-blue, 0.85);
+}
+
+.status-item.is-not-reported {
+  background: repeating-linear-gradient(
+    135deg,
+    rgba($white, 0.03),
+    rgba($white, 0.03) 8px,
+    rgba($white, 0.01) 8px,
+    rgba($white, 0.01) 16px
+  );
+  border-color: rgba($white, 0.12);
+  border-left: 4px solid rgba($white, 0.25);
+
+  .status-item-title {
+    color: rgba($white, 0.75);
+  }
+
+  .status-item-description {
+    color: rgba($white, 0.5);
+  }
+}
+
+.status-item-title {
+  color: $white;
+  font-weight: bold;
+}
+
+.status-item-short {
+  color: $medium-grey;
+  font-weight: normal;
+  margin-left: 0.25rem;
+}
+
+.status-item-description {
+  color: $medium-grey;
+  font-size: 0.82rem;
+  line-height: 1.4;
+  margin: 0.35rem 0 0;
+}
+
+.grievance-mechanism {
+  border-top: 1px solid rgba($white, 0.12);
+  margin-top: 2.5rem;
+  padding-top: 1.5rem;
+}
+
+.grievance-card {
+  background: rgba($white, 0.05);
+  border: 1px solid rgba($white, 0.12);
+  border-radius: 12px;
+  height: 100%;
+  min-height: 9rem;
+  padding: 1rem;
+}
+
+.grievance-card-icon {
+  align-items: center;
+  background: $fuchsia;
+  border-radius: 10px;
+  color: $white;
+  display: inline-flex;
+  font-size: 1.1rem;
+  height: 2.2rem;
+  justify-content: center;
+  margin-bottom: 1rem;
+  width: 2.2rem;
+}
+
+.grievance-card-label {
+  color: $medium-grey;
+  margin-bottom: 0.4rem;
+}
+
+.grievance-card-value {
+  color: $white;
+  font-size: 1.1rem;
+  margin: 0;
+  overflow-wrap: anywhere;
+}
+
+.grievance-card-link {
+  color: $status-blue;
+  font-weight: bold;
+
+  &:hover,
+  &:focus {
+    color: $yellow;
+  }
+}
+
+.grievance-card-destination {
+  color: $medium-grey;
+  display: block;
+  font-size: 0.85rem;
+  margin-top: 0.35rem;
+  overflow: hidden;
+  text-decoration: underline;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+
+  &:hover,
+  &:focus {
+    color: $white;
+  }
+}
+
+.grievance-card.is-empty .grievance-card-value {
+  color: $medium-grey;
+}
+
+@include media-breakpoint-down(sm) {
+  .brand-profile-page-nav {
+    top: 76px;
+  }
+
+  .brand-profile-page-nav .container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .brand-profile-nav-scroll {
+    overflow-x: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    scrollbar-width: thin;
+  }
+
+  .brand-profile-page-nav .brand-profile-nav-scroll {
+    gap: 0.25rem;
+  }
+
+  .brand-profile-nav-title {
+    display: none;
+  }
+
+  .brand-profile-page-nav-link,
+  .brand-profile-local-nav-link {
+    flex: 0 0 auto;
+  }
+
+  .brand-profile-local-nav {
+    margin-left: -0.25rem;
+    margin-right: -0.25rem;
+  }
+
+  .brand-profile-panel {
+    padding: 1.25rem;
+  }
+
+  .status-group-count {
+    margin-top: 0.75rem;
   }
 }
 

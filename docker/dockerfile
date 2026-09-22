@@ -1,5 +1,7 @@
-# Step 1: Use a Ruby base image since Middleman is Ruby-based
-FROM ruby:3.1
+# Ruby 3.4 is the current maintained runtime for the static-site build.
+FROM ruby:3.4.10 AS builder
+
+ARG BUNDLER_VERSION=2.6.9
 
 # Step 2: Set a working directory in the container
 WORKDIR /fashionchecker
@@ -13,8 +15,8 @@ RUN apt-get update && apt-get install -y \
 # Step 4: Copy the Gemfile and Gemfile.lock into the container
 COPY Gemfile* ./
 
-# Step 5: Install bundler and then the project's dependencies
-RUN gem install bundler && bundle install
+# Step 5: Install the pinned Bundler version and production build dependencies.
+RUN gem install bundler -v "$BUNDLER_VERSION" && bundle _${BUNDLER_VERSION}_ config set without development && bundle _${BUNDLER_VERSION}_ install
 
 # Step 6: Copy the rest of your Middleman application into the container
 COPY . .
@@ -35,13 +37,13 @@ RUN curl -L -o /usr/local/bin/supercronic https://github.com/aptible/supercronic
     chmod +x /usr/local/bin/supercronic
 
 # Step 9: Copy the Middleman build output to the nginx html folder
-COPY --from=0 /fashionchecker/build /usr/share/nginx/html
+COPY --from=builder /fashionchecker/build /usr/share/nginx/html
 
 # Override nginx default config
 COPY nginx.conf /etc/nginx/conf.d/default.conf
 
 # Copy the update_cached_data.rb script
-COPY --from=0 /fashionchecker/script/update_cached_data.sh /fashionchecker/script/update_cached_data.sh
+COPY --from=builder /fashionchecker/script/update_cached_data.sh /fashionchecker/script/update_cached_data.sh
 
 # Make the update_cached_data.sh script executable
 RUN chmod +x /fashionchecker/script/update_cached_data.sh

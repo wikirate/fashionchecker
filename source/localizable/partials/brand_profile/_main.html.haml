@@ -12,13 +12,18 @@
     .pt-5
       = brand_profile_partial :search, locals: { redirect: false }
 
-
 .top-extender.red-bg
   &nbsp;
 
-.blue-bg.skew-left
+.blue-bg.skew-left#brand-overview
   .container-fluid.skew-right
     .container.py-5.result-container
+      %nav.brand-profile-page-nav.blue-bg._brand-profile-page-nav.mb-3{ "aria-label" => t("brand_profile_navigation.page_label") }
+        .brand-profile-nav-scroll
+          %span.brand-profile-nav-title.pl-3= t("brand_profile_navigation.page_label")
+          %a.brand-profile-page-nav-link.is-active{ href: "#brand-overview", "aria-current" => "page" }= t("brand_profile_navigation.overview")
+          %a.brand-profile-page-nav-link{ href: "#supplier-map" }= t("brand_profile_navigation.supplier_map")
+          %a.brand-profile-page-nav-link{ href: "#supplier-wages" }= t("brand_profile_navigation.supplier_wages")
       .section-header
         .display-3.yellow.text-right.pb-4
           = t('brand_overview')
@@ -26,7 +31,7 @@
       &nbsp;
 .bottom-extender.blue-bg
 
-.yellow-bg.skew-right
+.yellow-bg.skew-right#supplier-map
   .container-fluid.skew-left
     .container.py-5.result-container
       .section-header.pt-5
@@ -37,6 +42,8 @@
             = t('where_are_suppliers')
 
       #supplierViz.py-4
+        .loading
+          = brand_profile_partial "loading", locals: { message_key: "supplier_map" }
         .result
         .noResult
           .navy-bg.p-3.lead
@@ -54,7 +61,7 @@
 
 .bottom-extender.yellow-bg.extra-extender
 
-.fuchsia-bg.skew-left
+.fuchsia-bg.skew-left#supplier-wages
   .container-fluid.skew-right
     .container.py-5.result-container
       .row.align-items-end
@@ -74,6 +81,8 @@
             = legend_row "suitcase", "suppliers_table", "contract",
                           migrant: "#ed40d9", nonmigrant: "#fcc9fd"
       #suppliers
+        .loading
+          = brand_profile_partial "loading", locals: { message_key: "supplier_wages" }
         .result
         .noResult
           .navy-bg.p-3.lead

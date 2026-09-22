@@ -1,0 +1,14 @@
+services:
+  fashionchecker:
+    build:
+      context: .
+      dockerfile: docker/dockerfile
+      target: builder
+    command: bundle exec middleman server --bind-address 0.0.0.0 --port 4567
+    environment:
+      BUNDLE_WITHOUT: development
+    ports:
+      - "127.0.0.1:4567:4567"
+      - "127.0.0.1:35729:35729"
+    volumes:
+      - .:/fashionchecker
