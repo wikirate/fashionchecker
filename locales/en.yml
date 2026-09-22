@@ -785,45 +785,40 @@ en:
     supplier_map: "Supplier map"
     supplier_wages: "Supplier wages"
     living_wage: "Living wage"
-    standards_commitments: "Standards & commitments"
+    standards_commitments: "Participation & Regulation"
     grievance_mechanism: "Grievance mechanism"
 
   brand_profile_extended:
-    eyebrow: "Industry initiatives & regulation"
+    eyebrow: "Industry initiatives & due diligence"
     title: "Standards & Commitments"
-    intro: "Which industry initiatives the brand belongs to, the agreements it has signed, and the due-diligence laws it falls under."
+    intro: "Brand participation in industry initiatives and agreements, and its coverage under due diligence legislation."
     legend:
       active: "Member / signed / in scope"
       inactive: "Not reported / not in scope"
     groups:
       multistakeholder_initiatives:
         title: "Multi-stakeholder initiatives"
-        description: "Voluntary initiatives bringing brands, unions and NGOs together on labour standards."
+        description: "Voluntary industry initiative memberships."
       binding_agreements:
         title: "Binding agreements"
-        description: "Legally enforceable agreements between brands and worker representatives."
+        description: "Legally enforceable agreements signed by the brand."
       non_binding_agreements:
         title: "Non-binding agreements"
-        description: "Voluntary commitments without legal enforcement mechanisms."
+        description: "Voluntary agreements signed by the brand."
       mhrdd_coverage:
-        title: "MHRDD coverage"
+        title: "Regulatory coverage"
         description: "Mandatory human rights and environmental due diligence laws the brand falls under."
     items:
       fair_labor_association:
         label: "Fair Labor Association"
-        description: "Auditing body for labour standards."
       fair_wear_foundation:
         label: "Fair Wear Foundation"
-        description: "Verifies living-wage progress."
       ethical_trading_initiative:
         label: "Ethical Trading Initiative"
-        description: "UK alliance on workers' rights."
       better_cotton:
         label: "Better Cotton"
-        description: "Sustainable cotton standard."
       cascale:
         label: "Cascale"
-        description: "Formerly the Sustainable Apparel Coalition."
       international_accord:
         label: "International Accord"
         description: "Binding health and safety agreement."
@@ -838,26 +833,26 @@ en:
         description: "ACT's Cambodia agreement."
       industriall_gfa:
         label: "IndustriALL GFA"
-        description: "Global Framework Agreement with the global union."
+        description: "Global Framework Agreement."
       act:
         label: "ACT"
         description: "Action, Collaboration, Transformation on living wages."
       csrd:
         label: "CSRD"
-        description: "EU Sustainability Reporting Directive."
+        description: "EU Corporate Sustainability Reporting Directive."
       csddd:
         label: "CSDDD"
-        description: "EU Due Diligence Directive."
+        description: "EU Corporate Sustainability Due Diligence Directive (applies from 2029)."
       norwegian_transparency_act:
         label: "Norwegian Transparency Act"
-        description: "Apenhetsloven supply-chain due diligence."
+        description: "Norwegian due diligence law (Åpenhetsloven)."
       duty_of_vigilance:
         label: "Duty of Vigilance"
-        description: "French parent-company due-diligence law."
+        description: "French due diligence law (Loi de Vigilance)."
     grievance:
       eyebrow: "Worker voice"
       title: "Company Grievance Mechanism"
-      intro: "Third-party channel for workers and communities to report concerns about the brand's supply chain."
+      intro: "Public channels for workers and communities to report concerns about the brand's supply chain."
       open_online: "Open online reporting channel"
       items:
         email: "Email"

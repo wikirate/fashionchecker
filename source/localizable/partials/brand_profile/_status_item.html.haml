@@ -9,5 +9,6 @@
       - if short
         %span.status-item-short
           = "- #{short}"
-    %p.status-item-description
-      = t("brand_profile_extended.items.#{item_key}.description")
+    - description_key = "brand_profile_extended.items.#{item_key}.description"
+    - if I18n.exists?(description_key)
+      %p.status-item-description= t(description_key)
