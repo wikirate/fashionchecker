@@ -5,3 +5,4 @@ log
 Gemfile.lock
 tmp
 *.DS_Store
+.bundle
