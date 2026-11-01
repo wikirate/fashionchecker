@@ -8,7 +8,7 @@ wikirateApiAuth = null
 wikirateApiMode = "cached"
 # wikirateApiMode = "live" # anything but "cached" means live
 
-wikirateLinkTarget = "https://wikirate.org"
+wikirateLinkTarget = "https://legacy.wikirate.org"
 
 # pass basic authentication on Wikirate dev/staging servers
 if wikirateApiAuth
