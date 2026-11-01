@@ -1,6 +1,6 @@
 $.fn.select2.defaults.set("theme", "bootstrap4")
 
-wikirateApiHost = "https://wikirate.org"
+wikirateApiHost = "https://legacy.wikirate.org"
 wikirateApiAuth = null
 
 # wikirateApiHost = "https://dev.wikirate.org"
