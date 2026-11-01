@@ -33,7 +33,7 @@
   "data": [
       {
         "name": "rawData",
-        "url": "https://wikirate.org/Clean_Clothes_Campaign+Living_Wage_Gap_Actual_Wages_as_of_Living_Wage_Benchmark+Answers.json?filter[country]=Pakistan&limit=1000",
+        "url": "https://legacy.wikirate.org/Clean_Clothes_Campaign+Living_Wage_Gap_Actual_Wages_as_of_Living_Wage_Benchmark+Answers.json?filter[country]=Pakistan&limit=1000",
         "format": {"type": "json", "property":"items"},
         "transform": [
           {
